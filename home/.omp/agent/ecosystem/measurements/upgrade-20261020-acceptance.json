@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-20",
+  "status": "Global stages0-4 implemented with exercised acceptance; conditional stages5-6 not executed",
+  "scope": "OMP current user default-profile across fresh sessions/repositories; not other hosts/accounts/named profiles",
+  "versions": {
+    "omp": "18.12.2",
+    "node": "v24.19.0",
+    "orca": "1.4.224",
+    "impeccableSkill": "4.6.0",
+    "context7Mcp": "4.4.4",
+    "rea": "6.5.0",
+    "reaSkill": "42",
+    "semgrep": "1.181.0"
+  },
+  "skills": {
+    "total": 52,
+    "stableFamilyKeep": 44,
+    "hostDiscoveryKeep": 4,
+    "approvedLocalIntegrationsPreserved": 2,
+    "reaKeep": 1,
+    "impeccableUpgraded": 1,
+    "inventory": "upgrade-20261020-host.json",
+    "stableFilesStillMatch": 303,
+    "allowedMetadataChanges": [
+      "C:/Users/Indrimeilla-PC/.omp/agent/skills/webapp-testing/references/provenance.json"
+    ],
+    "impeccableVendorFilesStillMatch": 57
+  },
+  "verification": {
+    "freshDiscovery": [
+      {
+        "cwd": "discovery-project",
+        "exitCode": 0,
+        "skillCount": 52,
+        "reaMounted": true,
+        "context7Mounted": true,
+        "semgrepMounted": true,
+        "all52UrisResolved": true
+      },
+      {
+        "cwd": "discovery-neutral",
+        "exitCode": 0,
+        "skillCount": 52,
+        "reaMounted": true,
+        "context7Mounted": true,
+        "semgrepMounted": true,
+        "all52UrisResolved": true
+      }
+    ],
+    "routing": {
+      "sessions": 8,
+      "passed": 8,
+      "coreCount": 1,
+      "recordedBeforeStop": true,
+      "newModelSessionsAfterResume": 0,
+      "evidence": "upgrade-20261019-routing.json",
+      "scope": "Representative positive/negative/collision probes only, not universal semantic enforcement"
+    },
+    "context7": {
+      "handshakeVersion": "4.4.4",
+      "publicResolveQueryAndMissingLibrary": "passed",
+      "invalidInputRequestsRejectedBeforeUpstream": 2,
+      "cliTimeout1ms": "timeout-or-output-limit",
+      "teardown": "exit0",
+      "evidence": [
+        "upgrade-20261020-context7-mcp.json",
+        "upgrade-20261020-boundaries.json"
+      ]
+    },
+    "semgrep": {
+      "threeTools": true,
+      "ast": {
+        "function": "increment",
+        "returnAndPlus": true
+      },
+      "finding": {
+        "path": "unsafe.py",
+        "line": 2
+      },
+      "negativeSafeFile": true,
+      "bothInputsScanned": true,
+      "scanErrors": 0,
+      "teardown": "exit0",
+      "evidence": "upgrade-20261020-semgrep.json"
+    },
+    "rea": {
+      "inertZip": true,
+      "archiveAndManifestDigestsMatch": true,
+      "openInspectClose": true,
+      "relativePathRejected": true,
+      "targetExecuted": false,
+      "teardown": "exit0",
+      "evidence": "upgrade-20261020-rea.json"
+    },
+    "ponytail": {
+      "tests": 18,
+      "passed": 18
+    },
+    "offlineSafeguards": {
+      "runner": "Bun existing",
+      "checks": 36,
+      "passed": 36,
+      "dpapiSyntheticRoundTrip": true
+    },
+    "rollback": {
+      "impeccable": "4.6.0 -> shared4.5.2 ->4.6.0 actual discovery, restored in finally",
+      "context7": "Retained4.4.1 direct handshake only; active pin not changed",
+      "evidence": "upgrade-20261020-rollback.json"
+    }
+  },
+  "invariants": {
+    "mcpRegistrationBytesUnchanged": true,
+    "allThreeInstructionsFalse": true,
+    "mainRuntimePackageAndLockUnchanged": true,
+    "memoryBackendOff": true,
+    "autoUpdateOff": true,
+    "competitorExclusionsPreserved": true,
+    "onlyOneImpeccableOwner": true,
+    "noNewMcpServerAdapterOrDependencyForSmoke": true,
+    "noEngineHooksLiveEnabled": true,
+    "noOtherHostConfigurationChanged": true,
+    "noCloudSourceOrMemoryUpload": true
+  },
+  "failedAttempt": {
+    "command": "node runtime/offline-smoke.ts",
+    "error": "ERR_UNSUPPORTED_TYPESCRIPT_SYNTAX",
+    "resolvedBy": "Existing documented Bun runner; no source changes,36passed"
+  },
+  "decisions": {
+    "stage5": "CONDITIONAL: no app/stack/runner/design source selected; no speculative global Figma/Storybook/shadcn/axe",
+    "stage6": "BLOCKED: no selected target/scope/budget, Windows validator flags and OS sandbox/race-safe promotion contract still unmet; no full audit run",
+    "reaUpgrade": "KEEP6.5.0;6.7.0breaking saved-Evidence/caller migration deferred",
+    "semgrepWarning": "Preserved; upstreamSDKfix conflicts with scanner exact dependency pin"
+  },
+  "unknowns": [
+    "Original acquisition commit of pre-existing find-skills and webapp-testing not recoverable from matching content alone",
+    "Orca original source commit and standalone stub license not established; exact vendor release revisions/tree/digests and running CLI guide match recorded"
+  ],
+  "notClaimed": [
+    "Impeccable engine/detector/native hooks/live runtime",
+    "Actual app visual/a11y/WCAG acceptance",
+    "Full security audit or blanket workload certification",
+    "Zero egress or full dependency security certification",
+    "All-profile deployment",
+    "Subagent persona inheritance",
+    "Measured token/cost savings"
+  ],
+  "artifacts": [
+    "upgrade-20261020-host.json",
+    "upgrade-20261020-mcp.json",
+    "upgrade-20261019-skills.json",
+    "upgrade-20261019-impeccable.json",
+    "upgrade-20261019-routing.json",
+    "upgrade-20261020-discovery-project.json",
+    "upgrade-20261020-discovery-neutral.json",
+    "upgrade-20261020-context7-mcp.json",
+    "upgrade-20261020-semgrep.json",
+    "upgrade-20261020-rea.json",
+    "upgrade-20261020-boundaries.json",
+    "upgrade-20261020-rollback.json"
+  ],
+  "backup": "backups/upgrade-20261019",
+  "rollbackInstructions": "PANDUAN-PROYEK-OMP.md and IMPECCABLE-OMP.md"
+}

@@ -1,0 +1,248 @@
+{
+  "date": "2026-10-20",
+  "scope": "Global OMP default-profile; existing three registrations retained; no new server/adapter",
+  "context7": {
+    "decision": "UPGRADE",
+    "from": "4.4.1",
+    "to": "4.4.4",
+    "repository": "https://github.com/upstash/context7",
+    "tag": "@upstash/context7-mcp@4.4.4",
+    "sourceCommit": "c7f80ce5af1ff1403d167579b76784482cf7f3e2",
+    "license": "MIT",
+    "runtime": "runtime/context7/4.4.4",
+    "lock": "runtime/context7/4.4.4/package-lock.json",
+    "npmIntegrity": "sha512-T2DkjhweDnC2mRAclDiTrPG3KI1zYKhhjgY2SMKD9PVrbEaGD8x35VsIOqpwwDc2qiKBvfYCF/jqr+jQMu5PUA==",
+    "archiveSha256": "2ae37c3a2b41ff4d591a275ff1dc56883cb60bfc71e34c399c14ebd38837bb38",
+    "shippedFilesCompared": [
+      {
+        "path": "dist/index.js",
+        "sha256": "05aa837e6586447e02fcd97a13f992e4f625efa8498371610a82cea6d235eccc",
+        "bytes": 36459
+      },
+      {
+        "path": "dist/lib/api.js",
+        "sha256": "28546e960ad4b120ad71253487164162792868342ee9e325279796c93c624aef",
+        "bytes": 7913
+      },
+      {
+        "path": "dist/lib/auth/auth-prompt.js",
+        "sha256": "9d6ef90e4a7cb750b6502dba7eb1ba4bd7236379d724bbd164ef70982e696460",
+        "bytes": 4162
+      },
+      {
+        "path": "dist/lib/auth-lifecycle-telemetry.js",
+        "sha256": "ee7ee5c418ecfdf9fc1327d859c4eeff889f33b3ca3bbbb676b3e643964e8ff8",
+        "bytes": 1450
+      },
+      {
+        "path": "dist/lib/constants.js",
+        "sha256": "b89cc68c19ddd64255b369e52f09cb19a0ccb27498f7a38ecc6501831b6f3de2",
+        "bytes": 3588
+      },
+      {
+        "path": "dist/lib/encryption.js",
+        "sha256": "8e949eb881dbcecca19c1cf88fa18ca0d2d991823361f1471d5e9143ac4fcd10",
+        "bytes": 2823
+      },
+      {
+        "path": "dist/lib/jwt.js",
+        "sha256": "05dffc4cfb9059cf0bdff5435dd715e5261ad0ff95c0bd4386f70527ba6a7b5a",
+        "bytes": 8901
+      },
+      {
+        "path": "dist/lib/log-throttle.js",
+        "sha256": "0b13ffb116df5f16fcae1d1a09177ace4528272d366086996a728b4a239c5522",
+        "bytes": 958
+      },
+      {
+        "path": "dist/lib/mcp-body-error-handler.js",
+        "sha256": "c7f9fdea91bbab6c88789de35a34a962b3d4e8bd914f7719e64cbcc1bbbad7d0",
+        "bytes": 1276
+      },
+      {
+        "path": "dist/lib/mcp-http-auth.js",
+        "sha256": "671d9c2a0ae6b2260880d6bdf7eccab5d06363f271e2fc8759108a16f3021def",
+        "bytes": 7061
+      },
+      {
+        "path": "dist/lib/mcp-operation-scope.js",
+        "sha256": "2e760473829e37d412cdc14ad94474bee1f1b56a66e6e78c59d4afd340899cbc",
+        "bytes": 542
+      },
+      {
+        "path": "dist/lib/mcp-route.js",
+        "sha256": "7cd0ea2c309601c18a8fac5a2082bb3bafe7181d9db38e30b0dc7205feb3d487",
+        "bytes": 201
+      },
+      {
+        "path": "dist/lib/mcp-subscription-telemetry.js",
+        "sha256": "ca2e94ee248cec99cde0b77c00ec39d9dfbec9a3714fcfd93cf2ef972c284a51",
+        "bytes": 19329
+      },
+      {
+        "path": "dist/lib/mcp-telemetry.js",
+        "sha256": "5888da0da429e004754b2674fa422214f77ff6c76fed6d51004f1585c8715f6a",
+        "bytes": 23512
+      },
+      {
+        "path": "dist/lib/oauth-audience.js",
+        "sha256": "25430360fb4228e66f63c174d3151f52953015724cb62eaf0757b2bf81039e96",
+        "bytes": 5097
+      },
+      {
+        "path": "dist/lib/oauth-token-validation.js",
+        "sha256": "2e536598497f8ed277c7ab585393863a88f5013eb7a45ce16578db0aced5758d",
+        "bytes": 5806
+      },
+      {
+        "path": "dist/lib/process-shutdown.js",
+        "sha256": "59688a21a4b5b3ba548b01a381dc9ad622c80937079f390c74e84a663d84fb43",
+        "bytes": 2077
+      },
+      {
+        "path": "dist/lib/telemetry-config.js",
+        "sha256": "c1d4f2346fd3e7e911dbbe15c3de531f37dea0b570c3ec4a0f55a86856fa5e87",
+        "bytes": 535
+      },
+      {
+        "path": "dist/lib/telemetry-contracts.js",
+        "sha256": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "bytes": 11
+      },
+      {
+        "path": "dist/lib/telemetry-provider.js",
+        "sha256": "7e5b740b3b266fea10f0cfcb2379bbf8e8b5ba0a161fe9b17fb7b86cd9129df5",
+        "bytes": 3455
+      },
+      {
+        "path": "dist/lib/telemetry-runtime.js",
+        "sha256": "03a97fd314a162073682efce971387ff5a84c3eab51a982b4648eaeeb4def664",
+        "bytes": 2816
+      },
+      {
+        "path": "dist/lib/telemetry.js",
+        "sha256": "fbc872d99436144c503c8fb98ef7da1f82ff8422435bece39b637cc5051d94ce",
+        "bytes": 9704
+      },
+      {
+        "path": "dist/lib/tool-names.js",
+        "sha256": "57422b59138db769769f92b902c854d131d0a513b4fb0cb8b7fbf5c9fd229b82",
+        "bytes": 180
+      },
+      {
+        "path": "dist/lib/types.js",
+        "sha256": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "bytes": 11
+      },
+      {
+        "path": "dist/lib/utils.js",
+        "sha256": "edeb5a9e74a8e4c81e6072b4830c31d050c5bca2045aa6b84c140778d8c0dd77",
+        "bytes": 3942
+      },
+      {
+        "path": "dist/lib/vercelMarketplaceJwt.js",
+        "sha256": "a26a5e5e88de60ff3ac9b00c7726a4bfdb26417e89386f4968b7236998841063",
+        "bytes": 1925
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "85cfb556dc2b22b55d2565674fcdaac82f3f2f6b7a928d27003132721bb6736c",
+        "bytes": 1079
+      },
+      {
+        "path": "package.json",
+        "sha256": "3b07c651e858c9c164a7a55d497d143f4f69c17060bbb20f11980b7e341f0644",
+        "bytes": 2509
+      },
+      {
+        "path": "README.md",
+        "sha256": "1a17a51b181258319d42b282a5c2e706945ed3306311c085d38747f1b8dbb029",
+        "bytes": 56821
+      }
+    ],
+    "sourceFiles": [
+      {
+        "path": "packages/mcp/src/index.ts",
+        "gitBlob": "989e2c4d18c8307d303740304ae45f17be3aa228",
+        "sha256": "d22b1ad9320770919362674a8231256e481055fb45d686a4573a154e3553fe50"
+      },
+      {
+        "path": "packages/mcp/src/lib/constants.ts",
+        "gitBlob": "4662053ef38b8767ea74a2cd2019704e7a086aac",
+        "sha256": "4da4906aa70064e4579e20896b16d0b11716c7ac231f33a4704030790d47aa41"
+      },
+      {
+        "path": "packages/mcp/src/lib/telemetry-config.ts",
+        "gitBlob": "9e594d9a03dca2ed857dd1d035cabaf089a0919a",
+        "sha256": "8b2d680e67bb0adbd5b0a90b4e704387ba1efeeb1f036a0e42eb38be16cd39d0"
+      }
+    ],
+    "sourceRelation": "Release tag resolved independently; selected authenticated source and shipped behavior reviewed; installed29 files exactly match SRI-authenticated npm artifact, not a reproducible build claim",
+    "benefit": [
+      "4.4.3 marks upstream resolver failure isError:true so approved bridge sanitizes it as failure",
+      "MCP SDK server2.3.1/node2.1.1 and lazy schema conversion",
+      "4.4.4 rejects incompatible/invalid port arguments"
+    ],
+    "preserved": [
+      "Approved DPAPI launcher and outbound generic queries",
+      "Redaction,70s vendor deadline,strict tool boundary and no global key export",
+      "Two tools only,instructions:false,stdio only",
+      "SupermemorySDK5.0.2,ctx7CLI0.6.1,SkillsCLI1.7.2,TS5.9.3 unchanged"
+    ],
+    "network": "Public Context7 queries only; OTEL_SDK_DISABLED=true gates telemetry implementation and embedded Prometheus; no packet capture/zero-egress claim",
+    "advisories": {
+      "endpoint": "https://registry.npmjs.org/-/npm/v1/security/advisories/bulk",
+      "publicPackageNames": 100,
+      "result": {},
+      "scope": "Installed isolated dependency versions only; no proprietary source or credentials submitted; empty response is not security certification"
+    },
+    "rollback": "Restore runtime/context7.ts and context7-docs SKILL from backups/upgrade-20261019/mcp; retained4.4.1 handshake verified, candidate files kept for evidence"
+  },
+  "rea": {
+    "decision": "KEEP",
+    "version": "6.5.0",
+    "skill": "42",
+    "repository": "https://github.com/morluto/rea",
+    "tag": "rea-agents-6.5.0",
+    "sourceCommit": "3b79af28e80785afce9f5998d8f03289402a1847",
+    "license": "MIT",
+    "npmIntegrity": "sha512-C6BG7LyrAdR74mSjertM6PrxJkcNZ2bfQNOJornPo9erDEp2tyPRVYPnV5Yodr+1RqewCQla68WulXlVnveD+A==",
+    "bundledSkillMatches": true,
+    "skillSha256": "3456aab99d48c3294726065c9d5bd586bc165f2849fd5a3d5080381630564715",
+    "candidate": {
+      "version": "6.7.0",
+      "sourceCommit": "27dc42d10249f0410904a75c0997842eb03b931c",
+      "release": "https://github.com/morluto/rea/releases/tag/rea-agents-6.7.0"
+    },
+    "reason": "New6.6/6.7 saved Evidence identity and output contracts break compatibility and require regeneration, no automatic migration. New native/Kuna scope does not justify replacing healthy integration during global reconciliation.",
+    "limits": "No engine/decompiler/device installed, no target execution, no existing Evidence modified; upgrade needs selected evidence/caller migration acceptance"
+  },
+  "semgrep": {
+    "decision": "KEEP",
+    "version": "1.181.0",
+    "observedLatest": "1.181.0",
+    "license": "LGPL-2.1-or-later",
+    "pythonMcpPin": "1.29.0",
+    "warning": {
+      "preserved": true,
+      "fixPR": "https://github.com/modelcontextprotocol/python-sdk/pull/3352",
+      "fixCommit": "ae3338f6b396378217921aeadeca10a68e273c2d",
+      "reason": "Fix belongs to SDK1.29.1 but Semgrep exact mcp==1.29.0 prevents unreviewed override; no suppression/fork"
+    },
+    "advisory": {
+      "id": "GHSA-84m7-p3x7-pcfv",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/security/advisories/GHSA-84m7-p3x7-pcfv",
+      "affected": "Stateful Streamable HTTP1.8.0 through1.29.1",
+      "localApplicability": "Advisory explicitly excludes stdio/SSE; installed registration stdio only, not locally affected by that advisory",
+      "constraint": "Do not enable HTTP or override pinned SDK without new review"
+    },
+    "network": "Known startup public OAuth metadata GET to semgrep.dev; no cloud scan/auth/Pro/Guardian/metrics/tracing; no zero-egress claim"
+  },
+  "evidence": [
+    "upgrade-20261020-context7-mcp.json",
+    "upgrade-20261020-semgrep.json",
+    "upgrade-20261020-rea.json",
+    "upgrade-20261020-boundaries.json",
+    "upgrade-20261020-rollback.json"
+  ]
+}

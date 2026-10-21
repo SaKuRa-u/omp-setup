@@ -1,0 +1,675 @@
+{
+  "date": "2026-10-18",
+  "status": "installed_documentation_only_parent_verification_pending",
+  "hashSemantics": "Worker sha256 values hash UTF-8 text normalized to LF, not raw Windows CRLF bytes. Two manifests were subsequently adjusted by the integration owner. Final byte hashes and normalized comparison are in skills-integrity-20261018.json.",
+  "sources": [
+    {
+      "url": "https://github.com/vercel-labs/agent-skills",
+      "commit": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "checkout": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018",
+      "selected_source": "skills/react-best-practices",
+      "license": "MIT declared by SKILL.md; no standalone upstream LICENSE exists; local standard MIT text with explicit provenance supplied"
+    },
+    {
+      "url": "https://github.com/supabase/agent-skills",
+      "commit": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+      "checkout": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018",
+      "selected_source": "skills/supabase-postgres-best-practices",
+      "license": "MIT; upstream LICENSE retained verbatim, Copyright (c) 2026 Supabase"
+    }
+  ],
+  "installed": [
+    {
+      "name": "vercel-react-best-practices",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\vercel-react-best-practices",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "398ae8cdc8875bda6e6ba1f3e590953d5c378ba2cb0e3cf8aa7e1ea0d3567421"
+        },
+        {
+          "path": "rules/_sections.md",
+          "sha256": "02129a952d8723fd28b1ad33e71e4564a010866856a1672bd69bb1a4ad03f935"
+        },
+        {
+          "path": "rules/advanced-effect-event-deps.md",
+          "sha256": "2305b289b2e44d695c1174adac3faeb208fbca3dbef1695206e5c8eab9edaec9"
+        },
+        {
+          "path": "rules/advanced-event-handler-refs.md",
+          "sha256": "822f93f6d290a9ef8bd75ab6ae9774947d4f65df637476ef38589659d57732c3"
+        },
+        {
+          "path": "rules/advanced-init-once.md",
+          "sha256": "4a54dd6161f3bd1dd2f63e6f7cf6f8743137eeb4cad210140414a75ebc5676f1"
+        },
+        {
+          "path": "rules/advanced-use-latest.md",
+          "sha256": "299e5204704a0d4745af6d9ddfd43017943fa883ff2fc3918ee9befe7486e9bf"
+        },
+        {
+          "path": "rules/async-api-routes.md",
+          "sha256": "ad194d93e8fd27b30961be6dcf20c1cd0bcd8206a5e86f03d75fab8d2b006ec6"
+        },
+        {
+          "path": "rules/async-cheap-condition-before-await.md",
+          "sha256": "3b2b2230fbd8a5bc6f1b2970da50c76f9bb58722c0fa22c1187f630a79fd7da3"
+        },
+        {
+          "path": "rules/async-defer-await.md",
+          "sha256": "944963cab2fb6318cd5df2a17f6ff516bfb14e79f506ce92fa635f0995d21350"
+        },
+        {
+          "path": "rules/async-dependencies.md",
+          "sha256": "abde33825c631f6b01357b5d75e3d6a559dff961e9bb1f71f00338d2ce162817"
+        },
+        {
+          "path": "rules/async-parallel.md",
+          "sha256": "d5c14bbd6e4522ff4d79ccd7af696aa476b508d978fb343450eda10b4e3a771e"
+        },
+        {
+          "path": "rules/async-suspense-boundaries.md",
+          "sha256": "51be332c6f9d6272ee61608e6ab39133120a9cf25564d45e373e65062bdc7f07"
+        },
+        {
+          "path": "rules/bundle-analyzable-paths.md",
+          "sha256": "dff4be34fb3de096899a8926399dc9efd8c56b982a589bac5e0d9d43e7ac7e45"
+        },
+        {
+          "path": "rules/bundle-barrel-imports.md",
+          "sha256": "777ac815e8de0d2f03b436922bdf8f22cec830f671575a469584395fdd180b46"
+        },
+        {
+          "path": "rules/bundle-conditional.md",
+          "sha256": "c04466ef0a4436b355f75dd136d134e1b1fae6ef3dee4e5bc893d38dadc0d7b6"
+        },
+        {
+          "path": "rules/bundle-defer-third-party.md",
+          "sha256": "9a317b45b7e7c9cf95836bf619cb6b8b11ef67e619749a93e357196be2054263"
+        },
+        {
+          "path": "rules/bundle-dynamic-imports.md",
+          "sha256": "0354c10b5eb6ce06eaaa8009deb60d3ecbac7194d599c6ed78e3a3e6f27fe9ac"
+        },
+        {
+          "path": "rules/bundle-preload.md",
+          "sha256": "3d3c3cfb39127c482f10519d809b3d9aca5bba6456da4dcbcdfb394e36137880"
+        },
+        {
+          "path": "rules/client-event-listeners.md",
+          "sha256": "712fc9efd26e843d3fcce10563ec776e09d4b298103937e21ebab19f7d4beab4"
+        },
+        {
+          "path": "rules/client-localstorage-schema.md",
+          "sha256": "fda1a1459b8aa6bf40b7854727c46d58225ad4205f10eef2614571376c33bafc"
+        },
+        {
+          "path": "rules/client-passive-event-listeners.md",
+          "sha256": "3904e973fd221db9f7a6e8db90afef64be648dcfb114e954178a9a716553afe2"
+        },
+        {
+          "path": "rules/client-swr-dedup.md",
+          "sha256": "d910cb1616e1abfc997fcf9aac49ab851082c36e435e1ac0ac6885451141c4bb"
+        },
+        {
+          "path": "rules/js-batch-dom-css.md",
+          "sha256": "74893b77ff8640e85758faa7eabef73299b822abfe660dbfe18197a78cfe8750"
+        },
+        {
+          "path": "rules/js-cache-function-results.md",
+          "sha256": "34e4206a3067d7b591d69097f8a243863203c5d58403cd035e877dd2f6be3c03"
+        },
+        {
+          "path": "rules/js-cache-property-access.md",
+          "sha256": "325dc35aeb0b37429174eeab6b8fad931e8782926086b82654128a840a510958"
+        },
+        {
+          "path": "rules/js-cache-storage.md",
+          "sha256": "9eb4256750a30705a23d5f9fbea4a6277e4ccb925b1c0d08e7c55525ae41a85f"
+        },
+        {
+          "path": "rules/js-combine-iterations.md",
+          "sha256": "dab00726f4509ee4da8733c27b53ca37ce00333fe7b3a7704e4cf1521c575f49"
+        },
+        {
+          "path": "rules/js-early-exit.md",
+          "sha256": "a27624ec4c53dbd048357c22aa80aa3c05f77c7033b669da3b1e0c8cc261538f"
+        },
+        {
+          "path": "rules/js-flatmap-filter.md",
+          "sha256": "8850f449facb6151b9b1e1934ca1f80a63a337c620482ca38a376c65b82eec03"
+        },
+        {
+          "path": "rules/js-hoist-regexp.md",
+          "sha256": "03e77d0e4fad1c3c8af26c1e53fc9a95bdfc8349cbc8f85f5cc7bf2239f1c693"
+        },
+        {
+          "path": "rules/js-index-maps.md",
+          "sha256": "c4c43731a1db8e28cd968770b9ae54047169757d67830e697fe8efd7efc8c44f"
+        },
+        {
+          "path": "rules/js-length-check-first.md",
+          "sha256": "2dbc27333cf7aef86342a11c0cd20e07f187e6c73e39de63ba63f9cabf3d01bf"
+        },
+        {
+          "path": "rules/js-min-max-loop.md",
+          "sha256": "cc9209887594f473a9a24ac737d36dafe8a4ab7b6e55b64ec37c4189fb022ae6"
+        },
+        {
+          "path": "rules/js-request-idle-callback.md",
+          "sha256": "5151cd009938c412f605b8a86acf5a1b77206989cc8146c6371545f58645c6f9"
+        },
+        {
+          "path": "rules/js-set-map-lookups.md",
+          "sha256": "80c9518ebb2fd2f471e1e97ea3e6f309d7473b2d14dca1f2359fe69010679ed0"
+        },
+        {
+          "path": "rules/js-tosorted-immutable.md",
+          "sha256": "7a76013355602cad9f2c20cc386a241f18282d26831560e2d20b3777f5871e16"
+        },
+        {
+          "path": "rules/rendering-activity.md",
+          "sha256": "0019f84f68d8298e67d79b5b5c02d8cebcf8b046e1becc2e497d3f0899868fb7"
+        },
+        {
+          "path": "rules/rendering-animate-svg-wrapper.md",
+          "sha256": "cc442528f83b3e5888d6c7db22f7a34cfd7261fd352e4bc6744650ea4bc25e1a"
+        },
+        {
+          "path": "rules/rendering-conditional-render.md",
+          "sha256": "878487ceaee7c8d7bd661ed953e95e0439e32394b61d87b82edb19cccadfed49"
+        },
+        {
+          "path": "rules/rendering-content-visibility.md",
+          "sha256": "5c39755c02aa37b9cf39e0cdb9fd925aba33eba1e1ecabb272d394e04cf9d830"
+        },
+        {
+          "path": "rules/rendering-hoist-jsx.md",
+          "sha256": "c3082a1f931c42b91d1d5a0fe6ed214e852ffe582eb1d21994aaac9d57d1e2d1"
+        },
+        {
+          "path": "rules/rendering-hydration-no-flicker.md",
+          "sha256": "5884586328240de8deac1257b1dae13d08ddad20a5ad130888758ff96eb9e037"
+        },
+        {
+          "path": "rules/rendering-hydration-suppress-warning.md",
+          "sha256": "766e358af467765feca653ca5d8e85c63afbf5276f68c3b273a911d16eec5bb7"
+        },
+        {
+          "path": "rules/rendering-resource-hints.md",
+          "sha256": "abb2c1ab95881afa05edfea14ebb945187e395d2568e1bd3bfeba25226608956"
+        },
+        {
+          "path": "rules/rendering-script-defer-async.md",
+          "sha256": "14e4a268d3246caafbcbd2693603f9031a5693d4dc5b6554f3cc3c57299d4cd6"
+        },
+        {
+          "path": "rules/rendering-svg-precision.md",
+          "sha256": "2f213cab07a21f9dcdf196e010a526bb12fa55de6547bce26a024d6959f11983"
+        },
+        {
+          "path": "rules/rendering-usetransition-loading.md",
+          "sha256": "09203663b5314ba06779afb986eb48236bf749d94ccdbde32f5ed24b04880165"
+        },
+        {
+          "path": "rules/rerender-defer-reads.md",
+          "sha256": "7568a5e421a77e7e0265c13176e4d6e79db9775055979e66271ad593b0890729"
+        },
+        {
+          "path": "rules/rerender-dependencies.md",
+          "sha256": "87b532aa8df32bcd2bf02af5c12ba8ae250762d19073412a28394410b55d9acf"
+        },
+        {
+          "path": "rules/rerender-derived-state-no-effect.md",
+          "sha256": "6074f6e6a353c9db7e186b088736c33cd368acaa9884b19cf574d889a9bfdf6b"
+        },
+        {
+          "path": "rules/rerender-derived-state.md",
+          "sha256": "9a268fd11eced348c7cfb67ae1075cdde5d2d91758cc8f2523ab9ff2b4f5ff61"
+        },
+        {
+          "path": "rules/rerender-functional-setstate.md",
+          "sha256": "077bd55f33973c8f529dba2f1203095aaa29db4848f49c4e1b4600a96a43dbe5"
+        },
+        {
+          "path": "rules/rerender-lazy-state-init.md",
+          "sha256": "4ca11e40e993f1d43adb4d324bd85309bf365c5694aa5ce4000f1cb1a139c8d5"
+        },
+        {
+          "path": "rules/rerender-memo-with-default-value.md",
+          "sha256": "2321a7c180a2118b49b9b38f353578057f31cf39992af4d4e7f28314164e86d8"
+        },
+        {
+          "path": "rules/rerender-memo.md",
+          "sha256": "69543a8073e91a81ac626e0cb7c212efaec02cce49faec4c168adaa6db36420b"
+        },
+        {
+          "path": "rules/rerender-move-effect-to-event.md",
+          "sha256": "b04f591c70e7a895a03a676f17a75932c07aef79d712f1de0a2331a05189959a"
+        },
+        {
+          "path": "rules/rerender-no-inline-components.md",
+          "sha256": "aa89f857d1718cc5554da6c9f81585c25858e60078ddb3fdb53144397424b6a1"
+        },
+        {
+          "path": "rules/rerender-simple-expression-in-memo.md",
+          "sha256": "a7cbe68926642fa5f072aae02b08271df3fe2cba642ef767cc7dfbbe97429284"
+        },
+        {
+          "path": "rules/rerender-split-combined-hooks.md",
+          "sha256": "ba631c176d98b121c105ce09829d3c66f583ada0eb45f8591fc6ebac3fa70d65"
+        },
+        {
+          "path": "rules/rerender-transitions.md",
+          "sha256": "b3a8ff6715f56810f9d1d0fe30bab4de21fe32f97d1e1d13fc1f8c4552c0e847"
+        },
+        {
+          "path": "rules/rerender-use-deferred-value.md",
+          "sha256": "085db8f8b1a03bbf49f89cc3e375cc2e9e4b4d9fbfc0340294f4c6dfb09c3489"
+        },
+        {
+          "path": "rules/rerender-use-ref-transient-values.md",
+          "sha256": "6c09b6563d90cf3c934387c8635b6a3046b827e030da63243ce70a6687239a0c"
+        },
+        {
+          "path": "rules/server-after-nonblocking.md",
+          "sha256": "3f2262800ae299d63faae81b4009654d3ce37cce862635b75d2db5eed6074c86"
+        },
+        {
+          "path": "rules/server-auth-actions.md",
+          "sha256": "108675c8b7a61468b3d67cfa0b92b39cc1b50849e63c46e84ed2dd43739d0f44"
+        },
+        {
+          "path": "rules/server-cache-lru.md",
+          "sha256": "4e5843fe6a1e74fee2debc4bd820bf16a258f1155ce80e4ec3fccca01c53e50c"
+        },
+        {
+          "path": "rules/server-cache-react.md",
+          "sha256": "e6f1cff4e174d8e4d5bbf089f85349b057d80cf17698e0fc048faaf45fcec6fa"
+        },
+        {
+          "path": "rules/server-dedup-props.md",
+          "sha256": "d3201d5a5c3d86de4fedbdc09ea6795a58600dd3eccfa65f4f31939bb1f2841e"
+        },
+        {
+          "path": "rules/server-hoist-static-io.md",
+          "sha256": "4e2a229e28f737820e03dee2602ba66a9db155d7e0a2ec1bed0bac3b5b504ebc"
+        },
+        {
+          "path": "rules/server-no-shared-module-state.md",
+          "sha256": "4460d9b0913bba9c5f7ba5f4847d6c125caaeaef515e7e6cbd71f1678b0811b8"
+        },
+        {
+          "path": "rules/server-parallel-fetching.md",
+          "sha256": "4e96119baaaafc16a5cfcecd1fd7762d6cb3dbbc80e9c7ed638bff0db5c2069f"
+        },
+        {
+          "path": "rules/server-parallel-nested-fetching.md",
+          "sha256": "258cef065bbc21a4cc21a60c8dee8a0cdf90e46ed2e8aac00f71996f4502ed4c"
+        },
+        {
+          "path": "rules/server-serialization.md",
+          "sha256": "059bfb303d141cbead700ddb6c541e8ad1e1ecea6e6685154728ce9dbda39d27"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c1b0b1164c0dce2207614238f58dc84bef6eb5733abd55fa52a92b03349154ef"
+        }
+      ]
+    },
+    {
+      "name": "supabase-postgres-best-practices",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\supabase-postgres-best-practices",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "0aae7adaccb51415164df3245b783e3d7c6052b08d793dfcfcbbb72e3e0fbb92"
+        },
+        {
+          "path": "references/_sections.md",
+          "sha256": "04f6d81e3917cdf23b0197a0b70e1d5e2f8d0ae6092b16b8647e1aa72623745d"
+        },
+        {
+          "path": "references/advanced-full-text-search.md",
+          "sha256": "e02443ef3cbc83f94952afe7b9fabbf25541b5863bb422805bb23f2172144df1"
+        },
+        {
+          "path": "references/advanced-jsonb-indexing.md",
+          "sha256": "5f92f74c767b5e378d908695aedbe541fec08982d4f5c6148ec10450b3e38d5e"
+        },
+        {
+          "path": "references/conn-idle-timeout.md",
+          "sha256": "6d026a0396df4c6fa0bef56ea431e95988538c8066817938b8bc353b8c19a6a8"
+        },
+        {
+          "path": "references/conn-limits.md",
+          "sha256": "a4caf7e109012ebd474738b6eae5b5a1aee19e95bc4e7e930ba35fc2d0838e21"
+        },
+        {
+          "path": "references/conn-pooling.md",
+          "sha256": "894b6a38aa1794030ea7db8c7e062d0394b485e729cf708b9fbb9f06a7823a31"
+        },
+        {
+          "path": "references/conn-prepared-statements.md",
+          "sha256": "a3ed9f4fb55ebf03696ed49502b862c648dd642ccaa210d123f709c03c13f6c4"
+        },
+        {
+          "path": "references/data-batch-inserts.md",
+          "sha256": "93b42e5259b5d8b3d53283e9ae3e0eed414759cf718711110879f3f15dc9a2cf"
+        },
+        {
+          "path": "references/data-n-plus-one.md",
+          "sha256": "bb14e1b5f323ed9b918321d8d5e862c87340419ec427c54193428613e9d68975"
+        },
+        {
+          "path": "references/data-pagination.md",
+          "sha256": "f614faffb18e99ab02132a9c3f22b11cf4a5895a8272589bdf6dcca530356a81"
+        },
+        {
+          "path": "references/data-upsert.md",
+          "sha256": "25d25c2f2b5abf98165885ee10fd61252920580521e5231589d9db0377d9100e"
+        },
+        {
+          "path": "references/lock-advisory.md",
+          "sha256": "14c721c61ec41a4ec4eb864dd473b5e869dcf20554ee4075d60809bfd3b3b5f8"
+        },
+        {
+          "path": "references/lock-deadlock-prevention.md",
+          "sha256": "3bd3c88a5d77ba468439e8bdfcc3c62803f8db21fe171205aa371af918d01b40"
+        },
+        {
+          "path": "references/lock-short-transactions.md",
+          "sha256": "e9c24d0becd13bfe41ec50a7d224526819865e030d2955c6191bf31ed3833f77"
+        },
+        {
+          "path": "references/lock-skip-locked.md",
+          "sha256": "be9aaa8fcd5a5b7b3ca376a31c85380a40b59e8dc0d5d0a83cdd6cdda6421638"
+        },
+        {
+          "path": "references/monitor-explain-analyze.md",
+          "sha256": "e4ed81fc452ee344aeb1bf3a56e9f9fbbeff62aa897c0e8de3c05d417dca545c"
+        },
+        {
+          "path": "references/monitor-pg-stat-statements.md",
+          "sha256": "45d6d0b3cda85df6d241ac84759059b58e2e7722885db8f8b0ae67d81626b29c"
+        },
+        {
+          "path": "references/monitor-vacuum-analyze.md",
+          "sha256": "b72fbc67fac5ee95bef64d7d736d1c135372b24fb5df677a5efab06d513a0e60"
+        },
+        {
+          "path": "references/query-composite-indexes.md",
+          "sha256": "a64c5c5dc063430fabd07749f93ea519141600cbad6f68a3e4776978896e6d7c"
+        },
+        {
+          "path": "references/query-covering-indexes.md",
+          "sha256": "6b1aa338b642694703a0ab8e04727be28beee20d94f6b0e1855225e92bdd933a"
+        },
+        {
+          "path": "references/query-index-types.md",
+          "sha256": "0db5a0e3096927caa9662e485c0eb5d04c84dcb863baf114d895a71533fba7ef"
+        },
+        {
+          "path": "references/query-missing-indexes.md",
+          "sha256": "9e4c18aeae48ee747f7aa47d0e892e9425051bfe3de8c0eff5b858e39c98d1d4"
+        },
+        {
+          "path": "references/query-partial-indexes.md",
+          "sha256": "98a90da21e1bb1f24f787cd0401aeef937d737ba1e57c0040ac8aa514fb15860"
+        },
+        {
+          "path": "references/schema-constraints.md",
+          "sha256": "e22908b1e5dcb3ac91b7f5b9d4c8400771a4cd8c3c605ebc52e8d93c4c0039bc"
+        },
+        {
+          "path": "references/schema-data-types.md",
+          "sha256": "d8280b68f03156838660ac26a20e67ae76b0993b364997c3708e4bff1858f182"
+        },
+        {
+          "path": "references/schema-foreign-key-indexes.md",
+          "sha256": "dbe386f3a4c8895f9aae793e36f5b08454fa4eafc180abcdcf5b308d441cf0e0"
+        },
+        {
+          "path": "references/schema-lowercase-identifiers.md",
+          "sha256": "f36b26fac2de44767ee2021fa541633afe596323769c182b83cca4305e89feb0"
+        },
+        {
+          "path": "references/schema-partitioning.md",
+          "sha256": "72f94d828bf85e403cdbe6a7e29e171f35ab7ab7904b0f2bf2adc87368292042"
+        },
+        {
+          "path": "references/schema-primary-keys.md",
+          "sha256": "7ed2e39b7692d5344734ba4928cd7e7f9146620f7b3bfb0b6def8684764588f1"
+        },
+        {
+          "path": "references/security-privileges.md",
+          "sha256": "5edb3168b7e3543b1ad813ef9c417f8e75a3b6133721e8ab42c29e9853f88577"
+        },
+        {
+          "path": "references/security-rls-basics.md",
+          "sha256": "fa2f59b102a199f943c95a708534cf7fa4834fe881d7e5273b695c5b28bfb830"
+        },
+        {
+          "path": "references/security-rls-performance.md",
+          "sha256": "8d2c63cd650d6e6015b25e42cd6a8be49c7a3ad61cf2c6c805ae0c1c447635f6"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "b65e575eb4f04a13c187d64e958321298e2ab84d67aa8428819f362056ba292c"
+        }
+      ]
+    }
+  ],
+  "audit_scope": {
+    "method": "Read both full source SKILL manifests, all rule/reference markdown (including authoring-only files subsequently excluded), source metadata and available licensing; inspected every installed payload while preparing in-memory adaptations. No source scripts executed.",
+    "source_markdown_read": [
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\_contributing.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\_sections.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\_template.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\advanced-full-text-search.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\advanced-jsonb-indexing.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\conn-idle-timeout.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\conn-limits.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\conn-pooling.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\conn-prepared-statements.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\data-batch-inserts.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\data-n-plus-one.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\data-pagination.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\data-upsert.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\lock-advisory.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\lock-deadlock-prevention.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\lock-short-transactions.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\lock-skip-locked.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\monitor-explain-analyze.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\monitor-pg-stat-statements.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\monitor-vacuum-analyze.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\query-composite-indexes.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\query-covering-indexes.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\query-index-types.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\query-missing-indexes.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\query-partial-indexes.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\schema-constraints.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\schema-data-types.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\schema-foreign-key-indexes.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\schema-lowercase-identifiers.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\schema-partitioning.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\schema-primary-keys.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\security-privileges.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\security-rls-basics.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\references\\security-rls-performance.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\_sections.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\_template.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\advanced-effect-event-deps.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\advanced-event-handler-refs.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\advanced-init-once.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\advanced-use-latest.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\async-api-routes.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\async-cheap-condition-before-await.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\async-defer-await.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\async-dependencies.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\async-parallel.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\async-suspense-boundaries.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\bundle-analyzable-paths.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\bundle-barrel-imports.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\bundle-conditional.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\bundle-defer-third-party.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\bundle-dynamic-imports.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\bundle-preload.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\client-event-listeners.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\client-localstorage-schema.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\client-passive-event-listeners.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\client-swr-dedup.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\js-batch-dom-css.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\js-cache-function-results.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\js-cache-property-access.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\js-cache-storage.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\js-combine-iterations.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\js-early-exit.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\js-flatmap-filter.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\js-hoist-regexp.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\js-index-maps.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\js-length-check-first.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\js-min-max-loop.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\js-request-idle-callback.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\js-set-map-lookups.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\js-tosorted-immutable.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rendering-activity.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rendering-animate-svg-wrapper.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rendering-conditional-render.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rendering-content-visibility.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rendering-hoist-jsx.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rendering-hydration-no-flicker.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rendering-hydration-suppress-warning.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rendering-resource-hints.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rendering-script-defer-async.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rendering-svg-precision.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rendering-usetransition-loading.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rerender-defer-reads.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rerender-dependencies.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rerender-derived-state-no-effect.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rerender-derived-state.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rerender-functional-setstate.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rerender-lazy-state-init.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rerender-memo-with-default-value.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rerender-memo.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rerender-move-effect-to-event.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rerender-no-inline-components.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rerender-simple-expression-in-memo.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rerender-split-combined-hooks.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rerender-transitions.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rerender-use-deferred-value.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\rerender-use-ref-transient-values.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\server-after-nonblocking.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\server-auth-actions.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\server-cache-lru.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\server-cache-react.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\server-dedup-props.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\server-hoist-static-io.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\server-no-shared-module-state.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\server-parallel-fetching.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\server-parallel-nested-fetching.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\rules\\server-serialization.md"
+    ],
+    "additional_read": [
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\SKILL.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\skills\\supabase-postgres-best-practices\\SKILL.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\skills\\react-best-practices\\metadata.json",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\vercel-agent-skills-fullstack-20261018\\package.json",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\supabase-agent-skills-fullstack-20261018\\LICENSE"
+    ],
+    "react_rule_files": 71,
+    "postgres_reference_files": 32
+  },
+  "local_adaptations": {
+    "both": [
+      "OMP native tool ownership; no vendor evaluator or dispatch",
+      "Read-only-first exact-target approval for changes/network/database execution/deployment/billing",
+      "No credentials in tool arguments/logs; no automatic dependencies/toolchains/CLI/SDK",
+      "Windows/PowerShell path guidance and explicit Linux prerequisite",
+      "Upstream performance metrics labelled illustrative, unverified",
+      "Complete original substantive rule corpus with local safety notices and corrections; generated duplicate AGENTS intentionally not installed"
+    ],
+    "react": [
+      "Conditional React/Next triggers, actual project version inspection and native Context7",
+      "Impeccable remains UI design owner",
+      "Removed raw session-cookie logging; await post-response logging",
+      "Corrected SWR mutation default import; removed npx optimizer download/execution example",
+      "Corrected Effect Event stable-identity claim; async transition post-await update and cancellation caveat",
+      "Client-boundary ssr:false, hydration/CSP/authentication, tenant cache isolation, storage, flatMap semantics and idle-callback limitations"
+    ],
+    "postgres": [
+      "Conditional PostgreSQL scope; Supabase roles/auth helpers optional, plain Postgres supported",
+      "No automatic DB queries/migrations/RLS/extension/config/statistics changes; no EXPLAIN ANALYZE on writes or side-effecting functions",
+      "Removed inline password example; trusted transaction-local identity model caveat",
+      "Corrected node-postgres option and unsafe transaction-pool PREPARE workaround",
+      "Corrected deadlock lock-order claim, sequential scan complexity, index-prefix absolutism, VACUUM locking and connection-memory claim",
+      "Version-dependent UUIDv7, helper EXECUTE permissions/security-definer RLS behavior, constraint table scoping, pooling versions and COPY server/client paths",
+      "Additional caveats for index-only visibility, keyset complexity, substring versus full-text semantics, payment idempotency and advisory locks"
+    ],
+    "corrected_files": [
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\vercel-react-best-practices\\rules\\server-after-nonblocking.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\vercel-react-best-practices\\rules\\client-swr-dedup.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\vercel-react-best-practices\\rules\\rendering-svg-precision.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\vercel-react-best-practices\\rules\\advanced-event-handler-refs.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\vercel-react-best-practices\\rules\\rendering-usetransition-loading.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\supabase-postgres-best-practices\\references\\security-privileges.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\supabase-postgres-best-practices\\references\\security-rls-basics.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\supabase-postgres-best-practices\\references\\conn-prepared-statements.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\supabase-postgres-best-practices\\references\\lock-deadlock-prevention.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\supabase-postgres-best-practices\\references\\query-missing-indexes.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\supabase-postgres-best-practices\\references\\query-composite-indexes.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\supabase-postgres-best-practices\\references\\schema-partitioning.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\supabase-postgres-best-practices\\references\\schema-primary-keys.md",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\supabase-postgres-best-practices\\references\\conn-limits.md"
+    ],
+    "react_inline_caveats": {
+      "js-cache-function-results.md": "Cache only pure non-sensitive computations; bound any Map and define invalidation. The cookie-presence example is a UI hint, not authentication, and must never authorize an action.",
+      "js-cache-storage.md": "Browser-only examples: guard SSR and catch storage failures; invalidate cookie cache on relevant changes, and handle storage events with null keys (clear). Never cache credentials or auth decisions.",
+      "rerender-lazy-state-init.md": "Initializers must be pure and may run twice in development Strict Mode. Storage access requires browser guards, exception handling and deterministic SSR/hydration behavior. Initial props do not automatically resynchronize state.",
+      "rendering-hydration-no-flicker.md": "The raw inline-script example is not universally hydration-safe. Prefer the project/framework established theme solution, allowlist theme values, preserve a restrictive CSP with an approved nonce/hash, and never interpolate untrusted data. Do not use this for authentication state. DOM mutation can still mismatch React expectations.",
+      "bundle-defer-third-party.md": "Next.js App Router: ssr:false belongs in a Client Component wrapper, not a Server Component root layout. Keep layout server-side and render an approved existing client wrapper. Do not add analytics or a vendor service merely to optimize it.",
+      "bundle-dynamic-imports.md": "Next.js App Router: ssr:false must be declared inside a Client Component (use client), not a Server Component. Confirm router and version behavior.",
+      "bundle-conditional.md": "A typeof window guard prevents execution on the server, not necessarily bundling/tracing. Verify actual build behavior rather than assuming server bundle exclusion.",
+      "bundle-preload.md": "A typeof window guard alone does not guarantee exclusion from server bundles; prefetch can consume bandwidth and execute module initialization. Follow network approval and consent boundaries.",
+      "js-flatmap-filter.md": "flatMap still creates callback result arrays and may preserve empty strings that filter(Boolean) removed. It is not universally equivalent or allocation-free; use a single loop when avoiding allocation matters and preserve the original predicate semantics.",
+      "rendering-script-defer-async.md": "Next.js beforeInteractive placement is router/version-specific and typically restricted to root layout or document. Consult version-matched docs and preserve CSP/consent requirements.",
+      "js-request-idle-callback.md": "Idle callbacks are best-effort and may never run before page termination; timeout does not guarantee delivery within two seconds. Do not use for required audit/security work. The simple fallback does not provide IdleDeadline to chunking callbacks."
+    },
+    "postgres_inline_caveats": {
+      "security-rls-performance.md": "SECURITY DEFINER uses owner privileges; RLS bypass depends on ownership, FORCE RLS and BYPASSRLS. The shown revocation also removes EXECUTE from authenticated callers, so the policy may fail: deliberately grant only required helper execution to the intended policy role after reviewing the private schema and threat model. A helper correlated on team_id can execute per distinct row value; wrapping it in SELECT does not guarantee one execution per statement.",
+      "schema-constraints.md": "Scope every pg_constraint existence check by both conname AND conrelid (schema-qualified table). Catalog checks do not make concurrent DDL race-free or verify an existing constraint has the required definition; serialize migrations and compare definitions. Review locking and validation cost.",
+      "schema-primary-keys.md": "Do not install pg_uuidv7 automatically. PostgreSQL 18+ has native uuidv7(); older installations need an explicitly approved already available generator or an existing application strategy. UUIDv4 remains appropriate where its trade-offs are acceptable. Text time-prefixed UUIDs are not standard UUIDv7/ULID and increase storage; none guarantee zero fragmentation.",
+      "monitor-explain-analyze.md": "Start with supplied plans or plain EXPLAIN. ANALYZE executes the statement; never analyze writes, writable CTEs or side-effecting functions. A sequential scan is not automatically wrong; inspect selectivity, table size, statistics, buffers and total workload before changing indexes or memory.",
+      "monitor-pg-stat-statements.md": "Check extension availability and PostgreSQL configuration offline first. Creating this extension may require shared_preload_libraries and a restart. Statistics resets mutate shared diagnostic state and require separate exact-target approval. Query text may contain sensitive values; redact output.",
+      "conn-prepared-statements.md": "Ports are deployment-specific, not Postgres defaults. Newer PgBouncer versions can track protocol prepared statements when configured; SQL PREPARE remains distinct. Verify actual driver and pooler versions and settings instead of blanket disabling features.",
+      "conn-pooling.md": "The CPU/spindle formula and memory figures are starting illustrations, not capacity guarantees. Modern pooler support for prepared statements varies by version and configuration; choose pooling mode from actual session feature requirements.",
+      "data-batch-inserts.md": "COPY FROM a path reads on the database SERVER, not the Windows client. For an approved local client file use an existing driver streaming facility or explicitly approved psql client-side copy; validate actual quoted Windows paths, permissions, encoding and target. Do not treat /path/to/data.csv as a local path.",
+      "query-covering-indexes.md": "Index-only scans still require heap visibility checks unless visibility-map state permits skipping them. INCLUDE increases index size/write costs; it does not guarantee no heap fetches.",
+      "data-pagination.md": "Keyset pagination avoids scanning a growing offset; cost is generally index lookup plus page retrieval, not literal O(1). Require stable unique ordering, matching index and defined null/tie handling.",
+      "advanced-full-text-search.md": "Leading-wildcard LIKE can use an appropriate approved pg_trgm index; full-text token search changes semantics and is not a drop-in substring replacement. Choose language/configuration explicitly and parse untrusted search input safely (for example version-supported websearch_to_tsquery).",
+      "lock-short-transactions.md": "Payment/API calls outside a transaction need established idempotency and reconciliation; a successful external charge and failed local update are not atomic. SET LOCAL lasts for the current transaction, not an entire session.",
+      "lock-advisory.md": "Prefer transaction-scoped locks under transaction pooling. Session locks require reliable same-session release in finally/error paths; a try-lock success must be unlocked. hashtext can collide. The application-control-flow block is pseudocode, not executable SQL."
+    }
+  },
+  "exclusions": [
+    "Other repository skills, deployment guidance and CLIs",
+    "Executable source scripts, npm/pnpm dependencies, installers, hooks, evaluator runs",
+    "React duplicate compiled AGENTS.md, README.md, metadata.json; substantive rules retained",
+    "Both _template.md files and PostgreSQL _contributing.md authoring payload",
+    "PostgreSQL CHANGELOG.md (upstream development history, not runtime guidance)",
+    "Global AGENTS.md, ledger.json, OpenCode and shared .agents skill configuration untouched"
+  ],
+  "tool_requirements": [
+    "OMP native file/search/edit tools",
+    "Native Context7 skill and mounted docs tools when version-dependent guidance is needed; availability not guaranteed by this install",
+    "Existing project JavaScript runtime/dependencies only if implementation later approved",
+    "PostgreSQL client/server access only if later explicitly approved; no tools installed by these skills"
+  ],
+  "untested_limits": [
+    "No builds, lint, tests, formatters, vendor evaluators, application execution or DB queries run",
+    "OMP discovery/reload, file/link/hash verification delegated to parent",
+    "No claim the user uses React, Next.js or Supabase by default",
+    "No cloud operations/deployment/billing or credential handling performed",
+    "External documentation links not exhaustively fetched; upstream claims remain illustrative"
+  ]
+}

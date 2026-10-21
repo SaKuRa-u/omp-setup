@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "case": "empty",
+      "exitCode": 1,
+      "projectState": "empty",
+      "documentsStatus": "missing",
+      "status": "missing"
+    },
+    {
+      "case": "existing",
+      "exitCode": 1,
+      "projectState": "existing",
+      "documentsStatus": "missing",
+      "status": "missing"
+    },
+    {
+      "case": "partial",
+      "exitCode": 1,
+      "projectState": "empty",
+      "documentsStatus": "partial",
+      "status": "partial"
+    },
+    {
+      "case": "ready",
+      "exitCode": 0,
+      "projectState": "existing",
+      "documentsStatus": "present",
+      "status": "ready"
+    },
+    {
+      "case": "source-drift",
+      "exitCode": 1,
+      "status": "partial"
+    },
+    {
+      "case": "documents-without-approval",
+      "exitCode": 1,
+      "status": "partial"
+    }
+  ],
+  "readOnly": true,
+  "visualVerification": "not-performed"
+}

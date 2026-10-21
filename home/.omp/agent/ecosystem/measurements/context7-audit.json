@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-15",
+  "source": "current live acceptance; both routes authenticated via DPAPI",
+  "tokenizer": "OMP toks O200kBase; raw strings, no chat framing",
+  "routes": [
+    {
+      "route": "cli",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "actual-command-discovery",
+          "ok": true,
+          "durationMs": 692,
+          "responseBytes": 1512,
+          "tokens": 399,
+          "selected": null,
+          "descriptorTokens": null
+        },
+        {
+          "name": "resolve-node",
+          "ok": true,
+          "durationMs": 3303,
+          "responseBytes": 2561,
+          "tokens": 626,
+          "selected": {
+            "id": "/websites/nodejs_latest-v24_x_api",
+            "title": "Node.js",
+            "version": "24.x",
+            "versionNote": "Returned official website ID explicitly targets the Node.js v24 documentation."
+          },
+          "descriptorTokens": null
+        },
+        {
+          "name": "query-node",
+          "ok": true,
+          "durationMs": 4152,
+          "responseBytes": 9316,
+          "tokens": 2314,
+          "selected": null,
+          "descriptorTokens": null
+        },
+        {
+          "name": "nonexistent-library",
+          "ok": true,
+          "durationMs": 3127,
+          "responseBytes": 2569,
+          "tokens": 76,
+          "selected": null,
+          "descriptorTokens": null
+        }
+      ]
+    },
+    {
+      "route": "mcp",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "initialize",
+          "ok": true,
+          "durationMs": 3069,
+          "responseBytes": 633,
+          "tokens": 131,
+          "selected": null,
+          "descriptorTokens": null
+        },
+        {
+          "name": "tools/list",
+          "ok": true,
+          "durationMs": 10,
+          "responseBytes": 5266,
+          "tokens": 2374,
+          "selected": null,
+          "descriptorTokens": 1131
+        },
+        {
+          "name": "resolve-node",
+          "ok": true,
+          "durationMs": 2412,
+          "responseBytes": 1895,
+          "tokens": 458,
+          "selected": null,
+          "descriptorTokens": null
+        },
+        {
+          "name": "query-node",
+          "ok": true,
+          "durationMs": 3652,
+          "responseBytes": 10267,
+          "tokens": 2823,
+          "selected": {
+            "id": "/websites/nodejs_latest-v24_x_api",
+            "title": "Node.js",
+            "version": "24.x",
+            "versionNote": "Returned official website ID explicitly targets the Node.js v24 documentation."
+          },
+          "descriptorTokens": null
+        },
+        {
+          "name": "nonexistent-library",
+          "ok": true,
+          "durationMs": 2321,
+          "responseBytes": 382,
+          "tokens": 29,
+          "selected": null,
+          "descriptorTokens": null
+        },
+        {
+          "name": "transport-metering",
+          "ok": true,
+          "durationMs": 0,
+          "responseBytes": 0,
+          "tokens": 25,
+          "selected": null,
+          "descriptorTokens": null
+        }
+      ]
+    }
+  ],
+  "selection": "mcp",
+  "reason": "Two discoverable typed tools in OMP; bounded stdio DPAPI bridge; CLI remains installed as diagnostic only, not a parallel active route."
+}

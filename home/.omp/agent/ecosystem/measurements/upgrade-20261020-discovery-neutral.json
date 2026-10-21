@@ -1,0 +1,347 @@
+{
+  "command": [
+    "C:/Program Files/nodejs/node.exe",
+    "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/measure-foundation.mjs"
+  ],
+  "cwd": "C:/Users/Indrimeilla-PC",
+  "exitCode": 0,
+  "timedOut": false,
+  "stderr": "",
+  "result": {
+    "kind": "startup-and-resolution-not-behavior-test",
+    "omp": "omp/18.12.2",
+    "model": "gpt-6.1-sol",
+    "contextWindow": 500000,
+    "readyMs": 25830.2235,
+    "contextEstimate": {
+      "tokens": 22354,
+      "contextWindow": 500000,
+      "percent": 4.4708
+    },
+    "skillListingTokensO200k": 1178,
+    "skillWindowPercent": 0.2356,
+    "skills": [
+      "ansible-automation",
+      "aws-ami-builder",
+      "azure-image-builder",
+      "azure-verified-modules",
+      "caveman",
+      "code-review",
+      "codebase-design",
+      "computer-use",
+      "context7-docs",
+      "docker-container-builds",
+      "find-skills",
+      "grill-me",
+      "grilling",
+      "impeccable",
+      "kubernetes-manifest-operations",
+      "mcp-builder",
+      "new-terraform-provider",
+      "orca-cli",
+      "orchestration",
+      "ponytail",
+      "ponytail-audit",
+      "ponytail-debt",
+      "ponytail-gain",
+      "ponytail-help",
+      "ponytail-review",
+      "provider-actions",
+      "provider-configuration",
+      "provider-docs",
+      "provider-ephemeral-resources",
+      "provider-framework-migration",
+      "provider-resources",
+      "provider-test-patterns",
+      "push-to-registry",
+      "receiving-code-review",
+      "refactor-module",
+      "reverse-engineer-anything",
+      "run-acceptance-tests",
+      "security-audit",
+      "skill-creator",
+      "supabase-postgres-best-practices",
+      "supermemory-v5",
+      "systematic-debugging",
+      "tdd",
+      "terraform-policy",
+      "terraform-search-import",
+      "terraform-stacks",
+      "terraform-style-guide",
+      "terraform-test",
+      "vercel-react-best-practices",
+      "verification-before-completion",
+      "webapp-testing",
+      "windows-builder"
+    ],
+    "reviewCommand": true,
+    "globalRoutingLoaded": true,
+    "reaMounted": true,
+    "context7Mounted": true,
+    "semgrepMounted": true,
+    "resolutions": [
+      {
+        "name": "caveman",
+        "status": "resolved through OMP read",
+        "bytes": 4748
+      },
+      {
+        "name": "grill-me",
+        "status": "resolved through OMP read",
+        "bytes": 235
+      },
+      {
+        "name": "grilling",
+        "status": "resolved through OMP read",
+        "bytes": 2150
+      },
+      {
+        "name": "tdd",
+        "status": "resolved through OMP read",
+        "bytes": 3733
+      },
+      {
+        "name": "codebase-design",
+        "status": "resolved through OMP read",
+        "bytes": 6638
+      },
+      {
+        "name": "code-review",
+        "status": "resolved through OMP read",
+        "bytes": 6833
+      },
+      {
+        "name": "systematic-debugging",
+        "status": "resolved through OMP read",
+        "bytes": 9613
+      },
+      {
+        "name": "verification-before-completion",
+        "status": "resolved through OMP read",
+        "bytes": 3739
+      },
+      {
+        "name": "receiving-code-review",
+        "status": "resolved through OMP read",
+        "bytes": 6287
+      },
+      {
+        "name": "skill-creator",
+        "status": "resolved through OMP read",
+        "bytes": 33729
+      },
+      {
+        "name": "mcp-builder",
+        "status": "resolved through OMP read",
+        "bytes": 9402
+      },
+      {
+        "name": "impeccable",
+        "status": "resolved through OMP read",
+        "bytes": 12432
+      },
+      {
+        "name": "context7-docs",
+        "status": "resolved through OMP read",
+        "bytes": 9348
+      },
+      {
+        "name": "supermemory-v5",
+        "status": "resolved through OMP read",
+        "bytes": 12635
+      },
+      {
+        "name": "aws-ami-builder",
+        "status": "resolved through OMP read",
+        "bytes": 3950
+      },
+      {
+        "name": "azure-image-builder",
+        "status": "resolved through OMP read",
+        "bytes": 4505
+      },
+      {
+        "name": "azure-verified-modules",
+        "status": "resolved through OMP read",
+        "bytes": 17000
+      },
+      {
+        "name": "new-terraform-provider",
+        "status": "resolved through OMP read",
+        "bytes": 1991
+      },
+      {
+        "name": "provider-actions",
+        "status": "resolved through OMP read",
+        "bytes": 17868
+      },
+      {
+        "name": "provider-configuration",
+        "status": "resolved through OMP read",
+        "bytes": 14480
+      },
+      {
+        "name": "provider-docs",
+        "status": "resolved through OMP read",
+        "bytes": 4170
+      },
+      {
+        "name": "provider-ephemeral-resources",
+        "status": "resolved through OMP read",
+        "bytes": 9652
+      },
+      {
+        "name": "provider-framework-migration",
+        "status": "resolved through OMP read",
+        "bytes": 9107
+      },
+      {
+        "name": "provider-resources",
+        "status": "resolved through OMP read",
+        "bytes": 18924
+      },
+      {
+        "name": "provider-test-patterns",
+        "status": "resolved through OMP read",
+        "bytes": 13493
+      },
+      {
+        "name": "refactor-module",
+        "status": "resolved through OMP read",
+        "bytes": 15345
+      },
+      {
+        "name": "run-acceptance-tests",
+        "status": "resolved through OMP read",
+        "bytes": 3206
+      },
+      {
+        "name": "terraform-policy",
+        "status": "resolved through OMP read",
+        "bytes": 4257
+      },
+      {
+        "name": "terraform-search-import",
+        "status": "resolved through OMP read",
+        "bytes": 10911
+      },
+      {
+        "name": "terraform-stacks",
+        "status": "resolved through OMP read",
+        "bytes": 17834
+      },
+      {
+        "name": "terraform-style-guide",
+        "status": "resolved through OMP read",
+        "bytes": 7363
+      },
+      {
+        "name": "terraform-test",
+        "status": "resolved through OMP read",
+        "bytes": 11894
+      },
+      {
+        "name": "push-to-registry",
+        "status": "resolved through OMP read",
+        "bytes": 5388
+      },
+      {
+        "name": "windows-builder",
+        "status": "resolved through OMP read",
+        "bytes": 5613
+      },
+      {
+        "name": "reverse-engineer-anything",
+        "status": "resolved through OMP read",
+        "bytes": 22601
+      },
+      {
+        "name": "docker-container-builds",
+        "status": "resolved through OMP read",
+        "bytes": 7469
+      },
+      {
+        "name": "kubernetes-manifest-operations",
+        "status": "resolved through OMP read",
+        "bytes": 8223
+      },
+      {
+        "name": "ansible-automation",
+        "status": "resolved through OMP read",
+        "bytes": 8409
+      },
+      {
+        "name": "vercel-react-best-practices",
+        "status": "resolved through OMP read",
+        "bytes": 15741
+      },
+      {
+        "name": "supabase-postgres-best-practices",
+        "status": "resolved through OMP read",
+        "bytes": 9197
+      },
+      {
+        "name": "webapp-testing",
+        "status": "resolved through OMP read",
+        "bytes": 7235
+      },
+      {
+        "name": "ponytail",
+        "status": "resolved through OMP read",
+        "bytes": 3666
+      },
+      {
+        "name": "ponytail-review",
+        "status": "resolved through OMP read",
+        "bytes": 5369
+      },
+      {
+        "name": "ponytail-audit",
+        "status": "resolved through OMP read",
+        "bytes": 5644
+      },
+      {
+        "name": "ponytail-debt",
+        "status": "resolved through OMP read",
+        "bytes": 1936
+      },
+      {
+        "name": "ponytail-gain",
+        "status": "resolved through OMP read",
+        "bytes": 2339
+      },
+      {
+        "name": "ponytail-help",
+        "status": "resolved through OMP read",
+        "bytes": 3387
+      },
+      {
+        "name": "security-audit",
+        "status": "resolved through OMP read",
+        "bytes": 22106
+      },
+      {
+        "name": "computer-use",
+        "status": "resolved through OMP read",
+        "bytes": 2286
+      },
+      {
+        "name": "find-skills",
+        "status": "resolved through OMP read",
+        "bytes": 5546
+      },
+      {
+        "name": "orca-cli",
+        "status": "resolved through OMP read",
+        "bytes": 2443
+      },
+      {
+        "name": "orchestration",
+        "status": "resolved through OMP read",
+        "bytes": 3747
+      }
+    ],
+    "stderr": "Still starting after 10s — phase: createAgentSession > discoverAndLoadMCPTools\n  logs: C:\\Users\\Indrimeilla-PC\\.omp\\logs\\omp.2026-10-20.1808.log · re-run with PI_DEBUG_STARTUP=1 for streaming phase markers\nStill starting after 20s — phase: createAgentSession > discoverAndLoadMCPTools\n  logs: C:\\Users\\Indrimeilla-PC\\.omp\\logs\\omp.2026-10-20.1808.log · re-run with PI_DEBUG_STARTUP=1 for streaming phase markers\n",
+    "promptInferenceRequested": false
+  }
+}

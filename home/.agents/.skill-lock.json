@@ -1,0 +1,343 @@
+{
+  "version": 3,
+  "skills": {
+    "computer-use": {
+      "source": "stablyai/orca",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/stablyai/orca.git",
+      "skillPath": "skills/computer-use/SKILL.md",
+      "skillFolderHash": "b59f27370a41225c22127e91da0c91cd2519f217",
+      "installedAt": "2026-10-14T16:11:42.240Z",
+      "updatedAt": "2026-10-14T16:11:42.240Z"
+    },
+    "orca-cli": {
+      "source": "stablyai/orca",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/stablyai/orca.git",
+      "skillPath": "skills/orca-cli/SKILL.md",
+      "skillFolderHash": "572f7952ac451a30a9c2451b472a639b125ee584",
+      "installedAt": "2026-10-14T16:11:42.244Z",
+      "updatedAt": "2026-10-16T02:16:53.332Z"
+    },
+    "orchestration": {
+      "source": "stablyai/orca",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/stablyai/orca.git",
+      "skillPath": "skills/orchestration/SKILL.md",
+      "skillFolderHash": "b0cd1d58b0c317cf7c3726fef7e6b1197c405246",
+      "installedAt": "2026-10-14T16:11:42.247Z",
+      "updatedAt": "2026-10-16T02:16:53.340Z"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "76a98a285cb0434f3d39e1a873823556330e398b",
+      "installedAt": "2026-10-14T16:11:47.269Z",
+      "updatedAt": "2026-10-14T16:11:47.269Z"
+    },
+    "receiving-code-review": {
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\superpowers",
+      "sourceType": "local",
+      "sourceUrl": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\superpowers",
+      "skillFolderHash": "59361179fc9225173e0c145ffd9bafbf9fdbf8b43ce3dc308497a0b4f83a6063",
+      "installedAt": "2026-10-15T02:41:15.960Z",
+      "updatedAt": "2026-10-15T02:41:15.960Z"
+    },
+    "systematic-debugging": {
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\superpowers",
+      "sourceType": "local",
+      "sourceUrl": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\superpowers",
+      "skillFolderHash": "276fb0aadb002ab930cc2a56de89e16995a2e3e70b33587652bf0a5fb123148d",
+      "installedAt": "2026-10-15T02:41:15.968Z",
+      "updatedAt": "2026-10-15T02:41:15.968Z"
+    },
+    "verification-before-completion": {
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\superpowers",
+      "sourceType": "local",
+      "sourceUrl": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\superpowers",
+      "skillFolderHash": "b529822bdac4b197b180fe12225cff86b930b65910435103c10622df7f041651",
+      "installedAt": "2026-10-15T02:41:15.971Z",
+      "updatedAt": "2026-10-15T02:41:15.971Z"
+    },
+    "caveman": {
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\caveman",
+      "sourceType": "local",
+      "sourceUrl": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\caveman",
+      "skillFolderHash": "71b600c88c8d1d36f18c4875db23b53c5d6cb9ba3195e19451d6b1bb67db07c4",
+      "installedAt": "2026-10-15T02:41:16.010Z",
+      "updatedAt": "2026-10-15T02:41:16.010Z"
+    },
+    "mcp-builder": {
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\anthropic",
+      "sourceType": "local",
+      "sourceUrl": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\anthropic",
+      "skillFolderHash": "6498a736a8dc5c645047c8a875b8ea7417e2ad97146f005200e50d20a9337ada",
+      "pluginName": "example-skills",
+      "installedAt": "2026-10-15T02:41:16.219Z",
+      "updatedAt": "2026-10-15T02:41:16.219Z"
+    },
+    "skill-creator": {
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\anthropic",
+      "sourceType": "local",
+      "sourceUrl": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\anthropic",
+      "skillFolderHash": "7e3c9cd74e9e2b4828527a857170e86310f2dab5ea8030a9043df2c7e6c88857",
+      "pluginName": "example-skills",
+      "installedAt": "2026-10-15T02:41:16.231Z",
+      "updatedAt": "2026-10-15T02:41:16.231Z"
+    },
+    "code-review": {
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\pocock",
+      "sourceType": "local",
+      "sourceUrl": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\pocock",
+      "skillFolderHash": "1846141c77eaada59e449d831720ac1fd3f99e5cb22c30ed42ea5e4d14bd3cda",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-10-15T02:41:16.240Z",
+      "updatedAt": "2026-10-15T02:41:16.240Z"
+    },
+    "codebase-design": {
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\pocock",
+      "sourceType": "local",
+      "sourceUrl": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\pocock",
+      "skillFolderHash": "fb1d8ab98ad151551eeade003e3ae55a46578a380fd9fc3ed4dbf9c2fbce0a9f",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-10-15T02:41:16.251Z",
+      "updatedAt": "2026-10-15T02:41:16.251Z"
+    },
+    "tdd": {
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\pocock",
+      "sourceType": "local",
+      "sourceUrl": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\pocock",
+      "skillFolderHash": "535d1a6f3bd5bded8971e7e4ea76538907cbff6b6d32c39cf97b669869dcd383",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-10-15T02:41:16.255Z",
+      "updatedAt": "2026-10-15T02:41:16.255Z"
+    },
+    "grill-me": {
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\pocock",
+      "sourceType": "local",
+      "sourceUrl": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\pocock",
+      "skillFolderHash": "5e0c683385eafd83f106ac6c9d67dfbbfe5aa4b3fe65aad114eb1055a99c818f",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-10-15T02:41:16.262Z",
+      "updatedAt": "2026-10-15T02:41:16.262Z"
+    },
+    "grilling": {
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\pocock",
+      "sourceType": "local",
+      "sourceUrl": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\pocock",
+      "skillFolderHash": "c3b3e67f18495984385413bc6be7e2acbf2139c6cf52ef42abdda7242a791822",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-10-15T02:41:16.268Z",
+      "updatedAt": "2026-10-15T02:41:16.268Z"
+    },
+    "impeccable": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+      "skillPath": ".agents/skills/impeccable/SKILL.md",
+      "skillFolderHash": "51aacfac75e507cd94690cd3c03347945f1ce7bd",
+      "installedAt": "2026-10-15T09:05:47.901Z",
+      "updatedAt": "2026-10-15T09:05:47.901Z"
+    },
+    "azure-verified-modules": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "plugins/terraform/skills/azure-verified-modules/SKILL.md",
+      "skillFolderHash": "1283009898a0afea389025c3c0aef261cb261f72",
+      "installedAt": "2026-10-15T09:46:42.872Z",
+      "updatedAt": "2026-10-15T09:46:42.872Z"
+    },
+    "new-terraform-provider": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "plugins/terraform/skills/new-terraform-provider/SKILL.md",
+      "skillFolderHash": "45e24623b72876af91894d4a16a5d8e694fc2e0f",
+      "installedAt": "2026-10-15T09:46:42.880Z",
+      "updatedAt": "2026-10-15T09:46:42.880Z"
+    },
+    "provider-actions": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "plugins/terraform/skills/provider-actions/SKILL.md",
+      "skillFolderHash": "fd435f5233d095256a024ee975638dd4370be8db",
+      "installedAt": "2026-10-15T09:46:42.886Z",
+      "updatedAt": "2026-10-15T09:46:42.886Z"
+    },
+    "provider-configuration": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "plugins/terraform/skills/provider-configuration/SKILL.md",
+      "skillFolderHash": "5ff0a45f3ce46ee09c06bdfe33b07a6c49d30fb9",
+      "installedAt": "2026-10-15T09:46:42.893Z",
+      "updatedAt": "2026-10-15T09:46:42.893Z"
+    },
+    "provider-docs": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "plugins/terraform/skills/provider-docs/SKILL.md",
+      "skillFolderHash": "e09f8bbedecd216fdd55b479dffdfab4c7147ac2",
+      "installedAt": "2026-10-15T09:46:42.899Z",
+      "updatedAt": "2026-10-15T09:46:42.899Z"
+    },
+    "provider-ephemeral-resources": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "plugins/terraform/skills/provider-ephemeral-resources/SKILL.md",
+      "skillFolderHash": "746ca7317a77a319e16a705c1c810d7cc4c27c4c",
+      "installedAt": "2026-10-15T09:46:42.907Z",
+      "updatedAt": "2026-10-15T09:46:42.907Z"
+    },
+    "provider-framework-migration": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "plugins/terraform/skills/provider-framework-migration/SKILL.md",
+      "skillFolderHash": "abb9741c82bfb18794da29de4a689a41000ae8a9",
+      "installedAt": "2026-10-15T09:46:42.915Z",
+      "updatedAt": "2026-10-15T09:46:42.915Z"
+    },
+    "provider-resources": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "plugins/terraform/skills/provider-resources/SKILL.md",
+      "skillFolderHash": "e4ee63beb9f4719a9d141001a6db9a5030689747",
+      "installedAt": "2026-10-15T09:46:42.925Z",
+      "updatedAt": "2026-10-15T09:46:42.925Z"
+    },
+    "provider-test-patterns": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "plugins/terraform/skills/provider-test-patterns/SKILL.md",
+      "skillFolderHash": "0d58044e2647b6c3fc114955391cdbc767396e96",
+      "installedAt": "2026-10-15T09:46:42.932Z",
+      "updatedAt": "2026-10-15T09:46:42.932Z"
+    },
+    "refactor-module": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "plugins/terraform/skills/refactor-module/SKILL.md",
+      "skillFolderHash": "04bc36190e69c8906eac3d81f2b3e55b398141b0",
+      "installedAt": "2026-10-15T09:46:42.943Z",
+      "updatedAt": "2026-10-15T09:46:42.943Z"
+    },
+    "run-acceptance-tests": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "plugins/terraform/skills/run-acceptance-tests/SKILL.md",
+      "skillFolderHash": "f39160bb93e9691efaed6966ef2fd632ca5b01c4",
+      "installedAt": "2026-10-15T09:46:42.953Z",
+      "updatedAt": "2026-10-15T09:46:42.953Z"
+    },
+    "terraform-policy": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "plugins/terraform/skills/terraform-policy/SKILL.md",
+      "skillFolderHash": "5aa35f62b12b370403082dd9354cc59c87a45d82",
+      "installedAt": "2026-10-15T09:46:42.961Z",
+      "updatedAt": "2026-10-15T09:46:42.961Z"
+    },
+    "terraform-search-import": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "plugins/terraform/skills/terraform-search-import/SKILL.md",
+      "skillFolderHash": "71bbf754f5dccc0fc805c1b75719e56c1f1edf08",
+      "installedAt": "2026-10-15T09:46:42.965Z",
+      "updatedAt": "2026-10-15T09:46:42.965Z"
+    },
+    "terraform-stacks": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "plugins/terraform/skills/terraform-stacks/SKILL.md",
+      "skillFolderHash": "b5d93c2d7a43fb52eac7917dac806d34eaf3a5a5",
+      "installedAt": "2026-10-15T09:46:42.972Z",
+      "updatedAt": "2026-10-15T09:46:42.972Z"
+    },
+    "terraform-style-guide": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "plugins/terraform/skills/terraform-style-guide/SKILL.md",
+      "skillFolderHash": "e065e597ff55b717f0d74320448057b0cd6659d4",
+      "installedAt": "2026-10-15T09:46:42.976Z",
+      "updatedAt": "2026-10-15T09:46:42.976Z"
+    },
+    "terraform-test": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "plugins/terraform/skills/terraform-test/SKILL.md",
+      "skillFolderHash": "2549482b2946b6953ccc188820423bdd257314ab",
+      "installedAt": "2026-10-15T09:46:42.981Z",
+      "updatedAt": "2026-10-15T09:46:42.981Z"
+    },
+    "aws-ami-builder": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "plugins/packer/skills/aws-ami-builder/SKILL.md",
+      "skillFolderHash": "aebc9718c7a48e29fb297c4c886671f00a3a3557",
+      "installedAt": "2026-10-15T09:46:42.987Z",
+      "updatedAt": "2026-10-15T09:46:42.987Z"
+    },
+    "azure-image-builder": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "plugins/packer/skills/azure-image-builder/SKILL.md",
+      "skillFolderHash": "adca0adbc0b1c62044c7a45a42aeba1792f54597",
+      "installedAt": "2026-10-15T09:46:42.993Z",
+      "updatedAt": "2026-10-15T09:46:42.993Z"
+    },
+    "push-to-registry": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "plugins/packer/skills/push-to-registry/SKILL.md",
+      "skillFolderHash": "52cd981be1c76cfcdb060e23ffc0a4b767e8d220",
+      "installedAt": "2026-10-15T09:46:42.998Z",
+      "updatedAt": "2026-10-15T09:46:42.998Z"
+    },
+    "windows-builder": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "plugins/packer/skills/windows-builder/SKILL.md",
+      "skillFolderHash": "597b5c33709f5fec2ec388b748a4a8fae2314539",
+      "installedAt": "2026-10-15T09:46:43.005Z",
+      "updatedAt": "2026-10-15T09:46:43.005Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "cline",
+    "codex",
+    "cursor",
+    "droid",
+    "gemini-cli",
+    "github-copilot",
+    "kilo",
+    "kimi-code-cli",
+    "opencode",
+    "pi",
+    "warp",
+    "zed"
+  ]
+}

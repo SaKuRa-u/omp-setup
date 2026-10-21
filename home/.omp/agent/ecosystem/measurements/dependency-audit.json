@@ -1,0 +1,18 @@
+{
+  "command": "npm audit --omit=dev --json",
+  "exitCode": 0,
+  "vulnerabilities": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "dependencies": {
+    "prod": 180,
+    "dev": 1,
+    "total": 181
+  },
+  "limit": "Registry advisory scan only; not proof of absence of vulnerabilities or supply-chain trust"
+}

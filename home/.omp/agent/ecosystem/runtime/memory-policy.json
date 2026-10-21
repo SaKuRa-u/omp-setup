@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "projects": [
+    {
+      "root": "C:/Users/Indrimeilla-PC/orca/projects/Onboarding",
+      "slug": "onboarding",
+      "allowCapture": true
+    }
+  ],
+  "globalWriteActions": []
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-21",
+  "name": "blader/humanizer",
+  "version": "3.1.0",
+  "commit": "8c307f367c91bd974002f10f2be2965d642c13df",
+  "license": "MIT",
+  "scope": "OMP default-profile only",
+  "files_sha256": {
+    "SKILL.md": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad",
+    "LICENSE": "4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96",
+    "README.md": "500b53c0d29cd3219d160b5f9a109c0969f706aec74b49a4a081d2026ba48ec7",
+    "CHANGELOG.md": "b3591fe203429f1a6bd2f713c79272e9a8e58a487843d0908d2bbe0700722afa"
+  },
+  "upstream_files_identical": true,
+  "verification": {
+    "actual_omp_rpc_startup_exit": 0,
+    "discovered_command": "skill:humanizer",
+    "model_inference_requested": false
+  },
+  "integration": "Optional prose editor subordinate to author/venue requirements and academic-paper quality; facts, citations and uncertainty preserved. Not plagiarism or authorship certification.",
+  "copydetect": "Not installed, explicit user choice",
+  "not_enabled": [
+    "vendor scripts",
+    "Claude/Cursor plugins",
+    "hooks",
+    "new API keys",
+    "new model providers",
+    "paid services"
+  ],
+  "not_tested": [
+    "manuscript rewrite quality",
+    "Indonesian benchmark",
+    "AI detector outcomes"
+  ],
+  "activation": "Open a new OMP session for skill discovery"
+}

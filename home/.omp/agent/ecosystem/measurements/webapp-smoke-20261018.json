@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-18",
+  "target": "inert synthetic data URL created solely for skill API smoke",
+  "runtime": "Existing Microsoft Edge 155 via explicit owned CDP endpoint; no browser download",
+  "checks": {
+    "emptySubmission": "Item required",
+    "correctionAndKeyboardSubmission": {
+      "status": "Saved",
+      "input": "Synthetic item",
+      "focusedTag": "BUTTON"
+    },
+    "browserErrors": 0,
+    "narrowViewport": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  "limits": [
+    "browser.open with app.path initially failed WebSocket connection",
+    "Explicit owned Edge launch and app.cdp_url succeeded; automatic launch cause unresolved",
+    "Initial open viewport request was not applied: observed 754x487; explicit page.setViewport applied for narrow check",
+    "No real application, accessibility certification or full visual review"
+  ]
+}

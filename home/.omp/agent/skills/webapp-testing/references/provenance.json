@@ -1,0 +1,23 @@
+{
+  "source": "local OpenCode installation of Anthropic webapp-testing",
+  "upstream": "https://github.com/anthropics/skills/tree/main/skills/webapp-testing",
+  "sourcePath": "C:/Users/Indrimeilla-PC/.config/opencode/skills/webapp-testing/SKILL.md",
+  "sourceSha256": "8bc27790f6e6dfc2bfa6692326d4518baacf6a31dcc646d963c729adad2f7e34",
+  "upstreamCommit": "not established for this pre-existing local copy",
+  "upstreamContentCommit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+  "upstreamContentPath": "skills/webapp-testing/SKILL.md",
+  "upstreamContentBlobSha1": "4726215301db64a0cc4d41fc3219c61f37a30f4a",
+  "sourceLfSha256": "51b7349e77ec63b7744a6f63647e7566a0b4d2e301121cc10e8c2113af6556a2",
+  "contentMatchedAt": "2026-10-19",
+  "contentMatchMethod": "The OpenCode source and pinned Anthropic snapshot are byte-identical Windows checkouts. Their CRLF-to-LF Git blob SHA-1 matches the immutable upstream recursive tree. This establishes content at the named commit, not the original acquisition commit or an unmodified OMP adaptation.",
+  "contentEvidence": "https://api.github.com/repos/anthropics/skills/git/trees/dbd4588f9e1033efb41dad4bef2f7947c8993d44?recursive=1",
+  "adaptedAt": "2026-10-18",
+  "license": "Apache-2.0",
+  "installedExecutables": [],
+  "changes": [
+    "Native OMP browser instead of Python Playwright",
+    "Read scripts before any execution; no bundled launchers",
+    "Concrete waits instead of mandatory networkidle",
+    "Explicit target, runtime acquisition, write and privacy boundaries"
+  ]
+}

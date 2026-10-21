@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "marketplaces": [
+    {
+      "name": "ponytail",
+      "sourceType": "local",
+      "sourceUri": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\ponytail-09c434ab",
+      "catalogPath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\marketplaces\\ponytail\\marketplace.json",
+      "addedAt": "2026-10-19T09:28:57.813Z",
+      "updatedAt": "2026-10-19T09:28:57.813Z"
+    }
+  ]
+}

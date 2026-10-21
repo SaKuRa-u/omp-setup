@@ -1,0 +1,962 @@
+{
+  "date": "2026-10-18",
+  "skillCount": 6,
+  "fileCount": 122,
+  "brokenLinks": [],
+  "unexpectedHashChanges": [],
+  "originalSourceLicensesMatched": true,
+  "workerFullStackHashes": {
+    "semantics": "UTF-8 text with CRLF normalized to LF, not on-disk byte hashes",
+    "matches": 105,
+    "parentModifiedManifests": 2
+  },
+  "parentAdjustments": "Clarified normal task authorization in two manifests; worker receipt preserves pre-integration hashes. This report records actual byte SHA-256 and normalized text SHA-256 separately.",
+  "files": [
+    {
+      "skill": "docker-container-builds",
+      "path": "SKILL.md",
+      "sha256": "36b0d6f683d9b86d94660539e39e6266aca79539205ebd687b3f432f6246cc29",
+      "parentAdjusted": false
+    },
+    {
+      "skill": "docker-container-builds",
+      "path": "references/build-patterns.md",
+      "sha256": "19d23bb8910ee24a104cc15176be420b71a210c7963fea3356b4110387046061",
+      "parentAdjusted": false
+    },
+    {
+      "skill": "docker-container-builds",
+      "path": "NOTICE",
+      "sha256": "2e0d75c76a95e92ea192bbd731cec59c5a2312f601eed5f8a2e16cbe0b55f83c",
+      "parentAdjusted": false
+    },
+    {
+      "skill": "docker-container-builds",
+      "path": "LICENSE",
+      "sha256": "5ad8c213095c573921d7388edf93f6a9f54490b8ebf3b165ae8ef1947cf70846",
+      "parentAdjusted": false
+    },
+    {
+      "skill": "kubernetes-manifest-operations",
+      "path": "SKILL.md",
+      "sha256": "b18110b2709735c33bf852a4d17d1a5847f94bf3c763a9ea2260d57fe3e20a2a",
+      "parentAdjusted": false
+    },
+    {
+      "skill": "kubernetes-manifest-operations",
+      "path": "references/manifest-patterns.md",
+      "sha256": "53ecbe98dde36f63e4d61393585d27dcb13d7dc46f931f0beacfcfd751bc759c",
+      "parentAdjusted": false
+    },
+    {
+      "skill": "kubernetes-manifest-operations",
+      "path": "NOTICE",
+      "sha256": "e896be788f48f4eafc0f0fe8860bbbcd776c3e26ea3475b142eb819e39690c5d",
+      "parentAdjusted": false
+    },
+    {
+      "skill": "kubernetes-manifest-operations",
+      "path": "LICENSE",
+      "sha256": "5ad8c213095c573921d7388edf93f6a9f54490b8ebf3b165ae8ef1947cf70846",
+      "parentAdjusted": false
+    },
+    {
+      "skill": "ansible-automation",
+      "path": "SKILL.md",
+      "sha256": "b6d0c5fb8451ccccfafe062940902ec96e232d8958f326fe7add8170a4ad6c6a",
+      "parentAdjusted": false
+    },
+    {
+      "skill": "ansible-automation",
+      "path": "references/automation-patterns.md",
+      "sha256": "58801572a7edeaa96a0347bd16fbaabbcdf3ad5962dd9a9c757105f796c5f5e8",
+      "parentAdjusted": false
+    },
+    {
+      "skill": "ansible-automation",
+      "path": "NOTICE",
+      "sha256": "753fb2dd6f7a2a3682ac5a276168bfb0c6c64f457db84727c4ef6e7f1537c3f8",
+      "parentAdjusted": false
+    },
+    {
+      "skill": "ansible-automation",
+      "path": "LICENSE",
+      "sha256": "5ad8c213095c573921d7388edf93f6a9f54490b8ebf3b165ae8ef1947cf70846",
+      "parentAdjusted": false
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "SKILL.md",
+      "sha256": "ff533abf4194257db7934c129a11f2e539dd439b4d25562b0741897df47d5de9",
+      "parentAdjusted": true,
+      "sha256LfNormalized": "f253700af91a297860a9085343f797a1ca547038ef23239f589eba7707dfa6dc",
+      "workerHashMatches": false
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/_sections.md",
+      "sha256": "41ac11905c60941af48ef01f45a2d9aba1921093fde0ca5df7dbacd8a4e36a51",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "02129a952d8723fd28b1ad33e71e4564a010866856a1672bd69bb1a4ad03f935",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/advanced-effect-event-deps.md",
+      "sha256": "1741bef645e6bd5efd13874619a19db6852562e72379839416bb9afbea05257a",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "2305b289b2e44d695c1174adac3faeb208fbca3dbef1695206e5c8eab9edaec9",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/advanced-event-handler-refs.md",
+      "sha256": "7c2cdb9c2a8fd946a522c76ceb6b609501f83b8997f5d3d692debaac5afcc992",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "822f93f6d290a9ef8bd75ab6ae9774947d4f65df637476ef38589659d57732c3",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/advanced-init-once.md",
+      "sha256": "37b500464c61ae465e96d7baeb65bec43c529970ea82b7a816a39da1c86268d1",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "4a54dd6161f3bd1dd2f63e6f7cf6f8743137eeb4cad210140414a75ebc5676f1",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/advanced-use-latest.md",
+      "sha256": "ffe9fbe148f3b84fad2bcc52a18044fa1a232e26914a9277acef3dfa453a0a7c",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "299e5204704a0d4745af6d9ddfd43017943fa883ff2fc3918ee9befe7486e9bf",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/async-api-routes.md",
+      "sha256": "5b1f97a11418c2bc88126573403adfa49bd4d7c136d75ecf23e2d226d134b2e4",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "ad194d93e8fd27b30961be6dcf20c1cd0bcd8206a5e86f03d75fab8d2b006ec6",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/async-cheap-condition-before-await.md",
+      "sha256": "c9d96f58f70d58163c9655cfb29235371d2ddba4e64172c933bfddce754d94e1",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "3b2b2230fbd8a5bc6f1b2970da50c76f9bb58722c0fa22c1187f630a79fd7da3",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/async-defer-await.md",
+      "sha256": "30488a96a8a4a0d30285441000ddd966fc266313e85ae9eef6c457696190ca59",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "944963cab2fb6318cd5df2a17f6ff516bfb14e79f506ce92fa635f0995d21350",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/async-dependencies.md",
+      "sha256": "82cfccae5d530f3f32807e0aa3f5c5592e1b6382b813baccd47a006a79dc8236",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "abde33825c631f6b01357b5d75e3d6a559dff961e9bb1f71f00338d2ce162817",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/async-parallel.md",
+      "sha256": "f8bc94a3751ba88305a9b5d51c7888dc6cc2530d8181c855847570c6a4041889",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "d5c14bbd6e4522ff4d79ccd7af696aa476b508d978fb343450eda10b4e3a771e",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/async-suspense-boundaries.md",
+      "sha256": "6f4d19b6bd537f6a6e7e915948dde907aee556f86a92c15acaaea1d872b444fb",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "51be332c6f9d6272ee61608e6ab39133120a9cf25564d45e373e65062bdc7f07",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/bundle-analyzable-paths.md",
+      "sha256": "d936225eba596f5029f58a216408569e89fece5bb714297561f0fb2f86579ff1",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "dff4be34fb3de096899a8926399dc9efd8c56b982a589bac5e0d9d43e7ac7e45",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/bundle-barrel-imports.md",
+      "sha256": "ca2cfc3356f995abff3a4defd75845a6a263294db55337bd9a886091a8a1017c",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "777ac815e8de0d2f03b436922bdf8f22cec830f671575a469584395fdd180b46",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/bundle-conditional.md",
+      "sha256": "7f9300199a15c9664df941eb5ec9dd81786a408f51b81d8408c3af299fedc809",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "c04466ef0a4436b355f75dd136d134e1b1fae6ef3dee4e5bc893d38dadc0d7b6",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/bundle-defer-third-party.md",
+      "sha256": "23cf9d3408980a166e4fe109ac856a0f94650a3ce38961cd0f0efc497b864968",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "9a317b45b7e7c9cf95836bf619cb6b8b11ef67e619749a93e357196be2054263",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/bundle-dynamic-imports.md",
+      "sha256": "2117f41d1af1be7b33d45796e80bd5cade3a4e1770b01a6f566d3b5341399ea9",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "0354c10b5eb6ce06eaaa8009deb60d3ecbac7194d599c6ed78e3a3e6f27fe9ac",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/bundle-preload.md",
+      "sha256": "e7adb8cd212d20802e606c84e2c47aec5ae1aa9e41d76a77e7ca85a0f36a9319",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "3d3c3cfb39127c482f10519d809b3d9aca5bba6456da4dcbcdfb394e36137880",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/client-event-listeners.md",
+      "sha256": "39aed231ec097560be8b7684df0eb89d866eabe9d09bcdc252ae6dee72ebc784",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "712fc9efd26e843d3fcce10563ec776e09d4b298103937e21ebab19f7d4beab4",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/client-localstorage-schema.md",
+      "sha256": "f4fff4e8ea19a3dda5c72b404df93418566ea5b8990bd865d41f7e00fb4364bb",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "fda1a1459b8aa6bf40b7854727c46d58225ad4205f10eef2614571376c33bafc",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/client-passive-event-listeners.md",
+      "sha256": "0a409e7acd689abaf1ba896cf3ac62e616fafbce4c12eb39bba5b461c2a0b329",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "3904e973fd221db9f7a6e8db90afef64be648dcfb114e954178a9a716553afe2",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/client-swr-dedup.md",
+      "sha256": "2263339647ac701c37c8122a07264f2c8d8f87c87af161d92933bec3efc55a27",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "d910cb1616e1abfc997fcf9aac49ab851082c36e435e1ac0ac6885451141c4bb",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/js-batch-dom-css.md",
+      "sha256": "8241212c5a564fb1653eb4d41cfd2efc56787312a7cb10f1aebe6b3cb998d71c",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "74893b77ff8640e85758faa7eabef73299b822abfe660dbfe18197a78cfe8750",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/js-cache-function-results.md",
+      "sha256": "678c5b729f5a8181a597fca6d7efdc62672b45ae59b399c47d9b4bc608af78f6",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "34e4206a3067d7b591d69097f8a243863203c5d58403cd035e877dd2f6be3c03",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/js-cache-property-access.md",
+      "sha256": "32b4840e45093a0ddbc0b74d7349da003cb6dcb4fdb1aa28312ccb931f747128",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "325dc35aeb0b37429174eeab6b8fad931e8782926086b82654128a840a510958",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/js-cache-storage.md",
+      "sha256": "850efd3f70742a11ad76d65ecadf28628b4979c61bc6b364c03b59dce8a0657c",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "9eb4256750a30705a23d5f9fbea4a6277e4ccb925b1c0d08e7c55525ae41a85f",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/js-combine-iterations.md",
+      "sha256": "bc1f8fe965159675316cddb595c45885f2eeef163b79951e6eb019190db56153",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "dab00726f4509ee4da8733c27b53ca37ce00333fe7b3a7704e4cf1521c575f49",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/js-early-exit.md",
+      "sha256": "1509091d696b0dc529789d4919beacf269b1058f08f10793c8518f9ff0bef666",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "a27624ec4c53dbd048357c22aa80aa3c05f77c7033b669da3b1e0c8cc261538f",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/js-flatmap-filter.md",
+      "sha256": "4ca926af4e75ef61fe2dcd763873ad4396cf7cec752f97d78ba9cdda5f682ca2",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "8850f449facb6151b9b1e1934ca1f80a63a337c620482ca38a376c65b82eec03",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/js-hoist-regexp.md",
+      "sha256": "2f0bb13f7ef42355ac6e84e62e73d5c73bedb088319f0b6ff526497a75102b5f",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "03e77d0e4fad1c3c8af26c1e53fc9a95bdfc8349cbc8f85f5cc7bf2239f1c693",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/js-index-maps.md",
+      "sha256": "e13e0b6f4a7256a1b20805f96e8eccf842fcf3d41bd4f5c9910101fb60882a88",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "c4c43731a1db8e28cd968770b9ae54047169757d67830e697fe8efd7efc8c44f",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/js-length-check-first.md",
+      "sha256": "d1ac71c4e9bb17fbcb093dcea277d3e80f03f7edbb00bebf8a6905b88da12d6c",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "2dbc27333cf7aef86342a11c0cd20e07f187e6c73e39de63ba63f9cabf3d01bf",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/js-min-max-loop.md",
+      "sha256": "73ba5c1bcb941944076c2cee9bac39fc0f056c419ec84aa80c88bf727a147b91",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "cc9209887594f473a9a24ac737d36dafe8a4ab7b6e55b64ec37c4189fb022ae6",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/js-request-idle-callback.md",
+      "sha256": "630da9cdb93d24269817daeced8e982f683116ea8a472ee30c0f609e44180c8d",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "5151cd009938c412f605b8a86acf5a1b77206989cc8146c6371545f58645c6f9",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/js-set-map-lookups.md",
+      "sha256": "84db8ed8b53d8341509523b5bc4b140bbf36540e537f06c3ff96a27210f1088e",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "80c9518ebb2fd2f471e1e97ea3e6f309d7473b2d14dca1f2359fe69010679ed0",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/js-tosorted-immutable.md",
+      "sha256": "2da8737e8bc52299eb8a082ce2c943d51f4c4d52f30a27a043e779f13472e219",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "7a76013355602cad9f2c20cc386a241f18282d26831560e2d20b3777f5871e16",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rendering-activity.md",
+      "sha256": "309cba8f52db407e6359faff25235dc9667679d238d1032339411b9fdff4630c",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "0019f84f68d8298e67d79b5b5c02d8cebcf8b046e1becc2e497d3f0899868fb7",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rendering-animate-svg-wrapper.md",
+      "sha256": "e7c4afaa4ffe546915740eb511b092fae3951579718f5c1787c636706176d29a",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "cc442528f83b3e5888d6c7db22f7a34cfd7261fd352e4bc6744650ea4bc25e1a",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rendering-conditional-render.md",
+      "sha256": "3616719335d08572b7411808434c7422c574c77b49c79a31bbbf5ead399f9bba",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "878487ceaee7c8d7bd661ed953e95e0439e32394b61d87b82edb19cccadfed49",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rendering-content-visibility.md",
+      "sha256": "c534ef3bbe5d6b4bcd9642fd74819ce0e81846bfc3a03dcc5219938b39ab4e30",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "5c39755c02aa37b9cf39e0cdb9fd925aba33eba1e1ecabb272d394e04cf9d830",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rendering-hoist-jsx.md",
+      "sha256": "29c4602b992dd2242078bb7c6ed75220b13e9185f36cf6d500c33a01043c6acd",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "c3082a1f931c42b91d1d5a0fe6ed214e852ffe582eb1d21994aaac9d57d1e2d1",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rendering-hydration-no-flicker.md",
+      "sha256": "f3155a78e1b52eda48f63b78a73637e220c06b9b35fee2287102e95c67fed765",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "5884586328240de8deac1257b1dae13d08ddad20a5ad130888758ff96eb9e037",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rendering-hydration-suppress-warning.md",
+      "sha256": "f74def41a2cd2697fca86245336ec81f886c10dd3d16dcc83e84c57f50290150",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "766e358af467765feca653ca5d8e85c63afbf5276f68c3b273a911d16eec5bb7",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rendering-resource-hints.md",
+      "sha256": "f306c9c597c768595b2c2198c289e64c38d7cda079be35bb24fdb60193fc6400",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "abb2c1ab95881afa05edfea14ebb945187e395d2568e1bd3bfeba25226608956",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rendering-script-defer-async.md",
+      "sha256": "cff1e5a0745fc8e5e363bea4f999c609f4b6f6da05af869ddef068c66b03da4c",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "14e4a268d3246caafbcbd2693603f9031a5693d4dc5b6554f3cc3c57299d4cd6",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rendering-svg-precision.md",
+      "sha256": "a420abeae7160511c85fcca98cd1b46451fc39fef5620a4fc864510e49d81ba0",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "2f213cab07a21f9dcdf196e010a526bb12fa55de6547bce26a024d6959f11983",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rendering-usetransition-loading.md",
+      "sha256": "87c5be6519163ece1926a2a97b3359f2f4c7dc8329bfd173f3de6865c1ae9fb4",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "09203663b5314ba06779afb986eb48236bf749d94ccdbde32f5ed24b04880165",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rerender-defer-reads.md",
+      "sha256": "6f2ed34fdced5b5125706fa3c3bfc2f188ee7dd5785c0b75a75460b2794863e5",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "7568a5e421a77e7e0265c13176e4d6e79db9775055979e66271ad593b0890729",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rerender-dependencies.md",
+      "sha256": "aba084596232f2b7d85fea7420cb6314e698aec6686566be595dd26e27cc8b00",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "87b532aa8df32bcd2bf02af5c12ba8ae250762d19073412a28394410b55d9acf",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rerender-derived-state-no-effect.md",
+      "sha256": "ba617f578b80fac720fe2a0172aa1895deb54048a440c318619d55e208c9921b",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "6074f6e6a353c9db7e186b088736c33cd368acaa9884b19cf574d889a9bfdf6b",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rerender-derived-state.md",
+      "sha256": "1766ff0cee8260f6561e07d95c02ebdd12c9ca87e974174acceead214ccfeed2",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "9a268fd11eced348c7cfb67ae1075cdde5d2d91758cc8f2523ab9ff2b4f5ff61",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rerender-functional-setstate.md",
+      "sha256": "a479735a09b82fcface70e991659d0653b293a7dbdd3fdd9b36c1fce8932d827",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "077bd55f33973c8f529dba2f1203095aaa29db4848f49c4e1b4600a96a43dbe5",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rerender-lazy-state-init.md",
+      "sha256": "29b8f1c4d9ef155b467123e39ad426dc5b1df6c3780a148244eb28ed0cb980a2",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "4ca11e40e993f1d43adb4d324bd85309bf365c5694aa5ce4000f1cb1a139c8d5",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rerender-memo-with-default-value.md",
+      "sha256": "dfe25ed1bc19f2dadc9efb3cb38c12a8d7f79306a0f4d44b82a51825681735c9",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "2321a7c180a2118b49b9b38f353578057f31cf39992af4d4e7f28314164e86d8",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rerender-memo.md",
+      "sha256": "4bc2952be55827acaf06c21cbf191dad00567369a918d5a5493f70591aa64a57",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "69543a8073e91a81ac626e0cb7c212efaec02cce49faec4c168adaa6db36420b",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rerender-move-effect-to-event.md",
+      "sha256": "a8c3e264aba20dc777e6bac6f658d3856e81c8e21e8e2881d318cbc86e1feaa1",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "b04f591c70e7a895a03a676f17a75932c07aef79d712f1de0a2331a05189959a",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rerender-no-inline-components.md",
+      "sha256": "c44fe29fe1214a10e59dae45dbb3800b469911e27929d314b1116f1b15dad7c4",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "aa89f857d1718cc5554da6c9f81585c25858e60078ddb3fdb53144397424b6a1",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rerender-simple-expression-in-memo.md",
+      "sha256": "fce9a54e2ea4fbf5a65302e4b923ab26caee88b479f1280a947f77cc8ce25b63",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "a7cbe68926642fa5f072aae02b08271df3fe2cba642ef767cc7dfbbe97429284",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rerender-split-combined-hooks.md",
+      "sha256": "2868cd36679529220f0838226d5c440a3baa1a9588da4f57e95c45e6ea53738d",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "ba631c176d98b121c105ce09829d3c66f583ada0eb45f8591fc6ebac3fa70d65",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rerender-transitions.md",
+      "sha256": "056389bc59e7c1a4303cc6cdb13bbb9b251919ca0fc03fdc6453f14ed086ac07",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "b3a8ff6715f56810f9d1d0fe30bab4de21fe32f97d1e1d13fc1f8c4552c0e847",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rerender-use-deferred-value.md",
+      "sha256": "587dbab89f19a1c2d0c646958be74843b80982087933e0007637053eaa95de74",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "085db8f8b1a03bbf49f89cc3e375cc2e9e4b4d9fbfc0340294f4c6dfb09c3489",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/rerender-use-ref-transient-values.md",
+      "sha256": "77042aa7960f39bdd3cbd5377a9adac9eb9556ade89a982b8bda5a7f7d12ff26",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "6c09b6563d90cf3c934387c8635b6a3046b827e030da63243ce70a6687239a0c",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/server-after-nonblocking.md",
+      "sha256": "0afef949d8f61a8c98936cc189193be4df37b4f5d372cc595a01deebf1a2cc74",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "3f2262800ae299d63faae81b4009654d3ce37cce862635b75d2db5eed6074c86",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/server-auth-actions.md",
+      "sha256": "e097e5d6cf2c40e1794a29c1595f7baac72da28b6ff8804d0879d3cc510d6603",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "108675c8b7a61468b3d67cfa0b92b39cc1b50849e63c46e84ed2dd43739d0f44",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/server-cache-lru.md",
+      "sha256": "f954a436de1407d48df1e59d5aefb87f5cb2c8ac66fdd86454152888930eec93",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "4e5843fe6a1e74fee2debc4bd820bf16a258f1155ce80e4ec3fccca01c53e50c",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/server-cache-react.md",
+      "sha256": "2c00d5ea2695eefbfaf3325ddab4b12e6de961a4cec340365e4a1d776870680c",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "e6f1cff4e174d8e4d5bbf089f85349b057d80cf17698e0fc048faaf45fcec6fa",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/server-dedup-props.md",
+      "sha256": "40233c7c1132caa9a3fff0d5762b97dc766f1840ec508cc9d36d66f7fa5db504",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "d3201d5a5c3d86de4fedbdc09ea6795a58600dd3eccfa65f4f31939bb1f2841e",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/server-hoist-static-io.md",
+      "sha256": "96acd5eeef242b9770fabd9525a539d0ce94372499316ba40f5eb28776744d13",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "4e2a229e28f737820e03dee2602ba66a9db155d7e0a2ec1bed0bac3b5b504ebc",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/server-no-shared-module-state.md",
+      "sha256": "b8e1205c60f5a62dd24199891c46f8ffd8b76b302e134db4383da7e1d2bce8ef",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "4460d9b0913bba9c5f7ba5f4847d6c125caaeaef515e7e6cbd71f1678b0811b8",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/server-parallel-fetching.md",
+      "sha256": "93ae360d9bf716b32b8ccc93579d96f08f24e5e4d1e99fe02f00cc181b07a7e3",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "4e96119baaaafc16a5cfcecd1fd7762d6cb3dbbc80e9c7ed638bff0db5c2069f",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/server-parallel-nested-fetching.md",
+      "sha256": "0cd905f5a9960a257ab59dae0cc20b8820de99abd21492300ce81114bfd082f7",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "258cef065bbc21a4cc21a60c8dee8a0cdf90e46ed2e8aac00f71996f4502ed4c",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "rules/server-serialization.md",
+      "sha256": "18ac6b7c697feabd145a45603fd1555a69d7a2a17bb512c167b5d9221816ce91",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "059bfb303d141cbead700ddb6c541e8ad1e1ecea6e6685154728ce9dbda39d27",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "vercel-react-best-practices",
+      "path": "LICENSE",
+      "sha256": "337c7cd9e9854e83e78fc3409c5c2ede5dcc164a899918f618cd550b69f82e1e",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "c1b0b1164c0dce2207614238f58dc84bef6eb5733abd55fa52a92b03349154ef",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "SKILL.md",
+      "sha256": "6cf4bd8702d750c9dbdc549e3ae83e0a4ccb13d771c53f7ebb7fec69c22a90a2",
+      "parentAdjusted": true,
+      "sha256LfNormalized": "6a2026a0468b6392a620225923913f240601acf7bfca4551a0a304fc60fb7cd1",
+      "workerHashMatches": false
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/_sections.md",
+      "sha256": "2e73bf73cdd34c3d7d6d811d8859ea03bb9c29edbcc756b0e812c6ddc0bfe9c5",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "04f6d81e3917cdf23b0197a0b70e1d5e2f8d0ae6092b16b8647e1aa72623745d",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/advanced-full-text-search.md",
+      "sha256": "c92576a8f7f1f90855cbcfd0fdedfa335fc209ed8ae59dd6025486f90ca7efb5",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "e02443ef3cbc83f94952afe7b9fabbf25541b5863bb422805bb23f2172144df1",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/advanced-jsonb-indexing.md",
+      "sha256": "d5bce555fc5daea9a758e2ad8f98f142cc8b328d0fc26feab013ed6857f5a6fb",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "5f92f74c767b5e378d908695aedbe541fec08982d4f5c6148ec10450b3e38d5e",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/conn-idle-timeout.md",
+      "sha256": "e9e946567f42a164126e309be12eff15bd42d518e34df11a63f833cd98a324d0",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "6d026a0396df4c6fa0bef56ea431e95988538c8066817938b8bc353b8c19a6a8",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/conn-limits.md",
+      "sha256": "16e7c9d19bb4836a2d6d9fef24bf4b2a241e123dd1282ed1b5bc14506a5a828b",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "a4caf7e109012ebd474738b6eae5b5a1aee19e95bc4e7e930ba35fc2d0838e21",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/conn-pooling.md",
+      "sha256": "4c404a7c46ca28cb84188e1ba36b82cdedd921e1ccc9228768a273ad60542ed4",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "894b6a38aa1794030ea7db8c7e062d0394b485e729cf708b9fbb9f06a7823a31",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/conn-prepared-statements.md",
+      "sha256": "5bbb26f762c8dab6614d608d84ca87b843f88bc3eaf47489b97fcd1562a2ac98",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "a3ed9f4fb55ebf03696ed49502b862c648dd642ccaa210d123f709c03c13f6c4",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/data-batch-inserts.md",
+      "sha256": "f16e1b01d0eb39c659e45730025da93134c15bfe99833220a4e0fdbb6dd98c09",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "93b42e5259b5d8b3d53283e9ae3e0eed414759cf718711110879f3f15dc9a2cf",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/data-n-plus-one.md",
+      "sha256": "c9c333e9c5717814f94b4d92b560c5a0f197a15a783dd42bbbfb277a438250f9",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "bb14e1b5f323ed9b918321d8d5e862c87340419ec427c54193428613e9d68975",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/data-pagination.md",
+      "sha256": "ab91a98352cfba5de818979f6697c52ffcbe78745c97b407f4b14a2a11bb6c9b",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "f614faffb18e99ab02132a9c3f22b11cf4a5895a8272589bdf6dcca530356a81",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/data-upsert.md",
+      "sha256": "6b0201dcf1d1c0e3c9ef28c8aeef27997163ee8d15e71d8303c866e8310574d3",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "25d25c2f2b5abf98165885ee10fd61252920580521e5231589d9db0377d9100e",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/lock-advisory.md",
+      "sha256": "e084612a660b641bddcdedb5eeb2deeaa610df1a1f1a9f0475122ac316d0b313",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "14c721c61ec41a4ec4eb864dd473b5e869dcf20554ee4075d60809bfd3b3b5f8",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/lock-deadlock-prevention.md",
+      "sha256": "998ece860e2c5296c34971143a67df00b11d02964c2af6ccbd1646e97f0beda1",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "3bd3c88a5d77ba468439e8bdfcc3c62803f8db21fe171205aa371af918d01b40",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/lock-short-transactions.md",
+      "sha256": "0fb86dcc52c2b57392a6386595ff5723ec8a265249fb2606f1d7faea845586f9",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "e9c24d0becd13bfe41ec50a7d224526819865e030d2955c6191bf31ed3833f77",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/lock-skip-locked.md",
+      "sha256": "f4db1b0a6567e2737eb1cc6ea4081c5779d84861026079822ed662b14861d2e4",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "be9aaa8fcd5a5b7b3ca376a31c85380a40b59e8dc0d5d0a83cdd6cdda6421638",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/monitor-explain-analyze.md",
+      "sha256": "2f0a5011f5f7d66e71abd0856643eb2055587faf821ec37e5c52e020101705ce",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "e4ed81fc452ee344aeb1bf3a56e9f9fbbeff62aa897c0e8de3c05d417dca545c",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/monitor-pg-stat-statements.md",
+      "sha256": "ef8d2cbc45ecb16ba284d3f34d7689845cad2bab048f0e16f00e3250d9f96244",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "45d6d0b3cda85df6d241ac84759059b58e2e7722885db8f8b0ae67d81626b29c",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/monitor-vacuum-analyze.md",
+      "sha256": "03a9a42b3e482a940654ce00602a61b73433c4c946b0c27afb8753dd5b18c034",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "b72fbc67fac5ee95bef64d7d736d1c135372b24fb5df677a5efab06d513a0e60",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/query-composite-indexes.md",
+      "sha256": "2fcba443cf62caa32b906b7c39d84c113abbb77acf7af8352d1d501094e4c7a3",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "a64c5c5dc063430fabd07749f93ea519141600cbad6f68a3e4776978896e6d7c",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/query-covering-indexes.md",
+      "sha256": "e6d559a8062ed082d07fd4721f29d0b18b1863e2137212fc32c10a5c2a24765c",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "6b1aa338b642694703a0ab8e04727be28beee20d94f6b0e1855225e92bdd933a",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/query-index-types.md",
+      "sha256": "8fa7dc299bdbe1c9ac832c9ab17cf137eadae56b0f026d17fdd8ac7c02ee00e0",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "0db5a0e3096927caa9662e485c0eb5d04c84dcb863baf114d895a71533fba7ef",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/query-missing-indexes.md",
+      "sha256": "1c81f7cd2b9333655f2f7a7846c8315fb793659511e0f2a91a1369770ec8cd9b",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "9e4c18aeae48ee747f7aa47d0e892e9425051bfe3de8c0eff5b858e39c98d1d4",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/query-partial-indexes.md",
+      "sha256": "7f25b8756a53c43aa1901f50fe13af778da2e9a9d663251bbf3b97bd2ccbfce3",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "98a90da21e1bb1f24f787cd0401aeef937d737ba1e57c0040ac8aa514fb15860",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/schema-constraints.md",
+      "sha256": "c5c3a4d137f6c726a0cb60fed588a3cfa8abfa35691d2862ee374c4d6db8fdb1",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "e22908b1e5dcb3ac91b7f5b9d4c8400771a4cd8c3c605ebc52e8d93c4c0039bc",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/schema-data-types.md",
+      "sha256": "0a86020bf598de510f1234af7a3bd7d334d017fc60e5ce2b31013f7ac1f07974",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "d8280b68f03156838660ac26a20e67ae76b0993b364997c3708e4bff1858f182",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/schema-foreign-key-indexes.md",
+      "sha256": "3a845f065648b73f5455e8599c8b62039ba5760d4a33c5d2fa7efd6759fe3c74",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "dbe386f3a4c8895f9aae793e36f5b08454fa4eafc180abcdcf5b308d441cf0e0",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/schema-lowercase-identifiers.md",
+      "sha256": "ec54cac32054def68498a0a9ad4fedb3d34515f54546f96c80f653b84dbceffd",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "f36b26fac2de44767ee2021fa541633afe596323769c182b83cca4305e89feb0",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/schema-partitioning.md",
+      "sha256": "39ab821860d88154a380aaa5569c9e95fcba8ade5ce7afc8e0c62a0fd8ffa63a",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "72f94d828bf85e403cdbe6a7e29e171f35ab7ab7904b0f2bf2adc87368292042",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/schema-primary-keys.md",
+      "sha256": "641ef1bff5c40488e9f9f66709cc4bc68d042fa21353dfa4e434e787cfcd7ccb",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "7ed2e39b7692d5344734ba4928cd7e7f9146620f7b3bfb0b6def8684764588f1",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/security-privileges.md",
+      "sha256": "bbe8ee4ca72a30c39fae71b2085f7b26d3ded6496e8780f3b74c9c8279e24666",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "5edb3168b7e3543b1ad813ef9c417f8e75a3b6133721e8ab42c29e9853f88577",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/security-rls-basics.md",
+      "sha256": "924f8f34676e6509d61c6addc74e179d0c069215ec01d0fc0f9022d498c1234c",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "fa2f59b102a199f943c95a708534cf7fa4834fe881d7e5273b695c5b28bfb830",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "references/security-rls-performance.md",
+      "sha256": "9e2503fe80489d429846c7b655013c5aa01883d14442c5a50fecd06090284592",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "8d2c63cd650d6e6015b25e42cd6a8be49c7a3ad61cf2c6c805ae0c1c447635f6",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "supabase-postgres-best-practices",
+      "path": "LICENSE",
+      "sha256": "d5f32eb9349125b311fd66f435a13eff089a7166b1e78e31b12e361edfb2466a",
+      "parentAdjusted": false,
+      "sha256LfNormalized": "b65e575eb4f04a13c187d64e958321298e2ab84d67aa8428819f362056ba292c",
+      "workerHashMatches": true
+    },
+    {
+      "skill": "webapp-testing",
+      "path": "SKILL.md",
+      "sha256": "e3abcc5741fa0257fc42bb55d2558fa20e13cfd99483cf7e50b4cd0e65458b68",
+      "parentAdjusted": false
+    },
+    {
+      "skill": "webapp-testing",
+      "path": "LICENSE.txt",
+      "sha256": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+      "parentAdjusted": false
+    },
+    {
+      "skill": "webapp-testing",
+      "path": "references/provenance.json",
+      "sha256": "3a7d5aaa5088c35a84459798b7ffdf7057ca64533b13dc75a478b3a233f50b5a",
+      "parentAdjusted": false
+    }
+  ]
+}

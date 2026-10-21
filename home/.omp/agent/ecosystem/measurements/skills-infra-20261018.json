@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-18",
+  "assignment": "Conservative Docker, Kubernetes and Ansible documentation-only guidance for Windows OMP",
+  "status": "installed_documentation_parent_verification_pending",
+  "omp_only": true,
+  "skills_root": "C:/Users/Indrimeilla-PC/.omp/agent/skills",
+  "sources": [
+    {
+      "url": "https://github.com/akin-ozer/cc-devops-skills",
+      "commit": "276af751e659315aaf56d3ad13d7c26f4e72e28a",
+      "checkout": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/sources/cc-devops-skills-infra-20261018",
+      "acquisition": "Source-only shallow git clone with core.hooksPath=NUL; revision recorded using git rev-parse HEAD. No source scripts or installers executed.",
+      "metadata_url": "https://api.github.com/repos/akin-ozer/cc-devops-skills",
+      "observed_stars": 324,
+      "reported_license": "Apache-2.0",
+      "license_evidence": "Repository LICENSE read in full (lines 1-201); identical source file copied into each installed skill using Copy-Item.",
+      "notice_inventory": "Glob inventory of NOTICE* and LICENSE* found no upstream NOTICE file. Root Apache license applies to selected documentation; unrelated ansible-validator test-role license was not included because none of that role is installed.",
+      "selection_reason": "Three generator documentation domains are cohesive and nonoverlapping. Useful domain knowledge was rewritten rather than installing automatic validation/setup or Bash generator bundles. No Terraform/Packer skill installed."
+    }
+  ],
+  "installed": [
+    {
+      "name": "docker-container-builds",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/docker-container-builds",
+      "files": [
+        "SKILL.md",
+        "references/build-patterns.md",
+        "NOTICE",
+        "LICENSE"
+      ],
+      "purpose": "Dockerfile and dockerignore generation/review, multi-stage builds, runtime/ABI/cache/secret decisions, supplied-evidence diagnosis.",
+      "upstream_material": [
+        "devops-skills-plugin/skills/dockerfile-generator/SKILL.md"
+      ],
+      "tool_requirements": [
+        "No external tools required for documentation/manual repository review.",
+        "Docker CLI plus explicitly approved compatible engine/builder for actual builds or daemon access.",
+        "Buildx/BuildKit features only if already available and supported; no installation implied.",
+        "Hadolint or optional scanners only if separately available, requested and permitted; scanner network/download/billing scope requires authorization.",
+        "Examples target Linux images from Windows PowerShell; Windows containers need separate base-image/host compatibility design."
+      ]
+    },
+    {
+      "name": "kubernetes-manifest-operations",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/kubernetes-manifest-operations",
+      "files": [
+        "SKILL.md",
+        "references/manifest-patterns.md",
+        "NOTICE",
+        "LICENSE"
+      ],
+      "purpose": "Kubernetes resource generation/review, probes/selectors/resources/RBAC/network/storage semantics, CRD schema limits, approved narrow read-only operations planning.",
+      "upstream_material": [
+        "devops-skills-plugin/skills/k8s-yaml-generator/SKILL.md",
+        "devops-skills-plugin/skills/k8s-yaml-generator/references/security_patterns.md:1-250"
+      ],
+      "tool_requirements": [
+        "No cluster or external tools required for documentation/manual manifest review.",
+        "kubectl and an explicitly authorized exact context/namespace for cluster access; credential plugins are a trust prerequisite.",
+        "Optional already-installed kubeconform/yamllint; offline schema checks require existing trusted schemas matching Kubernetes and CRD versions.",
+        "No local cluster, Helm, Kustomize plugins, CNI, schemas or dependencies installed.",
+        "Host commands use PowerShell; Linux Pod security examples must not be applied mechanically to Windows Pods."
+      ]
+    },
+    {
+      "name": "ansible-automation",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/ansible-automation",
+      "files": [
+        "SKILL.md",
+        "references/automation-patterns.md",
+        "NOTICE",
+        "LICENSE"
+      ],
+      "purpose": "Ansible playbook/role/task/inventory generation and review, module/OS/idempotency/privilege/secret decisions, trusted-controller and exact-target execution planning.",
+      "upstream_material": [
+        "devops-skills-plugin/skills/ansible-generator/SKILL.md",
+        "devops-skills-plugin/skills/ansible-generator/references/best-practices.md:1-300"
+      ],
+      "tool_requirements": [
+        "OMP can edit/review Ansible content on Windows with no Ansible runtime.",
+        "Execution requires a separately approved existing supported Linux controller or supported WSL environment, not native Windows PowerShell.",
+        "Existing ansible-core, needed collections and optional ansible-lint with suitable versions; no pip/Galaxy installation.",
+        "Authorized static/dynamic inventory, reviewed configuration/plugins/roles, SSH or WinRM/PSRP and managed-node prerequisites as applicable.",
+        "Windows managed hosts require appropriate modules/collection/transport; Linux controller command examples are explicitly marked shell, not PowerShell."
+      ]
+    }
+  ],
+  "audit_scope": {
+    "upstream_complete_reads": [
+      "LICENSE:1-201",
+      "devops-skills-plugin/skills/dockerfile-generator/SKILL.md:1-1035",
+      "devops-skills-plugin/skills/k8s-yaml-generator/SKILL.md:1-276",
+      "devops-skills-plugin/skills/ansible-generator/SKILL.md:1-206"
+    ],
+    "upstream_selected_reads": [
+      "devops-skills-plugin/skills/k8s-yaml-generator/references/security_patterns.md:1-250",
+      "devops-skills-plugin/skills/ansible-generator/references/best-practices.md:1-300"
+    ],
+    "installed_markdown_payloads_read_in_full": [
+      "docker-container-builds/SKILL.md",
+      "docker-container-builds/references/build-patterns.md",
+      "kubernetes-manifest-operations/SKILL.md",
+      "kubernetes-manifest-operations/references/manifest-patterns.md",
+      "ansible-automation/SKILL.md",
+      "ansible-automation/references/automation-patterns.md"
+    ],
+    "final_authorization_clarification": "Added and observed via edit output in all three SKILL.md files: ordinary local code edits/public documentation reads already requested by the user need no fresh confirmation; approval gates remain at operational side-effect boundaries.",
+    "not_claimed": [
+      "No full-repository security audit.",
+      "Unread upstream reference remainders and upstream executable scripts were not fully reviewed, installed or run.",
+      "No assertion that external documentation links were fetched or their current contents verified.",
+      "No runtime or skill-dispatch evaluation, dependency availability claim, or parent verification result."
+    ]
+  },
+  "local_adaptations": [
+    "OMP-only native name/description/compatibility frontmatter; no vendor tool allowlists or dispatch assumptions.",
+    "Native OMP find/read/grep/edit/write ownership; native systematic-debugging, TDD, review and context7-docs retain ownership.",
+    "Substantive generation recipes, review checklists, illustrative examples and diagnosis tables instead of routing-only wrappers.",
+    "Windows PowerShell host paths/quoting, explicit Linux-image and Linux-controller distinctions.",
+    "Read-only-first inspection; precise context/controller/namespace/host/resource approval at operational network, mutation, deploy, destructive or billing boundaries.",
+    "Ordinary task-authorized code edits and public documentation research do not require redundant confirmation.",
+    "No credentials in arguments/logs/artifacts; no raw kubeconfig/Secrets; narrow redacted evidence.",
+    "No automatic dependencies/bootstrap, scripts, daemon/cluster/host access, paid operations or validation claims.",
+    "Conditional validation commands with availability/configuration checks, clear skipped/untested reporting and local-schema constraints.",
+    "Docker distroless health-check correction; no fabricated size/performance metrics or universal Alpine rule.",
+    "Kubernetes fsGroup/non-root/admission/CNI/NetworkPolicy nuance, dry-run/discovery/webhook risk, CRD missing-schema limits.",
+    "Ansible check-mode/plugin/delegation risk, ansible.posix.authorized_key correction, accurate precedence and idempotency cautions.",
+    "Per-file modification notices, per-skill source NOTICE, full upstream LICENSE retained."
+  ],
+  "exclusions": [
+    "No OpenCode/shared .agents configuration changes.",
+    "No ledger.json or global AGENTS.md changes.",
+    "No Terraform/Packer duplication or ownership changes.",
+    "No vendor plugin manifests, installers, hooks, scripts, test fixtures, executable templates or evaluator bundles copied into skill roots.",
+    "No Docker build/run, registry push/pull, Kubernetes command/cluster access, Ansible command/controller/target access, or cloud/paid operation.",
+    "No dependency/toolchain installation, bootstrap, lint/test/build/formatter/smoke/evaluator execution."
+  ],
+  "operations_performed": [
+    "Read skill-creator guidance without invoking its evaluators.",
+    "Read public source repository metadata and existing OMP directories.",
+    "Source-only clone and git rev-parse HEAD.",
+    "Read/inventory selected upstream source and license; author and read all six installed Markdown payloads.",
+    "Write three SKILL.md files, three reference documents and three attribution notices; copy root LICENSE to each skill.",
+    "Write this independent receipt."
+  ],
+  "untested_limits": [
+    "OMP discovery/dispatch and frontmatter/link parsing require parent final verification.",
+    "Docker/Buildx/Hadolint/scanner presence, engine connectivity, image tags/digests, build/run behavior, vulnerability status and performance untested.",
+    "kubectl/kubeconform/yamllint availability, local schema layout/version, CRDs, cluster connectivity, admission, scheduling, CNI, storage and workload health untested.",
+    "Ansible controller/core/collections/linter availability, configuration/plugins, inventory resolution, connections, privileges, check mode, actual changes and repeat-run idempotency untested.",
+    "All command examples are conditional documentation; example resource values/hosts/paths are not a validated deployment."
+  ],
+  "parent_verification_recommended": [
+    "Parse the receipt and the three SKILL.md frontmatter blocks; confirm unique names and OMP discovery.",
+    "Check the installed 12-file inventory, all relative reference/license/notice links, and LICENSE identity against pinned source.",
+    "Confirm all installed payloads are documentation/license text and review approval/dependency/Windows boundaries; do not execute infrastructure command examples."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "healthy": true,
+  "environmentHealthy": false,
+  "scopeChecks": [
+    {
+      "name": "node",
+      "ok": true,
+      "classification": "healthy",
+      "detail": "24.19.0",
+      "details": {
+        "runtime": "node",
+        "version": "24.19.0"
+      }
+    },
+    {
+      "name": "registration:omp",
+      "ok": true,
+      "classification": "healthy",
+      "detail": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\mcp.json"
+    }
+  ],
+  "skill": {
+    "installed_version": "42",
+    "installed_tool_count": 207,
+    "state": "aligned",
+    "remediation": null
+  },
+  "registrations": [
+    {
+      "client": "omp",
+      "config_path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\mcp.json",
+      "command": [
+        "C:\\Program Files\\nodejs\\node.exe",
+        "C:\\Users\\Indrimeilla-PC\\AppData\\Roaming\\npm\\node_modules\\rea-agents\\scripts\\rea.mjs",
+        "mcp"
+      ],
+      "state": "aligned",
+      "remediation": null
+    },
+    {
+      "client": "opencode",
+      "config_path": "C:\\Users\\Indrimeilla-PC\\.config\\opencode\\opencode.jsonc",
+      "command": [
+        "C:\\Program Files\\nodejs\\node.exe",
+        "C:\\Users\\Indrimeilla-PC\\AppData\\Roaming\\npm\\node_modules\\rea-agents\\scripts\\rea.mjs",
+        "mcp"
+      ],
+      "state": "aligned",
+      "remediation": null
+    }
+  ],
+  "unrelatedMcpEntriesPreserved": true,
+  "serverInstructions": false,
+  "backup": "C:/Users/Indrimeilla-PC/.omp/agent/mcp.json.rea.backup"
+}

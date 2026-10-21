@@ -1,0 +1,426 @@
+{
+  "date": "2026-10-19",
+  "scope": "global OMP default-profile user, other hosts unchanged",
+  "decision": "MIGRATE original OMP skill4.6.0, manual-context guidance only; engine/detector/hooks/live not enabled",
+  "release": {
+    "url": "https://github.com/pbakaus/impeccable/releases/tag/cli-v4.6.0",
+    "annotatedTag": "64433be2953059f85c2c543fb1782e94f1317d28",
+    "sourceCommit": "8a0e198da34ebc5b936a9d5975fb7a3b1cf353b7",
+    "npmCliVersion": "4.6.0",
+    "engineVersion": "0.1.15",
+    "license": "Apache-2.0"
+  },
+  "baseline": {
+    "sourceCommit": "abf5779cabc20147fd9c013fa4705088c200bf8a",
+    "sharedPath": "C:/Users/Indrimeilla-PC/.agents/skills/impeccable",
+    "version": "4.5.2",
+    "preservedForOtherHosts": true
+  },
+  "delta": [
+    {
+      "sha": "ce9145b6defceae836d29ed1663899f00afaf975",
+      "message": "Fix: critique skips the detector on native targets (#1017) (#1033)"
+    },
+    {
+      "sha": "5a8382e409647274ea837c6b503fe0fd64a1f42c",
+      "message": "Fix: --version prints the installed skill's version (#1028) (#1032)"
+    },
+    {
+      "sha": "db0f2dfb47f12f7ff02ec98a81de1933ad22b8a4",
+      "message": "Sync generated provider output"
+    },
+    {
+      "sha": "d7c1abbf9af3a214f3819d3f0377006f57ddf2c7",
+      "message": "Engine 0.1.15 (#1034)"
+    },
+    {
+      "sha": "786a7875157f471ab766c97d84633fb1e88ca86a",
+      "message": "Sync generated provider output"
+    },
+    {
+      "sha": "8a0e198da34ebc5b936a9d5975fb7a3b1cf353b7",
+      "message": "Release 4.6.0 (#1038)"
+    }
+  ],
+  "benefit": "Original host-specific distribution instead of locally rewritten vendor SKILL; native critique detector skip fix; version/path provenance and alias isolation",
+  "installation": {
+    "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/impeccable",
+    "method": "byte-preserving copy of authenticated upstream OMP subtree, no bootstrap/install/build hooks",
+    "vendorFiles": 57,
+    "licenseAdded": true,
+    "engineExecuted": false,
+    "hooksEnabled": false,
+    "liveStarted": false,
+    "globalGuard": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/IMPECCABLE-OMP.md",
+    "excludedAlias": "agents/impeccable"
+  },
+  "staticRisks": {
+    "launcher": "override, sibling/cache/PATH candidate or first-run download+checksum+execute; Windows launcher comments say dry parsing rather than actual Windows test",
+    "telemetry": "engine roll/chosen sends to impeccable.style/api by default; DO_NOT_TRACK/IMPECCABLE_NO_TELEMETRY opt-out does not remove roll feature network",
+    "context": "upstream context may discover ancestor project/repo; local guard requires selected boundary and manual fallback",
+    "documents": "upstream redesign/doctor auto repair never overrides preservation and explicit approval"
+  },
+  "files": [
+    {
+      "path": ".omp/skills/impeccable/SKILL.md",
+      "bytes": 12355,
+      "gitBlob": "61a4cb89d4eed8177e4c9d7e3aa30e6bd63299dc",
+      "sha256": "a09052775894a2bd61cd8b9327c0c4b3d2215551acb191f84a6e82a697b109f4"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/adapt.md",
+      "bytes": 11301,
+      "gitBlob": "58d54aa3e6b1dfb34622d7b99e51c9c9c660b69a",
+      "sha256": "0648e4e06d01cabc91fa7dc19256ceedeeeea213b9265e9d36b0918370e16fb2"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/adapt.native.md",
+      "bytes": 3910,
+      "gitBlob": "f1ccd65d9788ffdfb5761824e6c51b8866f4cba5",
+      "sha256": "17c583cf8ad41266ea1e787b666b9d91fe13469d3d0f6af57c08e0146f9b17ac"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/android.md",
+      "bytes": 4093,
+      "gitBlob": "1f67a6bb574960cccb1692f460cc5432baebad65",
+      "sha256": "058f81f256134841875fd3183e06b37a023de0c877fd2b9eecd97011640791fe"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/animate.md",
+      "bytes": 5236,
+      "gitBlob": "4ae4cc5fcd7ae4341f4f130ab67a7d9b03c00562",
+      "sha256": "94b4ce6299fea93d9f256b2d25705961a76bc5ea940c56db4145686ebc99df1b"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/audit.md",
+      "bytes": 8528,
+      "gitBlob": "b3e1d7c98646501fcf150fb722f56f5d0eb38c2a",
+      "sha256": "b7c98bde47e00889c235e3d808b596224aad5a0869f25e439f135ce86551a075"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/audit.native.md",
+      "bytes": 8364,
+      "gitBlob": "fbccb56f6e6fe64fc6b24d82977f392a6285848e",
+      "sha256": "fe91fcf28638f95577af481a50edaf339d6c9a3ad3b9fa477bc81c116b8bc392"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/bolder.md",
+      "bytes": 3476,
+      "gitBlob": "78ceb8dfd8c8c5c636052d553f46d8942ec6aa76",
+      "sha256": "37565671b09d983ea1ad83a9e9190bc37255d93c68445958c6facecc7e0f7c4f"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/clarify.md",
+      "bytes": 4590,
+      "gitBlob": "3047a9d82b9cfa31b392e35c643d82bcdb50250a",
+      "sha256": "6c382f8283756e8a693d832b750f7e4cbff1ca5bdcc3825b2b4ef4da9f21876a"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/colorize.md",
+      "bytes": 4537,
+      "gitBlob": "dc45f88c5f81c61355a915c6ea1391b1a36c9ba8",
+      "sha256": "d1fbd55074abb2251bdaa03749d34acc42c38e46e47549f18f5848df57d43c42"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/component-review.md",
+      "bytes": 7990,
+      "gitBlob": "5be6c855222c52c543811550c16f425ee2a3324c",
+      "sha256": "3dff2961698085ecd2da91279c537988f2a6776af56ec7cf5183c50e55770224"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/craft-floor.md",
+      "bytes": 4484,
+      "gitBlob": "9653b980895fa343127982ba575085c31726eecc",
+      "sha256": "96e2e6bd4fcf9a2c6da65fb029f96d9176308fae2efd9d8653d3b8d838960e07"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/craft.md",
+      "bytes": 555,
+      "gitBlob": "dbbc9402c07cdab21f2b6eb69279b8435fecfd7f",
+      "sha256": "9205e222bc6565b37fb504ceec93233c2d2a456802b69d16e6b1c44723907c4c"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/critique.md",
+      "bytes": 43521,
+      "gitBlob": "ffcdc2bcc440aabb5ad06ad406571fb2f63d363f",
+      "sha256": "0c063736360c30d89eed6b60c5685cd61411495a7f4a838b14089a5137fd588d"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/degraded/asset-producer.md",
+      "bytes": 8417,
+      "gitBlob": "40e4af2aa7b82fe7dd7addf940243954c42d6224",
+      "sha256": "043a46607af8a3a9bffd9a1eadbdef793ae93e8c181a733f255c8572c77b98fd"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/degraded/documenter.md",
+      "bytes": 3325,
+      "gitBlob": "e9dfb799bcece32233386bf9702bc3141d56d196",
+      "sha256": "bcc05ea92faebb5c74037a9d4263a5ce9a56f5ab07c8ab3c59ee704d8cade745"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/degraded/finish-reviewer.md",
+      "bytes": 15834,
+      "gitBlob": "1b0311080e7d6ada595ae119cba5ff327617c5bb",
+      "sha256": "c40865450b53e0947bb4318e5e4a413d13e2ca0e8e26a8bea92aa043382d5910"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/degraded/manual-edit-applier.md",
+      "bytes": 7196,
+      "gitBlob": "ef5095b924623ce04e02188a6790ebd98a273bcd",
+      "sha256": "5fae7f8a2fc3ddd49ad0a413446dc44daedef5b6b7de5eb935bd2fbfad646d58"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/delight.md",
+      "bytes": 3716,
+      "gitBlob": "798c43a5b735a5b75b67484c516821f1355dfbd6",
+      "sha256": "56500b1f9d2fcec8324d7f448d813048b5831a46d3feeb1055bd3eb17ec3660f"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/distill.md",
+      "bytes": 5629,
+      "gitBlob": "6eb4f19b31060949d04882a0c514ac592d8a42cf",
+      "sha256": "74e20b26c29242bbebf79760315f7f0788e001566695618cfc70805484c6f92a"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/doctor.md",
+      "bytes": 5557,
+      "gitBlob": "46f2c5c1165081dba823a185a1a217a4226d1e10",
+      "sha256": "6715c8fc212136ff3e092787d111eacf25bc3692595e468aa5a4805dcbdf2f29"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/document.md",
+      "bytes": 27433,
+      "gitBlob": "9da0bc743f1883440c8d5261d137141a2c28e746",
+      "sha256": "7848f40e224cf520bd8554943c9816a1ff8c97b1db57af0844e3b1ebb223d91f"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/extract.md",
+      "bytes": 3345,
+      "gitBlob": "64ccab40ba439e82aaed95a3d14d43ebbf362af9",
+      "sha256": "54e71283cbd5646021fcd8eaa28d85852ec5288109c306aca9db9e2e4832338e"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/generate.md",
+      "bytes": 13113,
+      "gitBlob": "6a657adfc3c5f58560b1f585fd7e28310b5627be",
+      "sha256": "968f4253560eacfb5c40f4173353655d0658ed375b260e8f03d419c27c069645"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/harden.md",
+      "bytes": 9450,
+      "gitBlob": "cbe2941e5e9959dc5b475da24d33aecbff090e5a",
+      "sha256": "3898bd9b56a042e860a0db4fb4dd81ac81126fa218b604702e2ac0c2287ae09b"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/hooks.md",
+      "bytes": 13949,
+      "gitBlob": "55711d7340eeaa47b1116451e41666770413b15e",
+      "sha256": "02ea4f3f19439ee2078684ac9b8af72e2ef3b5392f9a9e48ea11f36e8357be1d"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/init.md",
+      "bytes": 11676,
+      "gitBlob": "68a0f9a53d1956e4bdac73a6c5047d961e4bba66",
+      "sha256": "69bc0879c301d86b04f2571919c472b0db81851afd2b7a2b7a6f7dcfc79c98cf"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/ios.md",
+      "bytes": 3812,
+      "gitBlob": "c6244dfe32176e5718d86211b7d1eb5601eb0860",
+      "sha256": "40c87038b5f75147a5952a96237acf312a327bf70c1bcd8e0a5f064625ae9668"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/layout.md",
+      "bytes": 5158,
+      "gitBlob": "bac174589d610e8de8056249a9b1c1e88ed825dc",
+      "sha256": "ba6871422b8cc6a0eb161160b0987afe9975169b52327d63e84d5f0b60240347"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/live-setup.md",
+      "bytes": 8183,
+      "gitBlob": "4b8cf9c73d19748deaf675a75f2938d728b3a35c",
+      "sha256": "75b6bf5e2cf1196e9fb614aa30df63954a46a3895621e871df60ce27c61d39c0"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/live.md",
+      "bytes": 36203,
+      "gitBlob": "925d5b1e1277dbffed2811a0129d14f88d3a69af",
+      "sha256": "00c054f38d78b897f097e7567d40c87d45d0b0ffaa72c760cef24ab596f30cce"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/mode-operate.md",
+      "bytes": 4716,
+      "gitBlob": "833775ba85f03bf65a4c1b23e39192f7653414e6",
+      "sha256": "7a52dd7a94ee75f6ae89542c86a1b6e1d306812b16e0d9dbf12d4acad44d148b"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/mode-persuade.md",
+      "bytes": 3638,
+      "gitBlob": "9c152d67064fb8453a7eaa89de20c35fc115b085",
+      "sha256": "21e78c8a77badb3f83290cd4577ed3b24bd4dd3b57136d7da75733d4f3ee9ac0"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/mode-read.md",
+      "bytes": 4396,
+      "gitBlob": "b30c4c9139e3094bd35c60738decb6109326153f",
+      "sha256": "a569989e6a3d6453b4c45e9474e162a15cc54e11732ac6baa7990a6e7cccc0b5"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/new-work.md",
+      "bytes": 61527,
+      "gitBlob": "7c9a095a115c9507a5d7c3d8d74374ff2e08b0c6",
+      "sha256": "88e5d1f00af96471a7f714a0dad0155b7f02df1ff8fa13bf3ec7e862481f4324"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/onboard.md",
+      "bytes": 7740,
+      "gitBlob": "d6a6de372d527d232c60f8317a077b5c5405b927",
+      "sha256": "9a2c08ee2516d2ee87129e7ebe6a0895f9990c9852d1f6fa7e70be9a6a88a659"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/operate.md",
+      "bytes": 4145,
+      "gitBlob": "524f2c3ae9fa497284e9699f3ca5320cce5d05cf",
+      "sha256": "a9d2203acd45ca33a13d5c68b02b23ed512425ac15f0e8438318ed124b43729d"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/optimize.md",
+      "bytes": 7614,
+      "gitBlob": "cc6ce4925266bf3c4a7d40b5a435fe315cbf6f1a",
+      "sha256": "6d368b679a0ed1815812815de65863b5840d419589dfbda06224c01149240287"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/overdrive.md",
+      "bytes": 9090,
+      "gitBlob": "76953e24e6dd06b62415fdfe71c7caa9756bd981",
+      "sha256": "96e508039c719c0815701c36b8418b18baee1967f915fa29b23b84861ae8ea94"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/polish.md",
+      "bytes": 6640,
+      "gitBlob": "c96d976dbae6728ba8f5801ef9fbddd7ca0dc670",
+      "sha256": "f208a7e73dd2339c7031aea672aea57f956cc0a263cf7cec3be5ad73d764e6b9"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/quieter.md",
+      "bytes": 4864,
+      "gitBlob": "a04100bf298c108fcf39139f19caffd665413232",
+      "sha256": "494d6fcb4701c437597c2ed16a9595af92f3d9ad53c944c96a2fb563bd766af5"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/region-map.md",
+      "bytes": 3352,
+      "gitBlob": "eab8478e3559383915959a76ef1a7eed76317cd8",
+      "sha256": "5db443a2e3a1865e343d70eed0ae954f5af2b52a55e6aad23338fab2c4270b8c"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/routing.md",
+      "bytes": 3330,
+      "gitBlob": "b5e9b803ec2ba3aa20fa21663512c3d9b135f7cb",
+      "sha256": "f3e70ed6f143668b1c1a72cbc75cdcc0302bbe302d5b36d5323ffef2277b61ec"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/shape.md",
+      "bytes": 3547,
+      "gitBlob": "90a74ae813331cbce8fff6beb498ced77970fadf",
+      "sha256": "a55f016c046cb6a27c55bd7f346375aeb506a755c4fbca19a5f92dbd42309c23"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/typeset.md",
+      "bytes": 5253,
+      "gitBlob": "f66094e53b866fdcad7bc935185412914e3a9c40",
+      "sha256": "83bdb595513dea1afe03508f25d9c37c8197757516c26a74a8302d0623f30555"
+    },
+    {
+      "path": ".omp/skills/impeccable/reference/visualize.md",
+      "bytes": 13915,
+      "gitBlob": "a0ed2298d9a74fdf5a435c4d7c37c362bde19224",
+      "sha256": "b85a768a1e1b3bfea1af8f75dd41b7eccea139e571234b3b0c03e49757502073"
+    },
+    {
+      "path": ".omp/skills/impeccable/scripts/VERSION",
+      "bytes": 7,
+      "gitBlob": "c34958a4711ded00fa63cf08feba742975cb3fed",
+      "sha256": "e0a25b3b7adde370a854cb1b4866bdc4b565236f0ee65dcdb1b7cd1bc3b6f071"
+    },
+    {
+      "path": ".omp/skills/impeccable/scripts/command-metadata.json",
+      "bytes": 8392,
+      "gitBlob": "89891ea4df179d5a07cf3aef42e84dafb1d05689",
+      "sha256": "e8720f3aa41135211cc58cc299a39eeda86c75651f4279cc1ede8db10dcc0584"
+    },
+    {
+      "path": ".omp/skills/impeccable/scripts/data/font-index-failures.json",
+      "bytes": 2437,
+      "gitBlob": "1aca67220413ef163570c75405b444d7a27a32be",
+      "sha256": "835f19a0a3812f3652dd6979a2ce5597f654fd01f26e1b420b92d5f42b997ce4"
+    },
+    {
+      "path": ".omp/skills/impeccable/scripts/data/font-index.json",
+      "bytes": 1100013,
+      "gitBlob": "9d2029971df232a72ff6584d264c104490521742",
+      "sha256": "47edbdfaf27073c47033d1ac7dfee881be49e2dcbda7671d1157300481dde6da"
+    },
+    {
+      "path": ".omp/skills/impeccable/scripts/impeccable",
+      "bytes": 8514,
+      "gitBlob": "eb60f8667dd6924bc6271e9e1a0761ea5f945751",
+      "sha256": "39d9600489073e227e4f4d55c451ce4252a6632ed7ae37923efbbcbc91f16d07"
+    },
+    {
+      "path": ".omp/skills/impeccable/scripts/impeccable.cmd",
+      "bytes": 8498,
+      "gitBlob": "dc0fd33e5ac02ec325cb21af7cef39b201959a35",
+      "sha256": "69cad1ae7355825ef320ac9638a1c9675ba9fda01c9a0fa12244cc4a1973e550"
+    },
+    {
+      "path": ".omp/skills/impeccable/scripts/live-browser-dom.js",
+      "bytes": 10623,
+      "gitBlob": "8646944982fcb5e36c111d134c5bf1e027bb27c6",
+      "sha256": "24f09f2597b9b55a1e2c4acd2ae5c95db5c8615cfc20aa07d1a3950538ad5c4a"
+    },
+    {
+      "path": ".omp/skills/impeccable/scripts/live-browser-ignores.js",
+      "bytes": 10346,
+      "gitBlob": "1c8514c7bcd8b8d889a1763965326fb6adec24a1",
+      "sha256": "c1cb6877ca99a0c1b38ba0c7d59f32702d3022f6821d8045f7133f7c40b6362f"
+    },
+    {
+      "path": ".omp/skills/impeccable/scripts/live-browser-session.js",
+      "bytes": 4346,
+      "gitBlob": "ad9cdf008fdbeebd3da6a93d4ef408b5abff7420",
+      "sha256": "42831c3cd874346d8e7f120808d91e6ed3cda5c3eca6eefd76b126659536bc87"
+    },
+    {
+      "path": ".omp/skills/impeccable/scripts/live-browser.js",
+      "bytes": 548448,
+      "gitBlob": "c7eed77fb06fa81ef9841f61b5ac28d3bfe5a4f1",
+      "sha256": "d7f1ee3fdfc423e90268e9c666dce61b2180b62431dbb6ecfc48bca65398a1f8"
+    },
+    {
+      "path": ".omp/skills/impeccable/scripts/modern-screenshot.umd.js",
+      "bytes": 29290,
+      "gitBlob": "a9c5208f6b141d3bafdb8eb843d6fcbdcf23e370",
+      "sha256": "bb36665889124a0b6e15f16045265737449c3bdcf2712cdb08af3cfa01563e2b"
+    }
+  ],
+  "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/upgrade-20261019",
+  "verification": {
+    "status": "passed guidance-only discovery, synthetic UI routing and non-destructive rollback; engine/runtime UI not claimed",
+    "verifiedAt": "2026-10-20",
+    "evidence": [
+      "upgrade-20261019-routing.json",
+      "upgrade-20261020-discovery-project.json",
+      "upgrade-20261020-discovery-neutral.json",
+      "upgrade-20261020-rollback.json"
+    ],
+    "notClaimed": [
+      "engine runtime",
+      "detector",
+      "native hooks",
+      "live-HMR",
+      "actual rendered UI",
+      "a11y/WCAG certification"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "plugins": {
+    "ponytail@ponytail": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2",
+        "version": "5.3.2",
+        "installedAt": "2026-10-19T09:29:03.012Z",
+        "lastUpdated": "2026-10-19T09:29:03.012Z"
+      }
+    ]
+  }
+}

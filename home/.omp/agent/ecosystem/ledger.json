@@ -1,0 +1,808 @@
+{
+  "schemaVersion": 2,
+  "updatedAt": "2026-10-20",
+  "wave": 1,
+  "state": "Global default-profile OMP: original Impeccable 4.6.0 guidance/manual context, Context7 MCP 4.4.4 through preserved DPAPI bridge, 52 skills reconciled, Ponytail full, Cloudflare guidance and bounded Semgrep/REA retained; not an engine enablement, OS sandbox or full security audit",
+  "ompVersion": "18.12.2",
+  "installMethod": "DISABLE_TELEMETRY=1 npx --no-install skills add LOCAL_AUDITED_SOURCE --skill SELECTED_NAMES --agent pi --global --copy --yes --json",
+  "skillsCliVersion": "1.7.2",
+  "installRoot": "C:/Users/Indrimeilla-PC/.agents/skills",
+  "ompOnlyInstallRoot": "C:/Users/Indrimeilla-PC/.omp/agent/skills",
+  "additionInstallMethod": "Earlier waves copied/adapted audited guidance. 2026-10-19: unmodified pinned Ponytail local marketplace plugin, complete unchanged Cloudflare skill, isolated binary-only hash-locked official Semgrep wheels; no custom skill/MCP server or other-host configuration changes",
+  "sources": {
+    "pocock": {
+      "repository": "https://github.com/mattpocock/skills",
+      "sha": "49dd158d1076134a641b33efb035946536778336",
+      "commitDate": "2026-10-09",
+      "license": "MIT",
+      "local": "sources/pocock",
+      "ownerVerified": true
+    },
+    "superpowers": {
+      "repository": "https://github.com/obra/superpowers",
+      "sha": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+      "commitDate": "2026-10-10",
+      "license": "MIT",
+      "local": "sources/superpowers",
+      "ownerVerified": true
+    },
+    "anthropic": {
+      "repository": "https://github.com/anthropics/skills",
+      "sha": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "commitDate": "2026-10-09",
+      "license": "Apache-2.0 for both selected skills; not a license assertion about other skills",
+      "local": "sources/anthropic",
+      "ownerVerified": true
+    },
+    "caveman": {
+      "repository": "https://github.com/JuliusBrussee/caveman",
+      "sha": "d262ab3882952a59312ff3537cd86d894523c5ab",
+      "commitDate": "2026-10-13",
+      "license": "Apache-2.0; retained historical MIT notices",
+      "local": "sources/caveman",
+      "ownerVerified": true
+    },
+    "context7": {
+      "repository": "https://github.com/upstash/context7",
+      "sha": "c7f80ce5af1ff1403d167579b76784482cf7f3e2",
+      "release": "@upstash/context7-mcp@4.4.4",
+      "license": "MIT",
+      "local": "sources/context7-mcp-4.4.4",
+      "npmIntegrity": "sha512-T2DkjhweDnC2mRAclDiTrPG3KI1zYKhhjgY2SMKD9PVrbEaGD8x35VsIOqpwwDc2qiKBvfYCF/jqr+jQMu5PUA==",
+      "ownerVerified": true,
+      "audit": "measurements/upgrade-20261020-mcp.json",
+      "previous": {
+        "sha": "3cdd8d4add9747c2f59d03c83ce862cc0825c4bb",
+        "release": "@upstash/context7-mcp@4.4.1",
+        "runtime": "runtime/node_modules/@upstash/context7-mcp",
+        "purpose": "Retained rollback target, not an active second route"
+      }
+    },
+    "hashicorp": {
+      "repository": "https://github.com/hashicorp/agent-skills",
+      "sha": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "license": "MPL-2.0 default; sixteen Sentinel samples BUSL-1.1",
+      "ownerVerified": true,
+      "audit": "measurements/hashicorp-audit.json"
+    },
+    "impeccable": {
+      "repository": "https://github.com/pbakaus/impeccable",
+      "sha": "8a0e198da34ebc5b936a9d5975fb7a3b1cf353b7",
+      "tag": "cli-v4.6.0",
+      "skillVersion": "4.6.0",
+      "engineVersionNotActivated": "0.1.15",
+      "license": "Apache-2.0",
+      "ownerVerified": true,
+      "local": "sources/impeccable-cli-4.6.0-8a0e198d",
+      "sourcePath": ".omp/skills/impeccable",
+      "localAdaptation": false,
+      "globalExecutionGuards": "IMPECCABLE-OMP.md",
+      "previousSharedInstallation": {
+        "sha": "abf5779cabc20147fd9c013fa4705088c200bf8a",
+        "skillVersion": "4.5.2",
+        "localAdaptation": true,
+        "preservedForOtherHosts": true,
+        "excludedOmpAlias": "agents/impeccable"
+      },
+      "audit": "measurements/upgrade-20261019-impeccable.json"
+    },
+    "devopsGuidance": {
+      "repository": "https://github.com/akin-ozer/cc-devops-skills",
+      "sha": "276af751e659315aaf56d3ad13d7c26f4e72e28a",
+      "license": "Apache-2.0",
+      "audit": "measurements/skills-infra-20261018.json"
+    },
+    "vercelGuidance": {
+      "repository": "https://github.com/vercel-labs/agent-skills",
+      "sha": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "license": "MIT declared in selected manifest; no standalone upstream LICENSE at pin",
+      "audit": "measurements/skills-fullstack-20261018.json"
+    },
+    "postgresGuidance": {
+      "repository": "https://github.com/supabase/agent-skills",
+      "sha": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+      "license": "MIT; original license retained",
+      "audit": "measurements/skills-fullstack-20261018.json"
+    },
+    "webappOpenCode": {
+      "local": "C:/Users/Indrimeilla-PC/.config/opencode/skills/webapp-testing",
+      "repository": "https://github.com/anthropics/skills",
+      "sha": null,
+      "originalAcquisitionCommit": null,
+      "contentCommit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "contentBlobSha1": "4726215301db64a0cc4d41fc3219c61f37a30f4a",
+      "sourceSha256": "8bc27790f6e6dfc2bfa6692326d4518baacf6a31dcc646d963c729adad2f7e34",
+      "contentIdentityMeaning": "Matching upstream content at named commit, not recovered original acquisition revision",
+      "license": "Apache-2.0; local source identity in adapter references/provenance.json",
+      "audit": "measurements/upgrade-20261019-skills.json"
+    },
+    "ponytail": {
+      "repository": "https://github.com/DietrichGebert/ponytail",
+      "sha": "09c434ab73ca43761c5d8b0c5d341926c2fba710",
+      "version": "5.3.2",
+      "license": "MIT",
+      "local": "sources/ponytail-09c434ab",
+      "ownerVerified": true,
+      "audit": "measurements/review-security-20261019.json"
+    },
+    "cloudflareSecurityAudit": {
+      "repository": "https://github.com/cloudflare/security-audit-skill",
+      "sha": "c1c8a8c1471069fb0e188eeaff69b8e8db6564a8",
+      "license": "MIT",
+      "local": "sources/security-audit-c1c8a8c",
+      "ownerVerified": true,
+      "audit": "measurements/review-security-20261019.json"
+    },
+    "semgrep": {
+      "repository": "https://github.com/semgrep/semgrep",
+      "sha": "72d3525fe7e02f486428386078f192f8c4756804",
+      "version": "1.181.0",
+      "license": "LGPL-2.1-or-later",
+      "local": "runtime/semgrep/1.181.0",
+      "wheelSha256": "c3d7295bfd26f994231d82145888bd0a73ef0ad66ffb0c0341f0350a90ac3136",
+      "ownerVerified": true,
+      "audit": "measurements/review-security-20261019.json"
+    },
+    "findSkills": {
+      "repository": "https://github.com/vercel-labs/skills",
+      "sha": null,
+      "matchingContentCommit": "a80e4c9d12d607631249d4d7d059f835d4b2f13a",
+      "sourcePath": "skills/find-skills/SKILL.md",
+      "license": "MIT",
+      "audit": "measurements/upgrade-20261020-host.json"
+    },
+    "orcaStubs": {
+      "distribution": "Orca 1.4.224, original bundled current-manifest.json",
+      "sha": null,
+      "releaseRevisions": { "computer-use": 9, "orca-cli": 37, "orchestration": 29 },
+      "license": "Standalone skill license not established; existing vendor distribution retained, no relicensing",
+      "audit": "measurements/upgrade-20261020-host.json"
+    },
+    "rea": {
+      "repository": "https://github.com/morluto/rea",
+      "sha": "3b79af28e80785afce9f5998d8f03289402a1847",
+      "release": "rea-agents@6.5.0",
+      "skillVersion": "42",
+      "license": "MIT",
+      "audit": "measurements/upgrade-20261020-mcp.json"
+    }
+  },
+  "components": [
+    {
+      "name": "grill-me",
+      "source": "pocock",
+      "sourcePath": "skills/productivity/grill-me",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/grill-me",
+      "installedAt": "2026-10-15",
+      "decision": "install; user-invoked alias only",
+      "dependencies": [
+        "grilling"
+      ],
+      "executables": "none",
+      "audit": "skills.sh Gen/Socket/Snyk pass; audits may predate SHA; full package read",
+      "rollback": "skills.ignoredSkills += grill-me; no data deletion required"
+    },
+    {
+      "name": "grilling",
+      "source": "pocock",
+      "sourcePath": "skills/productivity/grilling",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/grilling",
+      "installedAt": "2026-10-15",
+      "decision": "install with OMP routing",
+      "dependencies": [],
+      "executables": "none",
+      "audit": "skills.sh Gen/Socket/Snyk pass; full package read; no forced subagent for small fact queries",
+      "rollback": "skills.ignoredSkills += grilling"
+    },
+    {
+      "name": "tdd",
+      "source": "pocock",
+      "sourcePath": "skills/engineering/tdd",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/tdd",
+      "installedAt": "2026-10-15",
+      "decision": "install",
+      "dependencies": [
+        "codebase-design"
+      ],
+      "executables": "none; project tests execute only when authorized",
+      "audit": "skills.sh Gen/Socket/Snyk pass; full SKILL, tests, mocking and agent metadata read",
+      "rollback": "skills.ignoredSkills += tdd"
+    },
+    {
+      "name": "codebase-design",
+      "source": "pocock",
+      "sourcePath": "skills/engineering/codebase-design",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/codebase-design",
+      "installedAt": "2026-10-15",
+      "decision": "install as design reference/TDD dependency",
+      "dependencies": [],
+      "executables": "none",
+      "audit": "skills.sh Gen/Socket/Snyk pass; alternative-design 3+ agent fanout is opt-in, not default",
+      "rollback": "skills.ignoredSkills += codebase-design"
+    },
+    {
+      "name": "code-review",
+      "source": "pocock",
+      "sourcePath": "skills/engineering/code-review",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/code-review",
+      "installedAt": "2026-10-15",
+      "decision": "install; explicit request/pre-release only",
+      "dependencies": [
+        "native task",
+        "repo spec/standards"
+      ],
+      "executables": "Git instructions; parallel agents; no bundled script",
+      "audit": "skills.sh Snyk MEDIUM W011 external tracker input, Gen/Socket pass. Full package and setup/tracker dependency references read. Spec/Standards only, Fowler advisory, not generic bug review. Commit diff does not cover uncommitted work.",
+      "rollback": "skills.ignoredSkills += code-review"
+    },
+    {
+      "name": "systematic-debugging",
+      "source": "superpowers",
+      "sourcePath": "skills/systematic-debugging",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/systematic-debugging",
+      "installedAt": "2026-10-15",
+      "decision": "install methods; helper gated",
+      "dependencies": [
+        "tdd",
+        "verification-before-completion"
+      ],
+      "executables": "find-polluter.sh runs npm test, suppresses output/failures, unsafe whitespace splitting; NOT automatic and NOT pass evidence",
+      "audit": "skills.sh Gen/Socket/Snyk pass. Entire selected directory read, including TS example and shell helper. Vendor TDD reference maps to Pocock tdd.",
+      "rollback": "skills.ignoredSkills += systematic-debugging"
+    },
+    {
+      "name": "verification-before-completion",
+      "source": "superpowers",
+      "sourcePath": "skills/verification-before-completion",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/verification-before-completion",
+      "installedAt": "2026-10-15",
+      "decision": "install with owner-only verification scope",
+      "dependencies": [],
+      "executables": "none",
+      "audit": "skills.sh Gen/Socket/Snyk pass; full SKILL read; no redundant rerun of user failures; read-only workers report untested",
+      "rollback": "skills.ignoredSkills += verification-before-completion"
+    },
+    {
+      "name": "receiving-code-review",
+      "source": "superpowers",
+      "sourcePath": "skills/receiving-code-review",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/receiving-code-review",
+      "installedAt": "2026-10-15",
+      "decision": "install with untrusted-feedback boundary",
+      "dependencies": [],
+      "executables": "none; GitHub writes need task authorization",
+      "audit": "skills.sh Snyk MEDIUM W011 indirect prompt injection from reviews; Gen/Socket pass; full SKILL read",
+      "rollback": "skills.ignoredSkills += receiving-code-review"
+    },
+    {
+      "name": "skill-creator",
+      "source": "anthropic",
+      "sourcePath": "skills/skill-creator",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/skill-creator",
+      "installedAt": "2026-10-15",
+      "decision": "install guide; vendor runners/viewer not authorized defaults",
+      "dependencies": [],
+      "executables": "12 code files and every package reference read; PyYAML needed only for optional validator/packager; Claude CLI for optional optimizer; neither installed by skill",
+      "audit": "Static findings, not exploitation-tested: generated HTML/script injection, external Fonts/SheetJS, port-process termination; Claude runner writes ancestor .claude/commands, inherits env, paid calls, Windows pipe portability. Global routing forbids those automatic paths. skills.sh corroboration read.",
+      "rollback": "skills.ignoredSkills += skill-creator"
+    },
+    {
+      "name": "mcp-builder",
+      "source": "anthropic",
+      "sourcePath": "skills/mcp-builder",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/mcp-builder",
+      "installedAt": "2026-10-15",
+      "decision": "install guide; Anthropic harness gated",
+      "dependencies": [],
+      "executables": "evaluation.py, connections.py and requirements/examples fully read; not executed",
+      "audit": "Optional runner uses paid Anthropic SDK and arbitrary MCP tools; examples require containment/auth review, not copied as production-safe. skills.sh corroboration read.",
+      "rollback": "skills.ignoredSkills += mcp-builder"
+    },
+    {
+      "name": "caveman",
+      "source": "caveman",
+      "sourcePath": "skills/caveman",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/caveman",
+      "installedAt": "2026-10-15",
+      "decision": "retain; constrained light style trial",
+      "dependencies": [],
+      "executables": "none; only SKILL.md and README.md installed",
+      "audit": "skills.sh Gen/Socket/Snyk pass; entire selected package and licensing read. No engine/CLI/proxy/hooks. No global persistence/ultra/wenyan aliases. Savings unproven.",
+      "rollback": "skills.ignoredSkills += caveman; remove light-style routing after review"
+    },
+    {
+      "name": "aws-ami-builder",
+      "source": "hashicorp",
+      "sourcePath": "plugins/packer/skills/aws-ami-builder/SKILL.md",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/aws-ami-builder",
+      "sourceCommit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "upstreamTree": "aebc9718c7a48e29fb297c4c886671f00a3a3557",
+      "status": "Globally discovered and readable; statically audited with local compatibility fixes",
+      "runtimeLimits": "Real cloud apply/build/import/acceptance not executed",
+      "audit": "measurements/hashicorp-audit.json",
+      "rollback": "OMP skills.ignoredSkills entry; retain files/state"
+    },
+    {
+      "name": "azure-image-builder",
+      "source": "hashicorp",
+      "sourcePath": "plugins/packer/skills/azure-image-builder/SKILL.md",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/azure-image-builder",
+      "sourceCommit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "upstreamTree": "adca0adbc0b1c62044c7a45a42aeba1792f54597",
+      "status": "Globally discovered and readable; statically audited with local compatibility fixes",
+      "runtimeLimits": "Real cloud apply/build/import/acceptance not executed",
+      "audit": "measurements/hashicorp-audit.json",
+      "rollback": "OMP skills.ignoredSkills entry; retain files/state"
+    },
+    {
+      "name": "azure-verified-modules",
+      "source": "hashicorp",
+      "sourcePath": "plugins/terraform/skills/azure-verified-modules/SKILL.md",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/azure-verified-modules",
+      "sourceCommit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "upstreamTree": "1283009898a0afea389025c3c0aef261cb261f72",
+      "status": "Globally discovered and readable; statically audited with local compatibility fixes",
+      "runtimeLimits": "Real cloud apply/build/import/acceptance not executed",
+      "audit": "measurements/hashicorp-audit.json",
+      "rollback": "OMP skills.ignoredSkills entry; retain files/state"
+    },
+    {
+      "name": "new-terraform-provider",
+      "source": "hashicorp",
+      "sourcePath": "plugins/terraform/skills/new-terraform-provider/SKILL.md",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/new-terraform-provider",
+      "sourceCommit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "upstreamTree": "45e24623b72876af91894d4a16a5d8e694fc2e0f",
+      "status": "Globally discovered and readable; statically audited with local compatibility fixes",
+      "runtimeLimits": "Real cloud apply/build/import/acceptance not executed",
+      "audit": "measurements/hashicorp-audit.json",
+      "rollback": "OMP skills.ignoredSkills entry; retain files/state"
+    },
+    {
+      "name": "provider-actions",
+      "source": "hashicorp",
+      "sourcePath": "plugins/terraform/skills/provider-actions/SKILL.md",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/provider-actions",
+      "sourceCommit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "upstreamTree": "fd435f5233d095256a024ee975638dd4370be8db",
+      "status": "Globally discovered and readable; statically audited with local compatibility fixes",
+      "runtimeLimits": "Real cloud apply/build/import/acceptance not executed",
+      "audit": "measurements/hashicorp-audit.json",
+      "rollback": "OMP skills.ignoredSkills entry; retain files/state"
+    },
+    {
+      "name": "provider-configuration",
+      "source": "hashicorp",
+      "sourcePath": "plugins/terraform/skills/provider-configuration/SKILL.md",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/provider-configuration",
+      "sourceCommit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "upstreamTree": "5ff0a45f3ce46ee09c06bdfe33b07a6c49d30fb9",
+      "status": "Globally discovered and readable; statically audited with local compatibility fixes",
+      "runtimeLimits": "Real cloud apply/build/import/acceptance not executed",
+      "audit": "measurements/hashicorp-audit.json",
+      "rollback": "OMP skills.ignoredSkills entry; retain files/state"
+    },
+    {
+      "name": "provider-docs",
+      "source": "hashicorp",
+      "sourcePath": "plugins/terraform/skills/provider-docs/SKILL.md",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/provider-docs",
+      "sourceCommit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "upstreamTree": "e09f8bbedecd216fdd55b479dffdfab4c7147ac2",
+      "status": "Globally discovered and readable; statically audited with local compatibility fixes",
+      "runtimeLimits": "Real cloud apply/build/import/acceptance not executed",
+      "audit": "measurements/hashicorp-audit.json",
+      "rollback": "OMP skills.ignoredSkills entry; retain files/state"
+    },
+    {
+      "name": "provider-ephemeral-resources",
+      "source": "hashicorp",
+      "sourcePath": "plugins/terraform/skills/provider-ephemeral-resources/SKILL.md",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/provider-ephemeral-resources",
+      "sourceCommit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "upstreamTree": "746ca7317a77a319e16a705c1c810d7cc4c27c4c",
+      "status": "Globally discovered and readable; statically audited with local compatibility fixes",
+      "runtimeLimits": "Real cloud apply/build/import/acceptance not executed",
+      "audit": "measurements/hashicorp-audit.json",
+      "rollback": "OMP skills.ignoredSkills entry; retain files/state"
+    },
+    {
+      "name": "provider-framework-migration",
+      "source": "hashicorp",
+      "sourcePath": "plugins/terraform/skills/provider-framework-migration/SKILL.md",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/provider-framework-migration",
+      "sourceCommit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "upstreamTree": "abb9741c82bfb18794da29de4a689a41000ae8a9",
+      "status": "Globally discovered and readable; statically audited with local compatibility fixes",
+      "runtimeLimits": "Real cloud apply/build/import/acceptance not executed",
+      "audit": "measurements/hashicorp-audit.json",
+      "rollback": "OMP skills.ignoredSkills entry; retain files/state"
+    },
+    {
+      "name": "provider-resources",
+      "source": "hashicorp",
+      "sourcePath": "plugins/terraform/skills/provider-resources/SKILL.md",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/provider-resources",
+      "sourceCommit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "upstreamTree": "e4ee63beb9f4719a9d141001a6db9a5030689747",
+      "status": "Globally discovered and readable; statically audited with local compatibility fixes",
+      "runtimeLimits": "Real cloud apply/build/import/acceptance not executed",
+      "audit": "measurements/hashicorp-audit.json",
+      "rollback": "OMP skills.ignoredSkills entry; retain files/state"
+    },
+    {
+      "name": "provider-test-patterns",
+      "source": "hashicorp",
+      "sourcePath": "plugins/terraform/skills/provider-test-patterns/SKILL.md",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/provider-test-patterns",
+      "sourceCommit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "upstreamTree": "0d58044e2647b6c3fc114955391cdbc767396e96",
+      "status": "Globally discovered and readable; statically audited with local compatibility fixes",
+      "runtimeLimits": "Real cloud apply/build/import/acceptance not executed",
+      "audit": "measurements/hashicorp-audit.json",
+      "rollback": "OMP skills.ignoredSkills entry; retain files/state"
+    },
+    {
+      "name": "refactor-module",
+      "source": "hashicorp",
+      "sourcePath": "plugins/terraform/skills/refactor-module/SKILL.md",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/refactor-module",
+      "sourceCommit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "upstreamTree": "04bc36190e69c8906eac3d81f2b3e55b398141b0",
+      "status": "Globally discovered and readable; statically audited with local compatibility fixes",
+      "runtimeLimits": "Real cloud apply/build/import/acceptance not executed",
+      "audit": "measurements/hashicorp-audit.json",
+      "rollback": "OMP skills.ignoredSkills entry; retain files/state"
+    },
+    {
+      "name": "run-acceptance-tests",
+      "source": "hashicorp",
+      "sourcePath": "plugins/terraform/skills/run-acceptance-tests/SKILL.md",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/run-acceptance-tests",
+      "sourceCommit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "upstreamTree": "f39160bb93e9691efaed6966ef2fd632ca5b01c4",
+      "status": "Globally discovered and readable; statically audited with local compatibility fixes",
+      "runtimeLimits": "Real cloud apply/build/import/acceptance not executed",
+      "audit": "measurements/hashicorp-audit.json",
+      "rollback": "OMP skills.ignoredSkills entry; retain files/state"
+    },
+    {
+      "name": "terraform-policy",
+      "source": "hashicorp",
+      "sourcePath": "plugins/terraform/skills/terraform-policy/SKILL.md",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/terraform-policy",
+      "sourceCommit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "upstreamTree": "5aa35f62b12b370403082dd9354cc59c87a45d82",
+      "status": "Globally discovered and readable; statically audited with local compatibility fixes",
+      "runtimeLimits": "Real cloud apply/build/import/acceptance not executed",
+      "audit": "measurements/hashicorp-audit.json",
+      "rollback": "OMP skills.ignoredSkills entry; retain files/state"
+    },
+    {
+      "name": "terraform-search-import",
+      "source": "hashicorp",
+      "sourcePath": "plugins/terraform/skills/terraform-search-import/SKILL.md",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/terraform-search-import",
+      "sourceCommit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "upstreamTree": "71bbf754f5dccc0fc805c1b75719e56c1f1edf08",
+      "status": "Globally discovered and readable; statically audited with local compatibility fixes",
+      "runtimeLimits": "Real cloud apply/build/import/acceptance not executed",
+      "audit": "measurements/hashicorp-audit.json",
+      "rollback": "OMP skills.ignoredSkills entry; retain files/state"
+    },
+    {
+      "name": "terraform-stacks",
+      "source": "hashicorp",
+      "sourcePath": "plugins/terraform/skills/terraform-stacks/SKILL.md",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/terraform-stacks",
+      "sourceCommit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "upstreamTree": "b5d93c2d7a43fb52eac7917dac806d34eaf3a5a5",
+      "status": "Globally discovered and readable; statically audited with local compatibility fixes",
+      "runtimeLimits": "Real cloud apply/build/import/acceptance not executed",
+      "audit": "measurements/hashicorp-audit.json",
+      "rollback": "OMP skills.ignoredSkills entry; retain files/state"
+    },
+    {
+      "name": "terraform-style-guide",
+      "source": "hashicorp",
+      "sourcePath": "plugins/terraform/skills/terraform-style-guide/SKILL.md",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/terraform-style-guide",
+      "sourceCommit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "upstreamTree": "e065e597ff55b717f0d74320448057b0cd6659d4",
+      "status": "Globally discovered and readable; statically audited with local compatibility fixes",
+      "runtimeLimits": "Real cloud apply/build/import/acceptance not executed",
+      "audit": "measurements/hashicorp-audit.json",
+      "rollback": "OMP skills.ignoredSkills entry; retain files/state"
+    },
+    {
+      "name": "terraform-test",
+      "source": "hashicorp",
+      "sourcePath": "plugins/terraform/skills/terraform-test/SKILL.md",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/terraform-test",
+      "sourceCommit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "upstreamTree": "2549482b2946b6953ccc188820423bdd257314ab",
+      "status": "Globally discovered and readable; statically audited with local compatibility fixes",
+      "runtimeLimits": "Real cloud apply/build/import/acceptance not executed",
+      "audit": "measurements/hashicorp-audit.json",
+      "rollback": "OMP skills.ignoredSkills entry; retain files/state"
+    },
+    {
+      "name": "push-to-registry",
+      "source": "hashicorp",
+      "sourcePath": "plugins/packer/skills/push-to-registry/SKILL.md",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/push-to-registry",
+      "sourceCommit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "upstreamTree": "52cd981be1c76cfcdb060e23ffc0a4b767e8d220",
+      "status": "Globally discovered and readable; statically audited with local compatibility fixes",
+      "runtimeLimits": "Real cloud apply/build/import/acceptance not executed",
+      "audit": "measurements/hashicorp-audit.json",
+      "rollback": "OMP skills.ignoredSkills entry; retain files/state"
+    },
+    {
+      "name": "windows-builder",
+      "source": "hashicorp",
+      "sourcePath": "plugins/packer/skills/windows-builder/SKILL.md",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/windows-builder",
+      "sourceCommit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+      "upstreamTree": "597b5c33709f5fec2ec388b748a4a8fae2314539",
+      "status": "Globally discovered and readable; statically audited with local compatibility fixes",
+      "runtimeLimits": "Real cloud apply/build/import/acceptance not executed",
+      "audit": "measurements/hashicorp-audit.json",
+      "rollback": "OMP skills.ignoredSkills entry; retain files/state"
+    },
+    {
+      "name": "impeccable",
+      "source": "impeccable",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/impeccable",
+      "status": "Original OMP skill 4.6.0 unchanged; 52-skill discovery from two cwd and synthetic UI owner/manual-context routing passed; rollback to shared 4.5.2 and restoration exercised",
+      "localAdaptation": false,
+      "executionPolicy": "Global IMPECCABLE-OMP.md guards; official refusal/manual-context fallback, existing read-only project gate",
+      "engineExecution": "disabled; engine/detector/hooks/live not downloaded or executed",
+      "audit": "measurements/upgrade-20261019-impeccable.json",
+      "rollback": "Restore selected config/routing from backups/upgrade-20261019 and move only new OMP candidate directory outside discovery; shared 4.5.2 preserved"
+    },
+    {
+      "name": "reverse-engineer-anything",
+      "path": "C:/Users/Indrimeilla-PC/.agents/skills/reverse-engineer-anything",
+      "source": "rea",
+      "status": "Skill 42 and CLI 6.5.0 retained; bundled skill matches, inert ZIP identity/content inventory plus open/inspect/close and relative-path rejection verified",
+      "audit": "measurements/upgrade-20261020-rea.json",
+      "rollback": "Disable only mcpServers.rea; retain existing shared skill and all unrelated MCP entries"
+    },
+    {
+      "name": "docker-container-builds",
+      "source": "devopsGuidance",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/docker-container-builds",
+      "status": "OMP-only documentation; no build/daemon/registry access exercised",
+      "audit": "measurements/skills-infra-20261018.json"
+    },
+    {
+      "name": "kubernetes-manifest-operations",
+      "source": "devopsGuidance",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/kubernetes-manifest-operations",
+      "status": "OMP-only documentation; no cluster access or schema validator installed/exercised",
+      "audit": "measurements/skills-infra-20261018.json"
+    },
+    {
+      "name": "ansible-automation",
+      "source": "devopsGuidance",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/ansible-automation",
+      "status": "OMP-only documentation; Linux controller is a separate prerequisite; no target access",
+      "audit": "measurements/skills-infra-20261018.json"
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "source": "vercelGuidance",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/vercel-react-best-practices",
+      "status": "OMP-only conditional implementation guidance; Impeccable remains design owner; no application runtime exercised",
+      "audit": "measurements/skills-fullstack-20261018.json"
+    },
+    {
+      "name": "supabase-postgres-best-practices",
+      "source": "postgresGuidance",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/supabase-postgres-best-practices",
+      "status": "OMP-only conditional plain Postgres/Supabase guidance; no database connection/query/migration exercised",
+      "audit": "measurements/skills-fullstack-20261018.json"
+    },
+    {
+      "name": "webapp-testing",
+      "source": "webappOpenCode",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/webapp-testing",
+      "status": "Native browser adapter; synthetic validation/correction/keyboard save and narrow viewport exercised via owned Edge CDP",
+      "audit": "measurements/webapp-smoke-20261018.json"
+    }
+  ],
+  "integrationComponents": [
+    {
+      "name": "supermemory-v5",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/supermemory-v5",
+      "runtime": "runtime/memory.ts",
+      "provenance": "Locally authored against verified migration/OpenAPI and installed SDK 5.0.2 types; not an upstream Git SHA",
+      "status": "Cloud document done + dynamic dreaming done + corrected fresh-process recall verified in omp_selftest; project policy allows only Onboarding; forget/delete not applied",
+      "privacy": "capture defaults off; no MCP; DPAPI only",
+      "rollback": "exclude supermemory-v5; retain encrypted credentials and data until targeted deletion approval"
+    },
+    {
+      "name": "context7-docs",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/context7-docs",
+      "runtime": [
+        "runtime/context7.ts",
+        "runtime/context7-mcp.ts"
+      ],
+      "provenance": "Local MIT-attributed adapter of inspected Context7 workflows; pinned package integrity in lockfile; CLI release SHA not asserted",
+      "status": "MCP 4.4.4 isolated runtime passed real DPAPI handshake, version-aware public resolve/query, missing library, invalid-input boundary and teardown; CLI diagnostic timeout exercised",
+      "evidence": "measurements/upgrade-20261020-mcp.json",
+      "rollback": "Restore runtime/context7.ts and this skill from backups/upgrade-20261019/mcp; retained 4.4.1 handshake verified, preserve registration/DPAPI"
+    },
+    {
+      "name": "ponytail",
+      "plugin": "ponytail@ponytail",
+      "scope": "user",
+      "source": "ponytail",
+      "skills": ["ponytail", "ponytail-review", "ponytail-audit", "ponytail-debt", "ponytail-gain", "ponytail-help"],
+      "runtime": "pi-extension/index.js (official, unchanged)",
+      "activation": "per-turn default full; native mode/session controls; task-relevant review skills without mandatory slash invocation",
+      "status": "18 upstream extension tests passed; real RPC mode commands and review alias passed; one injected core section observed; ordinary review auto-loaded the skill",
+      "limits": "No OMP band/board; subagent inheritance not verified. Print-mode alias exited without work; official /skill:ponytail-review passed in print mode",
+      "rollback": "omp plugin disable --scope user ponytail@ponytail; restart. Do not run global upstream cleanup script",
+      "evidence": "measurements/review-security-20261019.json"
+    },
+    {
+      "name": "security-audit",
+      "scope": "OMP user",
+      "source": "cloudflareSecurityAudit",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/security-audit",
+      "payload": "20 upstream subtree files plus original MIT LICENSE; 21 files, 315748 bytes, all compared byte-for-byte",
+      "activation": "automatic task-relevant guidance; native security-reviewer remains focused source-review owner",
+      "status": "fresh-session authorization question auto-loaded original skill; no audit artifacts or target execution",
+      "fullAudit": "not run; native Windows validator OS flags absent, sandbox and race-safe artifact promotion unproven",
+      "rollback": "exclude security-audit in OMP ignoredSkills; retain source/license and existing data",
+      "evidence": "measurements/review-security-20261019.json"
+    },
+    {
+      "name": "semgrep",
+      "scope": "OMP user MCP",
+      "source": "semgrep",
+      "runtime": "runtime/semgrep/1.181.0/venv/Scripts/semgrep.exe mcp --transport stdio",
+      "lock": "runtime/semgrep/1.181.0/requirements.lock",
+      "status": "67 hash-locked binary distributions installed; real MCP handshake and synthetic positive/negative scan passed",
+      "tools": ["get_abstract_syntax_tree", "get_supported_languages", "semgrep_scan_with_custom_rule"],
+      "privacy": "tracing/metrics/version-check/elicitation off; empty app token; isolated child settings/log/cache/temp/PATH; public OAuth metadata GET at startup, not offline",
+      "limits": "default/remote/cloud/supply-chain/schema tools disabled; setup prompts/resources inert and forbidden to auto-invoke; dependency lifespan warning remains; no packet capture or zero-egress claim",
+      "rollback": "disable only semgrep MCP entry; restart/disconnect; preserve Context7/REA/DPAPI",
+      "evidence": "measurements/review-security-20261019.json"
+    }
+  ],
+  "intentionallyNotInstalled": [
+    {
+      "name": "caveman-stats",
+      "reason": "Claude transcript/history/config/SessionEnd hooks do not measure OMP; use native OMP usage"
+    },
+    {
+      "name": "caveman-review, caveman-commit, cavecrew",
+      "reason": "task ownership duplicates native or selected owners"
+    },
+    {
+      "name": "superpowers test-driven-development, brainstorming, requesting-code-review, writing-skills",
+      "reason": "competing owners excluded by user matrix"
+    },
+    {
+      "name": "unapproved full plugins/hooks/installers and upstream setup skills",
+      "reason": "No implicit dependencies or foreign-host setup; official Ponytail OMP plugin is the explicitly approved 2026-10-19 exception"
+    }
+  ],
+  "runtime": {
+    "path": "runtime",
+    "install": "npm install --ignore-scripts --no-audit --no-fund",
+    "lock": "runtime/package-lock.json",
+    "pins": {
+      "skills": "1.7.2",
+      "supermemory": "5.0.2",
+      "ctx7": "0.6.1",
+      "@upstash/context7-mcp": "4.4.4",
+      "typescript": "5.9.3"
+    },
+    "context7IsolatedRuntime": {
+      "path": "runtime/context7/4.4.4",
+      "lock": "runtime/context7/4.4.4/package-lock.json",
+      "baselineRetained": "4.4.1 in original runtime for rollback only; no second active server"
+    },
+    "supermemorySdkGitHead": "dc1cf8595095b3358867b5feb11971d1b39aca80",
+    "skillsCliGitHead": "671e8c320810d36fed80fac5f1a2c1bf7e82d812",
+    "supermemoryMcp": false,
+    "context7Route": "mcp: ~/.omp/agent/mcp.json -> existing runtime/context7-mcp.ts -> isolated pinned 4.4.4; instructions:false; DPAPI retained",
+    "secrets": "Both keys stored DPAPI CurrentUser and used through approved launchers; no global key export",
+    "nativeMemory": "off; local Mnemopi banks are isolated comparator artifacts, not production staging",
+    "semgrep": {
+      "version": "1.181.0",
+      "lock": "runtime/semgrep/1.181.0/requirements.lock",
+      "distribution": "official Windows AMD64 wheel with 67 binary-only hash-locked distributions",
+      "route": "native user mcp.json; direct official stdio executable; instructions:false; no custom launcher"
+    }
+  },
+  "rollback": {
+    "configBackup": "backups/wave1/config.yml",
+    "skillsLockBackup": "backups/wave1/agents-skill-lock.json",
+    "globalAgentsPreviouslyAbsent": true,
+    "safeFirstStep": "disable by skills.ignoredSkills, preserving existing exclusions; no deletion",
+    "destructiveRollback": "requires explicit approval; do not delete user data, secrets, or existing skills automatically",
+    "sourceRetention": "sources retained for SHA provenance/license notices; no auto-update",
+    "architecture": "Disable context7 via enabled:false; memory allowCapture:false or remove exact mapping; exclude skills via ignoredSkills. Do not delete credentials, cloud documents, state or other-tool configurations."
+  },
+  "verification": {
+    "discovery": {
+      "measuredAt": "2026-10-15; historical snapshot, see skillsExpansion for current verification",
+      "status": "passed",
+      "kind": "startup-and-skill-resolution-not-cloud-execution",
+      "omp": "18.11.0",
+      "model": "gpt-6.1-sol",
+      "contextWindow": 500000,
+      "readyMs": 3614.0128,
+      "startupContextEstimate": 9601,
+      "skillListingTokensO200k": 827,
+      "skillWindowPercent": 0.1654,
+      "discoveredSkills": 38,
+      "resolvedAuditedSkills": 34,
+      "hashicorpSkills": 20,
+      "impeccableGlobal": true,
+      "globalRoutingLoaded": true,
+      "excludedCompetitorsAbsent": true,
+      "reviewCommand": true,
+      "stderr": "",
+      "scope": "RPC startup estimate; MCP descriptors are measured separately; not a matched performance benchmark"
+    },
+    "context7": "measurements/context7-omp-smoke.json",
+    "context7Comparison": "measurements/context7-audit.json",
+    "context7Regression": "measurements/context7-regression.json",
+    "memory": "measurements/memory-audit.json",
+    "designGate": "measurements/design-gate-smoke.json",
+    "hashicorp": "measurements/hashicorp-smoke.json",
+    "offlineSafety": {
+      "status": "passed",
+      "checks": 36
+    },
+    "typecheck": "TypeScript 5.9.3 noEmit passed for ten runtime TS files",
+    "dependencies": "measurements/dependency-audit.json",
+    "approval": "yolo retained at user request; rules are agent policy, not OS containment",
+    "skillsExpansion": "measurements/skills-expansion-20261018.json",
+    "skillsIntegrity": "measurements/skills-integrity-20261018.json",
+    "reaRegistration": "measurements/rea-registration-20261018.json",
+    "reviewSecurity": "measurements/review-security-20261019.json",
+    "upgrade": "measurements/upgrade-20261020-acceptance.json",
+    "all52Skills": "measurements/upgrade-20261020-host.json",
+    "stableFamilies": "measurements/upgrade-20261019-skills.json",
+    "routingSmoke": "measurements/upgrade-20261019-routing.json",
+    "report": "ARCHITECTURE-AUDIT.md"
+  },
+  "legacyVerification": {
+    "status": "historical and partly overstated; not current acceptance",
+    "data": {
+      "skillInstallCli": "11 installed successfully",
+      "discovery": "17 total skill commands; excluded old design skills absent; global AGENTS loaded",
+      "invocation": "11 upstream URIs resolved; fresh-session TDD/debug/native review paths exercised",
+      "negativeTrigger": "one ordinary Q&A read only caveman",
+      "startupTokens": 392,
+      "startupContextEstimate": 8386,
+      "baseline": "actual fresh-session synthetic probes recorded; not matched to phase0 warm context; one matched routing refinement pair recorded with cache/noise caveats",
+      "offlineSafetyChecks": 35,
+      "typecheck": "passed TypeScript 5.9.3 noEmit",
+      "nativeMemory": "isolated FTS-only readiness and stats verified, full parity pending; basic retain validated (exit 0), full 5-stage pipeline exit code 1 - phase debug required",
+      "approval": "effective write mode, eval prompt, ordered Bash patterns; not a sandbox"
+    }
+  },
+  "gaps": [
+    "No OS-enforced sandbox established",
+    "Terraform/Packer/jq absent from PATH; no infrastructure runtime certification",
+    "No real UI in current Onboarding root; visual/a11y quality not tested",
+    "No automatic memory hook/model-weight learning; new project mappings remain opt-in",
+    "Full Cloudflare security-audit skill installed unchanged, guidance verified; full audit not run because native Windows validator flags and OS sandbox/promotion requirements are unmet",
+    "Akin executable validators, KubeShark, Timescale-specific/Hugging Face/LangChain/network-engineer packages not installed; six new domain/browser guidance skills do not certify workloads",
+    "REA native/Android decompilation engines not exercised; static JavaScript historical smoke and fresh inert ZIP lifecycle/inventory only; 6.7.0 upgrade deferred for breaking saved-Evidence/caller contracts",
+    "Automatic Edge launcher failed WebSocket connection; owned explicit CDP smoke succeeded, automatic-launch cause unresolved",
+    "Ponytail print-mode extension alias may exit without work; real RPC alias and official headless /skill:ponytail-review passed; subagent persona inheritance not verified",
+    "Semgrep startup performs public OAuth metadata discovery and reports a dependency lifespan warning; no zero-egress or cloud/Pro feature claim",
+    "2026-10-20 fresh sessions in project and neutral cwd each discovered 52 skills and mounted Context7/REA/Semgrep; prior discovery numbers remain historical snapshots",
+    "Impeccable engine/detector/hooks/live remain off; actual app visual/a11y acceptance and full Cloudflare audit need separately approved targets and prerequisites",
+    "Original acquisition commits of find-skills/webapp-testing and standalone Orca stub license remain unknown; matching content and vendor artifact identities are recorded without invented pins"
+  ]
+}

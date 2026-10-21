@@ -1,0 +1,30 @@
+{
+  "recordedAt": "2026-10-15",
+  "omp": "18.11.0",
+  "model": "openai-codex/gpt-6.1-sol:high",
+  "tokenizer": "O200kBase embedded in omp toks",
+  "startup": {
+    "phase0": {"skillListingTokens":154,"contextEstimateTokens":6559,"readyMs":3654.7277},
+    "wave1First": {"skillListingTokens":392,"contextEstimateTokens":8331,"readyMs":9172.3992},
+    "wave1Final": {"skillListingTokens":392,"contextEstimateTokens":8386,"readyMs":3697.2147,"contextWindow":500000,"skillWindowPercent":0.0784,"discoveredSkills":17,"upstreamSkillUrisResolved":11,"nativeReviewDiscovered":true,"globalRoutingLoaded":true},
+    "limitations":"Single observations, not median latency. Startup context is an OMP estimate. Skill-list token count is exact offline tokenization of the actual rendered listing, not full SKILL bodies. No inference prompt requested for startup probes."
+  },
+  "behavior": [
+    {"name":"A_chunk_before_routing_refinement","requests":5,"input":11800,"cacheRead":32896,"output":1464,"totalTokens":46160,"toolCalls":5,"wallMs":55944.6294,"skillReads":["tdd","verification-before-completion","systematic-debugging"],"result":"RED observed ERR_ASSERTION; GREEN 9 assertions, 0 failures"},
+    {"name":"B_TTL","requests":5,"input":24711,"cacheRead":24832,"output":1330,"totalTokens":50873,"toolCalls":6,"wallMs":45609.4439,"skillReads":["systematic-debugging","tdd","verification-before-completion","codebase-design"],"result":"Before 3/7 pass and 4/7 fail; after 7/7 pass, 0 failures; boundary and falsy causes isolated"},
+    {"name":"C_native_review","requests":3,"input":19173,"cacheRead":5760,"output":892,"totalTokens":25825,"toolCalls":3,"wallMs":29764.5323,"skillReads":["systematic-debugging","verification-before-completion"],"result":"Actual /review command, supplied synthetic diff only. Four-case eval truth table confirmed two unauthorized grants; P1 finding"},
+    {"name":"D_negative_trigger","requests":2,"input":12779,"cacheRead":0,"output":65,"totalTokens":12844,"toolCalls":1,"wallMs":11489.7465,"skillReads":["caveman"],"answer":"4.","result":"No unrelated domain/workflow skill was read on this one Q&A probe"},
+    {"name":"A_chunk_after_routing_refinement","requests":5,"input":10232,"cacheRead":29952,"output":1075,"totalTokens":41259,"toolCalls":6,"wallMs":37707.9809,"skillReads":["tdd","tdd/tests.md","tdd/mocking.md","verification-before-completion"],"result":"RED observed ERR_ASSERTION; GREEN 9/9, 0 failures; systematic-debugging not read for planned RED"}
+  ],
+  "routingComparison": {"change":"Expected TDD RED remains owned by tdd, not a second debugging workflow","samePromptModelToolset":true,"singlePairOnly":true,"tokensBefore":46160,"tokensAfter":41259,"toolsBefore":5,"toolsAfter":6,"caution":"Observed total tokens and wall time decreased but tool calls increased. Cache/output variation and a single pair prevent a general causal performance or skill-savings claim."},
+  "verification": {
+    "offlineSafety":{"status":"passed","checks":35,"coverage":["secret input rejection","namespace boundaries","single-fact input","default-deny capture/global writes","manifest tamper/action/namespace rejection","destructive apply without approval rejected","mismatched approval scope rejected","Context7 public-query guard","exact-key redaction preserves public auth placeholders","clean error projection","real loopback network failure","in-memory DPAPI encrypt/decrypt"]},
+    "typecheck":{"status":"passed","compiler":"typescript 5.9.3","command":"npx --no-install tsc --noEmit --target ES2024 --module NodeNext --moduleResolution NodeNext --allowImportingTsExtensions --skipLibCheck --types node memory.ts memory-acceptance.ts context7.ts context7-mcp.ts context7-acceptance.ts offline-smoke.ts lib/secrets.ts lib/secret-filter.ts lib/memory-policy.ts"},
+    "missingKey":{"memory":"clean nonzero error observed","context7Cli":"credential-unavailable observed","context7Mcp":"exit 1, credential-unavailable, no protocol/stdout credential","credentialStore":"missing"},
+    "nativeMemoryReadiness":{"status":"verified initialization only","processOverlay":"runtime/native-memory-selftest.yml","llmMode":"none","noEmbeddings":true,"autoRecall":false,"autoRetain":false,"bank":"omp_selftest_native","working":0,"episodic":0,"triples":0,"statsAgentInvoked":false,"stderr":"","globalMemoryBackend":"off","fullBehaviorComparison":"pending authenticated Supermemory acceptance; no parity claim"},
+    "approvalConfig":{"effectiveMode":"write","eval":"prompt","bash":"ordered compound/substitution prompts, selected diagnosis allows, unknown execution prompts","boundary":"native approval is not a filesystem/network sandbox; semantic risk approvals remain required","behaviorTiming":"Behavior probes above ran before hardening Eval approval; future headless execution requires an explicit authorized benchmark grant, not an automatic bypass"},
+    "cloudMemory":"NOT RUN: key unavailable; dynamic dreaming, fresh-process recall, correction, isolation, targeted forget/delete, costs remain unverified",
+    "cloudContext7":"NOT RUN: key unavailable; authenticated resolve/query, absent library, timeout and route A/B remain unverified",
+    "allSkillBenefitAB":"Not established. Phase0 used warm audit-context probes; cannot attribute differences to the installed skill suite. Caveman savings not established."
+  }
+}

@@ -1,0 +1,26 @@
+ansible-automation — OMP documentation-only adaptation
+
+Source: https://github.com/akin-ozer/cc-devops-skills
+Pinned revision: 276af751e659315aaf56d3ad13d7c26f4e72e28a
+Upstream material:
+  devops-skills-plugin/skills/ansible-generator/SKILL.md
+  devops-skills-plugin/skills/ansible-generator/references/best-practices.md,
+  selected lines 1-300 (not a claim to audit the unread remainder).
+License: Apache-2.0; complete upstream license is preserved in LICENSE.
+
+Modified on 2026-10-18 for OMP on Windows. Both SKILL.md and
+references/automation-patterns.md are rewritten/condensed derivatives, not
+verbatim upstream files. Changes include native OMP tools/skill ownership,
+explicit Linux controller requirement, Windows editing support, no default
+all-host targets, controller/plugin trust review, exact-target approval for
+check-mode/real operations, secret protection, conditional validation, no
+automatic dependency installation, accurate authorized_key collection identity,
+and removal of inaccurate simplified precedence/deprecation/error handling
+claims. Examples are documentation-only and unexecuted.
+
+No upstream validators/test scripts, inventory targets, role templates,
+Molecule configuration, installers, plugins, hooks, or third-party toolchain
+is installed here. The source-only checkout remains separately under
+ecosystem/sources. No upstream NOTICE file was found by the source
+attribution-file inventory. This added notice does not alter the upstream
+license or imply endorsement.

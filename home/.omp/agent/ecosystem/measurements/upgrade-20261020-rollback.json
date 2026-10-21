@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-20",
+  "scope": "Non-destructive Impeccable discovery rollback; retained Context7 runtime direct handshake, active Context7 pin unchanged",
+  "impeccableOld": {
+    "version": "4.5.2",
+    "resolved": true,
+    "outputSha256": "fc7efbb8f80eac7fb56adbc861e631caef03af21594b3296de98410089e111b8"
+  },
+  "impeccableRestored": {
+    "version": "4.6.0",
+    "resolved": true,
+    "outputSha256": "1445632635798a9adac68d4b2f7710735901936122da0b3c2110f21e74ac28b1",
+    "sharedInstallationChanged": false
+  },
+  "context7Retained": {
+    "version": "4.4.1",
+    "handshake": true,
+    "credentialsSupplied": false
+  },
+  "context7Teardown": {
+    "exitCode": 0,
+    "stderr": "Context7 Documentation MCP Server v4.4.1 running on stdio\n",
+    "protocolErrors": 0,
+    "pid": 5844,
+    "stillRunning": false
+  }
+}

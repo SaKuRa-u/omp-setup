@@ -1,0 +1,20 @@
+docker-container-builds — OMP documentation-only adaptation
+
+Source: https://github.com/akin-ozer/cc-devops-skills
+Pinned revision: 276af751e659315aaf56d3ad13d7c26f4e72e28a
+Upstream material: devops-skills-plugin/skills/dockerfile-generator/SKILL.md
+License: Apache-2.0; complete upstream license is preserved in LICENSE.
+
+Modified on 2026-10-18 for OMP on Windows. Both SKILL.md and
+references/build-patterns.md are rewritten/condensed derivatives, not verbatim
+upstream files. Changes include native OMP tools/skill ownership, PowerShell
+host commands, explicit Linux-container assumptions, read-only-first workflow,
+exact-target authorization for execution/network/writes/billing, secret handling,
+conditional validation, dependency limits, corrected distroless health-check
+semantics, and removal of automatic validation/performance claims.
+
+No upstream generator/validator/setup/test scripts, installers, plugins, hooks,
+example executable bundle, or third-party toolchain is installed here. The
+source-only checkout remains separately under ecosystem/sources. No upstream
+NOTICE file was found by the source attribution-file inventory. This added
+attribution notice does not alter the upstream license or imply endorsement.

@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-21",
+  "status": "implemented-and-verified-with-stated-limits",
+  "scope": "OMP default-profile local Publish or Perish MCP for personal non-profit academic discovery and citation exports",
+  "approval": "User approved the proposed local PoP connector and combination with writing skills; free services/accounts only, notify before any free-account API key expansion.",
+  "runtime": {
+    "directory": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/publish-or-perish/1.0.0",
+    "node_observed": "24.19.0",
+    "npm_observed": "11.17.0",
+    "omp_observed": "18.12.5",
+    "host_or_global_node_upgrade_performed": false,
+    "connector_version": "1.0.0",
+    "official_mcp_sdk": "@modelcontextprotocol/sdk@1.32.1",
+    "sdk_line": "Original upstream v1 maintenance line; supports MCP through 2025-11-25, not the 2026-07-28 spec. Existing OMP stdio compatibility was exercised.",
+    "zod": "4.6.7",
+    "dependency_install": "npm install --ignore-scripts --no-audit --no-fund --save-exact",
+    "dependency_install_added_packages": 95,
+    "new_provider_accounts_or_paid_services": false,
+    "new_connector_api_keys": false
+  },
+  "vendor": {
+    "download_url": "https://harzing.com/download/pop8tools.zip",
+    "version_observed": "pop8query 8.19.5300.9483 (2025.12.17.1527) Windows 32-bit (Intel x86)",
+    "archive_bytes": 1340628,
+    "archive_sha256": "2d6b7eef005699d5396dfe806f85f3aaec922506cdfb58919d203db2cd609ca0",
+    "executable_sha256": "5cf24bf7586c5622b5214c654d8ae81d8da151fc6762bc1ca9d08a2ebd4a6f52",
+    "authenticode_status": "Signature verified",
+    "signer": "Tarma Software Research Ltd",
+    "certificate_thumbprint": "CB3D15998E0DADA45B7FDE7537CDF3EB0583EC44",
+    "binary_hash_checked_each_mcp_startup": true,
+    "unused_companions": "Original archive also contains pop8error.exe and pop8metrics.exe. pop8metrics.exe was observed without a signer; neither companion is executed by the connector.",
+    "license": "Proprietary personal non-profit; original binary not modified or redistributed publicly.",
+    "license_url": "https://harzing.com/resources/publish-or-perish/end-user-license-agreement",
+    "cli_documentation": "https://harzing.com/resources/publish-or-perish/command-line"
+  },
+  "capabilities": {
+    "tools": ["pop_search", "pop_export"],
+    "sources_allowed": ["crossref", "pubmed", "gscholar"],
+    "sources_rejected": ["scopus", "wos", "lens", "openalex", "semscholar"],
+    "source_policy": "Only currently enabled keyless public sources. The latter two are excluded from this implementation, not claimed to be inherently paid.",
+    "search_fields": ["keywords", "title", "author", "journal", "year_from", "year_to", "max_results", "sort"],
+    "max_results_target": "1 to 50; official PoP may round a provider batch upward; actual count is returned without inventing pagination/completeness",
+    "export_formats": ["json", "bibtex", "ris", "csv"],
+    "export_behavior": "Text only, no caller filesystem paths; session search_id; JSON snapshot or official offline cache exports with a JSON cache equality check",
+    "writing_routing": ["deep-research for strategy/synthesis", "citation-management for identity, metadata, deduplication and citation styles", "academic-paper for drafting/revision", "academic-paper-reviewer or academic-pipeline only when requested"],
+    "upstream_skills_modified": false
+  },
+  "verification": {
+    "boundary_and_regression_tests": { "command": "npm test", "passed": 6, "failed": 0, "exit_code": 0 },
+    "final_smoke": {
+      "command": "npm run smoke",
+      "exit_code": 0,
+      "checks": ["MCP initialization and two-tool discovery", "paid source rejected", "Crossref known-paper search", "offline JSON, BibTeX, RIS and CSV exports retain DOI/title/count", "PubMed known-paper search", "empty PubMed search and empty export", "unknown export ID rejected"],
+      "known_paper_doi": "10.1126/science.1225829",
+      "known_paper_title": "A Programmable Dual-RNA-Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+      "known_paper_year": 2012,
+      "crossref_returned": 1,
+      "pubmed_returned": 1,
+      "automatic_retries": 0,
+      "cache_note": "Real source HTTP responses were observed during development. Final smoke can use the isolated vendor cache; it is not claimed to refetch every source on every run."
+    },
+    "google_scholar_separate_live_smoke": {
+      "exit_code": 0,
+      "mcp_is_error": false,
+      "source": "gscholar",
+      "query": { "title": "programmable endonuclease", "author": "Jinek", "year_from": 2012, "year_to": 2012, "max_results": 1 },
+      "returned": 1,
+      "doi": "10.1126/science.1225829",
+      "key_used": false,
+      "author_list_truncation_observed": true
+    },
+    "host_integration": {
+      "method": "Actual omp --mode rpc --no-session --no-title --no-extensions --no-ui; get_state/get_available_commands and builtin /mcp reload",
+      "exit_code": 0,
+      "model_inference_requested": false,
+      "reload_agent_invoked": false,
+      "writing_skills_discovered": ["skill:academic-paper", "skill:academic-paper-reviewer", "skill:citation-management", "skill:deep-research"],
+      "new_routing_and_free_only_policy_loaded": true,
+      "routes_discovered_after_reload": ["xd://mcp__publish_or_perish_pop_search", "xd://mcp__publish_or_perish_pop_export"],
+      "existing_context7_rea_semgrep_routes_retained": true,
+      "existing_mcp_configurations_equal_to_backup": true,
+      "existing_parent_conversation_mount": "Still contains the pre-install device inventory; direct xd reads there returned No such tool. Reload or a new session is required; another process's reload is not asserted to reload the parent."
+    },
+    "development_failures_not_hidden": [
+      { "run": 1, "exit_code": 1, "cause": "Extra APA export test expected plain text, but official PoP returned RTF with Unicode escapes.", "resolution": "Keep the four formats in the approved proposal. APA/Vancouver/journal styles belong to citation-management/writing skills, not a new RTF converter." },
+      { "run": 2, "exit_code": 1, "cause": "Full PubMed title was tokenized by PoP into AND clauses including a/in. Cached NCBI XML contained Count=0 and PhraseNotFound=a,in.", "resolution": "Expose the source limitation, preserve caller semantics, and verify discovery with distinctive title terms plus author/year. No automatic stopword removal, fake match or silent fallback." },
+      { "run": 3, "exit_code": 1, "cause": "Valid PubMed JSON contains an author object with name/affiliation among string authors. Initial schema rejected it.", "resolution": "Accept and preserve the vendor's string-or-structured author representation; add a regression test. Final suite and smoke passed." }
+    ],
+    "observed_unrelated_warning": "RTK upstream No hook installed detector warning remained visible; no generic rtk init or unrelated configuration change was performed."
+  },
+  "security_and_privacy": {
+    "transport": "local stdio only; no HTTP listener or public endpoint",
+    "process": "Fixed hash-checked executable; execFile with shell=false; explicit equals-form allowlisted arguments; source/format enums and bounded strict input schemas",
+    "limits": { "cli_timeout_ms": 90000, "cli_max_buffer_bytes": 4194304, "mcp_input_max_bytes": 65536, "concurrent_operations_per_server": 1, "search_ids_retained_per_session": 32 },
+    "child_environment": "OS essentials and connector-local HOME/APPDATA/TEMP only; no inherited API keys, proxy environment or Node hooks",
+    "storage": "Separate state directory; no access to GUI settings/results by the connector. Public queries, cached responses, cookies and vendor logs persist unencrypted without scheduled deletion.",
+    "external_data": "Bibliographic text, links, TeX and CSV are untrusted. No automatic URL opening, PDF download, macro/formula execution, full-manuscript upload, or new telemetry was added by the connector.",
+    "not_claimed": ["OS sandbox", "full security audit or absence of vulnerabilities", "complete search coverage", "verified scientific claim support", "validated peer review/retraction status", "publisher-validated citation style", "free existing LLM subscription or internet service"],
+    "not_forced_during_tests": ["CAPTCHA challenge", "network outage", "90-second process timeout", "oversize source response", "complete confidential-manuscript workflow"]
+  },
+  "changed_configuration": ["C:/Users/Indrimeilla-PC/.omp/agent/mcp.json: add only publish_or_perish", "C:/Users/Indrimeilla-PC/.omp/agent/AGENTS.md: add writing/PoP/free-only routing", "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/PANDUAN-PROYEK-OMP.md: section 1.6"],
+  "backup_directory": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/publish-or-perish-20261021",
+  "rollback": "Remove only the new MCP entry and PoP routing section, then reload. Preserve intervening user changes, GUI data and all other MCP integrations.",
+  "source_sha256": {
+    "pop.mjs": "39fed17c9c30d6f5b6cc525009193538027eaa66041f3e34cc9259c8377a78bb",
+    "server.mjs": "25c8098a70347bff71fac04aae8cd284e13e8e3ea672d2e7c3768961fc9b21c5",
+    "test.mjs": "5efd307d6a20eba135c46b3bbc1fbefe9b5fb2b21a831466419a553b30880d9d",
+    "smoke.mjs": "17d162bcc0115ea3ab6bcde537f69a2076efe29f955eca109af3d6776dd1abb2",
+    "package.json": "b3e97d412f929c6ccb250f38039f631ae4d73f77b7b97153527181099a64d983",
+    "package-lock.json": "a07666fbdae322cd4b13bb07b453d75513df52f8c433fcbde14568cbf92162b1"
+  }
+}

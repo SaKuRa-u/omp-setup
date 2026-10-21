@@ -1,0 +1,343 @@
+{
+  "date": "2026-10-19",
+  "omp": "18.12.2",
+  "scope": "global default-profile OMP user; no other host configuration changed",
+  "pins": {
+    "ponytail": {
+      "version": "5.3.2",
+      "sha": "09c434ab73ca43761c5d8b0c5d341926c2fba710",
+      "source": "https://github.com/DietrichGebert/ponytail",
+      "local": "sources/ponytail-09c434ab",
+      "license": "MIT",
+      "integrity": [
+        {
+          "path": "package.json",
+          "sha256": "1c687e60bdb93e97fc75c976009956fbef045e14cd22880435c7214407a9323a",
+          "bytes": 1308
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "f1af4301bd3b85026965f9f1cfa101b9bfd73a75c6b92f7a2a72bab5768abd36",
+          "bytes": 1092
+        },
+        {
+          "path": "pi-extension/index.js",
+          "sha256": "8b47403133defcd660a7b7bc5306d7a760c10b8ec59d466c983760867891d664",
+          "bytes": 9740
+        },
+        {
+          "path": "hooks/ponytail-config.js",
+          "sha256": "60b26f160a18cf27eddd5154e2d83f4afbd37097dabe9815795589a6f6293332",
+          "bytes": 6086
+        },
+        {
+          "path": "hooks/ponytail-instructions.js",
+          "sha256": "35cf044f1657b8c49767efbbb7f319e9fa69f37d66475d8d8e75b7d2d0fd05a6",
+          "bytes": 5663
+        },
+        {
+          "path": "skills/ponytail/SKILL.md",
+          "sha256": "f18008471528f0adde90a560d053f85935eed5cee26c447b7177ad24472bcf32",
+          "bytes": 3548
+        },
+        {
+          "path": "skills/ponytail-review/SKILL.md",
+          "sha256": "affa0eedca467b58699fafbea28f6f85352aa3e7f23785964bf42f029a291504",
+          "bytes": 5244
+        },
+        {
+          "path": "skills/ponytail-audit/SKILL.md",
+          "sha256": "3ab632ce4695de214dafe4db13d6f939e1c4be328bd0754ea751dc28b70be554",
+          "bytes": 5520
+        },
+        {
+          "path": "skills/ponytail-debt/SKILL.md",
+          "sha256": "f0b59cb7e623f68568f2164864c757d41f0452d176c2f28b5b9b3c6b7ef3a799",
+          "bytes": 1813
+        },
+        {
+          "path": "skills/ponytail-gain/SKILL.md",
+          "sha256": "b87f5b982820479831608d3b3d4b942c95577820fef088662348eb16b48792dc",
+          "bytes": 2216
+        },
+        {
+          "path": "skills/ponytail-help/SKILL.md",
+          "sha256": "c4b353c9a13a9fd7008e319d1965816faaed13dcb61feb90afc514e50031706b",
+          "bytes": 3264
+        }
+      ]
+    },
+    "cloudflare": {
+      "sha": "c1c8a8c1471069fb0e188eeaff69b8e8db6564a8",
+      "source": "https://github.com/cloudflare/security-audit-skill",
+      "local": "sources/security-audit-c1c8a8c",
+      "license": "MIT",
+      "integrity": [
+        {
+          "path": "AI-AND-LLM.md",
+          "sha256": "7335a95c43554eadefcf03ece639291bb0e038c398a179299e3887ffe06bd2ef",
+          "bytes": 10617
+        },
+        {
+          "path": "ATTACK-CLASSES.md",
+          "sha256": "3ee4f00c6e8c9dcf6dd02dd5ac2a4ceb322e2085f3e9fbe79cf0c6330bc7ef83",
+          "bytes": 15695
+        },
+        {
+          "path": "CLIENT-SIDE.md",
+          "sha256": "613f6b98f86083e045525c5b60154ffdab122bac35f1e05eb17488e6e453370c",
+          "bytes": 8594
+        },
+        {
+          "path": "CLOUD-AND-DEPLOYMENT.md",
+          "sha256": "3c80f3088be22345e07b057c056d6ed99fe2b0304f794398964f7ccd5a496ca3",
+          "bytes": 8291
+        },
+        {
+          "path": "DATA-ISOLATION-AND-LIFECYCLE.md",
+          "sha256": "307dcb3e24d292715c4a041190e7bb135646a37eb6187619ae01d000a634a4ad",
+          "bytes": 7798
+        },
+        {
+          "path": "DESKTOP-MOBILE-AND-LOCAL-IPC.md",
+          "sha256": "58eae8ee0ca6a46611c501ec5a3ab47fdff88dd7db0d8d74789bbf8bb19d8cb2",
+          "bytes": 8739
+        },
+        {
+          "path": "HUNTING.md",
+          "sha256": "71c121decea1322c47c718f6e110f1a892980bb4266bd7ac55ef043a213ade09",
+          "bytes": 22446
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "e598e694aa506650c7192d5ea3be0e50aca0d356ea00551c53429f0b01eb6391",
+          "bytes": 1078
+        },
+        {
+          "path": "MEMORY-SAFETY-AND-BINARY.md",
+          "sha256": "7c8b0dccfb35315cca2455509674d49632b2fe37e1f3aac16c1a496a7e9924a7",
+          "bytes": 10513
+        },
+        {
+          "path": "PROTOCOLS-RPC-AND-MESSAGING.md",
+          "sha256": "8b73816fa5b3697c9c40977f0c836b40f01d6e81929ff2720fe83ce089e9a619",
+          "bytes": 7483
+        },
+        {
+          "path": "RECONNAISSANCE.md",
+          "sha256": "02ca887aca84de8ae137f1891bd2f0a54f28d3fa6da92a27f54734382b3381a2",
+          "bytes": 15902
+        },
+        {
+          "path": "RESOURCE-EXHAUSTION-AND-AVAILABILITY.md",
+          "sha256": "4326fab5c92a0b4c420a70196254040105cd794026562130b59bf1a6db3e4baa",
+          "bytes": 7476
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "5e3e96a1e438d8f35fef0a1e38f02d4f00e2bdf910401b7dfe00e6779c6dac85",
+          "bytes": 22026
+        },
+        {
+          "path": "SUPPLY-CHAIN-AND-RELEASE.md",
+          "sha256": "f372e919940e335468ba1ae09f99026c3986a345f7fe26f8068f132e199f52a5",
+          "bytes": 7258
+        },
+        {
+          "path": "VALIDATION-AND-REPORTING.md",
+          "sha256": "b892470cb89bb31f33403e050d4bdfbe2cdaef940ade1496fa65e32b2e129449",
+          "bytes": 17843
+        },
+        {
+          "path": "WEB-PROTOCOL-AND-AUTH.md",
+          "sha256": "4f3066dffa23c5635859187be9b96c32f2aff29a688186b91ff0c63e47d62b5c",
+          "bytes": 12300
+        },
+        {
+          "path": "report-schema.json",
+          "sha256": "6575c9de4a62255699ea052ebf9a49ebfb373a32891bcd89af6f55cc84b35519",
+          "bytes": 14494
+        },
+        {
+          "path": "validate-coverage-ledger.cjs",
+          "sha256": "2eb280bd2e33c002916f86db9b29f9edfedb6454e5db973c766290465b868ac8",
+          "bytes": 33522
+        },
+        {
+          "path": "validate-coverage-ledger.test.cjs",
+          "sha256": "cfb9df26b03469a4279a70e7664a2a5434dd6f8c2c204e91f9b0aeb9dd71e648",
+          "bytes": 28483
+        },
+        {
+          "path": "validate-findings.cjs",
+          "sha256": "e85f232e36bfac0f866f244da50376692d6b45c690beadcb00608b0e6c8b5283",
+          "bytes": 28806
+        },
+        {
+          "path": "validate-findings.test.cjs",
+          "sha256": "b92001117a92c4161d43777a0ba2fa182a8a4d97f2304cc8c0cee5331497b73b",
+          "bytes": 26384
+        }
+      ]
+    },
+    "semgrep": {
+      "version": "1.181.0",
+      "sha": "72d3525fe7e02f486428386078f192f8c4756804",
+      "wheelSha256": "c3d7295bfd26f994231d82145888bd0a73ef0ad66ffb0c0341f0350a90ac3136",
+      "license": "LGPL-2.1-or-later",
+      "installedDistributions": 67,
+      "lock": "runtime/semgrep/1.181.0/requirements.lock",
+      "coreFilesCompared": 5
+    }
+  },
+  "verification": {
+    "context7AndReaUnchanged": true,
+    "memoryBackendOff": true,
+    "mounted": [
+      {
+        "server": "context7",
+        "mounted": true
+      },
+      {
+        "server": "rea",
+        "mounted": true
+      },
+      {
+        "server": "semgrep",
+        "mounted": true
+      }
+    ],
+    "modeSequence": [
+      "lite",
+      "ultra",
+      "off",
+      "full"
+    ],
+    "injectedCoreSections": 1,
+    "cloudflareFiles": 21,
+    "cloudflareBytes": 315748,
+    "autoReview": true,
+    "autoSecurityGuidance": true,
+    "negativeQna": true,
+    "skillsDiscovered": 52,
+    "discovery": {
+      "command": "node runtime/measure-foundation.mjs",
+      "exitCode": 0,
+      "readyMs": 22494.3897,
+      "skillListingTokensO200k": 1178,
+      "kind": "one startup observation, not causal performance benchmark"
+    },
+    "upstreamExtensionTests": {
+      "command": "node --test pi-extension/test/extension.test.js",
+      "passed": 18,
+      "failed": 0
+    },
+    "modes": {
+      "exitCode": 0,
+      "noExtensionErrors": true,
+      "noInference": true
+    },
+    "behavior": [
+      {
+        "name": "automatic-review",
+        "exitCode": 0,
+        "reads": [
+          "skill://ponytail-review"
+        ],
+        "tools": [
+          "read"
+        ],
+        "modelRequests": 2,
+        "answerObserved": true
+      },
+      {
+        "name": "automatic-security",
+        "exitCode": 0,
+        "reads": [
+          "skill://security-audit"
+        ],
+        "tools": [
+          "read"
+        ],
+        "modelRequests": 2,
+        "answerObserved": true
+      },
+      {
+        "name": "negative-qna",
+        "exitCode": 0,
+        "reads": [],
+        "tools": [],
+        "modelRequests": 1,
+        "answerObserved": true
+      }
+    ],
+    "rpcAlias": {
+      "exitCode": 0,
+      "settled": true,
+      "injectedMarkers": [
+        "PONYTAIL MODE ACTIVE — level: full"
+      ],
+      "answerObserved": true,
+      "extensionErrors": []
+    },
+    "headlessDirectSkill": {
+      "exitCode": 0,
+      "reads": [
+        "skill://ponytail-review"
+      ],
+      "answerObserved": true
+    },
+    "semgrep": {
+      "exitCode": 0,
+      "server": {
+        "name": "Semgrep",
+        "version": "1.29.0"
+      },
+      "tools": [
+        "get_abstract_syntax_tree",
+        "get_supported_languages",
+        "semgrep_scan_with_custom_rule"
+      ],
+      "positive": {
+        "path": "unsafe.py",
+        "line": 2,
+        "rule": "tmp.semgrep_scan_mt5fv00q.system-wildcard-detected"
+      },
+      "negative": "safe.py not flagged",
+      "scanErrors": [],
+      "externalRequests": [
+        "roots/list",
+        "roots/list",
+        "roots/list"
+      ],
+      "telemetryConfiguration": {
+        "tracing": "disabled",
+        "metrics": "off",
+        "appToken": "empty",
+        "versionCheck": "disabled"
+      },
+      "networkLimit": "Known public OAuth metadata GET; no network capture performed",
+      "stderr": "Starting Semgrep MCP server version v1.181.0\r\nC:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\runtime\\semgrep\\1.181.0\\venv\\Lib\\site-packages\\pydantic_settings\\sources\\utils.py:51: IncompleteFieldDefinitionWarning: Field 'lifespan' has an incomplete definition: its annotation contains an unresolved forward reference, so settings sources may fail to correctly resolve its value. Call `model_rebuild()` on the model where the field is defined, once all the referenced types are defined.\r\n  warnings.warn(  # noqa: B028  (called from many sources at differing depths, so no stacklevel is correct)\r\nUser doesn't have the Pro Engine installed, not running `semgrep mcp` daemon...\r\nSomehow, no roots found\r\nget_supported_languages succeeded\r\nSomehow, no roots found\r\nSomehow, no roots found\r\nFindings elicitation is not enabled, skipping.\r\nsemgrep_scan_with_custom_rule succeeded\r\n"
+    }
+  },
+  "limitations": {
+    "fullCloudflareAudit": "not run; native Node Windows lacks required O_NOFOLLOW/O_NONBLOCK; OS sandbox and race-safe artifact promotion unproven",
+    "headlessAlias": "omp -p /ponytail-review exited 0 without model run/answer; RPC alias passes; use official /skill:ponytail-review in headless mode",
+    "semgrepWarning": "Pydantic IncompleteFieldDefinitionWarning for lifespan; handshake/scan passed; warning not suppressed",
+    "network": "Semgrep public unauthenticated OAuth metadata discovery at startup; no packet capture or zero-egress claim",
+    "fixtureRule": "test-only rule reuses upstream system-wildcard patterns with abbreviated message; no new skill/server or production rule authored",
+    "notExercised": [
+      "Ponytail band/board (not supported on OMP)",
+      "subagent persona inheritance",
+      "full Cloudflare audit",
+      "Semgrep AST result",
+      "adversarial OS isolation",
+      "new token/auth flows"
+    ]
+  },
+  "rollback": {
+    "backup": "backups/review-security-20261019",
+    "firstStep": "disable added OMP plugin/server and start a new session; restore only selected OMP entries if needed",
+    "avoid": "global Ponytail cleanup script, other-host config mutation, credential/data deletion"
+  }
+}

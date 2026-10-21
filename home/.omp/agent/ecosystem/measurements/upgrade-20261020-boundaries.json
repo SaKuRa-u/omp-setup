@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-20",
+  "invalidResults": [
+    {
+      "boundary": "rejected-before-upstream",
+      "error": {
+        "code": -32602,
+        "message": "Only public library documentation requests and supported MCP methods are accepted."
+      }
+    },
+    {
+      "boundary": "rejected-before-upstream",
+      "error": {
+        "code": -32602,
+        "message": "Only public library documentation requests and supported MCP methods are accepted."
+      }
+    }
+  ],
+  "negativeTeardown": {
+    "exitCode": 0,
+    "stderr": "",
+    "protocolErrors": 0,
+    "pid": 12204,
+    "stillRunning": false
+  },
+  "timeout": {
+    "route": "existing CLI diagnostic timeout path; not injected vendor outage",
+    "milliseconds": 1,
+    "error": {
+      "code": "timeout-or-output-limit",
+      "message": "Context7 request failed (timeout-or-output-limit)."
+    }
+  },
+  "offline": {
+    "runner": "C:\\Users\\Indrimeilla-PC\\.bun\\bin\\bun.exe",
+    "status": "passed",
+    "checks": 36,
+    "scope": "offline safeguards only",
+    "dpapi": "in-memory round trip; no credential file created",
+    "network": "real loopback connection failure, not authenticated vendor outage",
+    "cloudAcceptance": "not measured by this offline script; use separate live acceptance evidence"
+  },
+  "failedRunnerAttempt": {
+    "command": [
+      "C:/Program Files/nodejs/node.exe",
+      "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/offline-smoke.ts"
+    ],
+    "exitCode": 1,
+    "error": "ERR_UNSUPPORTED_TYPESCRIPT_SYNTAX: memory.ts parameter property in Node strip-only mode",
+    "resolution": "Use existing documented Bun runner; no source change or Node upgrade"
+  },
+  "ponytail": {
+    "exitCode": 0,
+    "output": "✔ extension registers Ponytail commands (9.4054ms)\n✔ /ponytail updates session mode and injects instructions (15.275ms)\n✔ before_agent_start guards missing event and missing systemPrompt (#439, #440) (8.4445ms)\n✔ before_agent_start keeps OMP prompt parts and uses Pi sections (#776, #953) (11.3179ms)\n✔ session_start restores latest persisted mode (9.2714ms)\n✔ session_tree restores the selected branch's mode without persisting it (21.39ms)\n✔ OMP session_switch and session_branch restore the target session's mode (6.7105ms)\n✔ skill alias commands delegate to Pi skill commands (1.2964ms)\n✔ skill alias commands expand the skill and forward their arguments (1.2172ms)\n✔ normal mode disables persistent instructions (4.1396ms)\n✔ a request mentioning normal mode stays active (4.3008ms)\n✔ status bar renders the mode and flips active on agent_start (2.8666ms)\n✔ off mode clears the status bar entry (2.1886ms)\n✔ status bar stays silent when ui lacks a theme (2.548ms)\n✔ PONYTAIL_HIDE_STATUS hides the indicator but keeps ponytail active (#324) (5.4862ms)\n✔ config.hideStatus hides the indicator but keeps ponytail active (#324) (11.0029ms)\n✔ PONYTAIL_HIDE_STATUS=0 does not hide the indicator (3.3769ms)\n✔ /ponytail autocompletes modes, commands and default <mode> (1.2812ms)\nℹ tests 18\nℹ suites 0\nℹ pass 18\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 479.6621\n",
+    "stderr": ""
+  },
+  "semgrepAssertions": {
+    "oneFinding": {
+      "path": "unsafe.py",
+      "line": 2
+    },
+    "safeFileNotFlagged": true,
+    "bothFilesScanned": true,
+    "noScanErrors": true,
+    "astFunction": "increment",
+    "astReturnPlus": true
+  },
+  "reaAssertions": {
+    "archiveDigestMatches": true,
+    "manifestPathAndDigestMatch": true,
+    "noIntegrityContradictions": true,
+    "relativePathRejected": true
+  }
+}

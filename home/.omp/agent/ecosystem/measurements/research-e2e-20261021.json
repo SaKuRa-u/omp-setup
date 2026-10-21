@@ -1,0 +1,541 @@
+{
+  "date": "2026-10-21",
+  "status": "installed-guidance-verified-runtime-project-scoped-deferred",
+  "scope": "user OMP default profile; global guidance; per-project runtime when needed",
+  "observed_host": {
+    "omp": "18.12.3",
+    "node": "24.19.0",
+    "npm": "11.17.0",
+    "host_upgrade_performed": false
+  },
+  "user_decisions": {
+    "ars_use": "academic/personal noncommercial",
+    "runner": "per-project install/run upon app-check intent; no global runner",
+    "skills": "global",
+    "new_paid_services_authorized": false
+  },
+  "sources": [
+    {
+      "repository": "https://github.com/tester-army/e2e",
+      "tag": "e2e@0.21.2",
+      "commit": "393005aa6952eaef62886cd03c8d8060f8f05a4f",
+      "license": "Apache-2.0",
+      "notice_preserved": true,
+      "installed_skill": "e2e",
+      "baseline_runtime": {
+        "e2e": "0.21.2",
+        "@e2e-dev/web": "0.15.2",
+        "playwright-core": "1.64.0"
+      },
+      "runtime_installed": false
+    },
+    {
+      "repository": "https://github.com/Imbad0202/academic-research-skills",
+      "tag": "v3.23.1",
+      "commit": "4c5449017f46eb64d112a301d4817d22c7c9f3d9",
+      "license": "CC-BY-NC-4.0",
+      "copyright": "2026 Cheng-I Wu",
+      "original_snapshot": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/sources/academic-research-skills-4c544901",
+      "installed_skills": [
+        "deep-research",
+        "academic-paper",
+        "academic-paper-reviewer",
+        "academic-pipeline",
+        "sr-screener"
+      ],
+      "discovery_root": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/sources/academic-research-skills-4c544901",
+      "wrapper_hooks_aliases_registered": false
+    },
+    {
+      "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "commit": "593377bb048752abb0152deab9fbb1083a6087df",
+      "license": "MIT",
+      "installed_skill": "citation-management",
+      "vendor_scripts_installed": 8,
+      "vendor_scripts_executed": false
+    },
+    {
+      "repository": "https://github.com/AhmadHassan-BTed/Turnitout-Humanizer",
+      "commit": "b2f95139d08dd674a192cdb91af32bc6222f1469",
+      "license": "Proprietary",
+      "public_files": 62,
+      "skill_entrypoints": 0,
+      "installed": false,
+      "reason": "not a skill; engine unavailable in public tree; unauthorized copying/use prohibited; bypass/privacy claims not runtime-verified"
+    }
+  ],
+  "discovery": [
+    {
+      "kind": "live-OMP-startup-discovery-no-inference",
+      "cwd": "C:/Users/Indrimeilla-PC/orca/projects/Onboarding",
+      "exit_code": 0,
+      "seconds": 27.42,
+      "new_skills": [
+        {
+          "name": "skill:academic-paper",
+          "description": "12-agent academic paper writing pipeline. 11 modes (full/plan/outline/revision/revision-coach/abstract/lit-review/format-convert/citation-check/disclosure/rebuttal-audit). 6 paper types, 5 citation formats, bilingual abstracts, LaTeX/DOCX-via-Pandoc/PDF output. Style Calibration + Writing Quality Check + Anti-Patterns with IRON RULE markers. Triggers: write paper, academic paper, guide my paper, parse reviews, I got reviewer comments, revision roadmap, should we push back, conference rebuttal, grant panel response, audit my rebuttal, check my response draft, AI disclosure, check citations, citation check, check my references, verify references, look over the refs, 寫論文, 學術論文, 引導我寫論文, 審查意見, 我收到審查意見, 修訂路線圖, 評估回覆, 檢查引用, 引用檢查, 檢查參考文獻, 核對文獻, 논문 작성, 초록 작성, 논문 수정, 논문 계획을 도와줘, 심사 의견을 받았어, 심사 의견 반영, 답변서 점검, AI 사용 고지, 인용 확인, 인용 형식 검사, enmendar mi artículo, redactar artículo, guía mi artículo, analizar reseñas, auditar mi respuesta, verificar borrador de respuesta, verificar citas, divulgación de IA.",
+          "input": {
+            "hint": "arguments"
+          },
+          "source": "skill"
+        },
+        {
+          "name": "skill:academic-paper-reviewer",
+          "description": "Multi-perspective academic paper review with dynamic reviewer personas. Runs a 5-seat, role-separated review panel (Journal-Fit Reviewer + 3 peer-review roles + Devil's Advocate) with field-specific expertise; role separation is not a claim of independent error processes. Supports full review, re-review (verification), quick assessment, methodology focus, Socratic guided, and calibration modes. Triggers on: review paper, peer review, manuscript review, referee report, review my paper, critique paper, simulate review, editorial review, calibrate reviewer, reviewer calibration, measure reviewer accuracy, 審查論文, 論文審查, 模擬審查, 同儕審查, 幫我審這篇, 以審查人角度評估, 審查者校準, 논문 심사, 동료 심사, 모의 심사, 심사자 관점에서 평가, 심사자 보정, revisar artículo, revisión entre pares, revisión de manuscrito, informe de árbitro, revisa mi artículo, criticar artículo, simular revisión, revisión editorial, calibrar revisor.",
+          "input": {
+            "hint": "arguments"
+          },
+          "source": "skill"
+        },
+        {
+          "name": "skill:academic-pipeline",
+          "description": "Orchestrator for the full academic research pipeline: research -> write -> integrity check -> review -> revise -> re-review -> re-revise -> final integrity check -> finalize. Coordinates deep-research, academic-paper, and academic-paper-reviewer into a seamless 10-stage workflow with mandatory, coverage-bounded integrity checks, two-stage peer review, and auditable quality-assurance artifacts. Triggers on: academic pipeline, research to paper, full paper workflow, paper pipeline, end-to-end paper, research-to-publication, complete paper workflow, 연구부터 논문까지, 연구 주제 설정부터 논문 완성까지, 논문 전체 워크플로, flujo de trabajo académico, investigación a artículo, flujo completo de artículo, pipeline de investigación completa, publicación de investigación, flujo de trabajo completo del artículo.",
+          "input": {
+            "hint": "arguments"
+          },
+          "source": "skill"
+        },
+        {
+          "name": "skill:citation-management",
+          "description": "Comprehensive citation management for academic research. Search OpenAlex, PubMed, and Google Scholar for papers, extract accurate metadata, validate citations, and generate properly formatted BibTeX entries. This skill should be used when you need to find papers, verify citation information, convert DOIs to BibTeX, or ensure reference accuracy in scientific writing.",
+          "input": {
+            "hint": "arguments"
+          },
+          "source": "skill"
+        },
+        {
+          "name": "skill:deep-research",
+          "description": "Universal deep research agent team. 13-agent pipeline for rigorous academic research on any topic. 8 modes: full research, quick brief, paper review, lit-review, fact-check, three-way literature scan, Socratic guided research dialogue, and systematic review with optional meta-analysis. Covers research question formulation, Socratic mentoring, methodology design, systematic literature search, source verification, cross-source synthesis, risk of bias assessment, meta-analysis, APA 7.0 report compilation, editorial review, devil's advocate challenges, ethics review, and post-research literature monitoring. Triggers on: research, deep research, literature review, systematic review, meta-analysis, PRISMA, evidence synthesis, fact-check, WHY HOW WHAT papers, 3W literature scan, guide my research, help me think through, 研究, 深度研究, 文獻回顧, 文獻探討, 系統性回顧, 後設分析, 事實查核, 三段式文獻掃描, 引導我的研究, 幫我釐清, 幫我想想, 我不確定要研究什麼, 研究方向, 研究主題, 심층 연구, 문헌 조사, 체계적 문헌고찰, 메타분석, 사실 확인, 연구 방향을 잡아줘, 연구 주제 정하는 것을 도와줘, revisión de literatura, metaanálisis",
+          "input": {
+            "hint": "arguments"
+          },
+          "source": "skill"
+        },
+        {
+          "name": "skill:e2e",
+          "description": "Writes, runs, and debugs end-to-end tests for web and mobile apps with e2e, the agentic test runner, which mixes agent.act goals with exact locator assertions on a Playwright browser or an iOS or Android device. Also drives a project's running app live over the e2e MCP server to look at a screen, check a UI change, take a screenshot or record a video, and try a locator; and runs bug bashes, parallel e2e explore runs with each bug proven by a repro test. Use when a project depends on e2e or has an e2e.config.ts, when asked for end-to-end, browser, mobile, or agentic UI tests, to check a change in the running app, to QA or bug bash an app or branch, or when an e2e run fails.",
+          "input": {
+            "hint": "arguments"
+          },
+          "source": "skill"
+        },
+        {
+          "name": "skill:sr-screener",
+          "description": "Protocol-driven study screening for systematic, scoping and rapid reviews. Turns a proposal or PROSPERO protocol into confirmed eligibility rules, then screens titles/abstracts and full texts with two blinded AI reviewers and a third-reviewer adjudicator: ordered exclusion codes, no silent defaults, resumable batch runs, QC (seed studies, near-miss rechecks, kappa and PABAK), PRISMA 2020 counts, EndNote/Zotero RIS groups, an Excel log, a methods draft and a literature_corpus handoff to academic-paper. Reads RIS, PubMed .nbib, Web of Science and CSV exports; removes duplicates. 8 modes: protocol, quick, pilot, ta-screen, ft-screen, adjudicate, audit, report. Use it to screen records against eligibility criteria, pilot screening, resolve screening conflicts, audit exclusions or report the selection process. Triggers on: screen these papers, title/abstract screening, full-text screening, screening conflicts, inclusion criteria, PRISMA flow, غربالگری مقالات, اسکرینینگ عنوان و چکیده, معیارهای ورود و خروج.",
+          "input": {
+            "hint": "arguments"
+          },
+          "source": "skill"
+        }
+      ],
+      "skill_count": 59,
+      "routing_loaded": true,
+      "existing_mcp_preserved": true,
+      "ars_plugin_aliases_registered": false,
+      "model_inference_requested": false,
+      "stderr": "Still starting after 10s — phase: createAgentSession > discoverAndLoadMCPTools\n  logs: C:\\Users\\Indrimeilla-PC\\.omp\\logs\\omp.2026-10-21.13988.log · re-run with PI_DEBUG_STARTUP=1 for streaming phase markers\nStill starting after 20s — phase: createAgentSession > discoverAndLoadMCPTools\n  logs: C:\\Users\\Indrimeilla-PC\\.omp\\logs\\omp.2026-10-21.13988.log · re-run with PI_DEBUG_STARTUP=1 for streaming phase markers\n"
+    },
+    {
+      "kind": "live-OMP-startup-discovery-no-inference",
+      "cwd": "C:/Users/Indrimeilla-PC",
+      "exit_code": 0,
+      "seconds": 28.32,
+      "new_skills": [
+        {
+          "name": "skill:academic-paper",
+          "description": "12-agent academic paper writing pipeline. 11 modes (full/plan/outline/revision/revision-coach/abstract/lit-review/format-convert/citation-check/disclosure/rebuttal-audit). 6 paper types, 5 citation formats, bilingual abstracts, LaTeX/DOCX-via-Pandoc/PDF output. Style Calibration + Writing Quality Check + Anti-Patterns with IRON RULE markers. Triggers: write paper, academic paper, guide my paper, parse reviews, I got reviewer comments, revision roadmap, should we push back, conference rebuttal, grant panel response, audit my rebuttal, check my response draft, AI disclosure, check citations, citation check, check my references, verify references, look over the refs, 寫論文, 學術論文, 引導我寫論文, 審查意見, 我收到審查意見, 修訂路線圖, 評估回覆, 檢查引用, 引用檢查, 檢查參考文獻, 核對文獻, 논문 작성, 초록 작성, 논문 수정, 논문 계획을 도와줘, 심사 의견을 받았어, 심사 의견 반영, 답변서 점검, AI 사용 고지, 인용 확인, 인용 형식 검사, enmendar mi artículo, redactar artículo, guía mi artículo, analizar reseñas, auditar mi respuesta, verificar borrador de respuesta, verificar citas, divulgación de IA.",
+          "input": {
+            "hint": "arguments"
+          },
+          "source": "skill"
+        },
+        {
+          "name": "skill:academic-paper-reviewer",
+          "description": "Multi-perspective academic paper review with dynamic reviewer personas. Runs a 5-seat, role-separated review panel (Journal-Fit Reviewer + 3 peer-review roles + Devil's Advocate) with field-specific expertise; role separation is not a claim of independent error processes. Supports full review, re-review (verification), quick assessment, methodology focus, Socratic guided, and calibration modes. Triggers on: review paper, peer review, manuscript review, referee report, review my paper, critique paper, simulate review, editorial review, calibrate reviewer, reviewer calibration, measure reviewer accuracy, 審查論文, 論文審查, 模擬審查, 同儕審查, 幫我審這篇, 以審查人角度評估, 審查者校準, 논문 심사, 동료 심사, 모의 심사, 심사자 관점에서 평가, 심사자 보정, revisar artículo, revisión entre pares, revisión de manuscrito, informe de árbitro, revisa mi artículo, criticar artículo, simular revisión, revisión editorial, calibrar revisor.",
+          "input": {
+            "hint": "arguments"
+          },
+          "source": "skill"
+        },
+        {
+          "name": "skill:academic-pipeline",
+          "description": "Orchestrator for the full academic research pipeline: research -> write -> integrity check -> review -> revise -> re-review -> re-revise -> final integrity check -> finalize. Coordinates deep-research, academic-paper, and academic-paper-reviewer into a seamless 10-stage workflow with mandatory, coverage-bounded integrity checks, two-stage peer review, and auditable quality-assurance artifacts. Triggers on: academic pipeline, research to paper, full paper workflow, paper pipeline, end-to-end paper, research-to-publication, complete paper workflow, 연구부터 논문까지, 연구 주제 설정부터 논문 완성까지, 논문 전체 워크플로, flujo de trabajo académico, investigación a artículo, flujo completo de artículo, pipeline de investigación completa, publicación de investigación, flujo de trabajo completo del artículo.",
+          "input": {
+            "hint": "arguments"
+          },
+          "source": "skill"
+        },
+        {
+          "name": "skill:citation-management",
+          "description": "Comprehensive citation management for academic research. Search OpenAlex, PubMed, and Google Scholar for papers, extract accurate metadata, validate citations, and generate properly formatted BibTeX entries. This skill should be used when you need to find papers, verify citation information, convert DOIs to BibTeX, or ensure reference accuracy in scientific writing.",
+          "input": {
+            "hint": "arguments"
+          },
+          "source": "skill"
+        },
+        {
+          "name": "skill:deep-research",
+          "description": "Universal deep research agent team. 13-agent pipeline for rigorous academic research on any topic. 8 modes: full research, quick brief, paper review, lit-review, fact-check, three-way literature scan, Socratic guided research dialogue, and systematic review with optional meta-analysis. Covers research question formulation, Socratic mentoring, methodology design, systematic literature search, source verification, cross-source synthesis, risk of bias assessment, meta-analysis, APA 7.0 report compilation, editorial review, devil's advocate challenges, ethics review, and post-research literature monitoring. Triggers on: research, deep research, literature review, systematic review, meta-analysis, PRISMA, evidence synthesis, fact-check, WHY HOW WHAT papers, 3W literature scan, guide my research, help me think through, 研究, 深度研究, 文獻回顧, 文獻探討, 系統性回顧, 後設分析, 事實查核, 三段式文獻掃描, 引導我的研究, 幫我釐清, 幫我想想, 我不確定要研究什麼, 研究方向, 研究主題, 심층 연구, 문헌 조사, 체계적 문헌고찰, 메타분석, 사실 확인, 연구 방향을 잡아줘, 연구 주제 정하는 것을 도와줘, revisión de literatura, metaanálisis",
+          "input": {
+            "hint": "arguments"
+          },
+          "source": "skill"
+        },
+        {
+          "name": "skill:e2e",
+          "description": "Writes, runs, and debugs end-to-end tests for web and mobile apps with e2e, the agentic test runner, which mixes agent.act goals with exact locator assertions on a Playwright browser or an iOS or Android device. Also drives a project's running app live over the e2e MCP server to look at a screen, check a UI change, take a screenshot or record a video, and try a locator; and runs bug bashes, parallel e2e explore runs with each bug proven by a repro test. Use when a project depends on e2e or has an e2e.config.ts, when asked for end-to-end, browser, mobile, or agentic UI tests, to check a change in the running app, to QA or bug bash an app or branch, or when an e2e run fails.",
+          "input": {
+            "hint": "arguments"
+          },
+          "source": "skill"
+        },
+        {
+          "name": "skill:sr-screener",
+          "description": "Protocol-driven study screening for systematic, scoping and rapid reviews. Turns a proposal or PROSPERO protocol into confirmed eligibility rules, then screens titles/abstracts and full texts with two blinded AI reviewers and a third-reviewer adjudicator: ordered exclusion codes, no silent defaults, resumable batch runs, QC (seed studies, near-miss rechecks, kappa and PABAK), PRISMA 2020 counts, EndNote/Zotero RIS groups, an Excel log, a methods draft and a literature_corpus handoff to academic-paper. Reads RIS, PubMed .nbib, Web of Science and CSV exports; removes duplicates. 8 modes: protocol, quick, pilot, ta-screen, ft-screen, adjudicate, audit, report. Use it to screen records against eligibility criteria, pilot screening, resolve screening conflicts, audit exclusions or report the selection process. Triggers on: screen these papers, title/abstract screening, full-text screening, screening conflicts, inclusion criteria, PRISMA flow, غربالگری مقالات, اسکرینینگ عنوان و چکیده, معیارهای ورود و خروج.",
+          "input": {
+            "hint": "arguments"
+          },
+          "source": "skill"
+        }
+      ],
+      "skill_count": 59,
+      "routing_loaded": true,
+      "existing_mcp_preserved": true,
+      "ars_plugin_aliases_registered": false,
+      "model_inference_requested": false,
+      "stderr": "Still starting after 10s — phase: createAgentSession > discoverAndLoadMCPTools\n  logs: C:\\Users\\Indrimeilla-PC\\.omp\\logs\\omp.2026-10-21.7796.log · re-run with PI_DEBUG_STARTUP=1 for streaming phase markers\nStill starting after 20s — phase: createAgentSession > discoverAndLoadMCPTools\n  logs: C:\\Users\\Indrimeilla-PC\\.omp\\logs\\omp.2026-10-21.7796.log · re-run with PI_DEBUG_STARTUP=1 for streaming phase markers\n"
+    }
+  ],
+  "resolutions": [
+    {
+      "skill": "e2e",
+      "command": [
+        "omp",
+        "read",
+        "skill://e2e"
+      ],
+      "exit_code": 0,
+      "output_utf8_bytes": 10547,
+      "original_entrypoint_resolved": true,
+      "stderr": ""
+    },
+    {
+      "skill": "citation-management",
+      "command": [
+        "omp",
+        "read",
+        "skill://citation-management"
+      ],
+      "exit_code": 0,
+      "output_utf8_bytes": 16715,
+      "original_entrypoint_resolved": true,
+      "stderr": ""
+    },
+    {
+      "skill": "deep-research",
+      "command": [
+        "omp",
+        "read",
+        "skill://deep-research"
+      ],
+      "exit_code": 0,
+      "output_utf8_bytes": 52664,
+      "original_entrypoint_resolved": true,
+      "stderr": ""
+    },
+    {
+      "skill": "academic-paper",
+      "command": [
+        "omp",
+        "read",
+        "skill://academic-paper"
+      ],
+      "exit_code": 0,
+      "output_utf8_bytes": 65460,
+      "original_entrypoint_resolved": true,
+      "stderr": ""
+    },
+    {
+      "skill": "academic-paper-reviewer",
+      "command": [
+        "omp",
+        "read",
+        "skill://academic-paper-reviewer"
+      ],
+      "exit_code": 0,
+      "output_utf8_bytes": 45108,
+      "original_entrypoint_resolved": true,
+      "stderr": ""
+    },
+    {
+      "skill": "academic-pipeline",
+      "command": [
+        "omp",
+        "read",
+        "skill://academic-pipeline"
+      ],
+      "exit_code": 0,
+      "output_utf8_bytes": 59544,
+      "original_entrypoint_resolved": true,
+      "stderr": ""
+    },
+    {
+      "skill": "sr-screener",
+      "command": [
+        "omp",
+        "read",
+        "skill://sr-screener"
+      ],
+      "exit_code": 0,
+      "output_utf8_bytes": 33965,
+      "original_entrypoint_resolved": true,
+      "stderr": ""
+    }
+  ],
+  "routing_behavior": [
+    {
+      "id": "cek-aplikasi-no-app",
+      "exit_code": 0,
+      "tools": [
+        {
+          "tool": "read",
+          "args": {
+            "path": "skill://e2e"
+          }
+        },
+        {
+          "tool": "read",
+          "args": {
+            "path": "C:/Users/Indrimeilla-PC/orca/projects/Onboarding"
+          }
+        },
+        {
+          "tool": "read",
+          "args": {
+            "path": "skill://webapp-testing"
+          }
+        }
+      ],
+      "assistant_messages": [
+        "**Terverifikasi:** skill `e2e` dan `webapp-testing` dibaca. Root hanya menampilkan `PROPOSAL-UPGRADE-SKILLS-MCP.md` dan `.omp/agents/`; tidak terlihat source, manifest, atau konfigurasi aplikasi.\n\n**Prasyarat:** folder proyek aplikasi atau target aplikasi yang jelas diperlukan sebelum pengujian.\n\n**Belum diuji:** runtime/UI/E2E. Tidak memasang dependency, menulis file, menjalankan command aplikasi, atau mengakses internet; ini pemeriksaan routing read-only, bukan hasil tes aplikasi."
+      ],
+      "no_writes_commands_or_fanout": true,
+      "stderr": "Still starting after 10s — phase: createAgentSession > discoverAndLoadMCPTools\n  logs: C:\\Users\\Indrimeilla-PC\\.omp\\logs\\omp.2026-10-21.10168.log · re-run with PI_DEBUG_STARTUP=1 for streaming phase markers\nStill starting after 20s — phase: createAgentSession > discoverAndLoadMCPTools\n  logs: C:\\Users\\Indrimeilla-PC\\.omp\\logs\\omp.2026-10-21.10168.log · re-run with PI_DEBUG_STARTUP=1 for streaming phase markers\n",
+      "inference_model": "existing OMP default role; no new provider configured"
+    },
+    {
+      "id": "rencana-paper-nonkomersial",
+      "exit_code": 0,
+      "tools": [
+        {
+          "tool": "read",
+          "args": {
+            "path": "skill://academic-paper"
+          }
+        },
+        {
+          "tool": "read",
+          "args": {
+            "path": "skill://academic-paper/references/plan_mode_protocol.md:1-130"
+          }
+        }
+      ],
+      "assistant_messages": [
+        "1. **Fokus pertanyaan:** Penggunaan AI seperti apa yang ingin Anda kaji, pada mahasiswa dan konteks bacaan apa, serta aspek pemahaman mana yang menjadi fokus—misalnya memahami gagasan utama, menarik inferensi, atau mengevaluasi argumen?\n\n2. **Jenis artikel dan kesiapan bukti:** Apakah Anda ingin menulis penelitian empiris, tinjauan pustaka, atau artikel konseptual; dan bahan nyata apa yang sudah tersedia—literatur, rancangan penelitian, data, atau hasil analisis?\n\n3. **Tujuan tulisan:** Untuk siapa artikel ini ditulis atau ditujukan, dalam bahasa apa, dan adakah ketentuan panjang atau pedoman jurnal/tugas yang perlu diikuti?\n\nSkill `academic-paper` mode `plan` telah dibaca; sumber dan data belum diverifikasi. Tidak ada penulisan file, pencarian web, eksekusi skrip, pemanggilan reviewer, atau pipeline penuh."
+      ],
+      "no_writes_commands_or_fanout": true,
+      "stderr": "Still starting after 10s — phase: createAgentSession > discoverAndLoadMCPTools\n  logs: C:\\Users\\Indrimeilla-PC\\.omp\\logs\\omp.2026-10-21.2232.log · re-run with PI_DEBUG_STARTUP=1 for streaming phase markers\nStill starting after 20s — phase: createAgentSession > discoverAndLoadMCPTools\n  logs: C:\\Users\\Indrimeilla-PC\\.omp\\logs\\omp.2026-10-21.2232.log · re-run with PI_DEBUG_STARTUP=1 for streaming phase markers\n",
+      "inference_model": "existing OMP default role; no new provider configured"
+    }
+  ],
+  "integrity": {
+    "installed_original_files": 35,
+    "installed_sha256_manifest": [
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/e2e/LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/e2e/NOTICE",
+        "sha256": "f1fe71e291193a7d4963799eef91ee8596e6a53099ccd85e33d3221ffea67f47"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/e2e/SKILL.md",
+        "sha256": "99de53b787d3ecc7c55f169cf70b5d1605188a3010f31cb85e2c5e53cf9fe9aa"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/e2e/references/agent.md",
+        "sha256": "ed39c749bd09730ed23927283010b045fd32f75adc6f971fdbe6f557f34260db"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/e2e/references/bug-bash.md",
+        "sha256": "ae2f3f969ee14a725760ead9ede0ab0d2234d0e3f31454254158491a3e727f73"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/e2e/references/debugging.md",
+        "sha256": "2c19f060bb2a5c2667286731ef2cdfea6eed2f9b13b2592c708763fab35994c3"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/e2e/references/explore.md",
+        "sha256": "85e3090a3849522fd00446bdb1735524d92e5815070dc55ba2a45da1f30c665f"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/e2e/references/mcp.md",
+        "sha256": "e220368f6e9a0ef7728c00129271152f4b8b594fc046fce4bc9b49cd7c4c2319"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/e2e/references/running.md",
+        "sha256": "1a3956de9fc93ee63afef8e1885a69d2ef67f7bda0d133b13856e5f844365424"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/e2e/references/setup.md",
+        "sha256": "4a7d482f3d97fbaff91c4f47647570cd4e6d19a24c118a14a18c9531681bccb1"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/e2e/references/writing-tests.md",
+        "sha256": "10e8cdc7b08277c6622a35683ef8599b3f67addfcd42d52f29e6c7238c280b18"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management/CITATION.cff",
+        "sha256": "ee6d1317242d8db01760f75cc1f43b7a8e3e072815d4d07ac93b52484b1f09ed"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management/LICENSE.md",
+        "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management/SKILL.md",
+        "sha256": "dc79fe1e8438dcf598040615d5323360c6a7ed0b868fc3ffc82512c871a1e3ff"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management/assets/bibtex_template.bib",
+        "sha256": "08e21647fa68cad1aa1658264798c7d24775ba89bfbd2723ea6bfe4b562e2be1"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management/assets/citation_checklist.md",
+        "sha256": "ce7317f2983f8b7fd02949aad726ebd6188319c7e57c929fffe689d5ae18ce36"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management/references/api_contracts.md",
+        "sha256": "3e82a14f77133a215831d2627b65c93199589782f6907fc42af3c75f2ab3c5a8"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management/references/best_practices.md",
+        "sha256": "df90d19c8f639590a6a430a889160b478dce61f4a5c0a5a36df5ab1be749b6b1"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management/references/bibtex_formatting.md",
+        "sha256": "6337a8d2b87de96bf0f72c076feb0fc5d61ed9c342d9c8f19b3633efbfec6fed"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management/references/citation_validation.md",
+        "sha256": "f235f82e02db282f0abdd23fd8d2973d870d427d355979e869f736259ba95774"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management/references/core_workflow.md",
+        "sha256": "19e8b52c43f5822163c79904236016616dc4515d21a01d29073d968c9251af8d"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management/references/example_workflows.md",
+        "sha256": "01c0a15e08e8115e10a07623f63565d119812fd2bb68c669eac413db2f9cd482"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management/references/google_scholar_search.md",
+        "sha256": "5b705ec8d6276ef83b819b737ed10bd991815ccb413de27e046b7bfdf4da8399"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management/references/metadata_extraction.md",
+        "sha256": "68c27886aff0d4efbf3a6f7e0a318dedd706d4cfd0f55dd859466de36ed78d46"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management/references/pubmed_search.md",
+        "sha256": "fab82cda700a0dfc6dccc9465c9cc60b9df68cb58d0bec9abe7b2d8748a49cd1"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management/references/script_reference.md",
+        "sha256": "bd23683cb3a7edb932fc5a13bb9215969a834a778a8765eea82553bf1b8b3417"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management/references/search_strategies.md",
+        "sha256": "776c0dd1cbaf0432004ae80273640ff324b570401c569413c674829436385c85"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management/scripts/_common.py",
+        "sha256": "87540160163671b972c2fccb4d0a42db3cca2603c664d26d5da3ca5dbc7dfdd2"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management/scripts/doi_to_bibtex.py",
+        "sha256": "1b7d1ab2e8bf9bcf5a7d49bf45496e0f8b7d8e0d0cda8efd8fce4e527082dc4b"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management/scripts/extract_metadata.py",
+        "sha256": "bebc7835b5e659cdeee0087980e881635894330bac5eda4ce01f490fd41df781"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management/scripts/format_bibtex.py",
+        "sha256": "cc74fdc4d5819df8db3999e59f96469cebfb353ecf406a49a5a0fc60896707cb"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management/scripts/search_google_scholar.py",
+        "sha256": "05cfd67aea6475029d017f1b4ff68e7ba727e1fa9b52f1e614c80287940b4985"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management/scripts/search_openalex.py",
+        "sha256": "538b2f086625fd1e9a2cb2fe8bd46ee852d888f17d2d1e889b8f50592594f693"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management/scripts/search_pubmed.py",
+        "sha256": "4543b74bf773747bae47a2bbb18acf2a4a050071119d88d1711db6049d157116"
+      },
+      {
+        "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management/scripts/validate_citations.py",
+        "sha256": "a08e8e0774287e9aca2bd87c3a66cd3dfc751018eafb6cdee37987e3f416d2b5"
+      }
+    ],
+    "ars_original_git_blobs": 2845,
+    "ars_blob_mismatch": [],
+    "ars_commit": "4c5449017f46eb64d112a301d4817d22c7c9f3d9",
+    "scripts_executed": false,
+    "runtime_installed": false
+  },
+  "integration_debug": {
+    "initial_result": "five ARS entry directories passed directly to customDirectories were not discovered",
+    "root_cause": "native scanner expects */SKILL.md under each configured root",
+    "fix": "register only the ARS repository root; exactly five top-level skill dirs",
+    "fixed_startup_results": "two cwd startup observations passed"
+  },
+  "existing_controls": {
+    "memory_backend": "off (existing config preserved)",
+    "mcp": "existing Context7/REA/Semgrep preserved and mounted in startup observations",
+    "new_mcp": false,
+    "new_extensions": false,
+    "provider_or_secret_changes": false,
+    "non_omp_configuration_writes": false,
+    "automatic_updates_changed": false,
+    "additional_runtime_dependencies_installed": false
+  },
+  "not_exercised": [
+    "app runner installation/execution",
+    "browser engine",
+    "mobile engine",
+    "real app CI",
+    "e2e inference/secret handling/cloud artifacts",
+    "ARS full pipeline",
+    "native dual-blind screening dispatch",
+    "Python helpers",
+    "DOCX/PDF exporters",
+    "bibliographic claims for a real manuscript",
+    "npm tarball signature/provenance verification",
+    "all transitive dependency security"
+  ],
+  "rollback": {
+    "routing_backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/research-e2e-20261021/AGENTS.md",
+    "original_custom_directories": [],
+    "skill_dirs_to_move_out_of_discovery": [
+      "C:/Users/Indrimeilla-PC/.omp/agent/skills/e2e",
+      "C:/Users/Indrimeilla-PC/.omp/agent/skills/citation-management"
+    ],
+    "delete_user_data": false
+  },
+  "report": "C:/Users/Indrimeilla-PC/orca/projects/Onboarding/RISET-SKILLS-E2E-AKADEMIK.md"
+}

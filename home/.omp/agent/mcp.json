@@ -1,0 +1,61 @@
+{
+  "$schema": "https://raw.githubusercontent.com/can1357/oh-my-pi/v18.11.0/packages/coding-agent/src/config/mcp-schema.json",
+  "mcpServers": {
+    "publish_or_perish": {
+      "type": "stdio",
+      "command": "C:/Program Files/nodejs/node.exe",
+      "args": ["C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/publish-or-perish/1.0.0/server.mjs"],
+      "cwd": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/publish-or-perish/1.0.0",
+      "enabled": true,
+      "timeout": 120000,
+      "instructions": false
+    },
+    "context7": {
+      "type": "stdio",
+      "command": "C:/Program Files/nodejs/node.exe",
+      "args": ["C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/context7-mcp.ts"],
+      "enabled": true,
+      "timeout": 75000,
+      "instructions": false
+    },
+    "rea": {
+      "type": "stdio",
+      "enabled": true,
+      "instructions": false,
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\Users\\Indrimeilla-PC\\AppData\\Roaming\\npm\\node_modules\\rea-agents\\scripts\\rea.mjs",
+        "mcp"
+      ]
+    },
+    "semgrep": {
+      "type": "stdio",
+      "command": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/semgrep/1.181.0/venv/Scripts/semgrep.exe",
+      "args": ["mcp", "--transport", "stdio"],
+      "cwd": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/semgrep/1.181.0/state",
+      "enabled": true,
+      "timeout": 75000,
+      "instructions": false,
+      "env": {
+        "PATH": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/semgrep/1.181.0/venv/Scripts;${PATH}",
+        "SEMGREP_MCP_DISABLE_TRACING": "true",
+        "SEMGREP_SEND_METRICS": "off",
+        "SEMGREP_ENABLE_VERSION_CHECK": "false",
+        "SEMGREP_APP_TOKEN": "",
+        "SEMGREP_IS_HOSTED": "false",
+        "USE_SEMGREP_RPC": "false",
+        "SEMGREP_FINDINGS_ELICITATION_ENABLED": "false",
+        "SEMGREP_SCAN_DISABLED": "true",
+        "SEMGREP_SCAN_REMOTE_DISABLED": "true",
+        "SEMGREP_FINDINGS_DISABLED": "true",
+        "SEMGREP_SCAN_SUPPLY_CHAIN_DISABLED": "true",
+        "SEMGREP_RULE_SCHEMA_DISABLED": "true",
+        "SEMGREP_SETTINGS_FILE": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/semgrep/1.181.0/state/settings.yml",
+        "SEMGREP_LOG_FILE": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/semgrep/1.181.0/state/semgrep.log",
+        "SEMGREP_VERSION_CACHE_PATH": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/semgrep/1.181.0/state/version-cache",
+        "TEMP": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/semgrep/1.181.0/state/tmp",
+        "TMP": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/semgrep/1.181.0/state/tmp"
+      }
+    }
+  }
+}

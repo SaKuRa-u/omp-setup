@@ -1,0 +1,428 @@
+{
+  "date": "2026-10-21",
+  "status": "RTK-OSS-installed-and-OMP-verified-with-lossy-output-limits;Headroom-not-activated",
+  "cleanup": {
+    "owned_synthetic_fixture_and_boundary_databases_removed": true,
+    "user_history_and_recall_cache_deleted": false,
+    "vendor_extension_unmodified_after_smoke": true,
+    "old_binary_backup_verified_intact": true
+  },
+  "requested_targets": [
+    "https://github.com/rtk-ai/rtk",
+    "https://github.com/headroomlabs-ai/headroom"
+  ],
+  "user_approval": "RTK OSS on OMP; shared PATH binary upgrade; local stats and bounded recovery; no proxy/provider/memory changes",
+  "rtk": {
+    "release": "v1.0.1",
+    "commit": "4ef8730cf3a0dea11c8d64a9b90bc0616fe52100",
+    "license": "Apache-2.0-only OSS build",
+    "installation": {
+      "version": "rtk 1.0.1",
+      "edition": "OSS",
+      "archive_sha256": "0e53e2eca471e15fbd3636e64e6bc0b182cbc278ed0339c80450a2dd03f4cd6b",
+      "binary_sha256": "4346e25f54d4a4aaa39809d8384e59193d6646d8b008f9f9a90acaea5d6b37da",
+      "original_extension_sha256": "d1555e0af5872a30ed04059423350bdb38302f200a9642c5a9bcc519c95a2257",
+      "extension_path": "C:/Users/Indrimeilla-PC/.omp/agent/extensions/rtk.ts",
+      "config_path": "C:/Users/Indrimeilla-PC/AppData/Roaming/rtk/config.toml",
+      "init_stdout": "RTK OMP extension installed:\n  Extension: C:\\Users\\Indrimeilla-PC\\.omp/agent\\extensions\\rtk.ts\n\nOMP will load the extension automatically on next start.\n",
+      "init_stderr": "",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/token-efficiency-20261021",
+      "user_approval": "RTK OSS on OMP; shared PATH binary upgrade; local stats and bounded recovery; no proxy/provider/memory changes"
+    },
+    "initial_binary": {
+      "version": "0.47.0",
+      "sha256": "c2694ab3815154ea4d8e78cfef05e172d64249bcf02939cfcb5c47a5945ffb79",
+      "path": "C:/Users/Indrimeilla-PC/.local/bin/rtk.exe"
+    },
+    "effective_configuration_stdout": "Config: C:\\Users\\Indrimeilla-PC\\AppData\\Roaming\\rtk\\config.toml\n\n[tracking]\nenabled = true\nhistory_days = 7\ndatabase_path = \"C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/rtk/1.0.1/state/history.db\"\n\n[display]\ncolors = true\nemoji = true\nmax_width = 120\n\n[filters]\nignore_dirs = [\n    \".git\",\n    \"node_modules\",\n    \"target\",\n    \"__pycache__\",\n    \".venv\",\n    \"vendor\",\n]\nignore_files = [\n    \"*.lock\",\n    \"*.min.js\",\n    \"*.min.css\",\n]\n\n[retriever]\nmode = \"sqlite\"\nmax_entry_bytes = 1048576\nmax_entries = 20\nretention_days = 7\ncompression = true\ndatabase_path = \"C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/rtk/1.0.1/state/recall.db\"\ntee_max_files = 20\ntee_max_file_size = 1048576\ntee_on_success = false\n\n[telemetry]\nenabled = false\nconsent_given = false\n\n[hooks]\nexclude_commands = []\ntransparent_prefixes = []\nsuppress_hook_warning = false\n\n[limits]\ngrep_max_results = 200\ngrep_max_per_file = 25\nstatus_max_files = 15\nstatus_max_untracked = 10\npassthrough_max_chars = 2000\n\n[awareness]\nlevel = \"default\"\n\n",
+    "config_sha256": "46c1822def2f83d24f4c8d95540761ce5eb1587424c6c261e275b9ad8ce7189c",
+    "telemetry_status_without_environment_override": {
+      "exit_code": 0,
+      "stdout": "Telemetry status:\n  consent:       no\n  enabled:       no\n  device hash:   (telemetry not enabled; run `rtk telemetry enable` to opt in)\n\nData controller: RTK AI Labs, contact@rtk-ai.app\nDetails: https://github.com/rtk-ai/rtk/blob/master/docs/TELEMETRY.md\n",
+      "stderr": "[rtk] /!\\ No hook installed — run `rtk init -g` for automatic token savings\n"
+    },
+    "local_statistics": "commands persisted locally; no source consumers found for tracking.enabled/history_days; not advertised as disabled or automatically expiring",
+    "recall_limits": {
+      "retention_days": 7,
+      "max_entries": 20,
+      "max_entry_bytes": 1048576,
+      "expiry": "lazy eviction; not secure physical erasure",
+      "encrypted": false
+    },
+    "manual_fixtures": [
+      {
+        "failure_fixture": false,
+        "rtk_wrapped": false,
+        "exit_code": 0,
+        "stdout": "bun test v1.4.2 (744846f84)\n",
+        "stderr": "\noutput.test.ts:\n(pass) synthetic passing case 1 [0.50ms]\n(pass) synthetic passing case 2 [0.04ms]\n(pass) synthetic passing case 3\n(pass) synthetic passing case 4\n(pass) synthetic passing case 5\n(pass) synthetic passing case 6\n(pass) synthetic passing case 7\n(pass) synthetic passing case 8\n(pass) synthetic passing case 9\n(pass) synthetic passing case 10\n(pass) synthetic passing case 11\n(pass) synthetic passing case 12\n(pass) synthetic passing case 13\n(pass) synthetic passing case 14\n(pass) synthetic passing case 15\n(pass) synthetic passing case 16\n(pass) synthetic passing case 17\n(pass) synthetic passing case 18\n(pass) synthetic passing case 19\n(pass) synthetic passing case 20\n(pass) synthetic passing case 21\n(pass) synthetic passing case 22\n(pass) synthetic passing case 23\n(pass) synthetic passing case 24\n(pass) synthetic passing case 25\n(pass) synthetic passing case 26\n(pass) synthetic passing case 27\n(pass) synthetic passing case 28\n(pass) synthetic passing case 29\n(pass) synthetic passing case 30\n(pass) synthetic passing case 31\n(pass) synthetic passing case 32\n(pass) synthetic passing case 33\n(pass) synthetic passing case 34 [0.94ms]\n(pass) synthetic passing case 35\n(pass) synthetic passing case 36\n(pass) synthetic passing case 37\n(pass) synthetic passing case 38\n(pass) synthetic passing case 39\n(pass) synthetic passing case 40\n(pass) synthetic passing case 41\n(pass) synthetic passing case 42\n(pass) synthetic passing case 43\n(pass) synthetic passing case 44\n(pass) synthetic passing case 45\n(pass) synthetic passing case 46\n(pass) synthetic passing case 47\n(pass) synthetic passing case 48\n(pass) synthetic passing case 49\n(pass) synthetic passing case 50\n(pass) synthetic passing case 51\n(pass) synthetic passing case 52\n(pass) synthetic passing case 53\n(pass) synthetic passing case 54\n(pass) synthetic passing case 55\n(pass) synthetic passing case 56\n(pass) synthetic passing case 57\n(pass) synthetic passing case 58\n(pass) synthetic passing case 59\n(pass) synthetic passing case 60\n(pass) synthetic passing case 61\n(pass) synthetic passing case 62\n(pass) synthetic passing case 63\n(pass) synthetic passing case 64\n(pass) synthetic passing case 65\n(pass) synthetic passing case 66\n(pass) synthetic passing case 67\n(pass) synthetic passing case 68\n(pass) synthetic passing case 69\n(pass) synthetic passing case 70\n(pass) synthetic passing case 71\n(pass) synthetic passing case 72\n(pass) synthetic passing case 73\n(pass) synthetic passing case 74\n(pass) synthetic passing case 75 [0.05ms]\n(pass) synthetic passing case 76 [0.01ms]\n(pass) synthetic passing case 77\n(pass) synthetic passing case 78\n(pass) synthetic passing case 79\n(pass) synthetic passing case 80\n\n 80 pass\n 0 fail\n 80 expect() calls\nRan 80 tests across 1 file. [23.00ms]\n",
+        "utf8_bytes": 2796
+      },
+      {
+        "failure_fixture": false,
+        "rtk_wrapped": true,
+        "exit_code": 0,
+        "stdout": "SUMMARY:\n   80 pass\n   0 fail\n  Ran 80 tests across 1 file. [14.00ms]\n",
+        "stderr": "[rtk] /!\\ No hook installed — run `rtk init -g` for automatic token savings\n",
+        "utf8_bytes": 148
+      },
+      {
+        "failure_fixture": true,
+        "rtk_wrapped": false,
+        "exit_code": 1,
+        "stdout": "bun test v1.4.2 (744846f84)\n",
+        "stderr": "\noutput.test.ts:\n(pass) synthetic passing case 1 [0.04ms]\n(pass) synthetic passing case 2 [0.01ms]\n(pass) synthetic passing case 3\n(pass) synthetic passing case 4\n(pass) synthetic passing case 5\n(pass) synthetic passing case 6\n(pass) synthetic passing case 7\n(pass) synthetic passing case 8\n(pass) synthetic passing case 9\n(pass) synthetic passing case 10\n(pass) synthetic passing case 11\n(pass) synthetic passing case 12\n(pass) synthetic passing case 13\n(pass) synthetic passing case 14\n(pass) synthetic passing case 15\n(pass) synthetic passing case 16\n(pass) synthetic passing case 17\n(pass) synthetic passing case 18\n(pass) synthetic passing case 19\n(pass) synthetic passing case 20\n(pass) synthetic passing case 21\n(pass) synthetic passing case 22\n(pass) synthetic passing case 23\n(pass) synthetic passing case 24\n(pass) synthetic passing case 25\n(pass) synthetic passing case 26\n(pass) synthetic passing case 27\n(pass) synthetic passing case 28\n(pass) synthetic passing case 29\n(pass) synthetic passing case 30\n(pass) synthetic passing case 31\n(pass) synthetic passing case 32\n(pass) synthetic passing case 33\n(pass) synthetic passing case 34 [0.80ms]\n(pass) synthetic passing case 35\n(pass) synthetic passing case 36\n(pass) synthetic passing case 37\n(pass) synthetic passing case 38\n(pass) synthetic passing case 39\n(pass) synthetic passing case 40\n(pass) synthetic passing case 41\n(pass) synthetic passing case 42\n(pass) synthetic passing case 43\n(pass) synthetic passing case 44\n(pass) synthetic passing case 45\n(pass) synthetic passing case 46\n(pass) synthetic passing case 47\n(pass) synthetic passing case 48\n(pass) synthetic passing case 49\n(pass) synthetic passing case 50\n(pass) synthetic passing case 51 [0.01ms]\n(pass) synthetic passing case 52\n(pass) synthetic passing case 53\n(pass) synthetic passing case 54\n(pass) synthetic passing case 55\n(pass) synthetic passing case 56\n(pass) synthetic passing case 57\n(pass) synthetic passing case 58\n(pass) synthetic passing case 59\n(pass) synthetic passing case 60\n(pass) synthetic passing case 61\n(pass) synthetic passing case 62\n(pass) synthetic passing case 63\n(pass) synthetic passing case 64\n(pass) synthetic passing case 65\n(pass) synthetic passing case 66\n(pass) synthetic passing case 67\n(pass) synthetic passing case 68\n(pass) synthetic passing case 69\n(pass) synthetic passing case 70\n(pass) synthetic passing case 71\n(pass) synthetic passing case 72\n(pass) synthetic passing case 73\n(pass) synthetic passing case 74\n(pass) synthetic passing case 75\n(pass) synthetic passing case 76\n(pass) synthetic passing case 77\n(pass) synthetic passing case 78\n(pass) synthetic passing case 79\n(pass) synthetic passing case 80\nE_RTK_SMOKE_731: deliberate failure for output-preservation verification\n 7 | }\n 8 | \n 9 | if (process.env.RTK_SMOKE_FAILURE === \"1\") {\n10 |   test(\"synthetic diagnostic must remain visible\", () => {\n11 |     console.error(\"E_RTK_SMOKE_731: deliberate failure for output-preservation verification\");\n12 |     expect(\"observed-failure-731\").toBe(\"expected-success-731\");\n                                        ^\nerror: expect(received).toBe(expected)\n\nExpected: \"expected-success-731\"\nReceived: \"observed-failure-731\"\n\n      at <anonymous> (C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\runtime\\rtk\\1.0.1\\smoke scratch\\output.test.ts:12:36)\n(fail) synthetic diagnostic must remain visible [11.39ms]\n\n1 tests failed:\n(fail) synthetic diagnostic must remain visible [11.39ms]\n\n 80 pass\n 1 fail\n 81 expect() calls\nRan 81 tests across 1 file. [23.00ms]\n",
+        "utf8_bytes": 3560
+      },
+      {
+        "failure_fixture": true,
+        "rtk_wrapped": true,
+        "exit_code": 1,
+        "stdout": "[FAIL] FAILURES:\n  (fail) synthetic diagnostic must remain visible [0.67ms]\n  (fail) synthetic diagnostic must remain visible [0.67ms]\n  error: expect(received).toBe(expected)\n  Expected: \"expected-success-731\"\n  Received: \"observed-failure-731\"\n  at <anonymous> (C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\runtime\\rtk\\1.0.1\\smoke scratch\\output.test.ts:12:36)\n\nSUMMARY:\n   80 pass\n   1 fail\n  Ran 81 tests across 1 file. [15.00ms]\n[full output: rtk recall 9c8c7ca208b9]\n",
+        "stderr": "[rtk] /!\\ No hook installed — run `rtk init -g` for automatic token savings\n",
+        "utf8_bytes": 551,
+        "custom_console_marker_retained_in_summary": false
+      }
+    ],
+    "fixture_source": "import { expect, test } from \"bun:test\";\n\nfor (let i = 0; i < 80; i++) {\n  test(`synthetic passing case ${i + 1}`, () => {\n    expect([\"alpha\", \"beta\"].includes(\"beta\")).toBe(true);\n  });\n}\n\nif (process.env.RTK_SMOKE_FAILURE === \"1\") {\n  test(\"synthetic diagnostic must remain visible\", () => {\n    console.error(\"E_RTK_SMOKE_731: deliberate failure for output-preservation verification\");\n    expect(\"observed-failure-731\").toBe(\"expected-success-731\");\n  });\n}\n",
+    "initial_failed_check": {
+      "assertion": "custom console.error marker retained in compact Bun failure output",
+      "passed": false,
+      "root_cause": "Bun parser keeps selected failure markers/assertion blocks; arbitrary console output omitted",
+      "outcome": "known lossy limitation retained; raw recall separately verified without rerunning tests"
+    },
+    "recall_proof": {
+      "manual_hash": "9c8c7ca208b9",
+      "manual_exit": 0,
+      "manual_stdout": "bun test v1.4.2 (744846f84)\n\noutput.test.ts:\n(pass) synthetic passing case 1 [0.04ms]\n(pass) synthetic passing case 2 [0.01ms]\n(pass) synthetic passing case 3\n(pass) synthetic passing case 4\n(pass) synthetic passing case 5\n(pass) synthetic passing case 6\n(pass) synthetic passing case 7\n(pass) synthetic passing case 8\n(pass) synthetic passing case 9\n(pass) synthetic passing case 10\n(pass) synthetic passing case 11\n(pass) synthetic passing case 12\n(pass) synthetic passing case 13\n(pass) synthetic passing case 14\n(pass) synthetic passing case 15\n(pass) synthetic passing case 16\n(pass) synthetic passing case 17\n(pass) synthetic passing case 18\n(pass) synthetic passing case 19\n(pass) synthetic passing case 20\n(pass) synthetic passing case 21\n(pass) synthetic passing case 22\n(pass) synthetic passing case 23\n(pass) synthetic passing case 24\n(pass) synthetic passing case 25\n(pass) synthetic passing case 26\n(pass) synthetic passing case 27\n(pass) synthetic passing case 28\n(pass) synthetic passing case 29\n(pass) synthetic passing case 30\n(pass) synthetic passing case 31\n(pass) synthetic passing case 32\n(pass) synthetic passing case 33\n(pass) synthetic passing case 34 [1.03ms]\n(pass) synthetic passing case 35\n(pass) synthetic passing case 36\n(pass) synthetic passing case 37\n(pass) synthetic passing case 38\n(pass) synthetic passing case 39\n(pass) synthetic passing case 40\n(pass) synthetic passing case 41\n(pass) synthetic passing case 42\n(pass) synthetic passing case 43\n(pass) synthetic passing case 44\n(pass) synthetic passing case 45\n(pass) synthetic passing case 46\n(pass) synthetic passing case 47\n(pass) synthetic passing case 48\n(pass) synthetic passing case 49\n(pass) synthetic passing case 50 [0.02ms]\n(pass) synthetic passing case 51 [0.02ms]\n(pass) synthetic passing case 52\n(pass) synthetic passing case 53\n(pass) synthetic passing case 54\n(pass) synthetic passing case 55\n(pass) synthetic passing case 56\n(pass) synthetic passing case 57\n(pass) synthetic passing case 58\n(pass) synthetic passing case 59\n(pass) synthetic passing case 60\n(pass) synthetic passing case 61\n(pass) synthetic passing case 62\n(pass) synthetic passing case 63\n(pass) synthetic passing case 64\n(pass) synthetic passing case 65\n(pass) synthetic passing case 66\n(pass) synthetic passing case 67\n(pass) synthetic passing case 68\n(pass) synthetic passing case 69\n(pass) synthetic passing case 70\n(pass) synthetic passing case 71\n(pass) synthetic passing case 72\n(pass) synthetic passing case 73\n(pass) synthetic passing case 74\n(pass) synthetic passing case 75\n(pass) synthetic passing case 76\n(pass) synthetic passing case 77\n(pass) synthetic passing case 78\n(pass) synthetic passing case 79\n(pass) synthetic passing case 80\nE_RTK_SMOKE_731: deliberate failure for output-preservation verification\n 7 | }\n 8 | \n 9 | if (process.env.RTK_SMOKE_FAILURE === \"1\") {\n10 |   test(\"synthetic diagnostic must remain visible\", () => {\n11 |     console.error(\"E_RTK_SMOKE_731: deliberate failure for output-preservation verification\");\n12 |     expect(\"observed-failure-731\").toBe(\"expected-success-731\");\n                                        ^\nerror: expect(received).toBe(expected)\n\nExpected: \"expected-success-731\"\nReceived: \"observed-failure-731\"\n\n      at <anonymous> (C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\runtime\\rtk\\1.0.1\\smoke scratch\\output.test.ts:12:36)\n(fail) synthetic diagnostic must remain visible [0.67ms]\n\n1 tests failed:\n(fail) synthetic diagnostic must remain visible [0.67ms]\n\n 80 pass\n 1 fail\n 81 expect() calls\nRan 81 tests across 1 file. [15.00ms]\n",
+      "live_omp_hash": "a250b6f1f04d",
+      "live_omp_exit": 0,
+      "live_omp_stdout": "bun test v1.4.2 (744846f84)\n\noutput.test.ts:\nE_RTK_SMOKE_731: deliberate failure for output-preservation verification\n 7 | }\n 8 | \n 9 | if (process.env.RTK_SMOKE_FAILURE === \"1\") {\n10 |   test(\"synthetic diagnostic must remain visible\", () => {\n11 |     console.error(\"E_RTK_SMOKE_731: deliberate failure for output-preservation verification\");\n12 |     expect(\"observed-failure-731\").toBe(\"expected-success-731\");\n                                        ^\nerror: expect(received).toBe(expected)\n\nExpected: \"expected-success-731\"\nReceived: \"observed-failure-731\"\n\n      at <anonymous> (C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\runtime\\rtk\\1.0.1\\smoke scratch\\output.test.ts:12:36)\n(fail) synthetic diagnostic must remain visible [15.65ms]\n\n 80 pass\n 1 fail\n 81 expect() calls\nRan 81 tests across 1 file. [38.00ms]\n",
+      "custom_marker_recovered": true
+    },
+    "bypass": {
+      "direct_exit": 7,
+      "wrapped_exit": 7,
+      "stdout_identical": true,
+      "direct_stderr": "E_RAW_CONTRACT\n",
+      "wrapped_stderr": "[rtk] /!\\ No hook installed — run `rtk init -g` for automatic token savings\nE_RAW_CONTRACT\n",
+      "stdout": "{\"kind\":\"raw-contract\",\"path\":\"C:\\\\Users\\\\Synthetic User\",\"value\":\"$() ; & | < >\",\"unicode\":\"αβ\"}\n"
+    },
+    "boundary_1mib": {
+      "input_approx_bytes": 1440020,
+      "exit_code": 9,
+      "visible_stdout": "[full output: rtk recall e3636ca556a4]\n",
+      "stderr": "[rtk] /!\\ No hook installed — run `rtk init -g` for automatic token savings\nerror: CAP_TAIL_981\n",
+      "recall_hash": "e3636ca556a4",
+      "recall_stdout_bytes": 1048572,
+      "recall_stderr": "[rtk] /!\\ No hook installed — run `rtk init -g` for automatic token savings\nrtk recall: note: this entry was stored truncated (output exceeded the cap in force at the time)\n",
+      "has_truncation_notice": true,
+      "tail_marker_in_recall": false,
+      "isolated_db": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/rtk/1.0.1/smoke scratch/boundary-recall.db"
+    },
+    "omp_automatic_rewrite": {
+      "process_exit": 0,
+      "tool_calls": [
+        {
+          "tool": "read",
+          "args": {
+            "path": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/rtk/1.0.1/smoke scratch/output.test.ts"
+          }
+        },
+        {
+          "tool": "bash",
+          "args": {
+            "command": "rtk bun test \"output.test.ts\"",
+            "cwd": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/rtk/1.0.1/smoke scratch"
+          }
+        },
+        {
+          "tool": "bash",
+          "args": {
+            "command": "RTK_SMOKE_FAILURE=1 rtk bun test \"output.test.ts\"",
+            "cwd": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/rtk/1.0.1/smoke scratch"
+          }
+        },
+        {
+          "tool": "bash",
+          "args": {
+            "command": "printf 'RTK_NATIVE_PASS\\n'",
+            "cwd": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/rtk/1.0.1/smoke scratch"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "tool": "read",
+          "text": "import { expect, test } from \"bun:test\";\n\nfor (let i = 0; i < 80; i++) {\n  test(`synthetic passing case ${i + 1}`, () => {\n    expect([\"alpha\", \"beta\"].includes(\"beta\")).toBe(true);\n  });\n}\n\nif (process.env.RTK_SMOKE_FAILURE === \"1\") {\n  test(\"synthetic diagnostic must remain visible\", () => {\n    console.error(\"E_RTK_SMOKE_731: deliberate failure for output-preservation verification\");\n    expect(\"observed-failure-731\").toBe(\"expected-success-731\");\n  });\n}",
+          "details": {
+            "totalLines": 14,
+            "rowPrefixes": false,
+            "displayContent": {
+              "text": "import { expect, test } from \"bun:test\";\n\nfor (let i = 0; i < 80; i++) {\n  test(`synthetic passing case ${i + 1}`, () => {\n    expect([\"alpha\", \"beta\"].includes(\"beta\")).toBe(true);\n  });\n}\n\nif (process.env.RTK_SMOKE_FAILURE === \"1\") {\n  test(\"synthetic diagnostic must remain visible\", () => {\n    console.error(\"E_RTK_SMOKE_731: deliberate failure for output-preservation verification\");\n    expect(\"observed-failure-731\").toBe(\"expected-success-731\");\n  });\n}",
+              "startLine": 1,
+              "lineNumbers": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ]
+            },
+            "fileSize": 463,
+            "meta": {
+              "source": {
+                "type": "path",
+                "value": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/rtk/1.0.1/smoke scratch/output.test.ts"
+              },
+              "pagedSource": true
+            }
+          },
+          "isError": false
+        },
+        {
+          "tool": "bash",
+          "text": "[rtk] /!\\ No hook installed — run `rtk init -g` for automatic token savings\nSUMMARY:\n   80 pass\n   0 fail\n  Ran 80 tests across 1 file. [36.00ms]\n",
+          "details": {
+            "wallTimeNoticeEmitted": false,
+            "timeoutSeconds": 300,
+            "wallTimeMs": 568.2550999999985
+          },
+          "isError": false
+        },
+        {
+          "tool": "bash",
+          "text": "[rtk] /!\\ No hook installed — run `rtk init -g` for automatic token savings\n[FAIL] FAILURES:\n  (fail) synthetic diagnostic must remain visible [15.65ms]\n  error: expect(received).toBe(expected)\n  Expected: \"expected-success-731\"\n  Received: \"observed-failure-731\"\n  at <anonymous> (C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\runtime\\rtk\\1.0.1\\smoke scratch\\output.test.ts:12:36)\n\nSUMMARY:\n   80 pass\n   1 fail\n  Ran 81 tests across 1 file. [38.00ms]\n[full output: rtk recall a250b6f1f04d]\n\n\nCommand exited with code 1",
+          "details": {
+            "wallTimeNoticeEmitted": false,
+            "timeoutSeconds": 300,
+            "wallTimeMs": 177.66830000000118,
+            "exitCode": 1
+          },
+          "isError": true
+        },
+        {
+          "tool": "bash",
+          "text": "RTK_NATIVE_PASS\n",
+          "details": {
+            "wallTimeNoticeEmitted": false,
+            "timeoutSeconds": 300,
+            "wallTimeMs": 23.188099999999395
+          },
+          "isError": false
+        }
+      ],
+      "assistant_answers": [
+        "- Smoke sukses: **80 pass, 0 fail**.\n- Smoke kegagalan disengaja: **80 pass, 1 fail**, exit code **1**. Nama tes, expected/received, dan lokasi kegagalan terlihat.\n- Marker terakhir tercetak: `RTK_NATIVE_PASS`.\n- Kedua pemanggilan tes menampilkan warning: `[rtk] /!\\ No hook installed — run `rtk init -g` for automatic token savings`.\n- Pesan `console.error` berkode `E_RTK_SMOKE_731` tidak terlihat pada output ringkas; output menyediakan `rtk recall a250b6f1f04d`.\n\nTidak ada edit, instalasi, perbaikan, atau rerun; output penuh tidak diperiksa. Ini hanya smoke ekstensi, bukan bukti kebenaran aplikasi."
+      ],
+      "stderr": "Still starting after 10s — phase: createAgentSession > discoverAndLoadMCPTools\n  logs: C:\\Users\\Indrimeilla-PC\\.omp\\logs\\omp.2026-10-21.14456.log · re-run with PI_DEBUG_STARTUP=1 for streaming phase markers\n"
+    },
+    "omp_recovery_policy": {
+      "process_exit": 0,
+      "tool_calls": [
+        {
+          "tool": "read",
+          "args": {
+            "path": "skill://systematic-debugging"
+          }
+        },
+        {
+          "tool": "bash",
+          "args": {
+            "command": "rtk recall a250b6f1f04d",
+            "timeout": 30,
+            "cwd": "C:/Users/Indrimeilla-PC/orca/projects/Onboarding",
+            "pty": false,
+            "async": false
+          }
+        }
+      ],
+      "assistant_answers": [
+        "**Terverifikasi** lewat `rtk recall a250b6f1f04d`: baris `console.error` yang hilang dari ringkasan adalah:\n\n```text\nE_RTK_SMOKE_731: deliberate failure for output-preservation verification\n```\n\nData pemulihan juga memuat Expected/Received yang disebutkan serta `80 pass, 1 fail`.\n\nTidak menjalankan ulang bun/test atau mengubah file. Exit 1 run sebelumnya berasal dari laporan Anda; bukan exit command recall."
+      ],
+      "reran_tests": false,
+      "stderr": "Still starting after 10s — phase: createAgentSession > discoverAndLoadMCPTools\n  logs: C:\\Users\\Indrimeilla-PC\\.omp\\logs\\omp.2026-10-21.9012.log · re-run with PI_DEBUG_STARTUP=1 for streaming phase markers\n"
+    },
+    "startup": {
+      "kind": "live-OMP-startup-discovery-no-inference",
+      "cwd": "C:/Users/Indrimeilla-PC/orca/projects/Onboarding",
+      "exit_code": 0,
+      "seconds": 21.57,
+      "new_skills": [
+        {
+          "name": "skill:academic-paper",
+          "description": "12-agent academic paper writing pipeline. 11 modes (full/plan/outline/revision/revision-coach/abstract/lit-review/format-convert/citation-check/disclosure/rebuttal-audit). 6 paper types, 5 citation formats, bilingual abstracts, LaTeX/DOCX-via-Pandoc/PDF output. Style Calibration + Writing Quality Check + Anti-Patterns with IRON RULE markers. Triggers: write paper, academic paper, guide my paper, parse reviews, I got reviewer comments, revision roadmap, should we push back, conference rebuttal, grant panel response, audit my rebuttal, check my response draft, AI disclosure, check citations, citation check, check my references, verify references, look over the refs, 寫論文, 學術論文, 引導我寫論文, 審查意見, 我收到審查意見, 修訂路線圖, 評估回覆, 檢查引用, 引用檢查, 檢查參考文獻, 核對文獻, 논문 작성, 초록 작성, 논문 수정, 논문 계획을 도와줘, 심사 의견을 받았어, 심사 의견 반영, 답변서 점검, AI 사용 고지, 인용 확인, 인용 형식 검사, enmendar mi artículo, redactar artículo, guía mi artículo, analizar reseñas, auditar mi respuesta, verificar borrador de respuesta, verificar citas, divulgación de IA.",
+          "input": {
+            "hint": "arguments"
+          },
+          "source": "skill"
+        },
+        {
+          "name": "skill:academic-paper-reviewer",
+          "description": "Multi-perspective academic paper review with dynamic reviewer personas. Runs a 5-seat, role-separated review panel (Journal-Fit Reviewer + 3 peer-review roles + Devil's Advocate) with field-specific expertise; role separation is not a claim of independent error processes. Supports full review, re-review (verification), quick assessment, methodology focus, Socratic guided, and calibration modes. Triggers on: review paper, peer review, manuscript review, referee report, review my paper, critique paper, simulate review, editorial review, calibrate reviewer, reviewer calibration, measure reviewer accuracy, 審查論文, 論文審查, 模擬審查, 同儕審查, 幫我審這篇, 以審查人角度評估, 審查者校準, 논문 심사, 동료 심사, 모의 심사, 심사자 관점에서 평가, 심사자 보정, revisar artículo, revisión entre pares, revisión de manuscrito, informe de árbitro, revisa mi artículo, criticar artículo, simular revisión, revisión editorial, calibrar revisor.",
+          "input": {
+            "hint": "arguments"
+          },
+          "source": "skill"
+        },
+        {
+          "name": "skill:academic-pipeline",
+          "description": "Orchestrator for the full academic research pipeline: research -> write -> integrity check -> review -> revise -> re-review -> re-revise -> final integrity check -> finalize. Coordinates deep-research, academic-paper, and academic-paper-reviewer into a seamless 10-stage workflow with mandatory, coverage-bounded integrity checks, two-stage peer review, and auditable quality-assurance artifacts. Triggers on: academic pipeline, research to paper, full paper workflow, paper pipeline, end-to-end paper, research-to-publication, complete paper workflow, 연구부터 논문까지, 연구 주제 설정부터 논문 완성까지, 논문 전체 워크플로, flujo de trabajo académico, investigación a artículo, flujo completo de artículo, pipeline de investigación completa, publicación de investigación, flujo de trabajo completo del artículo.",
+          "input": {
+            "hint": "arguments"
+          },
+          "source": "skill"
+        },
+        {
+          "name": "skill:citation-management",
+          "description": "Comprehensive citation management for academic research. Search OpenAlex, PubMed, and Google Scholar for papers, extract accurate metadata, validate citations, and generate properly formatted BibTeX entries. This skill should be used when you need to find papers, verify citation information, convert DOIs to BibTeX, or ensure reference accuracy in scientific writing.",
+          "input": {
+            "hint": "arguments"
+          },
+          "source": "skill"
+        },
+        {
+          "name": "skill:deep-research",
+          "description": "Universal deep research agent team. 13-agent pipeline for rigorous academic research on any topic. 8 modes: full research, quick brief, paper review, lit-review, fact-check, three-way literature scan, Socratic guided research dialogue, and systematic review with optional meta-analysis. Covers research question formulation, Socratic mentoring, methodology design, systematic literature search, source verification, cross-source synthesis, risk of bias assessment, meta-analysis, APA 7.0 report compilation, editorial review, devil's advocate challenges, ethics review, and post-research literature monitoring. Triggers on: research, deep research, literature review, systematic review, meta-analysis, PRISMA, evidence synthesis, fact-check, WHY HOW WHAT papers, 3W literature scan, guide my research, help me think through, 研究, 深度研究, 文獻回顧, 文獻探討, 系統性回顧, 後設分析, 事實查核, 三段式文獻掃描, 引導我的研究, 幫我釐清, 幫我想想, 我不確定要研究什麼, 研究方向, 研究主題, 심층 연구, 문헌 조사, 체계적 문헌고찰, 메타분석, 사실 확인, 연구 방향을 잡아줘, 연구 주제 정하는 것을 도와줘, revisión de literatura, metaanálisis",
+          "input": {
+            "hint": "arguments"
+          },
+          "source": "skill"
+        },
+        {
+          "name": "skill:e2e",
+          "description": "Writes, runs, and debugs end-to-end tests for web and mobile apps with e2e, the agentic test runner, which mixes agent.act goals with exact locator assertions on a Playwright browser or an iOS or Android device. Also drives a project's running app live over the e2e MCP server to look at a screen, check a UI change, take a screenshot or record a video, and try a locator; and runs bug bashes, parallel e2e explore runs with each bug proven by a repro test. Use when a project depends on e2e or has an e2e.config.ts, when asked for end-to-end, browser, mobile, or agentic UI tests, to check a change in the running app, to QA or bug bash an app or branch, or when an e2e run fails.",
+          "input": {
+            "hint": "arguments"
+          },
+          "source": "skill"
+        },
+        {
+          "name": "skill:sr-screener",
+          "description": "Protocol-driven study screening for systematic, scoping and rapid reviews. Turns a proposal or PROSPERO protocol into confirmed eligibility rules, then screens titles/abstracts and full texts with two blinded AI reviewers and a third-reviewer adjudicator: ordered exclusion codes, no silent defaults, resumable batch runs, QC (seed studies, near-miss rechecks, kappa and PABAK), PRISMA 2020 counts, EndNote/Zotero RIS groups, an Excel log, a methods draft and a literature_corpus handoff to academic-paper. Reads RIS, PubMed .nbib, Web of Science and CSV exports; removes duplicates. 8 modes: protocol, quick, pilot, ta-screen, ft-screen, adjudicate, audit, report. Use it to screen records against eligibility criteria, pilot screening, resolve screening conflicts, audit exclusions or report the selection process. Triggers on: screen these papers, title/abstract screening, full-text screening, screening conflicts, inclusion criteria, PRISMA flow, غربالگری مقالات, اسکرینینگ عنوان و چکیده, معیارهای ورود و خروج.",
+          "input": {
+            "hint": "arguments"
+          },
+          "source": "skill"
+        }
+      ],
+      "skill_count": 59,
+      "routing_loaded": true,
+      "existing_mcp_preserved": true,
+      "ars_plugin_aliases_registered": false,
+      "model_inference_requested": false,
+      "stderr": "Still starting after 10s — phase: createAgentSession > discoverAndLoadMCPTools\n  logs: C:\\Users\\Indrimeilla-PC\\.omp\\logs\\omp.2026-10-21.8312.log · re-run with PI_DEBUG_STARTUP=1 for streaming phase markers\n"
+    },
+    "output_token_measurement": {
+      "tokenizer": "OMP offline O200kBase",
+      "samples": [
+        {
+          "case": "all-passing",
+          "rtk": false,
+          "utf8_bytes": 2796,
+          "o200k_tokens": 712,
+          "exit_code": 0
+        },
+        {
+          "case": "all-passing",
+          "rtk": true,
+          "utf8_bytes": 148,
+          "o200k_tokens": 51,
+          "exit_code": 0
+        },
+        {
+          "case": "deliberate-failure",
+          "rtk": false,
+          "utf8_bytes": 3560,
+          "o200k_tokens": 913,
+          "exit_code": 1
+        },
+        {
+          "case": "deliberate-failure",
+          "rtk": true,
+          "utf8_bytes": 551,
+          "o200k_tokens": 182,
+          "exit_code": 1
+        }
+      ],
+      "comparison": [
+        {
+          "case": "all-passing",
+          "before_tokens": 712,
+          "after_tokens": 51,
+          "reduction_percent": 92.8,
+          "raw_exit": 0,
+          "rtk_exit": 0,
+          "includes_stderr_notice": true,
+          "sampling_note": "separate invocations of the same synthetic Bun fixture; timing text can vary; output tokens only, not billing"
+        },
+        {
+          "case": "deliberate-failure",
+          "before_tokens": 913,
+          "after_tokens": 182,
+          "reduction_percent": 80.1,
+          "raw_exit": 1,
+          "rtk_exit": 1,
+          "includes_stderr_notice": true,
+          "sampling_note": "separate invocations of the same synthetic Bun fixture; timing text can vary; output tokens only, not billing"
+        }
+      ],
+      "scope": "synthetic shell stdout+stderr only; separate executions; includes hook warning; not invoice, quota, full context or answer quality"
+    },
+    "known_warning": "upstream No hook installed detector checks Claude only; OMP hook proved active; warning retained; no generic Claude init or suppression"
+  },
+  "headroom": {
+    "existing_version": "0.37.0",
+    "existing_metadata": "C:/Users/Indrimeilla-PC/AppData/Local/Programs/Python/Python314/Lib/site-packages/headroom_ai-0.37.0.dist-info/METADATA",
+    "reviewed_stable": "v0.41.0",
+    "commit": "76133cff59b71284399bf760c5578dc373c97231",
+    "license": "Apache-2.0 root; models/dependencies separately scoped",
+    "activated": false,
+    "upgraded": false,
+    "reason": "official OMP wrapper changes only providers.anthropic.baseUrl, not active openai-codex OAuth route",
+    "primary_evidence": "https://github.com/headroomlabs-ai/headroom/blob/76133cff59b71284399bf760c5578dc373c97231/headroom/providers/omp/runtime.py",
+    "benchmark_rerun": false,
+    "provider_or_oauth_secrets_read": false,
+    "beacon": "stable opt-out beacon; no Headroom runtime executed",
+    "new_proxy_mcp_memory_service_models": false
+  },
+  "preserved": {
+    "skill_count": 59,
+    "native_read_find_grep_glob_lsp_policy": true,
+    "context7_rea_semgrep_mcp": true,
+    "memory_backend": "off",
+    "provider": "openai-codex/gpt-6.1-sol existing route",
+    "global_environment_changed": false,
+    "other_host_hook_configuration_written": false,
+    "shared_rtk_binary_updated_with_explicit_approval": true
+  },
+  "not_checked": [
+    "all RTK filters",
+    "all shells/TTY/watch/pipeline/heredoc/redirect cases",
+    "OMP approval-mode matrix",
+    "7-day time-based eviction",
+    "20-entry eviction boundary",
+    "secure deletion",
+    "Authenticode/transitive supply chain",
+    "production/CI workload savings",
+    "invoice/subscription quota",
+    "Headroom proxy/model/stream/OAuth execution"
+  ],
+  "report": "C:/Users/Indrimeilla-PC/orca/projects/Onboarding/RISET-EFISIENSI-TOKEN-RTK-HEADROOM.md",
+  "rollback": {
+    "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/token-efficiency-20261021",
+    "old_rtk_version": "0.47.0",
+    "official_omp_uninstall": "rtk init -g --agent omp --uninstall",
+    "remove_new_config_only_if_unchanged": true,
+    "delete_user_history_cache_or_headroom": false
+  }
+}

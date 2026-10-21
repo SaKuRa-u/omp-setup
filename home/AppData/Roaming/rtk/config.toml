@@ -1,0 +1,16 @@
+[telemetry]
+enabled = false
+consent_given = false
+
+[tracking]
+enabled = true
+history_days = 7
+database_path = "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/rtk/1.0.1/state/history.db"
+
+[retriever]
+mode = "sqlite"
+max_entry_bytes = 1048576
+max_entries = 20
+retention_days = 7
+compression = true
+database_path = "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/rtk/1.0.1/state/recall.db"

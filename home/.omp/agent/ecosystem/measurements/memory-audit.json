@@ -1,0 +1,31 @@
+{
+  "state": "passed-nondestructive-stages",
+  "namespace": "omp_selftest",
+  "id": "acceptance_7c5b26e4-b9ac-4042-ae08-5ed1d3823186",
+  "status": {
+    "id": "acceptance_7c5b26e4-b9ac-4042-ae08-5ed1d3823186",
+    "state": "done",
+    "status": "done",
+    "dreamingStatus": "done"
+  },
+  "correction": "green recalled; no stale blue",
+  "freshProcessRecallPids": [
+    16576,
+    12012
+  ],
+  "capturePid": 4168,
+  "isolation": "global namespace checked by acceptance child phases",
+  "projectMapping": {
+    "namespace": "omp_onboarding",
+    "recallNamespaces": [
+      "omp_onboarding",
+      "omp_global"
+    ],
+    "unknownProject": "rejected"
+  },
+  "forget": "preview only; exact-target approval pending",
+  "sourceDeletion": "not performed",
+  "automaticRetention": false,
+  "nativeBackend": "off",
+  "billing": "quota and balance not inspected; no plan upgrades or instant dreaming"
+}

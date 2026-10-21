@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-18",
+  "status": "passed",
+  "evidenceKind": "Summary of observed measure-foundation.mjs command output; no model inference requested",
+  "command": "node C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/measure-foundation.mjs",
+  "cwd": "C:/Users/Indrimeilla-PC/orca/projects/Onboarding",
+  "omp": "18.11.1",
+  "model": "gpt-6.1-sol",
+  "discoveredSkills": 45,
+  "resolvedAuditedSkills": 41,
+  "reaMounted": true,
+  "context7Mounted": true,
+  "reviewCommand": true,
+  "globalRoutingLoaded": true,
+  "excludedCompetitorsAbsent": true,
+  "readyMs": 8978.9012,
+  "startupContextEstimate": 20615,
+  "skillMetadataTokensO200k": 1006,
+  "stderr": "",
+  "scope": "Real fresh OMP startup and skill URI resolution; not cloud/application execution or guaranteed autonomous routing",
+  "startupWait": "Process-only OMP_MCP_STARTUP_TIMEOUT_MS=0; 45-second outer startup deadline"
+}

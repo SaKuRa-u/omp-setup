@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "auditedAt": "2026-10-15",
+  "skill": "impeccable",
+  "scope": "Native OMP static skill/launcher/hook audit and read-only project-context gate; no cloud/runtime visual certification.",
+  "evidenceLevel": "static-inspection-and-primary-source-research",
+  "source": {
+    "repository": "https://github.com/pbakaus/impeccable",
+    "commit": "abf5779cabc20147fd9c013fa4705088c200bf8a",
+    "skillPath": ".agents/skills/impeccable",
+    "lockedSkillTree": "51aacfac75e507cd94690cd3c03347945f1ce7bd",
+    "lockFile": "C:/Users/Indrimeilla-PC/.agents/.skill-lock.json",
+    "lockEntry": "skills.impeccable",
+    "lockInstalledAt": "2026-10-15T09:05:47.901Z",
+    "upstreamTreeConfirmed": true,
+    "localSkillVersion": "4.5.2",
+    "bundledEngineVersion": "0.1.14",
+    "license": "Apache-2.0",
+    "copyright": "2025 Paul Bakaus",
+    "localAdaptation": "SKILL.md and reference/omp-workflow.md carry local OMP adaptation attribution; the lock records the upstream pre-adaptation tree, not a claim of byte-identical current local files.",
+    "urls": [
+      "https://api.github.com/repos/pbakaus/impeccable/contents/.agents/skills?ref=abf5779cabc20147fd9c013fa4705088c200bf8a",
+      "https://raw.githubusercontent.com/pbakaus/impeccable/abf5779cabc20147fd9c013fa4705088c200bf8a/LICENSE",
+      "https://raw.githubusercontent.com/pbakaus/impeccable/abf5779cabc20147fd9c013fa4705088c200bf8a/.agents/skills/impeccable/reference/hooks.md",
+      "https://github.com/pbakaus/impeccable/blob/abf5779cabc20147fd9c013fa4705088c200bf8a/.agents/skills/impeccable/scripts/impeccable",
+      "https://github.com/pbakaus/impeccable/blob/abf5779cabc20147fd9c013fa4705088c200bf8a/.agents/skills/impeccable/scripts/impeccable.cmd"
+    ]
+  },
+  "findings": [
+    {
+      "id": "launcher-bootstrap",
+      "risk": "high-if-executed",
+      "evidence": "POSIX launcher lines 41-84 execute override/sibling/cache candidates or probe home/PATH candidates. Lines 121-196 download release binary plus SHA256 sidecar, write cache, chmod/move, and exec. Windows launcher lines 25-61 select/probe executables; lines 64-169 download, stage, verify, move and run.",
+      "disposition": "Both bundled launchers remain unexecuted and forbidden in the OMP workflow, including context, status and engine-probe. A design request is not binary-install consent."
+    },
+    {
+      "id": "checksum-trust",
+      "risk": "publisher-trust-not-established",
+      "evidence": "New downloads require a matching SHA256 sidecar from the same release origin; override, sibling and version-cache candidates are not independently hash-verified by the launcher. A probe executes the candidate; it is not a sandbox or signature check.",
+      "disposition": "No engine executable is approved by this source audit; no binary downloaded."
+    },
+    {
+      "id": "native-hooks",
+      "risk": "unsupported-automatic-integration",
+      "evidence": "Pinned upstream reference/hooks.md lists Claude Code, Codex, Cursor, Grok Build, GitHub Copilot and Gemini. It documents provider-manifest writes, config writes, post-edit reminders, Cursor pre-write blocking and Stop-event scans. It does not document native OMP.",
+      "disposition": "No OMP-native engine-hook compatibility claimed. No hook installed, removed or configured; no other coding-tool settings inspected or changed. Context detection is an explicit workflow step, not an automatic installed hook."
+    },
+    {
+      "id": "reference-execution-conflicts",
+      "risk": "unsafe-if-upstream-steps-followed-literally",
+      "evidence": "Bundled routing.md invokes context/signals/detect; init.md includes optional workflow config/live setup; new-work.md includes engine build phases and finish-agent instructions; hooks.md invokes launcher administration.",
+      "disposition": "SKILL.md Setup and omp-workflow.md explicitly override all executable bundled-reference/agent instructions. Reuse design guidance via native OMP tools; disclose unavailable engine checkpoints instead of simulating them."
+    },
+    {
+      "id": "document-preservation",
+      "risk": "overwrite-risk",
+      "evidence": "Upstream-style SKILL.md redesign language previously said replace DESIGN.md; existing init.md already forbids silent overwrite.",
+      "disposition": "Refinement preserves incumbent identity; redesign proposes scoped DESIGN.md merge/replacement and requires approval. Detection never initializes or rewrites anything. Existing docs remain until an explicit decision."
+    },
+    {
+      "id": "single-design-owner",
+      "risk": "competing-authority",
+      "evidence": "Local SKILL.md explicitly assigns Impeccable the global UI/design and anti-AI-slop role.",
+      "disposition": "design-taste competitor not activated or installed. Non-UI detection does not force design work."
+    }
+  ],
+  "gate": {
+    "path": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/design-gate.mjs",
+    "origin": "Clean rename of existing local impeccable-project-gate.mjs, reusing the existing approval/hash convention; obsolete helper name removed without a compatibility shim.",
+    "command": "node \"C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/design-gate.mjs\" --project \"<explicit-project-root>\"",
+    "projectState": [
+      "empty",
+      "existing",
+      "uncertain"
+    ],
+    "projectKind": [
+      "new",
+      "existing",
+      "uncertain"
+    ],
+    "documentsStatus": [
+      "missing",
+      "partial",
+      "present"
+    ],
+    "contextStatus": [
+      "missing",
+      "partial",
+      "ready"
+    ],
+    "exitCodes": {
+      "ready": 0,
+      "missingOrPartial": 1,
+      "usageOrUnsafeRoot": 2
+    },
+    "documents": [
+      "PRODUCT.md",
+      "DESIGN.md"
+    ],
+    "optionalApprovalRecord": ".impeccable/omp-gate.json",
+    "behavior": [
+      "Reads only selected-root file inventory, bounded documents/review JSON, and explicitly cited source files.",
+      "No project imports, subprocesses, configuration loader, network, package dependencies, writes or hooks.",
+      "Skips hidden inventory and generated/vendor directories, refuses file symlinks/junctions and unsafe citation paths.",
+      "No automatic ancestor-context discovery.",
+      "Document presence or recorded context readiness never means visual, a11y, security, factual-correctness or cloud-runtime pass.",
+      "Existing context-review semantics retained; ready requires substantive sections plus a current hash-based recorded approval and existing-project source evidence."
+    ],
+    "limits": [
+      "File inventory and section checks are conservative heuristics, not semantic or visual assessment.",
+      "The approval record is not cryptographically authenticated.",
+      "Only cited files are fingerprinted; uncited drift requires review.",
+      "Filesystem checks are not an OS sandbox and do not protect an actively racing/adversarial filesystem.",
+      "A skill alone does not guarantee loading at every project start; the parent-owned global workflow must invoke the explicit helper."
+    ]
+  },
+  "changedFiles": [
+    "C:/Users/Indrimeilla-PC/.agents/skills/impeccable/SKILL.md",
+    "C:/Users/Indrimeilla-PC/.agents/skills/impeccable/reference/omp-workflow.md",
+    "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/design-gate.mjs",
+    "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/measurements/impeccable-audit.json"
+  ],
+  "untouched": [
+    "global AGENTS.md",
+    "global config.yml",
+    "ledger.json",
+    "other coding-tool configuration",
+    "credentials",
+    "design-taste activation"
+  ],
+  "verification": {
+    "executed": false,
+    "reason": "Parent owns final smoke; worker was explicitly instructed not to run tests/build/lint/formatters or smoke mid-flight.",
+    "visualVerification": "not-performed",
+    "cloudRuntimeVerification": "not-performed",
+    "engineExecution": "not-performed",
+    "binaryDownload": "not-performed",
+    "automaticHookInstallation": "not-performed"
+  },
+  "parentSmoke": {
+    "shell": "PowerShell",
+    "fixtureOnlyWarning": "Synthetic approval is restricted to disposable test fixtures. Never copy it into a real project or treat it as user authorization.",
+    "setupPowerShell": "$gate = 'C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/design-gate.mjs'\n$root = Join-Path ([IO.Path]::GetTempPath()) ('omp-design-gate-' + [guid]::NewGuid().ToString('N'))\n$utf8 = New-Object System.Text.UTF8Encoding($false)\nforeach ($name in @('empty', 'existing', 'partial', 'ready')) { [IO.Directory]::CreateDirectory((Join-Path $root $name)) | Out-Null }\n$product = \"# Product\\n\\n## Users\\nStaff reviewing local project evidence and keeping existing product facts.\\n\\n## Product Purpose\\nRecord confirmed project context before making scoped interface decisions.\\n\\n## Capabilities and Constraints\\nPreserve existing documents and never execute project code during detection.\\n\".Replace('\\n', [Environment]::NewLine)\n$design = \"# Design\\n\\n## Overview\\nPreserve the incumbent interface and use source evidence for scoped changes.\\n\\n## Colors\\nUse the approved existing palette; this fixture does not claim visual quality.\\n\\n## Typography\\nRetain the current readable type scale and explicitly review actual rendering.\\n\\n## Layout\\nKeep the current responsive layout and inspect real desktop and mobile captures.\\n\\n## Components\\nReuse incumbent components and document only actually reviewed decisions.\\n\".Replace('\\n', [Environment]::NewLine)\n$source = \"throw new Error('PROJECT CODE MUST NOT EXECUTE');\"\nforeach ($name in @('existing', 'ready')) { [IO.File]::WriteAllText((Join-Path $root \"$name/app.js\"), $source, $utf8) }\nforeach ($name in @('partial', 'ready')) { [IO.File]::WriteAllText((Join-Path $root \"$name/PRODUCT.md\"), $product, $utf8) }\n[IO.File]::WriteAllText((Join-Path $root 'ready/DESIGN.md'), $design, $utf8)\n[IO.Directory]::CreateDirectory((Join-Path $root 'ready/.impeccable')) | Out-Null\n$record = @{ schemaVersion = 1; decision = 'approved-for-design'; projectKind = 'existing'; approval = @{ by = 'user'; statement = 'Synthetic smoke fixture only, not real project authorization.' }; scope = 'Synthetic fixture context readiness only'; documents = @{ 'PRODUCT.md' = (Get-FileHash -Algorithm SHA256 -LiteralPath (Join-Path $root 'ready/PRODUCT.md')).Hash.ToLowerInvariant(); 'DESIGN.md' = (Get-FileHash -Algorithm SHA256 -LiteralPath (Join-Path $root 'ready/DESIGN.md')).Hash.ToLowerInvariant() }; sources = @(@{ path = 'app.js'; sha256 = (Get-FileHash -Algorithm SHA256 -LiteralPath (Join-Path $root 'ready/app.js')).Hash.ToLowerInvariant() }); references = @() }\n[IO.File]::WriteAllText((Join-Path $root 'ready/.impeccable/omp-gate.json'), ($record | ConvertTo-Json -Depth 8), $utf8)\nWrite-Output \"Synthetic fixtures: $root\"",
+    "cases": [
+      {
+        "name": "empty",
+        "command": "node $gate --project (Join-Path $root 'empty')",
+        "expectedExitCode": 1,
+        "expected": {
+          "projectState": "empty",
+          "projectKind": "new",
+          "documentsStatus": "missing",
+          "status": "missing",
+          "visualVerification": "not-performed"
+        }
+      },
+      {
+        "name": "existing",
+        "command": "node $gate --project (Join-Path $root 'existing')",
+        "expectedExitCode": 1,
+        "expected": {
+          "projectState": "existing",
+          "projectKind": "existing",
+          "documentsStatus": "missing",
+          "status": "missing",
+          "visualVerification": "not-performed"
+        },
+        "additionalExpectation": "app.js contains a throw and must never be executed."
+      },
+      {
+        "name": "partial",
+        "command": "node $gate --project (Join-Path $root 'partial')",
+        "expectedExitCode": 1,
+        "expected": {
+          "projectState": "empty",
+          "projectKind": "new",
+          "documentsStatus": "partial",
+          "status": "partial",
+          "visualVerification": "not-performed"
+        }
+      },
+      {
+        "name": "ready",
+        "command": "node $gate --project (Join-Path $root 'ready')",
+        "expectedExitCode": 0,
+        "expected": {
+          "projectState": "existing",
+          "projectKind": "existing",
+          "documentsStatus": "present",
+          "status": "ready",
+          "visualVerification": "not-performed"
+        },
+        "additionalExpectation": "app.js is only hashed. All three checksums match the fixture review; readiness is context-only."
+      }
+    ],
+    "optionalNegativeCase": {
+      "name": "present-without-recorded-approval",
+      "setupCommand": "Remove-Item -LiteralPath (Join-Path $root 'ready/.impeccable/omp-gate.json')",
+      "command": "node $gate --project (Join-Path $root 'ready')",
+      "expectedExitCode": 1,
+      "expected": {
+        "documentsStatus": "present",
+        "status": "partial",
+        "visualVerification": "not-performed"
+      },
+      "note": "Run only after ready case; this deletes only a synthetic disposable fixture record."
+    },
+    "readOnlyAssertion": "Parent may snapshot relative paths and exact-byte hashes in the disposable fixture root before/after the four gate invocations; expect no change. Do not include fixture setup or optional record deletion in the read-only comparison."
+  }
+}

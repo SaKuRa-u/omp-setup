@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "kind": "startup-and-skill-resolution-not-cloud-execution",
+  "omp": "18.11.0",
+  "model": "gpt-6.1-sol",
+  "contextWindow": 500000,
+  "readyMs": 3614.0128,
+  "startupContextEstimate": 9601,
+  "skillListingTokensO200k": 827,
+  "skillWindowPercent": 0.1654,
+  "discoveredSkills": 38,
+  "resolvedAuditedSkills": 34,
+  "hashicorpSkills": 20,
+  "impeccableGlobal": true,
+  "globalRoutingLoaded": true,
+  "excludedCompetitorsAbsent": true,
+  "reviewCommand": true,
+  "stderr": "",
+  "scope": "RPC startup estimate; MCP descriptors are measured separately; not a matched performance benchmark"
+}

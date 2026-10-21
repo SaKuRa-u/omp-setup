@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "namespace": "omp_selftest",
+  "id": "acceptance_7c5b26e4-b9ac-4042-ae08-5ed1d3823186",
+  "stage": "forget-approval",
+  "manifest": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/measurements/audit-forget-1792063760310.json",
+  "capturePid": 4168,
+  "recallPids": [
+    16576,
+    12012
+  ]
+}

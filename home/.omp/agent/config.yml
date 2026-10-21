@@ -1,0 +1,31 @@
+shellPath: C:\Program Files\Git\bin\bash.exe
+modelRoles:
+  default: openai-codex/gpt-6.1-sol
+symbolPreset: ascii
+composer:
+  shape: claude
+theme:
+  dark: titanium
+  light: light
+setupVersion: 2
+dev:
+  autoqaConsent: granted
+memory:
+  backend: "off"
+tools:
+  approvalMode: yolo
+  approval:
+    {}
+bash:
+  patterns:
+    []
+defaultThinkingLevel: auto
+skills:
+  ignoredSkills:
+    - design-taste-frontend
+    - redesign-existing-projects
+    - agents/impeccable
+  customDirectories:
+    - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/sources/academic-research-skills-4c544901
+marketplace:
+  autoUpdate: "off"

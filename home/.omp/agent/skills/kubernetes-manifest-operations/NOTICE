@@ -1,0 +1,24 @@
+kubernetes-manifest-operations — OMP documentation-only adaptation
+
+Source: https://github.com/akin-ozer/cc-devops-skills
+Pinned revision: 276af751e659315aaf56d3ad13d7c26f4e72e28a
+Upstream material:
+  devops-skills-plugin/skills/k8s-yaml-generator/SKILL.md
+  devops-skills-plugin/skills/k8s-yaml-generator/references/security_patterns.md,
+  selected lines 1-250 (not a claim to audit the unread remainder).
+License: Apache-2.0; complete upstream license is preserved in LICENSE.
+
+Modified on 2026-10-18 for OMP on Windows. Both SKILL.md and
+references/manifest-patterns.md are rewritten/condensed derivatives, not
+verbatim upstream files. Changes include native OMP tools/skill ownership,
+PowerShell host commands, Linux/Windows Pod distinctions, local-schema limits,
+read-only-first operations, exact-context/namespace approval, separate mutation
+approval, protection of secrets, removal of dependency bootstrap and vendor
+validators, and corrections to overly broad fsGroup/non-root/network-policy
+statements. Examples are illustrative and unexecuted.
+
+No upstream validators/setup/test scripts, installers, plugins, hooks, or
+third-party toolchain is installed here. The source-only checkout remains
+separately under ecosystem/sources. No upstream NOTICE file was found by the
+source attribution-file inventory. This added notice does not alter the
+upstream license or imply endorsement.

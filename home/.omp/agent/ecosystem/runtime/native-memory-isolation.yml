@@ -1,0 +1,14 @@
+# Process-only empty bank for isolation acceptance; global backend stays off.
+memory:
+  backend: mnemopi
+mnemopi:
+  dbPath: C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/native-memory-isolation/mnemopi.db
+  bank: omp_selftest_native_isolation
+  scoping: global
+  llmMode: none
+  noEmbeddings: true
+  autoRecall: false
+  autoRetain: false
+  debug: false
+autolearn:
+  enabled: false

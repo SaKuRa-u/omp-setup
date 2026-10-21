@@ -1,0 +1,15 @@
+# Process-only comparator. Global OMP memory remains off.
+# No embedding download, LLM extraction, automatic capture or cloud credential.
+memory:
+  backend: mnemopi
+mnemopi:
+  dbPath: C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/native-memory-selftest/mnemopi.db
+  bank: omp_selftest_native
+  scoping: global
+  llmMode: none
+  noEmbeddings: true
+  autoRecall: false
+  autoRetain: false
+  debug: false
+autolearn:
+  enabled: false
