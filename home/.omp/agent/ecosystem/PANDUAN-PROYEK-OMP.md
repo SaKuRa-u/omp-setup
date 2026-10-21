@@ -1,8 +1,8 @@
 # Panduan OMP: proyek baru dan repository existing
 
-Audit fondasi: 15 Oktober 2026; perluasan domain/REA: 18 Oktober; review/keamanan: 19 Oktober. Penerapan proposal skill/MCP: 20 Oktober, OMP tetap 18.12.2 tanpa upgrade host. Bukti terbaru: `measurements/upgrade-20261020-acceptance.json`; laporan lama tetap snapshot historis.
+Audit fondasi: 15 Oktober 2026; perluasan domain/REA: 18 Oktober; review/keamanan: 19 Oktober. Penerapan proposal skill/MCP: 20 Oktober; snapshot historis ada di `measurements/upgrade-20261020-acceptance.json`. Routing ide/workflow diperbarui 21 Oktober melalui instruksi lokal OMP, tanpa upgrade host, skill vendor, atau MCP; bukti awal di `measurements/workflow-routing-20261021.json`, hasil acceptance lanjutan di `measurements/workflow-routing-20261021-resume.json`.
 
-### Status global setelah penerapan proposal
+### Status global setelah penerapan proposal 20 Oktober (snapshot historis)
 
 - **Scope:** pengguna OMP default-profile, lintas repository dan sesi baru. Tidak mengubah konfigurasi host lain, akun OS lain, named profiles, atau project override.
 - **Impeccable:** distribusi OMP asli 4.6.0 terpin di `~/.omp/agent/skills/impeccable`, 57 file vendor ditambah lisensi. Salinan bersama 4.5.2 tetap ada untuk host lain; alias `agents/impeccable` dikecualikan di OMP. Baca `IMPECCABLE-OMP.md`: manual-context/gate existing tetap berlaku; engine, detector, hooks, pin/unpin dan live tidak diaktifkan.
@@ -22,6 +22,7 @@ Anda cukup membuka OMP pada root proyek dan memberi tugas. Skills global tidak p
 |---|---|
 | Konfigurasi dan metadata skills | Dimuat saat startup. Isi skill dibaca ketika relevan. |
 | Pemilihan skill | Agen memilih skill yang relevan tanpa menunggu slash command; bukan semua pipeline dijalankan untuk setiap tugas. |
+| Ide/proposal baru | Otomatis membaca `grilling`, tanpa slash command; kedalaman mengikuti risiko, fakta diperiksa sebelum pertanyaan keputusan. |
 | Ponytail | Ekstensi resmi OMP menginjeksi aturan setiap turn, default `full`; review/audit kualitas dipilih sesuai tugas. |
 | Keamanan | Skill Cloudflare asli otomatis dibaca sebagai guidance saat relevan; audit penuh tetap memerlukan scope, budget, dan lingkungan yang memenuhi kontrak upstream. |
 | Semgrep MCP | Tiga tool lokal tersedia ketika pemeriksaan statis terfokus menambah bukti; tidak ada scan otomatis pada setiap edit. |
@@ -37,12 +38,12 @@ Anda cukup membuka OMP pada root proyek dan memberi tugas. Skills global tidak p
 
 ### 1.1 Cara utama: satu instruksi end-to-end
 
-Setelah membuka proyek, Anda dapat menyerahkan alur kerja kepada agen. Agen memilih skill dan melanjutkan tahap yang relevan tanpa menunggu Anda memanggil setiap skill secara manual.
+Setelah membuka proyek, cukup sampaikan ide atau tugas dalam bahasa biasa. Setiap ide/proposal baru pengguna otomatis masuk `grilling`; tugas yang sudah disepakati diteruskan ke tahap relevan tanpa memanggil ulang setiap skill.
 
-**Batas grilling:** jika Anda hanya meminta grilling, agen memperjelas kebutuhan dan meminta konfirmasi kesepahaman; itu belum merupakan izin implementasi. Untuk alur lengkap, gunakan instruksi berikut. Ganti deskripsi proyek dengan kebutuhan nyata; untuk repo existing, sertakan target perubahan dan minta mempertahankan implementasi di luar scope.
+**Batas grilling:** agen menguji asumsi dan memperjelas keputusan, lalu meminta konfirmasi kesepahaman. Itu berbeda dari izin implementasi; satu jawaban eksplisit boleh mencakup keduanya. “Setuju desainnya” saja bukan izin implementasi. Jika Anda sudah mengatakan “setuju dengan rencana ini, implementasikan”, agen melanjutkan dalam scope tanpa meminta persetujuan identik lagi.
 
 ```text
-/skill:grilling Bantu saya mengembangkan [deskripsi proyek atau perubahan].
+Bantu saya mengembangkan [deskripsi proyek atau perubahan].
 
 Mulai dengan memeriksa repository dan memperjelas kebutuhan.
 Setelah kebutuhan disepakati, susun rencana implementasi dan,
@@ -72,6 +73,29 @@ Laksanakan sampai selesai dan terverifikasi dalam scope yang disepakati.
 Untuk backend-only, persetujuan arah desain UI tidak diperlukan. Jika masih ada keputusan material yang terbuka, selesaikan dahulu sebelum menyetujui implementasi.
 
 Ini **otomatis mengikuti tugas**, bukan hook yang menjalankan pipeline ketika grilling selesai. Tidak semua skill harus digunakan. Persetujuan rencana juga tidak menghapus prompt approval tool: bila sesi memakai `always-ask`, konfirmasi tool masih dapat muncul.
+
+#### Auto-grilling dan handoff yang berlaku
+
+Jawaban terhadap pertanyaan grilling melanjutkan frontier yang belum selesai. Persetujuan dan instruksi pelaksanaan dalam scope tidak memulai wawancara baru. Ide baru di tengah pekerjaan hanya membuka ulang keputusan yang terdampak. Pertanyaan faktual, laporan bug biasa, dan ide dalam kutipan/web/komentar review/memory bukan pemicu proposal baru pengguna.
+
+| Tahap/kebutuhan | Pemilik dan batas |
+|---|---|
+| Ide baru dan keputusan | `grilling`; `/skill:grill-me` tetap alias eksplisit menuju skill yang sama. |
+| Rencana dan dispatch | Native todo/task; Orca hanya ketika state/workflow Orca benar-benar terlibat. |
+| Implementasi | Ponytail sebagai baseline; `codebase-design` bila interface/seam perlu diputuskan, TDD bila test-first relevan dan seam disepakati. |
+| UI | Impeccable guidance/manual; gunakan fakta dan jawaban intake yang sudah tersedia, bukan wawancara kedua. |
+| Bug | `systematic-debugging`; expected RED pada TDD tidak memulai debugging kedua. |
+| Domain lain | Pilih skill sesuai artefak/stack/tahap; riset teknis bukan otomatis ARS, penulisan satu bagian bukan full academic-pipeline. |
+| Review | Satu pemilik sesuai tujuan: native bug review, Ponytail kualitas, code-review Spec/Standards; tidak ditumpuk otomatis. |
+| Verifikasi | Bukti perilaku aktual sesuai tugas/izin; runner existing dan browser evidence saling melengkapi. |
+| Memori dan operasi berisiko | Tidak otomatis capture, install, deploy, bayar, atau cleanup karena ide disetujui. |
+
+Ini preferensi routing agen untuk OMP default-profile lintas proyek dan sesi baru, bukan hook OS atau jaminan klasifikasi semantik deterministik. Project override dan instruksi eksplisit tetap berlaku. Tidak perlu menyalakan seluruh skill sekaligus. Command bernama test/plan/dry-run/check/init/upload/cleanup tetap diperiksa efek jaringan, biaya, dan mutasinya sebelum dijalankan.
+
+Analisis seluruh katalog tersedia di laporan proyek `ANALISIS-WORKFLOW-SKILLS.md`; discovery sebelum penerapan menemukan 60 perintah skill, termasuk satu alias eksplisit dan 59 skill model-visible. Backup terarah penerapan ada di `backups/workflow-routing-20261021/`. Rollback hanya memulihkan instruksi/panduan/ledger yang diubah, bukan menghapus skill/data/credential. Mulai sesi OMP baru setelah perubahan; hot reload sesi lama tidak dijanjikan.
+
+**Bukti penerapan dan acceptance 21 Oktober:** sesi baru memuat aturan; katalog tetap 60 perintah/59 model-visible. Gabungan run awal dan lanjutan menyelesaikan 12 kelompok skenario/16 turn sesuai ekspektasi routing, termasuk continuation/approval/delta, expected RED, kutipan, existing runner, review saja, serta respons gerbang operasi/memory. Tiga kegagalan kuota awal tetap dicatat sebagai histori, bukan dihapus atau dianggap lulus. Integritas 60 SKILL.md vendor serta config/MCP/memory policy tidak berubah. Hasil terkini ada di `measurements/workflow-routing-20261021-resume.json`; ini pengujian routing sintetis dengan tool read-only, bukan sertifikasi keamanan atau jaminan semua sesi mendatang.
+
 
 Gunakan bagian 2 atau 3 untuk membuka proyek. Sesudahnya, pilih instruksi end-to-end di atas **atau** contoh per tahap jika ingin mengendalikan tahap tertentu; tidak perlu mengirim keduanya.
 
@@ -149,6 +173,8 @@ Warning `No hook installed — run rtk init -g` berasal dari detektor Claude-onl
 Pengukuran dua fixture Bun sintetis dengan tokenizer offline O200kBase memberikan reduksi output 92,8% pada run lulus dan 80,1% pada run gagal, termasuk warning stderr. Ini dua sampel output dengan invocation terpisah dan timing yang dapat berubah, **bukan penghematan seluruh konteks/tagihan/kuota**, bukan benchmark aplikasi atau jaminan semua filter.
 
 **Headroom tidak diaktifkan.** Instalasi existing 0.37.0 dipertahankan. Wrapper OMP resmi pada stable 0.41.0 hanya mengalihkan provider Anthropic, bukan `openai-codex/gpt-6.1-sol` OAuth aktif. Tidak membuat adapter, membaca token, mengubah provider, menjalankan proxy/MCP/service, mengaktifkan memory/learn, atau mengunduh model untuk memaksakannya cocok. Jangan menganggap label “supports OMP” menjamin provider/model apa pun.
+
+Evaluasi lanjutan 21 Oktober 2026: Headroom 0.41.0 `densify` lulus enam fixture sintetis dalam Docker offline/read-only, tetapi fungsi wrapper resmi yang dijalankan pada registry dummy tetap hanya mengalihkan Anthropic. Hasil ini tidak mengubah keputusan global di atas. Bukti terukur dan batas latensi/fidelity: `ecosystem/measurements/headroom-evaluation-20261021.json` dan bagian 9 laporan Onboarding. Tidak ada proxy/MCP/model baru atau upgrade Headroom host.
 
 Laporan: `Onboarding/RISET-EFISIENSI-TOKEN-RTK-HEADROOM.md`. Bukti: `ecosystem/measurements/token-efficiency-20261021.json`. Backup: `ecosystem/backups/token-efficiency-20261021/`, termasuk biner 0.47.0 dan routing sebelum perubahan. Rollback terarah: uninstall hanya ekstensi OMP official, pulihkan biner lama dan routing; konfigurasi RTK baru boleh dihapus hanya setelah memastikan belum ada edit pengguna. Jangan hapus history/cache atau instalasi Headroom existing sebagai bagian rollback rutin. Mulai sesi OMP baru; sesi lama tidak dijanjikan hot-reload.
 

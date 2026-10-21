@@ -1,9 +1,21 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "wave": 1,
   "state": "Global default-profile OMP: original Impeccable 4.6.0 guidance/manual context, Context7 MCP 4.4.4 through preserved DPAPI bridge, 52 skills reconciled, Ponytail full, Cloudflare guidance and bounded Semgrep/REA retained; not an engine enablement, OS sandbox or full security audit",
   "ompVersion": "18.12.2",
+  "workflowRouting": {
+    "date": "2026-10-21",
+    "scope": "OMP default-profile; project overrides and explicit task instructions retained",
+    "decision": "Every new user-authored proposal automatically selects grilling; continuations and approvals preserve state; one owner per stage; operation gates unchanged",
+    "alias": "grill-me remains explicit-only",
+    "vendorChanges": false,
+    "evidence": "measurements/workflow-routing-20261021-resume.json",
+    "initialEvidence": "measurements/workflow-routing-20261021.json",
+    "backup": "backups/workflow-routing-20261021/",
+    "acceptanceStatus": "planned-routing-acceptance-passed: 12 unique scenario groups and 16 observed turns; 7 resumed groups completed after explicit user request; 3 initial quota errors retained as history, no current blocked scenarios; finite read-only synthetic scope, not a security certification",
+    "historicalState": "state and ompVersion above describe the 2026-10-20 installation snapshot, not current discovery or an upgrade in this task"
+  },
   "installMethod": "DISABLE_TELEMETRY=1 npx --no-install skills add LOCAL_AUDITED_SOURCE --skill SELECTED_NAMES --agent pi --global --copy --yes --json",
   "skillsCliVersion": "1.7.2",
   "installRoot": "C:/Users/Indrimeilla-PC/.agents/skills",
@@ -188,11 +200,11 @@
       "sourcePath": "skills/productivity/grilling",
       "path": "C:/Users/Indrimeilla-PC/.agents/skills/grilling",
       "installedAt": "2026-10-15",
-      "decision": "install with OMP routing",
+      "decision": "installed unchanged; auto-select grilling for every new user proposal through local OMP routing; preserve continuation/approval state and operational gates",
       "dependencies": [],
       "executables": "none",
       "audit": "skills.sh Gen/Socket/Snyk pass; full package read; no forced subagent for small fact queries",
-      "rollback": "skills.ignoredSkills += grilling"
+      "rollback": "Restore the targeted AGENTS.md/panduan/ledger backup in ecosystem/backups/workflow-routing-20261021/ to revert routing only; do not remove the upstream skill"
     },
     {
       "name": "tdd",

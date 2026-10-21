@@ -549,6 +549,18 @@
       "sourceSha256": "d7afad608890883f400efeff370677e6b6bf750e0ed2544b2b1ee48e4cfad9db"
     },
     {
+      "path": "home/.agents/skills/new-terraform-provider/assets/main.go",
+      "bytes": 1184,
+      "sha256": "fe2c1c7b14daec92f130ad73f21fc38bbabbfee59b01011eb91fefd3c27b174f",
+      "sourceSha256": "fe2c1c7b14daec92f130ad73f21fc38bbabbfee59b01011eb91fefd3c27b174f"
+    },
+    {
+      "path": "home/.agents/skills/new-terraform-provider/assets/provider.go",
+      "bytes": 4534,
+      "sha256": "45e8a659a8eec568d0f568bae1dd077b85ad76cd63cc2a306de5ae9560c7f172",
+      "sourceSha256": "45e8a659a8eec568d0f568bae1dd077b85ad76cd63cc2a306de5ae9560c7f172"
+    },
+    {
       "path": "home/.agents/skills/orca-cli/SKILL.md",
       "bytes": 2372,
       "sha256": "aa76f86505010096e8ea9edda1705a78aae7af45e54485f3fe0460664c1d9e4a",
@@ -1276,9 +1288,9 @@
     },
     {
       "path": "home/.omp/agent/AGENTS.md",
-      "bytes": 31260,
-      "sha256": "6cc11a324925e96907ab3df3b1e679955da09e19ff596fc8b8aa49532cd838d8",
-      "sourceSha256": "6cc11a324925e96907ab3df3b1e679955da09e19ff596fc8b8aa49532cd838d8"
+      "bytes": 35018,
+      "sha256": "b8366f3254d8c9d8042a0b77a6e149f390e1693a8a2410f3e9e65434a0450c90",
+      "sourceSha256": "b8366f3254d8c9d8042a0b77a6e149f390e1693a8a2410f3e9e65434a0450c90"
     },
     {
       "path": "home/.omp/agent/config.yml",
@@ -1300,9 +1312,9 @@
     },
     {
       "path": "home/.omp/agent/ecosystem/PANDUAN-PROYEK-OMP.md",
-      "bytes": 38450,
-      "sha256": "96f14de1908bfa6b989e4e8cb70fbd75810ecb9ca6ab95e402b24fa4135984a9",
-      "sourceSha256": "96f14de1908bfa6b989e4e8cb70fbd75810ecb9ca6ab95e402b24fa4135984a9"
+      "bytes": 42417,
+      "sha256": "0c07ee3e46b2bb6645092e0231bca2377751feb1c7640b7486a34131496210fc",
+      "sourceSha256": "0c07ee3e46b2bb6645092e0231bca2377751feb1c7640b7486a34131496210fc"
     },
     {
       "path": "home/.omp/agent/ecosystem/WAVE1.md",
@@ -1312,9 +1324,9 @@
     },
     {
       "path": "home/.omp/agent/ecosystem/ledger.json",
-      "bytes": 43607,
-      "sha256": "23208f6a63d7aa73c7948ca672612144d2daf9679ce0b835cefd9fc0ed105796",
-      "sourceSha256": "23208f6a63d7aa73c7948ca672612144d2daf9679ce0b835cefd9fc0ed105796"
+      "bytes": 44906,
+      "sha256": "d6899dbe11b1bd5d8ce5cbc13b590dd9b7fa0d38962a69d1df961009b1c4bfcb",
+      "sourceSha256": "d6899dbe11b1bd5d8ce5cbc13b590dd9b7fa0d38962a69d1df961009b1c4bfcb"
     },
     {
       "path": "home/.omp/agent/ecosystem/measurements/audit-forget-1792063760310.json",
@@ -1375,6 +1387,12 @@
       "bytes": 152,
       "sha256": "f73890a04a6f6994e08c6b200d43f891b460494bbff91b6261902b943f8573a1",
       "sourceSha256": "f73890a04a6f6994e08c6b200d43f891b460494bbff91b6261902b943f8573a1"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/measurements/headroom-evaluation-20261021.json",
+      "bytes": 28680,
+      "sha256": "be79106cf41aa0388444bcb71848321f7df691af2873d8356526b4d9fd7f3bfd",
+      "sourceSha256": "be79106cf41aa0388444bcb71848321f7df691af2873d8356526b4d9fd7f3bfd"
     },
     {
       "path": "home/.omp/agent/ecosystem/measurements/humanizer-20261021.json",
@@ -1549,6 +1567,18 @@
       "bytes": 873,
       "sha256": "83e4b6399366ccdba93cdcf47d1d51c5662f576f7b7ca4f130054d330e0ff4b7",
       "sourceSha256": "83e4b6399366ccdba93cdcf47d1d51c5662f576f7b7ca4f130054d330e0ff4b7"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/measurements/workflow-routing-20261021-resume.json",
+      "bytes": 53231,
+      "sha256": "1fdd1244f9ec9144d22adb78033eb39ccdca5c109fbf05be6a30411ee07abbc0",
+      "sourceSha256": "1fdd1244f9ec9144d22adb78033eb39ccdca5c109fbf05be6a30411ee07abbc0"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/measurements/workflow-routing-20261021.json",
+      "bytes": 39336,
+      "sha256": "7df5beb4cf93b8af474a205a8cb3ae40526183dcd8cc5dc2f1525a8082ee997e",
+      "sourceSha256": "7df5beb4cf93b8af474a205a8cb3ae40526183dcd8cc5dc2f1525a8082ee997e"
     },
     {
       "path": "home/.omp/agent/ecosystem/runtime/behavior-smoke.mjs",
@@ -2701,6 +2731,12 @@
       "bytes": 1108,
       "sha256": "bda3caa1875429a75d04679f8649b5f57106b83f7609ab7bdd6545db30b7c03e",
       "sourceSha256": "bda3caa1875429a75d04679f8649b5f57106b83f7609ab7bdd6545db30b7c03e"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/academic-research-skills-4c544901/.gitattributes",
+      "bytes": 381,
+      "sha256": "e527abe459847500cdaaa76e8ba8914cfbf60af2c21abfc477be88f9fb75e015",
+      "sourceSha256": "e527abe459847500cdaaa76e8ba8914cfbf60af2c21abfc477be88f9fb75e015"
     },
     {
       "path": "home/.omp/agent/ecosystem/sources/academic-research-skills-4c544901/.github/FUNDING.yml",
@@ -18723,6 +18759,12 @@
       "sourceSha256": "4a8b1f797dd43561cfb0997fe98c5e9deda352ecf195c1901962388263f5da08"
     },
     {
+      "path": "home/.omp/agent/ecosystem/sources/ponytail-09c434ab/hooks/band/register.tsx",
+      "bytes": 21036,
+      "sha256": "101d10f56f6b056f704d33ae084ab03f9179dca0897a233cd560de23e6e6bc05",
+      "sourceSha256": "101d10f56f6b056f704d33ae084ab03f9179dca0897a233cd560de23e6e6bc05"
+    },
+    {
       "path": "home/.omp/agent/ecosystem/sources/ponytail-09c434ab/hooks/band/types.d.ts",
       "bytes": 717,
       "sha256": "35e91483c66650cb60cded29863ab7baa9200e16707a8c16e44120f7341f4d4c",
@@ -18979,6 +19021,12 @@
       "bytes": 7901,
       "sha256": "d2be851dea7976ee5d277b65e6b9c10ffd1840069b77f0751f241df567fb1333",
       "sourceSha256": "d2be851dea7976ee5d277b65e6b9c10ffd1840069b77f0751f241df567fb1333"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/ponytail-09c434ab/tests/band.test.tsx",
+      "bytes": 21078,
+      "sha256": "d34b5694776dc3585767bab4524fef43b3cc1e2acd71e8755f0162cfc13e1ec4",
+      "sourceSha256": "d34b5694776dc3585767bab4524fef43b3cc1e2acd71e8755f0162cfc13e1ec4"
     },
     {
       "path": "home/.omp/agent/ecosystem/sources/ponytail-09c434ab/tests/behavior.test.js",
@@ -21375,6 +21423,12 @@
       "sourceSha256": "4a8b1f797dd43561cfb0997fe98c5e9deda352ecf195c1901962388263f5da08"
     },
     {
+      "path": "home/.omp/plugins/cache/plugins/ponytail___ponytail___5.3.2/hooks/band/register.tsx",
+      "bytes": 21036,
+      "sha256": "101d10f56f6b056f704d33ae084ab03f9179dca0897a233cd560de23e6e6bc05",
+      "sourceSha256": "101d10f56f6b056f704d33ae084ab03f9179dca0897a233cd560de23e6e6bc05"
+    },
+    {
       "path": "home/.omp/plugins/cache/plugins/ponytail___ponytail___5.3.2/hooks/band/types.d.ts",
       "bytes": 717,
       "sha256": "35e91483c66650cb60cded29863ab7baa9200e16707a8c16e44120f7341f4d4c",
@@ -21633,6 +21687,12 @@
       "sourceSha256": "d2be851dea7976ee5d277b65e6b9c10ffd1840069b77f0751f241df567fb1333"
     },
     {
+      "path": "home/.omp/plugins/cache/plugins/ponytail___ponytail___5.3.2/tests/band.test.tsx",
+      "bytes": 21078,
+      "sha256": "d34b5694776dc3585767bab4524fef43b3cc1e2acd71e8755f0162cfc13e1ec4",
+      "sourceSha256": "d34b5694776dc3585767bab4524fef43b3cc1e2acd71e8755f0162cfc13e1ec4"
+    },
+    {
       "path": "home/.omp/plugins/cache/plugins/ponytail___ponytail___5.3.2/tests/behavior.test.js",
       "bytes": 3276,
       "sha256": "708f5e7831af09e6d3f14217425742003e127b5f1a1cc80a203fabb77ee4c371",
@@ -21784,5 +21844,38 @@
     "semgrep": "1.181.0",
     "rtk": "1.0.1",
     "ponytail": "5.3.2"
+  },
+  "updatedAt": "2026-10-21T16:22:24.695673+00:00",
+  "credentialScan": {
+    "status": "No unclassified matches in scanned patterns",
+    "rules": [
+      "github-token",
+      "provider-key",
+      "aws-access-key",
+      "private-key",
+      "jwt",
+      "url-credential"
+    ],
+    "reviewedExamples": [
+      {
+        "path": "home/.omp/agent/ecosystem/runtime/offline-smoke.ts",
+        "rule": "private-key",
+        "sha256": "70a0356a810979c86b1c129580507f34da009c40d281ae63018addfd7eb29e71",
+        "reason": "Synthetic rejection fixture: header only, no key material"
+      },
+      {
+        "path": "home/.omp/agent/ecosystem/runtime/semgrep/1.181.0/source-review/semgrep-1.181.0.data/purelib/semgrep/git.py",
+        "rule": "url-credential",
+        "sha256": "dd012fde2d72ff89c85b0f86770596bbe83f3851a5a59cc6f2deb99268a51673",
+        "reason": "Upstream docstring uses literal ${CI_JOB_TOKEN}, not a credential"
+      }
+    ],
+    "limit": "Pattern-based check, not proof of absence of secrets or personal data"
+  },
+  "snapshotPolicy": {
+    "basis": "Current local installation; no upstream upgrades",
+    "selection": "Refresh prior inventory and enumerate installed skills, extensions, runtime text, measurements, plugin distributions and active ARS/Ponytail sources",
+    "omitted": "Keep prior inactive-source selection; omit runtime state, credentials, history, databases, dependencies, binaries and nontext artifacts",
+    "verification": "Byte sizes and SHA-256 for all snapshot files and source files; credential-pattern scan is not a security certification"
   }
 }

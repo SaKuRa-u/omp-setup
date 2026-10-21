@@ -1,0 +1,842 @@
+{
+  "schema_version": 1,
+  "evaluated_at": "2026-10-21",
+  "scope": "Synthetic library and official OMP wrapper evaluation, not full security audit or live provider test",
+  "status": "completed_with_global_incompatibility",
+  "user_authorization": "Local Docker Desktop context, disposable sandbox and pinned public image/dependency acquisition; no provider/credential/global Headroom activation",
+  "source_commit": "76133cff59b71284399bf760c5578dc373c97231",
+  "headroom_wheel": {
+    "filename": "headroom_ai-0.41.0-cp310-abi3-manylinux_2_28_x86_64.whl",
+    "url": "https://files.pythonhosted.org/packages/e5/37/dfd7a44720ffb0d233384d1337efaf211e4e975dd5880fee57facb83c841/headroom_ai-0.41.0-cp310-abi3-manylinux_2_28_x86_64.whl",
+    "size": 15642717,
+    "digests": {
+      "blake2b_256": "e537dfd7a44720ffb0d233384d1337efaf211e4e975dd5880fee57facb83c841",
+      "md5": "8a08ea2e5f41c7bbd4ec749b08c9475e",
+      "sha256": "f4db5e5119a73af3ed952b1c10caff2430831d899eb17d995a27574ae6e6b306"
+    }
+  },
+  "base_image": "docker.io/library/python@sha256:08b493e9c2f92a0f84e45062338a1503d0f585d63ba8783baad5a24cdf200894",
+  "dependency_manifest": [
+    {
+      "name": "aiohappyeyeballs",
+      "version": "2.7.1",
+      "filename": "aiohappyeyeballs-2.7.1-py3-none-any.whl",
+      "sha256": "9243213661e29250eb41368e5daa826fc017156c3b8a11440826b2e3ed376472",
+      "bytes": 15038
+    },
+    {
+      "name": "aiohttp",
+      "version": "3.14.5",
+      "filename": "aiohttp-3.14.5-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "1ffa3a523a36d8628f98c06492ae16a31a23d14c0b4ec721757b477319f656d6",
+      "bytes": 1911038
+    },
+    {
+      "name": "aiosignal",
+      "version": "1.4.0",
+      "filename": "aiosignal-1.4.0-py3-none-any.whl",
+      "sha256": "053243f8b92b990551949e63930a839ff0cf0b0ebbe0597b0f3fb19e1a0fe82e",
+      "bytes": 7490
+    },
+    {
+      "name": "annotated-types",
+      "version": "0.8.0",
+      "filename": "annotated_types-0.8.0-py3-none-any.whl",
+      "sha256": "f072f4d804ea359e4eaf198b1af7a8b0943881a87f31bb764f8bf219bb9419e0",
+      "bytes": 13427
+    },
+    {
+      "name": "anyio",
+      "version": "4.15.1",
+      "filename": "anyio-4.15.1-py3-none-any.whl",
+      "sha256": "6152fdbbf9a77fdec97731721bebf7c4c44f7c29b424b0065826173efc7ed101",
+      "bytes": 132079
+    },
+    {
+      "name": "ast-grep-cli",
+      "version": "0.51.0",
+      "filename": "ast_grep_cli-0.51.0-py3-none-manylinux_2_28_x86_64.whl",
+      "sha256": "17007574681fe872473850780304b3df57ca98ac575d88957972fea8c3810c26",
+      "bytes": 8753377
+    },
+    {
+      "name": "attrs",
+      "version": "26.1.0",
+      "filename": "attrs-26.1.0-py3-none-any.whl",
+      "sha256": "c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309",
+      "bytes": 67548
+    },
+    {
+      "name": "boto3",
+      "version": "1.43.116",
+      "filename": "boto3-1.43.116-py3-none-any.whl",
+      "sha256": "9dca4dbd464b189041b27b5a02280bd5e02c3051bebf6bd03cd0e47aaf558030",
+      "bytes": 140042
+    },
+    {
+      "name": "botocore",
+      "version": "1.43.116",
+      "filename": "botocore-1.43.116-py3-none-any.whl",
+      "sha256": "92f1efe8434183f08f91a61478925f5f8d23082024556f269f916477040e26f4",
+      "bytes": 16111072
+    },
+    {
+      "name": "certifi",
+      "version": "2026.10.19",
+      "filename": "certifi-2026.10.19-py3-none-any.whl",
+      "sha256": "42d35340cc5b9ba78e818ddbff0c5b1c2b779de448a340fd1b989f5fa8670e1b",
+      "bytes": 136464
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.2",
+      "filename": "charset_normalizer-3.5.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "7218e8f32b0956cfcd048fd42d9d5779809745ca1d86113ca56f66e7ae1549c4",
+      "bytes": 254660
+    },
+    {
+      "name": "click",
+      "version": "8.5.0",
+      "filename": "click-8.5.0-py3-none-any.whl",
+      "sha256": "255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360",
+      "bytes": 125251
+    },
+    {
+      "name": "distro",
+      "version": "1.9.0",
+      "filename": "distro-1.9.0-py3-none-any.whl",
+      "sha256": "7bffd925d65168f85027d8da9af6bddab658135b840670a223589bc0c8ef02b2",
+      "bytes": 20277
+    },
+    {
+      "name": "fastuuid",
+      "version": "0.14.0",
+      "filename": "fastuuid-0.14.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "33e678459cf4addaedd9936bbb038e35b3f6b2061330fd8f2f6a1d80414c0f87",
+      "bytes": 278278
+    },
+    {
+      "name": "filelock",
+      "version": "3.32.7",
+      "filename": "filelock-3.32.7-py3-none-any.whl",
+      "sha256": "65ff0d0190ea42038b32bda4b77834fb05be2cad4c5b9b01aa4dfb3614536e52",
+      "bytes": 100157
+    },
+    {
+      "name": "frozenlist",
+      "version": "1.8.0",
+      "filename": "frozenlist-1.8.0-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+      "sha256": "fb30f9626572a76dfe4293c7194a09fb1fe93ba94c7d4f720dfae3b646b45027",
+      "bytes": 234391
+    },
+    {
+      "name": "fsspec",
+      "version": "2026.9.0",
+      "filename": "fsspec-2026.9.0-py3-none-any.whl",
+      "sha256": "8dd6e646e99ea382bd85f97a45e6b526a442d79423a7dc673f1e2756d05fcb5f",
+      "bytes": 221738
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0",
+      "filename": "h11-0.16.0-py3-none-any.whl",
+      "sha256": "63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86",
+      "bytes": 37515
+    },
+    {
+      "name": "h2",
+      "version": "4.4.1",
+      "filename": "h2-4.4.1-py3-none-any.whl",
+      "sha256": "0e25f1462b23c9cb82d9eb02e28bc706dac2a68cb457c6a0d74d63c8a2a5d0e6",
+      "bytes": 62636
+    },
+    {
+      "name": "headroom-ai",
+      "version": "0.41.0",
+      "filename": "headroom_ai-0.41.0-cp310-abi3-manylinux_2_28_x86_64.whl",
+      "sha256": "f4db5e5119a73af3ed952b1c10caff2430831d899eb17d995a27574ae6e6b306",
+      "bytes": 15642717
+    },
+    {
+      "name": "hf-xet",
+      "version": "1.7.0",
+      "filename": "hf_xet-1.7.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "sha256": "2814a6e999d13464c4d679b788cc5d784eb5a4edfc638a31f10e9a11ab531ef8",
+      "bytes": 4212180
+    },
+    {
+      "name": "hpack",
+      "version": "4.2.0",
+      "filename": "hpack-4.2.0-py3-none-any.whl",
+      "sha256": "858ac0b02280fa582b5080d68db0899c62a80375e0e5413a74970c5e518b6986",
+      "bytes": 34246
+    },
+    {
+      "name": "httpcore",
+      "version": "1.0.9",
+      "filename": "httpcore-1.0.9-py3-none-any.whl",
+      "sha256": "2d400746a40668fc9dec9810239072b40b4484b640a8c38fd654a024c7a1bf55",
+      "bytes": 78784
+    },
+    {
+      "name": "httpx",
+      "version": "0.28.1",
+      "filename": "httpx-0.28.1-py3-none-any.whl",
+      "sha256": "d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad",
+      "bytes": 73517
+    },
+    {
+      "name": "huggingface_hub",
+      "version": "1.33.0",
+      "filename": "huggingface_hub-1.33.0-py3-none-any.whl",
+      "sha256": "04e434b06e100eddbce9a6e817d72693a7884b10a79bd67ab48080d5c07eb899",
+      "bytes": 846435
+    },
+    {
+      "name": "hyperframe",
+      "version": "6.1.0",
+      "filename": "hyperframe-6.1.0-py3-none-any.whl",
+      "sha256": "b03380493a519fce58ea5af42e4a42317bf9bd425596f7a0835ffce80f1a42e5",
+      "bytes": 13007
+    },
+    {
+      "name": "idna",
+      "version": "3.20",
+      "filename": "idna-3.20-py3-none-any.whl",
+      "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c",
+      "bytes": 69583
+    },
+    {
+      "name": "importlib_metadata",
+      "version": "8.9.0",
+      "filename": "importlib_metadata-8.9.0-py3-none-any.whl",
+      "sha256": "e0f761b6ea91ced3b0844c14c9d955224d538105921f8e6754c00f6ca79fba7f",
+      "bytes": 27220
+    },
+    {
+      "name": "Jinja2",
+      "version": "3.1.6",
+      "filename": "jinja2-3.1.6-py3-none-any.whl",
+      "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+      "bytes": 134899
+    },
+    {
+      "name": "jiter",
+      "version": "0.17.0",
+      "filename": "jiter-0.17.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "58df29268a95e910f17db7ec9178eb7f15aa8619aaca3575275c4e6b3f4fe4c5",
+      "bytes": 344990
+    },
+    {
+      "name": "jmespath",
+      "version": "1.1.0",
+      "filename": "jmespath-1.1.0-py3-none-any.whl",
+      "sha256": "a5663118de4908c91729bea0acadca56526eb2698e83de10cd116ae0f4e97c64",
+      "bytes": 20419
+    },
+    {
+      "name": "jsonschema",
+      "version": "4.26.0",
+      "filename": "jsonschema-4.26.0-py3-none-any.whl",
+      "sha256": "d489f15263b8d200f8387e64b4c3a75f06629559fb73deb8fdfb525f2dab50ce",
+      "bytes": 90630
+    },
+    {
+      "name": "jsonschema-specifications",
+      "version": "2025.9.1",
+      "filename": "jsonschema_specifications-2025.9.1-py3-none-any.whl",
+      "sha256": "98802fee3a11ee76ecaca44429fda8a41bff98b00a0f2838151b113f210cc6fe",
+      "bytes": 18437
+    },
+    {
+      "name": "litellm",
+      "version": "1.106.1",
+      "filename": "litellm-1.106.1-cp310-abi3-manylinux_2_28_x86_64.whl",
+      "sha256": "d412e85ef7046eee701ae178da4c1587eddbeac4aaaacfca0fd5afec28c2abde",
+      "bytes": 36771391
+    },
+    {
+      "name": "markdown-it-py",
+      "version": "4.2.0",
+      "filename": "markdown_it_py-4.2.0-py3-none-any.whl",
+      "sha256": "9f7ebbcd14fe59494226453aed97c1070d83f8d24b6fc3a3bcf9a38092641c4a",
+      "bytes": 91687
+    },
+    {
+      "name": "MarkupSafe",
+      "version": "3.0.4",
+      "filename": "markupsafe-3.0.4-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "434139499bb20b502ed3baa1f169e618f924a97e7a777fea1a49446d80106cf6",
+      "bytes": 23017
+    },
+    {
+      "name": "mdurl",
+      "version": "0.1.2",
+      "filename": "mdurl-0.1.2-py3-none-any.whl",
+      "sha256": "84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8",
+      "bytes": 9979
+    },
+    {
+      "name": "multidict",
+      "version": "7.1.0",
+      "filename": "multidict-7.1.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "5129cc1f5fec6888e2db0be936dab67242e32c738811c8769aeea93aab4257a8",
+      "bytes": 481377
+    },
+    {
+      "name": "openai",
+      "version": "2.54.0",
+      "filename": "openai-2.54.0-py3-none-any.whl",
+      "sha256": "89089789197ccdb87f173a03145ed1598d00795220c93e96cf712b1cbf5e5f2b",
+      "bytes": 1660351
+    },
+    {
+      "name": "opentelemetry-api",
+      "version": "1.45.1",
+      "filename": "opentelemetry_api-1.45.1-py3-none-any.whl",
+      "sha256": "b31553efa588ae44bc306f863c785c5333a9ecc091248c6ee68b4b6c87fdedfb",
+      "bytes": 60256
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "filename": "packaging-26.3-py3-none-any.whl",
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+      "bytes": 129956
+    },
+    {
+      "name": "propcache",
+      "version": "0.5.4",
+      "filename": "propcache-0.5.4-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "f85915e00dcb1cd9f2f890ead064ed40a27df06f0db65be427b29482ae357572",
+      "bytes": 234316
+    },
+    {
+      "name": "pydantic",
+      "version": "2.14.1",
+      "filename": "pydantic-2.14.1-py3-none-any.whl",
+      "sha256": "9195d967ec791692a04438115466764fb8b9a27b31f14a760437694f40d6b454",
+      "bytes": 488106
+    },
+    {
+      "name": "pydantic_core",
+      "version": "2.50.1",
+      "filename": "pydantic_core-2.50.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "17e722e156d0444ecaefbe640bdb60928752bf2013e2b7a11cdb099aaae19bec",
+      "bytes": 2158402
+    },
+    {
+      "name": "pydantic-settings",
+      "version": "2.16.1",
+      "filename": "pydantic_settings-2.16.1-py3-none-any.whl",
+      "sha256": "30f5313340da4e8f1b440d1910b92a5bc3ccbb6b4ba70ec2b8395bc921f418f5",
+      "bytes": 80771
+    },
+    {
+      "name": "Pygments",
+      "version": "2.21.0",
+      "filename": "pygments-2.21.0-py3-none-any.whl",
+      "sha256": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9",
+      "bytes": 1250147
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "filename": "python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+      "sha256": "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427",
+      "bytes": 229892
+    },
+    {
+      "name": "python-dotenv",
+      "version": "1.2.4",
+      "filename": "python_dotenv-1.2.4-py3-none-any.whl",
+      "sha256": "42269a8a5b3fd54ffa6f3d84b18abed50064717576b4ecf03dc4a55d8aa04fdc",
+      "bytes": 23266
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "filename": "pyyaml-6.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "0f29edc409a6392443abf94b9cf89ce99889a1dd5376d94316ae5145dfedd5d6",
+      "bytes": 801626
+    },
+    {
+      "name": "referencing",
+      "version": "0.37.0",
+      "filename": "referencing-0.37.0-py3-none-any.whl",
+      "sha256": "381329a9f99628c9069361716891d34ad94af76e461dcb0335825aecc7692231",
+      "bytes": 26766
+    },
+    {
+      "name": "regex",
+      "version": "2026.9.29",
+      "filename": "regex-2026.9.29-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "d49c18f1ea294cf4adde2e5ac256e98c82ea9d708462ce4bf799dffa7cfe8a2c",
+      "bytes": 807902
+    },
+    {
+      "name": "requests",
+      "version": "2.34.2",
+      "filename": "requests-2.34.2-py3-none-any.whl",
+      "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0",
+      "bytes": 73075
+    },
+    {
+      "name": "rich",
+      "version": "15.0.0",
+      "filename": "rich-15.0.0-py3-none-any.whl",
+      "sha256": "33bd4ef74232fb73fe9279a257718407f169c09b78a87ad3d296f548e27de0bb",
+      "bytes": 310654
+    },
+    {
+      "name": "rpds-py",
+      "version": "2026.9.1",
+      "filename": "rpds_py-2026.9.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "7868b85224291c6cb6759f9b5adb9745f486d226f62b16a614dd5a2a5ab2b35b",
+      "bytes": 370794
+    },
+    {
+      "name": "s3transfer",
+      "version": "0.19.3",
+      "filename": "s3transfer-0.19.3-py3-none-any.whl",
+      "sha256": "24eb7535804306355e31c952a90022bf5b2f9d760f9a11062c7493a217c08553",
+      "bytes": 90252
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "filename": "six-1.17.0-py2.py3-none-any.whl",
+      "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+      "bytes": 11050
+    },
+    {
+      "name": "sniffio",
+      "version": "1.3.1",
+      "filename": "sniffio-1.3.1-py3-none-any.whl",
+      "sha256": "2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2",
+      "bytes": 10235
+    },
+    {
+      "name": "tiktoken",
+      "version": "0.14.0",
+      "filename": "tiktoken-0.14.0-cp313-cp313-manylinux_2_28_x86_64.whl",
+      "sha256": "26e60f6a956ee171ab728b37b8439905d7ea1db435c30f9822f291e9861c861d",
+      "bytes": 1203884
+    },
+    {
+      "name": "tokenizers",
+      "version": "0.23.3",
+      "filename": "tokenizers-0.23.3-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "376851d22bcf9d650a5c3090bb83e6cf9e895fbf0595369fa4cd43c1f69b5f87",
+      "bytes": 3396193
+    },
+    {
+      "name": "tomlkit",
+      "version": "0.15.2",
+      "filename": "tomlkit-0.15.2-py3-none-any.whl",
+      "sha256": "05562412163a3037b94497385fb7f9204c637bc605af7a48199e41cf2272f437",
+      "bytes": 52225
+    },
+    {
+      "name": "tqdm",
+      "version": "4.70.1",
+      "filename": "tqdm-4.70.1-py3-none-any.whl",
+      "sha256": "c293e525e6fef9c20e8728fd4612df02a0aa31bb5fe91ecd93e123b1b7bffa73",
+      "bytes": 80199
+    },
+    {
+      "name": "truststore",
+      "version": "0.10.5",
+      "filename": "truststore-0.10.5-py3-none-any.whl",
+      "sha256": "9aaaedaefaf06d8b206278cf8b5012bc897f485a874503501e12d776df78951c",
+      "bytes": 19017
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "filename": "typing_extensions-4.16.0-py3-none-any.whl",
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+      "bytes": 45571
+    },
+    {
+      "name": "typing-inspection",
+      "version": "0.4.4",
+      "filename": "typing_inspection-0.4.4-py3-none-any.whl",
+      "sha256": "65b8397ba37ccbce054456aaccddfc91e6e3083c92824df348d96ca832f3f147",
+      "bytes": 14750
+    },
+    {
+      "name": "urllib3",
+      "version": "2.8.0",
+      "filename": "urllib3-2.8.0-py3-none-any.whl",
+      "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3",
+      "bytes": 135717
+    },
+    {
+      "name": "yarl",
+      "version": "1.25.1",
+      "filename": "yarl-1.25.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "be80550d9bfe83d9b62398a37081a90434e6df2d978ec345c3d2820de6beddab",
+      "bytes": 117012
+    },
+    {
+      "name": "zipp",
+      "version": "4.1.1",
+      "filename": "zipp-4.1.1-py3-none-any.whl",
+      "sha256": "8979f52d874162f485ff2981e3891f3a3317b7a3dd43ff1e1775b9304f307a9c",
+      "bytes": 10582
+    }
+  ],
+  "all_wheel_sha256_verified_against_pypi": true,
+  "tokenizer_assets": [
+    {
+      "name": "o200k_base",
+      "url": "https://openaipublic.blob.core.windows.net/encodings/o200k_base.tiktoken",
+      "sha256": "446a9538cb6c348e3516120d7c08b09f57c36495e2acfffe59a5bf8b0cfb1a2d",
+      "bytes": 3613922
+    },
+    {
+      "name": "cl100k_base",
+      "url": "https://openaipublic.blob.core.windows.net/encodings/cl100k_base.tiktoken",
+      "sha256": "223921b76ee99bde995b7ff738513eef100fb51d18c93597a113bcffe865b2a7",
+      "bytes": 1681126
+    }
+  ],
+  "harness_sha256": "678265154be5941d099c5ee6a283f9190d904f4468fc0b8fca3ee34f1941787f",
+  "runtime_exit_code": 0,
+  "runtime_stderr": "Native content detection requires ONNX Runtime 1.24+; using pure-Python detection for this process.\n",
+  "runtime_result": {
+    "version": "0.41.0",
+    "python": "3.13.16",
+    "mode": "agent / densify, ML disabled by upstream mode",
+    "explicit_config": {
+      "model": "gpt-4o",
+      "compress_system_messages": false
+    },
+    "limits": {
+      "cpu_seconds": [
+        90,
+        90
+      ],
+      "file_size_bytes": [
+        16777216,
+        16777216
+      ],
+      "memory_cgroup": "1073741824",
+      "pids_cgroup": "64"
+    },
+    "sandbox": {
+      "uid": 65534,
+      "network_interfaces": [
+        [
+          1,
+          "lo"
+        ]
+      ],
+      "target_and_toolchain_read_only": true,
+      "environment_keys": [
+        "DO_NOT_TRACK",
+        "HEADROOM_BEACON",
+        "HEADROOM_OFFLINE",
+        "HEADROOM_UPDATE_CHECK",
+        "HF_HUB_OFFLINE",
+        "HOME",
+        "LC_ALL",
+        "LITELLM_LOCAL_MODEL_COST_MAP",
+        "PATH",
+        "PI_CODING_AGENT_DIR",
+        "PYTHONDONTWRITEBYTECODE",
+        "TIKTOKEN_CACHE_DIR",
+        "TMPDIR",
+        "TRANSFORMERS_OFFLINE",
+        "XDG_CACHE_HOME"
+      ]
+    },
+    "cases": [
+      {
+        "case": "uniform_json",
+        "roundtrip_exact_json_types": true,
+        "instruction_and_envelope_preserved": true,
+        "deterministic_repeat": true,
+        "payload_o200k_before": 5274,
+        "payload_o200k_after": 1456,
+        "saved_percent": 72.39,
+        "library_tokens_before": 4962,
+        "library_tokens_after": 1329,
+        "reverted_messages": 0,
+        "first_call_ms": 16060.88,
+        "transforms": [
+          "router:protected:system_message",
+          "router:protected:user_message",
+          "router:smart_crusher:0.37"
+        ]
+      },
+      {
+        "case": "rare_failure_and_large_identifier",
+        "roundtrip_exact_json_types": true,
+        "instruction_and_envelope_preserved": true,
+        "deterministic_repeat": true,
+        "payload_o200k_before": 5284,
+        "payload_o200k_after": 1504,
+        "saved_percent": 71.54,
+        "library_tokens_before": 4972,
+        "library_tokens_after": 1361,
+        "reverted_messages": 0,
+        "first_call_ms": 45.49,
+        "transforms": [
+          "router:protected:system_message",
+          "router:protected:user_message",
+          "router:smart_crusher:0.37"
+        ]
+      },
+      {
+        "case": "null_missing_unicode_nested_numbers",
+        "roundtrip_exact_json_types": true,
+        "instruction_and_envelope_preserved": true,
+        "deterministic_repeat": true,
+        "payload_o200k_before": 4490,
+        "payload_o200k_after": 2267,
+        "saved_percent": 49.51,
+        "library_tokens_before": 4173,
+        "library_tokens_after": 1807,
+        "reverted_messages": 0,
+        "first_call_ms": 50.614,
+        "transforms": [
+          "router:protected:system_message",
+          "router:protected:user_message",
+          "router:smart_crusher:0.44"
+        ]
+      },
+      {
+        "case": "anthropic_nested_tool_result",
+        "roundtrip_exact_json_types": true,
+        "instruction_and_envelope_preserved": true,
+        "deterministic_repeat": true,
+        "payload_o200k_before": 5286,
+        "payload_o200k_after": 1468,
+        "saved_percent": 72.23,
+        "library_tokens_before": 4955,
+        "library_tokens_after": 1322,
+        "reverted_messages": 0,
+        "first_call_ms": 33.239,
+        "transforms": [
+          "router:protected:system_message",
+          "router:protected:user_message",
+          "router:tool_result:smart_crusher"
+        ]
+      },
+      {
+        "case": "academic_style_prose",
+        "roundtrip_exact_json_types": true,
+        "instruction_and_envelope_preserved": true,
+        "deterministic_repeat": true,
+        "payload_o200k_before": 5538,
+        "payload_o200k_after": 5538,
+        "saved_percent": 0.0,
+        "library_tokens_before": 5524,
+        "library_tokens_after": 5524,
+        "reverted_messages": 0,
+        "first_call_ms": 114.374,
+        "transforms": [
+          "router:protected:system_message",
+          "router:protected:user_message"
+        ]
+      },
+      {
+        "case": "malformed_json",
+        "roundtrip_exact_json_types": true,
+        "instruction_and_envelope_preserved": true,
+        "deterministic_repeat": true,
+        "payload_o200k_before": 4488,
+        "payload_o200k_after": 4488,
+        "saved_percent": 0.0,
+        "library_tokens_before": 4171,
+        "library_tokens_after": 4171,
+        "reverted_messages": 0,
+        "first_call_ms": 199.992,
+        "transforms": [
+          "router:protected:system_message",
+          "router:protected:user_message"
+        ]
+      }
+    ],
+    "official_omp_wrapper": {
+      "only_anthropic_redirected": true,
+      "codex_registry_unchanged": true,
+      "launch_environment_unchanged": true,
+      "dummy_registry_rollback_byte_exact": true
+    },
+    "not_exercised": [
+      "live OAuth",
+      "LLM answer quality",
+      "provider billing",
+      "proxy streaming",
+      "ML compression",
+      "CCR retrieval"
+    ]
+  },
+  "container_configuration": {
+    "NetworkMode": "none",
+    "ReadonlyRootfs": true,
+    "CapDrop": [
+      "ALL"
+    ],
+    "SecurityOpt": [
+      "no-new-privileges"
+    ],
+    "Memory": 1073741824,
+    "MemorySwap": 1073741824,
+    "NanoCpus": 1000000000,
+    "PidsLimit": 64,
+    "Ulimits": [
+      {
+        "Name": "cpu",
+        "Hard": 90,
+        "Soft": 90
+      },
+      {
+        "Name": "fsize",
+        "Hard": 16777216,
+        "Soft": 16777216
+      },
+      {
+        "Name": "nofile",
+        "Hard": 128,
+        "Soft": 128
+      }
+    ],
+    "Tmpfs": {
+      "/scratch": "rw,nosuid,nodev,noexec,size=256m,mode=1777"
+    },
+    "LogConfig": {
+      "Type": "none",
+      "Config": {}
+    }
+  },
+  "runtime_environment_allowlist": {
+    "PATH": "/usr/local/bin:/usr/bin:/bin",
+    "HOME": "/scratch",
+    "TMPDIR": "/scratch",
+    "XDG_CACHE_HOME": "/scratch/cache",
+    "TIKTOKEN_CACHE_DIR": "/tokenizer-cache",
+    "HEADROOM_OFFLINE": "1",
+    "HEADROOM_BEACON": "off",
+    "HEADROOM_UPDATE_CHECK": "off",
+    "DO_NOT_TRACK": "1",
+    "HF_HUB_OFFLINE": "1",
+    "TRANSFORMERS_OFFLINE": "1",
+    "LITELLM_LOCAL_MODEL_COST_MAP": "True",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "LC_ALL": "C.UTF-8"
+  },
+  "create_command": [
+    "docker",
+    "--context",
+    "desktop-linux",
+    "create",
+    "--name",
+    "omp-headroom-evaluate-20261021",
+    "--network",
+    "none",
+    "--read-only",
+    "--cap-drop",
+    "ALL",
+    "--security-opt",
+    "no-new-privileges",
+    "--user",
+    "65534:65534",
+    "--pids-limit",
+    "64",
+    "--memory",
+    "1g",
+    "--memory-swap",
+    "1g",
+    "--cpus",
+    "1",
+    "--ulimit",
+    "nofile=128:128",
+    "--ulimit",
+    "fsize=16777216:16777216",
+    "--ulimit",
+    "cpu=90:90",
+    "--tmpfs",
+    "/scratch:rw,nosuid,nodev,noexec,size=256m,mode=1777",
+    "--log-driver",
+    "none",
+    "--mount",
+    "type=bind,src=C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/headroom-evaluation/0.41.0-20261021/packages,dst=/packages,readonly",
+    "--mount",
+    "type=bind,src=C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/headroom-evaluation/0.41.0-20261021/tokenizer-cache,dst=/tokenizer-cache,readonly",
+    "--mount",
+    "type=bind,src=C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/headroom-evaluation/0.41.0-20261021/evaluate.py,dst=/case/evaluate.py,readonly",
+    "--entrypoint",
+    "/usr/bin/env",
+    "docker.io/library/python@sha256:08b493e9c2f92a0f84e45062338a1503d0f585d63ba8783baad5a24cdf200894",
+    "-i",
+    "PATH=/usr/local/bin:/usr/bin:/bin",
+    "HOME=/scratch",
+    "TMPDIR=/scratch",
+    "XDG_CACHE_HOME=/scratch/cache",
+    "TIKTOKEN_CACHE_DIR=/tokenizer-cache",
+    "HEADROOM_OFFLINE=1",
+    "HEADROOM_BEACON=off",
+    "HEADROOM_UPDATE_CHECK=off",
+    "DO_NOT_TRACK=1",
+    "HF_HUB_OFFLINE=1",
+    "TRANSFORMERS_OFFLINE=1",
+    "LITELLM_LOCAL_MODEL_COST_MAP=True",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "LC_ALL=C.UTF-8",
+    "python",
+    "-I",
+    "-S",
+    "/case/evaluate.py"
+  ],
+  "wall_clock_timeout_seconds": 90,
+  "metrics_method": "o200k_base tokens on canonical JSON serialization of whole synthetic message fixture; not provider billing tokens",
+  "scenario_design": {
+    "uniform_rows": 100,
+    "rare_failure_row_index": 67,
+    "large_identifier_string": "9007199254740993",
+    "typed_rows": 48,
+    "typed_cases": [
+      "null versus missing versus empty string versus literal null",
+      "bool",
+      "integer above 2^53",
+      "negative zero and fractional number",
+      "Unicode, Windows path, quoted comma and newline",
+      "nested object and array"
+    ],
+    "prose_lines": 80,
+    "malformed_input": "typed JSON array with last 7 characters removed",
+    "repeats_per_case": 2,
+    "instructions_protection": "compress_system_messages=False; otherwise densify defaults"
+  },
+  "protected_host_files_before": {
+    "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\config.yml": "6e879111fef0042073d9c9784fe4fe5927fd0aad98fe151e17d390a5d8b0fc73",
+    "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\models.yml": null,
+    "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\extensions\\rtk.ts": "d1555e0af5872a30ed04059423350bdb38302f200a9642c5a9bcc519c95a2257",
+    "C:\\Users\\Indrimeilla-PC\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\headroom_ai-0.37.0.dist-info\\METADATA": "c1fe1a5033b61ed9b5891c783d75def2ea7ff5dd5dbafd0f2d7ab29fca700136"
+  },
+  "protected_host_files_after": {
+    "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\config.yml": "6e879111fef0042073d9c9784fe4fe5927fd0aad98fe151e17d390a5d8b0fc73",
+    "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\models.yml": null,
+    "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\extensions\\rtk.ts": "d1555e0af5872a30ed04059423350bdb38302f200a9642c5a9bcc519c95a2257",
+    "C:\\Users\\Indrimeilla-PC\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\headroom_ai-0.37.0.dist-info\\METADATA": "c1fe1a5033b61ed9b5891c783d75def2ea7ff5dd5dbafd0f2d7ab29fca700136"
+  },
+  "global_decision": {
+    "activate": false,
+    "reason": "Official OMP wrapper redirects only providers.anthropic.baseUrl; active openai-codex/gpt-6.1-sol OAuth is not redirected",
+    "existing_headroom_host_version": "0.37.0",
+    "host_upgrade": false,
+    "custom_adapter": false,
+    "new_mcp_proxy_memory_or_model": false
+  },
+  "cleanup": {
+    "evaluation_container_removed": true,
+    "fetch_container_auto_remove": true,
+    "docker_desktop": "Left running; official CLI reported already running at launch; no attempt to stop shared engine",
+    "scratch_removed": true,
+    "new_python_image_removed": true
+  }
+}

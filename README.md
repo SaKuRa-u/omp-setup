@@ -18,6 +18,17 @@ Snapshot konfigurasi Windows pada 21 Oktober 2026. Ini backup konfigurasi dan su
 
 OMP `18.12.5`, Node `24.19.0`, Bun `1.4.2`; REA `6.5.0`; Context7 `4.4.4`; Semgrep `1.181.0`; RTK `1.0.1`; plugin Ponytail `5.3.2`. Ledger lama dapat mencatat versi OMP sebelumnya; manifest snapshot mencatat versi CLI saat backup.
 
+## Pembaruan snapshot
+
+Snapshot disegarkan dari instalasi lokal terkini, bukan dengan upgrade massal ke versi upstream terbaru. Waktu pembaruan UTC tercatat pada `updatedAt` di manifest.
+
+- Aturan global, panduan proyek, dan ledger mengikuti routing workflow terbaru: proposal baru melalui grilling, persetujuan/kelanjutan menjaga keputusan yang sudah disepakati, dan izin operasi tetap terpisah.
+- Catatan evaluasi Headroom dan dua catatan pengujian routing terbaru disertakan di `ecosystem/measurements/`. Itu bukti historis dengan cakupan dan kegagalannya sendiri, bukan pengujian ulang saat backup; Headroom tetap tidak diaktifkan.
+- Inventaris memuat 3.637 file snapshot, termasuk template Go, sumber TSX Ponytail, dan `.gitattributes` ARS yang belum masuk snapshot sebelumnya. Penyalinan sumber tidak mengaktifkan hooks, band/board/live, atau integrasi host lain.
+- Ukuran dan SHA-256 snapshot maupun sumber diperiksa untuk seluruh inventaris. Pemindaian pola credential mempertahankan redaksi dua JWT unduhan Semgrep; dua kecocokan contoh sintetis/dokumentasi ditinjau dan diikat ke hash file dalam `credentialScan`. Pemeriksaan ini bukan jaminan bebas secret atau audit keamanan menyeluruh.
+
+Konfigurasi yang tidak berubah tetap dipertahankan byte-identik; instalasi asli, pin versi, lisensi upstream, dan riwayat Git tidak diganti.
+
 ## Tidak disertakan
 
 Credential/API key/PAT/OAuth, blob DPAPI, database OMP, sesi/riwayat percakapan, log, cookies/profil browser, cache/state runtime, backup lama, `node_modules`, virtualenv Python, binary/executable vendor, arsip unduhan dan file nonteks. Dua metadata Semgrep mengandung JWT URL unduhan; nilai tersebut diganti dengan `[REDACTED_SIGNED_DOWNLOAD_TOKEN]` dan hash sumber tetap dicatat untuk provenance, bukan untuk mengunduh ulang.
@@ -26,7 +37,7 @@ Konsekuensi: login OMP/GitHub dan credential Context7/Supermemory harus disiapka
 
 ## Pemulihan manual yang aman
 
-1. Clone repositori ini. Periksa `snapshot-manifest.json` dan file konfigurasi sebelum menjalankan kode apa pun. Simpan backup konfigurasi mesin tujuan terlebih dahulu; jangan menimpa profil OMP atau konfigurasi host lain tanpa persetujuan.
+1. Clone repositori ini. Pada Windows, gunakan `git -c core.longpaths=true clone https://github.com/SaKuRa-u/omp-setup.git` agar path sumber yang panjang dapat dipulihkan. Periksa `snapshot-manifest.json` dan file konfigurasi sebelum menjalankan kode apa pun. Simpan backup konfigurasi mesin tujuan terlebih dahulu; jangan menimpa profil OMP atau konfigurasi host lain tanpa persetujuan.
 2. Pasang OMP, Node/Bun, Git serta dependency yang benar-benar dibutuhkan dari distribusi resmi dengan versi di atas. Jangan menjalankan semua script atau installer yang ditemukan dalam skills/sumber. Semgrep Windows memerlukan virtualenv/dependency sesuai hash dan catatan di `ecosystem/runtime/semgrep/1.181.0/`; binary tidak ada dalam backup ini.
 3. Dengan OMP dihentikan, salin file dari `home/` ke direktori home pengguna tujuan secara selektif. Pertahankan struktur `.omp` dan `.agents`, termasuk sumber ARS, Ponytail, notices dan lisensi. Tidak ada script restore otomatis yang menimpa konfigurasi.
 4. Path absolut masih menunjuk `C:/Users/Indrimeilla-PC`. Sesuaikan konfigurasi, registrasi plugin, launcher dan policy yang relevan untuk home/path executable mesin tujuan. `snapshot-manifest.json` serta measurements adalah rekaman historis: jangan menggantinya massal.

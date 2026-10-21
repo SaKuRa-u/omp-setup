@@ -1,0 +1,2 @@
+# Preserve snapshot bytes so manifest SHA-256 remains valid across platforms.
+home/** -text
