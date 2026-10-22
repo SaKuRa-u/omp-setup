@@ -58,6 +58,28 @@ Impeccable 4.6.0 uses the unchanged original OMP distribution at ~/.omp/agent/sk
 
 Twenty HashiCorp skills remain globally installed (ecosystem/measurements/hashicorp-audit.json). Six domain/browser additions are OMP-only under ~/.omp/agent/skills: Docker, Kubernetes, Ansible, React/Next.js, PostgreSQL and native web verification; sources, modifications and verification are recorded in ecosystem/measurements/skills-expansion-20261018.json. They are documentation guidance, not installed validators or proof of runtime readiness. REA skill 42 and CLI/MCP 6.5.0 are installed; OMP registration uses the existing launcher, omits server instructions, and preserves Context7. Official Ponytail and complete Cloudflare security-audit are globally installed for OMP; security-audit source pin is c1c8a8c1471069fb0e188eeaff69b8e8db6564a8, guidance by default, not a completed full audit. Native decompilers remain separate prerequisites. Still not installed: GitHub multi-stage-dockerfile, Akin executable validators, KubeShark, Timescale-specific/Hugging Face/LangChain/network-engineer packages. Stack-specific additions do not establish the user's default stack. Skill licensing is separate from model/tool/cloud costs; no implicit paid jobs or dependency installation. Network diagnosis remains scoped native read-only tools plus official vendor docs. Never convert guidance or discovery into workload-certification claims.
 
+## Agency Agents: supporting guidance, not new owners
+
+Seventeen OMP-only `agency-*` skills use the original MIT distribution at `ecosystem/sources/agency-agents-4e3ac3ca/`, commit `4e3ac3ca6604c75113f52c695dbddcc7af928b46`, rendered by unchanged upstream `convert.sh`. Read the matching guide when its domain is actually involved; do not activate whole divisions or add reviewer/orchestrator chains.
+
+| Domain | Supporting skills |
+|---|---|
+| API contract, CLI, locale, developer docs | agency-api-platform-engineer; agency-developer-tooling-engineer; agency-internationalization-engineer; agency-technical-writer |
+| Recovery/migration, identity, money, personal data | agency-database-reliability-engineer; agency-identity-access-engineer; agency-payments-billing-engineer; agency-privacy-engineer |
+| User research and approved brand consistency | agency-ux-researcher; agency-brand-guardian |
+| Accessibility, API tests, performance experiments | agency-accessibility-auditor; agency-api-tester; agency-performance-benchmarker |
+| Threat model and credential lifecycle | agency-security-architect; agency-secrets-credential-hygiene-engineer |
+| Cross-source technical evidence synthesis | agency-research-synthesist |
+| Requested PDF/PPTX/DOCX/XLSX generation | agency-document-generator |
+
+Existing owners retain authority: Ponytail/native task, Impeccable, TDD/debugging, security-reviewer/security-audit, project runners/e2e/webapp-testing and the selected ARS stage. Routine bugs/Q&A do not invoke every domain guide. Existing grilling checkpoints and continuation approvals remain unchanged. Academic methodology, writing and license boundaries stay with ARS, not a replacement Research pipeline.
+
+Project conventions, current primary vendor docs, agreed acceptance criteria and permissions outrank persona examples, generic SLOs and speculative architectures. Template metrics, professional experience, persistent-memory claims and sample research results are not evidence. Record unknowns and untested scope; do not fabricate interviews, benchmarks, certifications or security severity. Security findings require an evidenced boundary and impact.
+
+Document Generator is guidance, not installed libraries/fonts/Office/viewers/validators. Reuse available project tools/templates; no abstraction for a single export. Deliver the actual requested file and script when requested; inspect structure and open/render when possible, disclosing viewer/AT limits. Never rename text as an Office/PDF artifact, certify PDF/A/PDF/UA from metadata, execute untrusted macros/formulas/remote assets, or upload confidential documents. Missing runtime is a prerequisite, not a fake fallback or permission for global installation.
+
+72 reviewed personas remain source-only; 10 are not registered at this revision. SEO Specialist is not installed because its reviewed disavow/language/FAQ advice conflicts with Google guidance; use current Google Search Central sources. NEXUS/Agents Orchestrator, hooks, memory, providers and automatic scans remain off. Loading guidance authorizes no live/paid/destructive operation, credential rotation, history rewrite, load test, crawl, publication or dependency installation. Mapping/evidence and rollback: `ecosystem/measurements/agency-agents-20261021.json`. Use a new session for discovery; no hot-reload guarantee.
+
 ## Skill compatibility and executable boundaries
 
 Use read skill://NAME instead of an unavailable vendor Skill tool. Map superpowers:NAME to the installed bare name, except its TDD alias maps to tdd. grill-me only calls grilling. Native task owns any justified independent fan-out; never trigger parallel review or 3+ alternative-design agents automatically. codebase-design terminology does not rename project concepts.

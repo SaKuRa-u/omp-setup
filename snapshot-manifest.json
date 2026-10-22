@@ -1288,15 +1288,21 @@
     },
     {
       "path": "home/.omp/agent/AGENTS.md",
-      "bytes": 35018,
-      "sha256": "b8366f3254d8c9d8042a0b77a6e149f390e1693a8a2410f3e9e65434a0450c90",
-      "sourceSha256": "b8366f3254d8c9d8042a0b77a6e149f390e1693a8a2410f3e9e65434a0450c90"
+      "bytes": 38368,
+      "sha256": "dffd8f51237cb9c559c0857b61dba4082735e0ee4bb5decf7c512dce969f0890",
+      "sourceSha256": "dffd8f51237cb9c559c0857b61dba4082735e0ee4bb5decf7c512dce969f0890"
     },
     {
       "path": "home/.omp/agent/config.yml",
       "bytes": 604,
       "sha256": "6e879111fef0042073d9c9784fe4fe5927fd0aad98fe151e17d390a5d8b0fc73",
       "sourceSha256": "6e879111fef0042073d9c9784fe4fe5927fd0aad98fe151e17d390a5d8b0fc73"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/AGENCY-AGENTS-PROPOSAL.md",
+      "bytes": 28851,
+      "sha256": "eec1bdf13869d2ef794bf6dfe9051476a077fee57732f308941dccf5f80b403e",
+      "sourceSha256": "eec1bdf13869d2ef794bf6dfe9051476a077fee57732f308941dccf5f80b403e"
     },
     {
       "path": "home/.omp/agent/ecosystem/ARCHITECTURE-AUDIT.md",
@@ -1312,9 +1318,9 @@
     },
     {
       "path": "home/.omp/agent/ecosystem/PANDUAN-PROYEK-OMP.md",
-      "bytes": 42417,
-      "sha256": "0c07ee3e46b2bb6645092e0231bca2377751feb1c7640b7486a34131496210fc",
-      "sourceSha256": "0c07ee3e46b2bb6645092e0231bca2377751feb1c7640b7486a34131496210fc"
+      "bytes": 45731,
+      "sha256": "89479ff89a787b2a090f6711c7c4d16c9d779027d377b97c739cd5dd4eb8700f",
+      "sourceSha256": "89479ff89a787b2a090f6711c7c4d16c9d779027d377b97c739cd5dd4eb8700f"
     },
     {
       "path": "home/.omp/agent/ecosystem/WAVE1.md",
@@ -1324,9 +1330,15 @@
     },
     {
       "path": "home/.omp/agent/ecosystem/ledger.json",
-      "bytes": 44906,
-      "sha256": "d6899dbe11b1bd5d8ce5cbc13b590dd9b7fa0d38962a69d1df961009b1c4bfcb",
-      "sourceSha256": "d6899dbe11b1bd5d8ce5cbc13b590dd9b7fa0d38962a69d1df961009b1c4bfcb"
+      "bytes": 46296,
+      "sha256": "98984a8d9f4d18b98f9f52c99d45156c0273405df1670832bc01d58a1da9440d",
+      "sourceSha256": "98984a8d9f4d18b98f9f52c99d45156c0273405df1670832bc01d58a1da9440d"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/measurements/agency-agents-20261021.json",
+      "bytes": 270312,
+      "sha256": "2804e152e6810d54078d80a6a73e1715498d8e1885f0057014f7fcefa4a5d97b",
+      "sourceSha256": "2804e152e6810d54078d80a6a73e1715498d8e1885f0057014f7fcefa4a5d97b"
     },
     {
       "path": "home/.omp/agent/ecosystem/measurements/audit-forget-1792063760310.json",
@@ -17727,6 +17739,2304 @@
       "sourceSha256": "bb2778edb8b5f438df2757d59b97c5e36fa1078ff215aa86db7da2ddf13b6cd5"
     },
     {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/.gitattributes",
+      "bytes": 121,
+      "sha256": "d9ea08aefa78eba98874b32c9fb7cfce75aa4c264af23d29a6759cfb628b4a66",
+      "sourceSha256": "d9ea08aefa78eba98874b32c9fb7cfce75aa4c264af23d29a6759cfb628b4a66"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/.github/FUNDING.yml",
+      "bytes": 21,
+      "sha256": "2b837639535c88caaaeae8d2fa6c367ab7b17578146b04e5e77c255811b8711b",
+      "sourceSha256": "2b837639535c88caaaeae8d2fa6c367ab7b17578146b04e5e77c255811b8711b"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/.github/ISSUE_TEMPLATE/bug-report.yml",
+      "bytes": 713,
+      "sha256": "e3eb8155f9c3de4dbfd6ce4a419eef76f67b67237ddd446ef5fea804d6958389",
+      "sourceSha256": "e3eb8155f9c3de4dbfd6ce4a419eef76f67b67237ddd446ef5fea804d6958389"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/.github/ISSUE_TEMPLATE/new-agent-request.yml",
+      "bytes": 1082,
+      "sha256": "3e0f5fb285d7f0f604b33c8f879252e9fe7e28b61fc24804fc1fcd5b37805385",
+      "sourceSha256": "3e0f5fb285d7f0f604b33c8f879252e9fe7e28b61fc24804fc1fcd5b37805385"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/.github/PULL_REQUEST_TEMPLATE.md",
+      "bytes": 449,
+      "sha256": "4ca121e44adfa5ea1ed78076dc337fc097324ce91da2e282407d3de8e97cb029",
+      "sourceSha256": "4ca121e44adfa5ea1ed78076dc337fc097324ce91da2e282407d3de8e97cb029"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/.github/workflows/check-divisions.yml",
+      "bytes": 530,
+      "sha256": "9480640f35bf3b8cd1c3d46874443995187e118ca0858c1f621e731627671ef6",
+      "sourceSha256": "9480640f35bf3b8cd1c3d46874443995187e118ca0858c1f621e731627671ef6"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/.github/workflows/check-hermes-config-rewrite.yml",
+      "bytes": 830,
+      "sha256": "557d1c76937dcb2389d8955169960d2f71dc93f25ceaf2f8b976a74d88937672",
+      "sourceSha256": "557d1c76937dcb2389d8955169960d2f71dc93f25ceaf2f8b976a74d88937672"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/.github/workflows/check-runbooks.yml",
+      "bytes": 592,
+      "sha256": "b27b90212360371404f40fbe24cea361c92588d04b98a9aba359daaed159400f",
+      "sourceSha256": "b27b90212360371404f40fbe24cea361c92588d04b98a9aba359daaed159400f"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/.github/workflows/check-tools.yml",
+      "bytes": 2656,
+      "sha256": "389410566e41952beb7cc37a6134847cf9e625dbbc627904da2c9caf62cab71c",
+      "sourceSha256": "389410566e41952beb7cc37a6134847cf9e625dbbc627904da2c9caf62cab71c"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/.github/workflows/lint-agents.yml",
+      "bytes": 4110,
+      "sha256": "e00b537e22dea03f01c15b855d4a04ee0ce67823ceedd357f216406b05be4691",
+      "sourceSha256": "e00b537e22dea03f01c15b855d4a04ee0ce67823ceedd357f216406b05be4691"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/.github/workflows/test-install.yml",
+      "bytes": 1011,
+      "sha256": "53cb57d2d127dae4116651b4446a68758355d3dbcb009198b2b16f424ea119c8",
+      "sourceSha256": "53cb57d2d127dae4116651b4446a68758355d3dbcb009198b2b16f424ea119c8"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/.gitignore",
+      "bytes": 1463,
+      "sha256": "e65ab314ef3412e725dbb86aac198f88853ec5813a24a7fc0181e0e8a79e3ee1",
+      "sourceSha256": "e65ab314ef3412e725dbb86aac198f88853ec5813a24a7fc0181e0e8a79e3ee1"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/CONTRIBUTING.md",
+      "bytes": 21387,
+      "sha256": "7d9d880c87e3a0c27d06694dcd41c7f49fefd9779696b7928ba16803837962dd",
+      "sourceSha256": "7d9d880c87e3a0c27d06694dcd41c7f49fefd9779696b7928ba16803837962dd"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/CONTRIBUTING_zh-CN.md",
+      "bytes": 9677,
+      "sha256": "e16fcef34292c79f0c3034f1bf399863cb821dbdd87be742653c6cfdfc93f937",
+      "sourceSha256": "e16fcef34292c79f0c3034f1bf399863cb821dbdd87be742653c6cfdfc93f937"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/LICENSE",
+      "bytes": 1079,
+      "sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f",
+      "sourceSha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/README.md",
+      "bytes": 86441,
+      "sha256": "f509e0108bade376d4101e373c97c38c6cd03cb48e205de36100ad22ead32014",
+      "sourceSha256": "f509e0108bade376d4101e373c97c38c6cd03cb48e205de36100ad22ead32014"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/SECURITY.md",
+      "bytes": 1066,
+      "sha256": "fd8e0ed5ad8f7e8e48ef17a4a80163a1763306cebeea605d869754165ee818dc",
+      "sourceSha256": "fd8e0ed5ad8f7e8e48ef17a4a80163a1763306cebeea605d869754165ee818dc"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/academic/academic-anthropologist.md",
+      "bytes": 7878,
+      "sha256": "2668602164abf574cb4e432a0cd40727a943de0b59864abb5b73956a0eb26146",
+      "sourceSha256": "2668602164abf574cb4e432a0cd40727a943de0b59864abb5b73956a0eb26146"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/academic/academic-geographer.md",
+      "bytes": 7740,
+      "sha256": "4acf4a6ee6ae96ce562323c8ce508db9f2eb0ece016fc754214be9587c071c0d",
+      "sourceSha256": "4acf4a6ee6ae96ce562323c8ce508db9f2eb0ece016fc754214be9587c071c0d"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/academic/academic-historian.md",
+      "bytes": 7272,
+      "sha256": "2c59c10dceec033d9e92990b6156553471b7b94dd8e0c64fe27148f612be8955",
+      "sourceSha256": "2c59c10dceec033d9e92990b6156553471b7b94dd8e0c64fe27148f612be8955"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/academic/academic-narratologist.md",
+      "bytes": 6797,
+      "sha256": "12d7a6fa6134c014e3734f8203f0b8634e627cffe5985fa1b69d25c4a69094b5",
+      "sourceSha256": "12d7a6fa6134c014e3734f8203f0b8634e627cffe5985fa1b69d25c4a69094b5"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/academic/academic-psychologist.md",
+      "bytes": 7833,
+      "sha256": "193b7dba6d04346d15ee21753fd1cdb69dc1a21a5ac30d5d62726654820a5633",
+      "sourceSha256": "193b7dba6d04346d15ee21753fd1cdb69dc1a21a5ac30d5d62726654820a5633"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/academic/academic-statistician.md",
+      "bytes": 11508,
+      "sha256": "4b023595c59becec2026cab38807f835e48e280885f9cd381bab7845cbf4280c",
+      "sourceSha256": "4b023595c59becec2026cab38807f835e48e280885f9cd381bab7845cbf4280c"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/design/design-brand-guardian.md",
+      "bytes": 11641,
+      "sha256": "d1d5c78af85d4d35be94b93d5c011d17e3cf5dcb69b2037a3ebf3059803b893e",
+      "sourceSha256": "d1d5c78af85d4d35be94b93d5c011d17e3cf5dcb69b2037a3ebf3059803b893e"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/design/design-image-prompt-engineer.md",
+      "bytes": 11160,
+      "sha256": "63a564d01dc5812c494cd8aa034ce1217031d8fe8b3eca1323316879769ff13f",
+      "sourceSha256": "63a564d01dc5812c494cd8aa034ce1217031d8fe8b3eca1323316879769ff13f"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/design/design-inclusive-visuals-specialist.md",
+      "bytes": 6763,
+      "sha256": "6529724ca198344f31209c0e685a7460c087483b5a4b3a965798e09df70dde07",
+      "sourceSha256": "6529724ca198344f31209c0e685a7460c087483b5a4b3a965798e09df70dde07"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/design/design-persona-walkthrough.md",
+      "bytes": 16759,
+      "sha256": "8def8c73df7f79a61704e7353b85b915afa31c4a9fa1100fbb9220c50d6a1c55",
+      "sourceSha256": "8def8c73df7f79a61704e7353b85b915afa31c4a9fa1100fbb9220c50d6a1c55"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/design/design-ui-designer.md",
+      "bytes": 13436,
+      "sha256": "4dc51255ffcb47e2bf4289a7d49a7cc224238af759f9e6e3c56771c698575d6d",
+      "sourceSha256": "4dc51255ffcb47e2bf4289a7d49a7cc224238af759f9e6e3c56771c698575d6d"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/design/design-ui-finish-gate-reviewer.md",
+      "bytes": 8988,
+      "sha256": "cc2cc803782a791797b63530bfd46ee676148f05bc1db7c614c8860f9798bc86",
+      "sourceSha256": "cc2cc803782a791797b63530bfd46ee676148f05bc1db7c614c8860f9798bc86"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/design/design-ux-architect.md",
+      "bytes": 16260,
+      "sha256": "7d373da3fd204db3c830f28e03cdf85bcacd3858e38fbdad58489953f811c296",
+      "sourceSha256": "7d373da3fd204db3c830f28e03cdf85bcacd3858e38fbdad58489953f811c296"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/design/design-ux-researcher.md",
+      "bytes": 13030,
+      "sha256": "25f59c4333df2d0f1170ff7a1b11ea8415fd3d0ef80c3e0985209aeb4018680f",
+      "sourceSha256": "25f59c4333df2d0f1170ff7a1b11ea8415fd3d0ef80c3e0985209aeb4018680f"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/design/design-visual-storyteller.md",
+      "bytes": 7416,
+      "sha256": "f4950c9d65b5d105ec48ebce4b7621154e3bf89871dbbf07af245476930eb4dd",
+      "sourceSha256": "f4950c9d65b5d105ec48ebce4b7621154e3bf89871dbbf07af245476930eb4dd"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/design/design-whimsy-injector.md",
+      "bytes": 16427,
+      "sha256": "b1cc9abd37723ff12b508717e4f7f9621aafd8c20014894d93a8d6e2bc5657a4",
+      "sourceSha256": "b1cc9abd37723ff12b508717e4f7f9621aafd8c20014894d93a8d6e2bc5657a4"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/divisions.json",
+      "bytes": 2514,
+      "sha256": "a85d4ceeabe671051559e7703dfca074bf7a259ba26b61fb5e14ed36d54ae051",
+      "sourceSha256": "a85d4ceeabe671051559e7703dfca074bf7a259ba26b61fb5e14ed36d54ae051"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-ai-data-remediation-engineer.md",
+      "bytes": 10691,
+      "sha256": "5aa193052f15283493eeb9749bc346d09c02407f26760fe0d08f8bd9242ede79",
+      "sourceSha256": "5aa193052f15283493eeb9749bc346d09c02407f26760fe0d08f8bd9242ede79"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-ai-engineer.md",
+      "bytes": 7383,
+      "sha256": "f25a69aad25acd35dd1d62e33d5a814f4a26b075d90f968b4d778452e53924d8",
+      "sourceSha256": "f25a69aad25acd35dd1d62e33d5a814f4a26b075d90f968b4d778452e53924d8"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-api-platform-engineer.md",
+      "bytes": 14500,
+      "sha256": "21076c3abab2c93f459ff7e2becc83287a200d966c40fc1db868fcbcf36067dd",
+      "sourceSha256": "21076c3abab2c93f459ff7e2becc83287a200d966c40fc1db868fcbcf36067dd"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-ats-validator-architect.md",
+      "bytes": 28144,
+      "sha256": "742c17d1885f4345c366a4050e12e3b61711f38dc576a24fe365ed3ee7f266d5",
+      "sourceSha256": "742c17d1885f4345c366a4050e12e3b61711f38dc576a24fe365ed3ee7f266d5"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-autonomous-optimization-architect.md",
+      "bytes": 8839,
+      "sha256": "76a8df3dfd4af54d0830daef736873209bd62cb155b9ed0f3c3a6aec369a9519",
+      "sourceSha256": "76a8df3dfd4af54d0830daef736873209bd62cb155b9ed0f3c3a6aec369a9519"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-backend-architect.md",
+      "bytes": 11263,
+      "sha256": "45d94306c8f0f4c51efb76066008297fa4e87ce5b69f509cfede224084b74dfb",
+      "sourceSha256": "45d94306c8f0f4c51efb76066008297fa4e87ce5b69f509cfede224084b74dfb"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-china-network-engineer.md",
+      "bytes": 17646,
+      "sha256": "d375db645d1192fb8be3dd4e40de005d55edd33557abf909a4a4135257e03788",
+      "sourceSha256": "d375db645d1192fb8be3dd4e40de005d55edd33557abf909a4a4135257e03788"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-cms-developer.md",
+      "bytes": 19520,
+      "sha256": "e072ac6e3d485483818880846b145c85b5224045a68c45dddc4e087940d57ba4",
+      "sourceSha256": "e072ac6e3d485483818880846b145c85b5224045a68c45dddc4e087940d57ba4"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-code-reviewer.md",
+      "bytes": 3076,
+      "sha256": "7509fcc3ea1dda46511b2801996305bf3d4a125576f9655ff0b63df25602f446",
+      "sourceSha256": "7509fcc3ea1dda46511b2801996305bf3d4a125576f9655ff0b63df25602f446"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-codebase-onboarding-engineer.md",
+      "bytes": 9569,
+      "sha256": "07aa548b45887c3ad768efad5fdbf6e57bea639df4f1b74c7e383142f454e2a1",
+      "sourceSha256": "07aa548b45887c3ad768efad5fdbf6e57bea639df4f1b74c7e383142f454e2a1"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-data-engineer.md",
+      "bytes": 16276,
+      "sha256": "3f6f629f0e4e00a0010bcd98675cb5183cca89b29b6d3fe2f6db2db474c2d800",
+      "sourceSha256": "3f6f629f0e4e00a0010bcd98675cb5183cca89b29b6d3fe2f6db2db474c2d800"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-data-visualization-engineer.md",
+      "bytes": 13797,
+      "sha256": "0f5b5391f82aa98ca489768d31024f7a5f840a8ee5fe968fe1499ed538948ce5",
+      "sourceSha256": "0f5b5391f82aa98ca489768d31024f7a5f840a8ee5fe968fe1499ed538948ce5"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-database-optimizer.md",
+      "bytes": 6215,
+      "sha256": "6d773003e3b9251068ab537be94d6827c118201e0e17c11d789cb29dc245bf99",
+      "sourceSha256": "6d773003e3b9251068ab537be94d6827c118201e0e17c11d789cb29dc245bf99"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-database-reliability-engineer.md",
+      "bytes": 16395,
+      "sha256": "0096dc3c1b31e33814c509fda43853cc77cef6252bb94da527b833be13b53a5a",
+      "sourceSha256": "0096dc3c1b31e33814c509fda43853cc77cef6252bb94da527b833be13b53a5a"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-desktop-app-engineer.md",
+      "bytes": 14777,
+      "sha256": "aadae54475480341ee9db1017bc19778596f80ff25092970dabc7fba75b1d951",
+      "sourceSha256": "aadae54475480341ee9db1017bc19778596f80ff25092970dabc7fba75b1d951"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-developer-tooling-engineer.md",
+      "bytes": 13041,
+      "sha256": "948d44fddfa47e2363236de150f9dc948edd79599609a92af8bf6b72b5b9b609",
+      "sourceSha256": "948d44fddfa47e2363236de150f9dc948edd79599609a92af8bf6b72b5b9b609"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-devops-automator.md",
+      "bytes": 13738,
+      "sha256": "1b67b3bdc6a076d42281e38bb811250eb04415bb241cdd4c3a7df38ecd20e88b",
+      "sourceSha256": "1b67b3bdc6a076d42281e38bb811250eb04415bb241cdd4c3a7df38ecd20e88b"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-drupal-performance.md",
+      "bytes": 23523,
+      "sha256": "544942f460b76e15c2cd6e9a820b4048e3344186db3a7123d99adfbdf6c41d09",
+      "sourceSha256": "544942f460b76e15c2cd6e9a820b4048e3344186db3a7123d99adfbdf6c41d09"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-drupal-shopping-cart.md",
+      "bytes": 21461,
+      "sha256": "cbd06e6d27363029dbbc6638297d47608c78d3b93b3e4a6ff52d16757199ee50",
+      "sourceSha256": "cbd06e6d27363029dbbc6638297d47608c78d3b93b3e4a6ff52d16757199ee50"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-email-intelligence-engineer.md",
+      "bytes": 18341,
+      "sha256": "70955ab959caccfd769963e9151a645a425e31d40777d00bf31e20fa0d7f8d03",
+      "sourceSha256": "70955ab959caccfd769963e9151a645a425e31d40777d00bf31e20fa0d7f8d03"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-embedded-firmware-engineer.md",
+      "bytes": 7654,
+      "sha256": "f01fc2e817071c4ae10f14b49f0c4866a802f5bf3d8901d3ad0ab68cf61f2743",
+      "sourceSha256": "f01fc2e817071c4ae10f14b49f0c4866a802f5bf3d8901d3ad0ab68cf61f2743"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-feishu-integration-developer.md",
+      "bytes": 21580,
+      "sha256": "22f4c40c0d2681918b1bd5884edfca2a3556325054d1b8e912f6524111e2e4fb",
+      "sourceSha256": "22f4c40c0d2681918b1bd5884edfca2a3556325054d1b8e912f6524111e2e4fb"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-filament-optimization-specialist.md",
+      "bytes": 14269,
+      "sha256": "428f6a6be2318a123678b2838600e33c5e193afecbe8f828fa97c779eaf85fbf",
+      "sourceSha256": "428f6a6be2318a123678b2838600e33c5e193afecbe8f828fa97c779eaf85fbf"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-finops-engineer.md",
+      "bytes": 13261,
+      "sha256": "2971ce273c45e96002127fd8456cfcb3dce761595aab5b6428cd1f5036dc9cd1",
+      "sourceSha256": "2971ce273c45e96002127fd8456cfcb3dce761595aab5b6428cd1f5036dc9cd1"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-frontend-developer.md",
+      "bytes": 9633,
+      "sha256": "71eeb60cbeedd94b41b2e5852d8986c909e8d150c324b4bb99e3b184ae202094",
+      "sourceSha256": "71eeb60cbeedd94b41b2e5852d8986c909e8d150c324b4bb99e3b184ae202094"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-gaussdb-expert.md",
+      "bytes": 15613,
+      "sha256": "db3e2fbd178e4df20885c5d5f27b0a552061c7736374f9977807fc374ff99e07",
+      "sourceSha256": "db3e2fbd178e4df20885c5d5f27b0a552061c7736374f9977807fc374ff99e07"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-git-workflow-master.md",
+      "bytes": 3881,
+      "sha256": "d3f7718f852e03d5cd83a97340550a5b82694547c4b9b22c9e77bb40c1467ba3",
+      "sourceSha256": "d3f7718f852e03d5cd83a97340550a5b82694547c4b9b22c9e77bb40c1467ba3"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-i18n-engineer.md",
+      "bytes": 14113,
+      "sha256": "4239debe839a7ba60ad1339bb5527e816dda87a6ff3e1fa4caddd838b56917fc",
+      "sourceSha256": "4239debe839a7ba60ad1339bb5527e816dda87a6ff3e1fa4caddd838b56917fc"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-identity-access-engineer.md",
+      "bytes": 16138,
+      "sha256": "803b047d1b838fba2687a95bf2b8528cee86cf744130037f8380b1cc172c3f8e",
+      "sourceSha256": "803b047d1b838fba2687a95bf2b8528cee86cf744130037f8380b1cc172c3f8e"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-incident-response-commander.md",
+      "bytes": 21143,
+      "sha256": "89b9c1294879dd24804c8b6d7805fde193e868a3c930a1ac515a36d527b8522a",
+      "sourceSha256": "89b9c1294879dd24804c8b6d7805fde193e868a3c930a1ac515a36d527b8522a"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-iot-fleet-engineer.md",
+      "bytes": 13587,
+      "sha256": "90cfb3b713d0cd11e9529f6158ed72ac99fe1d945a838d9d740009a51e9d3421",
+      "sourceSha256": "90cfb3b713d0cd11e9529f6158ed72ac99fe1d945a838d9d740009a51e9d3421"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-it-service-manager.md",
+      "bytes": 27663,
+      "sha256": "26c23ef51726da346dcdf5b9eb004e7c03cfae4ad6a995ed46a26ec6cd5520e6",
+      "sourceSha256": "26c23ef51726da346dcdf5b9eb004e7c03cfae4ad6a995ed46a26ec6cd5520e6"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-knowledge-graph-engineer.md",
+      "bytes": 23562,
+      "sha256": "5c01d27d814425a6f72e55bbf14011e8bbdbd088ec2e7854675d8c39dd3f8185",
+      "sourceSha256": "5c01d27d814425a6f72e55bbf14011e8bbdbd088ec2e7854675d8c39dd3f8185"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-llm-post-training-engineer.md",
+      "bytes": 10947,
+      "sha256": "aa697dc1c0eb402551b9f6764a89938c8787c9628760b74065d3e383299a980a",
+      "sourceSha256": "aa697dc1c0eb402551b9f6764a89938c8787c9628760b74065d3e383299a980a"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-minimal-change-engineer.md",
+      "bytes": 11231,
+      "sha256": "9999cc74e7b3936af892ef2c2793d105bb92f6c47789aa23db6df92bf68b45e5",
+      "sourceSha256": "9999cc74e7b3936af892ef2c2793d105bb92f6c47789aa23db6df92bf68b45e5"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-mobile-app-builder.md",
+      "bytes": 17035,
+      "sha256": "1a3e043f806b0b7c071d58b2ee3ab3c58c8342e2727c1ca9e6e5175f86986caf",
+      "sourceSha256": "1a3e043f806b0b7c071d58b2ee3ab3c58c8342e2727c1ca9e6e5175f86986caf"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-mobile-release-engineer.md",
+      "bytes": 13705,
+      "sha256": "3fae6975de4c2038a7fb0c4a8e366b8f87e8f3bb89e0a64ce4d4bcfdead15617",
+      "sourceSha256": "3fae6975de4c2038a7fb0c4a8e366b8f87e8f3bb89e0a64ce4d4bcfdead15617"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-multi-agent-systems-architect.md",
+      "bytes": 29301,
+      "sha256": "d93dd20fef67bf85a537ba0f869fad1a17d0e589f20899d1bbe1f095a7bcb91b",
+      "sourceSha256": "d93dd20fef67bf85a537ba0f869fad1a17d0e589f20899d1bbe1f095a7bcb91b"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-network-engineer.md",
+      "bytes": 13825,
+      "sha256": "1400d7393e47b05c629d2902b2114911d6e55f34a703c2b77da24bd5f2b31576",
+      "sourceSha256": "1400d7393e47b05c629d2902b2114911d6e55f34a703c2b77da24bd5f2b31576"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-orgscript-engineer.md",
+      "bytes": 5611,
+      "sha256": "f8426369743ff0086e32cb9facfc3935488d99a1c2de92961917f9b27d401427",
+      "sourceSha256": "f8426369743ff0086e32cb9facfc3935488d99a1c2de92961917f9b27d401427"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-payments-billing-engineer.md",
+      "bytes": 15004,
+      "sha256": "ce47609b6805087e2f731ea62f69edffaf61e1968049042e2ca3d225d4392b40",
+      "sourceSha256": "ce47609b6805087e2f731ea62f69edffaf61e1968049042e2ca3d225d4392b40"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-pdf-engine-architect.md",
+      "bytes": 34243,
+      "sha256": "367dd859aeda52d2a3de6ffd33b8c38eac625e884a2f71574a73d38350f8f457",
+      "sourceSha256": "367dd859aeda52d2a3de6ffd33b8c38eac625e884a2f71574a73d38350f8f457"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-platform-engineer.md",
+      "bytes": 11688,
+      "sha256": "0736a0c476ff46e16e33b36ec143352107b82d69b3501bcdaefe22feee252652",
+      "sourceSha256": "0736a0c476ff46e16e33b36ec143352107b82d69b3501bcdaefe22feee252652"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-privacy-engineer.md",
+      "bytes": 14229,
+      "sha256": "0d00d2f0d3008a55000eb01f13adac54f40daf471d240a7c073477efe92376a6",
+      "sourceSha256": "0d00d2f0d3008a55000eb01f13adac54f40daf471d240a7c073477efe92376a6"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-prompt-engineer.md",
+      "bytes": 9861,
+      "sha256": "e94ccdc64a6a4fe064550dee7242778632696813d98dc1d6053f64d3794794d3",
+      "sourceSha256": "e94ccdc64a6a4fe064550dee7242778632696813d98dc1d6053f64d3794794d3"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-rag-pipeline-engineer.md",
+      "bytes": 18962,
+      "sha256": "d9b75715fc6eb5712054658727a6f9082d4be2579766d2b42a6060595caa9a96",
+      "sourceSha256": "d9b75715fc6eb5712054658727a6f9082d4be2579766d2b42a6060595caa9a96"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-rapid-prototyper.md",
+      "bytes": 15804,
+      "sha256": "247ea109c45d9ed372b85b5a436c52a801fee234740e3caa114d72d0e1f05f80",
+      "sourceSha256": "247ea109c45d9ed372b85b5a436c52a801fee234740e3caa114d72d0e1f05f80"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-realtime-collaboration-engineer.md",
+      "bytes": 15090,
+      "sha256": "79b1fa3544a7f768ca3702b8b41f2969c9ea14ddb73c7fe349fc652219f91a75",
+      "sourceSha256": "79b1fa3544a7f768ca3702b8b41f2969c9ea14ddb73c7fe349fc652219f91a75"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-rust-refactoring-specialist.md",
+      "bytes": 14863,
+      "sha256": "06ca53dbd12694560bf01feb94cbbd8c428e4abe6ac92c8a72eeb277ce179a78",
+      "sourceSha256": "06ca53dbd12694560bf01feb94cbbd8c428e4abe6ac92c8a72eeb277ce179a78"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-search-relevance-engineer.md",
+      "bytes": 15023,
+      "sha256": "5562f37cbb561dce6dac47b1dd4e75cb7bde6c0c48045198db346ba7d6d790af",
+      "sourceSha256": "5562f37cbb561dce6dac47b1dd4e75cb7bde6c0c48045198db346ba7d6d790af"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-section-508-specialist.md",
+      "bytes": 26617,
+      "sha256": "d4fb7139c69e270fd626cfc1410b7412bd864d010903b459f9eb90c8359809f9",
+      "sourceSha256": "d4fb7139c69e270fd626cfc1410b7412bd864d010903b459f9eb90c8359809f9"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-senior-developer.md",
+      "bytes": 6252,
+      "sha256": "63b8da6c12b95f54bbdbcd0666abeb9519a98b35395233e1b1d8e5c102c82599",
+      "sourceSha256": "63b8da6c12b95f54bbdbcd0666abeb9519a98b35395233e1b1d8e5c102c82599"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-servicenow-developer-mentor.md",
+      "bytes": 11772,
+      "sha256": "0a35abb24b63834dc910f7813e7a657cfb06c93f6760f0204da75aabd6b722bd",
+      "sourceSha256": "0a35abb24b63834dc910f7813e7a657cfb06c93f6760f0204da75aabd6b722bd"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-software-architect.md",
+      "bytes": 6485,
+      "sha256": "b85121691776147bacde26673e68fbbacd6a7f0816d1ca8e203c264d25ce1d30",
+      "sourceSha256": "b85121691776147bacde26673e68fbbacd6a7f0816d1ca8e203c264d25ce1d30"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-solidity-smart-contract-engineer.md",
+      "bytes": 21719,
+      "sha256": "9e6f96fb29cc71faf2638bce3a5aa06ff15b4c674ca4ec039e5e4515a7844839",
+      "sourceSha256": "9e6f96fb29cc71faf2638bce3a5aa06ff15b4c674ca4ec039e5e4515a7844839"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-sre.md",
+      "bytes": 3882,
+      "sha256": "85b305e495506913f50c7cb28de42444a85fbc4898cd3ad4e1dc9b358b4ab5e8",
+      "sourceSha256": "85b305e495506913f50c7cb28de42444a85fbc4898cd3ad4e1dc9b358b4ab5e8"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-technical-writer.md",
+      "bytes": 14214,
+      "sha256": "bf5c809977e10904b988ab8b218853ce8dfa38b2cbd89a7d2cfadba44ac25761",
+      "sourceSha256": "bf5c809977e10904b988ab8b218853ce8dfa38b2cbd89a7d2cfadba44ac25761"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-universal-document-compiler.md",
+      "bytes": 20060,
+      "sha256": "70c47b2a1edfa10dd3b3206d22516565a4d3e134f6ca92e086770e2d088ea6f0",
+      "sourceSha256": "70c47b2a1edfa10dd3b3206d22516565a4d3e134f6ca92e086770e2d088ea6f0"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-uswds-developer.md",
+      "bytes": 24213,
+      "sha256": "d3c46e2340d50a97cec536edd985abd2fe6b5f012c3c02e5e9187cd061b27ca7",
+      "sourceSha256": "d3c46e2340d50a97cec536edd985abd2fe6b5f012c3c02e5e9187cd061b27ca7"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-video-streaming-engineer.md",
+      "bytes": 12918,
+      "sha256": "7abdbe217f43c41c7d0563d28683d44855a0e8c8871e7874ecd3deb31a543df0",
+      "sourceSha256": "7abdbe217f43c41c7d0563d28683d44855a0e8c8871e7874ecd3deb31a543df0"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-voice-ai-integration-engineer.md",
+      "bytes": 28772,
+      "sha256": "c6f3cc0829fc2b6c989f2aed10929e59365ec3bae89089205e27acbc57c17c7c",
+      "sourceSha256": "c6f3cc0829fc2b6c989f2aed10929e59365ec3bae89089205e27acbc57c17c7c"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-webassembly-engineer.md",
+      "bytes": 12992,
+      "sha256": "746f387160d62d9d13a78c75c20a7f14607fe45cec1fd20f48848e89c5429ed4",
+      "sourceSha256": "746f387160d62d9d13a78c75c20a7f14607fe45cec1fd20f48848e89c5429ed4"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-wechat-mini-program-developer.md",
+      "bytes": 15955,
+      "sha256": "322e068fb168e5ce95b1f66c132de4c1e5c794a114b342d01d997d785e865f43",
+      "sourceSha256": "322e068fb168e5ce95b1f66c132de4c1e5c794a114b342d01d997d785e865f43"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-wordpress-performance.md",
+      "bytes": 24292,
+      "sha256": "58ed429ace903aac3a2c9e190ecae5b61966b7330e9e51ea66aa03eb4112854f",
+      "sourceSha256": "58ed429ace903aac3a2c9e190ecae5b61966b7330e9e51ea66aa03eb4112854f"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/engineering/engineering-wordpress-shopping-cart.md",
+      "bytes": 22177,
+      "sha256": "a2ef45cebe1cf03175b16ef48a2a01acdd2b7e8eda289114f568ebe0f1ae4112",
+      "sourceSha256": "a2ef45cebe1cf03175b16ef48a2a01acdd2b7e8eda289114f568ebe0f1ae4112"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/examples/README.md",
+      "bytes": 2402,
+      "sha256": "4337886744e068c62fe24795c60aed43e82f13c56526646445c48e02b3cab3f9",
+      "sourceSha256": "4337886744e068c62fe24795c60aed43e82f13c56526646445c48e02b3cab3f9"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/examples/nexus-spatial-discovery.md",
+      "bytes": 40664,
+      "sha256": "828bd93b1fbb2218e5eee049c618448be2e081cd46983e928dbecd7afcbcc2df",
+      "sourceSha256": "828bd93b1fbb2218e5eee049c618448be2e081cd46983e928dbecd7afcbcc2df"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/examples/workflow-book-chapter.md",
+      "bytes": 2101,
+      "sha256": "a0382f06c7536579be480c737d56257c3247b55fbacfc6fdc219f870053a8f3f",
+      "sourceSha256": "a0382f06c7536579be480c737d56257c3247b55fbacfc6fdc219f870053a8f3f"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/examples/workflow-landing-page.md",
+      "bytes": 3389,
+      "sha256": "05942259ec3fa56d32dc882e27646c75d69bdd8cb8333212ac9589eaba729bac",
+      "sourceSha256": "05942259ec3fa56d32dc882e27646c75d69bdd8cb8333212ac9589eaba729bac"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/examples/workflow-startup-mvp.md",
+      "bytes": 4594,
+      "sha256": "e540cc1c11e16ea5726dbfe2122e8832e020b865f957fdeb44a2216ab5873308",
+      "sourceSha256": "e540cc1c11e16ea5726dbfe2122e8832e020b865f957fdeb44a2216ab5873308"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/examples/workflow-with-memory.md",
+      "bytes": 9090,
+      "sha256": "12d75f810271871ea4aec14feb3705ea51fb0bb2519ef1e651c68777475c2453",
+      "sourceSha256": "12d75f810271871ea4aec14feb3705ea51fb0bb2519ef1e651c68777475c2453"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/finance/finance-bookkeeper-controller.md",
+      "bytes": 15247,
+      "sha256": "5510a24274d8f7897ca3f4df2c3318262138a2c82827b37dd2489dcfca8de75a",
+      "sourceSha256": "5510a24274d8f7897ca3f4df2c3318262138a2c82827b37dd2489dcfca8de75a"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/finance/finance-financial-analyst.md",
+      "bytes": 13448,
+      "sha256": "3547907cd52e6108a4c666fd576d5e42715ac337586a3958a722deee4c1f77bb",
+      "sourceSha256": "3547907cd52e6108a4c666fd576d5e42715ac337586a3958a722deee4c1f77bb"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/finance/finance-fpa-analyst.md",
+      "bytes": 16614,
+      "sha256": "5fa9137c80e0b91fbe62815e7981d7b6a2ca5bafe43013c56d1b847a3c963141",
+      "sourceSha256": "5fa9137c80e0b91fbe62815e7981d7b6a2ca5bafe43013c56d1b847a3c963141"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/finance/finance-investment-researcher.md",
+      "bytes": 15678,
+      "sha256": "4851318dcd82fdfd68403656450761b439a01c6071b8755e49dbd215149bc2c1",
+      "sourceSha256": "4851318dcd82fdfd68403656450761b439a01c6071b8755e49dbd215149bc2c1"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/finance/finance-tax-strategist.md",
+      "bytes": 13731,
+      "sha256": "37ea1a246e1290f473ef59abe1bba9ecc4f346c9867522fefcc11d37cd0265ab",
+      "sourceSha256": "37ea1a246e1290f473ef59abe1bba9ecc4f346c9867522fefcc11d37cd0265ab"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/game-development/blender/blender-addon-engineer.md",
+      "bytes": 11439,
+      "sha256": "e9a778fb9a78c31b6c2e2d8a0912cccd32652c1627be4794ae70f5ceb0021076",
+      "sourceSha256": "e9a778fb9a78c31b6c2e2d8a0912cccd32652c1627be4794ae70f5ceb0021076"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/game-development/economy-designer.md",
+      "bytes": 8844,
+      "sha256": "a6767b808ef0c155d85f5569e9e53285c97dce4c9df25aa24a09a65246967998",
+      "sourceSha256": "a6767b808ef0c155d85f5569e9e53285c97dce4c9df25aa24a09a65246967998"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/game-development/game-audio-engineer.md",
+      "bytes": 12298,
+      "sha256": "d7a2eebd8c20021e543222bc962cb5a111924c5438e9f771a6db42d74cd19232",
+      "sourceSha256": "d7a2eebd8c20021e543222bc962cb5a111924c5438e9f771a6db42d74cd19232"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/game-development/game-designer.md",
+      "bytes": 8433,
+      "sha256": "203c4d7f0358a628ea21e3b9c16980f28003bd035b5cfd41a2daec04f6b84e5a",
+      "sourceSha256": "203c4d7f0358a628ea21e3b9c16980f28003bd035b5cfd41a2daec04f6b84e5a"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/game-development/godot/godot-gameplay-scripter.md",
+      "bytes": 15724,
+      "sha256": "20cc00332db9cbf19f9a86dd87bd4b514d348ab0c4c0536b151c936b38be4392",
+      "sourceSha256": "20cc00332db9cbf19f9a86dd87bd4b514d348ab0c4c0536b151c936b38be4392"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/game-development/godot/godot-multiplayer-engineer.md",
+      "bytes": 14221,
+      "sha256": "7e86e269a98652c4e41c2f5d26b594c99e176d724b11f505550ab51cc21dfbb8",
+      "sourceSha256": "7e86e269a98652c4e41c2f5d26b594c99e176d724b11f505550ab51cc21dfbb8"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/game-development/godot/godot-shader-developer.md",
+      "bytes": 13493,
+      "sha256": "947e775e411cd11ea0ed92419737801e602f6aa450037313433ab11aa7681bb4",
+      "sourceSha256": "947e775e411cd11ea0ed92419737801e602f6aa450037313433ab11aa7681bb4"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/game-development/level-designer.md",
+      "bytes": 10340,
+      "sha256": "79c1d41b7dfc477f6f364ba8b6dec02dc0c081235fe8f8b61c8b062b5dc3b344",
+      "sourceSha256": "79c1d41b7dfc477f6f364ba8b6dec02dc0c081235fe8f8b61c8b062b5dc3b344"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/game-development/narrative-designer.md",
+      "bytes": 13160,
+      "sha256": "7a5489c7b0502aa167030018137e3f349d2c32505c0ad7b9ec1de066a9a93f0d",
+      "sourceSha256": "7a5489c7b0502aa167030018137e3f349d2c32505c0ad7b9ec1de066a9a93f0d"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/game-development/roblox-studio/roblox-avatar-creator.md",
+      "bytes": 14116,
+      "sha256": "6bdb5af6fe5c390da43f7bdcc4d73b6fbdef2a8b19bd6d30bf1fef6b4258f16a",
+      "sourceSha256": "6bdb5af6fe5c390da43f7bdcc4d73b6fbdef2a8b19bd6d30bf1fef6b4258f16a"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/game-development/roblox-studio/roblox-experience-designer.md",
+      "bytes": 14888,
+      "sha256": "36fb12b8b76ba666e8e9e2830328f63e713556b8f503fe12ab883902a77b308a",
+      "sourceSha256": "36fb12b8b76ba666e8e9e2830328f63e713556b8f503fe12ab883902a77b308a"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/game-development/roblox-studio/roblox-systems-scripter.md",
+      "bytes": 15480,
+      "sha256": "6eb8875978afb987563afa5fb0ee5a7789387348c362cf9a44cba6c2098821db",
+      "sourceSha256": "6eb8875978afb987563afa5fb0ee5a7789387348c362cf9a44cba6c2098821db"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/game-development/technical-artist.md",
+      "bytes": 11390,
+      "sha256": "9b7e75b629b7b1c87a0bc37e6abaec91e0ad7ae02e8a091c5a876e2bea817742",
+      "sourceSha256": "9b7e75b629b7b1c87a0bc37e6abaec91e0ad7ae02e8a091c5a876e2bea817742"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/game-development/unity/unity-architect.md",
+      "bytes": 12244,
+      "sha256": "15502fbcd46fcd7559bcd85d15b512317ceed27ffb90fc54e79f3c32bf682c1a",
+      "sourceSha256": "15502fbcd46fcd7559bcd85d15b512317ceed27ffb90fc54e79f3c32bf682c1a"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/game-development/unity/unity-editor-tool-developer.md",
+      "bytes": 14889,
+      "sha256": "8b368fe6ee0a4c0c71d10324cd8de4378c7bdaae9bc871a5561199b4a802b5dc",
+      "sourceSha256": "8b368fe6ee0a4c0c71d10324cd8de4378c7bdaae9bc871a5561199b4a802b5dc"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/game-development/unity/unity-multiplayer-engineer.md",
+      "bytes": 15095,
+      "sha256": "e7d47ee13ad113a03cbc4605ec3583c272105aa305e8a64be77464a3bb9bee92",
+      "sourceSha256": "e7d47ee13ad113a03cbc4605ec3583c272105aa305e8a64be77464a3bb9bee92"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/game-development/unity/unity-shader-graph-artist.md",
+      "bytes": 13080,
+      "sha256": "3e2033f179a95da207627d1d7521395d434ac76c30a3b20f08f90a05b7405c52",
+      "sourceSha256": "3e2033f179a95da207627d1d7521395d434ac76c30a3b20f08f90a05b7405c52"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/game-development/unreal-engine/unreal-multiplayer-architect.md",
+      "bytes": 16492,
+      "sha256": "c31c693ad7e34f9baa5b626565ac763f9fdfdb7f3e2d42f9e0bdddba9cd98b73",
+      "sourceSha256": "c31c693ad7e34f9baa5b626565ac763f9fdfdb7f3e2d42f9e0bdddba9cd98b73"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/game-development/unreal-engine/unreal-systems-engineer.md",
+      "bytes": 16344,
+      "sha256": "a4a6b98e7387c96f01bb0e9e971c27003ea30bce6d57b09e3ab7e34331746042",
+      "sourceSha256": "a4a6b98e7387c96f01bb0e9e971c27003ea30bce6d57b09e3ab7e34331746042"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/game-development/unreal-engine/unreal-technical-artist.md",
+      "bytes": 11854,
+      "sha256": "54bdd46bc872ba21fbcf7e02492c9f5bef82a6d3a35ee3de757d3b678edd6b82",
+      "sourceSha256": "54bdd46bc872ba21fbcf7e02492c9f5bef82a6d3a35ee3de757d3b678edd6b82"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/game-development/unreal-engine/unreal-world-builder.md",
+      "bytes": 14011,
+      "sha256": "7d2bf21ac77089b99f1fa36f6102fa938c9014c3107e9dcb9069b896e2b4001e",
+      "sourceSha256": "7d2bf21ac77089b99f1fa36f6102fa938c9014c3107e9dcb9069b896e2b4001e"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/gis/gis-3d-scene-developer.md",
+      "bytes": 5628,
+      "sha256": "56f753732d35e54f0527a2cbdc60c73c9215463d4704cc66242e3bbaa1c744e7",
+      "sourceSha256": "56f753732d35e54f0527a2cbdc60c73c9215463d4704cc66242e3bbaa1c744e7"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/gis/gis-analyst.md",
+      "bytes": 4487,
+      "sha256": "db86d14315eb0ee9fc4cc4699c3844b40f2004a988370f32fe55dadfac2c40a7",
+      "sourceSha256": "db86d14315eb0ee9fc4cc4699c3844b40f2004a988370f32fe55dadfac2c40a7"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/gis/gis-bim-specialist.md",
+      "bytes": 5594,
+      "sha256": "724609ec55d1b83c88672ada351763ac6c219adca2d36faea0790bdda953e567",
+      "sourceSha256": "724609ec55d1b83c88672ada351763ac6c219adca2d36faea0790bdda953e567"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/gis/gis-cartography-designer.md",
+      "bytes": 6968,
+      "sha256": "2223d403dfdd863d42c0aa29c912cba0c91ffdc9ad8192630f7b08e4b4c7e804",
+      "sourceSha256": "2223d403dfdd863d42c0aa29c912cba0c91ffdc9ad8192630f7b08e4b4c7e804"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/gis/gis-drone-reality-mapping.md",
+      "bytes": 6007,
+      "sha256": "2e670d99f491e1b4b76d4a5a91e33eb7a5a9ddfd9e67dda1d3c24cd57faea1f2",
+      "sourceSha256": "2e670d99f491e1b4b76d4a5a91e33eb7a5a9ddfd9e67dda1d3c24cd57faea1f2"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/gis/gis-geoai-ml-engineer.md",
+      "bytes": 4947,
+      "sha256": "6323600aecb9a1867a90158b10fa066280d1ffc77411c2b453248d125a505448",
+      "sourceSha256": "6323600aecb9a1867a90158b10fa066280d1ffc77411c2b453248d125a505448"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/gis/gis-geoprocessing-specialist.md",
+      "bytes": 4817,
+      "sha256": "28efb48c3c4312ac7a662c8f2da69cc013d74e5d59880a04a71a40783e0ba424",
+      "sourceSha256": "28efb48c3c4312ac7a662c8f2da69cc013d74e5d59880a04a71a40783e0ba424"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/gis/gis-qa-engineer.md",
+      "bytes": 5400,
+      "sha256": "f7247c7df478d963db720562af361394454c20b6af3fc78a02791ec6624bfc38",
+      "sourceSha256": "f7247c7df478d963db720562af361394454c20b6af3fc78a02791ec6624bfc38"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/gis/gis-solution-engineer.md",
+      "bytes": 4591,
+      "sha256": "a871691ed7e305047281238eb225f64df4b03274fe82278879788de3c839f054",
+      "sourceSha256": "a871691ed7e305047281238eb225f64df4b03274fe82278879788de3c839f054"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/gis/gis-spatial-data-engineer.md",
+      "bytes": 4949,
+      "sha256": "b8f0e43cee6538aa7880168335ceac8e1a4700965b49f3b6c227b0f13d399e5f",
+      "sourceSha256": "b8f0e43cee6538aa7880168335ceac8e1a4700965b49f3b6c227b0f13d399e5f"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/gis/gis-spatial-data-scientist.md",
+      "bytes": 5840,
+      "sha256": "03254a9fa2a9522800eddf743b8305bc2d4b2093e233e6c9b593da6f0746c657",
+      "sourceSha256": "03254a9fa2a9522800eddf743b8305bc2d4b2093e233e6c9b593da6f0746c657"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/gis/gis-technical-consultant.md",
+      "bytes": 4525,
+      "sha256": "f0228896fc57ea0b8fcf3c3fab188a6d4063ba6bf704aa93b0e46e27ba096736",
+      "sourceSha256": "f0228896fc57ea0b8fcf3c3fab188a6d4063ba6bf704aa93b0e46e27ba096736"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/gis/gis-web-gis-developer.md",
+      "bytes": 5324,
+      "sha256": "dbf3ceea4bb8fdc2f2fc61bf96806adeb89f725c8d67a01cd103d256e56909a7",
+      "sourceSha256": "dbf3ceea4bb8fdc2f2fc61bf96806adeb89f725c8d67a01cd103d256e56909a7"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/healthcare/healthcare-clinical-evidence-agent.md",
+      "bytes": 10273,
+      "sha256": "5fd6223b0fb17c7625b2ca8ba9f1f6fb649560c074a39b0d72e22e984487a688",
+      "sourceSha256": "5fd6223b0fb17c7625b2ca8ba9f1f6fb649560c074a39b0d72e22e984487a688"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/healthcare/healthcare-innovation-strategist.md",
+      "bytes": 20366,
+      "sha256": "e1bd8f9f8c5ac7db333632d482e017c6086519eee310da6879db5c121129fbbd",
+      "sourceSha256": "e1bd8f9f8c5ac7db333632d482e017c6086519eee310da6879db5c121129fbbd"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/healthcare/healthcare-sovereign-health-systems-agent.md",
+      "bytes": 14891,
+      "sha256": "8e846a8643def597e351719853da63b4b6d9f0bf41978ac25e896750427989fa",
+      "sourceSha256": "8e846a8643def597e351719853da63b4b6d9f0bf41978ac25e896750427989fa"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/integrations/README.md",
+      "bytes": 6692,
+      "sha256": "974e1d6cc6a6bbd40958608e3d21fb80f624b0a17b208438a011255a3a12d7f7",
+      "sourceSha256": "974e1d6cc6a6bbd40958608e3d21fb80f624b0a17b208438a011255a3a12d7f7"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/integrations/aider/README.md",
+      "bytes": 1397,
+      "sha256": "3befff669bb4c24391f687aac6f73d69c2921c59b420b891bf14e486d40bba0c",
+      "sourceSha256": "3befff669bb4c24391f687aac6f73d69c2921c59b420b891bf14e486d40bba0c"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/integrations/antigravity/README.md",
+      "bytes": 1092,
+      "sha256": "f097ccf5eb15751bed0d2f4646fdfbcac08a14cdf506e5b6a1f76be9df4f49e6",
+      "sourceSha256": "f097ccf5eb15751bed0d2f4646fdfbcac08a14cdf506e5b6a1f76be9df4f49e6"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/integrations/claude-code/README.md",
+      "bytes": 712,
+      "sha256": "b37cfa2648c93b32f737904f98c5babb060355f985bd166e0738b908f1d7e4d9",
+      "sourceSha256": "b37cfa2648c93b32f737904f98c5babb060355f985bd166e0738b908f1d7e4d9"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/integrations/codex/README.md",
+      "bytes": 1715,
+      "sha256": "c558f8109a403dc80c137d90c3d4df41a72447fc259087540c28e502276bcf0d",
+      "sourceSha256": "c558f8109a403dc80c137d90c3d4df41a72447fc259087540c28e502276bcf0d"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/integrations/cursor/README.md",
+      "bytes": 729,
+      "sha256": "c59a7e8a40a6b79d79b857a5b0c8e19a965087463bedcc06e5abe673e5cc41a4",
+      "sourceSha256": "c59a7e8a40a6b79d79b857a5b0c8e19a965087463bedcc06e5abe673e5cc41a4"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/integrations/dsh/README.md",
+      "bytes": 2347,
+      "sha256": "35713d3ea02cc0fbb9d13022450bb51ed41c66d0ac530f90a87d659708e83741",
+      "sourceSha256": "35713d3ea02cc0fbb9d13022450bb51ed41c66d0ac530f90a87d659708e83741"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/integrations/gemini-cli/README.md",
+      "bytes": 805,
+      "sha256": "e5caea48879fc4ca55e59fc187c7c6e1f4966e183462e165a5e70b7cca198299",
+      "sourceSha256": "e5caea48879fc4ca55e59fc187c7c6e1f4966e183462e165a5e70b7cca198299"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/integrations/github-copilot/README.md",
+      "bytes": 759,
+      "sha256": "81c59088b32258ba22ae553997f7b9e9c2d33268871ab914747ce5d1015ec7f4",
+      "sourceSha256": "81c59088b32258ba22ae553997f7b9e9c2d33268871ab914747ce5d1015ec7f4"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/integrations/hermes/README.md",
+      "bytes": 3110,
+      "sha256": "f131db453ffd46adb7cdb0fa4728e0501528c68c08c80a92f2dff17e8f12e80c",
+      "sourceSha256": "f131db453ffd46adb7cdb0fa4728e0501528c68c08c80a92f2dff17e8f12e80c"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/integrations/kimi/README.md",
+      "bytes": 2027,
+      "sha256": "01aebb21981f1b340fa26c56ffd71abb698c93d487cd1244443e250896b9c514",
+      "sourceSha256": "01aebb21981f1b340fa26c56ffd71abb698c93d487cd1244443e250896b9c514"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/integrations/mcp-memory/README.md",
+      "bytes": 3760,
+      "sha256": "e3252682132b4aa6f95f17fb4888cf8722b8bd9c747af403e3d6651b1dd57cf4",
+      "sourceSha256": "e3252682132b4aa6f95f17fb4888cf8722b8bd9c747af403e3d6651b1dd57cf4"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/integrations/mcp-memory/backend-architect-with-memory.md",
+      "bytes": 10940,
+      "sha256": "961975de8bff54a089ddc9b86dd86e8f3ac1a9c37aff9c68aed0afd45bfb5eab",
+      "sourceSha256": "961975de8bff54a089ddc9b86dd86e8f3ac1a9c37aff9c68aed0afd45bfb5eab"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/integrations/mcp-memory/setup.sh",
+      "bytes": 2227,
+      "sha256": "7fd9166f7410f3708486b26301166728befacde39fc561a492f3ce6e7c529928",
+      "sourceSha256": "7fd9166f7410f3708486b26301166728befacde39fc561a492f3ce6e7c529928"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/integrations/openclaw/README.md",
+      "bytes": 697,
+      "sha256": "4a2a0d6fb6d2ec7a360d3e023ab5e333c3508e4a6d4312120e28eba1aef6d00a",
+      "sourceSha256": "4a2a0d6fb6d2ec7a360d3e023ab5e333c3508e4a6d4312120e28eba1aef6d00a"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/integrations/opencode/README.md",
+      "bytes": 1928,
+      "sha256": "73a4764708808b8e77dad0a72d2f326cc3bced5d107cb7a232ab515981a7514f",
+      "sourceSha256": "73a4764708808b8e77dad0a72d2f326cc3bced5d107cb7a232ab515981a7514f"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/integrations/qwen/README.md",
+      "bytes": 1624,
+      "sha256": "08cda4edeba5d24aca6ed705f39847c28d5173033d6a9b2b2c252e7cfc5c50bd",
+      "sourceSha256": "08cda4edeba5d24aca6ed705f39847c28d5173033d6a9b2b2c252e7cfc5c50bd"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/integrations/vibe/README.md",
+      "bytes": 2310,
+      "sha256": "d3077288f986f776810cf38254c896be3985eb9b297d80875887d69bf1e5e905",
+      "sourceSha256": "d3077288f986f776810cf38254c896be3985eb9b297d80875887d69bf1e5e905"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/integrations/windsurf/README.md",
+      "bytes": 510,
+      "sha256": "00d8863ed811f69fa50f12aa7db1253cea90507dcdd8f02485b70f84428c970a",
+      "sourceSha256": "00d8863ed811f69fa50f12aa7db1253cea90507dcdd8f02485b70f84428c970a"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/integrations/zcode/README.md",
+      "bytes": 922,
+      "sha256": "503cb2992048409efaebd4a2894182cea3f22d977a94229fe6431f5422beb6d7",
+      "sourceSha256": "503cb2992048409efaebd4a2894182cea3f22d977a94229fe6431f5422beb6d7"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-aeo-foundations.md",
+      "bytes": 15548,
+      "sha256": "b7ef7e1188c924833974bab5cc57f166a7eb6b681d63ccd22eb05c91c25a3c8b",
+      "sourceSha256": "b7ef7e1188c924833974bab5cc57f166a7eb6b681d63ccd22eb05c91c25a3c8b"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-agentic-search-optimizer.md",
+      "bytes": 15558,
+      "sha256": "de143d3db98f6532dcd9d21ae363d1c2fb508dc806c1f7325bba59e8fbd24184",
+      "sourceSha256": "de143d3db98f6532dcd9d21ae363d1c2fb508dc806c1f7325bba59e8fbd24184"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-ai-citation-strategist.md",
+      "bytes": 9414,
+      "sha256": "1d23c94aced61beb0e7a3151ad4c14ccb8205a95e48d4bc6c0fda6739c2e356d",
+      "sourceSha256": "1d23c94aced61beb0e7a3151ad4c14ccb8205a95e48d4bc6c0fda6739c2e356d"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-app-store-optimizer.md",
+      "bytes": 13087,
+      "sha256": "1987be72f8fd43ca694f9145cb0dbe37eabc5b1f04439425d7b59185db9263c9",
+      "sourceSha256": "1987be72f8fd43ca694f9145cb0dbe37eabc5b1f04439425d7b59185db9263c9"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-baidu-seo-specialist.md",
+      "bytes": 12968,
+      "sha256": "895a5e8440066ad0b8fa6fe79a91c7750d246a233b01bf7932584b74e9c5becb",
+      "sourceSha256": "895a5e8440066ad0b8fa6fe79a91c7750d246a233b01bf7932584b74e9c5becb"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-bilibili-content-strategist.md",
+      "bytes": 11647,
+      "sha256": "4268a7b51025967fbb4a80c0aeb5e4a80abaad9344f5dec164a8d1fb6ea62d06",
+      "sourceSha256": "4268a7b51025967fbb4a80c0aeb5e4a80abaad9344f5dec164a8d1fb6ea62d06"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-book-co-author.md",
+      "bytes": 5083,
+      "sha256": "09ea2fb4770180b072c92100be84b808367c40ef8a3f2119cfd059206aa4c717",
+      "sourceSha256": "09ea2fb4770180b072c92100be84b808367c40ef8a3f2119cfd059206aa4c717"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-carousel-growth-engine.md",
+      "bytes": 15733,
+      "sha256": "42a36a3ca0a11b6adc57eb3277dda7628a4db80169b5ea69c5262b7e85d7c06f",
+      "sourceSha256": "42a36a3ca0a11b6adc57eb3277dda7628a4db80169b5ea69c5262b7e85d7c06f"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-china-ecommerce-operator.md",
+      "bytes": 16791,
+      "sha256": "aa6743c68cce9dd00fd31751e9e3c2bea3987857cad332c68c7f68e683e98ba7",
+      "sourceSha256": "aa6743c68cce9dd00fd31751e9e3c2bea3987857cad332c68c7f68e683e98ba7"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-china-market-localization-strategist.md",
+      "bytes": 16913,
+      "sha256": "7f6351003b0d6525c7f44870078252d4616287953e33dcace3c8b7da2e9e4325",
+      "sourceSha256": "7f6351003b0d6525c7f44870078252d4616287953e33dcace3c8b7da2e9e4325"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-content-creator.md",
+      "bytes": 3140,
+      "sha256": "26ddce44f057068a3935c13d53becd3c57385fb47fcdcfdd891b80269070b3d5",
+      "sourceSha256": "26ddce44f057068a3935c13d53becd3c57385fb47fcdcfdd891b80269070b3d5"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-cross-border-ecommerce.md",
+      "bytes": 17415,
+      "sha256": "073dba84e8159c763c073fcf16f14d57685611c50555a7cde346df85a25c6293",
+      "sourceSha256": "073dba84e8159c763c073fcf16f14d57685611c50555a7cde346df85a25c6293"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-developer-community-builder.md",
+      "bytes": 13932,
+      "sha256": "f1d87ae21d21ee90f73cd94754b2a99e4af7fec64b23290fea59fb2b4637db11",
+      "sourceSha256": "f1d87ae21d21ee90f73cd94754b2a99e4af7fec64b23290fea59fb2b4637db11"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-douyin-strategist.md",
+      "bytes": 6954,
+      "sha256": "87e3b91287fc97ad0dedb2f407a49d551b52b8513c8c61d06c1a93d837a7ae46",
+      "sourceSha256": "87e3b91287fc97ad0dedb2f407a49d551b52b8513c8c61d06c1a93d837a7ae46"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-email-strategist.md",
+      "bytes": 16198,
+      "sha256": "605c98066a4a1b5538d76476a11316247316ecb8da88beda68a21f2c8918f19b",
+      "sourceSha256": "605c98066a4a1b5538d76476a11316247316ecb8da88beda68a21f2c8918f19b"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-global-podcast-strategist.md",
+      "bytes": 21857,
+      "sha256": "98416e338db666c5cc1d6bfd37c35daffa00532010623fdb4a92ed7dce76a7aa",
+      "sourceSha256": "98416e338db666c5cc1d6bfd37c35daffa00532010623fdb4a92ed7dce76a7aa"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-growth-hacker.md",
+      "bytes": 3055,
+      "sha256": "6938b4fccaf4447e8c4b8fd071ce383a484cd3fb72583d87ac9835fa9741a7c7",
+      "sourceSha256": "6938b4fccaf4447e8c4b8fd071ce383a484cd3fb72583d87ac9835fa9741a7c7"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-instagram-curator.md",
+      "bytes": 6563,
+      "sha256": "bab95910975a95409eca10e28c44cf762cd46f9d8b7d551bcb347ef0f39e68fd",
+      "sourceSha256": "bab95910975a95409eca10e28c44cf762cd46f9d8b7d551bcb347ef0f39e68fd"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-kuaishou-strategist.md",
+      "bytes": 13889,
+      "sha256": "d28742e505fa7bf6b39a88ccb6c2052ee5b4f569d17cebb81401fa8810a5ad49",
+      "sourceSha256": "d28742e505fa7bf6b39a88ccb6c2052ee5b4f569d17cebb81401fa8810a5ad49"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-linkedin-content-creator.md",
+      "bytes": 13361,
+      "sha256": "344896bff33acf0b5107bbba3c84ee1fb310f3652b44c7e53553c934c735ed4f",
+      "sourceSha256": "344896bff33acf0b5107bbba3c84ee1fb310f3652b44c7e53553c934c735ed4f"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-livestream-commerce-coach.md",
+      "bytes": 17166,
+      "sha256": "2d53e67cd70d825aeeddc9fd8b3b4a496887893b64df85c19903a2e7dbcb101f",
+      "sourceSha256": "2d53e67cd70d825aeeddc9fd8b3b4a496887893b64df85c19903a2e7dbcb101f"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-multi-platform-publisher.md",
+      "bytes": 14660,
+      "sha256": "adfc6c481c0c1e1c03df21a17ccb5fb4d4c56a84193249abb27cb3d44e4f1f5e",
+      "sourceSha256": "adfc6c481c0c1e1c03df21a17ccb5fb4d4c56a84193249abb27cb3d44e4f1f5e"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-podcast-strategist.md",
+      "bytes": 18038,
+      "sha256": "37fb126529afb4aa6f4409ca02307330d26b01f695dfbaade017d569169d936b",
+      "sourceSha256": "37fb126529afb4aa6f4409ca02307330d26b01f695dfbaade017d569169d936b"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-pr-communications-manager.md",
+      "bytes": 24692,
+      "sha256": "e255a9ebf00a0db0dc12e72fe2a647195ceacf3c0e63f38788e077966d69b800",
+      "sourceSha256": "e255a9ebf00a0db0dc12e72fe2a647195ceacf3c0e63f38788e077966d69b800"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-private-domain-operator.md",
+      "bytes": 16196,
+      "sha256": "1170edb4c9534149b77cf9c3279c347b0136a578e44e70320f16f784e7fe5f3c",
+      "sourceSha256": "1170edb4c9534149b77cf9c3279c347b0136a578e44e70320f16f784e7fe5f3c"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-reddit-community-builder.md",
+      "bytes": 7498,
+      "sha256": "03bb723420800754bcbf23994cba707c45123f7eefe3e1964188cf92ecc2b7d7",
+      "sourceSha256": "03bb723420800754bcbf23994cba707c45123f7eefe3e1964188cf92ecc2b7d7"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-seo-specialist.md",
+      "bytes": 21310,
+      "sha256": "cfa35eb3626230e1bc96ab3d434b42005b092fd4de8f517efe4a4b3f8fca60d0",
+      "sourceSha256": "cfa35eb3626230e1bc96ab3d434b42005b092fd4de8f517efe4a4b3f8fca60d0"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-short-video-editing-coach.md",
+      "bytes": 30779,
+      "sha256": "4634520ab5e84b26bb6658f4f8c0f737ed7dd0b5c631b9211482a4cf4037ccbf",
+      "sourceSha256": "4634520ab5e84b26bb6658f4f8c0f737ed7dd0b5c631b9211482a4cf4037ccbf"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-social-media-strategist.md",
+      "bytes": 7414,
+      "sha256": "7c698a9280872666b2726b7ca305c6d4890fcb95a098c7c316beb9bf5fdb4274",
+      "sourceSha256": "7c698a9280872666b2726b7ca305c6d4890fcb95a098c7c316beb9bf5fdb4274"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-tiktok-strategist.md",
+      "bytes": 7559,
+      "sha256": "980ca09138f63ec2d934e111af4fa59d76a483bb23220a5f862aa4e9f0c9124a",
+      "sourceSha256": "980ca09138f63ec2d934e111af4fa59d76a483bb23220a5f862aa4e9f0c9124a"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-twitter-engager.md",
+      "bytes": 7760,
+      "sha256": "df58c7df04fb808d282d7a551c84e039bebdf4a17318a09b84fa285a118f54ab",
+      "sourceSha256": "df58c7df04fb808d282d7a551c84e039bebdf4a17318a09b84fa285a118f54ab"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-video-optimization-specialist.md",
+      "bytes": 6245,
+      "sha256": "9cf82969be8898c96192617becf5e38e8de6b79650c362d840c53d2c10f2e8b9",
+      "sourceSha256": "9cf82969be8898c96192617becf5e38e8de6b79650c362d840c53d2c10f2e8b9"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-wechat-official-account.md",
+      "bytes": 9832,
+      "sha256": "b74a42aff9b960cb2a221e362d2006865924ffece9e3514df81f1116322d2dce",
+      "sourceSha256": "b74a42aff9b960cb2a221e362d2006865924ffece9e3514df81f1116322d2dce"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-weibo-strategist.md",
+      "bytes": 15697,
+      "sha256": "7a79f1ec3894ab2e32cb0b0b729b77fda176defaffdb59f4feae29e56a767917",
+      "sourceSha256": "7a79f1ec3894ab2e32cb0b0b729b77fda176defaffdb59f4feae29e56a767917"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-x-twitter-intelligence-analyst.md",
+      "bytes": 9730,
+      "sha256": "e3dd504765e720f0dce0c5b68254ab65c440798edccfe6af6aafd0d3925d6dcb",
+      "sourceSha256": "e3dd504765e720f0dce0c5b68254ab65c440798edccfe6af6aafd0d3925d6dcb"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-xiaohongshu-specialist.md",
+      "bytes": 9609,
+      "sha256": "c0afe07b77d7795ff6c5ea928360f0e545d51a6df231d42d6282168ace027154",
+      "sourceSha256": "c0afe07b77d7795ff6c5ea928360f0e545d51a6df231d42d6282168ace027154"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/marketing/marketing-zhihu-strategist.md",
+      "bytes": 12006,
+      "sha256": "35f6fd759a67860f92d1ae5245bdf45f5eb524277453a28011899aeb450f5c4c",
+      "sourceSha256": "35f6fd759a67860f92d1ae5245bdf45f5eb524277453a28011899aeb450f5c4c"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/paid-media/paid-media-auditor.md",
+      "bytes": 5557,
+      "sha256": "ce0346ba6a1b1652e350733cd3c124ab200e869c116fd85bcd0225d9764b0c56",
+      "sourceSha256": "ce0346ba6a1b1652e350733cd3c124ab200e869c116fd85bcd0225d9764b0c56"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/paid-media/paid-media-creative-strategist.md",
+      "bytes": 5162,
+      "sha256": "a24a303228178eb23d514fee63831cf7e1a3d7e5276c54ce5b58dce566700c41",
+      "sourceSha256": "a24a303228178eb23d514fee63831cf7e1a3d7e5276c54ce5b58dce566700c41"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/paid-media/paid-media-paid-social-strategist.md",
+      "bytes": 5451,
+      "sha256": "c8004c7f640dfef9c7c698f69c4c3712d063df06c8d391c809df92ba420af3db",
+      "sourceSha256": "c8004c7f640dfef9c7c698f69c4c3712d063df06c8d391c809df92ba420af3db"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/paid-media/paid-media-ppc-strategist.md",
+      "bytes": 4995,
+      "sha256": "3e172aa58ad7f9ea3bad947def69dfe26d66134c0aa88dca60e5aea4b8e25f67",
+      "sourceSha256": "3e172aa58ad7f9ea3bad947def69dfe26d66134c0aa88dca60e5aea4b8e25f67"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/paid-media/paid-media-programmatic-buyer.md",
+      "bytes": 5282,
+      "sha256": "c2a54b847823906485bed6e704fc7a013e3d9cf1340045354aae9a9e0c96e7e1",
+      "sourceSha256": "c2a54b847823906485bed6e704fc7a013e3d9cf1340045354aae9a9e0c96e7e1"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/paid-media/paid-media-search-query-analyst.md",
+      "bytes": 4941,
+      "sha256": "bfd792539f93515118429f20c528fdaee320a172ca861fbc7ffb0209dffb723e",
+      "sourceSha256": "bfd792539f93515118429f20c528fdaee320a172ca861fbc7ffb0209dffb723e"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/paid-media/paid-media-tracking-specialist.md",
+      "bytes": 5326,
+      "sha256": "8caa9bbc8f5a8aaeb5ac156dbb27818f27e79512472053b824484496b0ca5b96",
+      "sourceSha256": "8caa9bbc8f5a8aaeb5ac156dbb27818f27e79512472053b824484496b0ca5b96"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/product/product-behavioral-nudge-engine.md",
+      "bytes": 5481,
+      "sha256": "058868fb1a86e78859471dfa4285b1d62c23b2f83edbb345a227fc4beff39562",
+      "sourceSha256": "058868fb1a86e78859471dfa4285b1d62c23b2f83edbb345a227fc4beff39562"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/product/product-dx-engineer.md",
+      "bytes": 15146,
+      "sha256": "af7f005d51cd5d74885c1850c3570c2aee67a2a655d6fa9a695e895ff986a448",
+      "sourceSha256": "af7f005d51cd5d74885c1850c3570c2aee67a2a655d6fa9a695e895ff986a448"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/product/product-feedback-synthesizer.md",
+      "bytes": 7271,
+      "sha256": "9f7bc1474bf8bf95c0573c20df5e3d8ae70c3b9659ec5ea7958cc4692b958270",
+      "sourceSha256": "9f7bc1474bf8bf95c0573c20df5e3d8ae70c3b9659ec5ea7958cc4692b958270"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/product/product-manager.md",
+      "bytes": 22687,
+      "sha256": "4a3fe4661e72e5173877bcba7c362392181774b20efc27ac1789171e98676c9d",
+      "sourceSha256": "4a3fe4661e72e5173877bcba7c362392181774b20efc27ac1789171e98676c9d"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/product/product-sprint-prioritizer.md",
+      "bytes": 9464,
+      "sha256": "da5233770ca85a3931b72d80b37dd09616a54fd24075c607667853acf65b000a",
+      "sourceSha256": "da5233770ca85a3931b72d80b37dd09616a54fd24075c607667853acf65b000a"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/product/product-trend-researcher.md",
+      "bytes": 10493,
+      "sha256": "69c8e54a9413ba411195e8d5274ee3cd88fa8cda18486db70c0f19ce374550a2",
+      "sourceSha256": "69c8e54a9413ba411195e8d5274ee3cd88fa8cda18486db70c0f19ce374550a2"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/project-management/project-management-experiment-tracker.md",
+      "bytes": 9455,
+      "sha256": "8f1410bfa054c8ac2eee3084b9bfdb3adb1e8a2f3e015c2876d0ecf07136c22f",
+      "sourceSha256": "8f1410bfa054c8ac2eee3084b9bfdb3adb1e8a2f3e015c2876d0ecf07136c22f"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/project-management/project-management-jira-workflow-steward.md",
+      "bytes": 13724,
+      "sha256": "1e63812bd80317f4f69403701b6e1ff28d2fcf61862288f93fa4e4676bf46e17",
+      "sourceSha256": "1e63812bd80317f4f69403701b6e1ff28d2fcf61862288f93fa4e4676bf46e17"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/project-management/project-management-meeting-notes-specialist.md",
+      "bytes": 5616,
+      "sha256": "53a6efaa379b70cbc3276b44544ecf569789fffe892ba82eb68e8672407de91f",
+      "sourceSha256": "53a6efaa379b70cbc3276b44544ecf569789fffe892ba82eb68e8672407de91f"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/project-management/project-management-project-shepherd.md",
+      "bytes": 9825,
+      "sha256": "0feb647366d78b61c1633b12e370ffb1dea52facb9d750ef6c952de1e996031c",
+      "sourceSha256": "0feb647366d78b61c1633b12e370ffb1dea52facb9d750ef6c952de1e996031c"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/project-management/project-management-studio-operations.md",
+      "bytes": 9926,
+      "sha256": "8a2e5098d94688d191a128b6b2fdbbf3724bfcd2f4944766de6e25a0709f1517",
+      "sourceSha256": "8a2e5098d94688d191a128b6b2fdbbf3724bfcd2f4944766de6e25a0709f1517"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/project-management/project-management-studio-producer.md",
+      "bytes": 10905,
+      "sha256": "d942feab0f50ea7b8e98cb73bdaf05226d2a6c53c6359c7380149f7545bb199d",
+      "sourceSha256": "d942feab0f50ea7b8e98cb73bdaf05226d2a6c53c6359c7380149f7545bb199d"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/project-management/project-manager-senior.md",
+      "bytes": 5308,
+      "sha256": "70fb27cab174c97375293311211d5563c5ac257fba274450d1ca9c05b540ef2d",
+      "sourceSha256": "70fb27cab174c97375293311211d5563c5ac257fba274450d1ca9c05b540ef2d"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/research/research-synthesist.md",
+      "bytes": 10739,
+      "sha256": "3618b4a2a73523147731ae38ac4096cea0e83a7de930f55ea9ea6c69e3c77f30",
+      "sourceSha256": "3618b4a2a73523147731ae38ac4096cea0e83a7de930f55ea9ea6c69e3c77f30"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/sales/sales-account-strategist.md",
+      "bytes": 14844,
+      "sha256": "dd9b2c37c41827286ef91d64057a5b0ff4795c2e57bd44695436feeb5a3f0423",
+      "sourceSha256": "dd9b2c37c41827286ef91d64057a5b0ff4795c2e57bd44695436feeb5a3f0423"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/sales/sales-coach.md",
+      "bytes": 21009,
+      "sha256": "83f0be3daa7e78b24bfb41c7514d5f2936e9690c42ab7a0d8b5bc66a8b829f62",
+      "sourceSha256": "83f0be3daa7e78b24bfb41c7514d5f2936e9690c42ab7a0d8b5bc66a8b829f62"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/sales/sales-deal-strategist.md",
+      "bytes": 13698,
+      "sha256": "fdd92f2ced04ad842e25fd9ebcc341372ce2630d4ec152a29c53f7b8535b855e",
+      "sourceSha256": "fdd92f2ced04ad842e25fd9ebcc341372ce2630d4ec152a29c53f7b8535b855e"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/sales/sales-discovery-coach.md",
+      "bytes": 13591,
+      "sha256": "8244a25e5b8785058b19ef92dca9e543a2c990e4dde1166d194f14514e3ae278",
+      "sourceSha256": "8244a25e5b8785058b19ef92dca9e543a2c990e4dde1166d194f14514e3ae278"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/sales/sales-engineer.md",
+      "bytes": 13948,
+      "sha256": "355014b3ecf52aaa1209a5d7b089e5e65c3aad7874eef513e60b6da79fec572e",
+      "sourceSha256": "355014b3ecf52aaa1209a5d7b089e5e65c3aad7874eef513e60b6da79fec572e"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/sales/sales-offer-lead-gen-strategist.md",
+      "bytes": 16126,
+      "sha256": "75a12987fb2a205ac029c2ebf43d1ae1a1502d1707ab4921923928489ff3778c",
+      "sourceSha256": "75a12987fb2a205ac029c2ebf43d1ae1a1502d1707ab4921923928489ff3778c"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/sales/sales-outbound-strategist.md",
+      "bytes": 10744,
+      "sha256": "4f6c8abf9c936fbe5f4b66fc8044096e3dd5199f8f8ae9d0309ad92bc0653174",
+      "sourceSha256": "4f6c8abf9c936fbe5f4b66fc8044096e3dd5199f8f8ae9d0309ad92bc0653174"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/sales/sales-pipeline-analyst.md",
+      "bytes": 18765,
+      "sha256": "d105ed717423298d754e58300566003ef464d79268183a43b5853cf67d11f61c",
+      "sourceSha256": "d105ed717423298d754e58300566003ef464d79268183a43b5853cf67d11f61c"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/sales/sales-proposal-strategist.md",
+      "bytes": 14295,
+      "sha256": "84c42e0ae7e11e6b239b7f921bdb0c33398102f94998c2eaa41114a3a46dc4c9",
+      "sourceSha256": "84c42e0ae7e11e6b239b7f921bdb0c33398102f94998c2eaa41114a3a46dc4c9"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/agents-to-install.example",
+      "bytes": 363,
+      "sha256": "aa2c2be89b820bedf02f25603698634cb7e7ed20a3e18495e6abfb9825a45283",
+      "sourceSha256": "aa2c2be89b820bedf02f25603698634cb7e7ed20a3e18495e6abfb9825a45283"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/build-hermes-plugin.py",
+      "bytes": 22622,
+      "sha256": "fe3d67b9b788bb6278af2811aada51a32689dab8908042f5e1696b50e8dd18ef",
+      "sourceSha256": "fe3d67b9b788bb6278af2811aada51a32689dab8908042f5e1696b50e8dd18ef"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/check-agent-originality.sh",
+      "bytes": 6429,
+      "sha256": "eaeb87a3d7a93c54f17b56ecdaee4e4d4edb05d700f87c2f2a2712d5974ae033",
+      "sourceSha256": "eaeb87a3d7a93c54f17b56ecdaee4e4d4edb05d700f87c2f2a2712d5974ae033"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/check-divisions.sh",
+      "bytes": 6480,
+      "sha256": "5a443aac638219016baeee71e6d53546cbf2c99b271030a0543390da70300ada",
+      "sourceSha256": "5a443aac638219016baeee71e6d53546cbf2c99b271030a0543390da70300ada"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/check-hermes-config-rewrite.py",
+      "bytes": 12661,
+      "sha256": "c8b14bc51ec05c8e19c7812fd1ae4eded34fff61bc56ac7a39dd4a9634cb3376",
+      "sourceSha256": "c8b14bc51ec05c8e19c7812fd1ae4eded34fff61bc56ac7a39dd4a9634cb3376"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/check-hermes-config-rewrite.sh",
+      "bytes": 769,
+      "sha256": "ca94523a001eef807e68d6796aa836dd6668564ac31802e7c187528f10fbf57b",
+      "sourceSha256": "ca94523a001eef807e68d6796aa836dd6668564ac31802e7c187528f10fbf57b"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/check-hermes-plugin.py",
+      "bytes": 3877,
+      "sha256": "d2788461ca1b19c36822e478d131f01e777a86ef591161d8d24d72d30fa7987b",
+      "sourceSha256": "d2788461ca1b19c36822e478d131f01e777a86ef591161d8d24d72d30fa7987b"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/check-runbooks.sh",
+      "bytes": 4039,
+      "sha256": "b59866e9e1022866f666f409925651c3581c16976503bbd629df9b503d8eb974",
+      "sourceSha256": "b59866e9e1022866f666f409925651c3581c16976503bbd629df9b503d8eb974"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/check-tools.sh",
+      "bytes": 4067,
+      "sha256": "6971cf68c3b07f0de25a8f023389bfac385e0cf686778aa6662547c3fc81e1b7",
+      "sourceSha256": "6971cf68c3b07f0de25a8f023389bfac385e0cf686778aa6662547c3fc81e1b7"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/convert-outputs.sha256",
+      "bytes": 28025,
+      "sha256": "81cdfceb2e4980e0faf09c70eb8652ea4037f087d6fb7c897ca1e359f2e68d6a",
+      "sourceSha256": "81cdfceb2e4980e0faf09c70eb8652ea4037f087d6fb7c897ca1e359f2e68d6a"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/convert.sh",
+      "bytes": 30808,
+      "sha256": "c370a6e9bbea4fbc5b684a614ef9edf540010cf8c9be102a386678b8e8656a8f",
+      "sourceSha256": "c370a6e9bbea4fbc5b684a614ef9edf540010cf8c9be102a386678b8e8656a8f"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/i18n/README.md",
+      "bytes": 1842,
+      "sha256": "fcf424cd7af5444f49f580995745b54be6ebd7cc6c85566877c41236026b7684",
+      "sourceSha256": "fcf424cd7af5444f49f580995745b54be6ebd7cc6c85566877c41236026b7684"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/i18n/agent-names-zh.json",
+      "bytes": 22358,
+      "sha256": "1ff1ca27d8af247999f0f0c1590b15c54ab7114342765ed9181b393b5073a836",
+      "sourceSha256": "1ff1ca27d8af247999f0f0c1590b15c54ab7114342765ed9181b393b5073a836"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/i18n/localize-agents-zh.ps1",
+      "bytes": 1617,
+      "sha256": "10f7956f4b2de59a11c0053b1aa580f26c8ceaf135f158aaf39cde23c051594c",
+      "sourceSha256": "10f7956f4b2de59a11c0053b1aa580f26c8ceaf135f158aaf39cde23c051594c"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/install.sh",
+      "bytes": 75586,
+      "sha256": "ce64d7ed6e3969d549da0ebb1e52db6852a9f33540460f15e89852d15aeafaf5",
+      "sourceSha256": "ce64d7ed6e3969d549da0ebb1e52db6852a9f33540460f15e89852d15aeafaf5"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/lib.sh",
+      "bytes": 9823,
+      "sha256": "51bb6fb36c4727d2764f770649ab18630f5b91e6bd7c9ef96bb5ed2084f30b44",
+      "sourceSha256": "51bb6fb36c4727d2764f770649ab18630f5b91e6bd7c9ef96bb5ed2084f30b44"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/lint-agents.sh",
+      "bytes": 10436,
+      "sha256": "91616abf22e1cec3a2ede6d9c9495df4f2c823dfa54f4f00733d9bc6e0f7a28d",
+      "sourceSha256": "91616abf22e1cec3a2ede6d9c9495df4f2c823dfa54f4f00733d9bc6e0f7a28d"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/test-agent-selection.sh",
+      "bytes": 2708,
+      "sha256": "d5e7e8c9f2c8f34c580a9e55ab539db742faec37f157a1bf778a4403b82b8625",
+      "sourceSha256": "d5e7e8c9f2c8f34c580a9e55ab539db742faec37f157a1bf778a4403b82b8625"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/test-cli-usage.sh",
+      "bytes": 1683,
+      "sha256": "e7529eb78950f12a8a5f6628a6707eea455a7cca1e695de0ebf67e72a1437902",
+      "sourceSha256": "e7529eb78950f12a8a5f6628a6707eea455a7cca1e695de0ebf67e72a1437902"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/test-convert-fence-model.sh",
+      "bytes": 2233,
+      "sha256": "d056aed54dbb0588a8e8f61ef61d8a6d466ecaf7e7a75df266c27c2c3ace516a",
+      "sourceSha256": "d056aed54dbb0588a8e8f61ef61d8a6d466ecaf7e7a75df266c27c2c3ace516a"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/test-convert-frontmatter.sh",
+      "bytes": 2909,
+      "sha256": "25e6b3f418ab6ec77266bf29c61438e150eb8d8ff4612d1b0bb3999c3d4929b7",
+      "sourceSha256": "25e6b3f418ab6ec77266bf29c61438e150eb8d8ff4612d1b0bb3999c3d4929b7"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/test-convert-outputs.sh",
+      "bytes": 30203,
+      "sha256": "ff25444a37232062e01c85176a7244a352d86a18ff7114891d8ea4899429d9c6",
+      "sourceSha256": "ff25444a37232062e01c85176a7244a352d86a18ff7114891d8ea4899429d9c6"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/test-convert-parallel-failure.sh",
+      "bytes": 1467,
+      "sha256": "f4234ebd634fd49d6f13ebe4ed70c69dc6973f74581594652eef27982263a0fe",
+      "sourceSha256": "f4234ebd634fd49d6f13ebe4ed70c69dc6973f74581594652eef27982263a0fe"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/test-convert-slug-collisions.sh",
+      "bytes": 1201,
+      "sha256": "6ac163441793f458afda52ea175f465a6d75a3d01bec38166b7363a8a900e401",
+      "sourceSha256": "6ac163441793f458afda52ea175f465a6d75a3d01bec38166b7363a8a900e401"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/test-convert-symlink-output.sh",
+      "bytes": 1047,
+      "sha256": "e9bff35820eb32092900f85333e014bab4020023d9bb6fe06497d95c1a7d3e02",
+      "sourceSha256": "e9bff35820eb32092900f85333e014bab4020023d9bb6fe06497d95c1a7d3e02"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/test-folded-frontmatter.sh",
+      "bytes": 1087,
+      "sha256": "eb561ea0d733f93c02f48ab21975edf78dc87aac18f93c23e79bb83972e68620",
+      "sourceSha256": "eb561ea0d733f93c02f48ab21975edf78dc87aac18f93c23e79bb83972e68620"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/test-frontmatter-closing.sh",
+      "bytes": 1051,
+      "sha256": "bc1320fcf721f95b5ae727d0ecea33d8c86aee12dc77d7f74a6333964cc3318a",
+      "sourceSha256": "bc1320fcf721f95b5ae727d0ecea33d8c86aee12dc77d7f74a6333964cc3318a"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/test-hermes-plugin.py",
+      "bytes": 5886,
+      "sha256": "cc9200ead9275eb9e7d42576e79e4f3ff4d59a11ab0cc17b1593822206fd38d0",
+      "sourceSha256": "cc9200ead9275eb9e7d42576e79e4f3ff4d59a11ab0cc17b1593822206fd38d0"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/test-install-all-path-collision.sh",
+      "bytes": 2418,
+      "sha256": "37e07516ba712b04d97d51844feed295cdeae6a1f1fb439a6b371219690c3275",
+      "sourceSha256": "37e07516ba712b04d97d51844feed295cdeae6a1f1fb439a6b371219690c3275"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/test-install-continue-after-failure.sh",
+      "bytes": 2944,
+      "sha256": "8e0831900cc95535217dc8243391362ce7dbc7bf9487c1e864f3def3c1dd4a06",
+      "sourceSha256": "8e0831900cc95535217dc8243391362ce7dbc7bf9487c1e864f3def3c1dd4a06"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/test-install-conversion-failure.sh",
+      "bytes": 1820,
+      "sha256": "4d50c2454c6d72fa9c56b883b4be250e525c29e867af7c9298fefc128f27be8c",
+      "sourceSha256": "4d50c2454c6d72fa9c56b883b4be250e525c29e867af7c9298fefc128f27be8c"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/test-install-hermes-destination.sh",
+      "bytes": 3798,
+      "sha256": "95cfe78439b70615b5681256b38dc08b488b89d4729d520ee5787a869d30b05e",
+      "sourceSha256": "95cfe78439b70615b5681256b38dc08b488b89d4729d520ee5787a869d30b05e"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/test-install-link-ownership.sh",
+      "bytes": 2354,
+      "sha256": "fdf721e4615bd2ea55b5871ff7335f26c9152a122bc1c4de6d07866fed7cbf99",
+      "sourceSha256": "fdf721e4615bd2ea55b5871ff7335f26c9152a122bc1c4de6d07866fed7cbf99"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/test-install-openclaw-registration.sh",
+      "bytes": 2489,
+      "sha256": "e6845fe44c772b63b2871608659787736218b32a6b5384e6e7cf5052de817d5b",
+      "sourceSha256": "e6845fe44c772b63b2871608659787736218b32a6b5384e6e7cf5052de817d5b"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/test-install-parallel-logs.sh",
+      "bytes": 2137,
+      "sha256": "a6aefdf0f214229660cf83199f32ff80b9824802e7d3227e31f189cffacfa988",
+      "sourceSha256": "a6aefdf0f214229660cf83199f32ff80b9824802e7d3227e31f189cffacfa988"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/test-install-selection-completeness.sh",
+      "bytes": 1715,
+      "sha256": "aae211fc3132d1a5896703191d35587d17d12ecb6c20021ec5e5640a264d537a",
+      "sourceSha256": "aae211fc3132d1a5896703191d35587d17d12ecb6c20021ec5e5640a264d537a"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/test-install.sh",
+      "bytes": 23281,
+      "sha256": "598aa61d408e9945c47079ad48fd117d189b8564cd5589ba070522d9ddd50894",
+      "sourceSha256": "598aa61d408e9945c47079ad48fd117d189b8564cd5589ba070522d9ddd50894"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/test-lint-fences.sh",
+      "bytes": 6014,
+      "sha256": "31dade07e26cc9ab778dd14661fe50ebe46390163aa9ef84cfaf2e5d1d46b026",
+      "sourceSha256": "31dade07e26cc9ab778dd14661fe50ebe46390163aa9ef84cfaf2e5d1d46b026"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/scripts/test-lint-qwen-placeholders.sh",
+      "bytes": 1329,
+      "sha256": "8f9fc76a6fc11e7e2628cdda246d86fd3fd0b33f8f3260f4c1be6841fef4c1c6",
+      "sourceSha256": "8f9fc76a6fc11e7e2628cdda246d86fd3fd0b33f8f3260f4c1be6841fef4c1c6"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-ai-generated-code-auditor.md",
+      "bytes": 17126,
+      "sha256": "ac2196a914bfb00dddfef93edb9eef1860f924f9582d814cd303ab45e4fc71bc",
+      "sourceSha256": "ac2196a914bfb00dddfef93edb9eef1860f924f9582d814cd303ab45e4fc71bc"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-appsec-engineer.md",
+      "bytes": 28697,
+      "sha256": "a19f0bda46f4adca5737365dbc3c7ed93e9d93b71349536d92ff055dcf4e3b83",
+      "sourceSha256": "a19f0bda46f4adca5737365dbc3c7ed93e9d93b71349536d92ff055dcf4e3b83"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-architect.md",
+      "bytes": 18279,
+      "sha256": "0f7cd89d723764da98f399a71378ec3dd26e2245f095f43421137db8267b8d93",
+      "sourceSha256": "0f7cd89d723764da98f399a71378ec3dd26e2245f095f43421137db8267b8d93"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-blockchain-security-auditor.md",
+      "bytes": 22290,
+      "sha256": "35bcc88d3b4b2016d0057cfc5f823d9c2326db2f412e89c2fc3796c4f226210b",
+      "sourceSha256": "35bcc88d3b4b2016d0057cfc5f823d9c2326db2f412e89c2fc3796c4f226210b"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-cloud-security-architect.md",
+      "bytes": 24587,
+      "sha256": "fa18b1e1ed59534c1126f4b44ef06419f3975d98675b37d54ee11a9e3f970d1b",
+      "sourceSha256": "fa18b1e1ed59534c1126f4b44ef06419f3975d98675b37d54ee11a9e3f970d1b"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-compliance-auditor.md",
+      "bytes": 7213,
+      "sha256": "ebb550ceef8011be23fe5a6fab0a7b3f77c2433f4d6aa22617a7eb87db97274f",
+      "sourceSha256": "ebb550ceef8011be23fe5a6fab0a7b3f77c2433f4d6aa22617a7eb87db97274f"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-incident-responder.md",
+      "bytes": 24924,
+      "sha256": "be8d0eedd37ddc79767e8fcff518b1d7c565a4e388624a7d62c099270bc0b9e3",
+      "sourceSha256": "be8d0eedd37ddc79767e8fcff518b1d7c565a4e388624a7d62c099270bc0b9e3"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-penetration-tester.md",
+      "bytes": 21436,
+      "sha256": "f52c2524309fb048250b412daa6a2ad0a906b5daff01f64f195052d024b9e1a0",
+      "sourceSha256": "f52c2524309fb048250b412daa6a2ad0a906b5daff01f64f195052d024b9e1a0"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-secrets-credential-engineer.md",
+      "bytes": 14287,
+      "sha256": "356c73f5feb867b3e0d3c58d463a98f5f1b241709ff9dc9e64a5bd6d91457484",
+      "sourceSha256": "356c73f5feb867b3e0d3c58d463a98f5f1b241709ff9dc9e64a5bd6d91457484"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
+      "bytes": 31900,
+      "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
+      "sourceSha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-threat-detection-engineer.md",
+      "bytes": 25995,
+      "sha256": "b15c0d8be90232a64471d0947dd30cfcd9efeeb2dab2579bb415ca8beb7db7f1",
+      "sourceSha256": "b15c0d8be90232a64471d0947dd30cfcd9efeeb2dab2579bb415ca8beb7db7f1"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-threat-intelligence-analyst.md",
+      "bytes": 29067,
+      "sha256": "9298ca898264ab38d3f9d57adf743e7e168a8c5fb47af5abc81d57a1f66d73c2",
+      "sourceSha256": "9298ca898264ab38d3f9d57adf743e7e168a8c5fb47af5abc81d57a1f66d73c2"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/spatial-computing/macos-spatial-metal-engineer.md",
+      "bytes": 12141,
+      "sha256": "b0bdd78da0cdbd1ee0055401ddaba4d7cb750e3107d219b6f12794c1a023e69f",
+      "sourceSha256": "b0bdd78da0cdbd1ee0055401ddaba4d7cb750e3107d219b6f12794c1a023e69f"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/spatial-computing/terminal-integration-specialist.md",
+      "bytes": 4121,
+      "sha256": "3082737f766821cf1c5372b9067ff67c873916de8c30b173478fe8bbc9a10087",
+      "sourceSha256": "3082737f766821cf1c5372b9067ff67c873916de8c30b173478fe8bbc9a10087"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/spatial-computing/visionos-spatial-engineer.md",
+      "bytes": 3411,
+      "sha256": "8d154bb42d6952056b0eb3fd0d030e6e22a638f11c16c04b59326973ee08b20d",
+      "sourceSha256": "8d154bb42d6952056b0eb3fd0d030e6e22a638f11c16c04b59326973ee08b20d"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/spatial-computing/xr-cockpit-interaction-specialist.md",
+      "bytes": 1795,
+      "sha256": "c8473bd555ad22da7d4978e94a3aec07ae9519b2080572b409639deb9a8e7110",
+      "sourceSha256": "c8473bd555ad22da7d4978e94a3aec07ae9519b2080572b409639deb9a8e7110"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/spatial-computing/xr-immersive-developer.md",
+      "bytes": 1847,
+      "sha256": "a9aa13187bfb774f3eb734ae9869ef249ec3290674f0bb3c1368b69bfa25a2b0",
+      "sourceSha256": "a9aa13187bfb774f3eb734ae9869ef249ec3290674f0bb3c1368b69bfa25a2b0"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/spatial-computing/xr-interface-architect.md",
+      "bytes": 1700,
+      "sha256": "995b459992ab42162269a3bc607131371206742df9c55a4ef614e0171f34e92b",
+      "sourceSha256": "995b459992ab42162269a3bc607131371206742df9c55a4ef614e0171f34e92b"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/accounts-payable-agent.md",
+      "bytes": 7584,
+      "sha256": "f0f401daf0b61441eedb41a077e4bef13e0ff626483652d3c8a6eaae08b09a6e",
+      "sourceSha256": "f0f401daf0b61441eedb41a077e4bef13e0ff626483652d3c8a6eaae08b09a6e"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/agentic-identity-trust.md",
+      "bytes": 18670,
+      "sha256": "99d79e4d57e55d44151b770d89efea4ea3bc6647af27bfd4a6b256ebc5a1a63e",
+      "sourceSha256": "99d79e4d57e55d44151b770d89efea4ea3bc6647af27bfd4a6b256ebc5a1a63e"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/agents-orchestrator.md",
+      "bytes": 15725,
+      "sha256": "3f900ee286eba5a809388ecc22ad860c4a3ef9ed7ff25488e80eac18f3a0f317",
+      "sourceSha256": "3f900ee286eba5a809388ecc22ad860c4a3ef9ed7ff25488e80eac18f3a0f317"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/automation-governance-architect.md",
+      "bytes": 5831,
+      "sha256": "8aab89104fec352f1f601ec5e6db11c9628d0b2072e6324484fd7e4c8462f55e",
+      "sourceSha256": "8aab89104fec352f1f601ec5e6db11c9628d0b2072e6324484fd7e4c8462f55e"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/business-strategist.md",
+      "bytes": 25296,
+      "sha256": "9314906805d8dee81c3e2d10cb93513a391731d9fceb2e4c936257005a144b92",
+      "sourceSha256": "9314906805d8dee81c3e2d10cb93513a391731d9fceb2e4c936257005a144b92"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/change-management-consultant.md",
+      "bytes": 27377,
+      "sha256": "1feb05dfd0bb4d0942a24a8abb409090ffbc252623e15daa09f5bc8c838b0e5a",
+      "sourceSha256": "1feb05dfd0bb4d0942a24a8abb409090ffbc252623e15daa09f5bc8c838b0e5a"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/chief-financial-officer.md",
+      "bytes": 18628,
+      "sha256": "05efa4015fc7feac9bb41942fa6e9eb2b79e2219bf1280b290c754fd16e15a08",
+      "sourceSha256": "05efa4015fc7feac9bb41942fa6e9eb2b79e2219bf1280b290c754fd16e15a08"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/corporate-training-designer.md",
+      "bytes": 15673,
+      "sha256": "e70733229e87dde01bd404f502d2f5b491821f681d7230b314b18d98111b898c",
+      "sourceSha256": "e70733229e87dde01bd404f502d2f5b491821f681d7230b314b18d98111b898c"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/customer-service.md",
+      "bytes": 19184,
+      "sha256": "71d5b8ccd6fb6c5861230169a708ec5d8c0af628de44fc293ae256181573424f",
+      "sourceSha256": "71d5b8ccd6fb6c5861230169a708ec5d8c0af628de44fc293ae256181573424f"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/customer-success-manager.md",
+      "bytes": 23313,
+      "sha256": "2fc5ebc10734a621d65d1bfe0a253158f0a7418ee39b7c93a18efe6b26661cfe",
+      "sourceSha256": "2fc5ebc10734a621d65d1bfe0a253158f0a7418ee39b7c93a18efe6b26661cfe"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/data-consolidation-agent.md",
+      "bytes": 2393,
+      "sha256": "7e7de097ff27e3aa2732a9f1ab0bd7acaaef73dabf53fc7be6c90c8ab6afab11",
+      "sourceSha256": "7e7de097ff27e3aa2732a9f1ab0bd7acaaef73dabf53fc7be6c90c8ab6afab11"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/data-privacy-officer.md",
+      "bytes": 22433,
+      "sha256": "77e495853a6ef839c8a2f87dae1c8de7b41e11d5e187828fa42c1d9a1e1ae00f",
+      "sourceSha256": "77e495853a6ef839c8a2f87dae1c8de7b41e11d5e187828fa42c1d9a1e1ae00f"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/esg-sustainability-officer.md",
+      "bytes": 20839,
+      "sha256": "a8feee4c7b9687ee89ec5ea0879ff98b4cc4451431052369bf00f90d9382b7dd",
+      "sourceSha256": "a8feee4c7b9687ee89ec5ea0879ff98b4cc4451431052369bf00f90d9382b7dd"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/government-digital-presales-consultant.md",
+      "bytes": 22759,
+      "sha256": "0676fd83a462828901c64df516034b0912468c85abb751d3e484038d3288b848",
+      "sourceSha256": "0676fd83a462828901c64df516034b0912468c85abb751d3e484038d3288b848"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/grant-writer.md",
+      "bytes": 27080,
+      "sha256": "6be5a68dc7628c8292253b60a2bfbc7f76053e9c32aae4d40ff341594534e67b",
+      "sourceSha256": "6be5a68dc7628c8292253b60a2bfbc7f76053e9c32aae4d40ff341594534e67b"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/healthcare-aging-parent-care-companion.md",
+      "bytes": 25248,
+      "sha256": "fca0725bc30a447d6666df5060333eac2a4f81083cc02670118045678c79a035",
+      "sourceSha256": "fca0725bc30a447d6666df5060333eac2a4f81083cc02670118045678c79a035"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/healthcare-customer-service.md",
+      "bytes": 22100,
+      "sha256": "b2e4117a8b449a94409235f74315b52909716985dd94b82b87413a54ca471d73",
+      "sourceSha256": "b2e4117a8b449a94409235f74315b52909716985dd94b82b87413a54ca471d73"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/healthcare-marketing-compliance.md",
+      "bytes": 35322,
+      "sha256": "942cc3b43da5f0e6103b7e5087941df4247c602228b2c4b0c6487140e89b176e",
+      "sourceSha256": "942cc3b43da5f0e6103b7e5087941df4247c602228b2c4b0c6487140e89b176e"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/hospitality-guest-services.md",
+      "bytes": 27773,
+      "sha256": "1c5819c560d3902eca44a4fb372bae9e882e5b9e8455e51aa3e8d9662a5d184a",
+      "sourceSha256": "1c5819c560d3902eca44a4fb372bae9e882e5b9e8455e51aa3e8d9662a5d184a"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/hr-onboarding.md",
+      "bytes": 23923,
+      "sha256": "28a52c26f27ab24d7fe11f5e48cfe712f6d27da142ec97911683b4a3ad92332c",
+      "sourceSha256": "28a52c26f27ab24d7fe11f5e48cfe712f6d27da142ec97911683b4a3ad92332c"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/identity-graph-operator.md",
+      "bytes": 15302,
+      "sha256": "52226261212716d28d0c50771f0293bb42f3ccbf25fb15323c3e45fa36ac0594",
+      "sourceSha256": "52226261212716d28d0c50771f0293bb42f3ccbf25fb15323c3e45fa36ac0594"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/language-translator.md",
+      "bytes": 16086,
+      "sha256": "afd1e4b5fb1bb8fa9b8b5770774e0d7b003722681f664147ce7b9dddbcd52a4c",
+      "sourceSha256": "afd1e4b5fb1bb8fa9b8b5770774e0d7b003722681f664147ce7b9dddbcd52a4c"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/legal-billing-time-tracking.md",
+      "bytes": 27280,
+      "sha256": "27f84055643150459f4de3102ba05c17696e5967a0efc64426fb600ab3c5d12c",
+      "sourceSha256": "27f84055643150459f4de3102ba05c17696e5967a0efc64426fb600ab3c5d12c"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/legal-client-intake.md",
+      "bytes": 25630,
+      "sha256": "b0b1cce8a30f08ada6d630b010b1af99f765f5eca667436af6592545667f4c79",
+      "sourceSha256": "b0b1cce8a30f08ada6d630b010b1af99f765f5eca667436af6592545667f4c79"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/legal-document-review.md",
+      "bytes": 24728,
+      "sha256": "02bf51dbc9d8ffc93a8b053a09ec61ee2a3a9905e395fbd24389a532d20d1dba",
+      "sourceSha256": "02bf51dbc9d8ffc93a8b053a09ec61ee2a3a9905e395fbd24389a532d20d1dba"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/loan-officer-assistant.md",
+      "bytes": 28515,
+      "sha256": "3d6bfdb598187fb19fba6ab4b50ff357870cda04ea846aa975649d04788df84b",
+      "sourceSha256": "3d6bfdb598187fb19fba6ab4b50ff357870cda04ea846aa975649d04788df84b"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/lsp-index-engineer.md",
+      "bytes": 12246,
+      "sha256": "305f647acd4f666b8ad44a253ae9dba74891a50725bd13a55e16c652c5200613",
+      "sourceSha256": "305f647acd4f666b8ad44a253ae9dba74891a50725bd13a55e16c652c5200613"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/ma-integration-manager.md",
+      "bytes": 21438,
+      "sha256": "007dcfaee61d45e852a95c37a4529b1d162a178551f1a7f963ee558f1ace6fb5",
+      "sourceSha256": "007dcfaee61d45e852a95c37a4529b1d162a178551f1a7f963ee558f1ace6fb5"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/medical-billing-coding-specialist.md",
+      "bytes": 24636,
+      "sha256": "e9f597ef3a214d886a2b861347183c3674b6e24278c9308ed998a02972e7007c",
+      "sourceSha256": "e9f597ef3a214d886a2b861347183c3674b6e24278c9308ed998a02972e7007c"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/operations-manager.md",
+      "bytes": 19209,
+      "sha256": "3c133a31ae1542922444d77d7c8f9964127704ba94638dde12e37a9ad0fd35bd",
+      "sourceSha256": "3c133a31ae1542922444d77d7c8f9964127704ba94638dde12e37a9ad0fd35bd"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/organizational-psychologist.md",
+      "bytes": 22579,
+      "sha256": "b7e523e1557ef9e98d5a0b515809996c6bbc0de6a49b1dc355d803e3bae09be2",
+      "sourceSha256": "b7e523e1557ef9e98d5a0b515809996c6bbc0de6a49b1dc355d803e3bae09be2"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/personal-growth-mentor.md",
+      "bytes": 7833,
+      "sha256": "623c1ef061d98fedbb941245a39fa5b8c5236ef94194724bfe5c54b8050143d4",
+      "sourceSha256": "623c1ef061d98fedbb941245a39fa5b8c5236ef94194724bfe5c54b8050143d4"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/real-estate-buyer-seller.md",
+      "bytes": 31124,
+      "sha256": "00e2f54e76be38c85c4eb406135a0944a3f610d287e6747fbfac37a12c82920a",
+      "sourceSha256": "00e2f54e76be38c85c4eb406135a0944a3f610d287e6747fbfac37a12c82920a"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/recruitment-specialist.md",
+      "bytes": 29688,
+      "sha256": "cf3d73aae046a12538f64bd67bc5def7946de070485c388ce467251ac8d1e892",
+      "sourceSha256": "cf3d73aae046a12538f64bd67bc5def7946de070485c388ce467251ac8d1e892"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/report-distribution-agent.md",
+      "bytes": 2653,
+      "sha256": "f5796b3cb693123e6c59f7058c100fe817b744f819d3e281442964714f72bac5",
+      "sourceSha256": "f5796b3cb693123e6c59f7058c100fe817b744f819d3e281442964714f72bac5"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/resume-tailor.md",
+      "bytes": 11214,
+      "sha256": "be3d173ce4807d49671c7956f107029a4cb4061651882a0a3ea8c4f20738273f",
+      "sourceSha256": "be3d173ce4807d49671c7956f107029a4cb4061651882a0a3ea8c4f20738273f"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/retail-customer-returns.md",
+      "bytes": 27700,
+      "sha256": "5cd60860a6ea57a95ec6d14246d6b0032e0e13ba0220ec4a79527fdc0ccd0f9c",
+      "sourceSha256": "5cd60860a6ea57a95ec6d14246d6b0032e0e13ba0220ec4a79527fdc0ccd0f9c"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/sales-data-extraction-agent.md",
+      "bytes": 2697,
+      "sha256": "202a6f04df452385fd1185a6bb23a0c9a47e624088eac14179bed4975f0b268a",
+      "sourceSha256": "202a6f04df452385fd1185a6bb23a0c9a47e624088eac14179bed4975f0b268a"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/sales-outreach.md",
+      "bytes": 20656,
+      "sha256": "84d4ca90d4bed4649904c8f239f8e13f373274c8bceb6fd7eb2479e6f9e28c90",
+      "sourceSha256": "84d4ca90d4bed4649904c8f239f8e13f373274c8bceb6fd7eb2479e6f9e28c90"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/specialized-chief-of-staff.md",
+      "bytes": 18190,
+      "sha256": "c0d053f19f32d369b6e9a4ded3a3b93efd792648b88b28f0ecd37a899b91b7b3",
+      "sourceSha256": "c0d053f19f32d369b6e9a4ded3a3b93efd792648b88b28f0ecd37a899b91b7b3"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/specialized-civil-engineer.md",
+      "bytes": 17068,
+      "sha256": "37c9c37511345799235dcb41a4bd92c5577614c392b9a1fa3a1afee112e5de3b",
+      "sourceSha256": "37c9c37511345799235dcb41a4bd92c5577614c392b9a1fa3a1afee112e5de3b"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/specialized-codebase-archaeologist.md",
+      "bytes": 26159,
+      "sha256": "c1b2c22711cb6e74dd834f831d6a8b3f10c93cd462722073b01acae9d0a40700",
+      "sourceSha256": "c1b2c22711cb6e74dd834f831d6a8b3f10c93cd462722073b01acae9d0a40700"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/specialized-cultural-intelligence-strategist.md",
+      "bytes": 6643,
+      "sha256": "91f1d2ef19bcf05f8d3b2758049d2dee909939a18ec2d086f192358179455abc",
+      "sourceSha256": "91f1d2ef19bcf05f8d3b2758049d2dee909939a18ec2d086f192358179455abc"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/specialized-developer-advocate.md",
+      "bytes": 14833,
+      "sha256": "106d007f1dfa3ccc10e327b8fd1b74723fa01da1e444c61d1499cb8ac214d528",
+      "sourceSha256": "106d007f1dfa3ccc10e327b8fd1b74723fa01da1e444c61d1499cb8ac214d528"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/specialized-document-generator.md",
+      "bytes": 2437,
+      "sha256": "cd2ca961e0f7baa18942aaaa315e333ea4315604bbb6a182d7daa31b76dfc3a3",
+      "sourceSha256": "cd2ca961e0f7baa18942aaaa315e333ea4315604bbb6a182d7daa31b76dfc3a3"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/specialized-fedramp-rmf-compliance.md",
+      "bytes": 32568,
+      "sha256": "3269ca423abba6405b074ddff80da26ff1d73ae01787cc34bc7a1d45732936b0",
+      "sourceSha256": "3269ca423abba6405b074ddff80da26ff1d73ae01787cc34bc7a1d45732936b0"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/specialized-focus-music-architect.md",
+      "bytes": 10534,
+      "sha256": "9dd1e29f12a4a8acd8872aa263e01f40a766a3b2752517916fe0273fd265bd27",
+      "sourceSha256": "9dd1e29f12a4a8acd8872aa263e01f40a766a3b2752517916fe0273fd265bd27"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/specialized-french-consulting-market.md",
+      "bytes": 11209,
+      "sha256": "68ebd164a0b3e0493d8deec43f4122e24b293c0a8f77786b2c3a4c8f3924c045",
+      "sourceSha256": "68ebd164a0b3e0493d8deec43f4122e24b293c0a8f77786b2c3a4c8f3924c045"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/specialized-korean-business-navigator.md",
+      "bytes": 14071,
+      "sha256": "71eb41ef3705fe155eee87d99e0ec7a52a237af442dd66e3421e225b76580f21",
+      "sourceSha256": "71eb41ef3705fe155eee87d99e0ec7a52a237af442dd66e3421e225b76580f21"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/specialized-master-plan-architect.md",
+      "bytes": 10624,
+      "sha256": "0a9187c15055d76e5867d930eae43daccacd67fa213963ebdc91302044fc354d",
+      "sourceSha256": "0a9187c15055d76e5867d930eae43daccacd67fa213963ebdc91302044fc354d"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/specialized-mcp-builder.md",
+      "bytes": 12476,
+      "sha256": "f1a9bbde3c5672408a5e0d71d3d888fd635e517ad8b1c5db210aa87e62c39dd4",
+      "sourceSha256": "f1a9bbde3c5672408a5e0d71d3d888fd635e517ad8b1c5db210aa87e62c39dd4"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/specialized-model-qa.md",
+      "bytes": 23433,
+      "sha256": "effef0d607e8955ff846e1c264237d6d14dd573bcfd02c191e126868c3cbffde",
+      "sourceSha256": "effef0d607e8955ff846e1c264237d6d14dd573bcfd02c191e126868c3cbffde"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/specialized-pricing-analyst.md",
+      "bytes": 12770,
+      "sha256": "fb8a63681615666bb2efe45b7fd2d9ad8a072ab9066efae6b61d454a58039f85",
+      "sourceSha256": "fb8a63681615666bb2efe45b7fd2d9ad8a072ab9066efae6b61d454a58039f85"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/specialized-salesforce-architect.md",
+      "bytes": 9943,
+      "sha256": "756fd2dc09f76422dfecb8104e2334f8876f8b95cb6734f8f044c36c641b22e1",
+      "sourceSha256": "756fd2dc09f76422dfecb8104e2334f8876f8b95cb6734f8f044c36c641b22e1"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/specialized-strategy-duel-agent.md",
+      "bytes": 5946,
+      "sha256": "3012369325bd06ec6e73f980d4e28947fe1f3dd0121e8ccd5ffb5834b50f3911",
+      "sourceSha256": "3012369325bd06ec6e73f980d4e28947fe1f3dd0121e8ccd5ffb5834b50f3911"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/specialized-workflow-architect.md",
+      "bytes": 26492,
+      "sha256": "a7a73de5d9d3d748f4b30a2d632511304a97d42feb9fbf2a3e7cac27e7386e52",
+      "sourceSha256": "a7a73de5d9d3d748f4b30a2d632511304a97d42feb9fbf2a3e7cac27e7386e52"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/study-abroad-advisor.md",
+      "bytes": 16984,
+      "sha256": "afd4b1033e76671b4d7a17a74329d7d81f491351004c77876a2615137140b84f",
+      "sourceSha256": "afd4b1033e76671b4d7a17a74329d7d81f491351004c77876a2615137140b84f"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/supply-chain-strategist.md",
+      "bytes": 33078,
+      "sha256": "aa6c0f0e7bfc7948a9ac5c76d3a0c140c54a59393eac54bdf15b12a9555662da",
+      "sourceSha256": "aa6c0f0e7bfc7948a9ac5c76d3a0c140c54a59393eac54bdf15b12a9555662da"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/specialized/zk-steward.md",
+      "bytes": 10892,
+      "sha256": "01fdb11cc8df0ada78aa31007c1565a3d118d64e9e97ff86b8dd838782a44082",
+      "sourceSha256": "01fdb11cc8df0ada78aa31007c1565a3d118d64e9e97ff86b8dd838782a44082"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/strategy/EXECUTIVE-BRIEF.md",
+      "bytes": 5754,
+      "sha256": "9bebe4a21139156825315df5bd60aa605b62df8a9401277c4ce5c414a5ed9d50",
+      "sourceSha256": "9bebe4a21139156825315df5bd60aa605b62df8a9401277c4ce5c414a5ed9d50"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/strategy/QUICKSTART.md",
+      "bytes": 8388,
+      "sha256": "8a1f9053e6e31a0628b4e002b0dc620f95c30dca79890d09b1e5acac76207af2",
+      "sourceSha256": "8a1f9053e6e31a0628b4e002b0dc620f95c30dca79890d09b1e5acac76207af2"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/strategy/coordination/agent-activation-prompts.md",
+      "bytes": 13158,
+      "sha256": "9db4323a005d28d27ae16771892c2d4b2062fa151ce499f059bb262b82c9c1c3",
+      "sourceSha256": "9db4323a005d28d27ae16771892c2d4b2062fa151ce499f059bb262b82c9c1c3"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/strategy/coordination/handoff-templates.md",
+      "bytes": 10073,
+      "sha256": "297dff8ea47b35e02b5d53cefb31aa05e1d880a1440c4c90ef9dec6156b68931",
+      "sourceSha256": "297dff8ea47b35e02b5d53cefb31aa05e1d880a1440c4c90ef9dec6156b68931"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/strategy/nexus-strategy.md",
+      "bytes": 55289,
+      "sha256": "ff7bf873f862eacab72d624c297326753ca9f2a94952a16038ecbc37d9f1eb7d",
+      "sourceSha256": "ff7bf873f862eacab72d624c297326753ca9f2a94952a16038ecbc37d9f1eb7d"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/strategy/playbooks/phase-0-discovery.md",
+      "bytes": 6150,
+      "sha256": "0ae7d5cfc479e0d2818bf5a8559d59f90ee446b03d754b355594a1c0c62b294e",
+      "sourceSha256": "0ae7d5cfc479e0d2818bf5a8559d59f90ee446b03d754b355594a1c0c62b294e"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/strategy/playbooks/phase-1-strategy.md",
+      "bytes": 8094,
+      "sha256": "8509ef04a669ec01752ebf8da5048ec538fd0c3c1e85029f83a2ea90d8888bdd",
+      "sourceSha256": "8509ef04a669ec01752ebf8da5048ec538fd0c3c1e85029f83a2ea90d8888bdd"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/strategy/playbooks/phase-2-foundation.md",
+      "bytes": 8916,
+      "sha256": "16c02d3c0debc95732ac4b9a7187d02e832ba55683d9bd605395a958be0f5e94",
+      "sourceSha256": "16c02d3c0debc95732ac4b9a7187d02e832ba55683d9bd605395a958be0f5e94"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/strategy/playbooks/phase-3-build.md",
+      "bytes": 9641,
+      "sha256": "b9b2383e0c6e135d3bcd59a8ab995f234c420c6c04900fabff19e083a92468d2",
+      "sourceSha256": "b9b2383e0c6e135d3bcd59a8ab995f234c420c6c04900fabff19e083a92468d2"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/strategy/playbooks/phase-4-hardening.md",
+      "bytes": 10546,
+      "sha256": "0db1b7dc62dccc30579f06e8f2b480f7b04fcd153fca7df43aa2470f46907386",
+      "sourceSha256": "0db1b7dc62dccc30579f06e8f2b480f7b04fcd153fca7df43aa2470f46907386"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/strategy/playbooks/phase-5-launch.md",
+      "bytes": 8280,
+      "sha256": "afae11996e699041f9c094e9a07452c866ce12d959bb93a89526307617e7205b",
+      "sourceSha256": "afae11996e699041f9c094e9a07452c866ce12d959bb93a89526307617e7205b"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/strategy/playbooks/phase-6-operate.md",
+      "bytes": 9802,
+      "sha256": "5681569052513c334bcb2219374776ea3f7c78eedfbde587b1a051372d0c476b",
+      "sourceSha256": "5681569052513c334bcb2219374776ea3f7c78eedfbde587b1a051372d0c476b"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/strategy/runbooks.json",
+      "bytes": 6769,
+      "sha256": "2d0372782460694bddcbdb5ec04ff28ae6284a2c751888f8010e16033024ac49",
+      "sourceSha256": "2d0372782460694bddcbdb5ec04ff28ae6284a2c751888f8010e16033024ac49"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/strategy/runbooks/scenario-enterprise-feature.md",
+      "bytes": 6256,
+      "sha256": "40e20eac5c6eb54f4a5017b1f8d9f56bba44ae9afc82bfb2c678f971c7d5fb2b",
+      "sourceSha256": "40e20eac5c6eb54f4a5017b1f8d9f56bba44ae9afc82bfb2c678f971c7d5fb2b"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/strategy/runbooks/scenario-incident-response.md",
+      "bytes": 6789,
+      "sha256": "b08fe23eddcc6f5038a4a8e33930f7d40d67b6916144076667eb6d50ce604fff",
+      "sourceSha256": "b08fe23eddcc6f5038a4a8e33930f7d40d67b6916144076667eb6d50ce604fff"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/strategy/runbooks/scenario-marketing-campaign.md",
+      "bytes": 7072,
+      "sha256": "979c985e5cbb6a42aae2bfbd02494712fac75f8fceac5d7f9ca704b071ef7f57",
+      "sourceSha256": "979c985e5cbb6a42aae2bfbd02494712fac75f8fceac5d7f9ca704b071ef7f57"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/strategy/runbooks/scenario-startup-mvp.md",
+      "bytes": 5631,
+      "sha256": "90eb81f4338453ce3064d33434967cf028f6a3a668fccb436c64424d1e00ff26",
+      "sourceSha256": "90eb81f4338453ce3064d33434967cf028f6a3a668fccb436c64424d1e00ff26"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/support/support-analytics-reporter.md",
+      "bytes": 17081,
+      "sha256": "eec3a4afdb04cc6617c452e3c67fbfc8eea070e96055b6a39dae62be5c07a452",
+      "sourceSha256": "eec3a4afdb04cc6617c452e3c67fbfc8eea070e96055b6a39dae62be5c07a452"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/support/support-executive-summary-generator.md",
+      "bytes": 8992,
+      "sha256": "298891fcf297de5d9b343e9ab9b63864317de63256b15c0c72e6cec172f8f0ff",
+      "sourceSha256": "298891fcf297de5d9b343e9ab9b63864317de63256b15c0c72e6cec172f8f0ff"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/support/support-finance-tracker.md",
+      "bytes": 20271,
+      "sha256": "3a024aff6e2f348fbe48d5b59b4d2128596c9372867f322274f27e8112464b64",
+      "sourceSha256": "3a024aff6e2f348fbe48d5b59b4d2128596c9372867f322274f27e8112464b64"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/support/support-infrastructure-maintainer.md",
+      "bytes": 23016,
+      "sha256": "982365c821220e6b47f08d54013af20d0ff2b58fc8d38a7639e2eb8b18d0872b",
+      "sourceSha256": "982365c821220e6b47f08d54013af20d0ff2b58fc8d38a7639e2eb8b18d0872b"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/support/support-legal-compliance-checker.md",
+      "bytes": 26607,
+      "sha256": "08d938c5666e41b3cf197c2f7b37070d7f39aca62b7147d157200eb6dbeeced6",
+      "sourceSha256": "08d938c5666e41b3cf197c2f7b37070d7f39aca62b7147d157200eb6dbeeced6"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/support/support-support-responder.md",
+      "bytes": 25867,
+      "sha256": "26b4c8706d88ea30358254dd5ac1a2886766015918300130dff070230e05794b",
+      "sourceSha256": "26b4c8706d88ea30358254dd5ac1a2886766015918300130dff070230e05794b"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/testing/testing-accessibility-auditor.md",
+      "bytes": 16228,
+      "sha256": "362935907af23839775b9c6162f38c0c5a740542ab4350cb5c5b5a0d9f9a4268",
+      "sourceSha256": "362935907af23839775b9c6162f38c0c5a740542ab4350cb5c5b5a0d9f9a4268"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/testing/testing-api-tester.md",
+      "bytes": 13840,
+      "sha256": "c9e0f993e32242e564900bc7fbf7eb994d18295a92c499762459a15bbec59cb3",
+      "sourceSha256": "c9e0f993e32242e564900bc7fbf7eb994d18295a92c499762459a15bbec59cb3"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/testing/testing-evidence-collector.md",
+      "bytes": 8910,
+      "sha256": "ff1868ae89f3be62f6f0da1fc8693582f18578c77751b8a65a53169ef15ececd",
+      "sourceSha256": "ff1868ae89f3be62f6f0da1fc8693582f18578c77751b8a65a53169ef15ececd"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/testing/testing-performance-benchmarker.md",
+      "bytes": 13185,
+      "sha256": "736fd1538678af699220803c0f6a84e1626eaf9346c5af88a2290c075cd55fd5",
+      "sourceSha256": "736fd1538678af699220803c0f6a84e1626eaf9346c5af88a2290c075cd55fd5"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/testing/testing-reality-checker.md",
+      "bytes": 10854,
+      "sha256": "6d32fcdb114233e13902ec6372d50293b120e85d490b5e81d372c29808f988a1",
+      "sourceSha256": "6d32fcdb114233e13902ec6372d50293b120e85d490b5e81d372c29808f988a1"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/testing/testing-test-automation-engineer.md",
+      "bytes": 12706,
+      "sha256": "4299d038e88387546d645ccbe767b1dfdb7de10da55eba1ab103149972cd2b9b",
+      "sourceSha256": "4299d038e88387546d645ccbe767b1dfdb7de10da55eba1ab103149972cd2b9b"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/testing/testing-test-results-analyzer.md",
+      "bytes": 16017,
+      "sha256": "d33114b519ba657fc9f29db12495d3c31097a8282d170cfd57cbcb029f61f2de",
+      "sourceSha256": "d33114b519ba657fc9f29db12495d3c31097a8282d170cfd57cbcb029f61f2de"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/testing/testing-tool-evaluator.md",
+      "bytes": 18918,
+      "sha256": "01c8aecd0121dd7dde2696282a288aeb7b14c5381b1f8087db540312ed6ea684",
+      "sourceSha256": "01c8aecd0121dd7dde2696282a288aeb7b14c5381b1f8087db540312ed6ea684"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/testing/testing-workflow-optimizer.md",
+      "bytes": 22836,
+      "sha256": "f0e4558147a6114fdcd1b523153b02212b4e2cc6900b6197d19db78e9be3d375",
+      "sourceSha256": "f0e4558147a6114fdcd1b523153b02212b4e2cc6900b6197d19db78e9be3d375"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/tools.json",
+      "bytes": 8839,
+      "sha256": "f02d2a5e0638f86266fd586cfea81c47dd39713d9a01bb174dc38cd6bfa6de65",
+      "sourceSha256": "f02d2a5e0638f86266fd586cfea81c47dd39713d9a01bb174dc38cd6bfa6de65"
+    },
+    {
       "path": "home/.omp/agent/ecosystem/sources/anthropic/THIRD_PARTY_NOTICES.md",
       "bytes": 46566,
       "sha256": "5a06c53e3390e7be926597eccf9b01cac7f7d5219dfc47520ced340d8f1d2904",
@@ -19357,6 +21667,210 @@
       "bytes": 2701,
       "sha256": "a98ba01eaee528cc122a0d87187a1327d94b245fd83ab49aa8bdc1d3c852b979",
       "sourceSha256": "a98ba01eaee528cc122a0d87187a1327d94b245fd83ab49aa8bdc1d3c852b979"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-accessibility-auditor/LICENSE",
+      "bytes": 1079,
+      "sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f",
+      "sourceSha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-accessibility-auditor/SKILL.md",
+      "bytes": 16145,
+      "sha256": "1b099d10cc4f82568ded01d9918cd63e24ad177702f5dc76b991e60e7eff71dd",
+      "sourceSha256": "1b099d10cc4f82568ded01d9918cd63e24ad177702f5dc76b991e60e7eff71dd"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-api-platform-engineer/LICENSE",
+      "bytes": 1079,
+      "sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f",
+      "sourceSha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-api-platform-engineer/SKILL.md",
+      "bytes": 14352,
+      "sha256": "c931dccf3641f1e29e79dcf4f97d6929a8dc33405537eb1ec1befa23324b8947",
+      "sourceSha256": "c931dccf3641f1e29e79dcf4f97d6929a8dc33405537eb1ec1befa23324b8947"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-api-tester/LICENSE",
+      "bytes": 1079,
+      "sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f",
+      "sourceSha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-api-tester/SKILL.md",
+      "bytes": 13782,
+      "sha256": "9113c51692c178cae9969871c2df1da461efff0e9d131c7ca2aa3d2dae8f1e95",
+      "sourceSha256": "9113c51692c178cae9969871c2df1da461efff0e9d131c7ca2aa3d2dae8f1e95"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-brand-guardian/LICENSE",
+      "bytes": 1079,
+      "sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f",
+      "sourceSha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-brand-guardian/SKILL.md",
+      "bytes": 11561,
+      "sha256": "63d98375cc936eb03530930d6e527b3da6c20cc581f932cd3e971e622f002136",
+      "sourceSha256": "63d98375cc936eb03530930d6e527b3da6c20cc581f932cd3e971e622f002136"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-database-reliability-engineer/LICENSE",
+      "bytes": 1079,
+      "sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f",
+      "sourceSha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-database-reliability-engineer/SKILL.md",
+      "bytes": 16238,
+      "sha256": "c17d3c559d25049697f19a76852661d531430a900208b4a5aefcdd2d9944547e",
+      "sourceSha256": "c17d3c559d25049697f19a76852661d531430a900208b4a5aefcdd2d9944547e"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-developer-tooling-engineer/LICENSE",
+      "bytes": 1079,
+      "sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f",
+      "sourceSha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-developer-tooling-engineer/SKILL.md",
+      "bytes": 12874,
+      "sha256": "0bdec2d3fdba5c10b0ca2382c8df9052c4f54acb054d4ab1f8ffc837d6fd8f62",
+      "sourceSha256": "0bdec2d3fdba5c10b0ca2382c8df9052c4f54acb054d4ab1f8ffc837d6fd8f62"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-document-generator/LICENSE",
+      "bytes": 1079,
+      "sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f",
+      "sourceSha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-document-generator/SKILL.md",
+      "bytes": 2340,
+      "sha256": "b739ac3de64d11b7fdc7e38e4df401963f61b259871fcbd70581a4fc0976bc58",
+      "sourceSha256": "b739ac3de64d11b7fdc7e38e4df401963f61b259871fcbd70581a4fc0976bc58"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-identity-access-engineer/LICENSE",
+      "bytes": 1079,
+      "sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f",
+      "sourceSha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-identity-access-engineer/SKILL.md",
+      "bytes": 15988,
+      "sha256": "0415ad85cd89abd3e72e279ac01088c605b2061eb93eeeaed642667c35abdf35",
+      "sourceSha256": "0415ad85cd89abd3e72e279ac01088c605b2061eb93eeeaed642667c35abdf35"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-internationalization-engineer/LICENSE",
+      "bytes": 1079,
+      "sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f",
+      "sourceSha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-internationalization-engineer/SKILL.md",
+      "bytes": 14010,
+      "sha256": "45b7ee9231136fc27840fa8e50a6030b4d822054235d422f2568855685c1fa60",
+      "sourceSha256": "45b7ee9231136fc27840fa8e50a6030b4d822054235d422f2568855685c1fa60"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-payments-billing-engineer/LICENSE",
+      "bytes": 1079,
+      "sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f",
+      "sourceSha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-payments-billing-engineer/SKILL.md",
+      "bytes": 14876,
+      "sha256": "38ba4bff1bc97eba1e563781c71ca7eee09b066cfeefcac007ce71f8cc26e4d3",
+      "sourceSha256": "38ba4bff1bc97eba1e563781c71ca7eee09b066cfeefcac007ce71f8cc26e4d3"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-performance-benchmarker/LICENSE",
+      "bytes": 1079,
+      "sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f",
+      "sourceSha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-performance-benchmarker/SKILL.md",
+      "bytes": 13090,
+      "sha256": "67505fc97150af603e22b5d45bcb57d66ff28a47a901344f51a9ffde7ed0e657",
+      "sourceSha256": "67505fc97150af603e22b5d45bcb57d66ff28a47a901344f51a9ffde7ed0e657"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-privacy-engineer/LICENSE",
+      "bytes": 1079,
+      "sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f",
+      "sourceSha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-privacy-engineer/SKILL.md",
+      "bytes": 14094,
+      "sha256": "37fbaf3e861e3e869c06c0d31c4b2a0f9ec2dc991270304922cdb65e788d533e",
+      "sourceSha256": "37fbaf3e861e3e869c06c0d31c4b2a0f9ec2dc991270304922cdb65e788d533e"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-research-synthesist/LICENSE",
+      "bytes": 1079,
+      "sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f",
+      "sourceSha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-research-synthesist/SKILL.md",
+      "bytes": 10595,
+      "sha256": "5c8692583dd4a26a9091df9e0205e9b7b3c7b9e32af54b7eef4ec3ded5da451d",
+      "sourceSha256": "5c8692583dd4a26a9091df9e0205e9b7b3c7b9e32af54b7eef4ec3ded5da451d"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-secrets-credential-hygiene-engineer/LICENSE",
+      "bytes": 1079,
+      "sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f",
+      "sourceSha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-secrets-credential-hygiene-engineer/SKILL.md",
+      "bytes": 14145,
+      "sha256": "0776f0bf1646f7b47fcae7b734f21cc9921985bdae4f5a2ee29fce01b00218a5",
+      "sourceSha256": "0776f0bf1646f7b47fcae7b734f21cc9921985bdae4f5a2ee29fce01b00218a5"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-security-architect/LICENSE",
+      "bytes": 1079,
+      "sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f",
+      "sourceSha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-security-architect/SKILL.md",
+      "bytes": 18133,
+      "sha256": "a64be1e87db6d8626a939837358cc7c0eba97d9fd517ba72c3fd7142ef4a87c4",
+      "sourceSha256": "a64be1e87db6d8626a939837358cc7c0eba97d9fd517ba72c3fd7142ef4a87c4"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-technical-writer/LICENSE",
+      "bytes": 1079,
+      "sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f",
+      "sourceSha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-technical-writer/SKILL.md",
+      "bytes": 14140,
+      "sha256": "b4c37195e10dbe108e52994bc8fef2779bfac0d6722b421f81eae9506cdd1820",
+      "sourceSha256": "b4c37195e10dbe108e52994bc8fef2779bfac0d6722b421f81eae9506cdd1820"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-ux-researcher/LICENSE",
+      "bytes": 1079,
+      "sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f",
+      "sourceSha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f"
+    },
+    {
+      "path": "home/.omp/agent/skills/agency-ux-researcher/SKILL.md",
+      "bytes": 12946,
+      "sha256": "dccee3fb3ca79ac8e011b6c8c1de3bbd7e74ede7d27cfd6ecac6d46bc776d966",
+      "sourceSha256": "dccee3fb3ca79ac8e011b6c8c1de3bbd7e74ede7d27cfd6ecac6d46bc776d966"
     },
     {
       "path": "home/.omp/agent/skills/ansible-automation/LICENSE",
@@ -21845,7 +24359,7 @@
     "rtk": "1.0.1",
     "ponytail": "5.3.2"
   },
-  "updatedAt": "2026-10-21T16:22:24.695673+00:00",
+  "updatedAt": "2026-10-22T02:06:40.249701+00:00",
   "credentialScan": {
     "status": "No unclassified matches in scanned patterns",
     "rules": [
@@ -21870,12 +24384,79 @@
         "reason": "Upstream docstring uses literal ${CI_JOB_TOKEN}, not a credential"
       }
     ],
-    "limit": "Pattern-based check, not proof of absence of secrets or personal data"
+    "limit": "Pattern-based check, not proof of absence of secrets or personal data",
+    "latestScoped": {
+      "date": "2026-10-22",
+      "status": "No unclassified matches in scoped patterns after review",
+      "filesScanned": 424,
+      "rules": [
+        "github-token",
+        "provider-key",
+        "aws-access-key",
+        "private-key",
+        "jwt",
+        "url-credential"
+      ],
+      "reviewedOccurrences": [
+        {
+          "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-secrets-credential-engineer.md",
+          "rule": "url-credential",
+          "line": 94,
+          "sha256": "356c73f5feb867b3e0d3c58d463a98f5f1b241709ff9dc9e64a5bd6d91457484",
+          "reason": "Unchanged upstream negative BEFORE example uses app/dummy password at db.internal; not a workstation credential."
+        },
+        {
+          "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
+          "rule": "private-key",
+          "line": 46,
+          "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
+          "reason": "Unchanged upstream detection examples: literal user:password connection strings and private-key BEGIN headers without key material."
+        },
+        {
+          "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
+          "rule": "private-key",
+          "line": 47,
+          "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
+          "reason": "Unchanged upstream detection examples: literal user:password connection strings and private-key BEGIN headers without key material."
+        },
+        {
+          "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
+          "rule": "url-credential",
+          "line": 40,
+          "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
+          "reason": "Unchanged upstream detection examples: literal user:password connection strings and private-key BEGIN headers without key material."
+        },
+        {
+          "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
+          "rule": "url-credential",
+          "line": 41,
+          "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
+          "reason": "Unchanged upstream detection examples: literal user:password connection strings and private-key BEGIN headers without key material."
+        },
+        {
+          "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
+          "rule": "url-credential",
+          "line": 42,
+          "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
+          "reason": "Unchanged upstream detection examples: literal user:password connection strings and private-key BEGIN headers without key material."
+        },
+        {
+          "path": "home/.omp/agent/skills/agency-secrets-credential-hygiene-engineer/SKILL.md",
+          "rule": "url-credential",
+          "line": 91,
+          "sha256": "0776f0bf1646f7b47fcae7b734f21cc9921985bdae4f5a2ee29fce01b00218a5",
+          "reason": "Unchanged upstream negative BEFORE example uses app/dummy password at db.internal; not a workstation credential."
+        }
+      ],
+      "scope": "422 changed/new payload files, README.md and snapshot-manifest.json; no reclassification of historical scan",
+      "limit": "Pattern-based check only; not a full security audit or proof of absence of sensitive data"
+    }
   },
   "snapshotPolicy": {
     "basis": "Current local installation; no upstream upgrades",
     "selection": "Refresh prior inventory and enumerate installed skills, extensions, runtime text, measurements, plugin distributions and active ARS/Ponytail sources",
     "omitted": "Keep prior inactive-source selection; omit runtime state, credentials, history, databases, dependencies, binaries and nontext artifacts",
-    "verification": "Byte sizes and SHA-256 for all snapshot files and source files; credential-pattern scan is not a security certification"
+    "verification": "Byte sizes and SHA-256 for all snapshot files and source files; credential-pattern scan is not a security certification",
+    "agencyAgentsScope": "Scoped addition of original pinned Agency Agents source and 17 converted OMP-only skills, approved proposal, routing/guide/ledger and native acceptance evidence; all unrelated payloads retained"
   }
 }

@@ -1,6 +1,6 @@
 # Backup setup OMP — SaKuRa-u
 
-Snapshot konfigurasi Windows pada 21 Oktober 2026. Ini backup konfigurasi dan sumber, **bukan image sistem atau installer otomatis**. Tidak mengubah atau meng-upgrade instalasi asli.
+Snapshot konfigurasi Windows baseline 21 Oktober 2026, diperbarui secara scoped pada 22 Oktober 2026 untuk adopsi Agency Agents. Ini backup konfigurasi dan sumber, **bukan image sistem atau installer otomatis**; pemulihan tetap manual.
 
 ## Isi
 
@@ -10,11 +10,11 @@ Snapshot konfigurasi Windows pada 21 Oktober 2026. Ini backup konfigurasi dan su
 - `home/.omp/agent/extensions/`: ekstensi lokal termasuk RTK dan integrasi Orca.
 - `home/.omp/plugins/`, `home/.omp/marketplaces.json`: registrasi dan sumber plugin Ponytail.
 - `home/.omp/agent/ecosystem/runtime/`: launcher, bridge credential, source MCP lokal, package manifests/lockfiles, dan pemeriksaan yang sudah ada. Menyimpan kode pengelola credential bukan menyimpan credential-nya.
-- `home/.omp/agent/ecosystem/sources/`: sumber ARS dan Ponytail yang dirujuk konfigurasi; lisensi/notices dari sumber upstream lain. Tidak semua distribusi upstream disalin penuh.
+- `home/.omp/agent/ecosystem/sources/`: sumber ARS, Ponytail dan Agency Agents terpin yang dirujuk workflow; lisensi/notices dari sumber upstream lain. Tidak semua distribusi upstream lain disalin penuh.
 - `home/.omp/agent/ecosystem/measurements/`, `ledger.json`, panduan ekosistem: provenance, pin versi, dan bukti historis. Catatan historis bukan bukti bahwa integrasi masih bekerja pada mesin baru.
 - `snapshot-manifest.json`: daftar seluruh file snapshot, ukuran, SHA-256 hasil backup dan sumber, pengecualian, redaksi, serta versi yang diamati.
 
-## Versi yang diamati
+## Versi yang diamati pada baseline 21 Oktober 2026
 
 OMP `18.12.5`, Node `24.19.0`, Bun `1.4.2`; REA `6.5.0`; Context7 `4.4.4`; Semgrep `1.181.0`; RTK `1.0.1`; plugin Ponytail `5.3.2`. Ledger lama dapat mencatat versi OMP sebelumnya; manifest snapshot mencatat versi CLI saat backup.
 
@@ -24,8 +24,10 @@ Snapshot disegarkan dari instalasi lokal terkini, bukan dengan upgrade massal ke
 
 - Aturan global, panduan proyek, dan ledger mengikuti routing workflow terbaru: proposal baru melalui grilling, persetujuan/kelanjutan menjaga keputusan yang sudah disepakati, dan izin operasi tetap terpisah.
 - Catatan evaluasi Headroom dan dua catatan pengujian routing terbaru disertakan di `ecosystem/measurements/`. Itu bukti historis dengan cakupan dan kegagalannya sendiri, bukan pengujian ulang saat backup; Headroom tetap tidak diaktifkan.
-- Inventaris memuat 3.637 file snapshot, termasuk template Go, sumber TSX Ponytail, dan `.gitattributes` ARS yang belum masuk snapshot sebelumnya. Penyalinan sumber tidak mengaktifkan hooks, band/board/live, atau integrasi host lain.
-- Ukuran dan SHA-256 snapshot maupun sumber diperiksa untuk seluruh inventaris. Pemindaian pola credential mempertahankan redaksi dua JWT unduhan Semgrep; dua kecocokan contoh sintetis/dokumentasi ditinjau dan diikat ke hash file dalam `credentialScan`. Pemeriksaan ini bukan jaminan bebas secret atau audit keamanan menyeluruh.
+- Agency Agents: 17 skill pendukung on-demand OMP-only dari commit `4e3ac3ca6604c75113f52c695dbddcc7af928b46`, dengan body vendor tanpa modifikasi dan lisensi MIT. Sumber lengkap dipertahankan di luar discovery; 72 persona referensi dan 10 yang dikecualikan tidak diregistrasi. SEO Specialist dan NEXUS/Agents Orchestrator tetap tidak aktif.
+- Evidence `ecosystem/measurements/agency-agents-20261021.json`: discovery native 60 → 77 tanpa warning, sembilan skenario read-only sintetis dan pembacaan seluruh 17 skill. Itu bukan bukti hasil aplikasi nyata, ekspor dokumen, benchmark, atau audit keamanan. Proposal disetujui tersedia di `ecosystem/AGENCY-AGENTS-PROPOSAL.md`.
+- Inventaris memuat 4.056 file snapshot. Penyalinan sumber tidak mengaktifkan hooks, band/board/live, integrasi host lain, provider, MCP, atau operasi produksi.
+- Ukuran dan SHA-256 hasil backup diperiksa untuk seluruh inventaris; hash sumber dicatat saat penyalinan. Redaksi dua JWT unduhan Semgrep dan hasil scan lama dipertahankan sebagai sejarah. Scan pola scoped pada payload baru/berubah beserta contoh upstream yang ditinjau dicatat terpisah; bukan jaminan bebas secret atau audit keamanan menyeluruh.
 
 Konfigurasi yang tidak berubah tetap dipertahankan byte-identik; instalasi asli, pin versi, lisensi upstream, dan riwayat Git tidak diganti.
 

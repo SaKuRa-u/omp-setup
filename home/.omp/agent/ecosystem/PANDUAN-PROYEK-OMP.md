@@ -36,6 +36,41 @@ Anda cukup membuka OMP pada root proyek dan memberi tugas. Skills global tidak p
 - Blok `text`: kirim sebagai pesan di dalam OMP.
 - `/skill:nama instruksi` adalah perintah di OMP, bukan PowerShell. Contoh per tahap di bawah bersifat opsional, bukan urutan pemanggilan wajib.
 
+### 1.0 Panduan domain Agency Agents
+
+17 panduan OMP-only menggunakan distribusi asli MIT `msitarzewski/agency-agents`, commit `4e3ac3ca6604c75113f52c695dbddcc7af928b46`, melalui konverter resmi tanpa patch. Hanya allowlist proposal diregistrasikan; sumber lengkap `sources/agency-agents-4e3ac3ca/` bukan seluruhnya skill aktif. Mulai sesi baru untuk discovery; bukti dan batas acceptance ada di `measurements/agency-agents-20261021.json`.
+
+| Kebutuhan nyata | Skill pendukung |
+|---|---|
+| Kontrak API publik/partner | `agency-api-platform-engineer` |
+| RPO/RTO, recovery dan lock budget migrasi | `agency-database-reliability-engineer` |
+| CLI, pipe, stdout/stderr dan exit code | `agency-developer-tooling-engineer` |
+| ICU/CLDR, Unicode, RTL dan fallback | `agency-internationalization-engineer` |
+| OAuth/OIDC, session dan lifecycle akses | `agency-identity-access-engineer` |
+| Idempotency uang, webhook dan reconciliation | `agency-payments-billing-engineer` |
+| Peta data pribadi, consent, retention/deletion | `agency-privacy-engineer` |
+| Dokumentasi developer, tutorial/reference | `agency-technical-writer` |
+| Rencana riset pengguna dan data yang sah | `agency-ux-researcher` |
+| Konsistensi voice/tone dan brand incumbent | `agency-brand-guardian` |
+| WCAG, keyboard dan assistive technology | `agency-accessibility-auditor` |
+| Kontrak endpoint, negative cases/side effects | `agency-api-tester` |
+| Baseline/workload dan eksperimen performa | `agency-performance-benchmarker` |
+| Threat model dan trust boundary | `agency-security-architect` |
+| Owner, TTL/revocation dan rencana rotasi | `agency-secrets-credential-hygiene-engineer` |
+| Sintesis sumber teknis/circular citations | `agency-research-synthesist` |
+| File PDF, PPTX, DOCX atau XLSX yang diminta | `agency-document-generator` |
+
+Contoh biasa: “Tinjau kontrak API ini dan dampak breaking change-nya; gunakan panduan domain relevan, jangan mengubah kode.” Tidak harus slash command. Pilihan eksplisit tetap `/skill:agency-api-platform-engineer ...`.
+
+Ponytail, Impeccable, TDD/debugging, reviewer keamanan, runner proyek/e2e/webapp-testing serta tahap ARS tetap owner existing. Tidak ada rantai semua persona/reviewer otomatis. SLO dan arsitektur mengikuti requirement proyek, bukan template; pengalaman, angka contoh dan klaim memory bukan hasil aktual. Riset pengguna memerlukan data/consent nyata; simulasi bukan wawancara.
+
+Document Generator tidak memasang library/font/Office/viewer/validator. Saat format aktual diminta, pilih runtime proyek, hasilkan file dan script sesuai kebutuhan, buka/render serta periksa data/layout, lalu laporkan batasnya. Ekspor bukan sertifikasi PDF/A/PDF/UA/WCAG. Tidak menjalankan macro/formula tak tepercaya, upload rahasia, instalasi global atau fallback file palsu.
+
+72 persona lain hanya referensi source; 10 tidak diregistrasikan. SEO Specialist tidak dipasang: gunakan Google Search Central terkini, tanpa disavow atau janji ranking otomatis. NEXUS/hook/scanner/provider/memory baru tidak diaktifkan; gerbang izin live/paid/destruktif tetap berlaku.
+
+Rollback: pulihkan hanya AGENTS/panduan/ledger dari `backups/agency-agents-20261021/`, pindahkan 17 direktori instalasi ini keluar discovery ke backup, lalu mulai sesi baru. Jangan menghapus skill/data existing atau rewrite Git history.
+
+
 ### 1.1 Cara utama: satu instruksi end-to-end
 
 Setelah membuka proyek, cukup sampaikan ide atau tugas dalam bahasa biasa. Setiap ide/proposal baru pengguna otomatis masuk `grilling`; tugas yang sudah disepakati diteruskan ke tahap relevan tanpa memanggil ulang setiap skill.
