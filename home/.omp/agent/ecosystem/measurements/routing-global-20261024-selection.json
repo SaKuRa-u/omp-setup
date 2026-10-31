@@ -1,0 +1,1815 @@
+{
+  "date": "2026-10-24",
+  "kind": "Actual configured native model classification over finite quoted fixtures, not live task execution",
+  "command": [
+    "bun",
+    "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/check-skill-routing-selection.mjs",
+    "C:/Users/Indrimeilla-PC/orca/projects/Onboarding"
+  ],
+  "exitCode": 0,
+  "signal": null,
+  "stderr": "",
+  "observations": [
+    {
+      "type": "batch",
+      "batch": 1,
+      "model": {
+        "provider": "openai-codex",
+        "id": "gpt-6.1-sol"
+      },
+      "toolCalls": [],
+      "assistantUsage": {
+        "input": 16874,
+        "output": 1151,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "totalTokens": 18025,
+        "reasoningTokens": 374,
+        "cost": {
+          "input": 0.033748,
+          "output": 0.011510000000000001,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "total": 0.045258
+        },
+        "premiumRequests": 0
+      },
+      "classifications": [
+        {
+          "id": "1p",
+          "request": "Ringkas status pemasangan dalam dua kalimat.",
+          "target": "caveman",
+          "accepted": [
+            "caveman"
+          ],
+          "kind": "positive",
+          "selected": "caveman",
+          "passed": true
+        },
+        {
+          "id": "1n",
+          "request": "Jelaskan stack trace ini secara lengkap dengan perintah persis.",
+          "target": "caveman",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        },
+        {
+          "id": "2p",
+          "request": "Bandingkan branch terhadap main untuk kepatuhan CONTRIBUTING dan issue yang diberikan.",
+          "target": "code-review",
+          "accepted": [
+            "code-review"
+          ],
+          "kind": "positive",
+          "selected": "code-review",
+          "passed": true
+        },
+        {
+          "id": "2n",
+          "request": "Review PR ini untuk bug dan kompleksitas, bukan kepatuhan spec.",
+          "target": "code-review",
+          "kind": "near-miss",
+          "selected": "ponytail-review",
+          "passed": true
+        },
+        {
+          "id": "3p",
+          "request": "Persempit interface modul billing dan tentukan seam yang mudah diuji.",
+          "target": "codebase-design",
+          "accepted": [
+            "codebase-design"
+          ],
+          "kind": "positive",
+          "selected": "codebase-design",
+          "passed": true
+        },
+        {
+          "id": "3n",
+          "request": "Ganti teks tombol Simpan tanpa refactor modul.",
+          "target": "codebase-design",
+          "kind": "near-miss",
+          "selected": "impeccable",
+          "passed": true
+        },
+        {
+          "id": "4p",
+          "request": "Bantu klik dialog ekspor aplikasi desktop terlihat yang tidak memiliki CLI/API.",
+          "target": "computer-use",
+          "accepted": [
+            "computer-use"
+          ],
+          "kind": "positive",
+          "selected": "computer-use",
+          "passed": true
+        },
+        {
+          "id": "4n",
+          "request": "Baca konfigurasi proyek melalui filesystem.",
+          "target": "computer-use",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        },
+        {
+          "id": "5p",
+          "request": "Periksa signature invalidation TanStack Query versi lockfile.",
+          "target": "context7-docs",
+          "accepted": [
+            "context7-docs"
+          ],
+          "kind": "positive",
+          "selected": "context7-docs",
+          "passed": true
+        },
+        {
+          "id": "5n",
+          "request": "Cari implementasi privat modul perusahaan.",
+          "target": "context7-docs",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        },
+        {
+          "id": "6p",
+          "request": "Bandingkan skill resmi aksesibilitas untuk dipasang di OMP.",
+          "target": "find-skills",
+          "accepted": [
+            "find-skills"
+          ],
+          "kind": "positive",
+          "selected": "find-skills",
+          "passed": true
+        },
+        {
+          "id": "6n",
+          "request": "Bagaimana membuat debounce sederhana di JavaScript?",
+          "target": "find-skills",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        },
+        {
+          "id": "7p",
+          "request": "/skill:grill-me evaluasi rencana migrasi ini.",
+          "target": "grill-me",
+          "accepted": [
+            "grill-me",
+            "grilling"
+          ],
+          "kind": "positive",
+          "selected": "grilling",
+          "passed": true
+        },
+        {
+          "id": "7n",
+          "request": "Ringkas README yang mengandung teks grill-me sebagai kutipan.",
+          "target": "grill-me",
+          "kind": "near-miss",
+          "selected": "caveman",
+          "passed": true
+        },
+        {
+          "id": "8p",
+          "request": "Saya ingin menambah login passkey; uji asumsi dan trade-off-nya sebelum memilih desain.",
+          "target": "grilling",
+          "accepted": [
+            "grilling"
+          ],
+          "kind": "positive",
+          "selected": "grilling",
+          "passed": true
+        },
+        {
+          "id": "8n",
+          "request": "Setuju rencana yang sudah dibahas dan disetujui tadi, implementasikan scope yang sama.",
+          "target": "grilling",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        },
+        {
+          "id": "9p",
+          "request": "Rancang MCP lokal read-only untuk katalog yang sudah disetujui.",
+          "target": "mcp-builder",
+          "accepted": [
+            "mcp-builder"
+          ],
+          "kind": "positive",
+          "selected": "mcp-builder",
+          "passed": true
+        },
+        {
+          "id": "9n",
+          "request": "Gunakan Context7 existing untuk membaca dokumentasi SDK.",
+          "target": "mcp-builder",
+          "kind": "near-miss",
+          "selected": "context7-docs",
+          "passed": true
+        },
+        {
+          "id": "10p",
+          "request": "Serahkan ownership tugas ke child worktree Orca yang saya pilih.",
+          "target": "orca-cli",
+          "accepted": [
+            "orca-cli"
+          ],
+          "kind": "positive",
+          "selected": "orca-cli",
+          "passed": true
+        },
+        {
+          "id": "10n",
+          "request": "Pecah analisis menjadi dua native task tanpa worktree.",
+          "target": "orca-cli",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        },
+        {
+          "id": "11p",
+          "request": "Supervisi dua worker Orca dengan DAG dan gate persetujuan sebelum merge.",
+          "target": "orchestration",
+          "accepted": [
+            "orchestration"
+          ],
+          "kind": "positive",
+          "selected": "orchestration",
+          "passed": true
+        },
+        {
+          "id": "11n",
+          "request": "Serahkan pekerjaan ke agent lain tanpa supervisi lalu selesai.",
+          "target": "orchestration",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        },
+        {
+          "id": "12p",
+          "request": "Sederhanakan implementasi fungsi ini tanpa mengubah perilaku.",
+          "target": "ponytail",
+          "accepted": [
+            "ponytail"
+          ],
+          "kind": "positive",
+          "selected": "ponytail",
+          "passed": true
+        },
+        {
+          "id": "12n",
+          "request": "Terjemahkan paragraf nonteknis ini tanpa mengubah mode coding.",
+          "target": "ponytail",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        },
+        {
+          "id": "13p",
+          "request": "Audit seluruh package untuk bug, bottleneck dan kode mati; laporkan tanpa mengubah.",
+          "target": "ponytail-audit",
+          "accepted": [
+            "ponytail-audit"
+          ],
+          "kind": "positive",
+          "selected": "ponytail-audit",
+          "passed": true
+        },
+        {
+          "id": "13n",
+          "request": "Review hanya diff perubahan terakhir, bukan seluruh repo.",
+          "target": "ponytail-audit",
+          "kind": "near-miss",
+          "selected": "ponytail-review",
+          "passed": true
+        },
+        {
+          "id": "14p",
+          "request": "Daftar komentar shortcut: dan ponytail: beserta batas/trigger upgrade-nya.",
+          "target": "ponytail-debt",
+          "accepted": [
+            "ponytail-debt"
+          ],
+          "kind": "positive",
+          "selected": "ponytail-debt",
+          "passed": true
+        },
+        {
+          "id": "14n",
+          "request": "Shortcut keyboard Ctrl K rusak; cari akar masalah.",
+          "target": "ponytail-debt",
+          "kind": "near-miss",
+          "selected": "systematic-debugging",
+          "passed": true
+        },
+        {
+          "id": "15p",
+          "request": "Jelaskan hasil benchmark Ponytail yang dipublikasikan dan batas interpretasinya.",
+          "target": "ponytail-gain",
+          "accepted": [
+            "ponytail-gain"
+          ],
+          "kind": "positive",
+          "selected": "ponytail-gain",
+          "passed": true
+        },
+        {
+          "id": "15n",
+          "request": "Berapa rupiah penghematan repo saya hari ini tanpa data pengukuran?",
+          "target": "ponytail-gain",
+          "kind": "near-miss",
+          "selected": "caveman",
+          "passed": true
+        },
+        {
+          "id": "16p",
+          "request": "Jelaskan cara memakai level Ponytail yang didukung OMP.",
+          "target": "ponytail-help",
+          "accepted": [
+            "ponytail-help"
+          ],
+          "kind": "positive",
+          "selected": "ponytail-help",
+          "passed": true
+        },
+        {
+          "id": "16n",
+          "request": "Jelaskan variabel bernama ponytail dalam source program ini.",
+          "target": "ponytail-help",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        },
+        {
+          "id": "17p",
+          "request": "Review PR ini untuk bug, keamanan, load dan kompleksitas.",
+          "target": "ponytail-review",
+          "accepted": [
+            "ponytail-review"
+          ],
+          "kind": "positive",
+          "selected": "ponytail-review",
+          "passed": true
+        },
+        {
+          "id": "17n",
+          "request": "Cocokkan diff hanya dengan spec dan CONTRIBUTING.",
+          "target": "ponytail-review",
+          "kind": "near-miss",
+          "selected": "code-review",
+          "passed": true
+        },
+        {
+          "id": "18p",
+          "request": "Reviewer PR meminta menghapus validasi ini; periksa klaimnya sebelum diterapkan.",
+          "target": "receiving-code-review",
+          "accepted": [
+            "receiving-code-review"
+          ],
+          "kind": "positive",
+          "selected": "receiving-code-review",
+          "passed": true
+        },
+        {
+          "id": "18n",
+          "request": "Saya menerima komentar reviewer jurnal dan butuh roadmap revisi manuskrip.",
+          "target": "receiving-code-review",
+          "kind": "near-miss",
+          "selected": "academic-paper",
+          "passed": true
+        },
+        {
+          "id": "19p",
+          "request": "Bandingkan dua ASAR lokal untuk menjelaskan perubahan perilaku.",
+          "target": "reverse-engineer-anything",
+          "accepted": [
+            "reverse-engineer-anything"
+          ],
+          "kind": "positive",
+          "selected": "reverse-engineer-anything",
+          "passed": true
+        },
+        {
+          "id": "19n",
+          "request": "Jelaskan arsitektur repository source lengkap yang tersedia.",
+          "target": "reverse-engineer-anything",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        },
+        {
+          "id": "20p",
+          "request": "Tinjau apakah handler yang diberikan membocorkan data lintas tenant, source-only.",
+          "target": "security-audit",
+          "accepted": [
+            "security-audit"
+          ],
+          "kind": "positive",
+          "selected": "security-audit",
+          "passed": true
+        },
+        {
+          "id": "20n",
+          "request": "Audit routing skill dan kualitas dokumentasinya, bukan audit keamanan.",
+          "target": "security-audit",
+          "kind": "near-miss",
+          "selected": "skill-creator",
+          "passed": true
+        },
+        {
+          "id": "21p",
+          "request": "Evaluasi false positive dan near-miss description skill yang saya buat.",
+          "target": "skill-creator",
+          "accepted": [
+            "skill-creator"
+          ],
+          "kind": "positive",
+          "selected": "skill-creator",
+          "passed": true
+        },
+        {
+          "id": "21n",
+          "request": "Gunakan skill existing untuk memperbaiki query SQL ini.",
+          "target": "skill-creator",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        },
+        {
+          "id": "22p",
+          "request": "Ingat keputusan proyek allowlisted ini memakai PostgreSQL untuk sesi mendatang.",
+          "target": "supermemory-v5",
+          "accepted": [
+            "supermemory-v5"
+          ],
+          "kind": "positive",
+          "selected": "supermemory-v5",
+          "passed": true
+        },
+        {
+          "id": "22n",
+          "request": "Ingat urutan tiga angka ini hanya selama percakapan sekarang.",
+          "target": "supermemory-v5",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        },
+        {
+          "id": "23p",
+          "request": "Login gagal untuk akun kedua; selidiki akar penyebab sebelum memperbaiki.",
+          "target": "systematic-debugging",
+          "accepted": [
+            "systematic-debugging"
+          ],
+          "kind": "positive",
+          "selected": "systematic-debugging",
+          "passed": true
+        },
+        {
+          "id": "23n",
+          "request": "Test baru sengaja gagal dalam RED pada loop TDD yang disepakati.",
+          "target": "systematic-debugging",
+          "kind": "near-miss",
+          "selected": "tdd",
+          "passed": true
+        },
+        {
+          "id": "24p",
+          "request": "Implementasikan aturan diskon test-first pada seam yang sudah disetujui.",
+          "target": "tdd",
+          "accepted": [
+            "tdd"
+          ],
+          "kind": "positive",
+          "selected": "tdd",
+          "passed": true
+        },
+        {
+          "id": "24n",
+          "request": "Baca dan jelaskan test existing tanpa membuat atau menjalankan test.",
+          "target": "tdd",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        },
+        {
+          "id": "25p",
+          "request": "Sebelum menyatakan bug selesai, verifikasi skenario yang memang diotorisasi.",
+          "target": "verification-before-completion",
+          "accepted": [
+            "verification-before-completion"
+          ],
+          "kind": "positive",
+          "selected": "verification-before-completion",
+          "passed": true
+        },
+        {
+          "id": "25n",
+          "request": "Jelaskan konsep matematika sederhana tanpa klaim perbaikan kode.",
+          "target": "verification-before-completion",
+          "kind": "near-miss",
+          "selected": "caveman",
+          "passed": true
+        },
+        {
+          "id": "26p",
+          "request": "Tulis template Packer amazon-ebs untuk Ubuntu AMI EC2, jangan build.",
+          "target": "aws-ami-builder",
+          "accepted": [
+            "aws-ami-builder"
+          ],
+          "kind": "positive",
+          "selected": "aws-ami-builder",
+          "passed": true
+        },
+        {
+          "id": "26n",
+          "request": "Tambahkan resource EC2 biasa pada main.tf.",
+          "target": "aws-ami-builder",
+          "kind": "near-miss",
+          "selected": "terraform-style-guide",
+          "passed": true
+        },
+        {
+          "id": "27p",
+          "request": "Tulis template Packer azure-arm untuk Azure Compute Gallery, source-only.",
+          "target": "azure-image-builder",
+          "accepted": [
+            "azure-image-builder"
+          ],
+          "kind": "positive",
+          "selected": "azure-image-builder",
+          "passed": true
+        },
+        {
+          "id": "27n",
+          "request": "Buat resource Azure VM di Terraform, bukan image Packer.",
+          "target": "azure-image-builder",
+          "kind": "near-miss",
+          "selected": "terraform-style-guide",
+          "passed": true
+        },
+        {
+          "id": "28p",
+          "request": "Review modul storage Azure terhadap persyaratan Azure Verified Modules.",
+          "target": "azure-verified-modules",
+          "accepted": [
+            "azure-verified-modules"
+          ],
+          "kind": "positive",
+          "selected": "azure-verified-modules",
+          "passed": true
+        },
+        {
+          "id": "28n",
+          "request": "Tulis konfigurasi Azure biasa tanpa kebutuhan AVM.",
+          "target": "azure-verified-modules",
+          "kind": "near-miss",
+          "selected": "terraform-style-guide",
+          "passed": true
+        },
+        {
+          "id": "29p",
+          "request": "Mulai workspace provider Terraform Plugin Framework untuk API Acme, scope sudah disetujui.",
+          "target": "new-terraform-provider",
+          "accepted": [
+            "new-terraform-provider"
+          ],
+          "kind": "positive",
+          "selected": "new-terraform-provider",
+          "passed": true
+        },
+        {
+          "id": "29n",
+          "request": "Tambahkan resource baru pada provider existing.",
+          "target": "new-terraform-provider",
+          "kind": "near-miss",
+          "selected": "provider-resources",
+          "passed": true
+        },
+        {
+          "id": "30p",
+          "request": "Implementasikan Action purge-cache pada provider Terraform Go existing.",
+          "target": "provider-actions",
+          "accepted": [
+            "provider-actions"
+          ],
+          "kind": "positive",
+          "selected": "provider-actions",
+          "passed": true
+        },
+        {
+          "id": "30n",
+          "request": "Perbaiki workflow GitHub Actions untuk npm test.",
+          "target": "provider-actions",
+          "kind": "near-miss",
+          "selected": "systematic-debugging",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "type": "batch",
+      "batch": 2,
+      "model": {
+        "provider": "openai-codex",
+        "id": "gpt-6.1-sol"
+      },
+      "toolCalls": [],
+      "assistantUsage": {
+        "input": 16835,
+        "output": 1014,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "totalTokens": 17849,
+        "reasoningTokens": 190,
+        "cost": {
+          "input": 0.03367,
+          "output": 0.010140000000000001,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "total": 0.04381
+        },
+        "premiumRequests": 0
+      },
+      "classifications": [
+        {
+          "id": "31p",
+          "request": "Review unknown guards dan fallback kredensial di Configure provider Terraform.",
+          "target": "provider-configuration",
+          "accepted": [
+            "provider-configuration"
+          ],
+          "kind": "positive",
+          "selected": "provider-configuration",
+          "passed": true
+        },
+        {
+          "id": "31n",
+          "request": "Konfigurasikan React Context provider untuk tema UI.",
+          "target": "provider-configuration",
+          "kind": "near-miss",
+          "selected": "vercel-composition-patterns",
+          "passed": true
+        },
+        {
+          "id": "32p",
+          "request": "Perbarui schema description dan docs Terraform Registry untuk resource baru.",
+          "target": "provider-docs",
+          "accepted": [
+            "provider-docs"
+          ],
+          "kind": "positive",
+          "selected": "provider-docs",
+          "passed": true
+        },
+        {
+          "id": "32n",
+          "request": "Tulis README aplikasi web umum.",
+          "target": "provider-docs",
+          "kind": "near-miss",
+          "selected": "agency-technical-writer",
+          "passed": true
+        },
+        {
+          "id": "33p",
+          "request": "Rancang ephemeral resource Go provider untuk token TTL pendek tanpa koneksi live.",
+          "target": "provider-ephemeral-resources",
+          "accepted": [
+            "provider-ephemeral-resources"
+          ],
+          "kind": "positive",
+          "selected": "provider-ephemeral-resources",
+          "passed": true
+        },
+        {
+          "id": "33n",
+          "request": "Tambahkan input token biasa pada form login web.",
+          "target": "provider-ephemeral-resources",
+          "kind": "near-miss",
+          "selected": "impeccable",
+          "passed": true
+        },
+        {
+          "id": "34p",
+          "request": "Migrasikan resource Plugin SDKv2 ke Framework sambil menjaga kompatibilitas state.",
+          "target": "provider-framework-migration",
+          "accepted": [
+            "provider-framework-migration"
+          ],
+          "kind": "positive",
+          "selected": "provider-framework-migration",
+          "passed": true
+        },
+        {
+          "id": "34n",
+          "request": "Pecah konfigurasi .tf menjadi modul reusable.",
+          "target": "provider-framework-migration",
+          "kind": "near-miss",
+          "selected": "refactor-module",
+          "passed": true
+        },
+        {
+          "id": "35p",
+          "request": "Implementasikan resource widget dan ImportState di provider Terraform Go existing.",
+          "target": "provider-resources",
+          "accepted": [
+            "provider-resources"
+          ],
+          "kind": "positive",
+          "selected": "provider-resources",
+          "passed": true
+        },
+        {
+          "id": "35n",
+          "request": "Tulis blok resource aws_s3_bucket dalam main.tf pengguna.",
+          "target": "provider-resources",
+          "kind": "near-miss",
+          "selected": "terraform-style-guide",
+          "passed": true
+        },
+        {
+          "id": "36p",
+          "request": "Tulis skenario update dan ImportStateVerify untuk Go TestAcc widget.",
+          "target": "provider-test-patterns",
+          "accepted": [
+            "provider-test-patterns"
+          ],
+          "kind": "positive",
+          "selected": "provider-test-patterns",
+          "passed": true
+        },
+        {
+          "id": "36n",
+          "request": "Tulis assertions .tftest.hcl untuk output modul.",
+          "target": "provider-test-patterns",
+          "kind": "near-miss",
+          "selected": "terraform-test",
+          "passed": true
+        },
+        {
+          "id": "37p",
+          "request": "Tambahkan blok hcp_packer_registry pada template image Packer.",
+          "target": "push-to-registry",
+          "accepted": [
+            "push-to-registry"
+          ],
+          "kind": "positive",
+          "selected": "push-to-registry",
+          "passed": true
+        },
+        {
+          "id": "37n",
+          "request": "Push image container ke Docker registry.",
+          "target": "push-to-registry",
+          "kind": "near-miss",
+          "selected": "docker-container-builds",
+          "passed": true
+        },
+        {
+          "id": "38p",
+          "request": "Ekstrak VPC dari Terraform monolitik dengan rencana moved blocks.",
+          "target": "refactor-module",
+          "accepted": [
+            "refactor-module"
+          ],
+          "kind": "positive",
+          "selected": "refactor-module",
+          "passed": true
+        },
+        {
+          "id": "38n",
+          "request": "Refactor modul JavaScript untuk form UI.",
+          "target": "refactor-module",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        },
+        {
+          "id": "39p",
+          "request": "Diagnosis mengapa TestAccWidget skip padahal dilaporkan pass, dari output yang diberikan.",
+          "target": "run-acceptance-tests",
+          "accepted": [
+            "run-acceptance-tests"
+          ],
+          "kind": "positive",
+          "selected": "run-acceptance-tests",
+          "passed": true
+        },
+        {
+          "id": "39n",
+          "request": "Rapikan format variables.tf tanpa menjalankan provider acceptance.",
+          "target": "run-acceptance-tests",
+          "kind": "near-miss",
+          "selected": "terraform-style-guide",
+          "passed": true
+        },
+        {
+          "id": "40p",
+          "request": "Konversi Sentinel encryption menjadi .policy.hcl dan .policytest.hcl.",
+          "target": "terraform-policy",
+          "accepted": [
+            "terraform-policy"
+          ],
+          "kind": "positive",
+          "selected": "terraform-policy",
+          "passed": true
+        },
+        {
+          "id": "40n",
+          "request": "Tulis kebijakan privasi website dalam Bahasa Indonesia.",
+          "target": "terraform-policy",
+          "kind": "near-miss",
+          "selected": "agency-privacy-engineer",
+          "passed": true
+        },
+        {
+          "id": "41p",
+          "request": "Susun .tfquery.hcl dan draft import untuk bucket unmanaged, jangan hubungi cloud.",
+          "target": "terraform-search-import",
+          "accepted": [
+            "terraform-search-import"
+          ],
+          "kind": "positive",
+          "selected": "terraform-search-import",
+          "passed": true
+        },
+        {
+          "id": "41n",
+          "request": "Cari string bucket di repository lokal.",
+          "target": "terraform-search-import",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        },
+        {
+          "id": "42p",
+          "request": "Review wiring .tfcomponent.hcl dan .tfdeploy.hcl tanpa upload.",
+          "target": "terraform-stacks",
+          "accepted": [
+            "terraform-stacks"
+          ],
+          "kind": "positive",
+          "selected": "terraform-stacks",
+          "passed": true
+        },
+        {
+          "id": "42n",
+          "request": "Jelaskan stack trace aplikasi React ini.",
+          "target": "terraform-stacks",
+          "kind": "near-miss",
+          "selected": "systematic-debugging",
+          "passed": true
+        },
+        {
+          "id": "43p",
+          "request": "Rapikan variables.tf dan required_providers sesuai konvensi proyek.",
+          "target": "terraform-style-guide",
+          "accepted": [
+            "terraform-style-guide"
+          ],
+          "kind": "positive",
+          "selected": "terraform-style-guide",
+          "passed": true
+        },
+        {
+          "id": "43n",
+          "request": "Rapikan Dockerfile multi-stage.",
+          "target": "terraform-style-guide",
+          "kind": "near-miss",
+          "selected": "docker-container-builds",
+          "passed": true
+        },
+        {
+          "id": "44p",
+          "request": "Tulis plan-mode .tftest.hcl memakai mock provider untuk output modul.",
+          "target": "terraform-test",
+          "accepted": [
+            "terraform-test"
+          ],
+          "kind": "positive",
+          "selected": "terraform-test",
+          "passed": true
+        },
+        {
+          "id": "44n",
+          "request": "Tulis Go TestAcc dengan ImportStateVerify.",
+          "target": "terraform-test",
+          "kind": "near-miss",
+          "selected": "provider-test-patterns",
+          "passed": true
+        },
+        {
+          "id": "45p",
+          "request": "Tulis provisioning Packer Windows AMI via WinRM, tanpa menjalankan build.",
+          "target": "windows-builder",
+          "accepted": [
+            "windows-builder"
+          ],
+          "kind": "positive",
+          "selected": "windows-builder",
+          "passed": true
+        },
+        {
+          "id": "45n",
+          "request": "Perbaiki PowerShell di laptop Windows saya, bukan guest image.",
+          "target": "windows-builder",
+          "kind": "near-miss",
+          "selected": "systematic-debugging",
+          "passed": true
+        },
+        {
+          "id": "46p",
+          "request": "Review idempotensi role Ansible Windows service secara offline.",
+          "target": "ansible-automation",
+          "accepted": [
+            "ansible-automation"
+          ],
+          "kind": "positive",
+          "selected": "ansible-automation",
+          "passed": true
+        },
+        {
+          "id": "46n",
+          "request": "Buat AMI EC2 melalui template Packer.",
+          "target": "ansible-automation",
+          "kind": "near-miss",
+          "selected": "aws-ami-builder",
+          "passed": true
+        },
+        {
+          "id": "47p",
+          "request": "Optimalkan Dockerfile multi-stage dan .dockerignore secara offline.",
+          "target": "docker-container-builds",
+          "accepted": [
+            "docker-container-builds"
+          ],
+          "kind": "positive",
+          "selected": "docker-container-builds",
+          "passed": true
+        },
+        {
+          "id": "47n",
+          "request": "Perbaiki readinessProbe di Kubernetes Deployment YAML.",
+          "target": "docker-container-builds",
+          "kind": "near-miss",
+          "selected": "kubernetes-manifest-operations",
+          "passed": true
+        },
+        {
+          "id": "48p",
+          "request": "Review selector dan readiness probe pada Deployment yang diberikan, tanpa cluster.",
+          "target": "kubernetes-manifest-operations",
+          "accepted": [
+            "kubernetes-manifest-operations"
+          ],
+          "kind": "positive",
+          "selected": "kubernetes-manifest-operations",
+          "passed": true
+        },
+        {
+          "id": "48n",
+          "request": "Optimalkan layer cache Dockerfile.",
+          "target": "kubernetes-manifest-operations",
+          "kind": "near-miss",
+          "selected": "docker-container-builds",
+          "passed": true
+        },
+        {
+          "id": "49p",
+          "request": "Review supplied EXPLAIN dan indeks query PostgreSQL, tanpa koneksi database.",
+          "target": "supabase-postgres-best-practices",
+          "accepted": [
+            "supabase-postgres-best-practices"
+          ],
+          "kind": "positive",
+          "selected": "supabase-postgres-best-practices",
+          "passed": true
+        },
+        {
+          "id": "49n",
+          "request": "Perbaiki query MySQL yang diberikan.",
+          "target": "supabase-postgres-best-practices",
+          "kind": "near-miss",
+          "selected": "systematic-debugging",
+          "passed": true
+        },
+        {
+          "id": "50p",
+          "request": "Susun roadmap revisi dari komentar reviewer jurnal; naskah dan tujuan sudah diberikan.",
+          "target": "academic-paper",
+          "accepted": [
+            "academic-paper"
+          ],
+          "kind": "positive",
+          "selected": "academic-paper",
+          "passed": true
+        },
+        {
+          "id": "50n",
+          "request": "Rapikan 15 DOI menjadi BibTeX saja tanpa mengubah manuskrip.",
+          "target": "academic-paper",
+          "kind": "near-miss",
+          "selected": "citation-management",
+          "passed": true
+        },
+        {
+          "id": "51p",
+          "request": "Review metodologi manuskrip akademik ini secara advisory, jangan ubah naskah.",
+          "target": "academic-paper-reviewer",
+          "accepted": [
+            "academic-paper-reviewer"
+          ],
+          "kind": "positive",
+          "selected": "academic-paper-reviewer",
+          "passed": true
+        },
+        {
+          "id": "51n",
+          "request": "Gunakan komentar reviewer untuk merevisi manuskrip saya.",
+          "target": "academic-paper-reviewer",
+          "kind": "near-miss",
+          "selected": "academic-paper",
+          "passed": true
+        },
+        {
+          "id": "52p",
+          "request": "Jalankan workflow akademik lengkap dari riset sampai finalisasi dengan integrity dan review, checkpoint tetap dijaga.",
+          "target": "academic-pipeline",
+          "accepted": [
+            "academic-pipeline"
+          ],
+          "kind": "positive",
+          "selected": "academic-pipeline",
+          "passed": true
+        },
+        {
+          "id": "52n",
+          "request": "Tulis abstrak paper ini saja.",
+          "target": "academic-pipeline",
+          "kind": "near-miss",
+          "selected": "academic-paper",
+          "passed": true
+        },
+        {
+          "id": "53p",
+          "request": "Sintesis literatur akademik intervensi X dan pisahkan bukti yang bertentangan.",
+          "target": "deep-research",
+          "accepted": [
+            "deep-research"
+          ],
+          "kind": "positive",
+          "selected": "deep-research",
+          "passed": true
+        },
+        {
+          "id": "53n",
+          "request": "Cari signature SDK Stripe versi lockfile.",
+          "target": "deep-research",
+          "kind": "near-miss",
+          "selected": "context7-docs",
+          "passed": true
+        },
+        {
+          "id": "54p",
+          "request": "Buat aturan eligibility screening dari proposal supplied ini; records belum tersedia.",
+          "target": "sr-screener",
+          "accepted": [
+            "sr-screener"
+          ],
+          "kind": "positive",
+          "selected": "sr-screener",
+          "passed": true
+        },
+        {
+          "id": "54n",
+          "request": "Rancang research question dan strategi pencarian PROSPERO.",
+          "target": "sr-screener",
+          "kind": "near-miss",
+          "selected": "deep-research",
+          "passed": true
+        },
+        {
+          "id": "55p",
+          "request": "Verifikasi metadata 15 DOI dan rapikan BibTeX tanpa mengubah isi manuskrip.",
+          "target": "citation-management",
+          "accepted": [
+            "citation-management"
+          ],
+          "kind": "positive",
+          "selected": "citation-management",
+          "passed": true
+        },
+        {
+          "id": "55n",
+          "request": "Buktikan klaim terapi dari studi primer, bukan sekadar metadata.",
+          "target": "citation-management",
+          "kind": "near-miss",
+          "selected": "deep-research",
+          "passed": true
+        },
+        {
+          "id": "56p",
+          "request": "Rapikan paragraf ini agar alami tanpa mengubah angka, ketidakpastian atau sitasi.",
+          "target": "humanizer",
+          "accepted": [
+            "humanizer"
+          ],
+          "kind": "positive",
+          "selected": "humanizer",
+          "passed": true
+        },
+        {
+          "id": "56n",
+          "request": "Tulis README teknis baru; saya tidak meminta prose-humanization pass.",
+          "target": "humanizer",
+          "kind": "near-miss",
+          "selected": "agency-technical-writer",
+          "passed": true
+        },
+        {
+          "id": "57p",
+          "request": "Audit keyboard, focus dan pengumuman error checkout terhadap WCAG 2.2 AA.",
+          "target": "agency-accessibility-auditor",
+          "accepted": [
+            "agency-accessibility-auditor"
+          ],
+          "kind": "positive",
+          "selected": "agency-accessibility-auditor",
+          "passed": true
+        },
+        {
+          "id": "57n",
+          "request": "Buat dashboard terlihat lebih premium tanpa audit aksesibilitas.",
+          "target": "agency-accessibility-auditor",
+          "kind": "near-miss",
+          "selected": "impeccable",
+          "passed": true
+        },
+        {
+          "id": "58p",
+          "request": "Nilai breaking changes antara dua OpenAPI spec supplied.",
+          "target": "agency-api-platform-engineer",
+          "accepted": [
+            "agency-api-platform-engineer"
+          ],
+          "kind": "positive",
+          "selected": "agency-api-platform-engineer",
+          "passed": true
+        },
+        {
+          "id": "58n",
+          "request": "Perbaiki satu label tombol pada UI.",
+          "target": "agency-api-platform-engineer",
+          "kind": "near-miss",
+          "selected": "impeccable",
+          "passed": true
+        },
+        {
+          "id": "59p",
+          "request": "Tambahkan 401, 403 dan validation failure cases pada suite API existing.",
+          "target": "agency-api-tester",
+          "accepted": [
+            "agency-api-tester"
+          ],
+          "kind": "positive",
+          "selected": "agency-api-tester",
+          "passed": true
+        },
+        {
+          "id": "59n",
+          "request": "Cek warna dan spacing halaman statis.",
+          "target": "agency-api-tester",
+          "kind": "near-miss",
+          "selected": "impeccable",
+          "passed": true
+        },
+        {
+          "id": "60p",
+          "request": "Bandingkan warna dan copy onboarding dengan brand guide yang disetujui.",
+          "target": "agency-brand-guardian",
+          "accepted": [
+            "agency-brand-guardian"
+          ],
+          "kind": "positive",
+          "selected": "agency-brand-guardian",
+          "passed": true
+        },
+        {
+          "id": "60n",
+          "request": "Buat SQL index untuk query lambat.",
+          "target": "agency-brand-guardian",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "type": "batch",
+      "batch": 3,
+      "model": {
+        "provider": "openai-codex",
+        "id": "gpt-6.1-sol"
+      },
+      "toolCalls": [],
+      "assistantUsage": {
+        "input": 16881,
+        "output": 1087,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "totalTokens": 17968,
+        "reasoningTokens": 246,
+        "cost": {
+          "input": 0.033762,
+          "output": 0.010870000000000001,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "total": 0.044632000000000005
+        },
+        "premiumRequests": 0
+      },
+      "classifications": [
+        {
+          "id": "61p",
+          "request": "Review lock budget dan rollback rencana migrasi PostgreSQL yang diberikan.",
+          "target": "agency-database-reliability-engineer",
+          "accepted": [
+            "agency-database-reliability-engineer"
+          ],
+          "kind": "positive",
+          "selected": "agency-database-reliability-engineer",
+          "passed": true
+        },
+        {
+          "id": "61n",
+          "request": "Optimalkan satu SELECT dengan supplied query plan, tanpa tugas recovery.",
+          "target": "agency-database-reliability-engineer",
+          "kind": "near-miss",
+          "selected": "supabase-postgres-best-practices",
+          "passed": true
+        },
+        {
+          "id": "62p",
+          "request": "Perbaiki kontrak --json, stdout dan exit code CLI existing.",
+          "target": "agency-developer-tooling-engineer",
+          "accepted": [
+            "agency-developer-tooling-engineer"
+          ],
+          "kind": "positive",
+          "selected": "agency-developer-tooling-engineer",
+          "passed": true
+        },
+        {
+          "id": "62n",
+          "request": "Jalankan npm test existing tanpa perubahan CLI.",
+          "target": "agency-developer-tooling-engineer",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        },
+        {
+          "id": "63p",
+          "request": "Buat XLSX dari data dummy supplied beserta format dan chart yang diminta.",
+          "target": "agency-document-generator",
+          "accepted": [
+            "agency-document-generator"
+          ],
+          "kind": "positive",
+          "selected": "agency-document-generator",
+          "passed": true
+        },
+        {
+          "id": "63n",
+          "request": "Jelaskan tabel ini dalam chat tanpa membuat file.",
+          "target": "agency-document-generator",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        },
+        {
+          "id": "64p",
+          "request": "Review callback OIDC untuk state, nonce, PKCE dan replay.",
+          "target": "agency-identity-access-engineer",
+          "accepted": [
+            "agency-identity-access-engineer"
+          ],
+          "kind": "positive",
+          "selected": "agency-identity-access-engineer",
+          "passed": true
+        },
+        {
+          "id": "64n",
+          "request": "Ubah warna tombol login tanpa perubahan auth.",
+          "target": "agency-identity-access-engineer",
+          "kind": "near-miss",
+          "selected": "impeccable",
+          "passed": true
+        },
+        {
+          "id": "65p",
+          "request": "Perbaiki plural Arab dan overflow RTL dengan stack i18n existing.",
+          "target": "agency-internationalization-engineer",
+          "accepted": [
+            "agency-internationalization-engineer"
+          ],
+          "kind": "positive",
+          "selected": "agency-internationalization-engineer",
+          "passed": true
+        },
+        {
+          "id": "65n",
+          "request": "Terjemahkan satu paragraf biasa tanpa perubahan kode i18n.",
+          "target": "agency-internationalization-engineer",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        },
+        {
+          "id": "66p",
+          "request": "Review deduplikasi dan recovery webhook Stripe dari kode supplied.",
+          "target": "agency-payments-billing-engineer",
+          "accepted": [
+            "agency-payments-billing-engineer"
+          ],
+          "kind": "positive",
+          "selected": "agency-payments-billing-engineer",
+          "passed": true
+        },
+        {
+          "id": "66n",
+          "request": "Rapikan tampilan kartu harga tanpa operasi pembayaran.",
+          "target": "agency-payments-billing-engineer",
+          "kind": "near-miss",
+          "selected": "impeccable",
+          "passed": true
+        },
+        {
+          "id": "67p",
+          "request": "Susun eksperimen before/after untuk bottleneck memakai trace supplied; jangan load-test live.",
+          "target": "agency-performance-benchmarker",
+          "accepted": [
+            "agency-performance-benchmarker"
+          ],
+          "kind": "positive",
+          "selected": "agency-performance-benchmarker",
+          "passed": true
+        },
+        {
+          "id": "67n",
+          "request": "Perbaiki salah eja dalam README.",
+          "target": "agency-performance-benchmarker",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        },
+        {
+          "id": "68p",
+          "request": "Petakan aliran PII dari schema dan kode supplied serta cek opt-out analytics.",
+          "target": "agency-privacy-engineer",
+          "accepted": [
+            "agency-privacy-engineer"
+          ],
+          "kind": "positive",
+          "selected": "agency-privacy-engineer",
+          "passed": true
+        },
+        {
+          "id": "68n",
+          "request": "Alamat email muncul pada contoh dokumentasi; jangan audit data pribadi.",
+          "target": "agency-privacy-engineer",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        },
+        {
+          "id": "69p",
+          "request": "Sintesis ADR, vendor docs dan incident reports supplied untuk trade-off queue.",
+          "target": "agency-research-synthesist",
+          "accepted": [
+            "agency-research-synthesist"
+          ],
+          "kind": "positive",
+          "selected": "agency-research-synthesist",
+          "passed": true
+        },
+        {
+          "id": "69n",
+          "request": "Cari satu signature SDK dari dokumentasi resmi.",
+          "target": "agency-research-synthesist",
+          "kind": "near-miss",
+          "selected": "context7-docs",
+          "passed": true
+        },
+        {
+          "id": "70p",
+          "request": "Review desain CI untuk mencegah secret masuk bundle dan susun runbook rotasi tanpa menjalankannya.",
+          "target": "agency-secrets-credential-hygiene-engineer",
+          "accepted": [
+            "agency-secrets-credential-hygiene-engineer"
+          ],
+          "kind": "positive",
+          "selected": "agency-secrets-credential-hygiene-engineer",
+          "passed": true
+        },
+        {
+          "id": "70n",
+          "request": "Jelaskan placeholder API_KEY pada docs tanpa mengakses secret.",
+          "target": "agency-secrets-credential-hygiene-engineer",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        },
+        {
+          "id": "71p",
+          "request": "Buat threat model upload dokumen dari diagram dan kode supplied.",
+          "target": "agency-security-architect",
+          "accepted": [
+            "agency-security-architect"
+          ],
+          "kind": "positive",
+          "selected": "agency-security-architect",
+          "passed": true
+        },
+        {
+          "id": "71n",
+          "request": "Rapikan spacing card tanpa perubahan trust boundary.",
+          "target": "agency-security-architect",
+          "kind": "near-miss",
+          "selected": "impeccable",
+          "passed": true
+        },
+        {
+          "id": "72p",
+          "request": "Perbarui README agar cocok dengan flags dan error CLI existing.",
+          "target": "agency-technical-writer",
+          "accepted": [
+            "agency-technical-writer"
+          ],
+          "kind": "positive",
+          "selected": "agency-technical-writer",
+          "passed": true
+        },
+        {
+          "id": "72n",
+          "request": "Susun abstrak paper akademik sesuai venue.",
+          "target": "agency-technical-writer",
+          "kind": "near-miss",
+          "selected": "academic-paper",
+          "passed": true
+        },
+        {
+          "id": "73p",
+          "request": "Sintesis lima transkrip usability berizin menjadi pain points dengan locator kutipan.",
+          "target": "agency-ux-researcher",
+          "accepted": [
+            "agency-ux-researcher"
+          ],
+          "kind": "positive",
+          "selected": "agency-ux-researcher",
+          "passed": true
+        },
+        {
+          "id": "73n",
+          "request": "Kritik visual hierarchy dashboard dari screenshot tanpa studi pengguna.",
+          "target": "agency-ux-researcher",
+          "kind": "near-miss",
+          "selected": "impeccable",
+          "passed": true
+        },
+        {
+          "id": "74p",
+          "request": "Perbaiki hierarchy dan ritme visual dashboard existing sesuai brief yang telah disetujui.",
+          "target": "impeccable",
+          "accepted": [
+            "impeccable"
+          ],
+          "kind": "positive",
+          "selected": "impeccable",
+          "passed": true
+        },
+        {
+          "id": "74n",
+          "request": "Optimalkan backend SQL tanpa perubahan UI.",
+          "target": "impeccable",
+          "kind": "near-miss",
+          "selected": "supabase-postgres-best-practices",
+          "passed": true
+        },
+        {
+          "id": "75p",
+          "request": "Cek aplikasi lokal memakai Playwright suite existing dan data dummy; pertahankan runner.",
+          "target": "e2e",
+          "accepted": [
+            "e2e"
+          ],
+          "kind": "positive",
+          "selected": "e2e",
+          "passed": true
+        },
+        {
+          "id": "75n",
+          "request": "Jelaskan file test existing tanpa menjalankan aplikasi atau meminta QA.",
+          "target": "e2e",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        },
+        {
+          "id": "76p",
+          "request": "Verifikasi hasil klik Simpan pada aplikasi lokal terpilih, desktop, mobile dan keyboard.",
+          "target": "webapp-testing",
+          "accepted": [
+            "webapp-testing"
+          ],
+          "kind": "positive",
+          "selected": "webapp-testing",
+          "passed": true
+        },
+        {
+          "id": "76n",
+          "request": "Review source CSS saja; jangan jalankan browser.",
+          "target": "webapp-testing",
+          "kind": "near-miss",
+          "selected": "impeccable",
+          "passed": true
+        },
+        {
+          "id": "77p",
+          "request": "Perbaiki rerender mahal dan waterfall fetching pada proyek React/Next terbukti.",
+          "target": "vercel-react-best-practices",
+          "accepted": [
+            "vercel-react-best-practices"
+          ],
+          "kind": "positive",
+          "selected": "vercel-react-best-practices",
+          "passed": true
+        },
+        {
+          "id": "77n",
+          "request": "Optimalkan halaman Vue tanpa React/Next.",
+          "target": "vercel-react-best-practices",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        },
+        {
+          "id": "78p",
+          "request": "Perbaiki canonical, robots dan Open Graph halaman shareable existing.",
+          "target": "fixing-metadata",
+          "accepted": [
+            "fixing-metadata"
+          ],
+          "kind": "positive",
+          "selected": "fixing-metadata",
+          "passed": true
+        },
+        {
+          "id": "78n",
+          "request": "Ubah judul heading h1 yang terlihat tanpa mengubah metadata HTML.",
+          "target": "fixing-metadata",
+          "kind": "near-miss",
+          "selected": "impeccable",
+          "passed": true
+        },
+        {
+          "id": "79p",
+          "request": "Review kode UI terhadap Web Interface Guidelines Vercel; bukan visual redesign.",
+          "target": "web-design-guidelines",
+          "accepted": [
+            "web-design-guidelines"
+          ],
+          "kind": "positive",
+          "selected": "web-design-guidelines",
+          "passed": true
+        },
+        {
+          "id": "79n",
+          "request": "Buat konsep art direction baru tanpa meminta compliance review.",
+          "target": "web-design-guidelines",
+          "kind": "near-miss",
+          "selected": "impeccable",
+          "passed": true
+        },
+        {
+          "id": "80p",
+          "request": "Implementasikan transisi drawer sesuai motion thesis dan token yang disetujui.",
+          "target": "animate",
+          "accepted": [
+            "animate"
+          ],
+          "kind": "positive",
+          "selected": "animate",
+          "passed": true
+        },
+        {
+          "id": "80n",
+          "request": "Review kode animasi existing saja, jangan implementasi.",
+          "target": "animate",
+          "kind": "near-miss",
+          "selected": "ponytail-review",
+          "passed": true
+        },
+        {
+          "id": "81p",
+          "request": "Diagnosis drawer yang dropped frames saat navigasi; identifikasi mekanismenya.",
+          "target": "animation-performance",
+          "accepted": [
+            "animation-performance"
+          ],
+          "kind": "positive",
+          "selected": "animation-performance",
+          "passed": true
+        },
+        {
+          "id": "81n",
+          "request": "Tentukan nama efek gambar yang morph ke detail, tanpa masalah performa.",
+          "target": "animation-performance",
+          "kind": "near-miss",
+          "selected": "animation-vocabulary",
+          "passed": true
+        },
+        {
+          "id": "82p",
+          "request": "Cari bagian dashboard yang benar-benar terbantu motion; laporkan saja.",
+          "target": "find-animation-opportunities",
+          "accepted": [
+            "find-animation-opportunities"
+          ],
+          "kind": "positive",
+          "selected": "find-animation-opportunities",
+          "passed": true
+        },
+        {
+          "id": "82n",
+          "request": "Audit semua animasi existing untuk roadmap perbaikan, bukan mencari seam baru.",
+          "target": "find-animation-opportunities",
+          "kind": "near-miss",
+          "selected": "improve-animations",
+          "passed": true
+        },
+        {
+          "id": "83p",
+          "request": "Gunakan referensi emil-design-eng untuk menjelaskan detail feedback dan polish komponen existing.",
+          "target": "emil-design-eng",
+          "accepted": [
+            "emil-design-eng"
+          ],
+          "kind": "positive",
+          "selected": "emil-design-eng",
+          "passed": true
+        },
+        {
+          "id": "83n",
+          "request": "Tentukan art direction produk baru; jangan jadikan Emil desainer utama.",
+          "target": "emil-design-eng",
+          "kind": "near-miss",
+          "selected": "impeccable",
+          "passed": true
+        },
+        {
+          "id": "84p",
+          "request": "/skill:review-animations tinjau interruption, origin dan reduced-motion diff ini.",
+          "target": "review-animations",
+          "accepted": [
+            "review-animations"
+          ],
+          "kind": "positive",
+          "selected": "review-animations",
+          "passed": true
+        },
+        {
+          "id": "84n",
+          "request": "Review PR backend database tanpa kode motion.",
+          "target": "review-animations",
+          "kind": "near-miss",
+          "selected": "ponytail-review",
+          "passed": true
+        },
+        {
+          "id": "85p",
+          "request": "Audit motion seluruh app dan susun prioritas perbaikan; jangan implementasi dulu.",
+          "target": "improve-animations",
+          "accepted": [
+            "improve-animations"
+          ],
+          "kind": "positive",
+          "selected": "improve-animations",
+          "passed": true
+        },
+        {
+          "id": "85n",
+          "request": "Tambahkan satu transisi tombol sesuai spesifikasi yang sudah disetujui.",
+          "target": "improve-animations",
+          "kind": "near-miss",
+          "selected": "animate",
+          "passed": true
+        },
+        {
+          "id": "86p",
+          "request": "Apa istilah efek ketika thumbnail berpindah dan berubah menjadi gambar detail?",
+          "target": "animation-vocabulary",
+          "accepted": [
+            "animation-vocabulary"
+          ],
+          "kind": "positive",
+          "selected": "animation-vocabulary",
+          "passed": true
+        },
+        {
+          "id": "86n",
+          "request": "Implementasikan drawer yang spesifikasinya sudah lengkap.",
+          "target": "animation-vocabulary",
+          "kind": "near-miss",
+          "selected": "animate",
+          "passed": true
+        },
+        {
+          "id": "87p",
+          "request": "Perbaiki accessible name tombol dan restore focus dialog ini tanpa redesign.",
+          "target": "fixing-accessibility",
+          "accepted": [
+            "fixing-accessibility"
+          ],
+          "kind": "positive",
+          "selected": "fixing-accessibility",
+          "passed": true
+        },
+        {
+          "id": "87n",
+          "request": "Audit konformansi WCAG seluruh proses checkout beserta screen reader, bukan sekadar fix kecil.",
+          "target": "fixing-accessibility",
+          "kind": "near-miss",
+          "selected": "agency-accessibility-auditor",
+          "passed": true
+        },
+        {
+          "id": "88p",
+          "request": "Stress-test komponen anggota memakai nama panjang, empty, one, banyak baris dan fixture dev-only dummy.",
+          "target": "break-ui",
+          "accepted": [
+            "break-ui"
+          ],
+          "kind": "positive",
+          "selected": "break-ui",
+          "passed": true
+        },
+        {
+          "id": "88n",
+          "request": "Review source-only layout tanpa membuat fixture atau harness.",
+          "target": "break-ui",
+          "kind": "near-miss",
+          "selected": "impeccable",
+          "passed": true
+        },
+        {
+          "id": "89p",
+          "request": "Perbaiki sticky hover, safe area dan viewport keyboard pada mobile web/PWA ini.",
+          "target": "mobile-native",
+          "accepted": [
+            "mobile-native"
+          ],
+          "kind": "positive",
+          "selected": "mobile-native",
+          "passed": true
+        },
+        {
+          "id": "89n",
+          "request": "Implementasikan gesture pada React Native/Expo, bukan mobile web.",
+          "target": "mobile-native",
+          "kind": "near-miss",
+          "selected": null,
+          "passed": true
+        },
+        {
+          "id": "90p",
+          "request": "Refactor boolean mode props dan state ownership pada komponen React sesuai versi existing.",
+          "target": "vercel-composition-patterns",
+          "accepted": [
+            "vercel-composition-patterns"
+          ],
+          "kind": "positive",
+          "selected": "vercel-composition-patterns",
+          "passed": true
+        },
+        {
+          "id": "90n",
+          "request": "Rapikan warna tombol Vue tanpa mengubah API komponen.",
+          "target": "vercel-composition-patterns",
+          "kind": "near-miss",
+          "selected": "impeccable",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "status": "passed",
+      "classified": 180,
+      "expected": 180,
+      "passed": 180,
+      "failures": [],
+      "scope": "Synthetic most-specific-guide classification, not live workload execution or deterministic routing guarantee; expected labels are human-authored fixtures."
+    }
+  ]
+}

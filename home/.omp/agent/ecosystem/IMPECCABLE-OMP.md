@@ -1,6 +1,6 @@
 # Impeccable resmi OMP: batas eksekusi global
 
-Instalasi OMP menggunakan subtree `.omp/skills/impeccable` asli versi 4.6.0, commit `8a0e198da34ebc5b936a9d5975fb7a3b1cf353b7`, Apache-2.0. Isi vendor tidak dipatch. Scope pengguna default-profile: `~/.omp/agent/skills/impeccable`. Salinan adaptasi 4.5.2 di root bersama dipertahankan untuk host lain; alias OMP `agents/impeccable` dikecualikan, bukan menjadi designer kedua.
+Instalasi OMP menggunakan subtree `.omp/skills/impeccable` asli versi 4.6.0, commit `8a0e198da34ebc5b936a9d5975fb7a3b1cf353b7`, Apache-2.0. Isi vendor tidak dipatch. Scope pengguna default-profile: `~/.omp/agent/skills/impeccable`. Salinan untuk host lain dipertahankan; alias duplikat `agents/impeccable` dan `claude/impeccable` dikecualikan di OMP, bukan menjadi designer kedua. Panduan Emil, a11y, metadata dan composition mendukung tugas khusus di bawah owner ini; pembagian aktivasi ada di `SKILL-ROUTING.md` dan aturan global OMP.
 
 ## Kontrak yang mengalahkan contoh vendor
 

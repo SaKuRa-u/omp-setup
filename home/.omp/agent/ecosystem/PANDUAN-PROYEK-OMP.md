@@ -2,6 +2,35 @@
 
 Audit fondasi: 15 Oktober 2026; perluasan domain/REA: 18 Oktober; review/keamanan: 19 Oktober. Penerapan proposal skill/MCP: 20 Oktober; snapshot historis ada di `measurements/upgrade-20261020-acceptance.json`. Routing ide/workflow diperbarui 21 Oktober melalui instruksi lokal OMP, tanpa upgrade host, skill vendor, atau MCP; bukti awal di `measurements/workflow-routing-20261021.json`, hasil acceptance lanjutan di `measurements/workflow-routing-20261021-resume.json`.
 
+### Pembaruan routing global 31 Oktober 2026
+
+Enam skill selektif ditambahkan khusus OMP default-profile: `gsap-core`, `gsap-timeline`, `gsap-react`, `motion`, `domain-modeling`, dan `to-questionnaire`. Ini panduan original terpin, bukan pemasangan library aplikasi, plugin GSAP/ScrollTrigger, Motion MCP atau whole-pack installer. Semua katalog lama ditinjau terhadap owner/tahap, trigger dan near-miss; pasangan kasus tetap di `runtime/skill-routing-cases.json` dan [SKILL-ROUTING.md](SKILL-ROUTING.md).
+
+Urutan pemilihan global memakai intent aktual → tahap/artefak/stack terbukti → persetujuan sebelumnya → satu owner dan support relevan. Kutipan/kode/log/related-skill names bukan invocation atau daftar skill terpasang. Review bahasa alami memakai Ponytail, `/review` eksplisit tetap native, Spec/Standards memakai code-review; tidak ada reviewer atau pipeline akademik otomatis kedua. Scope yang sudah disetujui dilanjutkan tanpa intake/konfirmasi identik.
+
+| Kebutuhan | Pilihan dan batas |
+|---|---|
+| GSAP tween; sequence; lifecycle React | `gsap-core`; `gsap-timeline`; `gsap-react` sesuai subtask. React harus terbukti, versi/SSR diperiksa; contextSafe bukan pembatal async/listener/timer/fetch. |
+| Best-practices Motion/plain CSS | `motion`, fallback resmi self-contained tanpa MCP; fitur search/generation/editor/audit yang perlu server tidak tersedia. Tidak menjalankan motion-ai installer, premium/gated resources atau audit proaktif. |
+| Terminologi, relasi/batas domain, ADR | `domain-modeling` otomatis saat relevan; ikuti glossary/ADR existing, read-only tidak menulis, jangan memaksakan GLOSSARY.md atau rename. |
+| Menyiapkan kuesioner | `to-questionnaire` hanya permintaan nyata menyusun kuesioner atau invocation eksplisit; hidden sesuai frontmatter vendor, bukan intake otomatis setiap ide/grilling. |
+
+Impeccable tetap pemilik arah/thesis/token motion, Emil/animate mendukung keputusan craft, GSAP/Motion hanya mekanisme terpilih. Prefer CSS/native yang sudah cukup, reuse stack existing, hormati reduced-motion dan cleanup. Jangan migrasi library atau memasang dependency karena skill dipilih. Referensi ScrollTrigger/plugin/skill lain yang belum terpasang hanya ditelusuri melalui docs resmi/Context7 on-demand bila diperlukan; tidak dibuat alias/URI tiruan. Persetujuan skill bukan izin survei, menulis dokumen di scope read-only, provider, cloud, secret, hook atau layanan baru.
+
+Sumber/pin/lisensi, hash vendor, hasil discovery/verifikasi aktual dan batasnya dicatat di `measurements/skills-routing-20261031.json`; backup empat file routing mempertahankan path asal di `backups/skills-routing-20261031/`. Helper `check-skill-routing.mjs` tetap memeriksa runtime native tanpa inferensi model/MCP/aplikasi. Kasus klasifikasi hanya fixture sampai benar-benar dieksersis; bukti lama tidak dihitung sebagai pass baru. Mulai sesi baru; tidak ada jaminan hot reload atau kesetaraan routing seluruh model/paraphrase.
+
+### Pembaruan routing global 24 Oktober 2026 (snapshot historis)
+
+Sebelas skill tambahan yang disetujui dipasang dari sumber asli terpin: `animate`, `animation-performance`, `find-animation-opportunities`, `emil-design-eng`, `review-animations`, `improve-animations`, `animation-vocabulary`, `break-ui`, `mobile-native`, `fixing-accessibility`, dan `vercel-composition-patterns`. `web-design-guidelines` serta `fixing-metadata` sudah dipasang pada tahap sebelumnya. Impeccable tetap pemilik arah/desain; skill tambahan hanya pendukung tugas yang relevan, bukan paket pipeline otomatis.
+
+Audit mencakup seluruh katalog aktif, bukan hanya tambahan UI. Katalog dan contoh positif/near-miss setiap skill ada di [SKILL-ROUTING.md](SKILL-ROUTING.md); root `~/.omp/agent/AGENTS.md` tetap otoritas routing dan izin. Review kualitas, `/review` eksplisit, Spec/Standards, delegasi native/Orca, jenis test/provider/infrastruktur, sitasi standalone, feedback reviewer akademik, screening protocol-only, dan checkpoint hasil baru dibedakan secara eksplisit.
+
+Salinan Impeccable berbeda yang ditemukan sebagai `claude/impeccable` dikecualikan hanya di konfigurasi OMP, bersama pengecualian `agents/impeccable` yang sudah ada. Salinan host lain dan vendor skill lama tidak dipatch. `grill-me` serta `review-animations` tetap explicit-only pada discovery native; nama skill dalam kutipan/kode/log bukan invocation.
+
+Verifikasi lokal dapat dijalankan dengan `bun ~/.omp/agent/ecosystem/runtime/check-skill-routing.mjs <root-proyek>`; helper memakai runtime OMP asli untuk discovery, slash commands, resolusi URI, dan pemuatan prompt. Helper tidak meminta inferensi model atau menjalankan aplikasi/vendor script/MCP. Kasus klasifikasi sintetis terpisah, hasil aktual, batas bukti, pin/hash dan rollback dicatat di `measurements/routing-global-20261024.json` dan `backups/routing-global-20261024/`. Mulai sesi baru; tidak ada janji hot reload, enforcement OS, atau ketepatan seluruh paraphrase.
+
+Bagian status bertanggal di bawah adalah snapshot historis, bukan jumlah katalog terkini.
+
 ### Status global setelah penerapan proposal 20 Oktober (snapshot historis)
 
 - **Scope:** pengguna OMP default-profile, lintas repository dan sesi baru. Tidak mengubah konfigurasi host lain, akun OS lain, named profiles, atau project override.
@@ -121,15 +150,15 @@ Jawaban terhadap pertanyaan grilling melanjutkan frontier yang belum selesai. Pe
 | UI | Impeccable guidance/manual; gunakan fakta dan jawaban intake yang sudah tersedia, bukan wawancara kedua. |
 | Bug | `systematic-debugging`; expected RED pada TDD tidak memulai debugging kedua. |
 | Domain lain | Pilih skill sesuai artefak/stack/tahap; riset teknis bukan otomatis ARS, penulisan satu bagian bukan full academic-pipeline. |
-| Review | Satu pemilik sesuai tujuan: native bug review, Ponytail kualitas, code-review Spec/Standards; tidak ditumpuk otomatis. |
+| Review | Satu pemilik sesuai tujuan: `/review` eksplisit native; review kualitas bahasa alami termasuk bug memakai Ponytail; code-review hanya Spec/Standards/gate rilis konkret, tidak ditumpuk otomatis. |
 | Verifikasi | Bukti perilaku aktual sesuai tugas/izin; runner existing dan browser evidence saling melengkapi. |
 | Memori dan operasi berisiko | Tidak otomatis capture, install, deploy, bayar, atau cleanup karena ide disetujui. |
 
 Ini preferensi routing agen untuk OMP default-profile lintas proyek dan sesi baru, bukan hook OS atau jaminan klasifikasi semantik deterministik. Project override dan instruksi eksplisit tetap berlaku. Tidak perlu menyalakan seluruh skill sekaligus. Command bernama test/plan/dry-run/check/init/upload/cleanup tetap diperiksa efek jaringan, biaya, dan mutasinya sebelum dijalankan.
 
-Analisis seluruh katalog tersedia di laporan proyek `ANALISIS-WORKFLOW-SKILLS.md`; discovery sebelum penerapan menemukan 60 perintah skill, termasuk satu alias eksplisit dan 59 skill model-visible. Backup terarah penerapan ada di `backups/workflow-routing-20261021/`. Rollback hanya memulihkan instruksi/panduan/ledger yang diubah, bukan menghapus skill/data/credential. Mulai sesi OMP baru setelah perubahan; hot reload sesi lama tidak dijanjikan.
+Analisis dan discovery historis 21 Oktober tersedia di laporan proyek `ANALISIS-WORKFLOW-SKILLS.md`: sebelum penerapan terdapat 60 perintah skill, termasuk satu alias eksplisit dan 59 skill model-visible. Backup terarah penerapan ada di `backups/workflow-routing-20261021/`. Rollback hanya memulihkan instruksi/panduan/ledger yang diubah, bukan menghapus skill/data/credential. Mulai sesi OMP baru setelah perubahan; hot reload sesi lama tidak dijanjikan.
 
-**Bukti penerapan dan acceptance 21 Oktober:** sesi baru memuat aturan; katalog tetap 60 perintah/59 model-visible. Gabungan run awal dan lanjutan menyelesaikan 12 kelompok skenario/16 turn sesuai ekspektasi routing, termasuk continuation/approval/delta, expected RED, kutipan, existing runner, review saja, serta respons gerbang operasi/memory. Tiga kegagalan kuota awal tetap dicatat sebagai histori, bukan dihapus atau dianggap lulus. Integritas 60 SKILL.md vendor serta config/MCP/memory policy tidak berubah. Hasil terkini ada di `measurements/workflow-routing-20261021-resume.json`; ini pengujian routing sintetis dengan tool read-only, bukan sertifikasi keamanan atau jaminan semua sesi mendatang.
+**Bukti penerapan dan acceptance historis 21 Oktober:** sesi baru memuat aturan; katalog saat itu tetap 60 perintah/59 model-visible. Gabungan run awal dan lanjutan menyelesaikan 12 kelompok skenario/16 turn sesuai ekspektasi routing, termasuk continuation/approval/delta, expected RED, kutipan, existing runner, review saja, serta respons gerbang operasi/memory. Tiga kegagalan kuota awal tetap dicatat sebagai histori, bukan dihapus atau dianggap lulus. Integritas 60 SKILL.md vendor serta config/MCP/memory policy saat itu tidak berubah. Hasil historis ada di `measurements/workflow-routing-20261021-resume.json`; ini pengujian routing sintetis dengan tool read-only, bukan sertifikasi keamanan atau jaminan semua sesi mendatang.
 
 
 Gunakan bagian 2 atau 3 untuk membuka proyek. Sesudahnya, pilih instruksi end-to-end di atas **atau** contoh per tahap jika ingin mengendalikan tahap tertentu; tidak perlu mengirim keduanya.

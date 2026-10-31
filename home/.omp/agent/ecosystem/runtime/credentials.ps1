@@ -1,7 +1,8 @@
 param(
-  [Parameter(Mandatory=$true)][ValidateSet('set','get','status')][string]$Action,
-  [Parameter(Mandatory=$true)][ValidateSet('supermemory','context7')][string]$Provider
+  [Parameter(Mandatory=$true)][ValidateSet('set','prompt','get','status')][string]$Action,
+  [Parameter(Mandatory=$true)][ValidateSet('supermemory','context7','aicenter')][string]$Provider
 )
+# Interactive intake: -Action prompt -Provider aicenter; never put a key in command arguments.
 $ErrorActionPreference = 'Stop'
 $stage = 'initialize'
 try {
@@ -12,11 +13,21 @@ try {
     [Console]::Out.Write($(if ([IO.File]::Exists($file)) { 'stored' } else { 'missing' }))
     exit 0
   }
-  if ($Action -eq 'set') {
+  if ($Action -eq 'set' -or $Action -eq 'prompt') {
     $stage = 'exists'
     if ([IO.File]::Exists($file)) { throw 'already_stored' }
     $stage = 'stdin'
-    $value = [Console]::In.ReadToEnd().Trim()
+    if ($Action -eq 'prompt') {
+      $secret = Read-Host "API key untuk $Provider (tidak ditampilkan)" -AsSecureString
+      $pointer = [Runtime.InteropServices.Marshal]::SecureStringToBSTR($secret)
+      try { $value = [Runtime.InteropServices.Marshal]::PtrToStringBSTR($pointer).Trim() }
+      finally {
+        [Runtime.InteropServices.Marshal]::ZeroFreeBSTR($pointer)
+        $secret.Dispose()
+      }
+    } else {
+      $value = [Console]::In.ReadToEnd().Trim()
+    }
     if ($value.Length -lt 12 -or $value.Contains("`n") -or $value.Contains("`r")) { throw 'invalid_input' }
     $stage = 'encrypt'
     $plain = [Text.Encoding]::UTF8.GetBytes($value)

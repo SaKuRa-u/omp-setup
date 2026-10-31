@@ -1,0 +1,944 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-31",
+  "scope": "OMP default-profile only; approved selective original guidance, catalog routing, safe setup snapshot; no host/runtime dependency upgrade",
+  "approval": "User approved selective installation, overall skill routing evaluation, environment snapshot update and finalization of SaKuRa-u/omp-setup in this conversation.",
+  "sources": [
+    {
+      "repo": "greensock/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "skills": {
+        "gsap-core": "skills/gsap-core",
+        "gsap-timeline": "skills/gsap-timeline",
+        "gsap-react": "skills/gsap-react"
+      },
+      "metadata": [
+        "LICENSE",
+        "README.md"
+      ],
+      "archiveSha256": "87a6a1c7f9bd6342af8713709c96e5c8057aef57590f1ba808b18fc8742c34cc",
+      "selected": [
+        {
+          "path": "LICENSE",
+          "bytes": 1066,
+          "sha256": "51b04b06556662dd817e8f4aa6d06bc7139dc73739e1319a7233cfde3e147b90"
+        },
+        {
+          "path": "README.md",
+          "bytes": 8508,
+          "sha256": "2cd27948cd1486056271d8d962918eec074e9956b594111b5f84304ec1c13914"
+        },
+        {
+          "path": "skills/gsap-core/SKILL.md",
+          "bytes": 14792,
+          "sha256": "3887b47e050ab5afbe2a9a820f23d39fa02ab785e06a343be44c6f91d84d12b3"
+        },
+        {
+          "path": "skills/gsap-react/SKILL.md",
+          "bytes": 6565,
+          "sha256": "88e2a5312b45e8cc7b3c496637ff5bc9af2ae9c925b555c8b235b34cbc989d74"
+        },
+        {
+          "path": "skills/gsap-timeline/SKILL.md",
+          "bytes": 4394,
+          "sha256": "1a8b0f39cc4be3ed3d834b89672e4ae2f151b901dc3450bebf10bbc45379fe02"
+        }
+      ]
+    },
+    {
+      "repo": "mattpocock/skills",
+      "commit": "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa",
+      "skills": {
+        "domain-modeling": "skills/engineering/domain-modeling",
+        "to-questionnaire": "skills/productivity/to-questionnaire"
+      },
+      "metadata": [
+        "LICENSE",
+        "README.md",
+        "package.json"
+      ],
+      "archiveSha256": "f734b88f3b9a066cca6fa12f8b81328a0b105405aca4a3555ae23265228bd286",
+      "selected": [
+        {
+          "path": "LICENSE",
+          "bytes": 1068,
+          "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+        },
+        {
+          "path": "README.md",
+          "bytes": 16461,
+          "sha256": "345041d56cf1411b6b3ca1cc54014d26c563890f817f4cb9e2cb193dcd771a3e"
+        },
+        {
+          "path": "package.json",
+          "bytes": 597,
+          "sha256": "adc28432aa70b1eac1d4ff222d4a53263e77c86286ba16e4ff12031e718e41b2"
+        },
+        {
+          "path": "skills/engineering/domain-modeling/ADR-FORMAT.md",
+          "bytes": 2733,
+          "sha256": "944c92aa790e8fbdc9199640b170979abb8a34ba8d0fe18c2a01a63bce140ca0"
+        },
+        {
+          "path": "skills/engineering/domain-modeling/GLOSSARY-FORMAT.md",
+          "bytes": 2300,
+          "sha256": "21dcc40cdec8e151a829b98ab1517c1867bc444e3665134a98c6983411996801"
+        },
+        {
+          "path": "skills/engineering/domain-modeling/SKILL.md",
+          "bytes": 3346,
+          "sha256": "7b925d7b1e341a2eeae33ad68a8a8c0ab889a38ddd22a7598e4c240e5a7556a3"
+        },
+        {
+          "path": "skills/engineering/domain-modeling/agents/openai.yaml",
+          "bytes": 101,
+          "sha256": "f6bf2aa996c6e6f53fdd0708e18a0d16a56aed8322cca59fedbe3c0d2c75f06b"
+        },
+        {
+          "path": "skills/productivity/to-questionnaire/SKILL.md",
+          "bytes": 2904,
+          "sha256": "b5eb929842ee0e93d867c5e906d183d350f2f2d149eaeaa86967d94d8eda1d3b"
+        },
+        {
+          "path": "skills/productivity/to-questionnaire/agents/openai.yaml",
+          "bytes": 166,
+          "sha256": "9e8a06c38c8842eea8d4922cb9d1ead8e3ace647bab259b943c994a1b4742bc2"
+        }
+      ]
+    },
+    {
+      "repo": "motiondivision/ai-kit",
+      "commit": "1e424943582cbbdb6e3f410687e39f96451447bb",
+      "skills": {
+        "motion": "plugins/motion/skills/motion"
+      },
+      "metadata": [
+        "README.md",
+        "packages/motion-ai/package.json"
+      ],
+      "archiveSha256": "d8583ffd0b7532e0e17f62a4fe37d8f73de48fcd691540d448ff6b800e782a1d",
+      "selected": [
+        {
+          "path": "README.md",
+          "bytes": 3090,
+          "sha256": "5e6347889383a68cef80885d8941827f566cd055c068cd512dc0ea2f9c6e25c3"
+        },
+        {
+          "path": "packages/motion-ai/package.json",
+          "bytes": 1092,
+          "sha256": "a9441186eb244a32029abe0d35f1cd6a740309fd73faec21dd3c8114d1579bfb"
+        },
+        {
+          "path": "plugins/motion/skills/motion/SKILL.md",
+          "bytes": 5872,
+          "sha256": "69f9fe4de5bd0618dd3578925e0f21df5ebb5161e2665ed2aa1ed55edef3be0f"
+        },
+        {
+          "path": "plugins/motion/skills/motion/best-practices/base-ui.md",
+          "bytes": 2737,
+          "sha256": "cf1e79a446965c965a19a07e6c92527c8f661f87e0f16e321d4136fa7f1dd0de"
+        },
+        {
+          "path": "plugins/motion/skills/motion/best-practices/css-or-motion.md",
+          "bytes": 2320,
+          "sha256": "7b5fa2e184238a0532d2b010629474e99dec36a5a35c442c12f96db5aa25682c"
+        },
+        {
+          "path": "plugins/motion/skills/motion/best-practices/index.md",
+          "bytes": 3936,
+          "sha256": "78fccd242981414e395988b4965ae390af79edfbdf3d0f36b6cf8650733a0da9"
+        },
+        {
+          "path": "plugins/motion/skills/motion/best-practices/motion.md",
+          "bytes": 947,
+          "sha256": "92dee7c7b3d39ed02956102fbc0c9790e4f45a11b80bd5846a8336871b555d8a"
+        },
+        {
+          "path": "plugins/motion/skills/motion/best-practices/react.md",
+          "bytes": 4529,
+          "sha256": "e09d96029eb64313f6887949805447807d300a36d13138a56b22b3525f2cc7c7"
+        },
+        {
+          "path": "plugins/motion/skills/motion/best-practices/vue.md",
+          "bytes": 1354,
+          "sha256": "935e462042b5f02d086d680e757f29b5e0d3177781c3aab9cc3838eed88bd292"
+        },
+        {
+          "path": "plugins/motion/skills/motion/codex/index.md",
+          "bytes": 6333,
+          "sha256": "e8cd498864f0c744d872c9d28cc6b4ba84d12c63cbd92c2ae66e2717dbe12b88"
+        },
+        {
+          "path": "plugins/motion/skills/motion/css-spring/index.md",
+          "bytes": 2545,
+          "sha256": "98ae2faa1c68b5d2527e1f6bb3d94a1fb0482d24099ad6f9c5cfcd3ebb430a85"
+        },
+        {
+          "path": "plugins/motion/skills/motion/insert/index.md",
+          "bytes": 2988,
+          "sha256": "5b7d1ddd05277eb6a1362fb2c4fd8a5d859839f6439183903dd9312c6ddf6913"
+        },
+        {
+          "path": "plugins/motion/skills/motion/performance-audit/index.md",
+          "bytes": 2846,
+          "sha256": "830b18c038391f43f44f774f10edf8b1e15b0d935736665192074b279caa36c7"
+        },
+        {
+          "path": "plugins/motion/skills/motion/transition-preview/index.md",
+          "bytes": 2240,
+          "sha256": "64962b3757518956e56599d31bea8f7bced604b4ab35a14e2e1cf3494aa87ace"
+        }
+      ]
+    }
+  ],
+  "installedFiles": [
+    {
+      "skill": "gsap-core",
+      "path": ".omp/agent/skills/gsap-core/SKILL.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/gsap-skills-aed9cfd3/skills/gsap-core/SKILL.md",
+      "bytes": 14792,
+      "sha256": "3887b47e050ab5afbe2a9a820f23d39fa02ab785e06a343be44c6f91d84d12b3"
+    },
+    {
+      "skill": "gsap-react",
+      "path": ".omp/agent/skills/gsap-react/SKILL.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/gsap-skills-aed9cfd3/skills/gsap-react/SKILL.md",
+      "bytes": 6565,
+      "sha256": "88e2a5312b45e8cc7b3c496637ff5bc9af2ae9c925b555c8b235b34cbc989d74"
+    },
+    {
+      "skill": "gsap-timeline",
+      "path": ".omp/agent/skills/gsap-timeline/SKILL.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/gsap-skills-aed9cfd3/skills/gsap-timeline/SKILL.md",
+      "bytes": 4394,
+      "sha256": "1a8b0f39cc4be3ed3d834b89672e4ae2f151b901dc3450bebf10bbc45379fe02"
+    },
+    {
+      "skill": "gsap-core",
+      "path": ".omp/agent/skills/gsap-core/LICENSE",
+      "sourcePath": ".omp/agent/ecosystem/sources/gsap-skills-aed9cfd3/LICENSE",
+      "bytes": 1066,
+      "sha256": "51b04b06556662dd817e8f4aa6d06bc7139dc73739e1319a7233cfde3e147b90"
+    },
+    {
+      "skill": "gsap-timeline",
+      "path": ".omp/agent/skills/gsap-timeline/LICENSE",
+      "sourcePath": ".omp/agent/ecosystem/sources/gsap-skills-aed9cfd3/LICENSE",
+      "bytes": 1066,
+      "sha256": "51b04b06556662dd817e8f4aa6d06bc7139dc73739e1319a7233cfde3e147b90"
+    },
+    {
+      "skill": "gsap-react",
+      "path": ".omp/agent/skills/gsap-react/LICENSE",
+      "sourcePath": ".omp/agent/ecosystem/sources/gsap-skills-aed9cfd3/LICENSE",
+      "bytes": 1066,
+      "sha256": "51b04b06556662dd817e8f4aa6d06bc7139dc73739e1319a7233cfde3e147b90"
+    },
+    {
+      "skill": "domain-modeling",
+      "path": ".omp/agent/skills/domain-modeling/ADR-FORMAT.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/skills-a496f551/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "bytes": 2733,
+      "sha256": "944c92aa790e8fbdc9199640b170979abb8a34ba8d0fe18c2a01a63bce140ca0"
+    },
+    {
+      "skill": "domain-modeling",
+      "path": ".omp/agent/skills/domain-modeling/GLOSSARY-FORMAT.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/skills-a496f551/skills/engineering/domain-modeling/GLOSSARY-FORMAT.md",
+      "bytes": 2300,
+      "sha256": "21dcc40cdec8e151a829b98ab1517c1867bc444e3665134a98c6983411996801"
+    },
+    {
+      "skill": "domain-modeling",
+      "path": ".omp/agent/skills/domain-modeling/SKILL.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/skills-a496f551/skills/engineering/domain-modeling/SKILL.md",
+      "bytes": 3346,
+      "sha256": "7b925d7b1e341a2eeae33ad68a8a8c0ab889a38ddd22a7598e4c240e5a7556a3"
+    },
+    {
+      "skill": "domain-modeling",
+      "path": ".omp/agent/skills/domain-modeling/agents/openai.yaml",
+      "sourcePath": ".omp/agent/ecosystem/sources/skills-a496f551/skills/engineering/domain-modeling/agents/openai.yaml",
+      "bytes": 101,
+      "sha256": "f6bf2aa996c6e6f53fdd0708e18a0d16a56aed8322cca59fedbe3c0d2c75f06b"
+    },
+    {
+      "skill": "to-questionnaire",
+      "path": ".omp/agent/skills/to-questionnaire/SKILL.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/skills-a496f551/skills/productivity/to-questionnaire/SKILL.md",
+      "bytes": 2904,
+      "sha256": "b5eb929842ee0e93d867c5e906d183d350f2f2d149eaeaa86967d94d8eda1d3b"
+    },
+    {
+      "skill": "to-questionnaire",
+      "path": ".omp/agent/skills/to-questionnaire/agents/openai.yaml",
+      "sourcePath": ".omp/agent/ecosystem/sources/skills-a496f551/skills/productivity/to-questionnaire/agents/openai.yaml",
+      "bytes": 166,
+      "sha256": "9e8a06c38c8842eea8d4922cb9d1ead8e3ace647bab259b943c994a1b4742bc2"
+    },
+    {
+      "skill": "domain-modeling",
+      "path": ".omp/agent/skills/domain-modeling/LICENSE",
+      "sourcePath": ".omp/agent/ecosystem/sources/skills-a496f551/LICENSE",
+      "bytes": 1068,
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+    },
+    {
+      "skill": "to-questionnaire",
+      "path": ".omp/agent/skills/to-questionnaire/LICENSE",
+      "sourcePath": ".omp/agent/ecosystem/sources/skills-a496f551/LICENSE",
+      "bytes": 1068,
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+    },
+    {
+      "skill": "motion",
+      "path": ".omp/agent/skills/motion/SKILL.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/SKILL.md",
+      "bytes": 5872,
+      "sha256": "69f9fe4de5bd0618dd3578925e0f21df5ebb5161e2665ed2aa1ed55edef3be0f"
+    },
+    {
+      "skill": "motion",
+      "path": ".omp/agent/skills/motion/best-practices/base-ui.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/best-practices/base-ui.md",
+      "bytes": 2737,
+      "sha256": "cf1e79a446965c965a19a07e6c92527c8f661f87e0f16e321d4136fa7f1dd0de"
+    },
+    {
+      "skill": "motion",
+      "path": ".omp/agent/skills/motion/best-practices/css-or-motion.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/best-practices/css-or-motion.md",
+      "bytes": 2320,
+      "sha256": "7b5fa2e184238a0532d2b010629474e99dec36a5a35c442c12f96db5aa25682c"
+    },
+    {
+      "skill": "motion",
+      "path": ".omp/agent/skills/motion/best-practices/index.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/best-practices/index.md",
+      "bytes": 3936,
+      "sha256": "78fccd242981414e395988b4965ae390af79edfbdf3d0f36b6cf8650733a0da9"
+    },
+    {
+      "skill": "motion",
+      "path": ".omp/agent/skills/motion/best-practices/motion.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/best-practices/motion.md",
+      "bytes": 947,
+      "sha256": "92dee7c7b3d39ed02956102fbc0c9790e4f45a11b80bd5846a8336871b555d8a"
+    },
+    {
+      "skill": "motion",
+      "path": ".omp/agent/skills/motion/best-practices/react.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/best-practices/react.md",
+      "bytes": 4529,
+      "sha256": "e09d96029eb64313f6887949805447807d300a36d13138a56b22b3525f2cc7c7"
+    },
+    {
+      "skill": "motion",
+      "path": ".omp/agent/skills/motion/best-practices/vue.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/best-practices/vue.md",
+      "bytes": 1354,
+      "sha256": "935e462042b5f02d086d680e757f29b5e0d3177781c3aab9cc3838eed88bd292"
+    },
+    {
+      "skill": "motion",
+      "path": ".omp/agent/skills/motion/codex/index.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/codex/index.md",
+      "bytes": 6333,
+      "sha256": "e8cd498864f0c744d872c9d28cc6b4ba84d12c63cbd92c2ae66e2717dbe12b88"
+    },
+    {
+      "skill": "motion",
+      "path": ".omp/agent/skills/motion/css-spring/index.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/css-spring/index.md",
+      "bytes": 2545,
+      "sha256": "98ae2faa1c68b5d2527e1f6bb3d94a1fb0482d24099ad6f9c5cfcd3ebb430a85"
+    },
+    {
+      "skill": "motion",
+      "path": ".omp/agent/skills/motion/insert/index.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/insert/index.md",
+      "bytes": 2988,
+      "sha256": "5b7d1ddd05277eb6a1362fb2c4fd8a5d859839f6439183903dd9312c6ddf6913"
+    },
+    {
+      "skill": "motion",
+      "path": ".omp/agent/skills/motion/performance-audit/index.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/performance-audit/index.md",
+      "bytes": 2846,
+      "sha256": "830b18c038391f43f44f774f10edf8b1e15b0d935736665192074b279caa36c7"
+    },
+    {
+      "skill": "motion",
+      "path": ".omp/agent/skills/motion/transition-preview/index.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/transition-preview/index.md",
+      "bytes": 2240,
+      "sha256": "64962b3757518956e56599d31bea8f7bced604b4ab35a14e2e1cf3494aa87ace"
+    }
+  ],
+  "protectedEntryPointsBefore": [
+    {
+      "name": "caveman",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\caveman\\SKILL.md",
+      "sha256": "415d43518f2b1a9498c15a445d4657117b129ee5e81b19454ce348439cc6672b"
+    },
+    {
+      "name": "code-review",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\code-review\\SKILL.md",
+      "sha256": "9e6d1b00c31e10a002ac3e5fb49014c9589166f668c62996e80a36d23ca21e70"
+    },
+    {
+      "name": "codebase-design",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\codebase-design\\SKILL.md",
+      "sha256": "362b0bec828219d9f4b08ca7c466164e67253bdd817359258e60d2e9c5692a8f"
+    },
+    {
+      "name": "computer-use",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\computer-use\\SKILL.md",
+      "sha256": "2839933fd35216845461466403e6061488005f6df57126d0cd0f769ea45753f3"
+    },
+    {
+      "name": "context7-docs",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\context7-docs\\SKILL.md",
+      "sha256": "6850f27ec2bfa2a81e1ec7aca79323f2e22c842dd2daf97d3766500a90e80c90"
+    },
+    {
+      "name": "find-skills",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\find-skills\\SKILL.md",
+      "sha256": "c00eeea0e13e74fe4a9d84ba0a8542205a1b736d65f13134fe1a6647eb14976f"
+    },
+    {
+      "name": "grill-me",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\grill-me\\SKILL.md",
+      "sha256": "19e660207b447acf6ee0d600471c02e549c7aca8fb3ab38fdc2c7056aa442fc8"
+    },
+    {
+      "name": "grilling",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\grilling\\SKILL.md",
+      "sha256": "26d225ea8a36f4acacbe267e789cfb97d73964412f4243dd4b65b6cb806ddebc"
+    },
+    {
+      "name": "mcp-builder",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\mcp-builder\\SKILL.md",
+      "sha256": "57231330040e18e033dad8b2fdc0340a6185034c32b42b7d3448f444a6af6cf2"
+    },
+    {
+      "name": "orca-cli",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\orca-cli\\SKILL.md",
+      "sha256": "e9759aea664f54561946eeb40a6328031330860cda0817f2c2aa2cf529d5c1b3"
+    },
+    {
+      "name": "orchestration",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\orchestration\\SKILL.md",
+      "sha256": "ce9a81cb2e6bbb8487107d2e088bf9fd6e0ba71ebc6bcc1929f827fde65fec6b"
+    },
+    {
+      "name": "ponytail",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail\\SKILL.md",
+      "sha256": "f18008471528f0adde90a560d053f85935eed5cee26c447b7177ad24472bcf32"
+    },
+    {
+      "name": "ponytail-audit",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-audit\\SKILL.md",
+      "sha256": "3ab632ce4695de214dafe4db13d6f939e1c4be328bd0754ea751dc28b70be554"
+    },
+    {
+      "name": "ponytail-debt",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-debt\\SKILL.md",
+      "sha256": "f0b59cb7e623f68568f2164864c757d41f0452d176c2f28b5b9b3c6b7ef3a799"
+    },
+    {
+      "name": "ponytail-gain",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-gain\\SKILL.md",
+      "sha256": "b87f5b982820479831608d3b3d4b942c95577820fef088662348eb16b48792dc"
+    },
+    {
+      "name": "ponytail-help",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-help\\SKILL.md",
+      "sha256": "c4b353c9a13a9fd7008e319d1965816faaed13dcb61feb90afc514e50031706b"
+    },
+    {
+      "name": "ponytail-review",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-review\\SKILL.md",
+      "sha256": "affa0eedca467b58699fafbea28f6f85352aa3e7f23785964bf42f029a291504"
+    },
+    {
+      "name": "receiving-code-review",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\receiving-code-review\\SKILL.md",
+      "sha256": "091df1629510af1b92fc4abd6f96732ebedb4cb2c0f3457e8f2740b0504a2438"
+    },
+    {
+      "name": "reverse-engineer-anything",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\reverse-engineer-anything\\SKILL.md",
+      "sha256": "3456aab99d48c3294726065c9d5bd586bc165f2849fd5a3d5080381630564715"
+    },
+    {
+      "name": "security-audit",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\security-audit\\SKILL.md",
+      "sha256": "5e3e96a1e438d8f35fef0a1e38f02d4f00e2bdf910401b7dfe00e6779c6dac85"
+    },
+    {
+      "name": "skill-creator",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\skill-creator\\SKILL.md",
+      "sha256": "e030e7685e26283b4a76f5202aa3ae8516fb41dde799be5ae8ea6393ec009fe9"
+    },
+    {
+      "name": "supermemory-v5",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\supermemory-v5\\SKILL.md",
+      "sha256": "aaeb6fd9c9c862fdc3e29fe8be3ddf376938a3221122afccdcc0e1ab63022502"
+    },
+    {
+      "name": "systematic-debugging",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\systematic-debugging\\SKILL.md",
+      "sha256": "51c6435d98c83c42c96ba7c35725a0b2c376cd487fb1a4e6bd0ddbe7e33ef202"
+    },
+    {
+      "name": "tdd",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\tdd\\SKILL.md",
+      "sha256": "969583080caf842ae86a53501a0091eced13fd89cad65d3aa75c09112318ff33"
+    },
+    {
+      "name": "verification-before-completion",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\verification-before-completion\\SKILL.md",
+      "sha256": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3"
+    },
+    {
+      "name": "aws-ami-builder",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\aws-ami-builder\\SKILL.md",
+      "sha256": "5d024e7d72e96a8267239deb7280cb5bc32cb4040b24e4769127b7ea84c024a2"
+    },
+    {
+      "name": "azure-image-builder",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\azure-image-builder\\SKILL.md",
+      "sha256": "663105e3c6b7c6c5fb5bd49213bd9acad41f696d4061a66ec7332f1b4ce9a2e1"
+    },
+    {
+      "name": "azure-verified-modules",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\azure-verified-modules\\SKILL.md",
+      "sha256": "37a57f25781c969047af3e46e88dc893ddec8a62854955e96d8f88791b02ae26"
+    },
+    {
+      "name": "new-terraform-provider",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\new-terraform-provider\\SKILL.md",
+      "sha256": "d7afad608890883f400efeff370677e6b6bf750e0ed2544b2b1ee48e4cfad9db"
+    },
+    {
+      "name": "provider-actions",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-actions\\SKILL.md",
+      "sha256": "dbcd9cc0325c0883ecd7b2ebf82f06f792d06209e879f452f21f2dbf0014afd9"
+    },
+    {
+      "name": "provider-configuration",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-configuration\\SKILL.md",
+      "sha256": "b7d258ed0e652c189bcbbbef807ff85ee089cb9e1090d433c0e958dcd6d120c7"
+    },
+    {
+      "name": "provider-docs",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-docs\\SKILL.md",
+      "sha256": "30e2b8ce3e4681b31b8770ab4772734fd781d2549cf9ace99d8a7b7ad22d21e7"
+    },
+    {
+      "name": "provider-ephemeral-resources",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-ephemeral-resources\\SKILL.md",
+      "sha256": "e711d5b0bcb75964ad836645efd6ffe45818897f9b615d2c82e1c29d1e4214ac"
+    },
+    {
+      "name": "provider-framework-migration",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-framework-migration\\SKILL.md",
+      "sha256": "0b36f1e21989752636378fc83c85cb5b4dfc849b386773c2bfd44b892a4471c0"
+    },
+    {
+      "name": "provider-resources",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-resources\\SKILL.md",
+      "sha256": "506969ba37c76c95764641bb6486f81b776b19f1b57deb9d0f749112c780c044"
+    },
+    {
+      "name": "provider-test-patterns",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-test-patterns\\SKILL.md",
+      "sha256": "44bdce7836f64e60dbaf707d6d79e7000f795abc5b63f909f4e3e0176fdad7f2"
+    },
+    {
+      "name": "push-to-registry",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\push-to-registry\\SKILL.md",
+      "sha256": "0872fe76b66ae9c1a90d6a4863f142fd66e1daed8debaa9c3f6751e22f85c8aa"
+    },
+    {
+      "name": "refactor-module",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\refactor-module\\SKILL.md",
+      "sha256": "9badbbfe059e08e7b4c4a8438c2e610c075f889bee397494253f16f57251d340"
+    },
+    {
+      "name": "run-acceptance-tests",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\run-acceptance-tests\\SKILL.md",
+      "sha256": "0bf16353192fd063574ee4a92b45a056d54f09d36910cf40f8cf342d58ee88bf"
+    },
+    {
+      "name": "terraform-policy",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-policy\\SKILL.md",
+      "sha256": "30b88732b769080bd69165db625c76cbd6cb08f3c06d115ddfe986c824d55f11"
+    },
+    {
+      "name": "terraform-search-import",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-search-import\\SKILL.md",
+      "sha256": "0f9962c74132d1ed18276dc5e99b2188c9c68eb28b230fdff7fbe551e4984cc4"
+    },
+    {
+      "name": "terraform-stacks",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-stacks\\SKILL.md",
+      "sha256": "7070a22bbac3c73c8a160be961c03c1aede03831aaf7386ac47563d9c49540de"
+    },
+    {
+      "name": "terraform-style-guide",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-style-guide\\SKILL.md",
+      "sha256": "2c7fc6eadd111edb164ede512d2e81eecd2a311c0a9f9fbb4f7e13d6bc6bfe10"
+    },
+    {
+      "name": "terraform-test",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-test\\SKILL.md",
+      "sha256": "958ecbf6ce98e3dd29af4086d68e232f6922d417961f015b5fd4ff4d58d062f9"
+    },
+    {
+      "name": "windows-builder",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\windows-builder\\SKILL.md",
+      "sha256": "1b6bebb68e3c72fc2c6dd0a3eab2026c3b4d6993d20b9632f6890a8c206930ee"
+    },
+    {
+      "name": "ansible-automation",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\ansible-automation\\SKILL.md",
+      "sha256": "b6d0c5fb8451ccccfafe062940902ec96e232d8958f326fe7add8170a4ad6c6a"
+    },
+    {
+      "name": "docker-container-builds",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\docker-container-builds\\SKILL.md",
+      "sha256": "36b0d6f683d9b86d94660539e39e6266aca79539205ebd687b3f432f6246cc29"
+    },
+    {
+      "name": "kubernetes-manifest-operations",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\kubernetes-manifest-operations\\SKILL.md",
+      "sha256": "b18110b2709735c33bf852a4d17d1a5847f94bf3c763a9ea2260d57fe3e20a2a"
+    },
+    {
+      "name": "supabase-postgres-best-practices",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\supabase-postgres-best-practices\\SKILL.md",
+      "sha256": "6cf4bd8702d750c9dbdc549e3ae83e0a4ccb13d771c53f7ebb7fec69c22a90a2"
+    },
+    {
+      "name": "academic-paper",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\academic-paper\\SKILL.md",
+      "sha256": "8a7bb8ae8bfebefb9e3ea4a11ab2a42c024dd6a27d4ecc04c2865471ab8137b3"
+    },
+    {
+      "name": "academic-paper-reviewer",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\academic-paper-reviewer\\SKILL.md",
+      "sha256": "bedfda8a9202456b57cbd6ebc99c58b6db13a75e0110c1be33493d6bad94b536"
+    },
+    {
+      "name": "academic-pipeline",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\academic-pipeline\\SKILL.md",
+      "sha256": "5f2091fd3216adbb7f2a4cb15422c9f001bb74d4455c0aebfbc91157663f33ef"
+    },
+    {
+      "name": "deep-research",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\deep-research\\SKILL.md",
+      "sha256": "d4b056eab3bb520bf7a45aeb3cf16260b532e0d99cec414d9ed9085b1f470948"
+    },
+    {
+      "name": "sr-screener",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\sr-screener\\SKILL.md",
+      "sha256": "b737e314865c0d26cbfc2721a2e7a2df430a0687be950636329cb6ad52cd15f0"
+    },
+    {
+      "name": "citation-management",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\citation-management\\SKILL.md",
+      "sha256": "dc79fe1e8438dcf598040615d5323360c6a7ed0b868fc3ffc82512c871a1e3ff"
+    },
+    {
+      "name": "humanizer",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\humanizer\\SKILL.md",
+      "sha256": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad"
+    },
+    {
+      "name": "agency-accessibility-auditor",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-accessibility-auditor\\SKILL.md",
+      "sha256": "1b099d10cc4f82568ded01d9918cd63e24ad177702f5dc76b991e60e7eff71dd"
+    },
+    {
+      "name": "agency-api-platform-engineer",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-api-platform-engineer\\SKILL.md",
+      "sha256": "c931dccf3641f1e29e79dcf4f97d6929a8dc33405537eb1ec1befa23324b8947"
+    },
+    {
+      "name": "agency-api-tester",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-api-tester\\SKILL.md",
+      "sha256": "9113c51692c178cae9969871c2df1da461efff0e9d131c7ca2aa3d2dae8f1e95"
+    },
+    {
+      "name": "agency-brand-guardian",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-brand-guardian\\SKILL.md",
+      "sha256": "63d98375cc936eb03530930d6e527b3da6c20cc581f932cd3e971e622f002136"
+    },
+    {
+      "name": "agency-database-reliability-engineer",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-database-reliability-engineer\\SKILL.md",
+      "sha256": "c17d3c559d25049697f19a76852661d531430a900208b4a5aefcdd2d9944547e"
+    },
+    {
+      "name": "agency-developer-tooling-engineer",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-developer-tooling-engineer\\SKILL.md",
+      "sha256": "0bdec2d3fdba5c10b0ca2382c8df9052c4f54acb054d4ab1f8ffc837d6fd8f62"
+    },
+    {
+      "name": "agency-document-generator",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-document-generator\\SKILL.md",
+      "sha256": "b739ac3de64d11b7fdc7e38e4df401963f61b259871fcbd70581a4fc0976bc58"
+    },
+    {
+      "name": "agency-identity-access-engineer",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-identity-access-engineer\\SKILL.md",
+      "sha256": "0415ad85cd89abd3e72e279ac01088c605b2061eb93eeeaed642667c35abdf35"
+    },
+    {
+      "name": "agency-internationalization-engineer",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-internationalization-engineer\\SKILL.md",
+      "sha256": "45b7ee9231136fc27840fa8e50a6030b4d822054235d422f2568855685c1fa60"
+    },
+    {
+      "name": "agency-payments-billing-engineer",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-payments-billing-engineer\\SKILL.md",
+      "sha256": "38ba4bff1bc97eba1e563781c71ca7eee09b066cfeefcac007ce71f8cc26e4d3"
+    },
+    {
+      "name": "agency-performance-benchmarker",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-performance-benchmarker\\SKILL.md",
+      "sha256": "67505fc97150af603e22b5d45bcb57d66ff28a47a901344f51a9ffde7ed0e657"
+    },
+    {
+      "name": "agency-privacy-engineer",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-privacy-engineer\\SKILL.md",
+      "sha256": "37fbaf3e861e3e869c06c0d31c4b2a0f9ec2dc991270304922cdb65e788d533e"
+    },
+    {
+      "name": "agency-research-synthesist",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-research-synthesist\\SKILL.md",
+      "sha256": "5c8692583dd4a26a9091df9e0205e9b7b3c7b9e32af54b7eef4ec3ded5da451d"
+    },
+    {
+      "name": "agency-secrets-credential-hygiene-engineer",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-secrets-credential-hygiene-engineer\\SKILL.md",
+      "sha256": "0776f0bf1646f7b47fcae7b734f21cc9921985bdae4f5a2ee29fce01b00218a5"
+    },
+    {
+      "name": "agency-security-architect",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-security-architect\\SKILL.md",
+      "sha256": "a64be1e87db6d8626a939837358cc7c0eba97d9fd517ba72c3fd7142ef4a87c4"
+    },
+    {
+      "name": "agency-technical-writer",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-technical-writer\\SKILL.md",
+      "sha256": "b4c37195e10dbe108e52994bc8fef2779bfac0d6722b421f81eae9506cdd1820"
+    },
+    {
+      "name": "agency-ux-researcher",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-ux-researcher\\SKILL.md",
+      "sha256": "dccee3fb3ca79ac8e011b6c8c1de3bbd7e74ede7d27cfd6ecac6d46bc776d966"
+    },
+    {
+      "name": "impeccable",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\impeccable\\SKILL.md",
+      "sha256": "a09052775894a2bd61cd8b9327c0c4b3d2215551acb191f84a6e82a697b109f4"
+    },
+    {
+      "name": "e2e",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\e2e\\SKILL.md",
+      "sha256": "99de53b787d3ecc7c55f169cf70b5d1605188a3010f31cb85e2c5e53cf9fe9aa"
+    },
+    {
+      "name": "webapp-testing",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\webapp-testing\\SKILL.md",
+      "sha256": "e3abcc5741fa0257fc42bb55d2558fa20e13cfd99483cf7e50b4cd0e65458b68"
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\vercel-react-best-practices\\SKILL.md",
+      "sha256": "ff533abf4194257db7934c129a11f2e539dd439b4d25562b0741897df47d5de9"
+    },
+    {
+      "name": "fixing-metadata",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\fixing-metadata\\SKILL.md",
+      "sha256": "b8315ff95a92dcfa48c33e2b4838a31d9448bd46252aab45726549ce865d6547"
+    },
+    {
+      "name": "web-design-guidelines",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\web-design-guidelines\\SKILL.md",
+      "sha256": "f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f"
+    },
+    {
+      "name": "animate",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\animate\\SKILL.md",
+      "sha256": "b8ede161270458e6ae2e45e8a1985373515d4c63de5568ddb0f9012d7634356c"
+    },
+    {
+      "name": "animation-performance",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\animation-performance\\SKILL.md",
+      "sha256": "ceb9dd3fe912615830f725a0120ccf8d012d15a6218001a5cd6c15d38e39a957"
+    },
+    {
+      "name": "find-animation-opportunities",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\find-animation-opportunities\\SKILL.md",
+      "sha256": "d52a377819b84a71930f0c822cfe2849f40301605a2d5c7eccbfa3b257700df2"
+    },
+    {
+      "name": "emil-design-eng",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\emil-design-eng\\SKILL.md",
+      "sha256": "ffbe68e6007fb42cb8149f089b400a1ca007d59ba23e8948e2be4476f3175939"
+    },
+    {
+      "name": "review-animations",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\review-animations\\SKILL.md",
+      "sha256": "6ff590d29e436766135aa3d137be1fac2a867165c7257fc315b189361f1873af"
+    },
+    {
+      "name": "improve-animations",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\improve-animations\\SKILL.md",
+      "sha256": "73962447464433476343e2c12cd08ab39cc99a9e5f3c118c5fb54ed897574ef6"
+    },
+    {
+      "name": "animation-vocabulary",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\animation-vocabulary\\SKILL.md",
+      "sha256": "40d2b27adfdfeb0570a9f20e7d0255109d9233c50603878bcd0dcd04c923fd94"
+    },
+    {
+      "name": "fixing-accessibility",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\fixing-accessibility\\SKILL.md",
+      "sha256": "549261e8a53b53a1a20c0ddbf736821e5fc0876ad82eee76e0efab8e9ee9dadf"
+    },
+    {
+      "name": "break-ui",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\break-ui\\SKILL.md",
+      "sha256": "e7eec1d70ac56a04255e9c0dbe98084ea3d544cc04aaad34f32c95d6fa9dff5e"
+    },
+    {
+      "name": "mobile-native",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\mobile-native\\SKILL.md",
+      "sha256": "888b7651d66d66dbac4e72b7c554638eb19bd971d686d6cbdf030a5ef3788f55"
+    },
+    {
+      "name": "vercel-composition-patterns",
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\vercel-composition-patterns\\SKILL.md",
+      "sha256": "e38e0eaa609316b10423a9a138ed95e35099accd3f735585295c8a8f165c28a3"
+    }
+  ],
+  "protectedOperationalConfigurationsBefore": {
+    ".omp/agent/config.yml": "f15276920b08d9c35f0e58be3e4400cee4789c05eb8c035559ad568c7b6abfd9",
+    ".omp/agent/mcp.json": "a98ba01eaee528cc122a0d87187a1327d94b245fd83ab49aa8bdc1d3c852b979",
+    ".omp/agent/ecosystem/runtime/memory-policy.json": "795aba128b75afb435ce02ce1b66f212d779c9c93c7be75f475800d2dbb3c571"
+  },
+  "observedVersions": {
+    "omp": "18.14.1",
+    "node": "24.19.0",
+    "bun": "1.4.2"
+  },
+  "licenseNotes": {
+    "gsap-skills": "Original MIT LICENSE retained in source and all three installed skills; runtime GSAP has separate Standard No Charge license.",
+    "pocock": "Original MIT LICENSE retained with both skills; old selected Pocock skills not upgraded.",
+    "motion": "MIT declared by original vendor installation docs and packages/motion-ai/package.json; no root LICENSE text in inspected upstream tree. Original subtree and declarations retained without inventing a license file."
+  },
+  "notEnabled": [
+    "application gsap/@gsap/react/motion packages",
+    "motion-ai installer",
+    "Motion/Motion+ MCP",
+    "MotionScore/paid audits",
+    "GSAP examples or framework postinstall",
+    "new providers/hooks/services",
+    "bulk upstream upgrades",
+    "other-host configuration changes"
+  ],
+  "knownSourceLimits": [
+    "GSAP-react contextSafe does not substitute for cancellation/removal of async work/listeners; versioned API docs required.",
+    "Uninstalled GSAP related plugin/ScrollTrigger skill names are references, not installed capabilities; source flaws documented in review.",
+    "Motion best-practices is self-contained; search, premium source, scores, generation/editor functionality may require services or tiers not enabled.",
+    "to-questionnaire original frontmatter is explicit-only; questionnaire is not a validated academic instrument."
+  ],
+  "verification": {
+    "status": "passed-with-stated-scope",
+    "nativeDiscovery": {
+      "evidence": "measurements/skills-routing-20261031-discovery.json",
+      "exitCode": 0,
+      "cwdCount": 2,
+      "registeredSkills": 96,
+      "modelVisibleSkills": 93,
+      "hidden": [
+        "grill-me",
+        "review-animations",
+        "to-questionnaire"
+      ],
+      "warnings": 0,
+      "scope": "Actual native discovery, slash commands, skill URI source resolution and global prompt loading; MCP/extensions disabled, no model inference."
+    },
+    "semanticSelection": {
+      "evidence": "measurements/skills-routing-20261031-selection.json",
+      "exitCode": 0,
+      "cases": 192,
+      "passed": 192,
+      "modelsTested": [
+        "openai-codex/gpt-6.1-sol"
+      ],
+      "scope": "Finite most-specific-guide classifications, not tool invocation/workload execution or proof of other-model equivalence."
+    },
+    "integrity": {
+      "evidence": "measurements/skills-routing-20261031-integrity.json",
+      "installedOriginalFiles": 26,
+      "existingEntryPointsUnchanged": 90,
+      "bundledProseReferencesResolved": 22,
+      "operationalConfigChanges": false,
+      "firstFailure": "Initial throwaway link check treated fenced glossary examples as bundled references; corrected checker, vendor files unchanged."
+    },
+    "snapshotVerifierSelfCheck": {
+      "command": "node scripts/verify-snapshot.mjs --self-test",
+      "exitCode": 0,
+      "scope": "In-memory corruption/missing/unlisted/duplicate/path boundary self-check; not restore or secret certification."
+    },
+    "notTested": [
+      "actual frontend app or animation runtime",
+      "GSAP/Motion runtime package installation",
+      "other model providers or accounts",
+      "clean-machine restore",
+      "live MCP/API/cloud behavior"
+    ]
+  },
+  "rollback": {
+    "backup": "backups/skills-routing-20261031/",
+    "policy": "Restore only task-owned routing/ledger files; move the six new skill dirs outside discovery, do not delete user data or restore unrelated configs; start a new session."
+  },
+  "catalogReview": {
+    "existingEntriesReviewed": 90,
+    "additions": 6,
+    "catalogEntries": 96,
+    "ownerPolicy": "Actual intent/stage/artifact and preserved approvals; one owner plus relevant support, explicit-only/quotation boundaries preserved.",
+    "fixedContradiction": "Project guide previously described native bug review ambiguously; only explicit /review selects native review.",
+    "changes": [
+      "Early model-neutral routing precedence in global policy",
+      "Six new positive and near-miss fixtures; questionnaire hidden",
+      "Stage and dependency boundaries in global catalog and project guide",
+      "Vendor bias/known source flaws constrained by local policy instead of patching skill bodies"
+    ],
+    "learningNotes": [
+      "GSAP timelines use labels/position parameters instead of delay chains; React needs scope and client lifecycle cleanup.",
+      "contextSafe tracks GSAP objects; timers/listeners/promises still require their own cleanup/cancellation.",
+      "Motion best-practices support standalone use; no premium audit methodology or server capability invented.",
+      "Domain glossary captures business concepts, ADRs only meaningful hard-to-reverse tradeoffs; incumbent conventions prevail.",
+      "Questionnaire asks the person who holds missing knowledge; not automatic intake or validated research instrument."
+    ]
+  },
+  "setupSnapshot": {
+    "repository": "https://github.com/SaKuRa-u/omp-setup",
+    "localPath": "C:\\Users\\Indrimeilla-PC\\orca\\projects\\omp-setup",
+    "policy": "Refresh existing approved payload inventory plus installed skill text/support, current routing/runtime helpers, sanitized provenance and models.yml command configuration; exclude credential values, DPAPI, runtime state, histories, dependency trees, binaries and archives.",
+    "redactions": "Preserve two historical signed-download-token redactions without opening their raw local source metadata.",
+    "repoRepairs": [
+      "README baseline/current versions and restore startup safety clarified",
+      "Stale fixed inventory count removed",
+      "Offline manifest verifier added; no auto-restore or new dependencies"
+    ],
+    "publication": "Normal scoped commit/push after final offline snapshot verification; no force push or history rewrite."
+  }
+}

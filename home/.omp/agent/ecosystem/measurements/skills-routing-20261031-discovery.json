@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "date": "2026-10-31",
+  "command": "bun C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/check-skill-routing.mjs C:/Users/Indrimeilla-PC/orca/projects/Onboarding",
+  "exitCode": 0,
+  "observedOmpVersion": "18.14.1",
+  "kind": "Native discovery, command, URI and prompt smoke; not semantic selection or workload execution",
+  "results": [
+    {
+      "cwd": "C:/Users/Indrimeilla-PC/orca/projects/Onboarding",
+      "skills": 96,
+      "modelVisible": 93,
+      "hidden": ["grill-me", "review-animations", "to-questionnaire"],
+      "warnings": [],
+      "skillCommands": 96,
+      "resolvedSkillUris": 96,
+      "globalRoutingLoaded": true,
+      "model": {"provider": "openai-codex", "id": "gpt-6.1-sol"},
+      "toolNames": ["read"],
+      "mcpDisabled": true,
+      "modelInferenceRequested": false
+    },
+    {
+      "cwd": "C:/Users/Indrimeilla-PC/AppData/Local/Temp",
+      "skills": 96,
+      "modelVisible": 93,
+      "hidden": ["grill-me", "review-animations", "to-questionnaire"],
+      "warnings": [],
+      "skillCommands": 96,
+      "resolvedSkillUris": 96,
+      "globalRoutingLoaded": true,
+      "model": {"provider": "openai-codex", "id": "gpt-6.1-sol"},
+      "toolNames": ["read"],
+      "mcpDisabled": true,
+      "modelInferenceRequested": false
+    }
+  ]
+}

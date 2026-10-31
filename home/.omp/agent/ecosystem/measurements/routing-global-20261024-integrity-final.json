@@ -1,0 +1,888 @@
+{
+  "status": "passed",
+  "protectedEntryPoints": 80,
+  "protectedOperationalConfigurations": 2,
+  "protectedUnchanged": 82,
+  "originalPayloadsMatched": 40,
+  "intentionalDocChanges": [
+    "IMPECCABLE-OMP.md"
+  ],
+  "rollbackPolicyByteExact": true,
+  "backupCorrection": "Full-file native raw read omitted terminal LF. One LF restored, matching the original pre-edit SHA256; reported via xd://report_issue.",
+  "files": [
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\academic-paper\\SKILL.md",
+      "expected": "8a7bb8ae8bfebefb9e3ea4a11ab2a42c024dd6a27d4ecc04c2865471ab8137b3",
+      "sha256": "8a7bb8ae8bfebefb9e3ea4a11ab2a42c024dd6a27d4ecc04c2865471ab8137b3",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\academic-paper-reviewer\\SKILL.md",
+      "expected": "bedfda8a9202456b57cbd6ebc99c58b6db13a75e0110c1be33493d6bad94b536",
+      "sha256": "bedfda8a9202456b57cbd6ebc99c58b6db13a75e0110c1be33493d6bad94b536",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\academic-pipeline\\SKILL.md",
+      "expected": "5f2091fd3216adbb7f2a4cb15422c9f001bb74d4455c0aebfbc91157663f33ef",
+      "sha256": "5f2091fd3216adbb7f2a4cb15422c9f001bb74d4455c0aebfbc91157663f33ef",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-accessibility-auditor\\SKILL.md",
+      "expected": "1b099d10cc4f82568ded01d9918cd63e24ad177702f5dc76b991e60e7eff71dd",
+      "sha256": "1b099d10cc4f82568ded01d9918cd63e24ad177702f5dc76b991e60e7eff71dd",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-api-platform-engineer\\SKILL.md",
+      "expected": "c931dccf3641f1e29e79dcf4f97d6929a8dc33405537eb1ec1befa23324b8947",
+      "sha256": "c931dccf3641f1e29e79dcf4f97d6929a8dc33405537eb1ec1befa23324b8947",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-api-tester\\SKILL.md",
+      "expected": "9113c51692c178cae9969871c2df1da461efff0e9d131c7ca2aa3d2dae8f1e95",
+      "sha256": "9113c51692c178cae9969871c2df1da461efff0e9d131c7ca2aa3d2dae8f1e95",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-brand-guardian\\SKILL.md",
+      "expected": "63d98375cc936eb03530930d6e527b3da6c20cc581f932cd3e971e622f002136",
+      "sha256": "63d98375cc936eb03530930d6e527b3da6c20cc581f932cd3e971e622f002136",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-database-reliability-engineer\\SKILL.md",
+      "expected": "c17d3c559d25049697f19a76852661d531430a900208b4a5aefcdd2d9944547e",
+      "sha256": "c17d3c559d25049697f19a76852661d531430a900208b4a5aefcdd2d9944547e",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-developer-tooling-engineer\\SKILL.md",
+      "expected": "0bdec2d3fdba5c10b0ca2382c8df9052c4f54acb054d4ab1f8ffc837d6fd8f62",
+      "sha256": "0bdec2d3fdba5c10b0ca2382c8df9052c4f54acb054d4ab1f8ffc837d6fd8f62",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-document-generator\\SKILL.md",
+      "expected": "b739ac3de64d11b7fdc7e38e4df401963f61b259871fcbd70581a4fc0976bc58",
+      "sha256": "b739ac3de64d11b7fdc7e38e4df401963f61b259871fcbd70581a4fc0976bc58",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-identity-access-engineer\\SKILL.md",
+      "expected": "0415ad85cd89abd3e72e279ac01088c605b2061eb93eeeaed642667c35abdf35",
+      "sha256": "0415ad85cd89abd3e72e279ac01088c605b2061eb93eeeaed642667c35abdf35",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-internationalization-engineer\\SKILL.md",
+      "expected": "45b7ee9231136fc27840fa8e50a6030b4d822054235d422f2568855685c1fa60",
+      "sha256": "45b7ee9231136fc27840fa8e50a6030b4d822054235d422f2568855685c1fa60",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-payments-billing-engineer\\SKILL.md",
+      "expected": "38ba4bff1bc97eba1e563781c71ca7eee09b066cfeefcac007ce71f8cc26e4d3",
+      "sha256": "38ba4bff1bc97eba1e563781c71ca7eee09b066cfeefcac007ce71f8cc26e4d3",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-performance-benchmarker\\SKILL.md",
+      "expected": "67505fc97150af603e22b5d45bcb57d66ff28a47a901344f51a9ffde7ed0e657",
+      "sha256": "67505fc97150af603e22b5d45bcb57d66ff28a47a901344f51a9ffde7ed0e657",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-privacy-engineer\\SKILL.md",
+      "expected": "37fbaf3e861e3e869c06c0d31c4b2a0f9ec2dc991270304922cdb65e788d533e",
+      "sha256": "37fbaf3e861e3e869c06c0d31c4b2a0f9ec2dc991270304922cdb65e788d533e",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-research-synthesist\\SKILL.md",
+      "expected": "5c8692583dd4a26a9091df9e0205e9b7b3c7b9e32af54b7eef4ec3ded5da451d",
+      "sha256": "5c8692583dd4a26a9091df9e0205e9b7b3c7b9e32af54b7eef4ec3ded5da451d",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-secrets-credential-hygiene-engineer\\SKILL.md",
+      "expected": "0776f0bf1646f7b47fcae7b734f21cc9921985bdae4f5a2ee29fce01b00218a5",
+      "sha256": "0776f0bf1646f7b47fcae7b734f21cc9921985bdae4f5a2ee29fce01b00218a5",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-security-architect\\SKILL.md",
+      "expected": "a64be1e87db6d8626a939837358cc7c0eba97d9fd517ba72c3fd7142ef4a87c4",
+      "sha256": "a64be1e87db6d8626a939837358cc7c0eba97d9fd517ba72c3fd7142ef4a87c4",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-technical-writer\\SKILL.md",
+      "expected": "b4c37195e10dbe108e52994bc8fef2779bfac0d6722b421f81eae9506cdd1820",
+      "sha256": "b4c37195e10dbe108e52994bc8fef2779bfac0d6722b421f81eae9506cdd1820",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-ux-researcher\\SKILL.md",
+      "expected": "dccee3fb3ca79ac8e011b6c8c1de3bbd7e74ede7d27cfd6ecac6d46bc776d966",
+      "sha256": "dccee3fb3ca79ac8e011b6c8c1de3bbd7e74ede7d27cfd6ecac6d46bc776d966",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\ansible-automation\\SKILL.md",
+      "expected": "b6d0c5fb8451ccccfafe062940902ec96e232d8958f326fe7add8170a4ad6c6a",
+      "sha256": "b6d0c5fb8451ccccfafe062940902ec96e232d8958f326fe7add8170a4ad6c6a",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\aws-ami-builder\\SKILL.md",
+      "expected": "5d024e7d72e96a8267239deb7280cb5bc32cb4040b24e4769127b7ea84c024a2",
+      "sha256": "5d024e7d72e96a8267239deb7280cb5bc32cb4040b24e4769127b7ea84c024a2",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\azure-image-builder\\SKILL.md",
+      "expected": "663105e3c6b7c6c5fb5bd49213bd9acad41f696d4061a66ec7332f1b4ce9a2e1",
+      "sha256": "663105e3c6b7c6c5fb5bd49213bd9acad41f696d4061a66ec7332f1b4ce9a2e1",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\azure-verified-modules\\SKILL.md",
+      "expected": "37a57f25781c969047af3e46e88dc893ddec8a62854955e96d8f88791b02ae26",
+      "sha256": "37a57f25781c969047af3e46e88dc893ddec8a62854955e96d8f88791b02ae26",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\caveman\\SKILL.md",
+      "expected": "415d43518f2b1a9498c15a445d4657117b129ee5e81b19454ce348439cc6672b",
+      "sha256": "415d43518f2b1a9498c15a445d4657117b129ee5e81b19454ce348439cc6672b",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\citation-management\\SKILL.md",
+      "expected": "dc79fe1e8438dcf598040615d5323360c6a7ed0b868fc3ffc82512c871a1e3ff",
+      "sha256": "dc79fe1e8438dcf598040615d5323360c6a7ed0b868fc3ffc82512c871a1e3ff",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\impeccable\\SKILL.md",
+      "expected": "f2253314df240a37061ae4bd4684e9c179e56816aef77388d014ad375521c34c",
+      "sha256": "f2253314df240a37061ae4bd4684e9c179e56816aef77388d014ad375521c34c",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\code-review\\SKILL.md",
+      "expected": "9e6d1b00c31e10a002ac3e5fb49014c9589166f668c62996e80a36d23ca21e70",
+      "sha256": "9e6d1b00c31e10a002ac3e5fb49014c9589166f668c62996e80a36d23ca21e70",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\codebase-design\\SKILL.md",
+      "expected": "362b0bec828219d9f4b08ca7c466164e67253bdd817359258e60d2e9c5692a8f",
+      "sha256": "362b0bec828219d9f4b08ca7c466164e67253bdd817359258e60d2e9c5692a8f",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\computer-use\\SKILL.md",
+      "expected": "2839933fd35216845461466403e6061488005f6df57126d0cd0f769ea45753f3",
+      "sha256": "2839933fd35216845461466403e6061488005f6df57126d0cd0f769ea45753f3",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\context7-docs\\SKILL.md",
+      "expected": "6850f27ec2bfa2a81e1ec7aca79323f2e22c842dd2daf97d3766500a90e80c90",
+      "sha256": "6850f27ec2bfa2a81e1ec7aca79323f2e22c842dd2daf97d3766500a90e80c90",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\deep-research\\SKILL.md",
+      "expected": "d4b056eab3bb520bf7a45aeb3cf16260b532e0d99cec414d9ed9085b1f470948",
+      "sha256": "d4b056eab3bb520bf7a45aeb3cf16260b532e0d99cec414d9ed9085b1f470948",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\docker-container-builds\\SKILL.md",
+      "expected": "36b0d6f683d9b86d94660539e39e6266aca79539205ebd687b3f432f6246cc29",
+      "sha256": "36b0d6f683d9b86d94660539e39e6266aca79539205ebd687b3f432f6246cc29",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\e2e\\SKILL.md",
+      "expected": "99de53b787d3ecc7c55f169cf70b5d1605188a3010f31cb85e2c5e53cf9fe9aa",
+      "sha256": "99de53b787d3ecc7c55f169cf70b5d1605188a3010f31cb85e2c5e53cf9fe9aa",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\find-skills\\SKILL.md",
+      "expected": "c00eeea0e13e74fe4a9d84ba0a8542205a1b736d65f13134fe1a6647eb14976f",
+      "sha256": "c00eeea0e13e74fe4a9d84ba0a8542205a1b736d65f13134fe1a6647eb14976f",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\fixing-metadata\\SKILL.md",
+      "expected": "b8315ff95a92dcfa48c33e2b4838a31d9448bd46252aab45726549ce865d6547",
+      "sha256": "b8315ff95a92dcfa48c33e2b4838a31d9448bd46252aab45726549ce865d6547",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\grill-me\\SKILL.md",
+      "expected": "19e660207b447acf6ee0d600471c02e549c7aca8fb3ab38fdc2c7056aa442fc8",
+      "sha256": "19e660207b447acf6ee0d600471c02e549c7aca8fb3ab38fdc2c7056aa442fc8",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\grilling\\SKILL.md",
+      "expected": "26d225ea8a36f4acacbe267e789cfb97d73964412f4243dd4b65b6cb806ddebc",
+      "sha256": "26d225ea8a36f4acacbe267e789cfb97d73964412f4243dd4b65b6cb806ddebc",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\humanizer\\SKILL.md",
+      "expected": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad",
+      "sha256": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\impeccable\\SKILL.md",
+      "expected": "a09052775894a2bd61cd8b9327c0c4b3d2215551acb191f84a6e82a697b109f4",
+      "sha256": "a09052775894a2bd61cd8b9327c0c4b3d2215551acb191f84a6e82a697b109f4",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\kubernetes-manifest-operations\\SKILL.md",
+      "expected": "b18110b2709735c33bf852a4d17d1a5847f94bf3c763a9ea2260d57fe3e20a2a",
+      "sha256": "b18110b2709735c33bf852a4d17d1a5847f94bf3c763a9ea2260d57fe3e20a2a",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\mcp-builder\\SKILL.md",
+      "expected": "57231330040e18e033dad8b2fdc0340a6185034c32b42b7d3448f444a6af6cf2",
+      "sha256": "57231330040e18e033dad8b2fdc0340a6185034c32b42b7d3448f444a6af6cf2",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\new-terraform-provider\\SKILL.md",
+      "expected": "d7afad608890883f400efeff370677e6b6bf750e0ed2544b2b1ee48e4cfad9db",
+      "sha256": "d7afad608890883f400efeff370677e6b6bf750e0ed2544b2b1ee48e4cfad9db",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\orca-cli\\SKILL.md",
+      "expected": "aa76f86505010096e8ea9edda1705a78aae7af45e54485f3fe0460664c1d9e4a",
+      "sha256": "aa76f86505010096e8ea9edda1705a78aae7af45e54485f3fe0460664c1d9e4a",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\orchestration\\SKILL.md",
+      "expected": "cd1b364bf35781bad06bf75ab1766afa8d6cec69cb2060529691d89871a2098a",
+      "sha256": "cd1b364bf35781bad06bf75ab1766afa8d6cec69cb2060529691d89871a2098a",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail\\SKILL.md",
+      "expected": "f18008471528f0adde90a560d053f85935eed5cee26c447b7177ad24472bcf32",
+      "sha256": "f18008471528f0adde90a560d053f85935eed5cee26c447b7177ad24472bcf32",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-audit\\SKILL.md",
+      "expected": "3ab632ce4695de214dafe4db13d6f939e1c4be328bd0754ea751dc28b70be554",
+      "sha256": "3ab632ce4695de214dafe4db13d6f939e1c4be328bd0754ea751dc28b70be554",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-debt\\SKILL.md",
+      "expected": "f0b59cb7e623f68568f2164864c757d41f0452d176c2f28b5b9b3c6b7ef3a799",
+      "sha256": "f0b59cb7e623f68568f2164864c757d41f0452d176c2f28b5b9b3c6b7ef3a799",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-gain\\SKILL.md",
+      "expected": "b87f5b982820479831608d3b3d4b942c95577820fef088662348eb16b48792dc",
+      "sha256": "b87f5b982820479831608d3b3d4b942c95577820fef088662348eb16b48792dc",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-help\\SKILL.md",
+      "expected": "c4b353c9a13a9fd7008e319d1965816faaed13dcb61feb90afc514e50031706b",
+      "sha256": "c4b353c9a13a9fd7008e319d1965816faaed13dcb61feb90afc514e50031706b",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-review\\SKILL.md",
+      "expected": "affa0eedca467b58699fafbea28f6f85352aa3e7f23785964bf42f029a291504",
+      "sha256": "affa0eedca467b58699fafbea28f6f85352aa3e7f23785964bf42f029a291504",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-actions\\SKILL.md",
+      "expected": "dbcd9cc0325c0883ecd7b2ebf82f06f792d06209e879f452f21f2dbf0014afd9",
+      "sha256": "dbcd9cc0325c0883ecd7b2ebf82f06f792d06209e879f452f21f2dbf0014afd9",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-configuration\\SKILL.md",
+      "expected": "b7d258ed0e652c189bcbbbef807ff85ee089cb9e1090d433c0e958dcd6d120c7",
+      "sha256": "b7d258ed0e652c189bcbbbef807ff85ee089cb9e1090d433c0e958dcd6d120c7",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-docs\\SKILL.md",
+      "expected": "30e2b8ce3e4681b31b8770ab4772734fd781d2549cf9ace99d8a7b7ad22d21e7",
+      "sha256": "30e2b8ce3e4681b31b8770ab4772734fd781d2549cf9ace99d8a7b7ad22d21e7",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-ephemeral-resources\\SKILL.md",
+      "expected": "e711d5b0bcb75964ad836645efd6ffe45818897f9b615d2c82e1c29d1e4214ac",
+      "sha256": "e711d5b0bcb75964ad836645efd6ffe45818897f9b615d2c82e1c29d1e4214ac",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-framework-migration\\SKILL.md",
+      "expected": "0b36f1e21989752636378fc83c85cb5b4dfc849b386773c2bfd44b892a4471c0",
+      "sha256": "0b36f1e21989752636378fc83c85cb5b4dfc849b386773c2bfd44b892a4471c0",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-resources\\SKILL.md",
+      "expected": "506969ba37c76c95764641bb6486f81b776b19f1b57deb9d0f749112c780c044",
+      "sha256": "506969ba37c76c95764641bb6486f81b776b19f1b57deb9d0f749112c780c044",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-test-patterns\\SKILL.md",
+      "expected": "44bdce7836f64e60dbaf707d6d79e7000f795abc5b63f909f4e3e0176fdad7f2",
+      "sha256": "44bdce7836f64e60dbaf707d6d79e7000f795abc5b63f909f4e3e0176fdad7f2",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\push-to-registry\\SKILL.md",
+      "expected": "0872fe76b66ae9c1a90d6a4863f142fd66e1daed8debaa9c3f6751e22f85c8aa",
+      "sha256": "0872fe76b66ae9c1a90d6a4863f142fd66e1daed8debaa9c3f6751e22f85c8aa",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\receiving-code-review\\SKILL.md",
+      "expected": "091df1629510af1b92fc4abd6f96732ebedb4cb2c0f3457e8f2740b0504a2438",
+      "sha256": "091df1629510af1b92fc4abd6f96732ebedb4cb2c0f3457e8f2740b0504a2438",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\refactor-module\\SKILL.md",
+      "expected": "9badbbfe059e08e7b4c4a8438c2e610c075f889bee397494253f16f57251d340",
+      "sha256": "9badbbfe059e08e7b4c4a8438c2e610c075f889bee397494253f16f57251d340",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\reverse-engineer-anything\\SKILL.md",
+      "expected": "3456aab99d48c3294726065c9d5bd586bc165f2849fd5a3d5080381630564715",
+      "sha256": "3456aab99d48c3294726065c9d5bd586bc165f2849fd5a3d5080381630564715",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\run-acceptance-tests\\SKILL.md",
+      "expected": "0bf16353192fd063574ee4a92b45a056d54f09d36910cf40f8cf342d58ee88bf",
+      "sha256": "0bf16353192fd063574ee4a92b45a056d54f09d36910cf40f8cf342d58ee88bf",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\security-audit\\SKILL.md",
+      "expected": "5e3e96a1e438d8f35fef0a1e38f02d4f00e2bdf910401b7dfe00e6779c6dac85",
+      "sha256": "5e3e96a1e438d8f35fef0a1e38f02d4f00e2bdf910401b7dfe00e6779c6dac85",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\skill-creator\\SKILL.md",
+      "expected": "e030e7685e26283b4a76f5202aa3ae8516fb41dde799be5ae8ea6393ec009fe9",
+      "sha256": "e030e7685e26283b4a76f5202aa3ae8516fb41dde799be5ae8ea6393ec009fe9",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\sr-screener\\SKILL.md",
+      "expected": "b737e314865c0d26cbfc2721a2e7a2df430a0687be950636329cb6ad52cd15f0",
+      "sha256": "b737e314865c0d26cbfc2721a2e7a2df430a0687be950636329cb6ad52cd15f0",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\supabase-postgres-best-practices\\SKILL.md",
+      "expected": "6cf4bd8702d750c9dbdc549e3ae83e0a4ccb13d771c53f7ebb7fec69c22a90a2",
+      "sha256": "6cf4bd8702d750c9dbdc549e3ae83e0a4ccb13d771c53f7ebb7fec69c22a90a2",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\supermemory-v5\\SKILL.md",
+      "expected": "aaeb6fd9c9c862fdc3e29fe8be3ddf376938a3221122afccdcc0e1ab63022502",
+      "sha256": "aaeb6fd9c9c862fdc3e29fe8be3ddf376938a3221122afccdcc0e1ab63022502",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\systematic-debugging\\SKILL.md",
+      "expected": "51c6435d98c83c42c96ba7c35725a0b2c376cd487fb1a4e6bd0ddbe7e33ef202",
+      "sha256": "51c6435d98c83c42c96ba7c35725a0b2c376cd487fb1a4e6bd0ddbe7e33ef202",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\tdd\\SKILL.md",
+      "expected": "969583080caf842ae86a53501a0091eced13fd89cad65d3aa75c09112318ff33",
+      "sha256": "969583080caf842ae86a53501a0091eced13fd89cad65d3aa75c09112318ff33",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-policy\\SKILL.md",
+      "expected": "30b88732b769080bd69165db625c76cbd6cb08f3c06d115ddfe986c824d55f11",
+      "sha256": "30b88732b769080bd69165db625c76cbd6cb08f3c06d115ddfe986c824d55f11",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-search-import\\SKILL.md",
+      "expected": "0f9962c74132d1ed18276dc5e99b2188c9c68eb28b230fdff7fbe551e4984cc4",
+      "sha256": "0f9962c74132d1ed18276dc5e99b2188c9c68eb28b230fdff7fbe551e4984cc4",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-stacks\\SKILL.md",
+      "expected": "7070a22bbac3c73c8a160be961c03c1aede03831aaf7386ac47563d9c49540de",
+      "sha256": "7070a22bbac3c73c8a160be961c03c1aede03831aaf7386ac47563d9c49540de",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-style-guide\\SKILL.md",
+      "expected": "2c7fc6eadd111edb164ede512d2e81eecd2a311c0a9f9fbb4f7e13d6bc6bfe10",
+      "sha256": "2c7fc6eadd111edb164ede512d2e81eecd2a311c0a9f9fbb4f7e13d6bc6bfe10",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-test\\SKILL.md",
+      "expected": "958ecbf6ce98e3dd29af4086d68e232f6922d417961f015b5fd4ff4d58d062f9",
+      "sha256": "958ecbf6ce98e3dd29af4086d68e232f6922d417961f015b5fd4ff4d58d062f9",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\vercel-react-best-practices\\SKILL.md",
+      "expected": "ff533abf4194257db7934c129a11f2e539dd439b4d25562b0741897df47d5de9",
+      "sha256": "ff533abf4194257db7934c129a11f2e539dd439b4d25562b0741897df47d5de9",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\verification-before-completion\\SKILL.md",
+      "expected": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3",
+      "sha256": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\web-design-guidelines\\SKILL.md",
+      "expected": "f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f",
+      "sha256": "f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\webapp-testing\\SKILL.md",
+      "expected": "e3abcc5741fa0257fc42bb55d2558fa20e13cfd99483cf7e50b4cd0e65458b68",
+      "sha256": "e3abcc5741fa0257fc42bb55d2558fa20e13cfd99483cf7e50b4cd0e65458b68",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\windows-builder\\SKILL.md",
+      "expected": "1b6bebb68e3c72fc2c6dd0a3eab2026c3b4d6993d20b9632f6890a8c206930ee",
+      "sha256": "1b6bebb68e3c72fc2c6dd0a3eab2026c3b4d6993d20b9632f6890a8c206930ee",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/mcp.json",
+      "expected": "a98ba01eaee528cc122a0d87187a1327d94b245fd83ab49aa8bdc1d3c852b979",
+      "sha256": "a98ba01eaee528cc122a0d87187a1327d94b245fd83ab49aa8bdc1d3c852b979",
+      "match": true
+    },
+    {
+      "kind": "protected",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/memory-policy.json",
+      "expected": "795aba128b75afb435ce02ce1b66f212d779c9c93c7be75f475800d2dbb3c571",
+      "sha256": "795aba128b75afb435ce02ce1b66f212d779c9c93c7be75f475800d2dbb3c571",
+      "match": true
+    },
+    {
+      "kind": "intentional-doc-change",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/IMPECCABLE-OMP.md",
+      "expected": "9883db2e3377f3a3c8bf96dcfa1898c054e7e460545c46e8df10102ecf0e8c03",
+      "sha256": "653f40f37273292d6bc466dfe453e7870fe212613f66f5707682176f00cc0a30",
+      "match": false
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/animate/SKILL.md",
+      "expected": "b8ede161270458e6ae2e45e8a1985373515d4c63de5568ddb0f9012d7634356c",
+      "sha256": "b8ede161270458e6ae2e45e8a1985373515d4c63de5568ddb0f9012d7634356c",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/animate/RECIPES.md",
+      "expected": "21ff63d84391db8d96ecdf9170095f55a42c836ccc36fd3269c4772bab031ba2",
+      "sha256": "21ff63d84391db8d96ecdf9170095f55a42c836ccc36fd3269c4772bab031ba2",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/animation-performance/SKILL.md",
+      "expected": "ceb9dd3fe912615830f725a0120ccf8d012d15a6218001a5cd6c15d38e39a957",
+      "sha256": "ceb9dd3fe912615830f725a0120ccf8d012d15a6218001a5cd6c15d38e39a957",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/find-animation-opportunities/SKILL.md",
+      "expected": "d52a377819b84a71930f0c822cfe2849f40301605a2d5c7eccbfa3b257700df2",
+      "sha256": "d52a377819b84a71930f0c822cfe2849f40301605a2d5c7eccbfa3b257700df2",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/emil-design-eng/SKILL.md",
+      "expected": "ffbe68e6007fb42cb8149f089b400a1ca007d59ba23e8948e2be4476f3175939",
+      "sha256": "ffbe68e6007fb42cb8149f089b400a1ca007d59ba23e8948e2be4476f3175939",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/review-animations/SKILL.md",
+      "expected": "6ff590d29e436766135aa3d137be1fac2a867165c7257fc315b189361f1873af",
+      "sha256": "6ff590d29e436766135aa3d137be1fac2a867165c7257fc315b189361f1873af",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/review-animations/STANDARDS.md",
+      "expected": "e7d3605034acda54ca13e43aec9e64d65b53de20f75b11b8d694e373012fbe07",
+      "sha256": "e7d3605034acda54ca13e43aec9e64d65b53de20f75b11b8d694e373012fbe07",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/improve-animations/SKILL.md",
+      "expected": "73962447464433476343e2c12cd08ab39cc99a9e5f3c118c5fb54ed897574ef6",
+      "sha256": "73962447464433476343e2c12cd08ab39cc99a9e5f3c118c5fb54ed897574ef6",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/improve-animations/AUDIT.md",
+      "expected": "551c8473e20e5f4774680bc24d45e1c68e50992582720905c6b077756b7b5a55",
+      "sha256": "551c8473e20e5f4774680bc24d45e1c68e50992582720905c6b077756b7b5a55",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/improve-animations/PLAN-TEMPLATE.md",
+      "expected": "0a08ac8e23fd2082d7ffb86aeed7b789de77328c3cf874b16f1a755f2ef0a6ad",
+      "sha256": "0a08ac8e23fd2082d7ffb86aeed7b789de77328c3cf874b16f1a755f2ef0a6ad",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/animation-vocabulary/SKILL.md",
+      "expected": "40d2b27adfdfeb0570a9f20e7d0255109d9233c50603878bcd0dcd04c923fd94",
+      "sha256": "40d2b27adfdfeb0570a9f20e7d0255109d9233c50603878bcd0dcd04c923fd94",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/break-ui/SKILL.md",
+      "expected": "e7eec1d70ac56a04255e9c0dbe98084ea3d544cc04aaad34f32c95d6fa9dff5e",
+      "sha256": "e7eec1d70ac56a04255e9c0dbe98084ea3d544cc04aaad34f32c95d6fa9dff5e",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/break-ui/CATALOG.md",
+      "expected": "7358efcc6bb48e35187be1c064cf60022dcb18c72c18fab58b606dfc5f421f15",
+      "sha256": "7358efcc6bb48e35187be1c064cf60022dcb18c72c18fab58b606dfc5f421f15",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/mobile-native/SKILL.md",
+      "expected": "888b7651d66d66dbac4e72b7c554638eb19bd971d686d6cbdf030a5ef3788f55",
+      "sha256": "888b7651d66d66dbac4e72b7c554638eb19bd971d686d6cbdf030a5ef3788f55",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/fixing-accessibility/SKILL.md",
+      "expected": "549261e8a53b53a1a20c0ddbf736821e5fc0876ad82eee76e0efab8e9ee9dadf",
+      "sha256": "549261e8a53b53a1a20c0ddbf736821e5fc0876ad82eee76e0efab8e9ee9dadf",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/vercel-composition-patterns/SKILL.md",
+      "expected": "e38e0eaa609316b10423a9a138ed95e35099accd3f735585295c8a8f165c28a3",
+      "sha256": "e38e0eaa609316b10423a9a138ed95e35099accd3f735585295c8a8f165c28a3",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/vercel-composition-patterns/AGENTS.md",
+      "expected": "89e3ddd58fcf99a53a50e25dfd21b8cde1be5f10b7df6bacd3dfa6796932f516",
+      "sha256": "89e3ddd58fcf99a53a50e25dfd21b8cde1be5f10b7df6bacd3dfa6796932f516",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/vercel-composition-patterns/README.md",
+      "expected": "85915a43a6f0b4efe525e3cf6398dd866166da2025837c4460468a24a940da94",
+      "sha256": "85915a43a6f0b4efe525e3cf6398dd866166da2025837c4460468a24a940da94",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/vercel-composition-patterns/metadata.json",
+      "expected": "49262ed5cb4186f31ee980cf8d990be0170c51efed4908d0464a1cff9905bd05",
+      "sha256": "49262ed5cb4186f31ee980cf8d990be0170c51efed4908d0464a1cff9905bd05",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/vercel-composition-patterns/rules/_sections.md",
+      "expected": "a174213b87e6911e2b766995a2cbaf8d1534057076e82fb79fe3f0ecb38047df",
+      "sha256": "a174213b87e6911e2b766995a2cbaf8d1534057076e82fb79fe3f0ecb38047df",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/vercel-composition-patterns/rules/_template.md",
+      "expected": "587f7d16b0660eb61fee4a4d3d7df2b3077d6835de170602c7d6e60bee559131",
+      "sha256": "587f7d16b0660eb61fee4a4d3d7df2b3077d6835de170602c7d6e60bee559131",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/vercel-composition-patterns/rules/architecture-avoid-boolean-props.md",
+      "expected": "007555ebb020f4d552582a2c4db194db71a1fd33094012e5187bcfa4f8c392d5",
+      "sha256": "007555ebb020f4d552582a2c4db194db71a1fd33094012e5187bcfa4f8c392d5",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/vercel-composition-patterns/rules/architecture-compound-components.md",
+      "expected": "f246af13dc269b521cf20eb8ad99a0cb645beac381c8c9b117262c34612c8457",
+      "sha256": "f246af13dc269b521cf20eb8ad99a0cb645beac381c8c9b117262c34612c8457",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/vercel-composition-patterns/rules/patterns-children-over-render-props.md",
+      "expected": "7c45a0d21b3c4126a32cba916ee31adeae195386ad1dbbe6634aedb7457aa0ad",
+      "sha256": "7c45a0d21b3c4126a32cba916ee31adeae195386ad1dbbe6634aedb7457aa0ad",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/vercel-composition-patterns/rules/patterns-explicit-variants.md",
+      "expected": "8c19e596e61807549d01ce8c6954c6358199f97a8511c0c02c625ec0efda8c0e",
+      "sha256": "8c19e596e61807549d01ce8c6954c6358199f97a8511c0c02c625ec0efda8c0e",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/vercel-composition-patterns/rules/react19-no-forwardref.md",
+      "expected": "881830adb7534c4b2d70db426556646ad9837f5478f744f35641f635ada22227",
+      "sha256": "881830adb7534c4b2d70db426556646ad9837f5478f744f35641f635ada22227",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/vercel-composition-patterns/rules/state-context-interface.md",
+      "expected": "09e73afbf9285fa416679cc864a287b9e8b821d0969272ab784295386d8c9bc3",
+      "sha256": "09e73afbf9285fa416679cc864a287b9e8b821d0969272ab784295386d8c9bc3",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/vercel-composition-patterns/rules/state-decouple-implementation.md",
+      "expected": "76a8c1eb29a70d8996ab3f71260345af2f7bc89deab815a421d6c87c6591a9c3",
+      "sha256": "76a8c1eb29a70d8996ab3f71260345af2f7bc89deab815a421d6c87c6591a9c3",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/vercel-composition-patterns/rules/state-lift-state.md",
+      "expected": "74c54038a6c554c748fe31cec673b80861b5d920b7553cf78cdf10d18b4b759b",
+      "sha256": "74c54038a6c554c748fe31cec673b80861b5d920b7553cf78cdf10d18b4b759b",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/animate/LICENSE",
+      "expected": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/animation-performance/LICENSE",
+      "expected": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/find-animation-opportunities/LICENSE",
+      "expected": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/emil-design-eng/LICENSE",
+      "expected": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/review-animations/LICENSE",
+      "expected": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/improve-animations/LICENSE",
+      "expected": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/animation-vocabulary/LICENSE",
+      "expected": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/break-ui/LICENSE",
+      "expected": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/mobile-native/LICENSE",
+      "expected": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/fixing-accessibility/LICENSE",
+      "expected": "c615621c4cc1676ccde194e7a01b6469ba477780251bd71e007fc473a49c2c2b",
+      "sha256": "c615621c4cc1676ccde194e7a01b6469ba477780251bd71e007fc473a49c2c2b",
+      "match": true
+    },
+    {
+      "kind": "new-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/vercel-composition-patterns/references/agent-skills-README.md",
+      "expected": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651",
+      "sha256": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651",
+      "match": true
+    },
+    {
+      "kind": "backup-original",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/routing-global-20261024/IMPECCABLE-OMP.md",
+      "expected": "9883db2e3377f3a3c8bf96dcfa1898c054e7e460545c46e8df10102ecf0e8c03",
+      "sha256": "9883db2e3377f3a3c8bf96dcfa1898c054e7e460545c46e8df10102ecf0e8c03",
+      "match": true
+    },
+    {
+      "kind": "local-notice",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/vercel-composition-patterns/NOTICE",
+      "sha256": "d883aa189cf206f3f00468467325369d8323c38c4c0eff7ed785d51fd6c5653a",
+      "match": null
+    }
+  ]
+}

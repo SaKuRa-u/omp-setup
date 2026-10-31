@@ -429,6 +429,12 @@
       "sourceSha256": "f3fa0f21096d7db32cd494dd0b5d206c19fedb65d159874778ef6d5a23000338"
     },
     {
+      "path": "home/.agents/skills/impeccable/scripts/VERSION",
+      "bytes": 8,
+      "sha256": "5ba2eea7cca5532b9ff4e6c180525a45fbb1cc0f099299d8e44ffd21db05831d",
+      "sourceSha256": "5ba2eea7cca5532b9ff4e6c180525a45fbb1cc0f099299d8e44ffd21db05831d"
+    },
+    {
       "path": "home/.agents/skills/impeccable/scripts/command-metadata.json",
       "bytes": 8490,
       "sha256": "96a05614e8c3d0ed091415d496758d878fd86ac7b129a616e00493951c186f01",
@@ -445,6 +451,12 @@
       "bytes": 1100013,
       "sha256": "47edbdfaf27073c47033d1ac7dfee881be49e2dcbda7671d1157300481dde6da",
       "sourceSha256": "47edbdfaf27073c47033d1ac7dfee881be49e2dcbda7671d1157300481dde6da"
+    },
+    {
+      "path": "home/.agents/skills/impeccable/scripts/impeccable",
+      "bytes": 8720,
+      "sha256": "9bbce8956aa928fa221414867bffe70c3599cbcf9a51e01e198d308826ef5214",
+      "sourceSha256": "9bbce8956aa928fa221414867bffe70c3599cbcf9a51e01e198d308826ef5214"
     },
     {
       "path": "home/.agents/skills/impeccable/scripts/impeccable.cmd",
@@ -562,15 +574,15 @@
     },
     {
       "path": "home/.agents/skills/orca-cli/SKILL.md",
-      "bytes": 2372,
-      "sha256": "aa76f86505010096e8ea9edda1705a78aae7af45e54485f3fe0460664c1d9e4a",
-      "sourceSha256": "aa76f86505010096e8ea9edda1705a78aae7af45e54485f3fe0460664c1d9e4a"
+      "bytes": 2312,
+      "sha256": "e9759aea664f54561946eeb40a6328031330860cda0817f2c2aa2cf529d5c1b3",
+      "sourceSha256": "e9759aea664f54561946eeb40a6328031330860cda0817f2c2aa2cf529d5c1b3"
     },
     {
       "path": "home/.agents/skills/orchestration/SKILL.md",
-      "bytes": 3671,
-      "sha256": "cd1b364bf35781bad06bf75ab1766afa8d6cec69cb2060529691d89871a2098a",
-      "sourceSha256": "cd1b364bf35781bad06bf75ab1766afa8d6cec69cb2060529691d89871a2098a"
+      "bytes": 3876,
+      "sha256": "ce9a81cb2e6bbb8487107d2e088bf9fd6e0ba71ebc6bcc1929f827fde65fec6b",
+      "sourceSha256": "ce9a81cb2e6bbb8487107d2e088bf9fd6e0ba71ebc6bcc1929f827fde65fec6b"
     },
     {
       "path": "home/.agents/skills/provider-actions/SKILL.md",
@@ -981,6 +993,12 @@
       "sourceSha256": "18a73afad8fb80bceb8ccc981d011575a5e45374f3b34657e35c2954d4fcad78"
     },
     {
+      "path": "home/.agents/skills/terraform-policy/examples/conversion/cloudfront-associated-with-waf/cloudfront-associated-with-waf.sentinel",
+      "bytes": 1674,
+      "sha256": "3dbbb44b88d72a825a6392fe7a7d777ebeddda5a8f2abdc92481d9725bc69006",
+      "sourceSha256": "3dbbb44b88d72a825a6392fe7a7d777ebeddda5a8f2abdc92481d9725bc69006"
+    },
+    {
       "path": "home/.agents/skills/terraform-policy/examples/conversion/cloudtrail-server-side-encryption-enabled/README.md",
       "bytes": 863,
       "sha256": "67c45ddff8fd845e88cf9482e77192b6a6d7930f75e2f684c298fe90d88ccfdf",
@@ -991,6 +1009,12 @@
       "bytes": 528,
       "sha256": "001f9884946ab574f8e09a3c6a69656e27bc9f1c8a88ed4362909d3948cf442f",
       "sourceSha256": "001f9884946ab574f8e09a3c6a69656e27bc9f1c8a88ed4362909d3948cf442f"
+    },
+    {
+      "path": "home/.agents/skills/terraform-policy/examples/conversion/cloudtrail-server-side-encryption-enabled/cloudtrail-server-side-encryption-enabled.sentinel",
+      "bytes": 1519,
+      "sha256": "8746b22d326633f673018b0c4dc3214fc9ff4f17e82adf37e56a4208ba4ed4e5",
+      "sourceSha256": "8746b22d326633f673018b0c4dc3214fc9ff4f17e82adf37e56a4208ba4ed4e5"
     },
     {
       "path": "home/.agents/skills/terraform-policy/examples/conversion/dms-endpoint-should-be-ssl-configured/README.md",
@@ -1005,6 +1029,12 @@
       "sourceSha256": "76957d3a1d41ba129326e211a03589fc2d0ec4184679f5ee80b1409560858dc7"
     },
     {
+      "path": "home/.agents/skills/terraform-policy/examples/conversion/dms-endpoint-should-be-ssl-configured/dms-endpoint-should-be-ssl-configured.sentinel",
+      "bytes": 1602,
+      "sha256": "1a2416f5ed982f3bbafd8e86181f154ca9861fec589327dc996580e97794867d",
+      "sourceSha256": "1a2416f5ed982f3bbafd8e86181f154ca9861fec589327dc996580e97794867d"
+    },
+    {
       "path": "home/.agents/skills/terraform-policy/examples/conversion/dms-endpoints-should-use-ssl/README.md",
       "bytes": 818,
       "sha256": "69ba2af29437688145e0f1dc1fcaa8c13906e754067cb2f307aafb4f5665aeaf",
@@ -1015,6 +1045,12 @@
       "bytes": 596,
       "sha256": "7b99a8739b80c3e824df23c8bd12ef6d43a40328c1d7d4f2baf1b9a334fd9ff3",
       "sourceSha256": "7b99a8739b80c3e824df23c8bd12ef6d43a40328c1d7d4f2baf1b9a334fd9ff3"
+    },
+    {
+      "path": "home/.agents/skills/terraform-policy/examples/conversion/dms-endpoints-should-use-ssl/dms-endpoints-should-use-ssl.sentinel",
+      "bytes": 1471,
+      "sha256": "dd7ed09645268dad9e782c0d7f433062c5dc63771e9f2e052eb960d5284ed2c7",
+      "sourceSha256": "dd7ed09645268dad9e782c0d7f433062c5dc63771e9f2e052eb960d5284ed2c7"
     },
     {
       "path": "home/.agents/skills/terraform-policy/examples/conversion/ec2-network-acl-should-have-subnet-ids/README.md",
@@ -1029,6 +1065,12 @@
       "sourceSha256": "7b05e82001d5feae30b5bf0b23c3acaf67be931b8a6c6bb4e6963bc62c4fe29b"
     },
     {
+      "path": "home/.agents/skills/terraform-policy/examples/conversion/ec2-network-acl-should-have-subnet-ids/ec2-network-acl-should-have-subnet-ids.sentinel",
+      "bytes": 3032,
+      "sha256": "986ce3f72a1ef0189a698e03afbd535969c45dcfa723a6a241da24b1e52630af",
+      "sourceSha256": "986ce3f72a1ef0189a698e03afbd535969c45dcfa723a6a241da24b1e52630af"
+    },
+    {
       "path": "home/.agents/skills/terraform-policy/examples/conversion/ec2-vpc-default-security-group-no-traffic/README.md",
       "bytes": 1129,
       "sha256": "312177d9496dfc59f8a2743118903f1f0addf36d1eeb43dd173e0c82cfebed3b",
@@ -1039,6 +1081,12 @@
       "bytes": 888,
       "sha256": "93f9ba9d865900e3eed6131c29fdda8800e0a1646c98091f0555f92dbb20d77f",
       "sourceSha256": "93f9ba9d865900e3eed6131c29fdda8800e0a1646c98091f0555f92dbb20d77f"
+    },
+    {
+      "path": "home/.agents/skills/terraform-policy/examples/conversion/ec2-vpc-default-security-group-no-traffic/ec2-vpc-default-security-group-no-traffic.sentinel",
+      "bytes": 3752,
+      "sha256": "1479fa317a3a1d85493e39eba0134563a90b2618ba3d53d1a30f40b6536a4ef5",
+      "sourceSha256": "1479fa317a3a1d85493e39eba0134563a90b2618ba3d53d1a30f40b6536a4ef5"
     },
     {
       "path": "home/.agents/skills/terraform-policy/examples/conversion/efs-access-point-should-enforce-user-identity/README.md",
@@ -1053,6 +1101,12 @@
       "sourceSha256": "57b831ee45827f2916e813c56f13468bf5507cfa7edf92eea9c8a4d22e3f4fb0"
     },
     {
+      "path": "home/.agents/skills/terraform-policy/examples/conversion/efs-access-point-should-enforce-user-identity/efs-access-point-should-enforce-user-identity.sentinel",
+      "bytes": 1386,
+      "sha256": "3115bd6f011566d853daf9b7b5f7f6787b93b5eb0ddd56aea98423165bb3c30e",
+      "sourceSha256": "3115bd6f011566d853daf9b7b5f7f6787b93b5eb0ddd56aea98423165bb3c30e"
+    },
+    {
       "path": "home/.agents/skills/terraform-policy/examples/conversion/elasticache-redis-replication-group-encryption-at-transit-enabled/README.md",
       "bytes": 794,
       "sha256": "3c4a430db8165fda2f3f9b91e33220825f1aabf2801c5c9ead8b5013b9b1a7c4",
@@ -1063,6 +1117,12 @@
       "bytes": 559,
       "sha256": "6be79c7d52eb2ac1b1e7a3aa4bf5babb9f0ca09b3c1a718974675f0238eb50d7",
       "sourceSha256": "6be79c7d52eb2ac1b1e7a3aa4bf5babb9f0ca09b3c1a718974675f0238eb50d7"
+    },
+    {
+      "path": "home/.agents/skills/terraform-policy/examples/conversion/elasticache-redis-replication-group-encryption-at-transit-enabled/elasticache-redis-replication-group-encryption-at-transit-enabled.sentinel",
+      "bytes": 1584,
+      "sha256": "fb3c9fe7a778c57fe71762e2633d91bdba2e71333bd8b45484ef027745a9afaa",
+      "sourceSha256": "fb3c9fe7a778c57fe71762e2633d91bdba2e71333bd8b45484ef027745a9afaa"
     },
     {
       "path": "home/.agents/skills/terraform-policy/examples/conversion/elasticsearch-encrypted-at-rest/README.md",
@@ -1077,6 +1137,12 @@
       "sourceSha256": "8e23f9f185bbf89ff34fac4cbb19468808a02f7cc18085c3f179a0f8fc82ca92"
     },
     {
+      "path": "home/.agents/skills/terraform-policy/examples/conversion/elasticsearch-encrypted-at-rest/elasticsearch-encrypted-at-rest.sentinel",
+      "bytes": 1625,
+      "sha256": "24f8a0ca93ead0b776d5d10e9530675aac18b0fe097f6436fa912d868b562ef5",
+      "sourceSha256": "24f8a0ca93ead0b776d5d10e9530675aac18b0fe097f6436fa912d868b562ef5"
+    },
+    {
       "path": "home/.agents/skills/terraform-policy/examples/conversion/elasticsearch-https-required/README.md",
       "bytes": 922,
       "sha256": "b10a89b7d9482ef79da36db75aaeae37d1cf3ee190eaaeb53b4e166a751da9a9",
@@ -1087,6 +1153,12 @@
       "bytes": 1161,
       "sha256": "d2683bfff88f677aa227593ca8b0f4bd38c534334a627c1c6b893204c669f4b9",
       "sourceSha256": "d2683bfff88f677aa227593ca8b0f4bd38c534334a627c1c6b893204c669f4b9"
+    },
+    {
+      "path": "home/.agents/skills/terraform-policy/examples/conversion/elasticsearch-https-required/elasticsearch-https-required.sentinel",
+      "bytes": 2420,
+      "sha256": "a6b28e8ca8a0859bb81d9c0aa40a4615d970060f6d58da077b287b2f002aad5b",
+      "sourceSha256": "a6b28e8ca8a0859bb81d9c0aa40a4615d970060f6d58da077b287b2f002aad5b"
     },
     {
       "path": "home/.agents/skills/terraform-policy/examples/conversion/elasticsearch-in-vpc-only/README.md",
@@ -1101,6 +1173,12 @@
       "sourceSha256": "058761154b74089c69cc48018ae591d33217caa4c29fbe63d86ea46c219b7386"
     },
     {
+      "path": "home/.agents/skills/terraform-policy/examples/conversion/elasticsearch-in-vpc-only/elasticsearch-in-vpc-only.sentinel",
+      "bytes": 1999,
+      "sha256": "8de6ebe13b4e7f3a4c51eba8c149e48515fff70b636642ce8c24d0cbf71c0c38",
+      "sourceSha256": "8de6ebe13b4e7f3a4c51eba8c149e48515fff70b636642ce8c24d0cbf71c0c38"
+    },
+    {
       "path": "home/.agents/skills/terraform-policy/examples/conversion/eventbridge-custom-event-bus-should-have-attached-policy/README.md",
       "bytes": 1123,
       "sha256": "aedec788241960a0eadfc82f19becf6b369172a88c611cd7065f59b8540c5d4e",
@@ -1111,6 +1189,12 @@
       "bytes": 870,
       "sha256": "1b31817ecadb90330f7065f7938cb33eee0c347071da234b5401b621000de41c",
       "sourceSha256": "1b31817ecadb90330f7065f7938cb33eee0c347071da234b5401b621000de41c"
+    },
+    {
+      "path": "home/.agents/skills/terraform-policy/examples/conversion/eventbridge-custom-event-bus-should-have-attached-policy/eventbridge-custom-event-bus-should-have-attached-policy.sentinel",
+      "bytes": 2201,
+      "sha256": "1cd9b40bdfd5efa0b0315c2cca47f509a2063e241495978ecd0bae0f1884eef0",
+      "sourceSha256": "1cd9b40bdfd5efa0b0315c2cca47f509a2063e241495978ecd0bae0f1884eef0"
     },
     {
       "path": "home/.agents/skills/terraform-policy/examples/conversion/s3-block-public-access-bucket-level/README.md",
@@ -1125,6 +1209,12 @@
       "sourceSha256": "96f81145b191f6308b1ac22ef99833e72e6d3f1efb1061f86eb9dd6f2addfaa3"
     },
     {
+      "path": "home/.agents/skills/terraform-policy/examples/conversion/s3-block-public-access-bucket-level/s3-block-public-access-bucket-level.sentinel",
+      "bytes": 3407,
+      "sha256": "8b042d66afd51ab9f638e011e5f49a468db5b70cca502076a0cd02cc0efa85a3",
+      "sourceSha256": "8b042d66afd51ab9f638e011e5f49a468db5b70cca502076a0cd02cc0efa85a3"
+    },
+    {
       "path": "home/.agents/skills/terraform-policy/examples/conversion/s3-bucket-should-have-object-lock-enabled/README.md",
       "bytes": 993,
       "sha256": "4f28501fea13d3c29fe056e514cd4c3af2d92846585b4cbeffeecd8af2aafafe",
@@ -1135,6 +1225,12 @@
       "bytes": 1056,
       "sha256": "df1d7ff8f2da0eb6c2a003ff1ca7d90ef5d6580a7bc73296926187633dc90be2",
       "sourceSha256": "df1d7ff8f2da0eb6c2a003ff1ca7d90ef5d6580a7bc73296926187633dc90be2"
+    },
+    {
+      "path": "home/.agents/skills/terraform-policy/examples/conversion/s3-bucket-should-have-object-lock-enabled/s3-bucket-should-have-object-lock-enabled.sentinel",
+      "bytes": 2968,
+      "sha256": "4f321f00412da627b501ef9b5dcb92a23fff9519255c3100e71256f939074593",
+      "sourceSha256": "4f321f00412da627b501ef9b5dcb92a23fff9519255c3100e71256f939074593"
     },
     {
       "path": "home/.agents/skills/terraform-policy/examples/conversion/secretsmanager-auto-rotation-enabled-check/README.md",
@@ -1149,6 +1245,12 @@
       "sourceSha256": "06d6e8f66a883a7d953f65d2c52c2ed8908c57911ec2de3003a7912ad724b5c6"
     },
     {
+      "path": "home/.agents/skills/terraform-policy/examples/conversion/secretsmanager-auto-rotation-enabled-check/secretsmanager-auto-rotation-enabled-check.sentinel",
+      "bytes": 2323,
+      "sha256": "df266833e118a20e359166c2be7e1f968d217ec69c621a93b4277e267e958789",
+      "sourceSha256": "df266833e118a20e359166c2be7e1f968d217ec69c621a93b4277e267e958789"
+    },
+    {
       "path": "home/.agents/skills/terraform-policy/examples/conversion/step-functions-state-machine-logging-enabled/README.md",
       "bytes": 795,
       "sha256": "cae7de5d00fc13874a7e1cf0eb847b7dbe08167a54c8137d973e05d06db4c0aa",
@@ -1159,6 +1261,12 @@
       "bytes": 742,
       "sha256": "9e92045bf847bfdbc2b3fb40943b2927dae8093821caaa109eb296e27a39972c",
       "sourceSha256": "9e92045bf847bfdbc2b3fb40943b2927dae8093821caaa109eb296e27a39972c"
+    },
+    {
+      "path": "home/.agents/skills/terraform-policy/examples/conversion/step-functions-state-machine-logging-enabled/step-functions-state-machine-logging-enabled.sentinel",
+      "bytes": 1650,
+      "sha256": "06d8277bca3f290361ed518abfe750da0a998645ca175c116dc9cb93f9399992",
+      "sourceSha256": "06d8277bca3f290361ed518abfe750da0a998645ca175c116dc9cb93f9399992"
     },
     {
       "path": "home/.agents/skills/terraform-policy/references/tfpolicy-author.md",
@@ -1288,15 +1396,15 @@
     },
     {
       "path": "home/.omp/agent/AGENTS.md",
-      "bytes": 38368,
-      "sha256": "dffd8f51237cb9c559c0857b61dba4082735e0ee4bb5decf7c512dce969f0890",
-      "sourceSha256": "dffd8f51237cb9c559c0857b61dba4082735e0ee4bb5decf7c512dce969f0890"
+      "bytes": 56631,
+      "sha256": "db7d3a9a37fe29af220b379b9f183bbda65322f27afd244ff603e12d4f0c1a81",
+      "sourceSha256": "db7d3a9a37fe29af220b379b9f183bbda65322f27afd244ff603e12d4f0c1a81"
     },
     {
       "path": "home/.omp/agent/config.yml",
-      "bytes": 604,
-      "sha256": "6e879111fef0042073d9c9784fe4fe5927fd0aad98fe151e17d390a5d8b0fc73",
-      "sourceSha256": "6e879111fef0042073d9c9784fe4fe5927fd0aad98fe151e17d390a5d8b0fc73"
+      "bytes": 635,
+      "sha256": "f15276920b08d9c35f0e58be3e4400cee4789c05eb8c035559ad568c7b6abfd9",
+      "sourceSha256": "f15276920b08d9c35f0e58be3e4400cee4789c05eb8c035559ad568c7b6abfd9"
     },
     {
       "path": "home/.omp/agent/ecosystem/AGENCY-AGENTS-PROPOSAL.md",
@@ -1312,15 +1420,21 @@
     },
     {
       "path": "home/.omp/agent/ecosystem/IMPECCABLE-OMP.md",
-      "bytes": 4824,
-      "sha256": "9883db2e3377f3a3c8bf96dcfa1898c054e7e460545c46e8df10102ecf0e8c03",
-      "sourceSha256": "9883db2e3377f3a3c8bf96dcfa1898c054e7e460545c46e8df10102ecf0e8c03"
+      "bytes": 4985,
+      "sha256": "653f40f37273292d6bc466dfe453e7870fe212613f66f5707682176f00cc0a30",
+      "sourceSha256": "653f40f37273292d6bc466dfe453e7870fe212613f66f5707682176f00cc0a30"
     },
     {
       "path": "home/.omp/agent/ecosystem/PANDUAN-PROYEK-OMP.md",
-      "bytes": 45731,
-      "sha256": "89479ff89a787b2a090f6711c7c4d16c9d779027d377b97c739cd5dd4eb8700f",
-      "sourceSha256": "89479ff89a787b2a090f6711c7c4d16c9d779027d377b97c739cd5dd4eb8700f"
+      "bytes": 50857,
+      "sha256": "bc8c2d015b415faccfca1a0315852b997b42a6a085c2d10f7e8a1352cbe6e0a1",
+      "sourceSha256": "bc8c2d015b415faccfca1a0315852b997b42a6a085c2d10f7e8a1352cbe6e0a1"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/SKILL-ROUTING.md",
+      "bytes": 21492,
+      "sha256": "482dbbe34124756fa19e00c27f3abb82483d0755ba086fb22a42561dacdd6817",
+      "sourceSha256": "482dbbe34124756fa19e00c27f3abb82483d0755ba086fb22a42561dacdd6817"
     },
     {
       "path": "home/.omp/agent/ecosystem/WAVE1.md",
@@ -1330,9 +1444,9 @@
     },
     {
       "path": "home/.omp/agent/ecosystem/ledger.json",
-      "bytes": 46296,
-      "sha256": "98984a8d9f4d18b98f9f52c99d45156c0273405df1670832bc01d58a1da9440d",
-      "sourceSha256": "98984a8d9f4d18b98f9f52c99d45156c0273405df1670832bc01d58a1da9440d"
+      "bytes": 49222,
+      "sha256": "c8d158179aa3ffc1c54c0e3702352572cc1655b1db2a5602258db8c680b4cc31",
+      "sourceSha256": "c8d158179aa3ffc1c54c0e3702352572cc1655b1db2a5602258db8c680b4cc31"
     },
     {
       "path": "home/.omp/agent/ecosystem/measurements/agency-agents-20261021.json",
@@ -1375,6 +1489,12 @@
       "bytes": 906,
       "sha256": "7046eb47d82394f228de2b0532004c07d2e1d83d342467c4fee53eeb3add5323",
       "sourceSha256": "7046eb47d82394f228de2b0532004c07d2e1d83d342467c4fee53eeb3add5323"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/measurements/design-skills-20261024.json",
+      "bytes": 8872,
+      "sha256": "75df6cabffa3e3d02ed72e7f1afa15831dda541123f776f66fef185f54487b7b",
+      "sourceSha256": "75df6cabffa3e3d02ed72e7f1afa15831dda541123f776f66fef185f54487b7b"
     },
     {
       "path": "home/.omp/agent/ecosystem/measurements/discovery-audit.json",
@@ -1455,6 +1575,42 @@
       "sourceSha256": "9f097f16b9e8d8021c6eb4b0307777b7d1e009254c2b932ea026a542bc5c6dee"
     },
     {
+      "path": "home/.omp/agent/ecosystem/measurements/routing-global-20261024-before.json",
+      "bytes": 73711,
+      "sha256": "12143002524e34cc94bc8d3230a453c648b0d5069c6ce084fd6f244a7d913c46",
+      "sourceSha256": "12143002524e34cc94bc8d3230a453c648b0d5069c6ce084fd6f244a7d913c46"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/measurements/routing-global-20261024-discovery.json",
+      "bytes": 8282,
+      "sha256": "921fa1b4f4297d00b7955f0ab4ba9bc8a9c0269c14748a82fdac89b2161943d3",
+      "sourceSha256": "921fa1b4f4297d00b7955f0ab4ba9bc8a9c0269c14748a82fdac89b2161943d3"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/measurements/routing-global-20261024-integrity-final.json",
+      "bytes": 41467,
+      "sha256": "bb563565ce64147f00e6f84d5bb47cbe33363cca7f7f04a46a1235daa130fce4",
+      "sourceSha256": "bb563565ce64147f00e6f84d5bb47cbe33363cca7f7f04a46a1235daa130fce4"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/measurements/routing-global-20261024-integrity.json",
+      "bytes": 42263,
+      "sha256": "56f870dc42c74f6d45d67a6de3bbf96eb8a890e6e965f02b1671e045c64de20d",
+      "sourceSha256": "56f870dc42c74f6d45d67a6de3bbf96eb8a890e6e965f02b1671e045c64de20d"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/measurements/routing-global-20261024-selection.json",
+      "bytes": 58062,
+      "sha256": "be71b302abc2e130f064c84d059aa07bd73e88e6e7c3144678cbb6e9311dde63",
+      "sourceSha256": "be71b302abc2e130f064c84d059aa07bd73e88e6e7c3144678cbb6e9311dde63"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/measurements/routing-global-20261024.json",
+      "bytes": 33358,
+      "sha256": "7ff19e7c89db015bb9f12ea10d8d7d3d24e29b050f755c6fd6b5e614db4ff317",
+      "sourceSha256": "7ff19e7c89db015bb9f12ea10d8d7d3d24e29b050f755c6fd6b5e614db4ff317"
+    },
+    {
       "path": "home/.omp/agent/ecosystem/measurements/skills-expansion-20261018.json",
       "bytes": 8084,
       "sha256": "c9801eb158bfbd61c4e9122e692142668e6cc13d0376cd4d8b9be4828ebb674e",
@@ -1477,6 +1633,30 @@
       "bytes": 41294,
       "sha256": "1ee1874417d1fc06f730679b51cb780458b63c79d6f2a44bf2bdedec92f4c828",
       "sourceSha256": "1ee1874417d1fc06f730679b51cb780458b63c79d6f2a44bf2bdedec92f4c828"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/measurements/skills-routing-20261031-discovery.json",
+      "bytes": 1309,
+      "sha256": "bee146a22de4988f96abb323ed6cdbaa954a4b7f741617a5a3b5abcf799a9241",
+      "sourceSha256": "bee146a22de4988f96abb323ed6cdbaa954a4b7f741617a5a3b5abcf799a9241"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/measurements/skills-routing-20261031-integrity.json",
+      "bytes": 10145,
+      "sha256": "bc69da54f5cd6933acf51c5b77003256dad5eb28977d41f7ae6a54b22c285c6f",
+      "sourceSha256": "bc69da54f5cd6933acf51c5b77003256dad5eb28977d41f7ae6a54b22c285c6f"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/measurements/skills-routing-20261031-selection.json",
+      "bytes": 62805,
+      "sha256": "54ce987d0c0fab645a0183178f99860b5ba6ccc942b2639b8ec1811227f1b189",
+      "sourceSha256": "54ce987d0c0fab645a0183178f99860b5ba6ccc942b2639b8ec1811227f1b189"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/measurements/skills-routing-20261031.json",
+      "bytes": 43077,
+      "sha256": "f0309b22570eae7f653f8a5f571ea2138ad9330c30bcfa7913c58b69dda67d3e",
+      "sourceSha256": "f0309b22570eae7f653f8a5f571ea2138ad9330c30bcfa7913c58b69dda67d3e"
     },
     {
       "path": "home/.omp/agent/ecosystem/measurements/supermemory-live-20261015.json",
@@ -1599,6 +1779,18 @@
       "sourceSha256": "4f112478eea3d77b96f4644534e33c1e55195a948467cc860edafb33f63e6c1a"
     },
     {
+      "path": "home/.omp/agent/ecosystem/runtime/check-skill-routing-selection.mjs",
+      "bytes": 5157,
+      "sha256": "8d99fe2ba6198d50718bb46ae5756654ced616520266ba4dfe0ddc2e186ed243",
+      "sourceSha256": "8d99fe2ba6198d50718bb46ae5756654ced616520266ba4dfe0ddc2e186ed243"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/runtime/check-skill-routing.mjs",
+      "bytes": 5201,
+      "sha256": "1ab9546d5d2dcd659e82f1d11a1b647c21b395a9513954384a06158a95cfa1c3",
+      "sourceSha256": "1ab9546d5d2dcd659e82f1d11a1b647c21b395a9513954384a06158a95cfa1c3"
+    },
+    {
       "path": "home/.omp/agent/ecosystem/runtime/context7-acceptance.ts",
       "bytes": 14611,
       "sha256": "17d085669b417efafdd617e46eb099f9eb77faed7d9a8dc66cdfb76d8c2ce250",
@@ -1630,9 +1822,9 @@
     },
     {
       "path": "home/.omp/agent/ecosystem/runtime/credentials.ps1",
-      "bytes": 2811,
-      "sha256": "cc229624e4db81fa60a08466645bfec9d155066ad8c9547e822c52b5668563b3",
-      "sourceSha256": "cc229624e4db81fa60a08466645bfec9d155066ad8c9547e822c52b5668563b3"
+      "bytes": 3379,
+      "sha256": "1e7fca25f1e64e28e8bb58a48f0b7dbba50bc93de6cf961600d3715a4cb48d22",
+      "sourceSha256": "1e7fca25f1e64e28e8bb58a48f0b7dbba50bc93de6cf961600d3715a4cb48d22"
     },
     {
       "path": "home/.omp/agent/ecosystem/runtime/design-gate.mjs",
@@ -2713,6 +2905,12 @@
       "bytes": 26526,
       "sha256": "20c17d8b8c48a600800dfd14f95d5cb9ff47066a9641ddeab48dc54aec96e331",
       "sourceSha256": "20c17d8b8c48a600800dfd14f95d5cb9ff47066a9641ddeab48dc54aec96e331"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/runtime/skill-routing-cases.json",
+      "bytes": 44117,
+      "sha256": "d524a6db16136cd9ea17fe7736d1af8572f300271f246eec88fa74db1abafbf8",
+      "sourceSha256": "d524a6db16136cd9ea17fe7736d1af8572f300271f246eec88fa74db1abafbf8"
     },
     {
       "path": "home/.omp/agent/ecosystem/sources/academic-research-skills-4c544901/.claude-plugin/marketplace.json",
@@ -20037,6 +20235,90 @@
       "sourceSha256": "f02d2a5e0638f86266fd586cfea81c47dd39713d9a01bb174dc38cd6bfa6de65"
     },
     {
+      "path": "home/.omp/agent/ecosystem/sources/ai-kit-1e424943/README.md",
+      "bytes": 3090,
+      "sha256": "5e6347889383a68cef80885d8941827f566cd055c068cd512dc0ea2f9c6e25c3",
+      "sourceSha256": "5e6347889383a68cef80885d8941827f566cd055c068cd512dc0ea2f9c6e25c3"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/ai-kit-1e424943/packages/motion-ai/package.json",
+      "bytes": 1092,
+      "sha256": "a9441186eb244a32029abe0d35f1cd6a740309fd73faec21dd3c8114d1579bfb",
+      "sourceSha256": "a9441186eb244a32029abe0d35f1cd6a740309fd73faec21dd3c8114d1579bfb"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/SKILL.md",
+      "bytes": 5872,
+      "sha256": "69f9fe4de5bd0618dd3578925e0f21df5ebb5161e2665ed2aa1ed55edef3be0f",
+      "sourceSha256": "69f9fe4de5bd0618dd3578925e0f21df5ebb5161e2665ed2aa1ed55edef3be0f"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/best-practices/base-ui.md",
+      "bytes": 2737,
+      "sha256": "cf1e79a446965c965a19a07e6c92527c8f661f87e0f16e321d4136fa7f1dd0de",
+      "sourceSha256": "cf1e79a446965c965a19a07e6c92527c8f661f87e0f16e321d4136fa7f1dd0de"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/best-practices/css-or-motion.md",
+      "bytes": 2320,
+      "sha256": "7b5fa2e184238a0532d2b010629474e99dec36a5a35c442c12f96db5aa25682c",
+      "sourceSha256": "7b5fa2e184238a0532d2b010629474e99dec36a5a35c442c12f96db5aa25682c"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/best-practices/index.md",
+      "bytes": 3936,
+      "sha256": "78fccd242981414e395988b4965ae390af79edfbdf3d0f36b6cf8650733a0da9",
+      "sourceSha256": "78fccd242981414e395988b4965ae390af79edfbdf3d0f36b6cf8650733a0da9"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/best-practices/motion.md",
+      "bytes": 947,
+      "sha256": "92dee7c7b3d39ed02956102fbc0c9790e4f45a11b80bd5846a8336871b555d8a",
+      "sourceSha256": "92dee7c7b3d39ed02956102fbc0c9790e4f45a11b80bd5846a8336871b555d8a"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/best-practices/react.md",
+      "bytes": 4529,
+      "sha256": "e09d96029eb64313f6887949805447807d300a36d13138a56b22b3525f2cc7c7",
+      "sourceSha256": "e09d96029eb64313f6887949805447807d300a36d13138a56b22b3525f2cc7c7"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/best-practices/vue.md",
+      "bytes": 1354,
+      "sha256": "935e462042b5f02d086d680e757f29b5e0d3177781c3aab9cc3838eed88bd292",
+      "sourceSha256": "935e462042b5f02d086d680e757f29b5e0d3177781c3aab9cc3838eed88bd292"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/codex/index.md",
+      "bytes": 6333,
+      "sha256": "e8cd498864f0c744d872c9d28cc6b4ba84d12c63cbd92c2ae66e2717dbe12b88",
+      "sourceSha256": "e8cd498864f0c744d872c9d28cc6b4ba84d12c63cbd92c2ae66e2717dbe12b88"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/css-spring/index.md",
+      "bytes": 2545,
+      "sha256": "98ae2faa1c68b5d2527e1f6bb3d94a1fb0482d24099ad6f9c5cfcd3ebb430a85",
+      "sourceSha256": "98ae2faa1c68b5d2527e1f6bb3d94a1fb0482d24099ad6f9c5cfcd3ebb430a85"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/insert/index.md",
+      "bytes": 2988,
+      "sha256": "5b7d1ddd05277eb6a1362fb2c4fd8a5d859839f6439183903dd9312c6ddf6913",
+      "sourceSha256": "5b7d1ddd05277eb6a1362fb2c4fd8a5d859839f6439183903dd9312c6ddf6913"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/performance-audit/index.md",
+      "bytes": 2846,
+      "sha256": "830b18c038391f43f44f774f10edf8b1e15b0d935736665192074b279caa36c7",
+      "sourceSha256": "830b18c038391f43f44f774f10edf8b1e15b0d935736665192074b279caa36c7"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/transition-preview/index.md",
+      "bytes": 2240,
+      "sha256": "64962b3757518956e56599d31bea8f7bced604b4ab35a14e2e1cf3494aa87ace",
+      "sourceSha256": "64962b3757518956e56599d31bea8f7bced604b4ab35a14e2e1cf3494aa87ace"
+    },
+    {
       "path": "home/.omp/agent/ecosystem/sources/anthropic/THIRD_PARTY_NOTICES.md",
       "bytes": 46566,
       "sha256": "5a06c53e3390e7be926597eccf9b01cac7f7d5219dfc47520ced340d8f1d2904",
@@ -20443,6 +20725,36 @@
       "bytes": 121,
       "sha256": "f1fe71e291193a7d4963799eef91ee8596e6a53099ccd85e33d3221ffea67f47",
       "sourceSha256": "f1fe71e291193a7d4963799eef91ee8596e6a53099ccd85e33d3221ffea67f47"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/gsap-skills-aed9cfd3/LICENSE",
+      "bytes": 1066,
+      "sha256": "51b04b06556662dd817e8f4aa6d06bc7139dc73739e1319a7233cfde3e147b90",
+      "sourceSha256": "51b04b06556662dd817e8f4aa6d06bc7139dc73739e1319a7233cfde3e147b90"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/gsap-skills-aed9cfd3/README.md",
+      "bytes": 8508,
+      "sha256": "2cd27948cd1486056271d8d962918eec074e9956b594111b5f84304ec1c13914",
+      "sourceSha256": "2cd27948cd1486056271d8d962918eec074e9956b594111b5f84304ec1c13914"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/gsap-skills-aed9cfd3/skills/gsap-core/SKILL.md",
+      "bytes": 14792,
+      "sha256": "3887b47e050ab5afbe2a9a820f23d39fa02ab785e06a343be44c6f91d84d12b3",
+      "sourceSha256": "3887b47e050ab5afbe2a9a820f23d39fa02ab785e06a343be44c6f91d84d12b3"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/gsap-skills-aed9cfd3/skills/gsap-react/SKILL.md",
+      "bytes": 6565,
+      "sha256": "88e2a5312b45e8cc7b3c496637ff5bc9af2ae9c925b555c8b235b34cbc989d74",
+      "sourceSha256": "88e2a5312b45e8cc7b3c496637ff5bc9af2ae9c925b555c8b235b34cbc989d74"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/gsap-skills-aed9cfd3/skills/gsap-timeline/SKILL.md",
+      "bytes": 4394,
+      "sha256": "1a8b0f39cc4be3ed3d834b89672e4ae2f151b901dc3450bebf10bbc45379fe02",
+      "sourceSha256": "1a8b0f39cc4be3ed3d834b89672e4ae2f151b901dc3450bebf10bbc45379fe02"
     },
     {
       "path": "home/.omp/agent/ecosystem/sources/impeccable-cli-4.6.0-8a0e198d/LICENSE",
@@ -21513,6 +21825,60 @@
       "sourceSha256": "e598e694aa506650c7192d5ea3be0e50aca0d356ea00551c53429f0b01eb6391"
     },
     {
+      "path": "home/.omp/agent/ecosystem/sources/skills-a496f551/LICENSE",
+      "bytes": 1068,
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "sourceSha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/skills-a496f551/README.md",
+      "bytes": 16461,
+      "sha256": "345041d56cf1411b6b3ca1cc54014d26c563890f817f4cb9e2cb193dcd771a3e",
+      "sourceSha256": "345041d56cf1411b6b3ca1cc54014d26c563890f817f4cb9e2cb193dcd771a3e"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/skills-a496f551/package.json",
+      "bytes": 597,
+      "sha256": "adc28432aa70b1eac1d4ff222d4a53263e77c86286ba16e4ff12031e718e41b2",
+      "sourceSha256": "adc28432aa70b1eac1d4ff222d4a53263e77c86286ba16e4ff12031e718e41b2"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/skills-a496f551/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "bytes": 2733,
+      "sha256": "944c92aa790e8fbdc9199640b170979abb8a34ba8d0fe18c2a01a63bce140ca0",
+      "sourceSha256": "944c92aa790e8fbdc9199640b170979abb8a34ba8d0fe18c2a01a63bce140ca0"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/skills-a496f551/skills/engineering/domain-modeling/GLOSSARY-FORMAT.md",
+      "bytes": 2300,
+      "sha256": "21dcc40cdec8e151a829b98ab1517c1867bc444e3665134a98c6983411996801",
+      "sourceSha256": "21dcc40cdec8e151a829b98ab1517c1867bc444e3665134a98c6983411996801"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/skills-a496f551/skills/engineering/domain-modeling/SKILL.md",
+      "bytes": 3346,
+      "sha256": "7b925d7b1e341a2eeae33ad68a8a8c0ab889a38ddd22a7598e4c240e5a7556a3",
+      "sourceSha256": "7b925d7b1e341a2eeae33ad68a8a8c0ab889a38ddd22a7598e4c240e5a7556a3"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/skills-a496f551/skills/engineering/domain-modeling/agents/openai.yaml",
+      "bytes": 101,
+      "sha256": "f6bf2aa996c6e6f53fdd0708e18a0d16a56aed8322cca59fedbe3c0d2c75f06b",
+      "sourceSha256": "f6bf2aa996c6e6f53fdd0708e18a0d16a56aed8322cca59fedbe3c0d2c75f06b"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/skills-a496f551/skills/productivity/to-questionnaire/SKILL.md",
+      "bytes": 2904,
+      "sha256": "b5eb929842ee0e93d867c5e906d183d350f2f2d149eaeaa86967d94d8eda1d3b",
+      "sourceSha256": "b5eb929842ee0e93d867c5e906d183d350f2f2d149eaeaa86967d94d8eda1d3b"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/sources/skills-a496f551/skills/productivity/to-questionnaire/agents/openai.yaml",
+      "bytes": 166,
+      "sha256": "9e8a06c38c8842eea8d4922cb9d1ead8e3ace647bab259b943c994a1b4742bc2",
+      "sourceSha256": "9e8a06c38c8842eea8d4922cb9d1ead8e3ace647bab259b943c994a1b4742bc2"
+    },
+    {
       "path": "home/.omp/agent/ecosystem/sources/supabase-agent-skills-fullstack-20261018/LICENSE",
       "bytes": 1086,
       "sha256": "d5f32eb9349125b311fd66f435a13eff089a7166b1e78e31b12e361edfb2466a",
@@ -21640,9 +22006,9 @@
     },
     {
       "path": "home/.omp/agent/extensions/orca-agent-status.ts",
-      "bytes": 39132,
-      "sha256": "05c20c7c3a5661af7a39175dbb9f988093c2c894f7a8dc3eff36a971325319e9",
-      "sourceSha256": "05c20c7c3a5661af7a39175dbb9f988093c2c894f7a8dc3eff36a971325319e9"
+      "bytes": 39336,
+      "sha256": "3615294c9b2d78a6f2e47350ba005feb5606593374873bce6e0880e62d59a12f",
+      "sourceSha256": "3615294c9b2d78a6f2e47350ba005feb5606593374873bce6e0880e62d59a12f"
     },
     {
       "path": "home/.omp/agent/extensions/orca-prefill.ts",
@@ -21652,9 +22018,9 @@
     },
     {
       "path": "home/.omp/agent/extensions/orca-titlebar-spinner.ts",
-      "bytes": 9188,
-      "sha256": "d766ae42ee2a2385e93b993148987fd309695a45b7ea3a46033c302a1b597544",
-      "sourceSha256": "d766ae42ee2a2385e93b993148987fd309695a45b7ea3a46033c302a1b597544"
+      "bytes": 7644,
+      "sha256": "b610cb8889675e9a92c1735bdae6bbf383036a9526f4b20d71f90ef485d4012d",
+      "sourceSha256": "b610cb8889675e9a92c1735bdae6bbf383036a9526f4b20d71f90ef485d4012d"
     },
     {
       "path": "home/.omp/agent/extensions/rtk.ts",
@@ -21667,6 +22033,12 @@
       "bytes": 2701,
       "sha256": "a98ba01eaee528cc122a0d87187a1327d94b245fd83ab49aa8bdc1d3c852b979",
       "sourceSha256": "a98ba01eaee528cc122a0d87187a1327d94b245fd83ab49aa8bdc1d3c852b979"
+    },
+    {
+      "path": "home/.omp/agent/models.yml",
+      "bytes": 349,
+      "sha256": "7ae0d30f8decc12a4236842e1fa67c1376537997fe393a289825310bccffbc96",
+      "sourceSha256": "7ae0d30f8decc12a4236842e1fa67c1376537997fe393a289825310bccffbc96"
     },
     {
       "path": "home/.omp/agent/skills/agency-accessibility-auditor/LICENSE",
@@ -21873,6 +22245,48 @@
       "sourceSha256": "dccee3fb3ca79ac8e011b6c8c1de3bbd7e74ede7d27cfd6ecac6d46bc776d966"
     },
     {
+      "path": "home/.omp/agent/skills/animate/LICENSE",
+      "bytes": 1070,
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "sourceSha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+    },
+    {
+      "path": "home/.omp/agent/skills/animate/RECIPES.md",
+      "bytes": 7957,
+      "sha256": "21ff63d84391db8d96ecdf9170095f55a42c836ccc36fd3269c4772bab031ba2",
+      "sourceSha256": "21ff63d84391db8d96ecdf9170095f55a42c836ccc36fd3269c4772bab031ba2"
+    },
+    {
+      "path": "home/.omp/agent/skills/animate/SKILL.md",
+      "bytes": 11860,
+      "sha256": "b8ede161270458e6ae2e45e8a1985373515d4c63de5568ddb0f9012d7634356c",
+      "sourceSha256": "b8ede161270458e6ae2e45e8a1985373515d4c63de5568ddb0f9012d7634356c"
+    },
+    {
+      "path": "home/.omp/agent/skills/animation-performance/LICENSE",
+      "bytes": 1070,
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "sourceSha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+    },
+    {
+      "path": "home/.omp/agent/skills/animation-performance/SKILL.md",
+      "bytes": 13966,
+      "sha256": "ceb9dd3fe912615830f725a0120ccf8d012d15a6218001a5cd6c15d38e39a957",
+      "sourceSha256": "ceb9dd3fe912615830f725a0120ccf8d012d15a6218001a5cd6c15d38e39a957"
+    },
+    {
+      "path": "home/.omp/agent/skills/animation-vocabulary/LICENSE",
+      "bytes": 1070,
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "sourceSha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+    },
+    {
+      "path": "home/.omp/agent/skills/animation-vocabulary/SKILL.md",
+      "bytes": 13425,
+      "sha256": "40d2b27adfdfeb0570a9f20e7d0255109d9233c50603878bcd0dcd04c923fd94",
+      "sourceSha256": "40d2b27adfdfeb0570a9f20e7d0255109d9233c50603878bcd0dcd04c923fd94"
+    },
+    {
       "path": "home/.omp/agent/skills/ansible-automation/LICENSE",
       "bytes": 11556,
       "sha256": "5ad8c213095c573921d7388edf93f6a9f54490b8ebf3b165ae8ef1947cf70846",
@@ -21895,6 +22309,24 @@
       "bytes": 10043,
       "sha256": "58801572a7edeaa96a0347bd16fbaabbcdf3ad5962dd9a9c757105f796c5f5e8",
       "sourceSha256": "58801572a7edeaa96a0347bd16fbaabbcdf3ad5962dd9a9c757105f796c5f5e8"
+    },
+    {
+      "path": "home/.omp/agent/skills/break-ui/CATALOG.md",
+      "bytes": 8268,
+      "sha256": "7358efcc6bb48e35187be1c064cf60022dcb18c72c18fab58b606dfc5f421f15",
+      "sourceSha256": "7358efcc6bb48e35187be1c064cf60022dcb18c72c18fab58b606dfc5f421f15"
+    },
+    {
+      "path": "home/.omp/agent/skills/break-ui/LICENSE",
+      "bytes": 1070,
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "sourceSha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+    },
+    {
+      "path": "home/.omp/agent/skills/break-ui/SKILL.md",
+      "bytes": 14380,
+      "sha256": "e7eec1d70ac56a04255e9c0dbe98084ea3d544cc04aaad34f32c95d6fa9dff5e",
+      "sourceSha256": "e7eec1d70ac56a04255e9c0dbe98084ea3d544cc04aaad34f32c95d6fa9dff5e"
     },
     {
       "path": "home/.omp/agent/skills/citation-management/CITATION.cff",
@@ -22071,6 +22503,36 @@
       "sourceSha256": "19d23bb8910ee24a104cc15176be420b71a210c7963fea3356b4110387046061"
     },
     {
+      "path": "home/.omp/agent/skills/domain-modeling/ADR-FORMAT.md",
+      "bytes": 2733,
+      "sha256": "944c92aa790e8fbdc9199640b170979abb8a34ba8d0fe18c2a01a63bce140ca0",
+      "sourceSha256": "944c92aa790e8fbdc9199640b170979abb8a34ba8d0fe18c2a01a63bce140ca0"
+    },
+    {
+      "path": "home/.omp/agent/skills/domain-modeling/GLOSSARY-FORMAT.md",
+      "bytes": 2300,
+      "sha256": "21dcc40cdec8e151a829b98ab1517c1867bc444e3665134a98c6983411996801",
+      "sourceSha256": "21dcc40cdec8e151a829b98ab1517c1867bc444e3665134a98c6983411996801"
+    },
+    {
+      "path": "home/.omp/agent/skills/domain-modeling/LICENSE",
+      "bytes": 1068,
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "sourceSha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+    },
+    {
+      "path": "home/.omp/agent/skills/domain-modeling/SKILL.md",
+      "bytes": 3346,
+      "sha256": "7b925d7b1e341a2eeae33ad68a8a8c0ab889a38ddd22a7598e4c240e5a7556a3",
+      "sourceSha256": "7b925d7b1e341a2eeae33ad68a8a8c0ab889a38ddd22a7598e4c240e5a7556a3"
+    },
+    {
+      "path": "home/.omp/agent/skills/domain-modeling/agents/openai.yaml",
+      "bytes": 101,
+      "sha256": "f6bf2aa996c6e6f53fdd0708e18a0d16a56aed8322cca59fedbe3c0d2c75f06b",
+      "sourceSha256": "f6bf2aa996c6e6f53fdd0708e18a0d16a56aed8322cca59fedbe3c0d2c75f06b"
+    },
+    {
       "path": "home/.omp/agent/skills/e2e/LICENSE",
       "bytes": 11358,
       "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
@@ -22135,6 +22597,90 @@
       "bytes": 26164,
       "sha256": "10e8cdc7b08277c6622a35683ef8599b3f67addfcd42d52f29e6c7238c280b18",
       "sourceSha256": "10e8cdc7b08277c6622a35683ef8599b3f67addfcd42d52f29e6c7238c280b18"
+    },
+    {
+      "path": "home/.omp/agent/skills/emil-design-eng/LICENSE",
+      "bytes": 1070,
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "sourceSha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+    },
+    {
+      "path": "home/.omp/agent/skills/emil-design-eng/SKILL.md",
+      "bytes": 27123,
+      "sha256": "ffbe68e6007fb42cb8149f089b400a1ca007d59ba23e8948e2be4476f3175939",
+      "sourceSha256": "ffbe68e6007fb42cb8149f089b400a1ca007d59ba23e8948e2be4476f3175939"
+    },
+    {
+      "path": "home/.omp/agent/skills/find-animation-opportunities/LICENSE",
+      "bytes": 1070,
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "sourceSha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+    },
+    {
+      "path": "home/.omp/agent/skills/find-animation-opportunities/SKILL.md",
+      "bytes": 9808,
+      "sha256": "d52a377819b84a71930f0c822cfe2849f40301605a2d5c7eccbfa3b257700df2",
+      "sourceSha256": "d52a377819b84a71930f0c822cfe2849f40301605a2d5c7eccbfa3b257700df2"
+    },
+    {
+      "path": "home/.omp/agent/skills/fixing-accessibility/LICENSE",
+      "bytes": 1072,
+      "sha256": "c615621c4cc1676ccde194e7a01b6469ba477780251bd71e007fc473a49c2c2b",
+      "sourceSha256": "c615621c4cc1676ccde194e7a01b6469ba477780251bd71e007fc473a49c2c2b"
+    },
+    {
+      "path": "home/.omp/agent/skills/fixing-accessibility/SKILL.md",
+      "bytes": 4718,
+      "sha256": "549261e8a53b53a1a20c0ddbf736821e5fc0876ad82eee76e0efab8e9ee9dadf",
+      "sourceSha256": "549261e8a53b53a1a20c0ddbf736821e5fc0876ad82eee76e0efab8e9ee9dadf"
+    },
+    {
+      "path": "home/.omp/agent/skills/fixing-metadata/LICENSE",
+      "bytes": 1072,
+      "sha256": "c615621c4cc1676ccde194e7a01b6469ba477780251bd71e007fc473a49c2c2b",
+      "sourceSha256": "c615621c4cc1676ccde194e7a01b6469ba477780251bd71e007fc473a49c2c2b"
+    },
+    {
+      "path": "home/.omp/agent/skills/fixing-metadata/SKILL.md",
+      "bytes": 4439,
+      "sha256": "b8315ff95a92dcfa48c33e2b4838a31d9448bd46252aab45726549ce865d6547",
+      "sourceSha256": "b8315ff95a92dcfa48c33e2b4838a31d9448bd46252aab45726549ce865d6547"
+    },
+    {
+      "path": "home/.omp/agent/skills/gsap-core/LICENSE",
+      "bytes": 1066,
+      "sha256": "51b04b06556662dd817e8f4aa6d06bc7139dc73739e1319a7233cfde3e147b90",
+      "sourceSha256": "51b04b06556662dd817e8f4aa6d06bc7139dc73739e1319a7233cfde3e147b90"
+    },
+    {
+      "path": "home/.omp/agent/skills/gsap-core/SKILL.md",
+      "bytes": 14792,
+      "sha256": "3887b47e050ab5afbe2a9a820f23d39fa02ab785e06a343be44c6f91d84d12b3",
+      "sourceSha256": "3887b47e050ab5afbe2a9a820f23d39fa02ab785e06a343be44c6f91d84d12b3"
+    },
+    {
+      "path": "home/.omp/agent/skills/gsap-react/LICENSE",
+      "bytes": 1066,
+      "sha256": "51b04b06556662dd817e8f4aa6d06bc7139dc73739e1319a7233cfde3e147b90",
+      "sourceSha256": "51b04b06556662dd817e8f4aa6d06bc7139dc73739e1319a7233cfde3e147b90"
+    },
+    {
+      "path": "home/.omp/agent/skills/gsap-react/SKILL.md",
+      "bytes": 6565,
+      "sha256": "88e2a5312b45e8cc7b3c496637ff5bc9af2ae9c925b555c8b235b34cbc989d74",
+      "sourceSha256": "88e2a5312b45e8cc7b3c496637ff5bc9af2ae9c925b555c8b235b34cbc989d74"
+    },
+    {
+      "path": "home/.omp/agent/skills/gsap-timeline/LICENSE",
+      "bytes": 1066,
+      "sha256": "51b04b06556662dd817e8f4aa6d06bc7139dc73739e1319a7233cfde3e147b90",
+      "sourceSha256": "51b04b06556662dd817e8f4aa6d06bc7139dc73739e1319a7233cfde3e147b90"
+    },
+    {
+      "path": "home/.omp/agent/skills/gsap-timeline/SKILL.md",
+      "bytes": 4394,
+      "sha256": "1a8b0f39cc4be3ed3d834b89672e4ae2f151b901dc3450bebf10bbc45379fe02",
+      "sourceSha256": "1a8b0f39cc4be3ed3d834b89672e4ae2f151b901dc3450bebf10bbc45379fe02"
     },
     {
       "path": "home/.omp/agent/skills/humanizer/CHANGELOG.md",
@@ -22443,6 +22989,12 @@
       "sourceSha256": "b85a768a1e1b3bfea1af8f75dd41b7eccea139e571234b3b0c03e49757502073"
     },
     {
+      "path": "home/.omp/agent/skills/impeccable/scripts/VERSION",
+      "bytes": 7,
+      "sha256": "e0a25b3b7adde370a854cb1b4866bdc4b565236f0ee65dcdb1b7cd1bc3b6f071",
+      "sourceSha256": "e0a25b3b7adde370a854cb1b4866bdc4b565236f0ee65dcdb1b7cd1bc3b6f071"
+    },
+    {
       "path": "home/.omp/agent/skills/impeccable/scripts/command-metadata.json",
       "bytes": 8392,
       "sha256": "e8720f3aa41135211cc58cc299a39eeda86c75651f4279cc1ede8db10dcc0584",
@@ -22459,6 +23011,12 @@
       "bytes": 1100013,
       "sha256": "47edbdfaf27073c47033d1ac7dfee881be49e2dcbda7671d1157300481dde6da",
       "sourceSha256": "47edbdfaf27073c47033d1ac7dfee881be49e2dcbda7671d1157300481dde6da"
+    },
+    {
+      "path": "home/.omp/agent/skills/impeccable/scripts/impeccable",
+      "bytes": 8514,
+      "sha256": "39d9600489073e227e4f4d55c451ce4252a6632ed7ae37923efbbcbc91f16d07",
+      "sourceSha256": "39d9600489073e227e4f4d55c451ce4252a6632ed7ae37923efbbcbc91f16d07"
     },
     {
       "path": "home/.omp/agent/skills/impeccable/scripts/impeccable.cmd",
@@ -22497,6 +23055,30 @@
       "sourceSha256": "bb36665889124a0b6e15f16045265737449c3bdcf2712cdb08af3cfa01563e2b"
     },
     {
+      "path": "home/.omp/agent/skills/improve-animations/AUDIT.md",
+      "bytes": 7387,
+      "sha256": "551c8473e20e5f4774680bc24d45e1c68e50992582720905c6b077756b7b5a55",
+      "sourceSha256": "551c8473e20e5f4774680bc24d45e1c68e50992582720905c6b077756b7b5a55"
+    },
+    {
+      "path": "home/.omp/agent/skills/improve-animations/LICENSE",
+      "bytes": 1070,
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "sourceSha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+    },
+    {
+      "path": "home/.omp/agent/skills/improve-animations/PLAN-TEMPLATE.md",
+      "bytes": 3100,
+      "sha256": "0a08ac8e23fd2082d7ffb86aeed7b789de77328c3cf874b16f1a755f2ef0a6ad",
+      "sourceSha256": "0a08ac8e23fd2082d7ffb86aeed7b789de77328c3cf874b16f1a755f2ef0a6ad"
+    },
+    {
+      "path": "home/.omp/agent/skills/improve-animations/SKILL.md",
+      "bytes": 8208,
+      "sha256": "73962447464433476343e2c12cd08ab39cc99a9e5f3c118c5fb54ed897574ef6",
+      "sourceSha256": "73962447464433476343e2c12cd08ab39cc99a9e5f3c118c5fb54ed897574ef6"
+    },
+    {
       "path": "home/.omp/agent/skills/kubernetes-manifest-operations/LICENSE",
       "bytes": 11556,
       "sha256": "5ad8c213095c573921d7388edf93f6a9f54490b8ebf3b165ae8ef1947cf70846",
@@ -22519,6 +23101,108 @@
       "bytes": 9076,
       "sha256": "53ecbe98dde36f63e4d61393585d27dcb13d7dc46f931f0beacfcfd751bc759c",
       "sourceSha256": "53ecbe98dde36f63e4d61393585d27dcb13d7dc46f931f0beacfcfd751bc759c"
+    },
+    {
+      "path": "home/.omp/agent/skills/mobile-native/LICENSE",
+      "bytes": 1070,
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "sourceSha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+    },
+    {
+      "path": "home/.omp/agent/skills/mobile-native/SKILL.md",
+      "bytes": 16838,
+      "sha256": "888b7651d66d66dbac4e72b7c554638eb19bd971d686d6cbdf030a5ef3788f55",
+      "sourceSha256": "888b7651d66d66dbac4e72b7c554638eb19bd971d686d6cbdf030a5ef3788f55"
+    },
+    {
+      "path": "home/.omp/agent/skills/motion/SKILL.md",
+      "bytes": 5872,
+      "sha256": "69f9fe4de5bd0618dd3578925e0f21df5ebb5161e2665ed2aa1ed55edef3be0f",
+      "sourceSha256": "69f9fe4de5bd0618dd3578925e0f21df5ebb5161e2665ed2aa1ed55edef3be0f"
+    },
+    {
+      "path": "home/.omp/agent/skills/motion/best-practices/base-ui.md",
+      "bytes": 2737,
+      "sha256": "cf1e79a446965c965a19a07e6c92527c8f661f87e0f16e321d4136fa7f1dd0de",
+      "sourceSha256": "cf1e79a446965c965a19a07e6c92527c8f661f87e0f16e321d4136fa7f1dd0de"
+    },
+    {
+      "path": "home/.omp/agent/skills/motion/best-practices/css-or-motion.md",
+      "bytes": 2320,
+      "sha256": "7b5fa2e184238a0532d2b010629474e99dec36a5a35c442c12f96db5aa25682c",
+      "sourceSha256": "7b5fa2e184238a0532d2b010629474e99dec36a5a35c442c12f96db5aa25682c"
+    },
+    {
+      "path": "home/.omp/agent/skills/motion/best-practices/index.md",
+      "bytes": 3936,
+      "sha256": "78fccd242981414e395988b4965ae390af79edfbdf3d0f36b6cf8650733a0da9",
+      "sourceSha256": "78fccd242981414e395988b4965ae390af79edfbdf3d0f36b6cf8650733a0da9"
+    },
+    {
+      "path": "home/.omp/agent/skills/motion/best-practices/motion.md",
+      "bytes": 947,
+      "sha256": "92dee7c7b3d39ed02956102fbc0c9790e4f45a11b80bd5846a8336871b555d8a",
+      "sourceSha256": "92dee7c7b3d39ed02956102fbc0c9790e4f45a11b80bd5846a8336871b555d8a"
+    },
+    {
+      "path": "home/.omp/agent/skills/motion/best-practices/react.md",
+      "bytes": 4529,
+      "sha256": "e09d96029eb64313f6887949805447807d300a36d13138a56b22b3525f2cc7c7",
+      "sourceSha256": "e09d96029eb64313f6887949805447807d300a36d13138a56b22b3525f2cc7c7"
+    },
+    {
+      "path": "home/.omp/agent/skills/motion/best-practices/vue.md",
+      "bytes": 1354,
+      "sha256": "935e462042b5f02d086d680e757f29b5e0d3177781c3aab9cc3838eed88bd292",
+      "sourceSha256": "935e462042b5f02d086d680e757f29b5e0d3177781c3aab9cc3838eed88bd292"
+    },
+    {
+      "path": "home/.omp/agent/skills/motion/codex/index.md",
+      "bytes": 6333,
+      "sha256": "e8cd498864f0c744d872c9d28cc6b4ba84d12c63cbd92c2ae66e2717dbe12b88",
+      "sourceSha256": "e8cd498864f0c744d872c9d28cc6b4ba84d12c63cbd92c2ae66e2717dbe12b88"
+    },
+    {
+      "path": "home/.omp/agent/skills/motion/css-spring/index.md",
+      "bytes": 2545,
+      "sha256": "98ae2faa1c68b5d2527e1f6bb3d94a1fb0482d24099ad6f9c5cfcd3ebb430a85",
+      "sourceSha256": "98ae2faa1c68b5d2527e1f6bb3d94a1fb0482d24099ad6f9c5cfcd3ebb430a85"
+    },
+    {
+      "path": "home/.omp/agent/skills/motion/insert/index.md",
+      "bytes": 2988,
+      "sha256": "5b7d1ddd05277eb6a1362fb2c4fd8a5d859839f6439183903dd9312c6ddf6913",
+      "sourceSha256": "5b7d1ddd05277eb6a1362fb2c4fd8a5d859839f6439183903dd9312c6ddf6913"
+    },
+    {
+      "path": "home/.omp/agent/skills/motion/performance-audit/index.md",
+      "bytes": 2846,
+      "sha256": "830b18c038391f43f44f774f10edf8b1e15b0d935736665192074b279caa36c7",
+      "sourceSha256": "830b18c038391f43f44f774f10edf8b1e15b0d935736665192074b279caa36c7"
+    },
+    {
+      "path": "home/.omp/agent/skills/motion/transition-preview/index.md",
+      "bytes": 2240,
+      "sha256": "64962b3757518956e56599d31bea8f7bced604b4ab35a14e2e1cf3494aa87ace",
+      "sourceSha256": "64962b3757518956e56599d31bea8f7bced604b4ab35a14e2e1cf3494aa87ace"
+    },
+    {
+      "path": "home/.omp/agent/skills/review-animations/LICENSE",
+      "bytes": 1070,
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "sourceSha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+    },
+    {
+      "path": "home/.omp/agent/skills/review-animations/SKILL.md",
+      "bytes": 8407,
+      "sha256": "6ff590d29e436766135aa3d137be1fac2a867165c7257fc315b189361f1873af",
+      "sourceSha256": "6ff590d29e436766135aa3d137be1fac2a867165c7257fc315b189361f1873af"
+    },
+    {
+      "path": "home/.omp/agent/skills/review-animations/STANDARDS.md",
+      "bytes": 9801,
+      "sha256": "e7d3605034acda54ca13e43aec9e64d65b53de20f75b11b8d694e373012fbe07",
+      "sourceSha256": "e7d3605034acda54ca13e43aec9e64d65b53de20f75b11b8d694e373012fbe07"
     },
     {
       "path": "home/.omp/agent/skills/security-audit/AI-AND-LLM.md",
@@ -22855,6 +23539,120 @@
       "bytes": 12555,
       "sha256": "aaeb6fd9c9c862fdc3e29fe8be3ddf376938a3221122afccdcc0e1ab63022502",
       "sourceSha256": "aaeb6fd9c9c862fdc3e29fe8be3ddf376938a3221122afccdcc0e1ab63022502"
+    },
+    {
+      "path": "home/.omp/agent/skills/to-questionnaire/LICENSE",
+      "bytes": 1068,
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "sourceSha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+    },
+    {
+      "path": "home/.omp/agent/skills/to-questionnaire/SKILL.md",
+      "bytes": 2904,
+      "sha256": "b5eb929842ee0e93d867c5e906d183d350f2f2d149eaeaa86967d94d8eda1d3b",
+      "sourceSha256": "b5eb929842ee0e93d867c5e906d183d350f2f2d149eaeaa86967d94d8eda1d3b"
+    },
+    {
+      "path": "home/.omp/agent/skills/to-questionnaire/agents/openai.yaml",
+      "bytes": 166,
+      "sha256": "9e8a06c38c8842eea8d4922cb9d1ead8e3ace647bab259b943c994a1b4742bc2",
+      "sourceSha256": "9e8a06c38c8842eea8d4922cb9d1ead8e3ace647bab259b943c994a1b4742bc2"
+    },
+    {
+      "path": "home/.omp/agent/skills/vercel-composition-patterns/AGENTS.md",
+      "bytes": 22627,
+      "sha256": "89e3ddd58fcf99a53a50e25dfd21b8cde1be5f10b7df6bacd3dfa6796932f516",
+      "sourceSha256": "89e3ddd58fcf99a53a50e25dfd21b8cde1be5f10b7df6bacd3dfa6796932f516"
+    },
+    {
+      "path": "home/.omp/agent/skills/vercel-composition-patterns/NOTICE",
+      "bytes": 522,
+      "sha256": "d883aa189cf206f3f00468467325369d8323c38c4c0eff7ed785d51fd6c5653a",
+      "sourceSha256": "d883aa189cf206f3f00468467325369d8323c38c4c0eff7ed785d51fd6c5653a"
+    },
+    {
+      "path": "home/.omp/agent/skills/vercel-composition-patterns/README.md",
+      "bytes": 2140,
+      "sha256": "85915a43a6f0b4efe525e3cf6398dd866166da2025837c4460468a24a940da94",
+      "sourceSha256": "85915a43a6f0b4efe525e3cf6398dd866166da2025837c4460468a24a940da94"
+    },
+    {
+      "path": "home/.omp/agent/skills/vercel-composition-patterns/SKILL.md",
+      "bytes": 2886,
+      "sha256": "e38e0eaa609316b10423a9a138ed95e35099accd3f735585295c8a8f165c28a3",
+      "sourceSha256": "e38e0eaa609316b10423a9a138ed95e35099accd3f735585295c8a8f165c28a3"
+    },
+    {
+      "path": "home/.omp/agent/skills/vercel-composition-patterns/metadata.json",
+      "bytes": 530,
+      "sha256": "49262ed5cb4186f31ee980cf8d990be0170c51efed4908d0464a1cff9905bd05",
+      "sourceSha256": "49262ed5cb4186f31ee980cf8d990be0170c51efed4908d0464a1cff9905bd05"
+    },
+    {
+      "path": "home/.omp/agent/skills/vercel-composition-patterns/references/agent-skills-README.md",
+      "bytes": 7838,
+      "sha256": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651",
+      "sourceSha256": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651"
+    },
+    {
+      "path": "home/.omp/agent/skills/vercel-composition-patterns/rules/_sections.md",
+      "bytes": 829,
+      "sha256": "a174213b87e6911e2b766995a2cbaf8d1534057076e82fb79fe3f0ecb38047df",
+      "sourceSha256": "a174213b87e6911e2b766995a2cbaf8d1534057076e82fb79fe3f0ecb38047df"
+    },
+    {
+      "path": "home/.omp/agent/skills/vercel-composition-patterns/rules/_template.md",
+      "bytes": 329,
+      "sha256": "587f7d16b0660eb61fee4a4d3d7df2b3077d6835de170602c7d6e60bee559131",
+      "sourceSha256": "587f7d16b0660eb61fee4a4d3d7df2b3077d6835de170602c7d6e60bee559131"
+    },
+    {
+      "path": "home/.omp/agent/skills/vercel-composition-patterns/rules/architecture-avoid-boolean-props.md",
+      "bytes": 2267,
+      "sha256": "007555ebb020f4d552582a2c4db194db71a1fd33094012e5187bcfa4f8c392d5",
+      "sourceSha256": "007555ebb020f4d552582a2c4db194db71a1fd33094012e5187bcfa4f8c392d5"
+    },
+    {
+      "path": "home/.omp/agent/skills/vercel-composition-patterns/rules/architecture-compound-components.md",
+      "bytes": 2600,
+      "sha256": "f246af13dc269b521cf20eb8ad99a0cb645beac381c8c9b117262c34612c8457",
+      "sourceSha256": "f246af13dc269b521cf20eb8ad99a0cb645beac381c8c9b117262c34612c8457"
+    },
+    {
+      "path": "home/.omp/agent/skills/vercel-composition-patterns/rules/patterns-children-over-render-props.md",
+      "bytes": 1886,
+      "sha256": "7c45a0d21b3c4126a32cba916ee31adeae195386ad1dbbe6634aedb7457aa0ad",
+      "sourceSha256": "7c45a0d21b3c4126a32cba916ee31adeae195386ad1dbbe6634aedb7457aa0ad"
+    },
+    {
+      "path": "home/.omp/agent/skills/vercel-composition-patterns/rules/patterns-explicit-variants.md",
+      "bytes": 2395,
+      "sha256": "8c19e596e61807549d01ce8c6954c6358199f97a8511c0c02c625ec0efda8c0e",
+      "sourceSha256": "8c19e596e61807549d01ce8c6954c6358199f97a8511c0c02c625ec0efda8c0e"
+    },
+    {
+      "path": "home/.omp/agent/skills/vercel-composition-patterns/rules/react19-no-forwardref.md",
+      "bytes": 953,
+      "sha256": "881830adb7534c4b2d70db426556646ad9837f5478f744f35641f635ada22227",
+      "sourceSha256": "881830adb7534c4b2d70db426556646ad9837f5478f744f35641f635ada22227"
+    },
+    {
+      "path": "home/.omp/agent/skills/vercel-composition-patterns/rules/state-context-interface.md",
+      "bytes": 4974,
+      "sha256": "09e73afbf9285fa416679cc864a287b9e8b821d0969272ab784295386d8c9bc3",
+      "sourceSha256": "09e73afbf9285fa416679cc864a287b9e8b821d0969272ab784295386d8c9bc3"
+    },
+    {
+      "path": "home/.omp/agent/skills/vercel-composition-patterns/rules/state-decouple-implementation.md",
+      "bytes": 2699,
+      "sha256": "76a8c1eb29a70d8996ab3f71260345af2f7bc89deab815a421d6c87c6591a9c3",
+      "sourceSha256": "76a8c1eb29a70d8996ab3f71260345af2f7bc89deab815a421d6c87c6591a9c3"
+    },
+    {
+      "path": "home/.omp/agent/skills/vercel-composition-patterns/rules/state-lift-state.md",
+      "bytes": 3224,
+      "sha256": "74c54038a6c554c748fe31cec673b80861b5d920b7553cf78cdf10d18b4b759b",
+      "sourceSha256": "74c54038a6c554c748fe31cec673b80861b5d920b7553cf78cdf10d18b4b759b"
     },
     {
       "path": "home/.omp/agent/skills/vercel-react-best-practices/LICENSE",
@@ -23293,6 +24091,36 @@
       "bytes": 1309,
       "sha256": "18ac6b7c697feabd145a45603fd1555a69d7a2a17bb512c167b5d9221816ce91",
       "sourceSha256": "18ac6b7c697feabd145a45603fd1555a69d7a2a17bb512c167b5d9221816ce91"
+    },
+    {
+      "path": "home/.omp/agent/skills/web-design-guidelines/NOTICE",
+      "bytes": 959,
+      "sha256": "c748058e6d92e95ce230ac0c115597cdd85583641f69453abfc84012bbfb3f15",
+      "sourceSha256": "c748058e6d92e95ce230ac0c115597cdd85583641f69453abfc84012bbfb3f15"
+    },
+    {
+      "path": "home/.omp/agent/skills/web-design-guidelines/SKILL.md",
+      "bytes": 1231,
+      "sha256": "f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f",
+      "sourceSha256": "f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f"
+    },
+    {
+      "path": "home/.omp/agent/skills/web-design-guidelines/references/LICENSE",
+      "bytes": 1068,
+      "sha256": "6cd1609c9c12233507cdd2ce0d32e9a721e3c27494951be06b90090deeeb7af2",
+      "sourceSha256": "6cd1609c9c12233507cdd2ce0d32e9a721e3c27494951be06b90090deeeb7af2"
+    },
+    {
+      "path": "home/.omp/agent/skills/web-design-guidelines/references/agent-skills-README.md",
+      "bytes": 7838,
+      "sha256": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651",
+      "sourceSha256": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651"
+    },
+    {
+      "path": "home/.omp/agent/skills/web-design-guidelines/references/command.md",
+      "bytes": 8055,
+      "sha256": "d246b026f4f29b5823a9cc857f9edf3d2507002e055e32040cadeaf3b38e0234",
+      "sourceSha256": "d246b026f4f29b5823a9cc857f9edf3d2507002e055e32040cadeaf3b38e0234"
     },
     {
       "path": "home/.omp/agent/skills/webapp-testing/LICENSE.txt",
@@ -24350,7 +25178,7 @@
     "inactive source trees except license/notice metadata"
   ],
   "versions": {
-    "omp": "18.12.5",
+    "omp": "18.14.1",
     "node": "24.19.0",
     "bun": "1.4.2",
     "rea-agents": "6.5.0",
@@ -24359,7 +25187,7 @@
     "rtk": "1.0.1",
     "ponytail": "5.3.2"
   },
-  "updatedAt": "2026-10-22T02:06:40.249701+00:00",
+  "updatedAt": "2026-10-31T09:47:50.345318+00:00",
   "credentialScan": {
     "status": "No unclassified matches in scanned patterns",
     "rules": [
@@ -24386,9 +25214,9 @@
     ],
     "limit": "Pattern-based check, not proof of absence of secrets or personal data",
     "latestScoped": {
-      "date": "2026-10-22",
-      "status": "No unclassified matches in scoped patterns after review",
-      "filesScanned": 424,
+      "date": "2026-10-31",
+      "status": "No matches in scoped patterns",
+      "filesScanned": 151,
       "rules": [
         "github-token",
         "provider-key",
@@ -24397,66 +25225,96 @@
         "jwt",
         "url-credential"
       ],
-      "reviewedOccurrences": [
-        {
-          "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-secrets-credential-engineer.md",
-          "rule": "url-credential",
-          "line": 94,
-          "sha256": "356c73f5feb867b3e0d3c58d463a98f5f1b241709ff9dc9e64a5bd6d91457484",
-          "reason": "Unchanged upstream negative BEFORE example uses app/dummy password at db.internal; not a workstation credential."
-        },
-        {
-          "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
-          "rule": "private-key",
-          "line": 46,
-          "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
-          "reason": "Unchanged upstream detection examples: literal user:password connection strings and private-key BEGIN headers without key material."
-        },
-        {
-          "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
-          "rule": "private-key",
-          "line": 47,
-          "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
-          "reason": "Unchanged upstream detection examples: literal user:password connection strings and private-key BEGIN headers without key material."
-        },
-        {
-          "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
-          "rule": "url-credential",
-          "line": 40,
-          "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
-          "reason": "Unchanged upstream detection examples: literal user:password connection strings and private-key BEGIN headers without key material."
-        },
-        {
-          "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
-          "rule": "url-credential",
-          "line": 41,
-          "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
-          "reason": "Unchanged upstream detection examples: literal user:password connection strings and private-key BEGIN headers without key material."
-        },
-        {
-          "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
-          "rule": "url-credential",
-          "line": 42,
-          "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
-          "reason": "Unchanged upstream detection examples: literal user:password connection strings and private-key BEGIN headers without key material."
-        },
-        {
-          "path": "home/.omp/agent/skills/agency-secrets-credential-hygiene-engineer/SKILL.md",
-          "rule": "url-credential",
-          "line": 91,
-          "sha256": "0776f0bf1646f7b47fcae7b734f21cc9921985bdae4f5a2ee29fce01b00218a5",
-          "reason": "Unchanged upstream negative BEFORE example uses app/dummy password at db.internal; not a workstation credential."
-        }
-      ],
-      "scope": "422 changed/new payload files, README.md and snapshot-manifest.json; no reclassification of historical scan",
-      "limit": "Pattern-based check only; not a full security audit or proof of absence of sensitive data"
-    }
+      "reviewedOccurrences": [],
+      "scope": "148 new/changed home payload files, README.md, scripts/verify-snapshot.mjs and generated snapshot-manifest.json; unchanged historical payloads were not reclassified.",
+      "limit": "Pattern-based check only; no secret values or raw historically redacted metadata opened; not proof of absence of sensitive data or a full security audit."
+    },
+    "historicalScopedScans": [
+      {
+        "date": "2026-10-22",
+        "status": "No unclassified matches in scoped patterns after review",
+        "filesScanned": 424,
+        "rules": [
+          "github-token",
+          "provider-key",
+          "aws-access-key",
+          "private-key",
+          "jwt",
+          "url-credential"
+        ],
+        "reviewedOccurrences": [
+          {
+            "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-secrets-credential-engineer.md",
+            "rule": "url-credential",
+            "line": 94,
+            "sha256": "356c73f5feb867b3e0d3c58d463a98f5f1b241709ff9dc9e64a5bd6d91457484",
+            "reason": "Unchanged upstream negative BEFORE example uses app/dummy password at db.internal; not a workstation credential."
+          },
+          {
+            "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
+            "rule": "private-key",
+            "line": 46,
+            "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
+            "reason": "Unchanged upstream detection examples: literal user:password connection strings and private-key BEGIN headers without key material."
+          },
+          {
+            "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
+            "rule": "private-key",
+            "line": 47,
+            "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
+            "reason": "Unchanged upstream detection examples: literal user:password connection strings and private-key BEGIN headers without key material."
+          },
+          {
+            "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
+            "rule": "url-credential",
+            "line": 40,
+            "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
+            "reason": "Unchanged upstream detection examples: literal user:password connection strings and private-key BEGIN headers without key material."
+          },
+          {
+            "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
+            "rule": "url-credential",
+            "line": 41,
+            "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
+            "reason": "Unchanged upstream detection examples: literal user:password connection strings and private-key BEGIN headers without key material."
+          },
+          {
+            "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
+            "rule": "url-credential",
+            "line": 42,
+            "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
+            "reason": "Unchanged upstream detection examples: literal user:password connection strings and private-key BEGIN headers without key material."
+          },
+          {
+            "path": "home/.omp/agent/skills/agency-secrets-credential-hygiene-engineer/SKILL.md",
+            "rule": "url-credential",
+            "line": 91,
+            "sha256": "0776f0bf1646f7b47fcae7b734f21cc9921985bdae4f5a2ee29fce01b00218a5",
+            "reason": "Unchanged upstream negative BEFORE example uses app/dummy password at db.internal; not a workstation credential."
+          }
+        ],
+        "scope": "422 changed/new payload files, README.md and snapshot-manifest.json; no reclassification of historical scan",
+        "limit": "Pattern-based check only; not a full security audit or proof of absence of sensitive data"
+      }
+    ]
   },
   "snapshotPolicy": {
     "basis": "Current local installation; no upstream upgrades",
-    "selection": "Refresh prior inventory and enumerate installed skills, extensions, runtime text, measurements, plugin distributions and active ARS/Ponytail sources",
+    "selection": "Refresh prior approved inventory plus installed skills/support, OMP routing/runtime helper text, public provenance and current model command configuration; retain inactive vendor sources only as previously selected or the six newly approved original subtrees.",
     "omitted": "Keep prior inactive-source selection; omit runtime state, credentials, history, databases, dependencies, binaries and nontext artifacts",
-    "verification": "Byte sizes and SHA-256 for all snapshot files and source files; credential-pattern scan is not a security certification",
-    "agencyAgentsScope": "Scoped addition of original pinned Agency Agents source and 17 converted OMP-only skills, approved proposal, routing/guide/ledger and native acceptance evidence; all unrelated payloads retained"
+    "verification": "Use node scripts/verify-snapshot.mjs to verify complete home/ inventory, sizes and SHA-256; scoped credential pattern screening is not a security certification or clean-machine restore proof.",
+    "agencyAgentsScope": "Scoped addition of original pinned Agency Agents source and 17 converted OMP-only skills, approved proposal, routing/guide/ledger and native acceptance evidence; all unrelated payloads retained",
+    "routing20261031Scope": "Original selective gsap-core/gsap-timeline/gsap-react/motion/domain-modeling/to-questionnaire, complete 96-skill catalog and 192 finite native-model cases; four existing MCP unchanged; no new providers/hooks/runtime packages or bulk upstream upgrades.",
+    "observedVersions": "OMP/Node/Bun observed 2026-10-31; other integration versions are preserved pins, not newly executed live integrations."
+  },
+  "versionsBaseline20261021": {
+    "omp": "18.12.5",
+    "node": "24.19.0",
+    "bun": "1.4.2",
+    "rea-agents": "6.5.0",
+    "context7": "4.4.4",
+    "semgrep": "1.181.0",
+    "rtk": "1.0.1",
+    "ponytail": "5.3.2"
   }
 }

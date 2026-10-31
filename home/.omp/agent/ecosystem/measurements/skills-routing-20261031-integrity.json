@@ -1,0 +1,227 @@
+{
+  "status": "passed",
+  "installedOriginalFilesMatched": 26,
+  "existingEntryPointsUnchanged": 90,
+  "operationalConfigurationsUnchanged": {
+    ".omp/agent/config.yml": "f15276920b08d9c35f0e58be3e4400cee4789c05eb8c035559ad568c7b6abfd9",
+    ".omp/agent/mcp.json": "a98ba01eaee528cc122a0d87187a1327d94b245fd83ab49aa8bdc1d3c852b979",
+    ".omp/agent/ecosystem/runtime/memory-policy.json": "795aba128b75afb435ce02ce1b66f212d779c9c93c7be75f475800d2dbb3c571"
+  },
+  "relativeReferenceLinksResolved": 22,
+  "files": [
+    {
+      "skill": "gsap-core",
+      "path": ".omp/agent/skills/gsap-core/SKILL.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/gsap-skills-aed9cfd3/skills/gsap-core/SKILL.md",
+      "bytes": 14792,
+      "sha256": "3887b47e050ab5afbe2a9a820f23d39fa02ab785e06a343be44c6f91d84d12b3",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "gsap-react",
+      "path": ".omp/agent/skills/gsap-react/SKILL.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/gsap-skills-aed9cfd3/skills/gsap-react/SKILL.md",
+      "bytes": 6565,
+      "sha256": "88e2a5312b45e8cc7b3c496637ff5bc9af2ae9c925b555c8b235b34cbc989d74",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "gsap-timeline",
+      "path": ".omp/agent/skills/gsap-timeline/SKILL.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/gsap-skills-aed9cfd3/skills/gsap-timeline/SKILL.md",
+      "bytes": 4394,
+      "sha256": "1a8b0f39cc4be3ed3d834b89672e4ae2f151b901dc3450bebf10bbc45379fe02",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "gsap-core",
+      "path": ".omp/agent/skills/gsap-core/LICENSE",
+      "sourcePath": ".omp/agent/ecosystem/sources/gsap-skills-aed9cfd3/LICENSE",
+      "bytes": 1066,
+      "sha256": "51b04b06556662dd817e8f4aa6d06bc7139dc73739e1319a7233cfde3e147b90",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "gsap-timeline",
+      "path": ".omp/agent/skills/gsap-timeline/LICENSE",
+      "sourcePath": ".omp/agent/ecosystem/sources/gsap-skills-aed9cfd3/LICENSE",
+      "bytes": 1066,
+      "sha256": "51b04b06556662dd817e8f4aa6d06bc7139dc73739e1319a7233cfde3e147b90",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "gsap-react",
+      "path": ".omp/agent/skills/gsap-react/LICENSE",
+      "sourcePath": ".omp/agent/ecosystem/sources/gsap-skills-aed9cfd3/LICENSE",
+      "bytes": 1066,
+      "sha256": "51b04b06556662dd817e8f4aa6d06bc7139dc73739e1319a7233cfde3e147b90",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "domain-modeling",
+      "path": ".omp/agent/skills/domain-modeling/ADR-FORMAT.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/skills-a496f551/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "bytes": 2733,
+      "sha256": "944c92aa790e8fbdc9199640b170979abb8a34ba8d0fe18c2a01a63bce140ca0",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "domain-modeling",
+      "path": ".omp/agent/skills/domain-modeling/GLOSSARY-FORMAT.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/skills-a496f551/skills/engineering/domain-modeling/GLOSSARY-FORMAT.md",
+      "bytes": 2300,
+      "sha256": "21dcc40cdec8e151a829b98ab1517c1867bc444e3665134a98c6983411996801",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "domain-modeling",
+      "path": ".omp/agent/skills/domain-modeling/SKILL.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/skills-a496f551/skills/engineering/domain-modeling/SKILL.md",
+      "bytes": 3346,
+      "sha256": "7b925d7b1e341a2eeae33ad68a8a8c0ab889a38ddd22a7598e4c240e5a7556a3",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "domain-modeling",
+      "path": ".omp/agent/skills/domain-modeling/agents/openai.yaml",
+      "sourcePath": ".omp/agent/ecosystem/sources/skills-a496f551/skills/engineering/domain-modeling/agents/openai.yaml",
+      "bytes": 101,
+      "sha256": "f6bf2aa996c6e6f53fdd0708e18a0d16a56aed8322cca59fedbe3c0d2c75f06b",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "to-questionnaire",
+      "path": ".omp/agent/skills/to-questionnaire/SKILL.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/skills-a496f551/skills/productivity/to-questionnaire/SKILL.md",
+      "bytes": 2904,
+      "sha256": "b5eb929842ee0e93d867c5e906d183d350f2f2d149eaeaa86967d94d8eda1d3b",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "to-questionnaire",
+      "path": ".omp/agent/skills/to-questionnaire/agents/openai.yaml",
+      "sourcePath": ".omp/agent/ecosystem/sources/skills-a496f551/skills/productivity/to-questionnaire/agents/openai.yaml",
+      "bytes": 166,
+      "sha256": "9e8a06c38c8842eea8d4922cb9d1ead8e3ace647bab259b943c994a1b4742bc2",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "domain-modeling",
+      "path": ".omp/agent/skills/domain-modeling/LICENSE",
+      "sourcePath": ".omp/agent/ecosystem/sources/skills-a496f551/LICENSE",
+      "bytes": 1068,
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "to-questionnaire",
+      "path": ".omp/agent/skills/to-questionnaire/LICENSE",
+      "sourcePath": ".omp/agent/ecosystem/sources/skills-a496f551/LICENSE",
+      "bytes": 1068,
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "motion",
+      "path": ".omp/agent/skills/motion/SKILL.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/SKILL.md",
+      "bytes": 5872,
+      "sha256": "69f9fe4de5bd0618dd3578925e0f21df5ebb5161e2665ed2aa1ed55edef3be0f",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "motion",
+      "path": ".omp/agent/skills/motion/best-practices/base-ui.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/best-practices/base-ui.md",
+      "bytes": 2737,
+      "sha256": "cf1e79a446965c965a19a07e6c92527c8f661f87e0f16e321d4136fa7f1dd0de",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "motion",
+      "path": ".omp/agent/skills/motion/best-practices/css-or-motion.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/best-practices/css-or-motion.md",
+      "bytes": 2320,
+      "sha256": "7b5fa2e184238a0532d2b010629474e99dec36a5a35c442c12f96db5aa25682c",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "motion",
+      "path": ".omp/agent/skills/motion/best-practices/index.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/best-practices/index.md",
+      "bytes": 3936,
+      "sha256": "78fccd242981414e395988b4965ae390af79edfbdf3d0f36b6cf8650733a0da9",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "motion",
+      "path": ".omp/agent/skills/motion/best-practices/motion.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/best-practices/motion.md",
+      "bytes": 947,
+      "sha256": "92dee7c7b3d39ed02956102fbc0c9790e4f45a11b80bd5846a8336871b555d8a",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "motion",
+      "path": ".omp/agent/skills/motion/best-practices/react.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/best-practices/react.md",
+      "bytes": 4529,
+      "sha256": "e09d96029eb64313f6887949805447807d300a36d13138a56b22b3525f2cc7c7",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "motion",
+      "path": ".omp/agent/skills/motion/best-practices/vue.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/best-practices/vue.md",
+      "bytes": 1354,
+      "sha256": "935e462042b5f02d086d680e757f29b5e0d3177781c3aab9cc3838eed88bd292",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "motion",
+      "path": ".omp/agent/skills/motion/codex/index.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/codex/index.md",
+      "bytes": 6333,
+      "sha256": "e8cd498864f0c744d872c9d28cc6b4ba84d12c63cbd92c2ae66e2717dbe12b88",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "motion",
+      "path": ".omp/agent/skills/motion/css-spring/index.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/css-spring/index.md",
+      "bytes": 2545,
+      "sha256": "98ae2faa1c68b5d2527e1f6bb3d94a1fb0482d24099ad6f9c5cfcd3ebb430a85",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "motion",
+      "path": ".omp/agent/skills/motion/insert/index.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/insert/index.md",
+      "bytes": 2988,
+      "sha256": "5b7d1ddd05277eb6a1362fb2c4fd8a5d859839f6439183903dd9312c6ddf6913",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "motion",
+      "path": ".omp/agent/skills/motion/performance-audit/index.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/performance-audit/index.md",
+      "bytes": 2846,
+      "sha256": "830b18c038391f43f44f774f10edf8b1e15b0d935736665192074b279caa36c7",
+      "matchesOriginal": true
+    },
+    {
+      "skill": "motion",
+      "path": ".omp/agent/skills/motion/transition-preview/index.md",
+      "sourcePath": ".omp/agent/ecosystem/sources/ai-kit-1e424943/plugins/motion/skills/motion/transition-preview/index.md",
+      "bytes": 2240,
+      "sha256": "64962b3757518956e56599d31bea8f7bced604b4ab35a14e2e1cf3494aa87ace",
+      "matchesOriginal": true
+    }
+  ],
+  "firstCheckFailure": {
+    "kind": "throwaway link-check false positive",
+    "error": "domain-modeling/GLOSSARY-FORMAT.md sample ./src/ordering/GLOSSARY.md was treated as a required bundled file",
+    "cause": "The initial ad-hoc regex included links inside fenced illustrative Markdown; corrected validator checks actual prose references, not code samples. Vendor files were not changed."
+  },
+  "scope": "New upstream payload/source byte equality, existing registered SKILL entrypoints and selected operational configuration hashes; not runtime library tests."
+}

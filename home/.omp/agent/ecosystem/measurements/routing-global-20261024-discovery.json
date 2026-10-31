@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-24",
+  "scope": "OMP default-profile",
+  "command": [
+    "bun",
+    "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/check-skill-routing.mjs",
+    "C:/Users/Indrimeilla-PC/orca/projects/Onboarding"
+  ],
+  "childEnvironmentOverrides": {
+    "PI_NO_TITLE": "1",
+    "RTK_DISABLED": "1"
+  },
+  "exitCode": 0,
+  "stderr": "",
+  "result": {
+    "status": "passed",
+    "kind": "Native discovery, command, URI and prompt smoke; not semantic selection or workload execution",
+    "results": [
+      {
+        "cwd": "C:/Users/Indrimeilla-PC/orca/projects/Onboarding",
+        "skills": 90,
+        "modelVisible": 88,
+        "hidden": [
+          "grill-me",
+          "review-animations"
+        ],
+        "warnings": [],
+        "skillCommands": 90,
+        "resolvedSkillUris": 90,
+        "globalRoutingLoaded": true,
+        "model": {
+          "provider": "openai-codex",
+          "id": "gpt-6.1-sol"
+        },
+        "toolNames": [
+          "read"
+        ],
+        "mcpDisabled": true,
+        "modelInferenceRequested": false
+      },
+      {
+        "cwd": "C:\\Users\\INDRIM~1\\AppData\\Local\\Temp",
+        "skills": 90,
+        "modelVisible": 88,
+        "hidden": [
+          "grill-me",
+          "review-animations"
+        ],
+        "warnings": [],
+        "skillCommands": 90,
+        "resolvedSkillUris": 90,
+        "globalRoutingLoaded": true,
+        "model": {
+          "provider": "openai-codex",
+          "id": "gpt-6.1-sol"
+        },
+        "toolNames": [
+          "read"
+        ],
+        "mcpDisabled": true,
+        "modelInferenceRequested": false
+      }
+    ]
+  },
+  "firstPass": false,
+  "helperCorrections": [
+    {
+      "failure": "\n[Uncaught Exception] AssertionError: Actual global policy not loaded into the fresh session\n    at C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\runtime\\check-skill-routing.mjs:71:12\n",
+      "cause": "Native renderer compacts Markdown tables. Byte-identical raw-file comparison was a harness error, not absence of global instructions.",
+      "proof": {
+        "disk": {
+          "length": 50838,
+          "crlf": 0
+        },
+        "contexts": [
+          {
+            "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\AGENTS.md",
+            "length": 50838,
+            "exact": true,
+            "lfEqual": true,
+            "sha256": "885d4d1ff4283641835e96d0ba7855dbde15af8a87b3587aa3e68ab7fd9f0573",
+            "firstDifference": {
+              "index": 50838,
+              "loaded": "oks with skill-only payloads.\n",
+              "disk": "oks with skill-only payloads.\n"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "failure": "\n[Uncaught Exception] Error: Failed to load pi_natives native addon for win32-x64 (modern).\n\nTried:\n- C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\pi_natives.win32-x64-modern.node: Cannot find module 'C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\pi_natives.win32-x64-modern.node'\nRequire stack:\n- C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\loader-state.js\n- C:\\Users\\Indrimeilla-PC\\.bun\\bin\\pi_natives.win32-x64-modern.node: Cannot find module 'C:\\Users\\Indrimeilla-PC\\.bun\\bin\\pi_natives.win32-x64-modern.node'\nRequire stack:\n- C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\loader-state.js\n- C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\pi_natives.win32-x64-baseline.node: Cannot find module 'C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\pi_natives.win32-x64-baseline.node'\nRequire stack:\n- C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\loader-state.js\n- C:\\Users\\Indrimeilla-PC\\.bun\\bin\\pi_natives.win32-x64-baseline.node: Cannot find module 'C:\\Users\\Indrimeilla-PC\\.bun\\bin\\pi_natives.win32-x64-baseline.node'\nRequire stack:\n- C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\loader-state.js\n- C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\pi_natives.win32-x64.node: Cannot find module 'C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\pi_natives.win32-x64.node'\nRequire stack:\n- C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\loader-state.js\n- C:\\Users\\Indrimeilla-PC\\.bun\\bin\\pi_natives.win32-x64.node: Cannot find module 'C:\\Users\\Indrimeilla-PC\\.bun\\bin\\pi_natives.win32-x64.node'\nRequire stack:\n- C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\loader-state.js\n\nIf installed via npm/bun, try reinstalling: bun install @oh-my-pi/pi-natives\nIf developing locally, build with: bun --cwd=packages/natives run build\nExplicit targets: bun scripts/bazel-natives.ts <target> --dest packages/natives/native\n\nTried:\n- C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\pi_natives.win32-x64-modern.node: Cannot find module 'C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\pi_natives.win32-x64-modern.node'\nRequire stack:\n- C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\loader-state.js\n- C:\\Users\\Indrimeilla-PC\\.bun\\bin\\pi_natives.win32-x64-modern.node: Cannot find module 'C:\\Users\\Indrimeilla-PC\\.bun\\bin\\pi_natives.win32-x64-modern.node'\nRequire stack:\n- C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\loader-state.js\n- C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\pi_natives.win32-x64-baseline.node: Cannot find module 'C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\pi_natives.win32-x64-baseline.node'\nRequire stack:\n- C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\loader-state.js\n- C:\\Users\\Indrimeilla-PC\\.bun\\bin\\pi_natives.win32-x64-baseline.node: Cannot find module 'C:\\Users\\Indrimeilla-PC\\.bun\\bin\\pi_natives.win32-x64-baseline.node'\nRequire stack:\n- C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\loader-state.js\n- C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\pi_natives.win32-x64.node: Cannot find module 'C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\pi_natives.win32-x64.node'\nRequire stack:\n- C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\loader-state.js\n- C:\\Users\\Indrimeilla-PC\\.bun\\bin\\pi_natives.win32-x64.node: Cannot find module 'C:\\Users\\Indrimeilla-PC\\.bun\\bin\\pi_natives.win32-x64.node'\nRequire stack:\n- C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\loader-state.js\n\nIf installed via npm/bun, try reinstalling: bun install @oh-my-pi/pi-natives\nIf developing locally, build with: bun --cwd=packages/natives run build\nExplicit targets: bun scripts/bazel-natives.ts <target> --dest packages/natives/native\n    at loadNative (C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\loader-state.js:901:12)\n    at nativePathFn (C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\path.js:7:15)\n    at expandWindowsLongPath (C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-natives@18.12.6@@@1\\native\\path.js:15:40)\n    at getProjectDir (C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-utils@18.12.6@@@1\\src\\dirs.ts:250:16)\n    at C:\\Users\\Indrimeilla-PC\\.bun\\install\\cache\\@oh-my-pi\\pi-utils@18.12.6@@@1\\src\\env.ts:293:43\n",
+      "cause": "import.meta.resolve selected Bun cache package location lacking native addon. Bun.resolveSync from installed OMP source preserves the usable installed dependency location."
+    }
+  ],
+  "noModelInference": true
+}

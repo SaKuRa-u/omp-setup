@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-24",
+  "scope": "OMP default-profile only",
+  "status": "Approved subset installed; fresh native CLI skill resolution and upstream-content integrity verified",
+  "authorization": {
+    "webDesignGuidelines": "User accepted previous Vercel recommendation",
+    "fixingMetadata": "User explicitly requested installation",
+    "otherSkills": "Assessment and recommendations only; not installed"
+  },
+  "installed": [
+    {
+      "name": "web-design-guidelines",
+      "version": "1.0.0",
+      "repository": "vercel-labs/agent-skills",
+      "commit": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "license": "MIT declared by repository README; standalone root LICENSE absent on pin; unchanged declaration retained; no invented copyright",
+      "rulesSnapshot": {
+        "repository": "vercel-labs/web-interface-guidelines",
+        "commit": "434b7f91364665f2f733b310ec54809bf8f37937",
+        "license": "Original MIT LICENSE retained; skill still requires fresh remote rules per review"
+      }
+    },
+    {
+      "name": "fixing-metadata",
+      "version": "1.0.1",
+      "repository": "ibelick/ui-skills",
+      "commit": "55363c305097d4c84487bd5f323d29b3f067bf72",
+      "license": "MIT; original LICENSE retained"
+    }
+  ],
+  "sources": [
+    {
+      "repo": "vercel-labs/agent-skills",
+      "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "source": "skills/web-design-guidelines/SKILL.md",
+      "dest": "web-design-guidelines/SKILL.md",
+      "url": "https://api.github.com/repos/vercel-labs/agent-skills/contents/skills/web-design-guidelines/SKILL.md?ref=063bee94c3f4df8453406c830b0a7df0f2860278",
+      "blobSha": "ceae92ab319216a68274168fba9b63b998b65997",
+      "sha256": "f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f",
+      "bytes": 1231
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "source": "README.md",
+      "dest": "web-design-guidelines/references/agent-skills-README.md",
+      "url": "https://api.github.com/repos/vercel-labs/agent-skills/contents/README.md?ref=063bee94c3f4df8453406c830b0a7df0f2860278",
+      "blobSha": "04a1a5a46a22cfd430e2877b7c145e34fc2653ab",
+      "sha256": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651",
+      "bytes": 7838
+    },
+    {
+      "repo": "vercel-labs/web-interface-guidelines",
+      "ref": "434b7f91364665f2f733b310ec54809bf8f37937",
+      "source": "command.md",
+      "dest": "web-design-guidelines/references/command.md",
+      "url": "https://api.github.com/repos/vercel-labs/web-interface-guidelines/contents/command.md?ref=434b7f91364665f2f733b310ec54809bf8f37937",
+      "blobSha": "3eb3a212b7b89493922ea418489d4c6f67ae8bd5",
+      "sha256": "d246b026f4f29b5823a9cc857f9edf3d2507002e055e32040cadeaf3b38e0234",
+      "bytes": 8055
+    },
+    {
+      "repo": "vercel-labs/web-interface-guidelines",
+      "ref": "434b7f91364665f2f733b310ec54809bf8f37937",
+      "source": "LICENSE",
+      "dest": "web-design-guidelines/references/LICENSE",
+      "url": "https://api.github.com/repos/vercel-labs/web-interface-guidelines/contents/LICENSE?ref=434b7f91364665f2f733b310ec54809bf8f37937",
+      "blobSha": "b3575a3c1358eac4b9ee36a4c851872d81417760",
+      "sha256": "6cd1609c9c12233507cdd2ce0d32e9a721e3c27494951be06b90090deeeb7af2",
+      "bytes": 1068
+    },
+    {
+      "repo": "ibelick/ui-skills",
+      "ref": "55363c305097d4c84487bd5f323d29b3f067bf72",
+      "source": "skills/fixing-metadata/SKILL.md",
+      "dest": "fixing-metadata/SKILL.md",
+      "url": "https://api.github.com/repos/ibelick/ui-skills/contents/skills/fixing-metadata/SKILL.md?ref=55363c305097d4c84487bd5f323d29b3f067bf72",
+      "blobSha": "3c3009290827a5204e92f95d240d490d2d53c55c",
+      "sha256": "b8315ff95a92dcfa48c33e2b4838a31d9448bd46252aab45726549ce865d6547",
+      "bytes": 4439
+    },
+    {
+      "repo": "ibelick/ui-skills",
+      "ref": "55363c305097d4c84487bd5f323d29b3f067bf72",
+      "source": "LICENSE",
+      "dest": "fixing-metadata/LICENSE",
+      "url": "https://api.github.com/repos/ibelick/ui-skills/contents/LICENSE?ref=55363c305097d4c84487bd5f323d29b3f067bf72",
+      "blobSha": "cac7c466df604fc44527fd89d9662626bab57354",
+      "sha256": "c615621c4cc1676ccde194e7a01b6469ba477780251bd71e007fc473a49c2c2b",
+      "bytes": 1072
+    }
+  ],
+  "localAddition": "web-design-guidelines/NOTICE: provenance only; no vendor SKILL edits",
+  "integration": {
+    "designOwner": "Impeccable original OMP 4.6.0",
+    "verificationOwner": "Native browser/e2e on authorized actual application",
+    "routingFile": "C:/Users/Indrimeilla-PC/.omp/agent/AGENTS.md",
+    "settingsChanged": false,
+    "mcpConfigChanged": false,
+    "otherHostsChanged": false,
+    "taste": "Existing OMP exclusion retained; reference only",
+    "metadataBoundary": "No deployment or private URL submission implied; noindex is not access control",
+    "vercelBoundary": "Scoped review, not every-edit audit; record actual moving-rule revision/hash; brief, language, native semantics, stack versions and runtime evidence win"
+  },
+  "verification": {
+    "ompVersionObserved": "18.12.6",
+    "nativeResolutions": [
+      {
+        "name": "web-design-guidelines",
+        "exitCode": 0,
+        "signal": null,
+        "expectedPath": "C:/Users/Indrimeilla-PC/.omp/agent/skills/web-design-guidelines/SKILL.md",
+        "hasName": true,
+        "hasSkillPath": true,
+        "stdoutBytes": 1318,
+        "stderr": ""
+      },
+      {
+        "name": "fixing-metadata",
+        "exitCode": 0,
+        "signal": null,
+        "expectedPath": "C:/Users/Indrimeilla-PC/.omp/agent/skills/fixing-metadata/SKILL.md",
+        "hasName": true,
+        "hasSkillPath": true,
+        "stdoutBytes": 4520,
+        "stderr": ""
+      }
+    ],
+    "originalFilesCompared": 6,
+    "allOriginalPayloadsIdentical": true,
+    "modelInferenceRequested": false,
+    "vendorScriptsExecuted": false,
+    "initialCheck": {
+      "route": "bash tool internal-URI argument resolution",
+      "exitCode": 126,
+      "result": "Unknown skill for both new names before external command launch",
+      "diagnosis": "Fresh native CLI resolved both without filesystem/config changes; stale active-session discovery is the supported inference, not a hot-reload claim"
+    },
+    "ledgerBackupRead": "Initial un-ranged raw read returned first 300 lines and failed JSON.parse; complete explicit 1-842 raw read parsed before backup; no ledger mutation occurred on failure"
+  },
+  "recommendationsNotInstalled": {
+    "emilDesignEng": "On-demand craft reference, not global design owner",
+    "reviewAnimations": "Explicit scoped motion review with runtime/brief caveats",
+    "improveAnimations": "Explicit audit/planning; native dispatch and separate implementation scope",
+    "animationVocabulary": "Useful effect-naming lookup",
+    "fixingAccessibility": "Targeted remediation; agency guide remains deeper audit guidance",
+    "additionalPriorities": [
+      "break-ui: explicit dev-only dummy-data UI robustness",
+      "mobile-native: conditional mobile-web/PWA quality",
+      "vercel-composition-patterns: conditional React component API work"
+    ],
+    "conditional": [
+      "ask-sonner",
+      "pick-ui-library",
+      "animate-expo",
+      "vercel-react-native-skills",
+      "vercel-react-view-transitions",
+      "write-swift"
+    ],
+    "notDefault": [
+      "apple-design",
+      "prototype",
+      "baseline-ui",
+      "improve-ui",
+      "component-canvas",
+      "create-canvas",
+      "create-design-md",
+      "ui-skills-root",
+      "writing-guidelines",
+      "deploy-to-vercel",
+      "vercel-cli-with-tokens",
+      "vercel-optimize"
+    ],
+    "alreadyInstalled": "vercel-react-best-practices"
+  },
+  "rollback": {
+    "routingBackup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/design-skills-20261024/AGENTS.md",
+    "routingBeforeSha256": "dffd8f51237cb9c559c0857b61dba4082735e0ee4bb5decf7c512dce969f0890",
+    "ledgerBackup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/design-skills-20261024/ledger.json",
+    "skillDirectories": [
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\web-design-guidelines",
+      "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\fixing-metadata"
+    ],
+    "procedure": "Restore only task routing/ledger changes after checking intervening user changes; move only these new skill directories out of discovery; preserve backups; start new session"
+  },
+  "notTested": [
+    "Real UI/animation quality",
+    "Autonomous model skill-selection behavior",
+    "Browser/mobile/assistive technology performance",
+    "Vendor executables/CLI registry/remote MCP",
+    "Full security audit"
+  ],
+  "notEnabled": [
+    "New hooks/plugins/providers",
+    "New MCP/browser inspector",
+    "Application dependencies",
+    "Deployment/paid operations"
+  ]
+}

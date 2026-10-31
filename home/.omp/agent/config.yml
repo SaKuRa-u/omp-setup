@@ -1,6 +1,6 @@
 shellPath: C:\Program Files\Git\bin\bash.exe
 modelRoles:
-  default: openai-codex/gpt-6.1-sol
+  default: openai-codex/gpt-6.1-sol:medium
 symbolPreset: ascii
 composer:
   shape: claude
@@ -25,6 +25,7 @@ skills:
     - design-taste-frontend
     - redesign-existing-projects
     - agents/impeccable
+    - claude/impeccable
   customDirectories:
     - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/sources/academic-research-skills-4c544901
 marketplace:

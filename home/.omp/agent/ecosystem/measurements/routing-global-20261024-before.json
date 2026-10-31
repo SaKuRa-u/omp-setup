@@ -1,0 +1,1153 @@
+{
+  "date": "2026-10-24",
+  "cwd": "C:/Users/Indrimeilla-PC/orca/projects/Onboarding",
+  "skills": [
+    {
+      "name": "academic-paper",
+      "description": "12-agent academic paper writing pipeline. 11 modes (full/plan/outline/revision/revision-coach/abstract/lit-review/format-convert/citation-check/disclosure/rebuttal-audit). 6 paper types, 5 citation formats, bilingual abstracts, LaTeX/DOCX-via-Pandoc/PDF output. Style Calibration + Writing Quality Check + Anti-Patterns with IRON RULE markers. Triggers: write paper, academic paper, guide my paper, parse reviews, I got reviewer comments, revision roadmap, should we push back, conference rebuttal, grant panel response, audit my rebuttal, check my response draft, AI disclosure, check citations, citation check, check my references, verify references, look over the refs, 寫論文, 學術論文, 引導我寫論文, 審查意見, 我收到審查意見, 修訂路線圖, 評估回覆, 檢查引用, 引用檢查, 檢查參考文獻, 核對文獻, 논문 작성, 초록 작성, 논문 수정, 논문 계획을 도와줘, 심사 의견을 받았어, 심사 의견 반영, 답변서 점검, AI 사용 고지, 인용 확인, 인용 형식 검사, enmendar mi artículo, redactar artículo, guía mi artículo, analizar reseñas, auditar mi respuesta, verificar borrador de respuesta, verificar citas, divulgación de IA.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\academic-paper\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\academic-paper",
+      "source": "custom:user",
+      "hide": false,
+      "_source": {
+        "provider": "custom",
+        "providerName": "Custom",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\academic-paper\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "academic-paper-reviewer",
+      "description": "Multi-perspective academic paper review with dynamic reviewer personas. Runs a 5-seat, role-separated review panel (Journal-Fit Reviewer + 3 peer-review roles + Devil's Advocate) with field-specific expertise; role separation is not a claim of independent error processes. Supports full review, re-review (verification), quick assessment, methodology focus, Socratic guided, and calibration modes. Triggers on: review paper, peer review, manuscript review, referee report, review my paper, critique paper, simulate review, editorial review, calibrate reviewer, reviewer calibration, measure reviewer accuracy, 審查論文, 論文審查, 模擬審查, 同儕審查, 幫我審這篇, 以審查人角度評估, 審查者校準, 논문 심사, 동료 심사, 모의 심사, 심사자 관점에서 평가, 심사자 보정, revisar artículo, revisión entre pares, revisión de manuscrito, informe de árbitro, revisa mi artículo, criticar artículo, simular revisión, revisión editorial, calibrar revisor.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\academic-paper-reviewer\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\academic-paper-reviewer",
+      "source": "custom:user",
+      "hide": false,
+      "_source": {
+        "provider": "custom",
+        "providerName": "Custom",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\academic-paper-reviewer\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "academic-pipeline",
+      "description": "Orchestrator for the full academic research pipeline: research -> write -> integrity check -> review -> revise -> re-review -> re-revise -> final integrity check -> finalize. Coordinates deep-research, academic-paper, and academic-paper-reviewer into a seamless 10-stage workflow with mandatory, coverage-bounded integrity checks, two-stage peer review, and auditable quality-assurance artifacts. Triggers on: academic pipeline, research to paper, full paper workflow, paper pipeline, end-to-end paper, research-to-publication, complete paper workflow, 연구부터 논문까지, 연구 주제 설정부터 논문 완성까지, 논문 전체 워크플로, flujo de trabajo académico, investigación a artículo, flujo completo de artículo, pipeline de investigación completa, publicación de investigación, flujo de trabajo completo del artículo.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\academic-pipeline\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\academic-pipeline",
+      "source": "custom:user",
+      "hide": false,
+      "_source": {
+        "provider": "custom",
+        "providerName": "Custom",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\academic-pipeline\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "agency-accessibility-auditor",
+      "description": "Expert accessibility specialist who audits interfaces against WCAG standards, tests with assistive technologies, and ensures inclusive design. Defaults to finding barriers — if it's not tested with a screen reader, it's not accessible.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-accessibility-auditor\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-accessibility-auditor",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-accessibility-auditor\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "agency-api-platform-engineer",
+      "description": "Expert API platform engineer for public and partner APIs — contract-first design (OpenAPI/gRPC), versioning and deprecation policy, SDK generation, API gateway concerns (auth, rate limiting, quotas), and developer-portal DX.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-api-platform-engineer\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-api-platform-engineer",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-api-platform-engineer\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "agency-api-tester",
+      "description": "Expert API testing specialist focused on comprehensive API validation, performance testing, and quality assurance across all systems and third-party integrations",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-api-tester\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-api-tester",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-api-tester\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "agency-brand-guardian",
+      "description": "Expert brand strategist and guardian specializing in brand identity development, consistency maintenance, and strategic brand positioning",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-brand-guardian\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-brand-guardian",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-brand-guardian\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "agency-database-reliability-engineer",
+      "description": "Expert database reliability engineer (DBRE) — high availability and replication, automated failover, backup and point-in-time recovery, zero-downtime online schema migrations, connection pooling, and disaster-recovery drills. Focused on keeping data safe and available, not query tuning.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-database-reliability-engineer\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-database-reliability-engineer",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-database-reliability-engineer\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "agency-developer-tooling-engineer",
+      "description": "Expert developer-tooling and CLI engineer — building command-line tools and internal developer platforms with great DX: intuitive command design, helpful errors, shell completions, fast startup, cross-platform distribution, and scriptable, composable interfaces.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-developer-tooling-engineer\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-developer-tooling-engineer",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-developer-tooling-engineer\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "agency-document-generator",
+      "description": "Expert document creation specialist who generates professional PDF, PPTX, DOCX, and XLSX files using code-based approaches with proper formatting, charts, and data visualization.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-document-generator\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-document-generator",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-document-generator\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "agency-identity-access-engineer",
+      "description": "Expert identity engineer for OAuth 2.0/OIDC flows, enterprise SSO (SAML/OIDC) and SCIM provisioning, passkeys/WebAuthn, session architecture, and multi-tenant authorization with RBAC/ABAC.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-identity-access-engineer\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-identity-access-engineer",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-identity-access-engineer\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "agency-internationalization-engineer",
+      "description": "Expert i18n engineer for ICU MessageFormat, CLDR plural rules, RTL and bidirectional layouts, locale-aware date/number/currency formatting, string extraction pipelines, and pseudo-localization testing.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-internationalization-engineer\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-internationalization-engineer",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-internationalization-engineer\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "agency-payments-billing-engineer",
+      "description": "Expert payments engineer for PSP integrations (Stripe, Adyen, Braintree, PayPal), idempotent payment flows, webhook processing, subscription billing, SCA/3DS, PCI scope reduction, and financial reconciliation.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-payments-billing-engineer\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-payments-billing-engineer",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-payments-billing-engineer\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "agency-performance-benchmarker",
+      "description": "Expert performance testing and optimization specialist focused on measuring, analyzing, and improving system performance across all applications and infrastructure",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-performance-benchmarker\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-performance-benchmarker",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-performance-benchmarker\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "agency-privacy-engineer",
+      "description": "Expert privacy engineer who implements privacy in code — PII discovery and classification, data minimization, consent enforcement at the API layer, automated DSAR and deletion across services, pseudonymization/tokenization, and retention automation. Builds the technical controls a privacy policy only promises.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-privacy-engineer\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-privacy-engineer",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-privacy-engineer\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "agency-research-synthesist",
+      "description": "Expert in literature review, source evaluation, and evidence synthesis — turns a scattered pile of sources into a structured, honestly-weighted map of what the evidence actually supports",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-research-synthesist\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-research-synthesist",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-research-synthesist\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "agency-secrets-credential-hygiene-engineer",
+      "description": "Owns the full lifecycle of secrets and credentials — detection, prevention, vaulting, rotation, and leak response — so an application runs on short-lived, least-privilege credentials that are never in the code and are already rotated by the time a leak is found.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-secrets-credential-hygiene-engineer\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-secrets-credential-hygiene-engineer",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-secrets-credential-hygiene-engineer\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "agency-security-architect",
+      "description": "Expert security architect specializing in threat modeling, secure-by-design architecture, trust-boundary analysis, defense-in-depth, and risk-based security reviews across web, API, cloud-native, and distributed systems. Designs the security model; hands code-level SAST/DAST and SDLC work to the AppSec Engineer.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-security-architect\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-security-architect",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-security-architect\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "agency-technical-writer",
+      "description": "Expert technical writer specializing in developer documentation, API references, README files, and tutorials. Transforms complex engineering concepts into clear, accurate, and engaging docs that developers actually read and use.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-technical-writer\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-technical-writer",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-technical-writer\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "agency-ux-researcher",
+      "description": "Expert user experience researcher specializing in user behavior analysis, usability testing, and data-driven design insights. Provides actionable research findings that improve product usability and user satisfaction",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-ux-researcher\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-ux-researcher",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-ux-researcher\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "ansible-automation",
+      "description": "Generate, review, and investigate Ansible playbooks, roles, tasks, handlers, static inventory, variables, idempotency, and Linux or Windows managed-host automation. Use for Ansible content and safe execution planning; not Terraform/Packer provisioning, automatic dependency installation, or unrestricted remote execution.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\ansible-automation\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\ansible-automation",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\ansible-automation\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "aws-ami-builder",
+      "description": "Build Amazon Machine Images (AMIs) with Packer using the amazon-ebs builder. Use when creating custom AMIs for EC2 instances.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\aws-ami-builder\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\aws-ami-builder",
+      "source": "claude:project",
+      "hide": false,
+      "_source": {
+        "provider": "claude",
+        "providerName": "Claude Code",
+        "path": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\aws-ami-builder\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "azure-image-builder",
+      "description": "Build Azure managed images and Azure Compute Gallery images with Packer. Use when creating custom images for Azure VMs.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\azure-image-builder\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\azure-image-builder",
+      "source": "claude:project",
+      "hide": false,
+      "_source": {
+        "provider": "claude",
+        "providerName": "Claude Code",
+        "path": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\azure-image-builder\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "azure-verified-modules",
+      "description": "Azure Verified Modules (AVM) requirements and best practices for developing certified Azure Terraform modules. Use when creating or reviewing Azure modules that need AVM certification.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\azure-verified-modules\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\azure-verified-modules",
+      "source": "claude:project",
+      "hide": false,
+      "_source": {
+        "provider": "claude",
+        "providerName": "Claude Code",
+        "path": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\azure-verified-modules\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "caveman",
+      "description": "Terse caveman voice: answer first, fluff gone, every technical fact kept. Use for /caveman, \"caveman mode\", \"talk like caveman\", \"be brief\", \"less tokens\". Stays on until \"stop caveman\" or \"normal mode\".\n",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\caveman\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\caveman",
+      "source": "agents:project",
+      "hide": false,
+      "_source": {
+        "provider": "agents",
+        "providerName": "Agent Dirs (.agent/.agents)",
+        "path": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\caveman\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "citation-management",
+      "description": "Comprehensive citation management for academic research. Search OpenAlex, PubMed, and Google Scholar for papers, extract accurate metadata, validate citations, and generate properly formatted BibTeX entries. This skill should be used when you need to find papers, verify citation information, convert DOIs to BibTeX, or ensure reference accuracy in scientific writing.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\citation-management\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\citation-management",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\citation-management\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "claude/impeccable",
+      "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing pages, dashboards, product UI, app shells, components, forms, settings, onboarding, and empty states. Handles UX review, visual hierarchy, information architecture, cognitive load, accessibility, performance, responsive behavior, theming, anti-patterns, typography, fonts, spacing, layout, alignment, color, motion, micro-interactions, UX copy, error states, edge cases, i18n, and reusable design systems or tokens. Also use for bland designs that need to become bolder or more delightful, loud designs that should become quieter, live browser iteration on UI elements, or ambitious visual effects that should feel technically extraordinary. Not for backend-only or non-UI tasks.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\impeccable\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\impeccable",
+      "source": "claude:project",
+      "hide": false,
+      "_source": {
+        "provider": "claude",
+        "providerName": "Claude Code",
+        "path": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\impeccable\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "code-review",
+      "description": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes: Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/spec asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to \"review since X\".",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\code-review\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\code-review",
+      "source": "agents:project",
+      "hide": false,
+      "_source": {
+        "provider": "agents",
+        "providerName": "Agent Dirs (.agent/.agents)",
+        "path": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\code-review\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "codebase-design",
+      "description": "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\codebase-design\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\codebase-design",
+      "source": "agents:project",
+      "hide": false,
+      "_source": {
+        "provider": "agents",
+        "providerName": "Agent Dirs (.agent/.agents)",
+        "path": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\codebase-design\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "computer-use",
+      "description": "Drives the GUI of a visible local app window through `orca computer`: accessibility tree, clicks, typing, menus, dialogs, and screenshots in native apps and external browser windows (Chrome, Edge, Safari) or webviews. Prefer a programmatic path (shell, filesystem, git, HTTP, existing CLIs) whenever it can complete the task. Use only when a visible window needs GUI control those cannot reach. Do not use for Orca's embedded browser (`orca-cli`).",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\computer-use\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\computer-use",
+      "source": "agents:project",
+      "hide": false,
+      "_source": {
+        "provider": "agents",
+        "providerName": "Agent Dirs (.agent/.agents)",
+        "path": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\computer-use\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "context7-docs",
+      "description": "Look up version-relevant public programming library, framework, SDK, and Node.js API documentation with the approved Context7 route when a task needs external API signatures, library-specific behavior, or migration guidance. Use for a named dependency's documentation, not general coding, private project search, infrastructure/cloud configuration, or automatic setup.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\context7-docs\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\context7-docs",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\context7-docs\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "deep-research",
+      "description": "Universal deep research agent team. 13-agent pipeline for rigorous academic research on any topic. 8 modes: full research, quick brief, paper review, lit-review, fact-check, three-way literature scan, Socratic guided research dialogue, and systematic review with optional meta-analysis. Covers research question formulation, Socratic mentoring, methodology design, systematic literature search, source verification, cross-source synthesis, risk of bias assessment, meta-analysis, APA 7.0 report compilation, editorial review, devil's advocate challenges, ethics review, and post-research literature monitoring. Triggers on: research, deep research, literature review, systematic review, meta-analysis, PRISMA, evidence synthesis, fact-check, WHY HOW WHAT papers, 3W literature scan, guide my research, help me think through, 研究, 深度研究, 文獻回顧, 文獻探討, 系統性回顧, 後設分析, 事實查核, 三段式文獻掃描, 引導我的研究, 幫我釐清, 幫我想想, 我不確定要研究什麼, 研究方向, 研究主題, 심층 연구, 문헌 조사, 체계적 문헌고찰, 메타분석, 사실 확인, 연구 방향을 잡아줘, 연구 주제 정하는 것을 도와줘, revisión de literatura, metaanálisis",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\deep-research\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\deep-research",
+      "source": "custom:user",
+      "hide": false,
+      "_source": {
+        "provider": "custom",
+        "providerName": "Custom",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\deep-research\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "docker-container-builds",
+      "description": "Generate, review, optimize, or investigate Dockerfiles, .dockerignore, multi-stage container builds, build caching, image entrypoints, and container build security. Use for containerizing an application; not Kubernetes manifests, Terraform, Packer, or registry administration.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\docker-container-builds\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\docker-container-builds",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\docker-container-builds\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "e2e",
+      "description": "Writes, runs, and debugs end-to-end tests for web and mobile apps with e2e, the agentic test runner, which mixes agent.act goals with exact locator assertions on a Playwright browser or an iOS or Android device. Also drives a project's running app live over the e2e MCP server to look at a screen, check a UI change, take a screenshot or record a video, and try a locator; and runs bug bashes, parallel e2e explore runs with each bug proven by a repro test. Use when a project depends on e2e or has an e2e.config.ts, when asked for end-to-end, browser, mobile, or agentic UI tests, to check a change in the running app, to QA or bug bash an app or branch, or when an e2e run fails.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\e2e\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\e2e",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\e2e\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "find-skills",
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\find-skills\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\find-skills",
+      "source": "agents:project",
+      "hide": false,
+      "_source": {
+        "provider": "agents",
+        "providerName": "Agent Dirs (.agent/.agents)",
+        "path": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\find-skills\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "fixing-metadata",
+      "description": "Audit and fix HTML metadata including page titles, meta descriptions, canonical URLs, Open Graph tags, Twitter cards, favicons, JSON-LD structured data, and robots directives. Use when adding SEO metadata, fixing social share previews, reviewing Open Graph tags, setting up canonical URLs, or shipping new pages that need correct meta tags.\n",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\fixing-metadata\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\fixing-metadata",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\fixing-metadata\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "grill-me",
+      "description": "A relentless interview to sharpen a plan or design.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\grill-me\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\grill-me",
+      "source": "agents:project",
+      "hide": true,
+      "_source": {
+        "provider": "agents",
+        "providerName": "Agent Dirs (.agent/.agents)",
+        "path": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\grill-me\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "grilling",
+      "description": "Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\grilling\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\grilling",
+      "source": "agents:project",
+      "hide": false,
+      "_source": {
+        "provider": "agents",
+        "providerName": "Agent Dirs (.agent/.agents)",
+        "path": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\grilling\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "humanizer",
+      "description": "Rewrite AI-sounding text so it reads like the writer without changing what it says.\nUse when editing or reviewing prose for AI tells: not-X-but-Y contrasts, one-line\nclosers, staged openers, forced triads, dashes everywhere, inflated claims, sales\nlanguage, stock AI words, bold labels, or filler. Based on Wikipedia's \"Signs of AI writing.\"\n",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\humanizer\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\humanizer",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\humanizer\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "impeccable",
+      "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing pages, dashboards, product UI, app shells, components, forms, settings, onboarding, and empty states. Handles UX review, visual hierarchy, information architecture, cognitive load, accessibility, performance, responsive behavior, theming, anti-patterns, typography, fonts, spacing, layout, alignment, color, motion, micro-interactions, UX copy, error states, edge cases, i18n, and reusable design systems or tokens. Also use for bland designs that need to become bolder or more delightful, loud designs that should become quieter, live browser iteration on UI elements, or ambitious visual effects that should feel technically extraordinary. Not for backend-only or non-UI tasks.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\impeccable\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\impeccable",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\impeccable\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "kubernetes-manifest-operations",
+      "description": "Generate, review, and investigate Kubernetes YAML, Deployments, Services, probes, resource limits, RBAC, storage, NetworkPolicy, and versioned custom resources. Use for manifest-level operations and read-only Kubernetes diagnosis; not Docker image construction, Terraform/Packer, or automatic cluster deployment.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\kubernetes-manifest-operations\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\kubernetes-manifest-operations",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\kubernetes-manifest-operations\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "mcp-builder",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\mcp-builder\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\mcp-builder",
+      "source": "agents:project",
+      "hide": false,
+      "_source": {
+        "provider": "agents",
+        "providerName": "Agent Dirs (.agent/.agents)",
+        "path": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\mcp-builder\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "new-terraform-provider",
+      "description": "Use this when scaffolding a new Terraform provider with the Plugin Framework: workspace layout, go module setup, provider server main.go, and a provider.go with schema and Configure. Also use when a user wants to start building a provider for a new API or asks how to begin a terraform-provider-* project.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\new-terraform-provider\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\new-terraform-provider",
+      "source": "claude:project",
+      "hide": false,
+      "_source": {
+        "provider": "claude",
+        "providerName": "Claude Code",
+        "path": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\new-terraform-provider\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "orca-cli",
+      "description": "Operate Orca-managed worktrees, folder contexts, terminals, repos, automations, artifacts, skill sharing, worktree comments, and Orca's embedded browser through the `orca` CLI. Use when the user says \"$orca-cli\", \"Orca worktree\", \"child worktree\", \"spawn codex/claude in a worktree\", \"read/wait/send Orca terminal\", \"handoff\" / \"handover\" / \"give this to another agent\", \"Orca browser\", \"orca artifacts\", or \"share skills\". Prefer it over raw git worktree, ad hoc PTYs, or Computer Use when Orca state is involved. Use Computer Use only when a visible window needs GUI control that a CLI, filesystem, or API cannot do.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\orca-cli\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\orca-cli",
+      "source": "agents:project",
+      "hide": false,
+      "_source": {
+        "provider": "agents",
+        "providerName": "Agent Dirs (.agent/.agents)",
+        "path": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\orca-cli\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "orchestration",
+      "description": "Coordinate supervised Orca workers: threaded messages, blocking ask/reply, task dispatch, worker_done/escalation waits, task DAGs, decision gates, coordinator loops, and decomposing work across agents. Use `orca-cli` for full ownership handoffs — \"hand off\", \"handoff\", \"handover\", \"give this to another agent\", \"another worktree\" — unless asked to supervise, monitor, or coordinate a DAG, and for terminal control, lightweight terminal prompts, shell commands, Orca worktree management, and reading or waiting on terminals.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\orchestration\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\orchestration",
+      "source": "agents:project",
+      "hide": false,
+      "_source": {
+        "provider": "agents",
+        "providerName": "Agent Dirs (.agent/.agents)",
+        "path": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\orchestration\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "ponytail",
+      "description": "Lazy senior dev mode: the smallest change that fully solves the task, and a reply a busy human understands in one read. Use on any coding task (writing, fixing, refactoring, reviewing, choosing dependencies) and when the user says \"ponytail\", \"be lazy\", \"simplest solution\", \"yagni\", or complains about over-engineering or bloat. Levels: lite, full (default), ultra.\n",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail",
+      "source": "claude-plugins:user",
+      "hide": false,
+      "_source": {
+        "provider": "claude-plugins",
+        "providerName": "Claude Code Marketplace",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail\\SKILL.md",
+        "level": "user",
+        "origin": "omp",
+        "pluginName": "ponytail"
+      }
+    },
+    {
+      "name": "ponytail-audit",
+      "description": "Quality audit of a whole repo: bugs, security holes, what breaks under real load, risky code without tests, slow paths, and what to delete, merge or split. Ranked, each finding explained in plain English. One-shot report, changes nothing. Use for \"audit this codebase\", \"review the whole repo\", \"find bloat\", \"what can I delete\", /ponytail-audit.\n",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-audit\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-audit",
+      "source": "claude-plugins:user",
+      "hide": false,
+      "_source": {
+        "provider": "claude-plugins",
+        "providerName": "Claude Code Marketplace",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-audit\\SKILL.md",
+        "level": "user",
+        "origin": "omp",
+        "pluginName": "ponytail"
+      }
+    },
+    {
+      "name": "ponytail-debt",
+      "description": "List every `shortcut:` comment (and older `ponytail:` ones) as a debt ledger. One-shot report, changes nothing. Use for \"ponytail debt\", \"what did ponytail defer\", \"list the shortcuts\", /ponytail-debt.\n",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-debt\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-debt",
+      "source": "claude-plugins:user",
+      "hide": false,
+      "_source": {
+        "provider": "claude-plugins",
+        "providerName": "Claude Code Marketplace",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-debt\\SKILL.md",
+        "level": "user",
+        "origin": "omp",
+        "pluginName": "ponytail"
+      }
+    },
+    {
+      "name": "ponytail-gain",
+      "description": "Show ponytail's measured savings (code, cost, speed) from the benchmark. One-shot display. Use for /ponytail-gain, \"what does ponytail save\", \"ponytail impact\".\n",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-gain\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-gain",
+      "source": "claude-plugins:user",
+      "hide": false,
+      "_source": {
+        "provider": "claude-plugins",
+        "providerName": "Claude Code Marketplace",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-gain\\SKILL.md",
+        "level": "user",
+        "origin": "omp",
+        "pluginName": "ponytail"
+      }
+    },
+    {
+      "name": "ponytail-help",
+      "description": "Quick reference for ponytail levels, skills and commands. One-shot display. Use for /ponytail-help, \"ponytail help\", \"how do I use ponytail\".\n",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-help\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-help",
+      "source": "claude-plugins:user",
+      "hide": false,
+      "_source": {
+        "provider": "claude-plugins",
+        "providerName": "Claude Code Marketplace",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-help\\SKILL.md",
+        "level": "user",
+        "origin": "omp",
+        "pluginName": "ponytail"
+      }
+    },
+    {
+      "name": "ponytail-review",
+      "description": "Quality review of a change: is the logic right, is it safe, does it hold under real load, is risky code tested, is it fast enough, and is every line needed. Reads the connected code, not only the diff. Each finding is explained in plain English. Use for \"review this\", \"code review\", \"review the last commit\", \"review my PR\", \"is this over-engineered\", /ponytail-review.\n",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-review\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-review",
+      "source": "claude-plugins:user",
+      "hide": false,
+      "_source": {
+        "provider": "claude-plugins",
+        "providerName": "Claude Code Marketplace",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-review\\SKILL.md",
+        "level": "user",
+        "origin": "omp",
+        "pluginName": "ponytail"
+      }
+    },
+    {
+      "name": "provider-actions",
+      "description": "Implement Terraform Provider actions using the Plugin Framework. Use when developing imperative operations that execute at lifecycle events (before/after create, update, destroy).",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-actions\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-actions",
+      "source": "claude:project",
+      "hide": false,
+      "_source": {
+        "provider": "claude",
+        "providerName": "Claude Code",
+        "path": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-actions\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "provider-configuration",
+      "description": "Implement Terraform provider configuration and authentication with the Plugin Framework: provider schema for credentials (Optional + Sensitive attributes), environment variable fallbacks, credential provider chains (static config, then environment variables, shared credentials file, and platform identity), unknown-value guards in Configure(), secret redaction, configure-time credential validation, and diagnostics that name every source tried. Use when implementing or reviewing a provider's Configure method or provider schema, adding authentication options (API keys, tokens, profiles, credentials files, assume-role), deciding how a provider should resolve credentials, debugging \"no valid credential sources\" or missing-credentials errors, or unit testing credential resolution.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-configuration\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-configuration",
+      "source": "claude:project",
+      "hide": false,
+      "_source": {
+        "provider": "claude",
+        "providerName": "Claude Code",
+        "path": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-configuration\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "provider-docs",
+      "description": "Create, update, and review Terraform provider documentation for Terraform Registry using HashiCorp-recommended patterns, tfplugindocs templates, and schema descriptions. Use when adding or changing provider configuration, resources, data sources, ephemeral resources, list resources, functions, actions, or guides; when validating generated docs; and when troubleshooting missing or incorrect Registry documentation.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-docs\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-docs",
+      "source": "claude:project",
+      "hide": false,
+      "_source": {
+        "provider": "claude",
+        "providerName": "Claude Code",
+        "path": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-docs\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "provider-ephemeral-resources",
+      "description": "Implement Terraform provider ephemeral resources with the Plugin Framework: the Open/Renew/Close lifecycle, ephemeral schema design, registration via EphemeralResources, renewal for expiring credentials, and how ephemeral values flow into write-only attributes and provider configuration. Use when adding an ephemeral resource, exposing secrets/tokens/certificates that must never persist in state or plan, deciding between an ephemeral resource and a data source, or wiring short-lived credentials from one provider into another.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-ephemeral-resources\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-ephemeral-resources",
+      "source": "claude:project",
+      "hide": false,
+      "_source": {
+        "provider": "claude",
+        "providerName": "Claude Code",
+        "path": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-ephemeral-resources\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "provider-framework-migration",
+      "description": "Migrate Terraform provider resources and data sources from Plugin SDKv2 to the Plugin Framework: muxing both plugins in one provider (terraform-plugin-mux, tf5to6server), per-resource migration workflow, SDKv2-to-Framework schema mapping (ForceNew, ValidateFunc, DiffSuppressFunc, Default, Timeouts, blocks), null-vs-zero-value behavioral traps, and state-compatibility verification. Use when converting or translating SDKv2 resources to the Framework, setting up a muxed provider server, deciding whether a resource should be migrated at all, or debugging plan diffs and state errors that appeared after a migration.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-framework-migration\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-framework-migration",
+      "source": "claude:project",
+      "hide": false,
+      "_source": {
+        "provider": "claude",
+        "providerName": "Claude Code",
+        "path": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-framework-migration\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "provider-resources",
+      "description": "Implement Terraform Provider resources and data sources using the Plugin Framework: CRUD operations, schema design, plan modifiers and validators, not-found handling, waiters for eventually consistent APIs, import support, resource design principles, and required acceptance test coverage. Use when adding or changing a resource or data source, deciding whether an API concept should be a resource, wiring a resource to the provider's configured client, handling drift or resource-not-found, or reviewing a resource implementation before submission.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-resources\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-resources",
+      "source": "claude:project",
+      "hide": false,
+      "_source": {
+        "provider": "claude",
+        "providerName": "Claude Code",
+        "path": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-resources\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "provider-test-patterns",
+      "description": "Terraform provider acceptance test patterns using terraform-plugin-testing with the Plugin Framework. Covers test structure, TestCase/TestStep fields, ConfigStateChecks with custom statecheck.StateCheck implementations, plan checks, CompareValue for cross-step assertions, config helpers, import testing with ImportStateKind, sweepers, and scenario patterns (basic, update, disappears, validation, regression), and ephemeral resource testing with the echoprovider package. Use when writing, reviewing, or debugging provider acceptance tests, including questions about statecheck, plancheck, TestCheckFunc, CheckDestroy, ExpectError, import state verification, ephemeral resources, or how to structure test files.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-test-patterns\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-test-patterns",
+      "source": "claude:project",
+      "hide": false,
+      "_source": {
+        "provider": "claude",
+        "providerName": "Claude Code",
+        "path": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-test-patterns\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "push-to-registry",
+      "description": "Push Packer build metadata to HCP Packer registry for tracking and managing image lifecycle. Use when integrating Packer builds with HCP Packer for version control and governance.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\push-to-registry\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\push-to-registry",
+      "source": "claude:project",
+      "hide": false,
+      "_source": {
+        "provider": "claude",
+        "providerName": "Claude Code",
+        "path": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\push-to-registry\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "receiving-code-review",
+      "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\receiving-code-review\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\receiving-code-review",
+      "source": "agents:project",
+      "hide": false,
+      "_source": {
+        "provider": "agents",
+        "providerName": "Agent Dirs (.agent/.agents)",
+        "path": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\receiving-code-review\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "refactor-module",
+      "description": "Transform monolithic Terraform configurations into reusable, maintainable modules following HashiCorp's module design principles and community best practices.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\refactor-module\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\refactor-module",
+      "source": "claude:project",
+      "hide": false,
+      "_source": {
+        "provider": "claude",
+        "providerName": "Claude Code",
+        "path": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\refactor-module\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "reverse-engineer-anything",
+      "description": "Reverse engineer native, managed, Electron/JavaScript, packaged, firmware, and browser targets with REA. Use shipped-artifact or requested runtime evidence to explain features, compare versions, decompile code, or guide a reconstruction. Skip REA for ordinary source-repository architecture analysis.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\reverse-engineer-anything\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\reverse-engineer-anything",
+      "source": "agents:project",
+      "hide": false,
+      "_source": {
+        "provider": "agents",
+        "providerName": "Agent Dirs (.agent/.agents)",
+        "path": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\reverse-engineer-anything\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "run-acceptance-tests",
+      "description": "Guide for running acceptance tests for a Terraform provider. Use this when asked to run an acceptance test or to run a test with the prefix `TestAcc`, when a test fails with missing environment variables, or when diagnosing a failing or suspiciously passing acceptance test.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\run-acceptance-tests\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\run-acceptance-tests",
+      "source": "claude:project",
+      "hide": false,
+      "_source": {
+        "provider": "claude",
+        "providerName": "Claude Code",
+        "path": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\run-acceptance-tests\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "security-audit",
+      "description": "Security guidance and vulnerability review for codebases, APIs, services, CLI tools, libraries, and daemons. Use for security questions, focused reviews, vulnerability research, security audits, or pen tests. Run the complete workflow only for explicit codebase audit or pen-test requests, full/comprehensive/end-to-end reviews, or requested report artifacts.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\security-audit\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\security-audit",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\security-audit\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "skill-creator",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\skill-creator\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\skill-creator",
+      "source": "agents:project",
+      "hide": false,
+      "_source": {
+        "provider": "agents",
+        "providerName": "Agent Dirs (.agent/.agents)",
+        "path": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\skill-creator\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "sr-screener",
+      "description": "Protocol-driven study screening for systematic, scoping and rapid reviews. Turns a proposal or PROSPERO protocol into confirmed eligibility rules, then screens titles/abstracts and full texts with two blinded AI reviewers and a third-reviewer adjudicator: ordered exclusion codes, no silent defaults, resumable batch runs, QC (seed studies, near-miss rechecks, kappa and PABAK), PRISMA 2020 counts, EndNote/Zotero RIS groups, an Excel log, a methods draft and a literature_corpus handoff to academic-paper. Reads RIS, PubMed .nbib, Web of Science and CSV exports; removes duplicates. 8 modes: protocol, quick, pilot, ta-screen, ft-screen, adjudicate, audit, report. Use it to screen records against eligibility criteria, pilot screening, resolve screening conflicts, audit exclusions or report the selection process. Triggers on: screen these papers, title/abstract screening, full-text screening, screening conflicts, inclusion criteria, PRISMA flow, غربالگری مقالات, اسکرینینگ عنوان و چکیده, معیارهای ورود و خروج.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\sr-screener\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\sr-screener",
+      "source": "custom:user",
+      "hide": false,
+      "_source": {
+        "provider": "custom",
+        "providerName": "Custom",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\sr-screener\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "supabase-postgres-best-practices",
+      "description": "PostgreSQL query, schema, indexing, pooling, locking and RLS guidance for established Postgres projects, including but not requiring Supabase. Use when implementing or reviewing PostgreSQL backend code or diagnosing supplied query plans; not for automatic database execution or provisioning.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\supabase-postgres-best-practices\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\supabase-postgres-best-practices",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\supabase-postgres-best-practices\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "supermemory-v5",
+      "description": "Use the approved namespace-isolated Supermemory v5 runtime to recall, capture, correct, or forget durable verified facts across OMP sessions. Use when the user asks to remember a preference or project decision, correct stored knowledge, recall previous context, or forget/delete memories. Enforce project allowlists, secret filtering, one-fact documents, and targeted human approval before destructive operations; do not use legacy APIs or MCP.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\supermemory-v5\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\supermemory-v5",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\supermemory-v5\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "systematic-debugging",
+      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\systematic-debugging\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\systematic-debugging",
+      "source": "agents:project",
+      "hide": false,
+      "_source": {
+        "provider": "agents",
+        "providerName": "Agent Dirs (.agent/.agents)",
+        "path": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\systematic-debugging\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "tdd",
+      "description": "Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions \"red-green-refactor\", or wants integration tests.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\tdd\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\tdd",
+      "source": "agents:project",
+      "hide": false,
+      "_source": {
+        "provider": "agents",
+        "providerName": "Agent Dirs (.agent/.agents)",
+        "path": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\tdd\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "terraform-policy",
+      "description": "Write, test, or convert Terraform Policy files (.policy.hcl, .policytest.hcl, Sentinel→tfpolicy). Triggers: policy.hcl, policytest, convert sentinel, tfpolicy, write a policy.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-policy\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-policy",
+      "source": "claude:project",
+      "hide": false,
+      "_source": {
+        "provider": "claude",
+        "providerName": "Claude Code",
+        "path": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-policy\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "terraform-search-import",
+      "description": "Discover existing cloud resources using Terraform Search queries and bulk import them into Terraform management. Use when bringing unmanaged infrastructure under Terraform control, auditing cloud resources, or migrating to IaC.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-search-import\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-search-import",
+      "source": "claude:project",
+      "hide": false,
+      "_source": {
+        "provider": "claude",
+        "providerName": "Claude Code",
+        "path": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-search-import\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "terraform-stacks",
+      "description": "Comprehensive guide for working with HashiCorp Terraform Stacks. Use when creating, modifying, or validating Terraform Stack configurations (.tfcomponent.hcl, .tfdeploy.hcl files), working with stack components and deployments from local modules, public registry, or private registry sources, managing multi-region or multi-environment infrastructure, or troubleshooting Terraform Stacks syntax and structure.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-stacks\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-stacks",
+      "source": "claude:project",
+      "hide": false,
+      "_source": {
+        "provider": "claude",
+        "providerName": "Claude Code",
+        "path": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-stacks\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "terraform-style-guide",
+      "description": "Generate Terraform HCL code following HashiCorp's official style conventions and best practices. Use when writing, reviewing, or generating Terraform configurations.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-style-guide\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-style-guide",
+      "source": "claude:project",
+      "hide": false,
+      "_source": {
+        "provider": "claude",
+        "providerName": "Claude Code",
+        "path": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-style-guide\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "terraform-test",
+      "description": "Comprehensive guide for writing and running Terraform tests. Use when creating test files (.tftest.hcl), writing test scenarios with run blocks, validating infrastructure behavior with assertions, mocking providers and data sources, testing module outputs and resource configurations, or troubleshooting Terraform test syntax and execution.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-test\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-test",
+      "source": "claude:project",
+      "hide": false,
+      "_source": {
+        "provider": "claude",
+        "providerName": "Claude Code",
+        "path": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-test\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\vercel-react-best-practices\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\vercel-react-best-practices",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\vercel-react-best-practices\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "verification-before-completion",
+      "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\verification-before-completion\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\verification-before-completion",
+      "source": "agents:project",
+      "hide": false,
+      "_source": {
+        "provider": "agents",
+        "providerName": "Agent Dirs (.agent/.agents)",
+        "path": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\verification-before-completion\\SKILL.md",
+        "level": "project"
+      }
+    },
+    {
+      "name": "web-design-guidelines",
+      "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\web-design-guidelines\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\web-design-guidelines",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\web-design-guidelines\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "webapp-testing",
+      "description": "Verify an authorized web application's rendered UI, interactions, responsive states and browser errors with OMP's native browser. Use for actual web-surface smoke verification; not a replacement for TDD, debugging, UI design, or a security audit.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\webapp-testing\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\webapp-testing",
+      "source": "native:user",
+      "hide": false,
+      "_source": {
+        "provider": "native",
+        "providerName": "OMP",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\webapp-testing\\SKILL.md",
+        "level": "user"
+      }
+    },
+    {
+      "name": "windows-builder",
+      "description": "Build Windows images with Packer using WinRM communicator and PowerShell provisioners. Use when creating Windows AMIs, Azure images, or VMware templates.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\windows-builder\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\windows-builder",
+      "source": "claude:project",
+      "hide": false,
+      "_source": {
+        "provider": "claude",
+        "providerName": "Claude Code",
+        "path": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\windows-builder\\SKILL.md",
+        "level": "project"
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "skillPath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\impeccable\\SKILL.md",
+      "message": "name collision: \"impeccable\" from C:\\Users\\Indrimeilla-PC\\.claude\\skills\\impeccable\\SKILL.md differs from C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\impeccable\\SKILL.md; available as \"claude/impeccable\""
+    }
+  ],
+  "ignoredSkills": [
+    "design-taste-frontend",
+    "redesign-existing-projects",
+    "agents/impeccable"
+  ],
+  "customDirectories": [
+    "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/sources/academic-research-skills-4c544901"
+  ],
+  "kind": "Native OMP discovery, no model/MCP or extensions execution requested"
+}

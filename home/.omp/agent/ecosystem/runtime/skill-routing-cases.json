@@ -1,0 +1,1065 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-31",
+  "scope": "OMP default-profile; skill selection contract, not workload execution",
+  "assumption": "Artifact identity and prior task approvals stated in each case remain settled; classify the requested stage, do not execute operations.",
+  "skills": [
+    {
+      "name": "caveman",
+      "mode": "light Q&A/status",
+      "positive": "Ringkas status pemasangan dalam dua kalimat.",
+      "nearMiss": "Jelaskan stack trace ini secara lengkap dengan perintah persis.",
+      "positiveAccept": [
+        "caveman"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\caveman\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "code-review",
+      "mode": "Spec/Standards eksplisit",
+      "positive": "Bandingkan branch terhadap main untuk kepatuhan CONTRIBUTING dan issue yang diberikan.",
+      "nearMiss": "Review PR ini untuk bug dan kompleksitas, bukan kepatuhan spec.",
+      "positiveAccept": [
+        "code-review"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\code-review\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "codebase-design",
+      "mode": "interface/seam",
+      "positive": "Persempit interface modul billing dan tentukan seam yang mudah diuji.",
+      "nearMiss": "Ganti teks tombol Simpan tanpa refactor modul.",
+      "positiveAccept": [
+        "codebase-design"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\codebase-design\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "computer-use",
+      "mode": "GUI fallback",
+      "positive": "Bantu klik dialog ekspor aplikasi desktop terlihat yang tidak memiliki CLI/API.",
+      "nearMiss": "Baca konfigurasi proyek melalui filesystem.",
+      "positiveAccept": [
+        "computer-use"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\computer-use\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "context7-docs",
+      "mode": "docs library publik/versi",
+      "positive": "Periksa signature invalidation TanStack Query versi lockfile.",
+      "nearMiss": "Cari implementasi privat modul perusahaan.",
+      "positiveAccept": [
+        "context7-docs"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\context7-docs\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "find-skills",
+      "mode": "kemampuan installable",
+      "positive": "Bandingkan skill resmi aksesibilitas untuk dipasang di OMP.",
+      "nearMiss": "Bagaimana membuat debounce sederhana di JavaScript?",
+      "positiveAccept": [
+        "find-skills"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\find-skills\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "grill-me",
+      "mode": "alias explicit-only",
+      "positive": "/skill:grill-me evaluasi rencana migrasi ini.",
+      "nearMiss": "Ringkas README yang mengandung teks grill-me sebagai kutipan.",
+      "positiveAccept": [
+        "grill-me",
+        "grilling"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\grill-me\\SKILL.md",
+      "hidden": true
+    },
+    {
+      "name": "grilling",
+      "mode": "proposal baru belum settled",
+      "positive": "Saya ingin menambah login passkey; uji asumsi dan trade-off-nya sebelum memilih desain.",
+      "nearMiss": "Setuju rencana yang sudah dibahas dan disetujui tadi, implementasikan scope yang sama.",
+      "positiveAccept": [
+        "grilling"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\grilling\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "mcp-builder",
+      "mode": "membuat server MCP",
+      "positive": "Rancang MCP lokal read-only untuk katalog yang sudah disetujui.",
+      "nearMiss": "Gunakan Context7 existing untuk membaca dokumentasi SDK.",
+      "positiveAccept": [
+        "mcp-builder"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\mcp-builder\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "orca-cli",
+      "mode": "state/handoff Orca",
+      "positive": "Serahkan ownership tugas ke child worktree Orca yang saya pilih.",
+      "nearMiss": "Pecah analisis menjadi dua native task tanpa worktree.",
+      "positiveAccept": [
+        "orca-cli"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\orca-cli\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "orchestration",
+      "mode": "supervisi Orca",
+      "positive": "Supervisi dua worker Orca dengan DAG dan gate persetujuan sebelum merge.",
+      "nearMiss": "Serahkan pekerjaan ke agent lain tanpa supervisi lalu selesai.",
+      "positiveAccept": [
+        "orchestration"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\orchestration\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "ponytail",
+      "mode": "baseline coding",
+      "positive": "Sederhanakan implementasi fungsi ini tanpa mengubah perilaku.",
+      "nearMiss": "Terjemahkan paragraf nonteknis ini tanpa mengubah mode coding.",
+      "positiveAccept": [
+        "ponytail"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "ponytail-audit",
+      "mode": "audit kualitas repo",
+      "positive": "Audit seluruh package untuk bug, bottleneck dan kode mati; laporkan tanpa mengubah.",
+      "nearMiss": "Review hanya diff perubahan terakhir, bukan seluruh repo.",
+      "positiveAccept": [
+        "ponytail-audit"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-audit\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "ponytail-debt",
+      "mode": "on-demand debt",
+      "positive": "Daftar komentar shortcut: dan ponytail: beserta batas/trigger upgrade-nya.",
+      "nearMiss": "Shortcut keyboard Ctrl K rusak; cari akar masalah.",
+      "positiveAccept": [
+        "ponytail-debt"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-debt\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "ponytail-gain",
+      "mode": "on-demand benchmark upstream",
+      "positive": "Jelaskan hasil benchmark Ponytail yang dipublikasikan dan batas interpretasinya.",
+      "nearMiss": "Berapa rupiah penghematan repo saya hari ini tanpa data pengukuran?",
+      "positiveAccept": [
+        "ponytail-gain"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-gain\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "ponytail-help",
+      "mode": "on-demand bantuan",
+      "positive": "Jelaskan cara memakai level Ponytail yang didukung OMP.",
+      "nearMiss": "Jelaskan variabel bernama ponytail dalam source program ini.",
+      "positiveAccept": [
+        "ponytail-help"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-help\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "ponytail-review",
+      "mode": "review kualitas perubahan",
+      "positive": "Review PR ini untuk bug, keamanan, load dan kompleksitas.",
+      "nearMiss": "Cocokkan diff hanya dengan spec dan CONTRIBUTING.",
+      "positiveAccept": [
+        "ponytail-review"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-review\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "receiving-code-review",
+      "mode": "feedback kode",
+      "positive": "Reviewer PR meminta menghapus validasi ini; periksa klaimnya sebelum diterapkan.",
+      "nearMiss": "Saya menerima komentar reviewer jurnal dan butuh roadmap revisi manuskrip.",
+      "positiveAccept": [
+        "receiving-code-review"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\receiving-code-review\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "reverse-engineer-anything",
+      "mode": "shipped artifact/runtime",
+      "positive": "Bandingkan dua ASAR lokal untuk menjelaskan perubahan perilaku.",
+      "nearMiss": "Jelaskan arsitektur repository source lengkap yang tersedia.",
+      "positiveAccept": [
+        "reverse-engineer-anything"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\reverse-engineer-anything\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "security-audit",
+      "mode": "guidance/full terpisah",
+      "positive": "Tinjau apakah handler yang diberikan membocorkan data lintas tenant, source-only.",
+      "nearMiss": "Audit routing skill dan kualitas dokumentasinya, bukan audit keamanan.",
+      "positiveAccept": [
+        "security-audit"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\security-audit\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "skill-creator",
+      "mode": "buat/evaluasi skill",
+      "positive": "Evaluasi false positive dan near-miss description skill yang saya buat.",
+      "nearMiss": "Gunakan skill existing untuk memperbaiki query SQL ini.",
+      "positiveAccept": [
+        "skill-creator"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\skill-creator\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "supermemory-v5",
+      "mode": "memory eksplisit/allowlist",
+      "positive": "Ingat keputusan proyek allowlisted ini memakai PostgreSQL untuk sesi mendatang.",
+      "nearMiss": "Ingat urutan tiga angka ini hanya selama percakapan sekarang.",
+      "positiveAccept": [
+        "supermemory-v5"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\supermemory-v5\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "systematic-debugging",
+      "mode": "failure tak terduga",
+      "positive": "Login gagal untuk akun kedua; selidiki akar penyebab sebelum memperbaiki.",
+      "nearMiss": "Test baru sengaja gagal dalam RED pada loop TDD yang disepakati.",
+      "positiveAccept": [
+        "systematic-debugging"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\systematic-debugging\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "tdd",
+      "mode": "test-first/integration intent",
+      "positive": "Implementasikan aturan diskon test-first pada seam yang sudah disetujui.",
+      "nearMiss": "Baca dan jelaskan test existing tanpa membuat atau menjalankan test.",
+      "positiveAccept": [
+        "tdd"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\tdd\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "verification-before-completion",
+      "mode": "gate klaim",
+      "positive": "Sebelum menyatakan bug selesai, verifikasi skenario yang memang diotorisasi.",
+      "nearMiss": "Jelaskan konsep matematika sederhana tanpa klaim perbaikan kode.",
+      "positiveAccept": [
+        "verification-before-completion"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\verification-before-completion\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "aws-ami-builder",
+      "mode": "Packer EC2 AMI",
+      "positive": "Tulis template Packer amazon-ebs untuk Ubuntu AMI EC2, jangan build.",
+      "nearMiss": "Tambahkan resource EC2 biasa pada main.tf.",
+      "positiveAccept": [
+        "aws-ami-builder"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\aws-ami-builder\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "azure-image-builder",
+      "mode": "Packer Azure image",
+      "positive": "Tulis template Packer azure-arm untuk Azure Compute Gallery, source-only.",
+      "nearMiss": "Buat resource Azure VM di Terraform, bukan image Packer.",
+      "positiveAccept": [
+        "azure-image-builder"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\azure-image-builder\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "azure-verified-modules",
+      "mode": "target AVM",
+      "positive": "Review modul storage Azure terhadap persyaratan Azure Verified Modules.",
+      "nearMiss": "Tulis konfigurasi Azure biasa tanpa kebutuhan AVM.",
+      "positiveAccept": [
+        "azure-verified-modules"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\azure-verified-modules\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "new-terraform-provider",
+      "mode": "provider Go baru",
+      "positive": "Mulai workspace provider Terraform Plugin Framework untuk API Acme, scope sudah disetujui.",
+      "nearMiss": "Tambahkan resource baru pada provider existing.",
+      "positiveAccept": [
+        "new-terraform-provider"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\new-terraform-provider\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "provider-actions",
+      "mode": "Terraform Go Action",
+      "positive": "Implementasikan Action purge-cache pada provider Terraform Go existing.",
+      "nearMiss": "Perbaiki workflow GitHub Actions untuk npm test.",
+      "positiveAccept": [
+        "provider-actions"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-actions\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "provider-configuration",
+      "mode": "provider Configure/auth code",
+      "positive": "Review unknown guards dan fallback kredensial di Configure provider Terraform.",
+      "nearMiss": "Konfigurasikan React Context provider untuk tema UI.",
+      "positiveAccept": [
+        "provider-configuration"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-configuration\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "provider-docs",
+      "mode": "docs Terraform provider",
+      "positive": "Perbarui schema description dan docs Terraform Registry untuk resource baru.",
+      "nearMiss": "Tulis README aplikasi web umum.",
+      "positiveAccept": [
+        "provider-docs"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-docs\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "provider-ephemeral-resources",
+      "mode": "Open/Renew/Close",
+      "positive": "Rancang ephemeral resource Go provider untuk token TTL pendek tanpa koneksi live.",
+      "nearMiss": "Tambahkan input token biasa pada form login web.",
+      "positiveAccept": [
+        "provider-ephemeral-resources"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-ephemeral-resources\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "provider-framework-migration",
+      "mode": "SDKv2 ke Framework",
+      "positive": "Migrasikan resource Plugin SDKv2 ke Framework sambil menjaga kompatibilitas state.",
+      "nearMiss": "Pecah konfigurasi .tf menjadi modul reusable.",
+      "positiveAccept": [
+        "provider-framework-migration"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-framework-migration\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "provider-resources",
+      "mode": "CRUD/data source Go",
+      "positive": "Implementasikan resource widget dan ImportState di provider Terraform Go existing.",
+      "nearMiss": "Tulis blok resource aws_s3_bucket dalam main.tf pengguna.",
+      "positiveAccept": [
+        "provider-resources"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-resources\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "provider-test-patterns",
+      "mode": "author Go TestAcc",
+      "positive": "Tulis skenario update dan ImportStateVerify untuk Go TestAcc widget.",
+      "nearMiss": "Tulis assertions .tftest.hcl untuk output modul.",
+      "positiveAccept": [
+        "provider-test-patterns"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\provider-test-patterns\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "push-to-registry",
+      "mode": "metadata HCP Packer",
+      "positive": "Tambahkan blok hcp_packer_registry pada template image Packer.",
+      "nearMiss": "Push image container ke Docker registry.",
+      "positiveAccept": [
+        "push-to-registry"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\push-to-registry\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "refactor-module",
+      "mode": "ekstraksi modul Terraform",
+      "positive": "Ekstrak VPC dari Terraform monolitik dengan rencana moved blocks.",
+      "nearMiss": "Refactor modul JavaScript untuk form UI.",
+      "positiveAccept": [
+        "refactor-module"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\refactor-module\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "run-acceptance-tests",
+      "mode": "run/diagnose Go TestAcc",
+      "positive": "Diagnosis mengapa TestAccWidget skip padahal dilaporkan pass, dari output yang diberikan.",
+      "nearMiss": "Rapikan format variables.tf tanpa menjalankan provider acceptance.",
+      "positiveAccept": [
+        "run-acceptance-tests"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\run-acceptance-tests\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "terraform-policy",
+      "mode": "tfpolicy",
+      "positive": "Konversi Sentinel encryption menjadi .policy.hcl dan .policytest.hcl.",
+      "nearMiss": "Tulis kebijakan privasi website dalam Bahasa Indonesia.",
+      "positiveAccept": [
+        "terraform-policy"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-policy\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "terraform-search-import",
+      "mode": "Search/list/import",
+      "positive": "Susun .tfquery.hcl dan draft import untuk bucket unmanaged, jangan hubungi cloud.",
+      "nearMiss": "Cari string bucket di repository lokal.",
+      "positiveAccept": [
+        "terraform-search-import"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-search-import\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "terraform-stacks",
+      "mode": "HashiCorp Stacks",
+      "positive": "Review wiring .tfcomponent.hcl dan .tfdeploy.hcl tanpa upload.",
+      "nearMiss": "Jelaskan stack trace aplikasi React ini.",
+      "positiveAccept": [
+        "terraform-stacks"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-stacks\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "terraform-style-guide",
+      "mode": "Terraform .tf",
+      "positive": "Rapikan variables.tf dan required_providers sesuai konvensi proyek.",
+      "nearMiss": "Rapikan Dockerfile multi-stage.",
+      "positiveAccept": [
+        "terraform-style-guide"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-style-guide\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "terraform-test",
+      "mode": "module tests .tftest",
+      "positive": "Tulis plan-mode .tftest.hcl memakai mock provider untuk output modul.",
+      "nearMiss": "Tulis Go TestAcc dengan ImportStateVerify.",
+      "positiveAccept": [
+        "terraform-test"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-test\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "windows-builder",
+      "mode": "guest Windows Packer",
+      "positive": "Tulis provisioning Packer Windows AMI via WinRM, tanpa menjalankan build.",
+      "nearMiss": "Perbaiki PowerShell di laptop Windows saya, bukan guest image.",
+      "positiveAccept": [
+        "windows-builder"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\windows-builder\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "ansible-automation",
+      "mode": "Ansible role/playbook",
+      "positive": "Review idempotensi role Ansible Windows service secara offline.",
+      "nearMiss": "Buat AMI EC2 melalui template Packer.",
+      "positiveAccept": [
+        "ansible-automation"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\ansible-automation\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "docker-container-builds",
+      "mode": "Dockerfile/context",
+      "positive": "Optimalkan Dockerfile multi-stage dan .dockerignore secara offline.",
+      "nearMiss": "Perbaiki readinessProbe di Kubernetes Deployment YAML.",
+      "positiveAccept": [
+        "docker-container-builds"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\docker-container-builds\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "kubernetes-manifest-operations",
+      "mode": "Kubernetes YAML/CRD",
+      "positive": "Review selector dan readiness probe pada Deployment yang diberikan, tanpa cluster.",
+      "nearMiss": "Optimalkan layer cache Dockerfile.",
+      "positiveAccept": [
+        "kubernetes-manifest-operations"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\kubernetes-manifest-operations\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "supabase-postgres-best-practices",
+      "mode": "Postgres",
+      "positive": "Review supplied EXPLAIN dan indeks query PostgreSQL, tanpa koneksi database.",
+      "nearMiss": "Perbaiki query MySQL yang diberikan.",
+      "positiveAccept": [
+        "supabase-postgres-best-practices"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\supabase-postgres-best-practices\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "academic-paper",
+      "mode": "authoring/revisi akademik",
+      "positive": "Susun roadmap revisi dari komentar reviewer jurnal; naskah dan tujuan sudah diberikan.",
+      "nearMiss": "Rapikan 15 DOI menjadi BibTeX saja tanpa mengubah manuskrip.",
+      "positiveAccept": [
+        "academic-paper"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\academic-paper\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "academic-paper-reviewer",
+      "mode": "review manuskrip",
+      "positive": "Review metodologi manuskrip akademik ini secara advisory, jangan ubah naskah.",
+      "nearMiss": "Gunakan komentar reviewer untuk merevisi manuskrip saya.",
+      "positiveAccept": [
+        "academic-paper-reviewer"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\academic-paper-reviewer\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "academic-pipeline",
+      "mode": "alur akademik lengkap eksplisit",
+      "positive": "Jalankan workflow akademik lengkap dari riset sampai finalisasi dengan integrity dan review, checkpoint tetap dijaga.",
+      "nearMiss": "Tulis abstrak paper ini saja.",
+      "positiveAccept": [
+        "academic-pipeline"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\academic-pipeline\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "deep-research",
+      "mode": "sintesis akademik",
+      "positive": "Sintesis literatur akademik intervensi X dan pisahkan bukti yang bertentangan.",
+      "nearMiss": "Cari signature SDK Stripe versi lockfile.",
+      "positiveAccept": [
+        "deep-research"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\deep-research\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "sr-screener",
+      "mode": "eligibility/screening protocol",
+      "positive": "Buat aturan eligibility screening dari proposal supplied ini; records belum tersedia.",
+      "nearMiss": "Rancang research question dan strategi pencarian PROSPERO.",
+      "positiveAccept": [
+        "sr-screener"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\sr-screener\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "citation-management",
+      "mode": "bibliographic metadata",
+      "positive": "Verifikasi metadata 15 DOI dan rapikan BibTeX tanpa mengubah isi manuskrip.",
+      "nearMiss": "Buktikan klaim terapi dari studi primer, bukan sekadar metadata.",
+      "positiveAccept": [
+        "citation-management"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\citation-management\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "humanizer",
+      "mode": "edit prosa diminta",
+      "positive": "Rapikan paragraf ini agar alami tanpa mengubah angka, ketidakpastian atau sitasi.",
+      "nearMiss": "Tulis README teknis baru; saya tidak meminta prose-humanization pass.",
+      "positiveAccept": [
+        "humanizer"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\humanizer\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-accessibility-auditor",
+      "mode": "support audit WCAG",
+      "positive": "Audit keyboard, focus dan pengumuman error checkout terhadap WCAG 2.2 AA.",
+      "nearMiss": "Buat dashboard terlihat lebih premium tanpa audit aksesibilitas.",
+      "positiveAccept": [
+        "agency-accessibility-auditor"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-accessibility-auditor\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-api-platform-engineer",
+      "mode": "support kontrak API",
+      "positive": "Nilai breaking changes antara dua OpenAPI spec supplied.",
+      "nearMiss": "Perbaiki satu label tombol pada UI.",
+      "positiveAccept": [
+        "agency-api-platform-engineer"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-api-platform-engineer\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-api-tester",
+      "mode": "support API tests",
+      "positive": "Tambahkan 401, 403 dan validation failure cases pada suite API existing.",
+      "nearMiss": "Cek warna dan spacing halaman statis.",
+      "positiveAccept": [
+        "agency-api-tester"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-api-tester\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-brand-guardian",
+      "mode": "support brand incumbent",
+      "positive": "Bandingkan warna dan copy onboarding dengan brand guide yang disetujui.",
+      "nearMiss": "Buat SQL index untuk query lambat.",
+      "positiveAccept": [
+        "agency-brand-guardian"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-brand-guardian\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-database-reliability-engineer",
+      "mode": "support recovery/migrasi",
+      "positive": "Review lock budget dan rollback rencana migrasi PostgreSQL yang diberikan.",
+      "nearMiss": "Optimalkan satu SELECT dengan supplied query plan, tanpa tugas recovery.",
+      "positiveAccept": [
+        "agency-database-reliability-engineer"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-database-reliability-engineer\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-developer-tooling-engineer",
+      "mode": "support CLI/DX",
+      "positive": "Perbaiki kontrak --json, stdout dan exit code CLI existing.",
+      "nearMiss": "Jalankan npm test existing tanpa perubahan CLI.",
+      "positiveAccept": [
+        "agency-developer-tooling-engineer"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-developer-tooling-engineer\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-document-generator",
+      "mode": "file Office/PDF generik",
+      "positive": "Buat XLSX dari data dummy supplied beserta format dan chart yang diminta.",
+      "nearMiss": "Jelaskan tabel ini dalam chat tanpa membuat file.",
+      "positiveAccept": [
+        "agency-document-generator"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-document-generator\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-identity-access-engineer",
+      "mode": "support OAuth/SSO/session",
+      "positive": "Review callback OIDC untuk state, nonce, PKCE dan replay.",
+      "nearMiss": "Ubah warna tombol login tanpa perubahan auth.",
+      "positiveAccept": [
+        "agency-identity-access-engineer"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-identity-access-engineer\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-internationalization-engineer",
+      "mode": "support ICU/RTL/locale",
+      "positive": "Perbaiki plural Arab dan overflow RTL dengan stack i18n existing.",
+      "nearMiss": "Terjemahkan satu paragraf biasa tanpa perubahan kode i18n.",
+      "positiveAccept": [
+        "agency-internationalization-engineer"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-internationalization-engineer\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-payments-billing-engineer",
+      "mode": "support PSP/webhook",
+      "positive": "Review deduplikasi dan recovery webhook Stripe dari kode supplied.",
+      "nearMiss": "Rapikan tampilan kartu harga tanpa operasi pembayaran.",
+      "positiveAccept": [
+        "agency-payments-billing-engineer"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-payments-billing-engineer\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-performance-benchmarker",
+      "mode": "support measured benchmark",
+      "positive": "Susun eksperimen before/after untuk bottleneck memakai trace supplied; jangan load-test live.",
+      "nearMiss": "Perbaiki salah eja dalam README.",
+      "positiveAccept": [
+        "agency-performance-benchmarker"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-performance-benchmarker\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-privacy-engineer",
+      "mode": "support PII/consent",
+      "positive": "Petakan aliran PII dari schema dan kode supplied serta cek opt-out analytics.",
+      "nearMiss": "Alamat email muncul pada contoh dokumentasi; jangan audit data pribadi.",
+      "positiveAccept": [
+        "agency-privacy-engineer"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-privacy-engineer\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-research-synthesist",
+      "mode": "support sintesis teknis",
+      "positive": "Sintesis ADR, vendor docs dan incident reports supplied untuk trade-off queue.",
+      "nearMiss": "Cari satu signature SDK dari dokumentasi resmi.",
+      "positiveAccept": [
+        "agency-research-synthesist"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-research-synthesist\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-secrets-credential-hygiene-engineer",
+      "mode": "support credential lifecycle",
+      "positive": "Review desain CI untuk mencegah secret masuk bundle dan susun runbook rotasi tanpa menjalankannya.",
+      "nearMiss": "Jelaskan placeholder API_KEY pada docs tanpa mengakses secret.",
+      "positiveAccept": [
+        "agency-secrets-credential-hygiene-engineer"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-secrets-credential-hygiene-engineer\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-security-architect",
+      "mode": "support threat model",
+      "positive": "Buat threat model upload dokumen dari diagram dan kode supplied.",
+      "nearMiss": "Rapikan spacing card tanpa perubahan trust boundary.",
+      "positiveAccept": [
+        "agency-security-architect"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-security-architect\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-technical-writer",
+      "mode": "support developer docs",
+      "positive": "Perbarui README agar cocok dengan flags dan error CLI existing.",
+      "nearMiss": "Susun abstrak paper akademik sesuai venue.",
+      "positiveAccept": [
+        "agency-technical-writer"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-technical-writer\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-ux-researcher",
+      "mode": "support riset pengguna",
+      "positive": "Sintesis lima transkrip usability berizin menjadi pain points dengan locator kutipan.",
+      "nearMiss": "Kritik visual hierarchy dashboard dari screenshot tanpa studi pengguna.",
+      "positiveAccept": [
+        "agency-ux-researcher"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-ux-researcher\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "impeccable",
+      "mode": "owner arah UI",
+      "positive": "Perbaiki hierarchy dan ritme visual dashboard existing sesuai brief yang telah disetujui.",
+      "nearMiss": "Optimalkan backend SQL tanpa perubahan UI.",
+      "positiveAccept": [
+        "impeccable"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\impeccable\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "e2e",
+      "mode": "app-check/project runner",
+      "positive": "Cek aplikasi lokal memakai Playwright suite existing dan data dummy; pertahankan runner.",
+      "nearMiss": "Jelaskan file test existing tanpa menjalankan aplikasi atau meminta QA.",
+      "positiveAccept": [
+        "e2e"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\e2e\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "webapp-testing",
+      "mode": "rendered verification",
+      "positive": "Verifikasi hasil klik Simpan pada aplikasi lokal terpilih, desktop, mobile dan keyboard.",
+      "nearMiss": "Review source CSS saja; jangan jalankan browser.",
+      "positiveAccept": [
+        "webapp-testing"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\webapp-testing\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "mode": "React/Next performance",
+      "positive": "Perbaiki rerender mahal dan waterfall fetching pada proyek React/Next terbukti.",
+      "nearMiss": "Optimalkan halaman Vue tanpa React/Next.",
+      "positiveAccept": [
+        "vercel-react-best-practices"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\vercel-react-best-practices\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "fixing-metadata",
+      "mode": "metadata HTML",
+      "positive": "Perbaiki canonical, robots dan Open Graph halaman shareable existing.",
+      "nearMiss": "Ubah judul heading h1 yang terlihat tanpa mengubah metadata HTML.",
+      "positiveAccept": [
+        "fixing-metadata"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\fixing-metadata\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "web-design-guidelines",
+      "mode": "review checklist teknis UI",
+      "positive": "Review kode UI terhadap Web Interface Guidelines Vercel; bukan visual redesign.",
+      "nearMiss": "Buat konsep art direction baru tanpa meminta compliance review.",
+      "positiveAccept": [
+        "web-design-guidelines"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\web-design-guidelines\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "animate",
+      "mode": "support implementasi motion",
+      "positive": "Implementasikan transisi drawer sesuai motion thesis dan token yang disetujui.",
+      "nearMiss": "Review kode animasi existing saja, jangan implementasi.",
+      "positiveAccept": [
+        "animate"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\animate\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "animation-performance",
+      "mode": "support diagnosis jank",
+      "positive": "Diagnosis drawer yang dropped frames saat navigasi; identifikasi mekanismenya.",
+      "nearMiss": "Tentukan nama efek gambar yang morph ke detail, tanpa masalah performa.",
+      "positiveAccept": [
+        "animation-performance"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\animation-performance\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "find-animation-opportunities",
+      "mode": "read-only peluang motion",
+      "positive": "Cari bagian dashboard yang benar-benar terbantu motion; laporkan saja.",
+      "nearMiss": "Audit semua animasi existing untuk roadmap perbaikan, bukan mencari seam baru.",
+      "positiveAccept": [
+        "find-animation-opportunities"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\find-animation-opportunities\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "emil-design-eng",
+      "mode": "on-demand craft reference",
+      "positive": "Gunakan referensi emil-design-eng untuk menjelaskan detail feedback dan polish komponen existing.",
+      "nearMiss": "Tentukan art direction produk baru; jangan jadikan Emil desainer utama.",
+      "positiveAccept": [
+        "emil-design-eng"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\emil-design-eng\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "review-animations",
+      "mode": "explicit-only motion review",
+      "positive": "/skill:review-animations tinjau interruption, origin dan reduced-motion diff ini.",
+      "nearMiss": "Review PR backend database tanpa kode motion.",
+      "positiveAccept": [
+        "review-animations"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\review-animations\\SKILL.md",
+      "hidden": true
+    },
+    {
+      "name": "improve-animations",
+      "mode": "explicit audit/roadmap",
+      "positive": "Audit motion seluruh app dan susun prioritas perbaikan; jangan implementasi dulu.",
+      "nearMiss": "Tambahkan satu transisi tombol sesuai spesifikasi yang sudah disetujui.",
+      "positiveAccept": [
+        "improve-animations"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\improve-animations\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "animation-vocabulary",
+      "mode": "lookup istilah",
+      "positive": "Apa istilah efek ketika thumbnail berpindah dan berubah menjadi gambar detail?",
+      "nearMiss": "Implementasikan drawer yang spesifikasinya sudah lengkap.",
+      "positiveAccept": [
+        "animation-vocabulary"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\animation-vocabulary\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "fixing-accessibility",
+      "mode": "support targeted a11y fix",
+      "positive": "Perbaiki accessible name tombol dan restore focus dialog ini tanpa redesign.",
+      "nearMiss": "Audit konformansi WCAG seluruh proses checkout beserta screen reader, bukan sekadar fix kecil.",
+      "positiveAccept": [
+        "fixing-accessibility"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\fixing-accessibility\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "break-ui",
+      "mode": "explicit data/state stress",
+      "positive": "Stress-test komponen anggota memakai nama panjang, empty, one, banyak baris dan fixture dev-only dummy.",
+      "nearMiss": "Review source-only layout tanpa membuat fixture atau harness.",
+      "positiveAccept": [
+        "break-ui"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\break-ui\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "mobile-native",
+      "mode": "support mobile web/PWA",
+      "positive": "Perbaiki sticky hover, safe area dan viewport keyboard pada mobile web/PWA ini.",
+      "nearMiss": "Implementasikan gesture pada React Native/Expo, bukan mobile web.",
+      "positiveAccept": [
+        "mobile-native"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\mobile-native\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "vercel-composition-patterns",
+      "mode": "support React component API",
+      "positive": "Refactor boolean mode props dan state ownership pada komponen React sesuai versi existing.",
+      "nearMiss": "Rapikan warna tombol Vue tanpa mengubah API komponen.",
+      "positiveAccept": [
+        "vercel-composition-patterns"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\vercel-composition-patterns\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "gsap-core",
+      "mode": "support GSAP tween/core",
+      "positive": "Implementasikan tween GSAP pada widget vanilla existing sesuai spesifikasi yang sudah disetujui; jangan ganti library.",
+      "nearMiss": "Tambahkan hover sederhana dengan CSS existing; tidak memakai GSAP atau library baru.",
+      "positiveAccept": [
+        "gsap-core"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\gsap-core\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "gsap-timeline",
+      "mode": "support sequence GSAP",
+      "positive": "Perbaiki labels dan position parameters pada sequence gsap.timeline existing sesuai urutan yang telah disetujui.",
+      "nearMiss": "Susun timeline milestone proyek dalam tabel; tidak ada kode animasi.",
+      "positiveAccept": [
+        "gsap-timeline"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\gsap-timeline\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "gsap-react",
+      "mode": "support lifecycle GSAP React",
+      "positive": "Perbaiki cleanup useGSAP dan callback contextSafe pada komponen React existing; periksa versi dan SSR boundary.",
+      "nearMiss": "Perbaiki tween GSAP pada komponen Vue; tidak memakai React.",
+      "positiveAccept": [
+        "gsap-react"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\gsap-react\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "motion",
+      "mode": "support Motion/CSS best-practices",
+      "positive": "Perbaiki exit dan layout animation Motion pada proyek React yang sudah memakai motion/react, tanpa migrasi atau dependency baru.",
+      "nearMiss": "Nama efek ini disebut motion blur; jelaskan istilahnya saja tanpa implementasi library Motion.",
+      "positiveAccept": [
+        "motion"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\motion\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "domain-modeling",
+      "mode": "support istilah/domain/ADR",
+      "positive": "Cocokkan istilah Order dan Booking serta batas domain dari kode dan ADR supplied; laporkan tanpa menulis file.",
+      "nearMiss": "Periksa DNS domain example.test; tidak ada pemodelan konsep bisnis atau istilah aplikasi.",
+      "positiveAccept": [
+        "domain-modeling"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\domain-modeling\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "to-questionnaire",
+      "mode": "explicit-only artefak kuesioner",
+      "positive": "Siapkan kuesioner untuk CTO tentang keputusan integrasi yang belum saya ketahui dari proposal supplied; tampilkan di chat, jangan implementasi atau membuat file.",
+      "nearMiss": "Lanjutkan implementasi scope yang sudah saya setujui; jangan membuat kuesioner atau mengulang pertanyaan intake.",
+      "positiveAccept": [
+        "to-questionnaire"
+      ],
+      "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\to-questionnaire\\SKILL.md",
+      "hidden": true
+    }
+  ]
+}

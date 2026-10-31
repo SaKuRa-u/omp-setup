@@ -1,0 +1,9 @@
+providers:
+  aicenter:
+    baseUrl: https://aicenter.cloudferdi.web.id/v1
+    api: openai-completions
+    auth: apiKey
+    authHeader: true
+    apiKey: '!powershell.exe -NoProfile -NonInteractive -File C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/credentials.ps1 -Action get -Provider aicenter'
+    discovery:
+      type: openai-models-list

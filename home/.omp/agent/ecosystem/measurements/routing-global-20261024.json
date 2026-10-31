@@ -1,0 +1,669 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-24",
+  "scope": "User OMP default-profile across projects and new sessions; not other hosts, accounts or named profiles",
+  "authorization": "User explicitly approved the eleven additions and implementation/fixes for all global skill routing.",
+  "observedOmpVersion": "18.12.6",
+  "nativeModel": {
+    "provider": "openai-codex",
+    "id": "gpt-6.1-sol"
+  },
+  "newlyInstalled": [
+    "animate",
+    "animation-performance",
+    "find-animation-opportunities",
+    "emil-design-eng",
+    "review-animations",
+    "improve-animations",
+    "animation-vocabulary",
+    "fixing-accessibility",
+    "break-ui",
+    "mobile-native",
+    "vercel-composition-patterns"
+  ],
+  "previouslyInstalledThisDate": [
+    "web-design-guidelines",
+    "fixing-metadata"
+  ],
+  "pins": [
+    {
+      "repository": "https://github.com/emilkowalski/skills",
+      "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+      "skills": [
+        "animate",
+        "animation-performance",
+        "find-animation-opportunities",
+        "emil-design-eng",
+        "review-animations",
+        "improve-animations",
+        "animation-vocabulary",
+        "break-ui",
+        "mobile-native"
+      ],
+      "license": "MIT, original LICENSE retained per installed skill"
+    },
+    {
+      "repository": "https://github.com/ibelick/ui-skills",
+      "commit": "55363c305097d4c84487bd5f323d29b3f067bf72",
+      "skills": [
+        "fixing-accessibility"
+      ],
+      "license": "MIT, original LICENSE retained"
+    },
+    {
+      "repository": "https://github.com/vercel-labs/agent-skills",
+      "commit": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "skills": [
+        "vercel-composition-patterns"
+      ],
+      "license": "MIT declared by original SKILL/README; no standalone upstream LICENSE at this pin; original declarations and honest local NOTICE retained"
+    }
+  ],
+  "originalPayloads": [
+    {
+      "repo": "emilkowalski/skills",
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source": "skills/animate/SKILL.md",
+      "dest": "animate/SKILL.md",
+      "url": "https://api.github.com/repos/emilkowalski/skills/contents/skills/animate/SKILL.md?ref=2d228630ba1446365f614a108cb8252f1feda202",
+      "gitSha": "7c3b20c6ed681b2d47c9ca9e3ee0e659ed47d032",
+      "sha256": "b8ede161270458e6ae2e45e8a1985373515d4c63de5568ddb0f9012d7634356c",
+      "bytes": 11860
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source": "skills/animate/RECIPES.md",
+      "dest": "animate/RECIPES.md",
+      "url": "https://api.github.com/repos/emilkowalski/skills/contents/skills/animate/RECIPES.md?ref=2d228630ba1446365f614a108cb8252f1feda202",
+      "gitSha": "6744891261bdf0bb0473d77f2cc706f2d78b574e",
+      "sha256": "21ff63d84391db8d96ecdf9170095f55a42c836ccc36fd3269c4772bab031ba2",
+      "bytes": 7957
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source": "skills/animation-performance/SKILL.md",
+      "dest": "animation-performance/SKILL.md",
+      "url": "https://api.github.com/repos/emilkowalski/skills/contents/skills/animation-performance/SKILL.md?ref=2d228630ba1446365f614a108cb8252f1feda202",
+      "gitSha": "d688dd7c3ba143c6ae17efd2bc665380d5252c5a",
+      "sha256": "ceb9dd3fe912615830f725a0120ccf8d012d15a6218001a5cd6c15d38e39a957",
+      "bytes": 13966
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source": "skills/find-animation-opportunities/SKILL.md",
+      "dest": "find-animation-opportunities/SKILL.md",
+      "url": "https://api.github.com/repos/emilkowalski/skills/contents/skills/find-animation-opportunities/SKILL.md?ref=2d228630ba1446365f614a108cb8252f1feda202",
+      "gitSha": "d3b030fbca9abad9220a032f72d425c6b7fa2de8",
+      "sha256": "d52a377819b84a71930f0c822cfe2849f40301605a2d5c7eccbfa3b257700df2",
+      "bytes": 9808
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source": "skills/emil-design-eng/SKILL.md",
+      "dest": "emil-design-eng/SKILL.md",
+      "url": "https://api.github.com/repos/emilkowalski/skills/contents/skills/emil-design-eng/SKILL.md?ref=2d228630ba1446365f614a108cb8252f1feda202",
+      "gitSha": "62ce902af8dd32c590ea7203e9ab2edb1d6ef81a",
+      "sha256": "ffbe68e6007fb42cb8149f089b400a1ca007d59ba23e8948e2be4476f3175939",
+      "bytes": 27123
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source": "skills/review-animations/SKILL.md",
+      "dest": "review-animations/SKILL.md",
+      "url": "https://api.github.com/repos/emilkowalski/skills/contents/skills/review-animations/SKILL.md?ref=2d228630ba1446365f614a108cb8252f1feda202",
+      "gitSha": "577a64397267ce20960de2202950594d5bd6f9b6",
+      "sha256": "6ff590d29e436766135aa3d137be1fac2a867165c7257fc315b189361f1873af",
+      "bytes": 8407
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source": "skills/review-animations/STANDARDS.md",
+      "dest": "review-animations/STANDARDS.md",
+      "url": "https://api.github.com/repos/emilkowalski/skills/contents/skills/review-animations/STANDARDS.md?ref=2d228630ba1446365f614a108cb8252f1feda202",
+      "gitSha": "863ea12ea94c1f7a47b5f7e1019e976aa82bd4cd",
+      "sha256": "e7d3605034acda54ca13e43aec9e64d65b53de20f75b11b8d694e373012fbe07",
+      "bytes": 9801
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source": "skills/improve-animations/SKILL.md",
+      "dest": "improve-animations/SKILL.md",
+      "url": "https://api.github.com/repos/emilkowalski/skills/contents/skills/improve-animations/SKILL.md?ref=2d228630ba1446365f614a108cb8252f1feda202",
+      "gitSha": "d6e77f37272329af0cc36f9eeedbe5226e86ce63",
+      "sha256": "73962447464433476343e2c12cd08ab39cc99a9e5f3c118c5fb54ed897574ef6",
+      "bytes": 8208
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source": "skills/improve-animations/AUDIT.md",
+      "dest": "improve-animations/AUDIT.md",
+      "url": "https://api.github.com/repos/emilkowalski/skills/contents/skills/improve-animations/AUDIT.md?ref=2d228630ba1446365f614a108cb8252f1feda202",
+      "gitSha": "94056154e532d695b8792ea67d701625b4f43b6e",
+      "sha256": "551c8473e20e5f4774680bc24d45e1c68e50992582720905c6b077756b7b5a55",
+      "bytes": 7387
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source": "skills/improve-animations/PLAN-TEMPLATE.md",
+      "dest": "improve-animations/PLAN-TEMPLATE.md",
+      "url": "https://api.github.com/repos/emilkowalski/skills/contents/skills/improve-animations/PLAN-TEMPLATE.md?ref=2d228630ba1446365f614a108cb8252f1feda202",
+      "gitSha": "239026b91f8032df191dde2085fd796b8c116d91",
+      "sha256": "0a08ac8e23fd2082d7ffb86aeed7b789de77328c3cf874b16f1a755f2ef0a6ad",
+      "bytes": 3100
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source": "skills/animation-vocabulary/SKILL.md",
+      "dest": "animation-vocabulary/SKILL.md",
+      "url": "https://api.github.com/repos/emilkowalski/skills/contents/skills/animation-vocabulary/SKILL.md?ref=2d228630ba1446365f614a108cb8252f1feda202",
+      "gitSha": "5ab2976514c74a194ebf069506d95ff3a5a0084f",
+      "sha256": "40d2b27adfdfeb0570a9f20e7d0255109d9233c50603878bcd0dcd04c923fd94",
+      "bytes": 13425
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source": "skills/break-ui/SKILL.md",
+      "dest": "break-ui/SKILL.md",
+      "url": "https://api.github.com/repos/emilkowalski/skills/contents/skills/break-ui/SKILL.md?ref=2d228630ba1446365f614a108cb8252f1feda202",
+      "gitSha": "091a28d488662d2451131f1aaa60a6dcd2391932",
+      "sha256": "e7eec1d70ac56a04255e9c0dbe98084ea3d544cc04aaad34f32c95d6fa9dff5e",
+      "bytes": 14380
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source": "skills/break-ui/CATALOG.md",
+      "dest": "break-ui/CATALOG.md",
+      "url": "https://api.github.com/repos/emilkowalski/skills/contents/skills/break-ui/CATALOG.md?ref=2d228630ba1446365f614a108cb8252f1feda202",
+      "gitSha": "46962bb89445b8526ea94994a79b49508573b5fd",
+      "sha256": "7358efcc6bb48e35187be1c064cf60022dcb18c72c18fab58b606dfc5f421f15",
+      "bytes": 8268
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source": "skills/mobile-native/SKILL.md",
+      "dest": "mobile-native/SKILL.md",
+      "url": "https://api.github.com/repos/emilkowalski/skills/contents/skills/mobile-native/SKILL.md?ref=2d228630ba1446365f614a108cb8252f1feda202",
+      "gitSha": "94bba21fcb990b850e06effbf5709c96a07446ad",
+      "sha256": "888b7651d66d66dbac4e72b7c554638eb19bd971d686d6cbdf030a5ef3788f55",
+      "bytes": 16838
+    },
+    {
+      "repo": "ibelick/ui-skills",
+      "ref": "55363c305097d4c84487bd5f323d29b3f067bf72",
+      "source": "skills/fixing-accessibility/SKILL.md",
+      "dest": "fixing-accessibility/SKILL.md",
+      "url": "https://api.github.com/repos/ibelick/ui-skills/contents/skills/fixing-accessibility/SKILL.md?ref=55363c305097d4c84487bd5f323d29b3f067bf72",
+      "gitSha": "e2dcd7004645277488a142be152878b7310437e1",
+      "sha256": "549261e8a53b53a1a20c0ddbf736821e5fc0876ad82eee76e0efab8e9ee9dadf",
+      "bytes": 4718
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "source": "skills/composition-patterns/SKILL.md",
+      "dest": "vercel-composition-patterns/SKILL.md",
+      "url": "https://api.github.com/repos/vercel-labs/agent-skills/contents/skills/composition-patterns/SKILL.md?ref=063bee94c3f4df8453406c830b0a7df0f2860278",
+      "gitSha": "d07025bf943345bc1cf15eb923594f889ff881f0",
+      "sha256": "e38e0eaa609316b10423a9a138ed95e35099accd3f735585295c8a8f165c28a3",
+      "bytes": 2886
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "source": "skills/composition-patterns/AGENTS.md",
+      "dest": "vercel-composition-patterns/AGENTS.md",
+      "url": "https://api.github.com/repos/vercel-labs/agent-skills/contents/skills/composition-patterns/AGENTS.md?ref=063bee94c3f4df8453406c830b0a7df0f2860278",
+      "gitSha": "558bf9aa1e36db2161f1633c9bfae14a819f0508",
+      "sha256": "89e3ddd58fcf99a53a50e25dfd21b8cde1be5f10b7df6bacd3dfa6796932f516",
+      "bytes": 22627
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "source": "skills/composition-patterns/README.md",
+      "dest": "vercel-composition-patterns/README.md",
+      "url": "https://api.github.com/repos/vercel-labs/agent-skills/contents/skills/composition-patterns/README.md?ref=063bee94c3f4df8453406c830b0a7df0f2860278",
+      "gitSha": "01f359b0e79ce544d1463057be54946e50d62bcd",
+      "sha256": "85915a43a6f0b4efe525e3cf6398dd866166da2025837c4460468a24a940da94",
+      "bytes": 2140
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "source": "skills/composition-patterns/metadata.json",
+      "dest": "vercel-composition-patterns/metadata.json",
+      "url": "https://api.github.com/repos/vercel-labs/agent-skills/contents/skills/composition-patterns/metadata.json?ref=063bee94c3f4df8453406c830b0a7df0f2860278",
+      "gitSha": "3470b744190af044373abbfe80d94630c0cc6041",
+      "sha256": "49262ed5cb4186f31ee980cf8d990be0170c51efed4908d0464a1cff9905bd05",
+      "bytes": 530
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "source": "skills/composition-patterns/rules/_sections.md",
+      "dest": "vercel-composition-patterns/rules/_sections.md",
+      "url": "https://api.github.com/repos/vercel-labs/agent-skills/contents/skills/composition-patterns/rules/_sections.md?ref=063bee94c3f4df8453406c830b0a7df0f2860278",
+      "gitSha": "f921dd41b53e4d847f25a6b3eca25a4e8857db44",
+      "sha256": "a174213b87e6911e2b766995a2cbaf8d1534057076e82fb79fe3f0ecb38047df",
+      "bytes": 829
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "source": "skills/composition-patterns/rules/_template.md",
+      "dest": "vercel-composition-patterns/rules/_template.md",
+      "url": "https://api.github.com/repos/vercel-labs/agent-skills/contents/skills/composition-patterns/rules/_template.md?ref=063bee94c3f4df8453406c830b0a7df0f2860278",
+      "gitSha": "119a30167f162c439f05e73c63044c590dff645c",
+      "sha256": "587f7d16b0660eb61fee4a4d3d7df2b3077d6835de170602c7d6e60bee559131",
+      "bytes": 329
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "source": "skills/composition-patterns/rules/architecture-avoid-boolean-props.md",
+      "dest": "vercel-composition-patterns/rules/architecture-avoid-boolean-props.md",
+      "url": "https://api.github.com/repos/vercel-labs/agent-skills/contents/skills/composition-patterns/rules/architecture-avoid-boolean-props.md?ref=063bee94c3f4df8453406c830b0a7df0f2860278",
+      "gitSha": "ccee19ce495b9d7fdf08867db3c6b6282006312e",
+      "sha256": "007555ebb020f4d552582a2c4db194db71a1fd33094012e5187bcfa4f8c392d5",
+      "bytes": 2267
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "source": "skills/composition-patterns/rules/architecture-compound-components.md",
+      "dest": "vercel-composition-patterns/rules/architecture-compound-components.md",
+      "url": "https://api.github.com/repos/vercel-labs/agent-skills/contents/skills/composition-patterns/rules/architecture-compound-components.md?ref=063bee94c3f4df8453406c830b0a7df0f2860278",
+      "gitSha": "e5e3043cb5a81b83dce0389848b828455f00854f",
+      "sha256": "f246af13dc269b521cf20eb8ad99a0cb645beac381c8c9b117262c34612c8457",
+      "bytes": 2600
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "source": "skills/composition-patterns/rules/patterns-children-over-render-props.md",
+      "dest": "vercel-composition-patterns/rules/patterns-children-over-render-props.md",
+      "url": "https://api.github.com/repos/vercel-labs/agent-skills/contents/skills/composition-patterns/rules/patterns-children-over-render-props.md?ref=063bee94c3f4df8453406c830b0a7df0f2860278",
+      "gitSha": "d4345ee30aea5f1b11815251edca7ebd0aefe2e2",
+      "sha256": "7c45a0d21b3c4126a32cba916ee31adeae195386ad1dbbe6634aedb7457aa0ad",
+      "bytes": 1886
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "source": "skills/composition-patterns/rules/patterns-explicit-variants.md",
+      "dest": "vercel-composition-patterns/rules/patterns-explicit-variants.md",
+      "url": "https://api.github.com/repos/vercel-labs/agent-skills/contents/skills/composition-patterns/rules/patterns-explicit-variants.md?ref=063bee94c3f4df8453406c830b0a7df0f2860278",
+      "gitSha": "56e32e8bee5e5768f747db4e9718a6c2b54bfce5",
+      "sha256": "8c19e596e61807549d01ce8c6954c6358199f97a8511c0c02c625ec0efda8c0e",
+      "bytes": 2395
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "source": "skills/composition-patterns/rules/react19-no-forwardref.md",
+      "dest": "vercel-composition-patterns/rules/react19-no-forwardref.md",
+      "url": "https://api.github.com/repos/vercel-labs/agent-skills/contents/skills/composition-patterns/rules/react19-no-forwardref.md?ref=063bee94c3f4df8453406c830b0a7df0f2860278",
+      "gitSha": "e0d8f8a76f14888f2fafc8cccd3d9395e4711d0d",
+      "sha256": "881830adb7534c4b2d70db426556646ad9837f5478f744f35641f635ada22227",
+      "bytes": 953
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "source": "skills/composition-patterns/rules/state-context-interface.md",
+      "dest": "vercel-composition-patterns/rules/state-context-interface.md",
+      "url": "https://api.github.com/repos/vercel-labs/agent-skills/contents/skills/composition-patterns/rules/state-context-interface.md?ref=063bee94c3f4df8453406c830b0a7df0f2860278",
+      "gitSha": "d961bede0c6c6e318f6ba3aca9b5dfcdb768d8f9",
+      "sha256": "09e73afbf9285fa416679cc864a287b9e8b821d0969272ab784295386d8c9bc3",
+      "bytes": 4974
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "source": "skills/composition-patterns/rules/state-decouple-implementation.md",
+      "dest": "vercel-composition-patterns/rules/state-decouple-implementation.md",
+      "url": "https://api.github.com/repos/vercel-labs/agent-skills/contents/skills/composition-patterns/rules/state-decouple-implementation.md?ref=063bee94c3f4df8453406c830b0a7df0f2860278",
+      "gitSha": "71a5afaa7d7078c262c92d32c3b97723de62f99f",
+      "sha256": "76a8c1eb29a70d8996ab3f71260345af2f7bc89deab815a421d6c87c6591a9c3",
+      "bytes": 2699
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "source": "skills/composition-patterns/rules/state-lift-state.md",
+      "dest": "vercel-composition-patterns/rules/state-lift-state.md",
+      "url": "https://api.github.com/repos/vercel-labs/agent-skills/contents/skills/composition-patterns/rules/state-lift-state.md?ref=063bee94c3f4df8453406c830b0a7df0f2860278",
+      "gitSha": "d7fe27b54933135f9050365b6c2001c101029d51",
+      "sha256": "74c54038a6c554c748fe31cec673b80861b5d920b7553cf78cdf10d18b4b759b",
+      "bytes": 3224
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source": "LICENSE",
+      "dest": "animate/LICENSE",
+      "url": "https://api.github.com/repos/emilkowalski/skills/contents/LICENSE?ref=2d228630ba1446365f614a108cb8252f1feda202",
+      "gitSha": "57b46f1fd11dc62351ea548104a88aa3f659c11b",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "bytes": 1070
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source": "LICENSE",
+      "dest": "animation-performance/LICENSE",
+      "url": "https://api.github.com/repos/emilkowalski/skills/contents/LICENSE?ref=2d228630ba1446365f614a108cb8252f1feda202",
+      "gitSha": "57b46f1fd11dc62351ea548104a88aa3f659c11b",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "bytes": 1070
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source": "LICENSE",
+      "dest": "find-animation-opportunities/LICENSE",
+      "url": "https://api.github.com/repos/emilkowalski/skills/contents/LICENSE?ref=2d228630ba1446365f614a108cb8252f1feda202",
+      "gitSha": "57b46f1fd11dc62351ea548104a88aa3f659c11b",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "bytes": 1070
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source": "LICENSE",
+      "dest": "emil-design-eng/LICENSE",
+      "url": "https://api.github.com/repos/emilkowalski/skills/contents/LICENSE?ref=2d228630ba1446365f614a108cb8252f1feda202",
+      "gitSha": "57b46f1fd11dc62351ea548104a88aa3f659c11b",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "bytes": 1070
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source": "LICENSE",
+      "dest": "review-animations/LICENSE",
+      "url": "https://api.github.com/repos/emilkowalski/skills/contents/LICENSE?ref=2d228630ba1446365f614a108cb8252f1feda202",
+      "gitSha": "57b46f1fd11dc62351ea548104a88aa3f659c11b",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "bytes": 1070
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source": "LICENSE",
+      "dest": "improve-animations/LICENSE",
+      "url": "https://api.github.com/repos/emilkowalski/skills/contents/LICENSE?ref=2d228630ba1446365f614a108cb8252f1feda202",
+      "gitSha": "57b46f1fd11dc62351ea548104a88aa3f659c11b",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "bytes": 1070
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source": "LICENSE",
+      "dest": "animation-vocabulary/LICENSE",
+      "url": "https://api.github.com/repos/emilkowalski/skills/contents/LICENSE?ref=2d228630ba1446365f614a108cb8252f1feda202",
+      "gitSha": "57b46f1fd11dc62351ea548104a88aa3f659c11b",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "bytes": 1070
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source": "LICENSE",
+      "dest": "break-ui/LICENSE",
+      "url": "https://api.github.com/repos/emilkowalski/skills/contents/LICENSE?ref=2d228630ba1446365f614a108cb8252f1feda202",
+      "gitSha": "57b46f1fd11dc62351ea548104a88aa3f659c11b",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "bytes": 1070
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "source": "LICENSE",
+      "dest": "mobile-native/LICENSE",
+      "url": "https://api.github.com/repos/emilkowalski/skills/contents/LICENSE?ref=2d228630ba1446365f614a108cb8252f1feda202",
+      "gitSha": "57b46f1fd11dc62351ea548104a88aa3f659c11b",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "bytes": 1070
+    },
+    {
+      "repo": "ibelick/ui-skills",
+      "ref": "55363c305097d4c84487bd5f323d29b3f067bf72",
+      "source": "LICENSE",
+      "dest": "fixing-accessibility/LICENSE",
+      "url": "https://api.github.com/repos/ibelick/ui-skills/contents/LICENSE?ref=55363c305097d4c84487bd5f323d29b3f067bf72",
+      "blobSha": "cac7c466df604fc44527fd89d9662626bab57354",
+      "sha256": "c615621c4cc1676ccde194e7a01b6469ba477780251bd71e007fc473a49c2c2b",
+      "bytes": 1072
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "source": "README.md",
+      "dest": "vercel-composition-patterns/references/agent-skills-README.md",
+      "url": "https://api.github.com/repos/vercel-labs/agent-skills/contents/README.md?ref=063bee94c3f4df8453406c830b0a7df0f2860278",
+      "blobSha": "04a1a5a46a22cfd430e2877b7c145e34fc2653ab",
+      "sha256": "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651",
+      "bytes": 7838
+    }
+  ],
+  "localNotices": [
+    {
+      "kind": "local-notice",
+      "file": "C:/Users/Indrimeilla-PC/.omp/agent/skills/vercel-composition-patterns/NOTICE",
+      "sha256": "d883aa189cf206f3f00468467325369d8323c38c4c0eff7ed785d51fd6c5653a",
+      "match": null
+    }
+  ],
+  "discoveryBefore": {
+    "registrations": 80,
+    "modelVisible": 79,
+    "warnings": [
+      {
+        "skillPath": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\impeccable\\SKILL.md",
+        "message": "name collision: \"impeccable\" from C:\\Users\\Indrimeilla-PC\\.claude\\skills\\impeccable\\SKILL.md differs from C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\impeccable\\SKILL.md; available as \"claude/impeccable\""
+      }
+    ]
+  },
+  "discoveryAfter": [
+    {
+      "cwd": "C:/Users/Indrimeilla-PC/orca/projects/Onboarding",
+      "skills": 90,
+      "modelVisible": 88,
+      "hidden": [
+        "grill-me",
+        "review-animations"
+      ],
+      "warnings": [],
+      "skillCommands": 90,
+      "resolvedSkillUris": 90,
+      "globalRoutingLoaded": true,
+      "model": {
+        "provider": "openai-codex",
+        "id": "gpt-6.1-sol"
+      },
+      "toolNames": [
+        "read"
+      ],
+      "mcpDisabled": true,
+      "modelInferenceRequested": false
+    },
+    {
+      "cwd": "C:\\Users\\INDRIM~1\\AppData\\Local\\Temp",
+      "skills": 90,
+      "modelVisible": 88,
+      "hidden": [
+        "grill-me",
+        "review-animations"
+      ],
+      "warnings": [],
+      "skillCommands": 90,
+      "resolvedSkillUris": 90,
+      "globalRoutingLoaded": true,
+      "model": {
+        "provider": "openai-codex",
+        "id": "gpt-6.1-sol"
+      },
+      "toolNames": [
+        "read"
+      ],
+      "mcpDisabled": true,
+      "modelInferenceRequested": false
+    }
+  ],
+  "auditCoverage": {
+    "activeRegistrations": 90,
+    "completeCatalog": "SKILL-ROUTING.md",
+    "finiteCaseMatrix": "runtime/skill-routing-cases.json",
+    "positiveCases": 90,
+    "nearMissCases": 90,
+    "existingSkillContractAudit": 73,
+    "parentSkillContractAudit": 17,
+    "method": "Metadata/entrypoints and relevant execution/routing contracts; native source/API discovery checks. Not a full security audit or execution of every vendor reference/helper."
+  },
+  "findings": [
+    {
+      "id": "R01",
+      "problem": "Native discovery admitted a second Impeccable as claude/impeccable and emitted a collision warning.",
+      "fix": "Add only claude/impeccable to OMP ignoredSkills; preserve native impeccable, existing exclusions and other-host copies.",
+      "evidence": "Fresh native discovery: 90 registrations, no warnings, four excluded aliases absent."
+    },
+    {
+      "id": "R02",
+      "problem": "General review, native /review and Spec/Standards had overlapping task wording.",
+      "fix": "Ponytail review/audit owns ordinary quality review; explicit /review remains native; code-review only requested standards/spec or concrete release gate. No stacked reviewers."
+    },
+    {
+      "id": "R03",
+      "problem": "Delegation/Orca/GUI guides could over-trigger on generic planning and browser tasks.",
+      "fix": "Native task is default; Orca state/handoff uses orca-cli, supervised Orca DAG uses orchestration, computer-use only actual visible GUI fallback."
+    },
+    {
+      "id": "R04",
+      "problem": "Skill/mode names in code, quotations, logs or external content could be mistaken for user intent.",
+      "fix": "Global intent and stage selection excludes quoted triggers, preserves continuation approvals, and does not equate skill loading with operational permission."
+    },
+    {
+      "id": "R05",
+      "problem": "Generic how-to, tests or review references could select extra skill families.",
+      "fix": "Narrow find-skills to capability discovery; distinguish test-first loops from verification and prohibit automatic reviewer chaining from vendor references."
+    },
+    {
+      "id": "R06",
+      "problem": "Twenty HashiCorp skills shared ambiguous provider/action/stack/windows/registry words.",
+      "fix": "Route by actual artifact and requested operation; allow relevant supporting references without applying infrastructure, running acceptance tests/sweepers, uploading Stack data or reading secret values."
+    },
+    {
+      "id": "R07",
+      "problem": "Standalone bibliography, authoring, manuscript-review feedback and protocol-only screening were insufficiently separated.",
+      "fix": "Explicit academic stage/citation/feedback/protocol dispatch; PoP retrieval does not force ARS; academic export remains within manuscript contract."
+    },
+    {
+      "id": "R08",
+      "problem": "Carrying approved scope could be misread as waiving a new mandatory artifact checkpoint.",
+      "fix": "Preserve settled intake and implementation authorization, but retain required signoff for a genuinely new result/artifact."
+    },
+    {
+      "id": "R09",
+      "problem": "New design/animation/metadata/a11y guides overlap incumbent design ownership and contain conditional technology advice.",
+      "fix": "Impeccable remains design owner; narrowly route eleven additions; preserve project tokens, accessibility, reduced motion, browser/React version and measured performance. No auto engine/library/React upgrade."
+    },
+    {
+      "id": "R10",
+      "problem": "Accessibility scanner/manual AT limits, adversarial fixture and mobile-network effects needed explicit boundaries.",
+      "fix": "Missing AT is untested, not failure; break-ui requires authorized dev/source fixtures; no automatic LAN/firewall, disabling zoom/selection, production mutations or screenshots/data uploads."
+    },
+    {
+      "id": "R11",
+      "problem": "Global documentation still described approved new candidates as recommendations and one duplicate alias only.",
+      "fix": "Update global policy, integration guide and project guide; publish complete current 90-skill catalog and 180 human-authored finite scenarios; keep prior dated snapshots historical."
+    },
+    {
+      "id": "V01",
+      "problem": "First helper compared raw policy to compacted native prompt and an added import resolved an unusable Bun cache native addon.",
+      "fix": "Use native prompt renderer and installed-root Bun.resolveSync, without changing OMP/vendor source or reinstalling dependencies.",
+      "evidence": "Corrected helper exit 0 in project and neutral cwd; initial failures retained."
+    },
+    {
+      "id": "V02",
+      "problem": "Full-file read :raw dropped final LF in the copied integration-policy backup.",
+      "fix": "Restore exactly one LF, verify pre-edit SHA256, report native read issue. Other baseline vendor/configuration hashes remain unchanged.",
+      "evidence": "Final integrity passes all 82 protected files, 40 original new payloads and byte-exact integration-policy rollback."
+    }
+  ],
+  "verification": {
+    "discovery": "measurements/routing-global-20261024-discovery.json",
+    "integrity": "measurements/routing-global-20261024-integrity-final.json",
+    "selection": "measurements/routing-global-20261024-selection.json",
+    "summary": {
+      "nativeFreshProcessExitCode": 0,
+      "cwds": 2,
+      "uriAndCommandResolutionsPerCwd": 90,
+      "modelVisiblePerCwd": 88,
+      "collisionWarnings": 0,
+      "syntheticExitCode": 0,
+      "syntheticCasesPassed": 180,
+      "syntheticCasesTotal": 180,
+      "syntheticFirstPass": true,
+      "classificationsBatches": 3,
+      "actualModelToolCalls": [],
+      "protectedHashesUnchanged": 82,
+      "newOriginalPayloadHashesMatched": 40,
+      "helperFirstPass": false,
+      "helperCorrectionsRetained": true
+    }
+  },
+  "unchanged": {
+    "vendorEntryPoints": 80,
+    "mcpConfigSha256": "a98ba01eaee528cc122a0d87187a1327d94b245fd83ab49aa8bdc1d3c852b979",
+    "memoryPolicySha256": "795aba128b75afb435ce02ce1b66f212d779c9c93c7be75f475800d2dbb3c571",
+    "scope": "No original vendor files patched, other-host configuration edits, new MCP/providers/hooks, application dependencies, deployments, runner installation or paid third-party jobs."
+  },
+  "rollback": {
+    "directory": "backups/routing-global-20261024/",
+    "files": [
+      "AGENTS.md",
+      "config.yml",
+      "ledger.json",
+      "IMPECCABLE-OMP.md",
+      "PANDUAN-PROYEK-OMP.md"
+    ],
+    "method": "Restore only reviewed OMP configuration/docs from backups; move only these eleven newly created OMP skill directories outside discovery, do not delete unrelated files or touch other hosts. Remove current catalog/probe references when reverting; historical measurements may remain. Start a new OMP session. Backups preserve original content; byte-exact SHA256 independently established for IMPECCABLE-OMP.md.",
+    "newSkillDirectories": [
+      "skills/animate",
+      "skills/animation-performance",
+      "skills/find-animation-opportunities",
+      "skills/emil-design-eng",
+      "skills/review-animations",
+      "skills/improve-animations",
+      "skills/animation-vocabulary",
+      "skills/fixing-accessibility",
+      "skills/break-ui",
+      "skills/mobile-native",
+      "skills/vercel-composition-patterns"
+    ]
+  },
+  "limits": [
+    "Fresh processes verified native discovery, slash commands, URIs and global prompt in one project and a neutral cwd; current active session does not guarantee hot reload.",
+    "Synthetic selection is a finite most-specific-guide classification exercise, not deterministic routing or live app/infra/academic execution.",
+    "No actual app visual/animation/mobile/AT runtime or infrastructure workloads executed; no WCAG/security certification.",
+    "Prior source-provenance gaps remain: original find-skills/webapp-testing acquisition commits and standalone Orca stub license unknown; no fabricated pin/license.",
+    "Retained known runtime constraints and other dated gaps in the ledger are not silently resolved by this routing task."
+  ],
+  "status": "implemented-and-verified-within-stated-scope",
+  "activation": "Start a new OMP session; existing active discovery snapshots are not assumed hot-reloaded."
+}
