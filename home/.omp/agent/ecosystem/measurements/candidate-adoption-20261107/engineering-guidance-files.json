@@ -1,0 +1,1380 @@
+{
+  "schema": 1,
+  "slice": "engineering-guidance",
+  "copied_files": [
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\brainstorming\\builder-check-prompt.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\brainstorming\\builder-check-prompt.md",
+      "source_relative": "skills/brainstorming/builder-check-prompt.md",
+      "sha256": "36d51a4723d6f0a3ce5811a0ea3b3a8424f07533947e1355f5d8cb8cce40c55e"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\brainstorming\\scripts\\frame-template.html",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\brainstorming\\scripts\\frame-template.html",
+      "source_relative": "skills/brainstorming/scripts/frame-template.html",
+      "sha256": "6a8a4e58bd6a44b904e2e3c57de774481d909204597e1498de53f1b2fecc4c4e"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\brainstorming\\scripts\\helper.js",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\brainstorming\\scripts\\helper.js",
+      "source_relative": "skills/brainstorming/scripts/helper.js",
+      "sha256": "43c6d69954a46ec34a2a262bcc62a9a7e83e839c739f199cb72646d397c686e3"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\brainstorming\\scripts\\server.cjs",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\brainstorming\\scripts\\server.cjs",
+      "source_relative": "skills/brainstorming/scripts/server.cjs",
+      "sha256": "763abf96510e0b892a1141397b31aa82ef900cf87ed34dde94bc8782baf4a7ca"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\brainstorming\\scripts\\start-server.sh",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\brainstorming\\scripts\\start-server.sh",
+      "source_relative": "skills/brainstorming/scripts/start-server.sh",
+      "sha256": "314dd68dc00e8dd94c7491aca8a5f004c7fddffc161e2b07482f29f48d13659a"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\brainstorming\\scripts\\stop-server.sh",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\brainstorming\\scripts\\stop-server.sh",
+      "source_relative": "skills/brainstorming/scripts/stop-server.sh",
+      "sha256": "0b5ccbbd57f62d3ed88993f7940b5ee0e5c0fc9b21c550c623da4f6292e47daf"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\brainstorming\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\brainstorming\\SKILL.md",
+      "source_relative": "skills/brainstorming/SKILL.md",
+      "sha256": "2c9ca71f94886f9ca9f4aef055f7cafb3e1a9bdf3aeebf8f4cb547c69405d207"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\brainstorming\\visual-companion.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\brainstorming\\visual-companion.md",
+      "source_relative": "skills/brainstorming/visual-companion.md",
+      "sha256": "6ffcb038b53254bd31debaa15e12dcd4ff24bd63d690e0b644ac6396701cf2e2"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\writing-plans\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\writing-plans\\SKILL.md",
+      "source_relative": "skills/writing-plans/SKILL.md",
+      "sha256": "a6c67c1900064347c2a329990dd3c555657c51c3ec53b259a08aa01a2c26139a"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\executing-plans\\scripts\\task-done",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\executing-plans\\scripts\\task-done",
+      "source_relative": "skills/executing-plans/scripts/task-done",
+      "sha256": "ac0b5ebafc7d471507b7e94d88da77a11f187ba277c8d48fefaf8ff3e4fee50e"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\executing-plans\\scripts\\task-start",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\executing-plans\\scripts\\task-start",
+      "source_relative": "skills/executing-plans/scripts/task-start",
+      "sha256": "4ae7ce3b6777c3240af786197836a6b4bbf3b0ee831c25f147c149ea8db54a21"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\executing-plans\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\executing-plans\\SKILL.md",
+      "source_relative": "skills/executing-plans/SKILL.md",
+      "sha256": "deaf176fa179827e80f2ea3101db3ea90fdf562ebef340eba761e4687940f5f5"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\dispatching-parallel-agents\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\dispatching-parallel-agents\\SKILL.md",
+      "source_relative": "skills/dispatching-parallel-agents/SKILL.md",
+      "sha256": "1968923066f3b707eb01d1992cdf4c42284c3855f70253b9cd5000ff45fca13c"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\requesting-code-review\\code-reviewer.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\requesting-code-review\\code-reviewer.md",
+      "source_relative": "skills/requesting-code-review/code-reviewer.md",
+      "sha256": "82e370be6b3447523816286195571e4216ba56ba1ad6ad0e87862294c4c78dcb"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\requesting-code-review\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\requesting-code-review\\SKILL.md",
+      "source_relative": "skills/requesting-code-review/SKILL.md",
+      "sha256": "2180e14a448e9410bec88e6646a2d1f0ce7fdd58de27388c1e052e929679d2bc"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\using-git-worktrees\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\using-git-worktrees\\SKILL.md",
+      "source_relative": "skills/using-git-worktrees/SKILL.md",
+      "sha256": "8cfb86f121269e8f7f12361e6795c4f6738828340e28964c9229d365666c9edd"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\finishing-a-development-branch\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\finishing-a-development-branch\\SKILL.md",
+      "source_relative": "skills/finishing-a-development-branch/SKILL.md",
+      "sha256": "8db5a922b242dd4e1bf824cb91c13b3e8d8e8a86d6ceaf7f0774eb9cce909d65"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\implementer-prompt.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\implementer-prompt.md",
+      "source_relative": "skills/subagent-driven-development/implementer-prompt.md",
+      "sha256": "81dd9d5a3fb0b09b96b5829f03b9796842f3199ef7591d1ba1c2db2a515f64d0"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\re-review-prompt.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\re-review-prompt.md",
+      "source_relative": "skills/subagent-driven-development/re-review-prompt.md",
+      "sha256": "ad54d0a10f1c2c8e656456e0a46e654af5dfe5ee6bcef63428cfd69b8dcd9311"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\references\\batching.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\references\\batching.md",
+      "source_relative": "skills/subagent-driven-development/references/batching.md",
+      "sha256": "b54dc7e23dbfb90db89bcb2fb3af591aabf6a271a165fbc0da4c6f9439980eac"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\references\\cannot-verify.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\references\\cannot-verify.md",
+      "source_relative": "skills/subagent-driven-development/references/cannot-verify.md",
+      "sha256": "e698713a15e0eabf1a2ab26ffe1bb04bf70c9d6d2e2060d44a0f9a1bdd4408bf"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\references\\final-review.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\references\\final-review.md",
+      "source_relative": "skills/subagent-driven-development/references/final-review.md",
+      "sha256": "6c9e12093e46c4ad0a203bc07709c17e3470f855f1b78e55c5e7b722a012a32c"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\references\\fix-loop.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\references\\fix-loop.md",
+      "source_relative": "skills/subagent-driven-development/references/fix-loop.md",
+      "sha256": "1938ce707915efc44021e563ebc29666329e20ad861b6c50b89f305b8f4e8d8b"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\references\\handling-reports.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\references\\handling-reports.md",
+      "source_relative": "skills/subagent-driven-development/references/handling-reports.md",
+      "sha256": "8f759cdd4936220c38aab05b6d6c48c6df8ac8f146b0f37a6d2facbf87133c67"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\references\\preflight.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\references\\preflight.md",
+      "source_relative": "skills/subagent-driven-development/references/preflight.md",
+      "sha256": "3ea21c5fc1af1a190ac8a9d19ceb0849b47bf2ffe27b87dffcc21b6a0539776c"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\references\\resuming.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\references\\resuming.md",
+      "source_relative": "skills/subagent-driven-development/references/resuming.md",
+      "sha256": "ff6e38bde2276faa2a7e93513086caded0ea10edbf2ec7f349a7e3b0d7c668c4"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\scripts\\review-package",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\scripts\\review-package",
+      "source_relative": "skills/subagent-driven-development/scripts/review-package",
+      "sha256": "aed7c6e09fc660417d28898ed975e84651cb9f18f4675141cd475edfb7037f3d"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\scripts\\sdd-repo",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\scripts\\sdd-repo",
+      "source_relative": "skills/subagent-driven-development/scripts/sdd-repo",
+      "sha256": "6f8256a776968d394bae679572e41ce572fd45c72074b98f9a8eb8b4f160e06f"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\scripts\\sdd-workspace",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\scripts\\sdd-workspace",
+      "source_relative": "skills/subagent-driven-development/scripts/sdd-workspace",
+      "sha256": "de3af5252fa595fc2000ba05cf69e06187d5c8aae9d283cced4c167ad1813061"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\scripts\\task-brief",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\scripts\\task-brief",
+      "source_relative": "skills/subagent-driven-development/scripts/task-brief",
+      "sha256": "0f244a12e146393c552ba62069d3eedcc85cb3f76de67b01f4e11219e5ebbcd8"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\SKILL.md",
+      "source_relative": "skills/subagent-driven-development/SKILL.md",
+      "sha256": "1baf70e307bde682c462513c86116333f1f066168c6710f45145bf5f0b00828d"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\task-reviewer-prompt.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\task-reviewer-prompt.md",
+      "source_relative": "skills/subagent-driven-development/task-reviewer-prompt.md",
+      "sha256": "61a04c2fb29907887d8babee1594f5e35ae26d461e7e584f5b7c283215165e08"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\test-driven-development\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\test-driven-development\\SKILL.md",
+      "source_relative": "skills/test-driven-development/SKILL.md",
+      "sha256": "64b03fce4aee5a97a93160cea8111f3ba13a17b7c001db4bd5836d67fd10705d"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\test-driven-development\\writing-good-tests.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\test-driven-development\\writing-good-tests.md",
+      "source_relative": "skills/test-driven-development/writing-good-tests.md",
+      "sha256": "51471c853306ff92ca8bb41dcaea05f31c0e46b03651f8f3c99754b7172f4ae1"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\LICENSE",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\LICENSE",
+      "source_relative": "LICENSE",
+      "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\README.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\README.md",
+      "source_relative": "README.md",
+      "sha256": "79f29f50c735862d2e304ea547b4c9aa67d9db6909ff6fb7b5ea922d7bcbc3e7"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\package.json",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\package.json",
+      "source_relative": "package.json",
+      "sha256": "49004c08be59f027bf23a500d57ab1ba6a288deb5697d3cbd743432cf4a42059"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\plans\\2025-11-22-opencode-support-design.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\plans\\2025-11-22-opencode-support-design.md",
+      "source_relative": "docs/plans/2025-11-22-opencode-support-design.md",
+      "sha256": "4688cb2e4bafa7e6124dd811be57c8873bfb4b8cccb95ddbd7032557a9cfd10b"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\plans\\2025-11-22-opencode-support-implementation.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\plans\\2025-11-22-opencode-support-implementation.md",
+      "source_relative": "docs/plans/2025-11-22-opencode-support-implementation.md",
+      "sha256": "2cc68cc29ee1174e13a65739b004f2346911a0d89a20744930f9f5b81963b4f3"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\plans\\2025-11-28-skills-improvements-from-user-feedback.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\plans\\2025-11-28-skills-improvements-from-user-feedback.md",
+      "source_relative": "docs/plans/2025-11-28-skills-improvements-from-user-feedback.md",
+      "sha256": "cce0b2e951209ac7d555fcbacfc858d8069b4036019d44dd95bb4334afaf2e65"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\plans\\2026-01-17-visual-brainstorming.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\plans\\2026-01-17-visual-brainstorming.md",
+      "source_relative": "docs/plans/2026-01-17-visual-brainstorming.md",
+      "sha256": "2ff9c06d8c7cf650becb588d74507c5681c55844c61e21160a290cbe26d41ca4"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\porting-to-a-new-harness.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\porting-to-a-new-harness.md",
+      "source_relative": "docs/porting-to-a-new-harness.md",
+      "sha256": "562a1436134babc815c11adf0379e2df00c8de0e73c362291faf495448b94f3e"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\README.kimi.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\README.kimi.md",
+      "source_relative": "docs/README.kimi.md",
+      "sha256": "915b112731bbcb635885ed1c5f24a36b43248bc18689fa253bb4f89c937c6585"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\README.opencode.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\README.opencode.md",
+      "source_relative": "docs/README.opencode.md",
+      "sha256": "7ce149e5b91bf7f55bab76732c0e054c0b7ff29dc2865b3a59a10085c793e5ae"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-01-22-document-review-system-design.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-01-22-document-review-system-design.md",
+      "source_relative": "docs/superpowers/specs/2026-01-22-document-review-system-design.md",
+      "sha256": "19dd839168b9e4a072985e8941aa3ae7cf9101357111620755d50dbeb1bea04b"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-02-19-visual-brainstorming-refactor-design.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-02-19-visual-brainstorming-refactor-design.md",
+      "source_relative": "docs/superpowers/specs/2026-02-19-visual-brainstorming-refactor-design.md",
+      "sha256": "f27d0f9c33cc4f34101fd676d48e73d6259e6cd4e1b3adc477ea81f4c7557af7"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-03-11-zero-dep-brainstorm-server-design.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-03-11-zero-dep-brainstorm-server-design.md",
+      "source_relative": "docs/superpowers/specs/2026-03-11-zero-dep-brainstorm-server-design.md",
+      "sha256": "8f29bac7d4df2b51062c005fe4d591140f1da3ab2030b28537df6f964637b9e9"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-03-23-codex-app-compatibility-design.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-03-23-codex-app-compatibility-design.md",
+      "source_relative": "docs/superpowers/specs/2026-03-23-codex-app-compatibility-design.md",
+      "sha256": "f351216f0b8abb5f08a9209d71ec3c218c79b1ba9d6a1c68aec990ef00e31a53"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-04-06-worktree-rototill-design.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-04-06-worktree-rototill-design.md",
+      "source_relative": "docs/superpowers/specs/2026-04-06-worktree-rototill-design.md",
+      "sha256": "757ce61bbcd16dcb8f61fa69778ca7a3b1d26f7a11a0fcea3d302fd99a52ebae"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-05-05-platform-neutral-config-refs-design.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-05-05-platform-neutral-config-refs-design.md",
+      "source_relative": "docs/superpowers/specs/2026-05-05-platform-neutral-config-refs-design.md",
+      "sha256": "7a3c5e5fb77a3f8a500e9406283653cfee5edf1b98e58d5f267c5f21905eee19"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-05-05-platform-neutral-prose-design.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-05-05-platform-neutral-prose-design.md",
+      "source_relative": "docs/superpowers/specs/2026-05-05-platform-neutral-prose-design.md",
+      "sha256": "d55fa30a3b1422f8364a81f49c755ada9cc792b2cc10193b1dbd43c551918c19"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-05-05-platform-neutral-readme-design.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-05-05-platform-neutral-readme-design.md",
+      "source_relative": "docs/superpowers/specs/2026-05-05-platform-neutral-readme-design.md",
+      "sha256": "63eb346415386c6850832f4b7414d03570a033eaf37de0b60d2ec4834169896e"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-05-06-lift-drill-into-evals-design.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-05-06-lift-drill-into-evals-design.md",
+      "source_relative": "docs/superpowers/specs/2026-05-06-lift-drill-into-evals-design.md",
+      "sha256": "fac3785f6f779bd899a6e93bcd60a934b4946ce4f7e8b6129d7910979650a6a1"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-06-09-sdd-task-scoped-review-dispatch-design.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-06-09-sdd-task-scoped-review-dispatch-design.md",
+      "source_relative": "docs/superpowers/specs/2026-06-09-sdd-task-scoped-review-dispatch-design.md",
+      "sha256": "08b6b77be0d3b95e1d19a3dc320b93bba52917ca9beb0084fd74ecd75c015b59"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-06-10-positive-instruction-redesign-design.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-06-10-positive-instruction-redesign-design.md",
+      "source_relative": "docs/superpowers/specs/2026-06-10-positive-instruction-redesign-design.md",
+      "sha256": "3a87b9e873728a3a4331437eb90f9fc5f4c9d7d0b88a931cce2bc3bda041b68b"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-06-10-strict-cost-sdd-design.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-06-10-strict-cost-sdd-design.md",
+      "source_relative": "docs/superpowers/specs/2026-06-10-strict-cost-sdd-design.md",
+      "sha256": "e8865d184479ffd4f2fe2c3072bf6a2b70179bbb4565cd6cefcbcb127c9f9b28"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-06-10-visual-companion-auth-hardening-design.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-06-10-visual-companion-auth-hardening-design.md",
+      "source_relative": "docs/superpowers/specs/2026-06-10-visual-companion-auth-hardening-design.md",
+      "sha256": "8d97d0384c61c0400fb67429a4384ad989bdc11953cce160069c368ac1f7e362"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-06-11-visual-companion-final-hardening-fixup-design.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-06-11-visual-companion-final-hardening-fixup-design.md",
+      "source_relative": "docs/superpowers/specs/2026-06-11-visual-companion-final-hardening-fixup-design.md",
+      "sha256": "78c4fbc2b609b1fe3ca0d7aba0f4d800511baf069355d25b37da5cf957dc0e7c"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-07-06-sdd-plan-scoped-workspace-eval-results.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-07-06-sdd-plan-scoped-workspace-eval-results.md",
+      "source_relative": "docs/superpowers/specs/2026-07-06-sdd-plan-scoped-workspace-eval-results.md",
+      "sha256": "c4d2f3f086648ee6b949fd0ed999dd7b0a3a8d45ba290b2024389c66b2ed95b7"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-07-06-sdd-plan-scoped-workspace.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-07-06-sdd-plan-scoped-workspace.md",
+      "source_relative": "docs/superpowers/specs/2026-07-06-sdd-plan-scoped-workspace.md",
+      "sha256": "301328cb8dec833dc35e05e90b4c10a6e67ebd915b33a3a5d34f83927094815d"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-07-15-sdd-fix-loop-redesign-design.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-07-15-sdd-fix-loop-redesign-design.md",
+      "source_relative": "docs/superpowers/specs/2026-07-15-sdd-fix-loop-redesign-design.md",
+      "sha256": "9ed33fe2821fd9d61e198c03e0377a9151294737a6ea34074637c1eef98c1a06"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-07-30-codex-efficiency-fixes-design.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-07-30-codex-efficiency-fixes-design.md",
+      "source_relative": "docs/superpowers/specs/2026-07-30-codex-efficiency-fixes-design.md",
+      "sha256": "6a6f81dcea03ebb8ffa710536fc92faab285c7bc894430c3348eb0bfa3fea926"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-08-05-hermes-version-bump-wiring-design.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-08-05-hermes-version-bump-wiring-design.md",
+      "source_relative": "docs/superpowers/specs/2026-08-05-hermes-version-bump-wiring-design.md",
+      "sha256": "f649e3afbd3a14df4c1ac5bd1942ffb4846129836f20b5f2aa3263fd3c19ed69"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-08-27-diagnosing-superpowers-design.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-08-27-diagnosing-superpowers-design.md",
+      "source_relative": "docs/superpowers/specs/2026-08-27-diagnosing-superpowers-design.md",
+      "sha256": "396a4951cda08633501deb638a77961a638560441b7fde53fb43fc1a6497d0bf"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-10-05-brainstorming-rebuild-design.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-10-05-brainstorming-rebuild-design.md",
+      "source_relative": "docs/superpowers/specs/2026-10-05-brainstorming-rebuild-design.md",
+      "sha256": "a15a0ceb2df039469ea15b8f66d001782e1b2c1d0690c0891070ac11389870a3"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-10-06-antigravity-marketplace-design.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\superpowers\\specs\\2026-10-06-antigravity-marketplace-design.md",
+      "source_relative": "docs/superpowers/specs/2026-10-06-antigravity-marketplace-design.md",
+      "sha256": "db4b3e15709b9ce2b0c40a59c590a5f63ae551b28f6a1104df3306d1d542ab1d"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\testing.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\testing.md",
+      "source_relative": "docs/testing.md",
+      "sha256": "2959880663be4abecbcf11331e64e435cfadffae2c9e2fb24eb5509224f51f30"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\windows\\polyglot-hooks.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\docs\\windows\\polyglot-hooks.md",
+      "source_relative": "docs/windows/polyglot-hooks.md",
+      "sha256": "6691f1a4fedfecb456550610afda3bda56ad458cf6f2200bc5249fa3cd743a94"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\using-superpowers\\references\\antigravity-tools.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\using-superpowers\\references\\antigravity-tools.md",
+      "source_relative": "skills/using-superpowers/references/antigravity-tools.md",
+      "sha256": "4880f6de3da4e32f9659ebe7a72b9e0ebfff04e028c2ed96173f86d0387a04c0"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\using-superpowers\\references\\claude-code-tools.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\using-superpowers\\references\\claude-code-tools.md",
+      "source_relative": "skills/using-superpowers/references/claude-code-tools.md",
+      "sha256": "21479a3fee27448cab8748a3b5687e53bb257883bda9c070426f9a1ab5cebf1b"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\using-superpowers\\references\\codex-tools.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\using-superpowers\\references\\codex-tools.md",
+      "source_relative": "skills/using-superpowers/references/codex-tools.md",
+      "sha256": "1a38ad9b188c393052f58d95657a1c35ea6aafc8b5a27f198f3922912f70bbe7"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\using-superpowers\\references\\gemini-tools.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\using-superpowers\\references\\gemini-tools.md",
+      "source_relative": "skills/using-superpowers/references/gemini-tools.md",
+      "sha256": "62b9157bcb0ee3c6784e3d0da0798ddfa5872f9e0c34bea48f3079dabea71965"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\using-superpowers\\references\\hermes-tools.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\using-superpowers\\references\\hermes-tools.md",
+      "source_relative": "skills/using-superpowers/references/hermes-tools.md",
+      "sha256": "e2185c976a3c87503910e05e2aea58cc89bc8e569bb624b93df9958ac47a9190"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\using-superpowers\\references\\muse-tools.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\using-superpowers\\references\\muse-tools.md",
+      "source_relative": "skills/using-superpowers/references/muse-tools.md",
+      "sha256": "5a1da5c575fe18456ca71cd47ebfd8a38c745f8d82a67fe64d5b83080000eeb3"
+    },
+    {
+      "repo": "obra/superpowers",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\using-superpowers\\references\\pi-tools.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\using-superpowers\\references\\pi-tools.md",
+      "source_relative": "skills/using-superpowers/references/pi-tools.md",
+      "sha256": "703dbc83d23ecab9c6f388460c38abc482e9dee2fe6772a8c7a255152ad3a4d5"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\teach\\agents\\openai.yaml",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\teach\\agents\\openai.yaml",
+      "source_relative": "skills/productivity/teach/agents/openai.yaml",
+      "sha256": "5856f3ae8aec742f1499c640aecdd5f1d6af5fa210a7c6ec794de8263a6f733f"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\teach\\GLOSSARY-FORMAT.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\teach\\GLOSSARY-FORMAT.md",
+      "source_relative": "skills/productivity/teach/GLOSSARY-FORMAT.md",
+      "sha256": "9b99859ec28437668130d8f2ce5a342938970f8a1ed4fd38c3eab4f4b5fff210"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\teach\\LEARNING-RECORD-FORMAT.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\teach\\LEARNING-RECORD-FORMAT.md",
+      "source_relative": "skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+      "sha256": "701fa34b6748aa89e6c960ffb815257f481a7d77fb2900f9028f7edf3fdd6052"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\teach\\MISSION-FORMAT.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\teach\\MISSION-FORMAT.md",
+      "source_relative": "skills/productivity/teach/MISSION-FORMAT.md",
+      "sha256": "8cacbb3c0644d3ae0ea4965564797099401a6930a23f7cf462918576587f2418"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\teach\\RESOURCES-FORMAT.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\teach\\RESOURCES-FORMAT.md",
+      "source_relative": "skills/productivity/teach/RESOURCES-FORMAT.md",
+      "sha256": "e9cacf34026e11a8d1c8f9de88abe5bcbf654f4ebdb25cae8c0de0d5f48f44ec"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\teach\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\teach\\SKILL.md",
+      "source_relative": "skills/productivity/teach/SKILL.md",
+      "sha256": "550482c2d674b085c9043b87bfdc14a8f2ec453c736119e7fcbb1e9332bffeba"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\handoff\\agents\\openai.yaml",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\handoff\\agents\\openai.yaml",
+      "source_relative": "skills/productivity/handoff/agents/openai.yaml",
+      "sha256": "5c479fd562c691851690e8b18c8501045bef0943c10743d636b2fae26add1d28"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\handoff\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\handoff\\SKILL.md",
+      "source_relative": "skills/productivity/handoff/SKILL.md",
+      "sha256": "4cbb043950dad2ffd3662ff1a5a0b51ae676004b5cae10e3787e8ee7a4ee69d3"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\wait-what\\agents\\openai.yaml",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\wait-what\\agents\\openai.yaml",
+      "source_relative": "skills/productivity/wait-what/agents/openai.yaml",
+      "sha256": "b41faadf741d51e4ea184148b2d1854d93f947aaf754c7844f70a00f04194999"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\wait-what\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\wait-what\\SKILL.md",
+      "source_relative": "skills/productivity/wait-what/SKILL.md",
+      "sha256": "d961bb37defd975c539427edb8f450cdbccdcdd552e213c1ece46676a7970905"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\writing-for-agents\\agents\\openai.yaml",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\writing-for-agents\\agents\\openai.yaml",
+      "source_relative": "skills/productivity/writing-for-agents/agents/openai.yaml",
+      "sha256": "eacb24b2a618cfb81dacb0416f4fdd75ddf3a8060f8ddb99aae1b1e301907e4b"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\writing-for-agents\\SKILL-MECHANICS.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\writing-for-agents\\SKILL-MECHANICS.md",
+      "source_relative": "skills/productivity/writing-for-agents/SKILL-MECHANICS.md",
+      "sha256": "c768e6307c7c10728c401c213f2c4ba71c542127eeb7ad2956aabd15a0fa0059"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\writing-for-agents\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\writing-for-agents\\SKILL.md",
+      "source_relative": "skills/productivity/writing-for-agents/SKILL.md",
+      "sha256": "551adca942227b44192edba88acd4e8db911f0121ce58ad16944ccf6a896a74a"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\to-spec\\agents\\openai.yaml",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\to-spec\\agents\\openai.yaml",
+      "source_relative": "skills/engineering/to-spec/agents/openai.yaml",
+      "sha256": "1c5b4d1e3d8e52287ef19cc2742fdbbfae1914ac75d33af3e4c8174f08cc55bb"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\to-spec\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\to-spec\\SKILL.md",
+      "source_relative": "skills/engineering/to-spec/SKILL.md",
+      "sha256": "43ad9cf318e5e7d3d1fa360253a37021796dc87a0c2e595ad262661a10f85088"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\to-tickets\\agents\\openai.yaml",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\to-tickets\\agents\\openai.yaml",
+      "source_relative": "skills/engineering/to-tickets/agents/openai.yaml",
+      "sha256": "21bc6215fffcd7614e9f772bb1760e87cc5fc7dcc707e7d282bc9414267a6090"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\to-tickets\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\to-tickets\\SKILL.md",
+      "source_relative": "skills/engineering/to-tickets/SKILL.md",
+      "sha256": "56ec23c5b2782785d4e65bff9e315b6d3aeb4ef977c174a219e99489fada1995"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\setup-matt-pocock-skills\\agents\\openai.yaml",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\setup-matt-pocock-skills\\agents\\openai.yaml",
+      "source_relative": "skills/engineering/setup-matt-pocock-skills/agents/openai.yaml",
+      "sha256": "9527de0110541c45712319025155aeab8dc7d77c6ed6e5e83271bab1851ab939"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\setup-matt-pocock-skills\\domain.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\setup-matt-pocock-skills\\domain.md",
+      "source_relative": "skills/engineering/setup-matt-pocock-skills/domain.md",
+      "sha256": "593a7042218689f1d24df89df14eaf0a20e19e0d0a7d479a01947ac78f0784b9"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\setup-matt-pocock-skills\\issue-tracker-github.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\setup-matt-pocock-skills\\issue-tracker-github.md",
+      "source_relative": "skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "sha256": "6fdb3e9b00b7b0b115ecac3b1c00e3790f637f190abf598815368722c0a94692"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\setup-matt-pocock-skills\\issue-tracker-gitlab.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\setup-matt-pocock-skills\\issue-tracker-gitlab.md",
+      "source_relative": "skills/engineering/setup-matt-pocock-skills/issue-tracker-gitlab.md",
+      "sha256": "947602d33a80f98f939fb990995b8f95a3459b114b919c4221d08bd75d7cffe0"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\setup-matt-pocock-skills\\issue-tracker-local.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\setup-matt-pocock-skills\\issue-tracker-local.md",
+      "source_relative": "skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+      "sha256": "7dcda20a2eb4bdc89b95d1143423c0691309921cadae3132e6424f371030506e"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\setup-matt-pocock-skills\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\setup-matt-pocock-skills\\SKILL.md",
+      "source_relative": "skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "sha256": "b01e05bfe8c323171275c6ceec78b12f1bd4c62dfd26c2cfe8be806d3883f1ed"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\setup-matt-pocock-skills\\triage-labels.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\setup-matt-pocock-skills\\triage-labels.md",
+      "source_relative": "skills/engineering/setup-matt-pocock-skills/triage-labels.md",
+      "sha256": "ae512af838c78b8750471c42cd2b20fa32319553e61d84c9a23d171b40ce14aa"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\LICENSE",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\LICENSE",
+      "source_relative": "LICENSE",
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\README.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\README.md",
+      "source_relative": "README.md",
+      "sha256": "345041d56cf1411b6b3ca1cc54014d26c563890f817f4cb9e2cb193dcd771a3e"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\package.json",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\package.json",
+      "source_relative": "package.json",
+      "sha256": "adc28432aa70b1eac1d4ff222d4a53263e77c86286ba16e4ff12031e718e41b2"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\source-driven-development\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\source-driven-development\\SKILL.md",
+      "source_relative": "skills/source-driven-development/SKILL.md",
+      "sha256": "df38a852658679a67c7a9e4840160570c95094a13a63307e834045ddbf8aa287"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\constraint-driven-development\\references\\floor-guard.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\constraint-driven-development\\references\\floor-guard.md",
+      "source_relative": "skills/constraint-driven-development/references/floor-guard.md",
+      "sha256": "b24459dd17569a1cc12686afb2253d8a47991325310e6e003cba4b384d7535d9"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\constraint-driven-development\\scripts\\quality-gate.mjs",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\constraint-driven-development\\scripts\\quality-gate.mjs",
+      "source_relative": "skills/constraint-driven-development/scripts/quality-gate.mjs",
+      "sha256": "460decdd1365c8bedb2538e9e4b7b248693bd78ea662268b314df4f5907d5fc2"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\constraint-driven-development\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\constraint-driven-development\\SKILL.md",
+      "source_relative": "skills/constraint-driven-development/SKILL.md",
+      "sha256": "5a690018d415fa972d1ecc85aed943a4f86b0d3c2305eea84f286ff391422008"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\doubt-driven-development\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\doubt-driven-development\\SKILL.md",
+      "source_relative": "skills/doubt-driven-development/SKILL.md",
+      "sha256": "7a7d53d9d2b93ca7af8d882718753dc7887716f143e7937ecbc381f26416bda7"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\deprecation-and-migration\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\deprecation-and-migration\\SKILL.md",
+      "source_relative": "skills/deprecation-and-migration/SKILL.md",
+      "sha256": "1896d7db836fc067e2856739664db9ff5bb642526fdff2126d08ec0d588da4b7"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\observability-and-instrumentation\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\observability-and-instrumentation\\SKILL.md",
+      "source_relative": "skills/observability-and-instrumentation/SKILL.md",
+      "sha256": "e7fcb0820306d46268de9594d676ad98e35040858926c412b7000faa52a61f87"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\shipping-and-launch\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\shipping-and-launch\\SKILL.md",
+      "source_relative": "skills/shipping-and-launch/SKILL.md",
+      "sha256": "92fec446ec4e947a7b8aac88b851aa5743ff8cb39d5987fb53df08ba8a160d64"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\documentation-and-adrs\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\documentation-and-adrs\\SKILL.md",
+      "source_relative": "skills/documentation-and-adrs/SKILL.md",
+      "sha256": "6fccf3088d5042a3c889faa25113ffa47b9f7f999f4fc9e527d5e5226888442f"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\LICENSE",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\LICENSE",
+      "source_relative": "LICENSE",
+      "sha256": "6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\README.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\README.md",
+      "source_relative": "README.md",
+      "sha256": "b74ab722eeee706ff1c5c3ee55f5f2328368ec28c6368900bc80b857b5bc6b72"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\references\\accessibility-checklist.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\references\\accessibility-checklist.md",
+      "source_relative": "references/accessibility-checklist.md",
+      "sha256": "bf6448af1a98833dcd5974ca4a823aef3c5d99873446fdfe9e64020d3fb8cd2f"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\references\\definition-of-done.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\references\\definition-of-done.md",
+      "source_relative": "references/definition-of-done.md",
+      "sha256": "d1c75d2ae65d2c7a9cd01f93fa8de63e00e75f2fe5d08be224d576157054dcee"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\references\\observability-checklist.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\references\\observability-checklist.md",
+      "source_relative": "references/observability-checklist.md",
+      "sha256": "25fcd0e854596a5ab6f11b002050d245bf78f5ae0fcbd1df699b89451ae0e1e8"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\references\\orchestration-patterns.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\references\\orchestration-patterns.md",
+      "source_relative": "references/orchestration-patterns.md",
+      "sha256": "61e543d86f19f86b83074f8c1c769455c7085a2c72dd47b1da21a8c63785be4a"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\references\\performance-checklist.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\references\\performance-checklist.md",
+      "source_relative": "references/performance-checklist.md",
+      "sha256": "ce946457d4a502846e781a2747cf6af50bcc79b1957a66dc024f50557e8982e1"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\references\\security-checklist.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\references\\security-checklist.md",
+      "source_relative": "references/security-checklist.md",
+      "sha256": "84ed77cbba419c95390618f857eca2fadfeec12f2e5d39af4cc1833b94d82a39"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\references\\testing-patterns.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\references\\testing-patterns.md",
+      "source_relative": "references/testing-patterns.md",
+      "sha256": "8607fda9150f639eae3097d322399e08c5978cce56fe3a3c6291553cb89edf88"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\agents\\code-reviewer.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\agents\\code-reviewer.md",
+      "source_relative": "agents/code-reviewer.md",
+      "sha256": "4efbd53e08e57291cc2869865be809897fbe598767600118ec687d00a557fff4"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\agents\\security-auditor.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\agents\\security-auditor.md",
+      "source_relative": "agents/security-auditor.md",
+      "sha256": "66a3f68f1c691b600ddb44e88afb138e239d0572df37be84e1f9a427c887dd0a"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\agents\\test-engineer.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\agents\\test-engineer.md",
+      "source_relative": "agents/test-engineer.md",
+      "sha256": "a7a0b33ec3294da8fb4ee02ed28c665056bafa48982930fe551dcfadda9117af"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\agents\\web-performance-auditor.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\agents\\web-performance-auditor.md",
+      "source_relative": "agents/web-performance-auditor.md",
+      "sha256": "0928b1cf8103262a364bce0c1fc689a918852e2275441f1b2e687adfa1e607e9"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\adoption-guide.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\adoption-guide.md",
+      "source_relative": "docs/adoption-guide.md",
+      "sha256": "e8cf338ae5762bf93bb48b04eac986bf7307cea702ff87180a0983b33473bcf5"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\advanced-per-agent-configuration.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\advanced-per-agent-configuration.md",
+      "source_relative": "docs/advanced-per-agent-configuration.md",
+      "sha256": "93b2a53ca052b5e24b7382caf9438abdae7d511d7b16aedf71f35e36e9adc60d"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\agents.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\agents.md",
+      "source_relative": "docs/agents.md",
+      "sha256": "ac1d7704dcd70b9e98e8109254ece554381c7c488e54471ff17a648e5bcb13d2"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\antigravity-setup.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\antigravity-setup.md",
+      "source_relative": "docs/antigravity-setup.md",
+      "sha256": "d0db67ea8296c08e0f40a696915851eb1f6b7fc4da23a52ad9df1b1675a4e9d3"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\codex-setup.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\codex-setup.md",
+      "source_relative": "docs/codex-setup.md",
+      "sha256": "d6d491303d37020b51ddc0417fe3e7ea119518fa892deda07602d64f93d9fa8a"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\commandcode-setup.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\commandcode-setup.md",
+      "source_relative": "docs/commandcode-setup.md",
+      "sha256": "6305e672cd15c1dd709d7a2b307dca4bbf2704328654f8b3a5f37c495d3cf31c"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\comparison.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\comparison.md",
+      "source_relative": "docs/comparison.md",
+      "sha256": "652e4df31f4bc1e1d456db768ee15c6cc5fdd6dee754d9dfccffe5ce1eac7194"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\copilot-cli-setup.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\copilot-cli-setup.md",
+      "source_relative": "docs/copilot-cli-setup.md",
+      "sha256": "e624f0bff64f42b3a8034c7cba5e8a1907da81ad1e6f9ba3b6f9bcd5544993ec"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\copilot-setup.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\copilot-setup.md",
+      "source_relative": "docs/copilot-setup.md",
+      "sha256": "46f1f46c4c1f4f656b1725271692e686e6f2e10ca977b526ea4f932497ecb209"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\cursor-setup.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\cursor-setup.md",
+      "source_relative": "docs/cursor-setup.md",
+      "sha256": "351b41dc75c502f66d49fa577b4394257319244c0aaa91d071fa3d4eb2e071c6"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\developer-onboarding.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\developer-onboarding.md",
+      "source_relative": "docs/developer-onboarding.md",
+      "sha256": "b2fe54233e9945cbaeabbcdd072cfb4ce06918eed0cdc09ea5ae44e190028872"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\gemini-cli-setup.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\gemini-cli-setup.md",
+      "source_relative": "docs/gemini-cli-setup.md",
+      "sha256": "710cd13f0c4da9faae1bf179c5d4241fe37a8f9d2b409b989d2bd97de8be8883"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\getting-started.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\getting-started.md",
+      "source_relative": "docs/getting-started.md",
+      "sha256": "eb8601e481a3dc237bf76e38521e47f3dfc950f153836754a23302abca64b989"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\opencode-setup.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\opencode-setup.md",
+      "source_relative": "docs/opencode-setup.md",
+      "sha256": "77a6bd91ef2837acb96feea4ae60f3bfea2c4155864c197394dd2166f49de864"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\other-hosts.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\other-hosts.md",
+      "source_relative": "docs/other-hosts.md",
+      "sha256": "8269a198ac91a2a512e053066089a59613333101f835c6df259802b1683b41b2"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\skill-anatomy.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\skill-anatomy.md",
+      "source_relative": "docs/skill-anatomy.md",
+      "sha256": "5d2276c169c713e280bdbc4dcad41f20f4d5f7c5a8f09f9ee834eb1252a60df4"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\windsurf-setup.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\docs\\windsurf-setup.md",
+      "source_relative": "docs/windsurf-setup.md",
+      "sha256": "2c7eb8573d36950da2d92ad739529a283cf491006ad7c6bef3a8dc17ce1ea279"
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6\\skills\\i-have-adhd\\agents\\gemini.toml",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6\\skills\\i-have-adhd\\agents\\gemini.toml",
+      "source_relative": "skills/i-have-adhd/agents/gemini.toml",
+      "sha256": "5108a6123beb9df24846e0dd3f902c652d18522dfbc56e5762032ea383041c62"
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6\\skills\\i-have-adhd\\agents\\openai.yaml",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6\\skills\\i-have-adhd\\agents\\openai.yaml",
+      "source_relative": "skills/i-have-adhd/agents/openai.yaml",
+      "sha256": "2c51291283dcefdca43ca6b0c08172f225c7c26a9783ec444d6bdfa51ca96f8f"
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6\\skills\\i-have-adhd\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6\\skills\\i-have-adhd\\SKILL.md",
+      "source_relative": "skills/i-have-adhd/SKILL.md",
+      "sha256": "88955c019bbb1419ff4b49dbb1f80a867467de6233d7865af2e06a7d7b76c7d3"
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6\\LICENSE",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6\\LICENSE",
+      "source_relative": "LICENSE",
+      "sha256": "8acbb618089b738404f76ac60fca1aaa995d9a87995eddf95f0b777acd7f7d2c"
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6\\README.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6\\README.md",
+      "source_relative": "README.md",
+      "sha256": "e9a043ffdcf59bc85a618d4be8ca20b2e89eca71b91408e8a51d14efe4d0225c"
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6\\package.json",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6\\package.json",
+      "source_relative": "package.json",
+      "sha256": "09fb6f99487b916461efab877729fb53e926f1c0e670823bea5009edf95f6cbf"
+    },
+    {
+      "repo": "nidhinjs/prompt-master",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a\\LICENSE",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a\\skills\\prompt-master\\LICENSE",
+      "source_relative": "LICENSE",
+      "sha256": "29e8ba0b54274eaa92b7cb074fe1765ba7b83993e0d2605e5308c6972a47daa7"
+    },
+    {
+      "repo": "nidhinjs/prompt-master",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a\\README.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a\\skills\\prompt-master\\README.md",
+      "source_relative": "README.md",
+      "sha256": "3a43506bd5d3c19e39fd16cdacfc8b199107291801867099dbf330c5da5a38e7"
+    },
+    {
+      "repo": "nidhinjs/prompt-master",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a\\references\\patterns.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a\\skills\\prompt-master\\references\\patterns.md",
+      "source_relative": "references/patterns.md",
+      "sha256": "95e7b16c32cdf7a5971a952cd40841875dea97fa7c96154e42f1afd2cf468d91"
+    },
+    {
+      "repo": "nidhinjs/prompt-master",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a\\references\\templates.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a\\skills\\prompt-master\\references\\templates.md",
+      "source_relative": "references/templates.md",
+      "sha256": "164f151958cc8aa64954a1d35c1b57f99a58f2c57be9742a86defb9f171fabed"
+    },
+    {
+      "repo": "nidhinjs/prompt-master",
+      "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a\\SKILL.md",
+      "destination": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a\\skills\\prompt-master\\SKILL.md",
+      "source_relative": "SKILL.md",
+      "sha256": "36e68cdcd62c38b2f99c2538c83fefb8c8837ea9b7eed75297fe76e45c452e75"
+    }
+  ],
+  "skill_entries": [
+    {
+      "repo": "obra/superpowers",
+      "name": "brainstorming",
+      "pin": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\brainstorming\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\brainstorming\\SKILL.md",
+      "sha256": "2c9ca71f94886f9ca9f4aef055f7cafb3e1a9bdf3aeebf8f4cb547c69405d207",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\LICENSE"
+    },
+    {
+      "repo": "obra/superpowers",
+      "name": "writing-plans",
+      "pin": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\writing-plans\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\writing-plans\\SKILL.md",
+      "sha256": "a6c67c1900064347c2a329990dd3c555657c51c3ec53b259a08aa01a2c26139a",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\LICENSE"
+    },
+    {
+      "repo": "obra/superpowers",
+      "name": "executing-plans",
+      "pin": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\executing-plans\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\executing-plans\\SKILL.md",
+      "sha256": "deaf176fa179827e80f2ea3101db3ea90fdf562ebef340eba761e4687940f5f5",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\LICENSE"
+    },
+    {
+      "repo": "obra/superpowers",
+      "name": "dispatching-parallel-agents",
+      "pin": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\dispatching-parallel-agents\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\dispatching-parallel-agents\\SKILL.md",
+      "sha256": "1968923066f3b707eb01d1992cdf4c42284c3855f70253b9cd5000ff45fca13c",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\LICENSE"
+    },
+    {
+      "repo": "obra/superpowers",
+      "name": "requesting-code-review",
+      "pin": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\requesting-code-review\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\requesting-code-review\\SKILL.md",
+      "sha256": "2180e14a448e9410bec88e6646a2d1f0ce7fdd58de27388c1e052e929679d2bc",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\LICENSE"
+    },
+    {
+      "repo": "obra/superpowers",
+      "name": "using-git-worktrees",
+      "pin": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\using-git-worktrees\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\using-git-worktrees\\SKILL.md",
+      "sha256": "8cfb86f121269e8f7f12361e6795c4f6738828340e28964c9229d365666c9edd",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\LICENSE"
+    },
+    {
+      "repo": "obra/superpowers",
+      "name": "finishing-a-development-branch",
+      "pin": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\finishing-a-development-branch\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\finishing-a-development-branch\\SKILL.md",
+      "sha256": "8db5a922b242dd4e1bf824cb91c13b3e8d8e8a86d6ceaf7f0774eb9cce909d65",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\LICENSE"
+    },
+    {
+      "repo": "obra/superpowers",
+      "name": "subagent-driven-development",
+      "pin": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\SKILL.md",
+      "sha256": "1baf70e307bde682c462513c86116333f1f066168c6710f45145bf5f0b00828d",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\LICENSE"
+    },
+    {
+      "repo": "obra/superpowers",
+      "name": "test-driven-development",
+      "pin": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\test-driven-development\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\test-driven-development\\SKILL.md",
+      "sha256": "64b03fce4aee5a97a93160cea8111f3ba13a17b7c001db4bd5836d67fd10705d",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\LICENSE"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "teach",
+      "pin": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\teach\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\teach\\SKILL.md",
+      "sha256": "550482c2d674b085c9043b87bfdc14a8f2ec453c736119e7fcbb1e9332bffeba",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\LICENSE"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "handoff",
+      "pin": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\handoff\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\handoff\\SKILL.md",
+      "sha256": "4cbb043950dad2ffd3662ff1a5a0b51ae676004b5cae10e3787e8ee7a4ee69d3",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\LICENSE"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "wait-what",
+      "pin": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\wait-what\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\wait-what\\SKILL.md",
+      "sha256": "d961bb37defd975c539427edb8f450cdbccdcdd552e213c1ece46676a7970905",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\LICENSE"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "writing-for-agents",
+      "pin": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\writing-for-agents\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\writing-for-agents\\SKILL.md",
+      "sha256": "551adca942227b44192edba88acd4e8db911f0121ce58ad16944ccf6a896a74a",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\LICENSE"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "to-spec",
+      "pin": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\to-spec\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\to-spec\\SKILL.md",
+      "sha256": "43ad9cf318e5e7d3d1fa360253a37021796dc87a0c2e595ad262661a10f85088",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\LICENSE"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "to-tickets",
+      "pin": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\to-tickets\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\to-tickets\\SKILL.md",
+      "sha256": "56ec23c5b2782785d4e65bff9e315b6d3aeb4ef977c174a219e99489fada1995",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\LICENSE"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "setup-matt-pocock-skills",
+      "pin": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\setup-matt-pocock-skills\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\setup-matt-pocock-skills\\SKILL.md",
+      "sha256": "b01e05bfe8c323171275c6ceec78b12f1bd4c62dfd26c2cfe8be806d3883f1ed",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\LICENSE"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "source-driven-development",
+      "pin": "8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\source-driven-development\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\source-driven-development\\SKILL.md",
+      "sha256": "df38a852658679a67c7a9e4840160570c95094a13a63307e834045ddbf8aa287",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\LICENSE"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "constraint-driven-development",
+      "pin": "8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\constraint-driven-development\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\constraint-driven-development\\SKILL.md",
+      "sha256": "5a690018d415fa972d1ecc85aed943a4f86b0d3c2305eea84f286ff391422008",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\LICENSE"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "doubt-driven-development",
+      "pin": "8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\doubt-driven-development\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\doubt-driven-development\\SKILL.md",
+      "sha256": "7a7d53d9d2b93ca7af8d882718753dc7887716f143e7937ecbc381f26416bda7",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\LICENSE"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "deprecation-and-migration",
+      "pin": "8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\deprecation-and-migration\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\deprecation-and-migration\\SKILL.md",
+      "sha256": "1896d7db836fc067e2856739664db9ff5bb642526fdff2126d08ec0d588da4b7",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\LICENSE"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "observability-and-instrumentation",
+      "pin": "8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\observability-and-instrumentation\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\observability-and-instrumentation\\SKILL.md",
+      "sha256": "e7fcb0820306d46268de9594d676ad98e35040858926c412b7000faa52a61f87",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\LICENSE"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "shipping-and-launch",
+      "pin": "8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\shipping-and-launch\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\shipping-and-launch\\SKILL.md",
+      "sha256": "92fec446ec4e947a7b8aac88b851aa5743ff8cb39d5987fb53df08ba8a160d64",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\LICENSE"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "documentation-and-adrs",
+      "pin": "8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\documentation-and-adrs\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\documentation-and-adrs\\SKILL.md",
+      "sha256": "6fccf3088d5042a3c889faa25113ffa47b9f7f999f4fc9e527d5e5226888442f",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\LICENSE"
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "name": "i-have-adhd",
+      "pin": "1ecea1993b7fce257ffbd686c070948b5e07eda6",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6\\skills\\i-have-adhd\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6\\skills\\i-have-adhd\\SKILL.md",
+      "sha256": "88955c019bbb1419ff4b49dbb1f80a867467de6233d7865af2e06a7d7b76c7d3",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6\\LICENSE"
+    },
+    {
+      "repo": "nidhinjs/prompt-master",
+      "name": "prompt-master",
+      "pin": "49b3a72469b1e7287d66387004ccfcca90e5968a",
+      "source_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a\\SKILL.md",
+      "installed_skill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a\\skills\\prompt-master\\SKILL.md",
+      "sha256": "36e68cdcd62c38b2f99c2538c83fefb8c8837ea9b7eed75297fe76e45c452e75",
+      "license": "MIT",
+      "license_source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a\\LICENSE"
+    }
+  ],
+  "source_snapshots": [
+    {
+      "repo": "obra/superpowers",
+      "pin": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "root": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7",
+      "archive": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7.zip",
+      "archive_sha256": "211294b8df6ce0362068fd9e783fb9e8418721124fd7855ffe4067c9e802cb9b",
+      "url": "https://codeload.github.com/obra/superpowers/zip/22f0b463e7a5e579904dd6211a520321035526f7"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "pin": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
+      "root": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0",
+      "archive": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0.zip",
+      "archive_sha256": "1dbe2591143d948ed0e057b993560d96e771d55d9af1c86849067f7642e8498b",
+      "url": "https://codeload.github.com/mattpocock/skills/zip/d1478fcb140db0b93c0c8df17bcfd311844749d0"
+    },
+    {
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "pin": "2c606141936f1eeef17fa3043a72095b4765b9c2",
+      "root": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\multica-ai-andrej-karpathy-skills-2c606141936f1eeef17fa3043a72095b4765b9c2",
+      "archive": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\multica-ai-andrej-karpathy-skills-2c606141936f1eeef17fa3043a72095b4765b9c2.zip",
+      "archive_sha256": "3b5fcfc0cb80c644cfe954db5380f90cb81175dad4f7352332d308abef440dd6",
+      "url": "https://codeload.github.com/multica-ai/andrej-karpathy-skills/zip/2c606141936f1eeef17fa3043a72095b4765b9c2"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "pin": "8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e",
+      "root": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e",
+      "archive": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e.zip",
+      "archive_sha256": "581a6f3ce1e5a637b8bebf76f808d3dd9112cb754a293b45820fc36ce23a28a2",
+      "url": "https://codeload.github.com/addyosmani/agent-skills/zip/8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e"
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "pin": "1ecea1993b7fce257ffbd686c070948b5e07eda6",
+      "root": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6",
+      "archive": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6.zip",
+      "archive_sha256": "936e4ca9ea6c7d6e7b0c877cfc85ef59c4de735135e7f73bfa400e5f68ac2055",
+      "url": "https://codeload.github.com/ayghri/i-have-adhd/zip/1ecea1993b7fce257ffbd686c070948b5e07eda6"
+    },
+    {
+      "repo": "nidhinjs/prompt-master",
+      "pin": "49b3a72469b1e7287d66387004ccfcca90e5968a",
+      "root": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a",
+      "archive": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a.zip",
+      "archive_sha256": "e2bc413574be4fddc1e69c8dfe33d6b52055c3d078027ed184c7249c55261620",
+      "url": "https://codeload.github.com/nidhinjs/prompt-master/zip/49b3a72469b1e7287d66387004ccfcca90e5968a"
+    },
+    {
+      "repo": "github/spec-kit",
+      "pin": "55264c2f2f2d1146f02abc543cb913dcdf1f9342",
+      "root": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\github-spec-kit-55264c2f2f2d1146f02abc543cb913dcdf1f9342",
+      "archive": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\github-spec-kit-55264c2f2f2d1146f02abc543cb913dcdf1f9342.zip",
+      "archive_sha256": "5c90a6282435b5fa765d314a6571f6c4686b9a87316adfd3c60725c2c4bf3710",
+      "url": "https://codeload.github.com/github/spec-kit/zip/55264c2f2f2d1146f02abc543cb913dcdf1f9342"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/config.yml",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/automatic-routing-20261107/config.yml",
+      "sha256": "62fbe49b594b426ef7e99241815f39ad06d502bd3abc7e0009c9e3a5966e8765",
+      "verified": true
+    },
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/AGENTS.md",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/automatic-routing-20261107/AGENTS.md",
+      "sha256": "3085b0345d68f0c5e40a78941348efb11e55aa50385f8290073fd5aa410ec56a",
+      "verified": true
+    },
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/IMPECCABLE-OMP.md",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/automatic-routing-20261107/IMPECCABLE-OMP.md",
+      "sha256": "29b3ff780883db41569eef50e6cdd1ce843b8395720271e18379b3b3fb0addb8",
+      "verified": true
+    },
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/ledger.json",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/automatic-routing-20261107/ledger.json",
+      "sha256": "1fa39db99e160676818479b0f007feb3257c3cfd5c96452b9af1f45d944e220c",
+      "verified": true
+    }
+  ],
+  "scope": "Byte integrity verified; active config not rolled back because catalog smoke passed"
+}

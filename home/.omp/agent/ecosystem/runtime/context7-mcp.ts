@@ -1,4 +1,5 @@
 import { spawn } from 'node:child_process';
+import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { z } from 'zod';
@@ -6,7 +7,7 @@ import { readSecret } from './lib/secrets.ts';
 import { assertNoSecrets } from './lib/secret-filter.ts';
 import {
   childEnvironment, cleanError, Context7Error, MAX_BYTES, nodeExecutable,
-  pinnedBin, REQUEST_TIMEOUT_MS, runtimeDir, sanitizeValue, validateRequest,
+  REQUEST_TIMEOUT_MS, runtimeDir, sanitizeValue, validateRequest,
 } from './context7.ts';
 
 const rpcSchema = z.object({
@@ -22,7 +23,15 @@ const querySchema = z.object({ libraryId: z.string(), query: z.string(), languag
 // This bridge never listens on HTTP and does not modify global environment/config.
 export async function launchMcp(): Promise<void> {
   if (process.argv.length > 2) throw new Context7Error('mcp-no-arguments');
-  const bin = await pinnedBin('mcp');
+  const packageRoot = resolve(runtimeDir, 'context7', '4.5.1', 'node_modules', '@upstash/context7-mcp');
+  try {
+    const metadata = JSON.parse(await readFile(resolve(packageRoot, 'package.json'), 'utf8'));
+    z.object({
+      name: z.literal('@upstash/context7-mcp'), version: z.literal('4.5.1'),
+      bin: z.object({ 'context7-mcp': z.literal('dist/index.js') }),
+    }).parse(metadata);
+  } catch { throw new Context7Error('pinned-package-unavailable'); }
+  const bin = resolve(packageRoot, 'dist/index.js');
   const key = await readSecret('context7');
   const child = spawn(nodeExecutable, [bin, '--transport', 'stdio'], {
     cwd: runtimeDir, env: childEnvironment(key), stdio: ['pipe', 'pipe', 'ignore'], windowsHide: true,

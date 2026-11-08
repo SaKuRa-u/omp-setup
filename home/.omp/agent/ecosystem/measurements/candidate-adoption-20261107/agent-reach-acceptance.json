@@ -1,0 +1,16 @@
+{
+  "firstAttempt": {
+    "command": "python -m agent_reach",
+    "exit": 1,
+    "error": "No agent_reach.__main__; correct official console script required"
+  },
+  "publicAttempt": {
+    "executable": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/agent-reach/1.6.1/venv/Scripts/agent-reach.exe",
+    "exit": 0,
+    "containsExampleDomain": true,
+    "rawOutput": "agent-reach-public-cli-output.txt"
+  },
+  "backend": "jina explicit, no fallback",
+  "credentialEnvironmentInherited": false,
+  "privateAccountsTested": false
+}

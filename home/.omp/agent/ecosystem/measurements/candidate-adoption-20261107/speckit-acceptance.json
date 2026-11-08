@@ -1,0 +1,12 @@
+{
+  "status": "Verified synthetic bundled scaffold",
+  "helpExit": 0,
+  "initExit": 0,
+  "integration": "omp",
+  "script": "ps",
+  "target": "scratch/spec-kit-demo",
+  "userRepositoriesChanged": false,
+  "providerCallsRequested": false,
+  "networkObserved": "not instrumented; bundled assets and no private credentials",
+  "output": "speckit-init-output.txt"
+}

@@ -1,0 +1,25 @@
+{
+  "status": "Verified public HN-only retrieval",
+  "provider_runtime": {
+    "planner_model": "deterministic",
+    "reasoning_provider": "local",
+    "rerank_model": "local-score"
+  },
+  "range": [
+    "2026-10-08",
+    "2026-11-07"
+  ],
+  "sourceKeys": [
+    "hackernews"
+  ],
+  "returnedStories": 1,
+  "firstStory": "Python on My Wrist",
+  "credentialEnvironmentInherited": false,
+  "browserCookies": false,
+  "planSource": "external",
+  "caveats": [
+    "Vendor searched15 candidates despite output cap3; returned1 after local relevance prune.",
+    "Generic research-quality3/4sources and suggestions mention unqueried sources; not adopted as coverage evidence.",
+    "No claim factual synthesis, transcript support or recency-provider comparison."
+  ]
+}

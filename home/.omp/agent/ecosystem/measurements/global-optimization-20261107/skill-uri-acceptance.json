@@ -1,0 +1,27 @@
+[
+  {
+    "name": "impeccable",
+    "source": "[Skill file: C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\impeccable\\SKILL.md]\n---\nname: impeccable\ndescription: \"Use when the user wants to design, redesign, shape, critique, audit, ",
+    "resolved": true
+  },
+  {
+    "name": "mcp-builder",
+    "source": "[Skill file: C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\mcp-builder\\SKILL.md]\n---\nname: mcp-builder\ndescription: Guide for creating high-quality MCP (Model Context Protocol) servers",
+    "resolved": true
+  },
+  {
+    "name": "terraform-policy",
+    "source": "[Skill file: C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\terraform-policy\\SKILL.md]\n---\nname: terraform-policy\ndescription: \"Write, test, or convert Terraform Policy files (.policy.h",
+    "resolved": true
+  },
+  {
+    "name": "animate",
+    "source": "[Skill file: C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\animate\\SKILL.md]\n---\nname: animate\ndescription: Build an animation from scratch, making the decisions in the order that dete",
+    "resolved": true
+  },
+  {
+    "name": "animation-performance",
+    "source": "[Skill file: C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\animation-performance\\SKILL.md]\n---\nname: animation-performance\ndescription: Keep web animations inside the frame budget — an",
+    "resolved": true
+  }
+]

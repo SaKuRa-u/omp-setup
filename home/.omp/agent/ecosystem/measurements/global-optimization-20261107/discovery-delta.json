@@ -1,0 +1,13 @@
+{
+  "onboarding": 101,
+  "management": 96,
+  "onlyOnboarding": [
+    "skill:github/animate",
+    "skill:github/animation-performance",
+    "skill:github/emil-design-eng",
+    "skill:github/impeccable",
+    "skill:github/review-animations"
+  ],
+  "onlyManagement": [],
+  "firstPassFailure": "Onboarding101!=96 hard-coded count assertion; count removed, unique names and no old aliases asserted; diagnostic rerun captured list"
+}

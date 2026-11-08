@@ -1,0 +1,644 @@
+{
+  "date": "2026-11-07",
+  "supersedes": "candidate-adoption-20261107 activation policy only; sources untouched",
+  "skills": [
+    {
+      "name": "brainstorming",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\brainstorming",
+      "slice": "engineering",
+      "manual": false
+    },
+    {
+      "name": "writing-plans",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\writing-plans",
+      "slice": "engineering",
+      "manual": false
+    },
+    {
+      "name": "executing-plans",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\executing-plans",
+      "slice": "engineering",
+      "manual": false
+    },
+    {
+      "name": "dispatching-parallel-agents",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\dispatching-parallel-agents",
+      "slice": "engineering",
+      "manual": false
+    },
+    {
+      "name": "requesting-code-review",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\requesting-code-review",
+      "slice": "engineering",
+      "manual": false
+    },
+    {
+      "name": "using-git-worktrees",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\using-git-worktrees",
+      "slice": "engineering",
+      "manual": false
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\finishing-a-development-branch",
+      "slice": "engineering",
+      "manual": false
+    },
+    {
+      "name": "subagent-driven-development",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development",
+      "slice": "engineering",
+      "manual": false
+    },
+    {
+      "name": "test-driven-development",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\test-driven-development",
+      "slice": "engineering",
+      "manual": false
+    },
+    {
+      "name": "teach",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\teach",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "handoff",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\handoff",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "wait-what",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\wait-what",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "writing-for-agents",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\writing-for-agents",
+      "slice": "engineering",
+      "manual": false
+    },
+    {
+      "name": "to-spec",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\to-spec",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "to-tickets",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\to-tickets",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "setup-matt-pocock-skills",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\setup-matt-pocock-skills",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "source-driven-development",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\source-driven-development",
+      "slice": "engineering",
+      "manual": false
+    },
+    {
+      "name": "constraint-driven-development",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\constraint-driven-development",
+      "slice": "engineering",
+      "manual": false
+    },
+    {
+      "name": "doubt-driven-development",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\doubt-driven-development",
+      "slice": "engineering",
+      "manual": false
+    },
+    {
+      "name": "deprecation-and-migration",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\deprecation-and-migration",
+      "slice": "engineering",
+      "manual": false
+    },
+    {
+      "name": "observability-and-instrumentation",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\observability-and-instrumentation",
+      "slice": "engineering",
+      "manual": false
+    },
+    {
+      "name": "shipping-and-launch",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\shipping-and-launch",
+      "slice": "engineering",
+      "manual": false
+    },
+    {
+      "name": "documentation-and-adrs",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\documentation-and-adrs",
+      "slice": "engineering",
+      "manual": false
+    },
+    {
+      "name": "i-have-adhd",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6\\skills\\i-have-adhd",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "prompt-master",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a\\skills\\prompt-master",
+      "slice": "engineering",
+      "manual": false
+    },
+    {
+      "name": "design-taste-frontend",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\design-taste-frontend",
+      "slice": "design",
+      "manual": false
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\ui-ux-pro-max",
+      "slice": "design",
+      "manual": false
+    },
+    {
+      "name": "hallmark",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\hallmark",
+      "slice": "design",
+      "manual": false
+    },
+    {
+      "name": "antislop",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\antislop",
+      "slice": "design",
+      "manual": false
+    },
+    {
+      "name": "antislop-copywriting",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\antislop-copywriting",
+      "slice": "design",
+      "manual": false
+    },
+    {
+      "name": "antislop-code",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\antislop-code",
+      "slice": "design",
+      "manual": false
+    },
+    {
+      "name": "frontend-design",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\frontend-design",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "canvas-design",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\canvas-design",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "theme-factory",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\theme-factory",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "choreograph",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\choreograph",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "remove-animations",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\remove-animations",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "gsap-scrolltrigger",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\gsap-scrolltrigger",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "gsap-plugins",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\gsap-plugins",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "gsap-performance",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\gsap-performance",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "gsap-frameworks",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\gsap-frameworks",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "gsap-utils",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\gsap-utils",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "trl-training",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\trl-training",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "train-sentence-transformers",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\train-sentence-transformers",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "huggingface-community-evals",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\huggingface-community-evals",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "huggingface-local-models",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\huggingface-local-models",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "huggingface-datasets",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\huggingface-datasets",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "seo-schema",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\claude-seo-6be93f45064ffbadced572b5d5c95f55fd263af0\\skills\\seo-schema",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "seo-hreflang",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\claude-seo-6be93f45064ffbadced572b5d5c95f55fd263af0\\skills\\seo-hreflang",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "understand-chat",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\understand-chat",
+      "slice": "knowledge",
+      "manual": false
+    },
+    {
+      "name": "understand-diff",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\understand-diff",
+      "slice": "knowledge",
+      "manual": false
+    },
+    {
+      "name": "understand-explain",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\understand-explain",
+      "slice": "knowledge",
+      "manual": false
+    },
+    {
+      "name": "understand-onboard",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\understand-onboard",
+      "slice": "knowledge",
+      "manual": false
+    },
+    {
+      "name": "graphify",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\graphify",
+      "slice": "knowledge",
+      "manual": false
+    },
+    {
+      "name": "last30days",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\last30days",
+      "slice": "knowledge",
+      "manual": false
+    },
+    {
+      "name": "agent-reach",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agent-reach",
+      "slice": "knowledge",
+      "manual": false
+    }
+  ],
+  "retainedExplicit": [
+    "setup-matt-pocock-skills",
+    "i-have-adhd",
+    "to-spec",
+    "to-tickets",
+    "handoff",
+    "teach",
+    "wait-what"
+  ],
+  "backupManifest": [
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/config.yml",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/automatic-routing-20261107/config.yml",
+      "sha256": "62fbe49b594b426ef7e99241815f39ad06d502bd3abc7e0009c9e3a5966e8765"
+    },
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/AGENTS.md",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/automatic-routing-20261107/AGENTS.md",
+      "sha256": "3085b0345d68f0c5e40a78941348efb11e55aa50385f8290073fd5aa410ec56a"
+    },
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/IMPECCABLE-OMP.md",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/automatic-routing-20261107/IMPECCABLE-OMP.md",
+      "sha256": "29b3ff780883db41569eef50e6cdd1ce843b8395720271e18379b3b3fb0addb8"
+    },
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/ledger.json",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/automatic-routing-20261107/ledger.json",
+      "sha256": "1fa39db99e160676818479b0f007feb3257c3cfd5c96452b9af1f45d944e220c"
+    }
+  ],
+  "vendorChecks": [
+    {
+      "name": "brainstorming",
+      "vendorExplicit": false,
+      "sourceSha256": "2c9ca71f94886f9ca9f4aef055f7cafb3e1a9bdf3aeebf8f4cb547c69405d207"
+    },
+    {
+      "name": "writing-plans",
+      "vendorExplicit": false,
+      "sourceSha256": "a6c67c1900064347c2a329990dd3c555657c51c3ec53b259a08aa01a2c26139a"
+    },
+    {
+      "name": "executing-plans",
+      "vendorExplicit": false,
+      "sourceSha256": "deaf176fa179827e80f2ea3101db3ea90fdf562ebef340eba761e4687940f5f5"
+    },
+    {
+      "name": "dispatching-parallel-agents",
+      "vendorExplicit": false,
+      "sourceSha256": "1968923066f3b707eb01d1992cdf4c42284c3855f70253b9cd5000ff45fca13c"
+    },
+    {
+      "name": "requesting-code-review",
+      "vendorExplicit": false,
+      "sourceSha256": "2180e14a448e9410bec88e6646a2d1f0ce7fdd58de27388c1e052e929679d2bc"
+    },
+    {
+      "name": "using-git-worktrees",
+      "vendorExplicit": false,
+      "sourceSha256": "8cfb86f121269e8f7f12361e6795c4f6738828340e28964c9229d365666c9edd"
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "vendorExplicit": false,
+      "sourceSha256": "8db5a922b242dd4e1bf824cb91c13b3e8d8e8a86d6ceaf7f0774eb9cce909d65"
+    },
+    {
+      "name": "subagent-driven-development",
+      "vendorExplicit": false,
+      "sourceSha256": "1baf70e307bde682c462513c86116333f1f066168c6710f45145bf5f0b00828d"
+    },
+    {
+      "name": "test-driven-development",
+      "vendorExplicit": false,
+      "sourceSha256": "64b03fce4aee5a97a93160cea8111f3ba13a17b7c001db4bd5836d67fd10705d"
+    },
+    {
+      "name": "teach",
+      "vendorExplicit": true,
+      "sourceSha256": "550482c2d674b085c9043b87bfdc14a8f2ec453c736119e7fcbb1e9332bffeba"
+    },
+    {
+      "name": "handoff",
+      "vendorExplicit": true,
+      "sourceSha256": "4cbb043950dad2ffd3662ff1a5a0b51ae676004b5cae10e3787e8ee7a4ee69d3"
+    },
+    {
+      "name": "wait-what",
+      "vendorExplicit": true,
+      "sourceSha256": "d961bb37defd975c539427edb8f450cdbccdcdd552e213c1ece46676a7970905"
+    },
+    {
+      "name": "writing-for-agents",
+      "vendorExplicit": false,
+      "sourceSha256": "551adca942227b44192edba88acd4e8db911f0121ce58ad16944ccf6a896a74a"
+    },
+    {
+      "name": "to-spec",
+      "vendorExplicit": true,
+      "sourceSha256": "43ad9cf318e5e7d3d1fa360253a37021796dc87a0c2e595ad262661a10f85088"
+    },
+    {
+      "name": "to-tickets",
+      "vendorExplicit": true,
+      "sourceSha256": "56ec23c5b2782785d4e65bff9e315b6d3aeb4ef977c174a219e99489fada1995"
+    },
+    {
+      "name": "setup-matt-pocock-skills",
+      "vendorExplicit": true,
+      "sourceSha256": "b01e05bfe8c323171275c6ceec78b12f1bd4c62dfd26c2cfe8be806d3883f1ed"
+    },
+    {
+      "name": "source-driven-development",
+      "vendorExplicit": false,
+      "sourceSha256": "df38a852658679a67c7a9e4840160570c95094a13a63307e834045ddbf8aa287"
+    },
+    {
+      "name": "constraint-driven-development",
+      "vendorExplicit": false,
+      "sourceSha256": "5a690018d415fa972d1ecc85aed943a4f86b0d3c2305eea84f286ff391422008"
+    },
+    {
+      "name": "doubt-driven-development",
+      "vendorExplicit": false,
+      "sourceSha256": "7a7d53d9d2b93ca7af8d882718753dc7887716f143e7937ecbc381f26416bda7"
+    },
+    {
+      "name": "deprecation-and-migration",
+      "vendorExplicit": false,
+      "sourceSha256": "1896d7db836fc067e2856739664db9ff5bb642526fdff2126d08ec0d588da4b7"
+    },
+    {
+      "name": "observability-and-instrumentation",
+      "vendorExplicit": false,
+      "sourceSha256": "e7fcb0820306d46268de9594d676ad98e35040858926c412b7000faa52a61f87"
+    },
+    {
+      "name": "shipping-and-launch",
+      "vendorExplicit": false,
+      "sourceSha256": "92fec446ec4e947a7b8aac88b851aa5743ff8cb39d5987fb53df08ba8a160d64"
+    },
+    {
+      "name": "documentation-and-adrs",
+      "vendorExplicit": false,
+      "sourceSha256": "6fccf3088d5042a3c889faa25113ffa47b9f7f999f4fc9e527d5e5226888442f"
+    },
+    {
+      "name": "i-have-adhd",
+      "vendorExplicit": true,
+      "sourceSha256": "88955c019bbb1419ff4b49dbb1f80a867467de6233d7865af2e06a7d7b76c7d3"
+    },
+    {
+      "name": "prompt-master",
+      "vendorExplicit": false,
+      "sourceSha256": "36e68cdcd62c38b2f99c2538c83fefb8c8837ea9b7eed75297fe76e45c452e75"
+    },
+    {
+      "name": "design-taste-frontend",
+      "vendorExplicit": false,
+      "sourceSha256": "0c7a5852a5217be79cab422c6d58329b776f0c25bd6da8a7a01707ce75be6206"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "vendorExplicit": false,
+      "sourceSha256": "ea087c341bfb5b23195c7302027268ede86da802554c18a5c4896a6017b439f9"
+    },
+    {
+      "name": "hallmark",
+      "vendorExplicit": false,
+      "sourceSha256": "25a1ff92d925b2389e8409f42fb8ad7e033fceca8b5d1f07ed4ca4c28da53dc3"
+    },
+    {
+      "name": "antislop",
+      "vendorExplicit": false,
+      "sourceSha256": "30bc532fb59d4c77a301dfdd5ab9f495f098f1085f31e09b3064078ba39a7b01"
+    },
+    {
+      "name": "antislop-copywriting",
+      "vendorExplicit": false,
+      "sourceSha256": "d708fc33608b4f1d41cc7bef8b5fb2aca3dc3fbc5ec1ee174b45cac23bb767cd"
+    },
+    {
+      "name": "antislop-code",
+      "vendorExplicit": false,
+      "sourceSha256": "004933009d352710dcbea7817101d5c188474a442e3ece26a6e0c18d3223898f"
+    },
+    {
+      "name": "frontend-design",
+      "vendorExplicit": false,
+      "sourceSha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3"
+    },
+    {
+      "name": "canvas-design",
+      "vendorExplicit": false,
+      "sourceSha256": "a1f288079624402f30682753c1d43920b6664785698d21d3e7aa197450a6448b"
+    },
+    {
+      "name": "theme-factory",
+      "vendorExplicit": false,
+      "sourceSha256": "c35893e221e28895c52143cc11bf30e41a44817796b39d4b15727dadc9796552"
+    },
+    {
+      "name": "choreograph",
+      "vendorExplicit": false,
+      "sourceSha256": "815c7d889230bafc72c03bb0769087aeede310130e8795c7949b3e3a1684e464"
+    },
+    {
+      "name": "remove-animations",
+      "vendorExplicit": false,
+      "sourceSha256": "dea95b7a7ef81cba312c7f70a3c5c67d7e06a287cb16b16d2f90f2b1fb0afff9"
+    },
+    {
+      "name": "gsap-scrolltrigger",
+      "vendorExplicit": false,
+      "sourceSha256": "9351b6666a4749c0740406ea363aaccb99a087ff45cc5e8b99a0f367facf3ef4"
+    },
+    {
+      "name": "gsap-plugins",
+      "vendorExplicit": false,
+      "sourceSha256": "5838b856c74c07fbc9fa99b6dfd1eee34ea554c3e530c30e0d58014b707d70a4"
+    },
+    {
+      "name": "gsap-performance",
+      "vendorExplicit": false,
+      "sourceSha256": "cb5408d6fba707aabcbfe3320317a14c1f8fca6070074e5261047930f50d441e"
+    },
+    {
+      "name": "gsap-frameworks",
+      "vendorExplicit": false,
+      "sourceSha256": "842d9d3659ec3ddc8abbdc524708f8facf81f468ac25d0577f48c759c4fa31e6"
+    },
+    {
+      "name": "gsap-utils",
+      "vendorExplicit": false,
+      "sourceSha256": "1927bcc4ea95b38203404ad5ea1d060b15c4a886c65ae53e885ff1793aabe0ba"
+    },
+    {
+      "name": "trl-training",
+      "vendorExplicit": false,
+      "sourceSha256": "42c855bdc6171390abc7413cdb19bd4fd8dddfb31094d519a874427de08ddc2a"
+    },
+    {
+      "name": "train-sentence-transformers",
+      "vendorExplicit": false,
+      "sourceSha256": "9bd098d81049fc245032ee4f97cf5d9de906d726731ace4a6df0bad6d9dcd182"
+    },
+    {
+      "name": "huggingface-community-evals",
+      "vendorExplicit": false,
+      "sourceSha256": "a97f1c703f55b72427453a76af858237e6392a447fcafa9eeb85f7ac67f0155d"
+    },
+    {
+      "name": "huggingface-local-models",
+      "vendorExplicit": false,
+      "sourceSha256": "814640db1d5f2f274aec09d66b3589ed5a0fdcfaf536afd508b1d757dcae1534"
+    },
+    {
+      "name": "huggingface-datasets",
+      "vendorExplicit": false,
+      "sourceSha256": "eeca50adf211ea64a288b852938f85a5183b045c720dc696b62db9aa2ea8deb2"
+    },
+    {
+      "name": "seo-schema",
+      "vendorExplicit": false,
+      "sourceSha256": "8137d12b4f5aad3f5df4c3e16507f8650cd1c0ff3fd998b6be67d513e61e3719"
+    },
+    {
+      "name": "seo-hreflang",
+      "vendorExplicit": false,
+      "sourceSha256": "e0c433db352567045f30de9761fbf4d45d029e666c8cdac5c3dc83716c966ce2"
+    },
+    {
+      "name": "understand-chat",
+      "vendorExplicit": false,
+      "sourceSha256": "9f741becf98dd2877aa877db2e71e088a14c8711e26ad7daa7b9eecd68ae9757"
+    },
+    {
+      "name": "understand-diff",
+      "vendorExplicit": false,
+      "sourceSha256": "b5a74e13bed6d861d49ca3754ac9b2c03951fc76e2457f49fd30228792095e1e"
+    },
+    {
+      "name": "understand-explain",
+      "vendorExplicit": false,
+      "sourceSha256": "f04c3ad5ca331ca8138239783a2f0522e6aa9e95a9f1f79ba82911cabc0d38a5"
+    },
+    {
+      "name": "understand-onboard",
+      "vendorExplicit": false,
+      "sourceSha256": "514ce2e43a775fbe5a4e3c2be5db504d70c049b017c73b60178229648eb4d463"
+    },
+    {
+      "name": "graphify",
+      "vendorExplicit": false,
+      "sourceSha256": "fd59b563fb59b90702c50862a3fdd6510b6566c7d54accc0f8d9b9480aa5a047"
+    },
+    {
+      "name": "last30days",
+      "vendorExplicit": false,
+      "sourceSha256": "812d2be80add87b953a2775d0b7581989528d78d7c5f52952af636176d791736"
+    },
+    {
+      "name": "agent-reach",
+      "vendorExplicit": false,
+      "sourceSha256": "a09da70af7de961b81d08ee74ceb112c5e71d9755f8b2c334c5c8cbf64f46298"
+    }
+  ]
+}

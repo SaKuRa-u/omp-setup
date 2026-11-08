@@ -1,32 +1,55 @@
 shellPath: C:\Program Files\Git\bin\bash.exe
 modelRoles:
   default: openai-codex/gpt-6.1-sol:medium
+  smol: openai-codex/gpt-6-luna:low
 symbolPreset: ascii
 composer:
   shape: claude
 theme:
   dark: titanium
   light: light
-setupVersion: 2
+setupVersion: 3
 dev:
   autoqaConsent: granted
 memory:
   backend: "off"
 tools:
   approvalMode: yolo
-  approval:
-    {}
+  approval: {}
 bash:
-  patterns:
-    []
+  patterns: []
 defaultThinkingLevel: auto
 skills:
   ignoredSkills:
-    - design-taste-frontend
+    - agents/design-taste-frontend
+    - claude/design-taste-frontend
     - redesign-existing-projects
     - agents/impeccable
     - claude/impeccable
+    - agents/terraform-policy
+    - claude/terraform-policy
+    - agents/mcp-builder
+    - claude/mcp-builder
   customDirectories:
     - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/sources/academic-research-skills-4c544901
+    - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7/skills
+    - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0/skills/productivity
+    - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0/skills/engineering
+    - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e/skills
+    - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6/skills
+    - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a/skills
+    - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/claude-seo-6be93f45064ffbadced572b5d5c95f55fd263af0/skills
+  manualSkills:
+    - setup-matt-pocock-skills
+    - i-have-adhd
+    - to-spec
+    - to-tickets
+    - handoff
+    - teach
+    - wait-what
 marketplace:
   autoUpdate: "off"
+codexResets:
+  autoRedeem: "no"
+update:
+  auto: true

@@ -1,0 +1,22 @@
+{
+  "status": "Verified synthetic local AST extraction and query",
+  "nodes": 5,
+  "edges": 7,
+  "expectedCrossModuleCall": {
+    "source": "orders_order_amount",
+    "target": "pricing_invoice_total",
+    "relation": "calls",
+    "context": "call",
+    "confidence": "EXTRACTED",
+    "source_file": "orders.py",
+    "source_location": "L5",
+    "weight": 1,
+    "_origin": "ast"
+  },
+  "codeOnly": true,
+  "backend": "none",
+  "credentialsInherited": false,
+  "warning": "main.py has no callable symbols; file/import relations retained",
+  "queryExit": 0,
+  "networkObserved": "Not instrumented; code-only/backend-none configuration, not OS sandbox proof"
+}

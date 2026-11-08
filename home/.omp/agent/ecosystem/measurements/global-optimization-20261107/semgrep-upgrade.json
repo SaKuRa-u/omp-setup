@@ -1,0 +1,243 @@
+{
+  "status": "prepared_installed_not_activated_parent_acceptance_required",
+  "candidate_root": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/semgrep/1.184.0",
+  "previous_runtime_root": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/semgrep/1.181.0",
+  "mcp_json_changed": false,
+  "shared_ledger_or_docs_changed": false,
+  "official_executable": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/semgrep/1.184.0/venv/Scripts/semgrep.exe",
+  "official_executable_sha256": "3bec7a8482336481ceb41164296d6b73c35131ecbaf23bdd440ec708173139ed",
+  "release": {
+    "version": "1.184.0",
+    "commit": "ac37d1f6e47b17648b8f854d6e2f2d72fade2567",
+    "metadata_url": "https://pypi.org/pypi/semgrep/1.184.0/json",
+    "wheel_sha256": "3c86b2961b4663d1338fb965de038c7869571661971b78e18e9346ab57e1e20a",
+    "license": "LGPL-2.1-or-later",
+    "source_matches": {
+      "commands/mcp.py": {
+        "url": "https://raw.githubusercontent.com/semgrep/semgrep/ac37d1f6e47b17648b8f854d6e2f2d72fade2567/cli/src/semgrep/commands/mcp.py",
+        "sha256": "d0c68d73aa3824cba3576fc4f3ae4b7e26350d3ab47b3b57e0e723404ee3f36b",
+        "matches_wheel": true
+      },
+      "mcp/server.py": {
+        "url": "https://raw.githubusercontent.com/semgrep/semgrep/ac37d1f6e47b17648b8f854d6e2f2d72fade2567/cli/src/semgrep/mcp/server.py",
+        "sha256": "667bccfc3ed35e35c0833b57fc5f27f1a97a924c81a3c6f69aab314c56df2229",
+        "matches_wheel": true
+      },
+      "mcp/utilities/utils.py": {
+        "url": "https://raw.githubusercontent.com/semgrep/semgrep/ac37d1f6e47b17648b8f854d6e2f2d72fade2567/cli/src/semgrep/mcp/utilities/utils.py",
+        "sha256": "c6545958f36c26b6473022b5f3a186947406c732f4b6161cf32fdefdab7c6a12",
+        "matches_wheel": true
+      },
+      "structured_logging.py": {
+        "url": "https://raw.githubusercontent.com/semgrep/semgrep/ac37d1f6e47b17648b8f854d6e2f2d72fade2567/cli/src/semgrep/structured_logging.py",
+        "sha256": "bd631ac1c3de132382172258923d3d48942f6e61a228f239348929047b2f882a",
+        "matches_wheel": true
+      },
+      "console_scripts/entrypoint.py": {
+        "url": "https://raw.githubusercontent.com/semgrep/semgrep/ac37d1f6e47b17648b8f854d6e2f2d72fade2567/cli/src/semgrep/console_scripts/entrypoint.py",
+        "sha256": "b782591d71acf3656f4738206761ad3c2858ca54468368a1b158c973cc2d0cc7",
+        "matches_wheel": true
+      }
+    }
+  },
+  "runtime": {
+    "python": "3.14.4 CPython Windows AMD64",
+    "base_interpreter": "C:/Users/Indrimeilla-PC/AppData/Local/Programs/Python/Python314/python.exe",
+    "pip": "26.0.1",
+    "node": "not required by official Python/OCaml Semgrep runtime; no Node invocation or upgrade",
+    "global_runtime_changes": false
+  },
+  "dependency_policy": {
+    "installed_wheel_count": 68,
+    "retained_dependency_pins": 65,
+    "changes": [
+      "semgrep 1.181.0 -> 1.184.0",
+      "certifi 2026.10.18 -> 2026.10.19 required by upstream CA trust fix",
+      "structlog 26.1.0 newly required; MIT OR Apache-2.0; no applicable transitive dependency on Python3.14"
+    ],
+    "mcp_pin": "1.29.0",
+    "warning": "Retain known dependency lifespan warning; do not suppress or claim repaired. Startup warning/compatibility must be observed by parent.",
+    "license_resolution": {
+      "peewee": "MIT from embedded LICENSE",
+      "glom": "BSD-3-Clause from embedded LICENSE despite UNKNOWN metadata",
+      "face": "BSD-3-Clause from embedded LICENSE"
+    },
+    "startup_surface": "Only dependency .pth is retained pywin32.pth: imports pywin32_bootstrap, which adds local bundled DLL directory. No pywin32 postinstall called.",
+    "new_dependency_source_review": "certifi contains bundled CA PEM and importlib.resources reader, no networking; structlog source has no subprocess/socket/requests/urllib.request calls. Semgrep optional JSON event logger is disabled unless SEMGREP_LOG_JSON_FILE is set."
+  },
+  "install": {
+    "result": "pip offline hash-required binary-only install exit0; 68 pinned wheels including Semgrep",
+    "flags": [
+      "--isolated",
+      "--disable-pip-version-check",
+      "--no-index",
+      "--only-binary=:all:",
+      "--require-hashes",
+      "--no-compile",
+      "--no-cache-dir"
+    ],
+    "source_build": false,
+    "remote_installer_or_lifecycle_scripts": false,
+    "scanner_or_mcp_executed": false,
+    "credentials_or_private_sessions_accessed": false,
+    "custom_launcher_created": false
+  },
+  "provenance_files": {
+    "requirements.lock": {
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\runtime\\semgrep\\1.184.0\\requirements.lock",
+      "sha256": "95953a5b10a3715cea3e8b659b7e72d0788c5dc3ca7ddbbce4d7acb82b345336"
+    },
+    "artifact-manifest.json": {
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\runtime\\semgrep\\1.184.0\\artifact-manifest.json",
+      "sha256": "173f34ae8e6a583cdd9f42746644b7881a979ecdb449bc25ede994e447b1bfa2"
+    },
+    "dependency-review.json": {
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\runtime\\semgrep\\1.184.0\\dependency-review.json",
+      "sha256": "0184d070fcc001936f6fbb469cf53ac253604ea702b5c643ae8b8422329ddb76"
+    },
+    "install-report.json": {
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\runtime\\semgrep\\1.184.0\\install-report.json",
+      "sha256": "3c546020fb10e7d510ba0fe917a6f72ba6c5da2e85bc295776dca41460b84596"
+    },
+    "installed-files.json": {
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\runtime\\semgrep\\1.184.0\\installed-files.json",
+      "sha256": "14816342f7daac43bfecd90c8d8085b65d483bec20cebbb35e4f6ecbb5c50182"
+    },
+    "pypi-release.json": {
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\runtime\\semgrep\\1.184.0\\pypi-release.json",
+      "sha256": "341e4b6688859a26bb8eb030ca459a54bdc565782f73dadfeee3882af62bdcdf"
+    }
+  },
+  "backup": [
+    {
+      "original": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\runtime\\semgrep\\1.181.0\\requirements.lock",
+      "backup": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\backups\\global-optimization-20261107\\semgrep-baseline\\requirements.lock",
+      "original_sha256": "3d56a1d3cad60e9a64661abc91ad72db01753695efd46942afa5e55d656de1ea",
+      "backup_sha256": "3d56a1d3cad60e9a64661abc91ad72db01753695efd46942afa5e55d656de1ea",
+      "sensitive_state_copied": false
+    },
+    {
+      "original": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\runtime\\semgrep\\1.181.0\\venv\\pyvenv.cfg",
+      "backup": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\backups\\global-optimization-20261107\\semgrep-baseline\\pyvenv.cfg",
+      "original_sha256": "a91e2df872a9daf3fc60721d88ec596855793e4263fa8b041475489693984469",
+      "backup_sha256": "a91e2df872a9daf3fc60721d88ec596855793e4263fa8b041475489693984469",
+      "sensitive_state_copied": false
+    }
+  ],
+  "parent_cutover": {
+    "required_path_replacements": {
+      "command": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/semgrep/1.184.0/venv/Scripts/semgrep.exe",
+      "cwd": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/semgrep/1.184.0/state",
+      "env.PATH": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/semgrep/1.184.0/venv/Scripts;${PATH}",
+      "env.SEMGREP_SETTINGS_FILE": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/semgrep/1.184.0/state/settings.yml",
+      "env.SEMGREP_LOG_FILE": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/semgrep/1.184.0/state/semgrep.log",
+      "env.SEMGREP_VERSION_CACHE_PATH": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/semgrep/1.184.0/state/version-cache",
+      "env.TEMP": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/semgrep/1.184.0/state/tmp",
+      "env.TMP": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/semgrep/1.184.0/state/tmp"
+    },
+    "retain_args": [
+      "mcp",
+      "--transport",
+      "stdio"
+    ],
+    "retain_type": "stdio",
+    "retain_instructions": false,
+    "retain_env": {
+      "SEMGREP_MCP_DISABLE_TRACING": "true",
+      "SEMGREP_SEND_METRICS": "off",
+      "SEMGREP_ENABLE_VERSION_CHECK": "false",
+      "SEMGREP_APP_TOKEN": "",
+      "SEMGREP_IS_HOSTED": "false",
+      "USE_SEMGREP_RPC": "false",
+      "SEMGREP_FINDINGS_ELICITATION_ENABLED": "false",
+      "SEMGREP_SCAN_DISABLED": "true",
+      "SEMGREP_SCAN_REMOTE_DISABLED": "true",
+      "SEMGREP_FINDINGS_DISABLED": "true",
+      "SEMGREP_SCAN_SUPPLY_CHAIN_DISABLED": "true",
+      "SEMGREP_RULE_SCHEMA_DISABLED": "true"
+    },
+    "new_inherited_logging_override": {
+      "SEMGREP_LOG_JSON_FILE": ""
+    },
+    "rationale_for_logging_override": "1.184 adds optional structured events potentially including finding previews. Empty override disables inherited JSON-log destination and keeps isolated-state policy.",
+    "tool_allowlist": [
+      "get_abstract_syntax_tree",
+      "get_supported_languages",
+      "semgrep_scan_with_custom_rule"
+    ],
+    "state": "Fresh empty state/tmp created. No old settings, credentials, logs, caches, temp or private files copied. Semgrep will create its own new state at parent startup."
+  },
+  "parent_acceptance_steps": [
+    "Before final activation, launch official candidate executable with required_paths/retain_env, SEMGREP_LOG_JSON_FILE empty and mcp --transport stdio; use JSON-RPC stdio initialize protocolVersion 2024-11-05 then notifications/initialized.",
+    "Send tools/list and assert exact 3-tool allowlist; no whoami/default/remote/cloud/supply-chain/schema tools.",
+    {
+      "request": {
+        "method": "tools/call",
+        "params": {
+          "name": "get_supported_languages",
+          "arguments": {}
+        }
+      },
+      "expected": "Successful response includes python; no parser exception."
+    },
+    {
+      "request": {
+        "method": "tools/call",
+        "params": {
+          "name": "get_abstract_syntax_tree",
+          "arguments": {
+            "code": "print(1)\n",
+            "language": "python"
+          }
+        }
+      },
+      "expected": "Successful AST response; synthetic content only."
+    },
+    {
+      "request": {
+        "method": "tools/call",
+        "params": {
+          "name": "semgrep_scan_with_custom_rule",
+          "arguments": {
+            "code_files": [
+              {
+                "path": "positive.py",
+                "content": "print(1)\n"
+              },
+              {
+                "path": "negative.py",
+                "content": "value = 1\n"
+              }
+            ],
+            "rule": "rules:\n  - id: isolated-upgrade-smoke\n    languages: [python]\n    message: synthetic smoke marker\n    severity: WARNING\n    pattern: print(...)\n"
+          }
+        }
+      },
+      "expected": "Exactly one isolated-upgrade-smoke finding in positive.py, none in negative.py; no registry config."
+    },
+    "Record startup stderr, known mcp lifespan warning and process shutdown; assert logs/settings/temp paths remain candidate-local. Never invoke setup prompts/resources/login/pro/cloud/remote scans.",
+    "After passing isolated acceptance, parent updates only the specified semgrep fields (plus logging override) in backed-up mcp.json, restarts OMP, and confirms fresh mounted tools. Keep old working runtime untouched."
+  ],
+  "known_limits": [
+    "Official setup_mcp_server performs public OAuth metadata discovery even for stdio. Not offline/zero-egress; existing behavior retained, no account login or cloud scan enabled.",
+    "mcp==1.29.0 lifespan warning remains pinned upstream.",
+    "New workspace-boundary restriction affects disabled semgrep_scan, not enabled custom-content scanning.",
+    "Grammar/AST outputs change with scanner version; synthetic parent acceptance required.",
+    "All wheel SHA256 values checked before installation; no comprehensive vulnerability scan or binary reverse engineering performed.",
+    "Full-venv recursive hash capture exceeded Eval deadline and was abandoned without output; installed-files.json intentionally covers selected launchers/core/metadata/provenance, artifact-manifest.json covers all 68 complete wheels."
+  ],
+  "rollback": "Before cutover: leave current 1.181.0 MCP entry untouched; staged candidate is inert. After cutover: restore only parent-backed-up semgrep mcp.json entry/path references to 1.181.0 and restart/disconnect. Preserve both runtime trees and their independent states; no recursive copying/deletion required.",
+  "blockers": [],
+  "verification_not_run": [
+    "scanner execution",
+    "MCP initialization",
+    "supported languages call",
+    "AST call",
+    "positive/negative synthetic scan",
+    "build",
+    "lint",
+    "tests",
+    "formatter",
+    "pip check"
+  ]
+}

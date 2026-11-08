@@ -1,0 +1,47 @@
+{
+  "scope": "Six before-change files copied into fresh audit-only fixture and byte-compared; no live rollback or deletion",
+  "files": [
+    {
+      "original": "C:/Users/Indrimeilla-PC/.omp/agent/config.yml",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/automatic-routing-20261107/config.yml",
+      "fixture": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/measurements/automatic-routing-20261107/rollback-byte-fixture/0-config.yml",
+      "sha256": "62fbe49b594b426ef7e99241815f39ad06d502bd3abc7e0009c9e3a5966e8765",
+      "restoredBytesMatch": true
+    },
+    {
+      "original": "C:/Users/Indrimeilla-PC/.omp/agent/AGENTS.md",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/automatic-routing-20261107/AGENTS.md",
+      "fixture": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/measurements/automatic-routing-20261107/rollback-byte-fixture/1-AGENTS.md",
+      "sha256": "3085b0345d68f0c5e40a78941348efb11e55aa50385f8290073fd5aa410ec56a",
+      "restoredBytesMatch": true
+    },
+    {
+      "original": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/IMPECCABLE-OMP.md",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/automatic-routing-20261107/IMPECCABLE-OMP.md",
+      "fixture": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/measurements/automatic-routing-20261107/rollback-byte-fixture/2-IMPECCABLE-OMP.md",
+      "sha256": "29b3ff780883db41569eef50e6cdd1ce843b8395720271e18379b3b3fb0addb8",
+      "restoredBytesMatch": true
+    },
+    {
+      "original": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/ledger.json",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/automatic-routing-20261107/ledger.json",
+      "fixture": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/measurements/automatic-routing-20261107/rollback-byte-fixture/3-ledger.json",
+      "sha256": "1fa39db99e160676818479b0f007feb3257c3cfd5c96452b9af1f45d944e220c",
+      "restoredBytesMatch": true
+    },
+    {
+      "original": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/SKILL-ROUTING.md",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/automatic-routing-20261107/SKILL-ROUTING.md",
+      "fixture": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/measurements/automatic-routing-20261107/rollback-byte-fixture/4-SKILL-ROUTING.md",
+      "sha256": "482dbbe34124756fa19e00c27f3abb82483d0755ba086fb22a42561dacdd6817",
+      "restoredBytesMatch": true
+    },
+    {
+      "original": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/measurements/candidate-adoption-20261107/REPORT.md",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/automatic-routing-20261107/candidate-adoption-REPORT.md",
+      "fixture": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/measurements/automatic-routing-20261107/rollback-byte-fixture/5-REPORT.md",
+      "sha256": "141eddfc6264bb392c5a53b9906cc74a61c295fc7278d677f8ead5c7d7dec56e",
+      "restoredBytesMatch": true
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "component": "context7-mcp",
+  "date": "2026-11-07",
+  "status": "installed-and-launcher-pinned-awaiting-parent-fresh-process-acceptance",
+  "previousVersion": "4.4.4",
+  "version": "4.5.1",
+  "source": {
+    "package": "@upstash/context7-mcp",
+    "registryMetadata": "https://registry.npmjs.org/@upstash/context7-mcp/4.5.1",
+    "tarballUrl": "https://registry.npmjs.org/@upstash/context7-mcp/-/context7-mcp-4.5.1.tgz",
+    "tarballPath": "sources/context7-mcp-4.5.1.tgz",
+    "tarballSha256": "aa99756db9b4e8205920e5f52715618318edadf397cf658b05793b0acee76bf1",
+    "integrityExpectedAndObserved": "sha512-rUD1IdPVihgV8iifD7EvmtdH5X53zwvAUJ1a/ltaIla80m7Nga+lgx5Mk2ckLMF7r5WjDkFfd7qEQ54xbvEwiA==",
+    "release": "https://github.com/upstash/context7/releases/tag/%40upstash%2Fcontext7-mcp%404.5.1",
+    "commit": "5e4df8d22231d5ccd5f3e24a7c08ca7643f9fffb",
+    "previousCommit": "c7f80ce5af1ff1403d167579b76784482cf7f3e2",
+    "sourceArchive": "sources/context7-5e4df8d22231d5ccd5f3e24a7c08ca7643f9fffb.zip",
+    "sourceArchiveSha256": "0b6ab8489e0dfee57d05a458ef4a5566a5673c811e4b7729da15096c264e23b9",
+    "previousSourceArchive": "sources/context7-c7f80ce5af1ff1403d167579b76784482cf7f3e2.zip",
+    "previousSourceArchiveSha256": "1f1bf474d6a21bbc5c927ec9d4f60e85a79f79f78e5b3566e9f19beddf6eb9e2",
+    "license": "MIT; published LICENSE inspected"
+  },
+  "review": {
+    "method": "Compared exact official release source packages/mcp/src and package.json; inspected published tarball metadata, LICENSE and executable file inventory, network and telemetry paths, installed lifecycle-hook declarations, lock dependency metadata.",
+    "sourceDelta": [
+      "Research-preview feedback tool and POST /api/v2/feedback added, gated behind --research-preview or CONTEXT7_RESEARCH_PREVIEW; neither is forwarded by this launcher.",
+      "OAuth-client registration telemetry classification added; existing OTEL_SDK_DISABLED=true short-circuits telemetry implementation loading.",
+      "API keys are trimmed and unresolved environment placeholders are rejected; normal DPAPI API key input remains compatible.",
+      "Empty resolve results preserve teamspace library-filter notice.",
+      "Existing resolve-library-id and query-docs input schemas and MCP SDK direct dependency versions unchanged."
+    ],
+    "network": {
+      "activeDocumentationBase": "https://context7.com/api",
+      "activeOperations": ["GET /v2/libs/search", "GET /v2/context"],
+      "newFeedbackOperationDisabled": "POST /v2/feedback; preview registration false because clean child environment excludes CONTEXT7_RESEARCH_PREVIEW and launcher takes no arguments",
+      "oauth": "No setup/OAuth invoked. Stdio API-key path used; HTTP-only OAuth metadata routes not started; initialize capabilities remain empty so auth elicitation is unavailable.",
+      "telemetry": "Inherited childEnvironment keeps OTEL_SDK_DISABLED=true, OTEL_METRICS_EXPORTER=none and CTX7_TELEMETRY_DISABLED=1; telemetryIsDisabled checks OTEL_SDK_DISABLED. No HTTP transport or metrics listener requested.",
+      "requestMetadata": "Existing vendor behavior sends SDK/client/transport/session metadata with authorized public documentation requests. Research-preview header remains absent."
+    },
+    "preserved": ["DPAPI intake through readSecret('context7')", "child environment allowlist", "resolve-library-id/query-docs-only tools/call gate", "public request validation", "credential redaction", "discarded vendor stderr", "existing mcp configuration and tool allowlist", "legacy runtime/context7.ts and runtime/context7/4.4.4"],
+    "launcherChangeReason": "Legacy context7.ts owns a hardcoded MCP 4.4.4 pin and is explicitly out of scope. Launcher now validates the same package name/version/bin contract locally against isolated 4.5.1; shared DPAPI, environment, validation and sanitization helpers remain unchanged.",
+    "existingAcceptance": "runtime/context7-acceptance.ts launches context7-mcp.ts fresh and asserts exactly the two existing tool names before resolve/query; no hardcoded MCP version assumption required modification."
+  },
+  "installation": {
+    "runtime": "runtime/context7/4.5.1",
+    "manifestPin": "4.5.1",
+    "nodeObserved": "v24.19.0",
+    "requiredNode": ">=20.18.1",
+    "lockCommand": "npm.cmd install --package-lock-only --ignore-scripts --no-audit --no-fund --registry=https://registry.npmjs.org/ --userconfig=NUL --globalconfig=C:/Windows/Temp/context7-no-global-npmrc",
+    "installCommand": "npm.cmd ci --ignore-scripts --no-audit --no-fund --registry=https://registry.npmjs.org/ --userconfig=NUL --globalconfig=C:/Windows/Temp/context7-no-global-npmrc",
+    "installOutput": "added 104 packages in 32s",
+    "lifecycleScriptsExecuted": false,
+    "dependencyCount": 104,
+    "directDependencyRequirementsChanged": false,
+    "lockHasInstallScriptEntries": [],
+    "declaredPrepareScriptsNotRun": {
+      "content-disposition": "ts-scripts install && npm run build",
+      "content-type": "ts-scripts install && npm run build",
+      "path-to-regexp": "ts-scripts install && npm run build",
+      "undici": "husky && node ./scripts/platform-shell.js"
+    },
+    "resolvedLicenses": ["MIT", "Apache-2.0", "ISC", "BSD-3-Clause"],
+    "dependencyDelta": [
+      {"package": "@hono/node-server", "from": "1.19.17", "to": "1.19.18"},
+      {"package": "@opentelemetry/semantic-conventions", "from": "1.43.0", "to": "1.45.0"},
+      {"package": "@types/node", "from": "26.6.5", "to": "26.6.6"},
+      {"package": "@upstash/context7-mcp", "from": "4.4.4", "to": "4.5.1"},
+      {"package": "body-parser", "from": "2.3.0", "to": "2.4.0"},
+      {"package": "encodeurl", "from": "2.0.0", "to": "2.0.1"},
+      {"package": "hono", "from": "4.13.13", "to": "4.13.17"},
+      {"package": "import-in-the-middle", "from": "3.5.2", "to": "3.6.0"},
+      {"package": "jose", "from": "6.2.12", "to": "6.2.15"},
+      {"package": "on-finished", "from": "2.4.1", "to": "2.4.2"},
+      {"package": "qs", "from": "6.16.1", "to": "6.17.1"},
+      {"package": "undici", "from": "7.30.1", "to": "7.30.2"}
+    ]
+  },
+  "hashesSha256": {
+    "runtime/context7-mcp.ts": "f0eec34517e2c07c842e1c07f5cc6ae3cb386de9653ea92957d8155529417d0d",
+    "backups/global-optimization-20261107/context7/context7-mcp.ts": "47c2a24680a220a6ba27342febc4a5d31b466683a0c02b7eb1ab25f54fc3f3d0",
+    "runtime/context7.ts": "6c06c5565ef3038b65e84ecab25e40868ea0ea9b1311e505575cd8a29b7eee8b",
+    "runtime/context7/4.4.4/package-lock.json": "325abc9e01ad8f7d93a032b2bbeddf5a60af3fe32d687bed0d488d346af9faf3",
+    "runtime/context7/4.5.1/package.json": "50d00e3c1c6be9482bd4f22e6f5fced54fa82d807eb0bb01f24ec3050a64fe1c",
+    "runtime/context7/4.5.1/package-lock.json": "8e2db6115793d8ae7fa2e21ab487ebdbbe8656a22eecd437f54fe1c09e5915a0",
+    "runtime/context7/4.5.1/node_modules/@upstash/context7-mcp/dist/index.js": "b10b4e54579e4045972b1a119965b3683944e5a58291de71a2b43b4f6ba4ae3d"
+  },
+  "rollback": {
+    "commandFromEcosystem": "powershell.exe -NoLogo -NoProfile -NonInteractive -Command \"Copy-Item -LiteralPath 'backups/global-optimization-20261107/context7/context7-mcp.ts' -Destination 'runtime/context7-mcp.ts' -Force -ErrorAction Stop\"",
+    "oldRuntimePreserved": "runtime/context7/4.4.4",
+    "newRuntimeRemovalNotRequired": true,
+    "activation": "Restart MCP through parent after acceptance; existing running process was not terminated."
+  },
+  "acceptanceForParent": {
+    "command": "node C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/context7-acceptance.ts --live --route mcp --timeout-ms 70000",
+    "credentialSafety": "Existing acceptance invokes launcher with DPAPI intake and sanitized output; no credential CLI argument or echo. Uses real vendor documentation calls only when parent runs it.",
+    "workerTestsOrSmokeRun": false,
+    "parentMustConfirm": ["Fresh startup initializes successfully", "tools/list contains only resolve-library-id and query-docs", "actual resolve and query succeed", "no credential appears in output"]
+  },
+  "nonblockingAttempts": [
+    "GitHub API source compare returned HTTP 403; resolved with exact commit archives and local no-index diff.",
+    "First npm lock attempt used NUL for both user/global config and was rejected before config resolution; distinct nonexistent global config path succeeded."
+  ],
+  "blockers": [],
+  "notPerformed": ["No vendor API requests or runtime smoke", "No OAuth/setup/research-preview", "No npm lifecycle scripts", "No credential values read", "No paid/provider/config changes", "No build/lint/test/formatter", "No vulnerability advisory scan; static dependency/license/script review only"]
+}

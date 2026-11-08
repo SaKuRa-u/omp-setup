@@ -1,0 +1,15 @@
+{
+  "files": [
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/SKILL-ROUTING.md",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/automatic-routing-20261107/SKILL-ROUTING.md",
+      "sha256": "482dbbe34124756fa19e00c27f3abb82483d0755ba086fb22a42561dacdd6817"
+    },
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/measurements/candidate-adoption-20261107/REPORT.md",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/automatic-routing-20261107/candidate-adoption-REPORT.md",
+      "sha256": "141eddfc6264bb392c5a53b9906cc74a61c295fc7278d677f8ead5c7d7dec56e"
+    }
+  ],
+  "integrity": "SHA of before-change snapshots retained; neither snapshot contains credentials/session text"
+}

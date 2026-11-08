@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-07",
+  "skill": "mcp-builder",
+  "status": "applied-omp-native-parent-ignore-migration-and-smoke-pending",
+  "activeApplied": true,
+  "sourceRepository": "https://github.com/anthropics/skills",
+  "previousPin": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+  "candidatePin": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+  "archives": {
+    "dbd4588f9e1033efb41dad4bef2f7947c8993d44": {
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\anthropic-mcp-builder-dbd4588f9e1033efb41dad4bef2f7947c8993d44.zip",
+      "url": "https://codeload.github.com/anthropics/skills/zip/dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "sha256": "2f81fe0297244f9e4fa7673f17a0196009657a08bd1094e9e673c70163ce7d6e",
+      "bytes": 4343662
+    },
+    "2c5958ecac7cee2b583967a2c4981d0f4a75c579": {
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\anthropic-mcp-builder-2c5958ecac7cee2b583967a2c4981d0f4a75c579.zip",
+      "url": "https://codeload.github.com/anthropics/skills/zip/2c5958ecac7cee2b583967a2c4981d0f4a75c579",
+      "sha256": "e5b0c67dbfae471c013d0e03abe66db20ca70cc0c79ab6154a386c8b026e5195",
+      "bytes": 4369353
+    }
+  },
+  "activePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\mcp-builder",
+  "sharedOriginalPath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\mcp-builder",
+  "nativeDestinationPreviouslyPresent": false,
+  "appliedFileHashes": "Every newSha256 in files is the original upstream payload copied to the native destination; installedSha256 describes the pre-upgrade shared original.",
+  "backupPath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\backups\\global-optimization-20261107\\mcp-builder-shared-original",
+  "candidatePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\global-optimization-20261107\\mcp-builder-2c5958ecac7cee2b583967a2c4981d0f4a75c579\\mcp-builder",
+  "candidateFileCount": 11,
+  "backupFileCount": 10,
+  "candidateManifestSha256": "86d17929a5647d9ee3cf2b5ba7973f057453a9b27df9fc6275ba70230e8543d8",
+  "sharedOriginalAndBackupManifestSha256": "0aab3d4c654baa78af2a314f694383f64abc670b0ab00d84376ab8f746712a2f",
+  "manifestHashFormat": "UTF-8 sorted path + TAB + file SHA-256 + LF; candidate/native payload includes all 11 files; shared-original/backup excludes candidate-only v2 guide",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "oldSha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "newSha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "installedSha256": "52b223c318576d65c32f70cb745f31352730e9f4c2c2c2570a66ce700f4f5a64",
+      "changedUpstream": false,
+      "localAdjustment": true,
+      "localAdjustmentKind": "CRLF-only"
+    },
+    {
+      "path": "SKILL.md",
+      "oldSha256": "0f4592dcb53cf2b5d6b7febee6b4152018b565551a1c29e3c612f57b218ab295",
+      "newSha256": "b483b56d6673134497e45489c317f26ae0f1429c194db0297e43073e17e6748c",
+      "installedSha256": "57231330040e18e033dad8b2fdc0340a6185034c32b42b7d3448f444a6af6cf2",
+      "changedUpstream": true,
+      "localAdjustment": true,
+      "localAdjustmentKind": "CRLF-only"
+    },
+    {
+      "path": "reference/evaluation.md",
+      "oldSha256": "8c99479f8a2d22a636c38e274537aac3610879e26f34e0709825077c4576f427",
+      "newSha256": "8c99479f8a2d22a636c38e274537aac3610879e26f34e0709825077c4576f427",
+      "installedSha256": "830d9a3a69c9d6d01b638ce3497e0a7680b1d422d318929181a101f7d3816983",
+      "changedUpstream": false,
+      "localAdjustment": true,
+      "localAdjustmentKind": "CRLF-only"
+    },
+    {
+      "path": "reference/mcp_best_practices.md",
+      "oldSha256": "80fb4369a349447cf18ecdd7494fe7938b6065377e9f08c077cec411093a3007",
+      "newSha256": "80fb4369a349447cf18ecdd7494fe7938b6065377e9f08c077cec411093a3007",
+      "installedSha256": "900b5c9ec725b594ea04270d27c33cc51a0c8e866f5cb7ad4f57fb48d3838380",
+      "changedUpstream": false,
+      "localAdjustment": true,
+      "localAdjustmentKind": "CRLF-only"
+    },
+    {
+      "path": "reference/node_mcp_server.md",
+      "oldSha256": "c3ba35a4f599dd53be9c6555ae72c19a7bf412cd5426576c2c08d42755482c66",
+      "newSha256": "ee3c95d812e450f6168b734390d0c9ef6f8ebeef041d73a122c972dfbd4d476a",
+      "installedSha256": "2157ec5b77d6a7f2f84884d81acd060126f969e01a8a780470c1d927c2dabd37",
+      "changedUpstream": true,
+      "localAdjustment": true,
+      "localAdjustmentKind": "CRLF-only"
+    },
+    {
+      "path": "reference/node_mcp_server_v2.md",
+      "oldSha256": null,
+      "newSha256": "49b2fe48f33910b743ae3a56353fffa5d5f252f531053f24f2da4e5914c0d3aa",
+      "installedSha256": null,
+      "changedUpstream": true,
+      "localAdjustment": false,
+      "localAdjustmentKind": null
+    },
+    {
+      "path": "reference/python_mcp_server.md",
+      "oldSha256": "2da52f77e675191014ca2e146a4b95aa04d0ca7dd7e2b100322df15ade685e80",
+      "newSha256": "2da52f77e675191014ca2e146a4b95aa04d0ca7dd7e2b100322df15ade685e80",
+      "installedSha256": "890a64d0949e5b40c639682cda46661311ab818fc03976884ce46f00e2eff462",
+      "changedUpstream": false,
+      "localAdjustment": true,
+      "localAdjustmentKind": "CRLF-only"
+    },
+    {
+      "path": "scripts/connections.py",
+      "oldSha256": "9403668a2041568772082a8b334122c1f88daf0541fb393af4522d0094a47a6e",
+      "newSha256": "9403668a2041568772082a8b334122c1f88daf0541fb393af4522d0094a47a6e",
+      "installedSha256": "9db2f1ff6442010b131817c1ec127dcf29949c787e7d7948049145c0a39627a9",
+      "changedUpstream": false,
+      "localAdjustment": true,
+      "localAdjustmentKind": "CRLF-only"
+    },
+    {
+      "path": "scripts/evaluation.py",
+      "oldSha256": "49ed1d17cdce5da101b210197740713f49b935c29d4f339542a14b132658e6f7",
+      "newSha256": "49ed1d17cdce5da101b210197740713f49b935c29d4f339542a14b132658e6f7",
+      "installedSha256": "0797ae0f3c50bfa5d7281ebc8bc936ac89f33450aca6a36b95c4862ca8c21482",
+      "changedUpstream": false,
+      "localAdjustment": true,
+      "localAdjustmentKind": "CRLF-only"
+    },
+    {
+      "path": "scripts/example_evaluation.xml",
+      "oldSha256": "9272b348ddcc4b06ba562367ccd0770e018158c0068ac5116d5e34aaeff8777a",
+      "newSha256": "9272b348ddcc4b06ba562367ccd0770e018158c0068ac5116d5e34aaeff8777a",
+      "installedSha256": "4df64ca67ca193021364d4d148997b8821f392353dab73c852fa41cfaa822048",
+      "changedUpstream": false,
+      "localAdjustment": true,
+      "localAdjustmentKind": "CRLF-only"
+    },
+    {
+      "path": "scripts/requirements.txt",
+      "oldSha256": "d5d7558b2368ecea9dfeed7d1fbc71ee9e0750bebd1282faa527d528a344c3c7",
+      "newSha256": "d5d7558b2368ecea9dfeed7d1fbc71ee9e0750bebd1282faa527d528a344c3c7",
+      "installedSha256": "f53f4d884919bbc75bc971f62d196c6f0a443eccf2539f534fd2b66e0618c49d",
+      "changedUpstream": false,
+      "localAdjustment": true,
+      "localAdjustmentKind": "CRLF-only"
+    }
+  ],
+  "lineEndingAnalysis": [
+    {
+      "path": "LICENSE.txt",
+      "matchesPinnedBytes": false,
+      "matchesAfterCRLFNormalization": true,
+      "localCRLFCount": 201,
+      "oldLFCount": 201
+    },
+    {
+      "path": "SKILL.md",
+      "matchesPinnedBytes": false,
+      "matchesAfterCRLFNormalization": true,
+      "localCRLFCount": 236,
+      "oldLFCount": 236
+    },
+    {
+      "path": "reference/evaluation.md",
+      "matchesPinnedBytes": false,
+      "matchesAfterCRLFNormalization": true,
+      "localCRLFCount": 601,
+      "oldLFCount": 601
+    },
+    {
+      "path": "reference/mcp_best_practices.md",
+      "matchesPinnedBytes": false,
+      "matchesAfterCRLFNormalization": true,
+      "localCRLFCount": 249,
+      "oldLFCount": 249
+    },
+    {
+      "path": "reference/node_mcp_server.md",
+      "matchesPinnedBytes": false,
+      "matchesAfterCRLFNormalization": true,
+      "localCRLFCount": 969,
+      "oldLFCount": 969
+    },
+    {
+      "path": "reference/python_mcp_server.md",
+      "matchesPinnedBytes": false,
+      "matchesAfterCRLFNormalization": true,
+      "localCRLFCount": 718,
+      "oldLFCount": 718
+    },
+    {
+      "path": "scripts/connections.py",
+      "matchesPinnedBytes": false,
+      "matchesAfterCRLFNormalization": true,
+      "localCRLFCount": 151,
+      "oldLFCount": 151
+    },
+    {
+      "path": "scripts/evaluation.py",
+      "matchesPinnedBytes": false,
+      "matchesAfterCRLFNormalization": true,
+      "localCRLFCount": 373,
+      "oldLFCount": 373
+    },
+    {
+      "path": "scripts/example_evaluation.xml",
+      "matchesPinnedBytes": false,
+      "matchesAfterCRLFNormalization": true,
+      "localCRLFCount": 22,
+      "oldLFCount": 22
+    },
+    {
+      "path": "scripts/requirements.txt",
+      "matchesPinnedBytes": false,
+      "matchesAfterCRLFNormalization": true,
+      "localCRLFCount": 2,
+      "oldLFCount": 2
+    }
+  ],
+  "review": {
+    "changed": [
+      "SKILL.md adds separate v1/v2 routing, v2-default guidance and explicit opt-in migration; reference/node_mcp_server.md adds v1-only header; new reference/node_mcp_server_v2.md (747 lines) supplies v2 factory, cancellation, validation, transports, auth and smoke examples"
+    ],
+    "unchanged": [
+      "LICENSE.txt",
+      "reference/evaluation.md",
+      "reference/mcp_best_practices.md",
+      "reference/python_mcp_server.md",
+      "scripts/connections.py",
+      "scripts/evaluation.py",
+      "scripts/example_evaluation.xml",
+      "scripts/requirements.txt"
+    ],
+    "license": "Apache-2.0, Copyright 2026 Anthropic PBC; upstream LICENSE.txt byte-identical between pins; complete original retained in candidate and backup",
+    "localAdjustments": "All ten shared-original files equal old pinned source after CRLF-to-LF normalization. No substantive local changes. Shared original CRLF bytes preserved untouched in shared tree and backup; candidate and new OMP-native payload are exact upstream LF.",
+    "scripts": "Both Python scripts reviewed statically; no added/removed/changed executable code. evaluation.py instantiates paid Anthropic client, sends prompts and tool results to it, calls arbitrary advertised MCP tools, can launch supplied stdio command or connect SSE/HTTP endpoints, and can write selected output. No read-only enforcement or tool-budget bound in runner; remains gated.",
+    "newGuideCommands": "Guide contains npm SDK/adapter installation, npx Inspector, v1-to-v2 codemod@latest and a generated smoke example. These are instructions only; none executed. Existing v1 projects stay v1 unless migration requested.",
+    "newGuideCaveats": [
+      "SDK v2 stable status is upstream guidance, not independently certified by running an SDK build.",
+      "Character-limit sample reduces multi-item pages but can still exceed the limit for one oversized item.",
+      "Bearer verifier is intentionally service-specific example code, not a configured local authentication service."
+    ],
+    "relativeReferences": [
+      {
+        "from": "SKILL.md",
+        "target": "./reference/evaluation.md",
+        "payloadPath": "reference/evaluation.md",
+        "includedInPayload": true
+      },
+      {
+        "from": "SKILL.md",
+        "target": "./reference/mcp_best_practices.md",
+        "payloadPath": "reference/mcp_best_practices.md",
+        "includedInPayload": true
+      },
+      {
+        "from": "SKILL.md",
+        "target": "./reference/node_mcp_server.md",
+        "payloadPath": "reference/node_mcp_server.md",
+        "includedInPayload": true
+      },
+      {
+        "from": "SKILL.md",
+        "target": "./reference/node_mcp_server_v2.md",
+        "payloadPath": "reference/node_mcp_server_v2.md",
+        "includedInPayload": true
+      },
+      {
+        "from": "SKILL.md",
+        "target": "./reference/node_mcp_server_v2.md#verify-your-server",
+        "payloadPath": "reference/node_mcp_server_v2.md",
+        "includedInPayload": true
+      },
+      {
+        "from": "SKILL.md",
+        "target": "./reference/python_mcp_server.md",
+        "payloadPath": "reference/python_mcp_server.md",
+        "includedInPayload": true
+      },
+      {
+        "from": "reference/node_mcp_server.md",
+        "target": "./node_mcp_server_v2.md",
+        "payloadPath": "reference/node_mcp_server_v2.md",
+        "includedInPayload": true
+      },
+      {
+        "from": "reference/node_mcp_server_v2.md",
+        "target": "./node_mcp_server.md",
+        "payloadPath": "reference/node_mcp_server.md",
+        "includedInPayload": true
+      }
+    ],
+    "runtimeDependenciesInstalled": false,
+    "paidCallsMade": false,
+    "helpersExecuted": false
+  },
+  "activationMigration": {
+    "decision": "Parent explicitly authorized complete OMP-native installation and owns selective agents/mcp-builder and claude/mcp-builder ignoredSkills migration; worker copied all 11 original files without scripts.",
+    "reason": "Shared .agents source must remain untouched for other hosts. Changed same-name native copy causes a namespace collision unless parent completes the exact alias ignore migration. Parent configuration and discovery verification were not performed by this worker.",
+    "ompVersionReviewed": "18.18.0",
+    "authority": "Pinned upstream version source; static review, not a discovery execution",
+    "sourceUrl": "https://raw.githubusercontent.com/can1357/oh-my-pi/v18.18.0/packages/coding-agent/src/extensibility/skills.ts",
+    "sourcePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\global-optimization-20261107\\mcp-builder-omp-v18.18.0-skills.ts",
+    "sourceSha256": "dd2c169648f40ed2a02aafe02ea7c81386632daecf41482ed89c5bfa263e131f",
+    "sourceRanges": [
+      "77-108 namespace derivation",
+      "134-214 differing-content collision admission",
+      "370-390 raw-name ignore filtering",
+      "419-440 final alias ignore filtering"
+    ],
+    "currentIgnoredSkillsAtReview": [
+      "design-taste-frontend",
+      "redesign-existing-projects",
+      "agents/impeccable",
+      "claude/impeccable"
+    ],
+    "anticipatedSharedAlias": "agents/mcp-builder when OMP native copy holds the bare name",
+    "requiredParentActions": [
+      "Back up global config before changing it; native destination was absent and the shared original is already backed up.",
+      "Full 11-file native payload was copied to C:/Users/Indrimeilla-PC/.omp/agent/skills/mcp-builder; preserve it unchanged.",
+      "Add precise namespaced aliases agents/mcp-builder and claude/mcp-builder to skills.ignoredSkills, preserving all existing values. Do not ignore raw mcp-builder because that excludes both sources.",
+      "Verify actual admission order and aliases in fresh OMP 18.18.0 discovery; if bare-name owner differs, adjust migration before declaring activation.",
+      "Update ledger/source pin/docs only after native discovery shows one intended mcp-builder and no duplicate alias."
+    ],
+    "configChanged": false,
+    "sharedSourceChanged": false,
+    "otherHostsChanged": false
+  },
+  "parentSmokeInstructions": [
+    "Run one fresh native discovery in project cwd and neutral cwd; assert only intended mcp-builder exists, path is OMP-native if activated, no collision alias is visible, and original ignored skills persist.",
+    "Resolve skill://mcp-builder and both TypeScript guides plus LICENSE.txt through actual URI resolver after activation.",
+    "Compare full candidate/active manifests and ensure all relative links remain within installed payload.",
+    "Do not invoke evaluation.py, skill-creator, SDK installers, codemod, Inspector, or paid/private services."
+  ],
+  "verificationExecuted": [],
+  "notPerformed": [
+    "No tests, builds, lint, formatting, helper execution, SDK install, evaluation.py, skill-creator or native discovery. Parent owns final verification.",
+    "No active config, shared AGENTS policy, ledger or other-host edits."
+  ]
+}

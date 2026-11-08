@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/can1357/oh-my-pi/v18.11.0/packages/coding-agent/src/config/mcp-schema.json",
+  "$schema": "https://raw.githubusercontent.com/can1357/oh-my-pi/v18.18.0/packages/coding-agent/src/config/mcp-schema.json",
   "mcpServers": {
     "publish_or_perish": {
       "type": "stdio",

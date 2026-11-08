@@ -1,0 +1,17 @@
+{
+  "runtime": {"version":"18.18.0","sourceTag":"v18.18.0","commit":"b5a6b2f7e5b6606b6562e678ead83f21738f34a0","executable":"C:/Users/Indrimeilla-PC/.bun/bin/omp.exe"},
+  "scope":"OMP default profile; no named profile directory found; representative projects Onboarding and management-hub",
+  "approval":{"before":"yolo","after":"yolo","userDecision":"explicit retain yolo in ask response"},
+  "memory":{"native":"off","autolearn":false,"supermemory":"preserved; only Onboarding allowlisted; cloud recall/write not tested"},
+  "discovery":{"Onboarding":96,"management-hub":96,"kind":"fresh RPC command inventory without inference, extensions disabled for inspection"},
+  "mcp":{"context7":"resolve returned TypeScript candidates","semgrep":"supported languages returned","rea":"binary_session returned version6.5.0; multiple backends unavailable","publish_or_perish":"Crossref search returned2 records, broad matching observed"},
+  "browser":{"target":"https://example.com","managed":true,"relay":false,"result":"Example Domain title and link observed; tab closed"},
+  "eval":{"js":"persistent state and filesystem/assertions exercised","python":"3.14.4 arithmetic assertion passed"},
+  "lsp":{"status":"No language servers configured for this project","scope":"Onboarding only; not proof other projects lack server"},
+  "debug":{"status":"No debug sessions","programLaunch":"not tested"},
+  "find":{"status":"failed","reason":"OpenRouter judge402 insufficient credits","fallback":"literal grep; no credit purchase or provider change"},
+  "modelSmoke":{"selector":"openai-codex/gpt-6-luna","response":"OMP_SMOL_OK","wallSeconds":27.78,"kind":"single prompt, not performance benchmark"},
+  "changes":{"modelRoles.smol":"openai-codex/gpt-6-luna:low","mcp.schema":"v18.11.0 to v18.18.0 editor schema only"},
+  "backup":"../../backups/global-optimization-20261107/manifest.json",
+  "privateSessionOrCredentialValuesRead":false
+}

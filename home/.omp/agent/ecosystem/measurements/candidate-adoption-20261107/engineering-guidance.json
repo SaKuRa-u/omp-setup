@@ -1,0 +1,1193 @@
+{
+  "schema": 1,
+  "slice": "engineering-guidance",
+  "date": "2026-11-07",
+  "status": "installed-local-files-and-isolated-cli; parent-discovery-and-smoke-required",
+  "source_policy": "Official vendor codeload archives, exact same-day stable baseline pins. Original skill bytes unchanged. No custom skills, symlinks, foreign-host config, global runtime upgrade or always-on hooks.",
+  "guidance_install_method": "Downloaded codeload zip URLs in candidates; extracted all regular files into new pinned source roots with traversal guard; used shutil.copyfile for each exact source/destination in engineering-guidance-files.json. No upstream file edited. Curated selected-only parents retain original hierarchy and full required reference subtrees. No npm/bun package install or lifecycle command used for guidance.",
+  "scope": {
+    "candidates": 7,
+    "installed_skills": 25,
+    "copied_files": 152,
+    "existing_files_replaced": 0,
+    "backup": "New-only paths; no incumbent/shared config changed, hence no backup necessary.",
+    "source_review": "Relevant original selected entries, actual licenses, package manifests, OMP loader, SpecKit init/entrypoint/network surfaces, ADHD extension activation, Superpowers helper dependencies; metadata inventory and individual decision for remaining subskills. Not an exhaustive line-by-line security audit.",
+    "host_activation_note": "ADHD extension imports @earendil-works/pi-coding-agent, registers /i-have-adhd and adhd flag, reads agent-level alwaysOn/flag config, and reinjects persistent rules. It was deliberately not copied or registered as executable extension; only original optional skill text is installed. Superpowers package pi.extensions declares .pi/extensions/superpowers.ts; capability discovery registers only selected skills, not this package."
+  },
+  "parent_config_request": {
+    "skills.customDirectories": [
+      "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7/skills",
+      "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0/skills/productivity",
+      "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0/skills/engineering",
+      "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e/skills",
+      "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6/skills",
+      "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a/skills"
+    ],
+    "skills.manualSkills": [
+      "brainstorming",
+      "writing-plans",
+      "executing-plans",
+      "dispatching-parallel-agents",
+      "requesting-code-review",
+      "using-git-worktrees",
+      "finishing-a-development-branch",
+      "subagent-driven-development",
+      "test-driven-development",
+      "teach",
+      "handoff",
+      "wait-what",
+      "writing-for-agents",
+      "to-spec",
+      "to-tickets",
+      "setup-matt-pocock-skills",
+      "source-driven-development",
+      "constraint-driven-development",
+      "doubt-driven-development",
+      "shipping-and-launch",
+      "i-have-adhd",
+      "prompt-master"
+    ],
+    "recommended_automatic_metadata": [
+      "deprecation-and-migration",
+      "observability-and-instrumentation",
+      "documentation-and-adrs"
+    ],
+    "constraints": [
+      "Append only selected one-level parents; never complete source root or global includeSkills.",
+      "No selected raw name appeared in observed incumbent inventory; no same-name overwrite or downgrade.",
+      "OMP manualSkills hides metadata without disabling skill:// access; source evidence mcp-builder-omp-v18.18.0-skills.ts lines 611-619.",
+      "No package/extension/plugin registration: custom skill directories only.",
+      "Superpowers vendor superpowers:name cross-host labels are not OMP slash commands; OMP names are bare entries in receipt, native tool/agent/safety/verification ownership wins."
+    ]
+  },
+  "candidates": [
+    {
+      "repo": "obra/superpowers",
+      "pin": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "root": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7",
+      "archive": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7.zip",
+      "archive_sha256": "211294b8df6ce0362068fd9e783fb9e8418721124fd7855ffe4067c9e802cb9b",
+      "url": "https://codeload.github.com/obra/superpowers/zip/22f0b463e7a5e579904dd6211a520321035526f7"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "pin": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
+      "root": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0",
+      "archive": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0.zip",
+      "archive_sha256": "1dbe2591143d948ed0e057b993560d96e771d55d9af1c86849067f7642e8498b",
+      "url": "https://codeload.github.com/mattpocock/skills/zip/d1478fcb140db0b93c0c8df17bcfd311844749d0"
+    },
+    {
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "pin": "2c606141936f1eeef17fa3043a72095b4765b9c2",
+      "root": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\multica-ai-andrej-karpathy-skills-2c606141936f1eeef17fa3043a72095b4765b9c2",
+      "archive": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\multica-ai-andrej-karpathy-skills-2c606141936f1eeef17fa3043a72095b4765b9c2.zip",
+      "archive_sha256": "3b5fcfc0cb80c644cfe954db5380f90cb81175dad4f7352332d308abef440dd6",
+      "url": "https://codeload.github.com/multica-ai/andrej-karpathy-skills/zip/2c606141936f1eeef17fa3043a72095b4765b9c2"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "pin": "8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e",
+      "root": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e",
+      "archive": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e.zip",
+      "archive_sha256": "581a6f3ce1e5a637b8bebf76f808d3dd9112cb754a293b45820fc36ce23a28a2",
+      "url": "https://codeload.github.com/addyosmani/agent-skills/zip/8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e"
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "pin": "1ecea1993b7fce257ffbd686c070948b5e07eda6",
+      "root": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6",
+      "archive": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6.zip",
+      "archive_sha256": "936e4ca9ea6c7d6e7b0c877cfc85ef59c4de735135e7f73bfa400e5f68ac2055",
+      "url": "https://codeload.github.com/ayghri/i-have-adhd/zip/1ecea1993b7fce257ffbd686c070948b5e07eda6"
+    },
+    {
+      "repo": "nidhinjs/prompt-master",
+      "pin": "49b3a72469b1e7287d66387004ccfcca90e5968a",
+      "root": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a",
+      "archive": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a.zip",
+      "archive_sha256": "e2bc413574be4fddc1e69c8dfe33d6b52055c3d078027ed184c7249c55261620",
+      "url": "https://codeload.github.com/nidhinjs/prompt-master/zip/49b3a72469b1e7287d66387004ccfcca90e5968a"
+    },
+    {
+      "repo": "github/spec-kit",
+      "pin": "55264c2f2f2d1146f02abc543cb913dcdf1f9342",
+      "root": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\github-spec-kit-55264c2f2f2d1146f02abc543cb913dcdf1f9342",
+      "archive": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\github-spec-kit-55264c2f2f2d1146f02abc543cb913dcdf1f9342.zip",
+      "archive_sha256": "5c90a6282435b5fa765d314a6571f6c4686b9a87316adfd3c60725c2c4bf3710",
+      "url": "https://codeload.github.com/github/spec-kit/zip/55264c2f2f2d1146f02abc543cb913dcdf1f9342"
+    }
+  ],
+  "subskill_decisions": [
+    {
+      "repo": "obra/superpowers",
+      "name": "brainstorming",
+      "source_relative": "skills/brainstorming/SKILL.md",
+      "sha256": "2c9ca71f94886f9ca9f4aef055f7cafb3e1a9bdf3aeebf8f4cb547c69405d207",
+      "decision": "installed-original",
+      "rationale": "Optional design-discovery dialogue with explicit design approval; useful when the user really wants alternatives, not a compulsory intake."
+    },
+    {
+      "repo": "obra/superpowers",
+      "name": "diagnosing-superpowers",
+      "source_relative": "skills/diagnosing-superpowers/SKILL.md",
+      "sha256": "3143de8695c5a2d63e8b1675f33837578076f464deb127c2ebdd0b46fceef886",
+      "decision": "retain-source-not-activated",
+      "rationale": "Retain in source: transcript collection and issue-bundle workflow needs explicit privacy-scoped diagnosis request; no session scans or uploads authorized."
+    },
+    {
+      "repo": "obra/superpowers",
+      "name": "dispatching-parallel-agents",
+      "source_relative": "skills/dispatching-parallel-agents/SKILL.md",
+      "sha256": "1968923066f3b707eb01d1992cdf4c42284c3855f70253b9cd5000ff45fca13c",
+      "decision": "installed-original",
+      "rationale": "Independent-domain delegation reference; native OMP task contracts and specialist selection still take precedence."
+    },
+    {
+      "repo": "obra/superpowers",
+      "name": "executing-plans",
+      "source_relative": "skills/executing-plans/SKILL.md",
+      "sha256": "deaf176fa179827e80f2ea3101db3ea90fdf562ebef340eba761e4687940f5f5",
+      "decision": "installed-original",
+      "rationale": "Lower-cost inline executor alternative with durable per-plan ledger and one final review."
+    },
+    {
+      "repo": "obra/superpowers",
+      "name": "finishing-a-development-branch",
+      "source_relative": "skills/finishing-a-development-branch/SKILL.md",
+      "sha256": "8db5a922b242dd4e1bf824cb91c13b3e8d8e8a86d6ceaf7f0774eb9cce909d65",
+      "decision": "installed-original",
+      "rationale": "Explicit integration choice and ownership-aware cleanup; no merge/push/discard performed at installation."
+    },
+    {
+      "repo": "obra/superpowers",
+      "name": "receiving-code-review",
+      "source_relative": "skills/receiving-code-review/SKILL.md",
+      "sha256": "091df1629510af1b92fc4abd6f96732ebedb4cb2c0f3457e8f2740b0504a2438",
+      "decision": "retain-source-not-activated",
+      "rationale": "Reuse incumbent original skill; preserve existing provenance and routing, no same-name replacement."
+    },
+    {
+      "repo": "obra/superpowers",
+      "name": "requesting-code-review",
+      "source_relative": "skills/requesting-code-review/SKILL.md",
+      "sha256": "2180e14a448e9410bec88e6646a2d1f0ce7fdd58de27388c1e052e929679d2bc",
+      "decision": "installed-original",
+      "rationale": "Compact artifact/contract reviewer prompt complement; native reviewer agent supersedes generic-role wording."
+    },
+    {
+      "repo": "obra/superpowers",
+      "name": "subagent-driven-development",
+      "source_relative": "skills/subagent-driven-development/SKILL.md",
+      "sha256": "1baf70e307bde682c462513c86116333f1f066168c6710f45145bf5f0b00828d",
+      "decision": "installed-original",
+      "rationale": "Higher-assurance alternative with fresh implementer/reviewer gates and resumable plan workspace."
+    },
+    {
+      "repo": "obra/superpowers",
+      "name": "systematic-debugging",
+      "source_relative": "skills/systematic-debugging/SKILL.md",
+      "sha256": "51c6435d98c83c42c96ba7c35725a0b2c376cd487fb1a4e6bd0ddbe7e33ef202",
+      "decision": "retain-source-not-activated",
+      "rationale": "Reuse incumbent original skill without downgrade or override; no new host behavior supplied by this pin for the installed guidance."
+    },
+    {
+      "repo": "obra/superpowers",
+      "name": "test-driven-development",
+      "source_relative": "skills/test-driven-development/SKILL.md",
+      "sha256": "64b03fce4aee5a97a93160cea8111f3ba13a17b7c001db4bd5836d67fd10705d",
+      "decision": "installed-original",
+      "rationale": "Coherent RED/GREEN dependency of optional Superpowers executor, distinct from incumbent Matt tdd; never delete user work because the vendor says delete implementation."
+    },
+    {
+      "repo": "obra/superpowers",
+      "name": "using-git-worktrees",
+      "source_relative": "skills/using-git-worktrees/SKILL.md",
+      "sha256": "8cfb86f121269e8f7f12361e6795c4f6738828340e28964c9229d365666c9edd",
+      "decision": "installed-original",
+      "rationale": "Detects existing isolation and submodules before creating anything; useful with Orca-owned worktrees."
+    },
+    {
+      "repo": "obra/superpowers",
+      "name": "using-superpowers",
+      "source_relative": "skills/using-superpowers/SKILL.md",
+      "sha256": "82c5c8866ad7f5dd4440ce66bd7806ba48a2f13771beae5cf112e53f08fe36ba",
+      "decision": "retain-source-not-activated",
+      "rationale": "Not enabled: unconditional 1%-applicability bootstrap contradicts selective loading; only its platform-reference subtree is retained as dependency data."
+    },
+    {
+      "repo": "obra/superpowers",
+      "name": "verification-before-completion",
+      "source_relative": "skills/verification-before-completion/SKILL.md",
+      "sha256": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3",
+      "decision": "retain-source-not-activated",
+      "rationale": "Reuse incumbent original skill; existing verification ownership remains authoritative."
+    },
+    {
+      "repo": "obra/superpowers",
+      "name": "writing-plans",
+      "source_relative": "skills/writing-plans/SKILL.md",
+      "sha256": "a6c67c1900064347c2a329990dd3c555657c51c3ec53b259a08aa01a2c26139a",
+      "decision": "installed-original",
+      "rationale": "Carries exact interfaces, file responsibilities, tests and review focus into a transferable implementation plan."
+    },
+    {
+      "repo": "obra/superpowers",
+      "name": "writing-skills",
+      "source_relative": "skills/writing-skills/SKILL.md",
+      "sha256": "8cb3ac68c6d8c4bb46886b998b09af7989643cab8bd0e46ee86dd62e64546bbe",
+      "decision": "retain-source-not-activated",
+      "rationale": "Retain in source: pressure-test/skill-development workflow is a separate authoring project; writing-for-agents selected for the immediate authoring interface."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "ask-matt",
+      "source_relative": "skills/engineering/ask-matt/SKILL.md",
+      "sha256": "1371f5ce005de0992a44b137748bfb960a56948aa9871b405fe9d90b24332e3c",
+      "decision": "retain-source-not-activated",
+      "rationale": "Retain: router advertises uninstalled flows and would imply the entire suite is available."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "code-review",
+      "source_relative": "skills/engineering/code-review/SKILL.md",
+      "sha256": "9c921a8d88138a41401d8897ca1bb852088ab1b7b605cdd04edc13e3e8aab6dd",
+      "decision": "retain-source-not-activated",
+      "rationale": "Reuse incumbent, no custom-directory override; selected interfaces do not require replacement of existing two-axis review."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "codebase-design",
+      "source_relative": "skills/engineering/codebase-design/SKILL.md",
+      "sha256": "2c20617f87ec8af6a434859f381b2f061a69b530444e74eb39e78bb016a6d1e2",
+      "decision": "retain-source-not-activated",
+      "rationale": "Reuse incumbent deep-module vocabulary; stable release must not downgrade newer installed pin."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "diagnosing-bugs",
+      "source_relative": "skills/engineering/diagnosing-bugs/SKILL.md",
+      "sha256": "849198df88cdb65fd0d97236604c1fca7ff2f22d2f705f9724a800d0266b118d",
+      "decision": "retain-source-not-activated",
+      "rationale": "Retain: investigation policy not needed for prompt/spec/teaching gap; runtime regression/performance workflow should be chosen on an actual bug."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "domain-modeling",
+      "source_relative": "skills/engineering/domain-modeling/SKILL.md",
+      "sha256": "7b925d7b1e341a2eeae33ad68a8a8c0ab889a38ddd22a7598e4c240e5a7556a3",
+      "decision": "retain-source-not-activated",
+      "rationale": "Reuse incumbent glossary/ADR vocabulary; stable release must not downgrade newer installed pin."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "grill-with-docs",
+      "source_relative": "skills/engineering/grill-with-docs/SKILL.md",
+      "sha256": "7de372c13488f1ee96cc11cd8907b56b6809cc93eef776eeddd37de6b6cbe3fe",
+      "decision": "retain-source-not-activated",
+      "rationale": "Retain: combines incumbent grilling/domain modeling and mutates docs; explicit design-session selection needed."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "implement",
+      "source_relative": "skills/engineering/implement/SKILL.md",
+      "sha256": "483bdc4ccf4ac31d86ac7beeaa0d0db80313e71e120bb8c59b3196ae5decd53d",
+      "decision": "retain-source-not-activated",
+      "rationale": "Retain: tracker/spec execution with per-repo conventions; two coherent Superpowers executors already staged for explicit choice, do not stack executors."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "implement-spec",
+      "source_relative": "skills/engineering/implement-spec/SKILL.md",
+      "sha256": "8d8300f7f12325dbfc99cad124a4bcc96ac0d02d0b2d73dfb348e9262afacfc4",
+      "decision": "retain-source-not-activated",
+      "rationale": "Retain: this orchestration closes tickets in configured tracker; no tracker/account mutation scope."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "improve-codebase-architecture",
+      "source_relative": "skills/engineering/improve-codebase-architecture/SKILL.md",
+      "sha256": "35b03a3db61e0f5aa333ea59b54963e45a3d2ace6649b2ef4f9576603e2582a6",
+      "decision": "retain-source-not-activated",
+      "rationale": "Retain: broad codebase scan and generated architecture report outside current user-code access scope."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "pr",
+      "source_relative": "skills/engineering/pr/SKILL.md",
+      "sha256": "ab63f1cf78647389edcd386c9427c5dfca27ed2836930c24773ffee834c19bcd",
+      "decision": "retain-source-not-activated",
+      "rationale": "Retain: PR body authoring assumes repository contribution context not present in this adoption task."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "prototype",
+      "source_relative": "skills/engineering/prototype/SKILL.md",
+      "sha256": "714de632d116bb73f65cdb5a882db15b9369a6713b9a47c0fad827848f0bfbe3",
+      "decision": "retain-source-not-activated",
+      "rationale": "Retain: throwaway prototype implementation is a per-project activity; no real design problem selected."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "research",
+      "source_relative": "skills/engineering/research/SKILL.md",
+      "sha256": "1f629e18ab899412683bc6a1c4efb4339999e27c2fdac328f26ee10a8c031d33",
+      "decision": "retain-source-not-activated",
+      "rationale": "Retain: background primary-source workflow needs concrete research question; not installed merely to delegate more work."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "retro",
+      "source_relative": "skills/engineering/retro/SKILL.md",
+      "sha256": "33fbc28568e3146f20fd908b12998bc0ab30aa4f4c87288199a40793efa94696",
+      "decision": "retain-source-not-activated",
+      "rationale": "Retain: examines session environment and suggests changes; no transcript-scanning scope."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "setup-matt-pocock-skills",
+      "source_relative": "skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "sha256": "b01e05bfe8c323171275c6ceec78b12f1bd4c62dfd26c2cfe8be806d3883f1ed",
+      "decision": "installed-original",
+      "rationale": "Prerequisite interface for local tracker/domain conventions used by to-spec/to-tickets; manual-only because invocation may edit project instructions/remotes or labels."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "tdd",
+      "source_relative": "skills/engineering/tdd/SKILL.md",
+      "sha256": "5505d25bbaa8fc14a79e4d20163936958992a2995b7f1dd1d6197edc9ed722e0",
+      "decision": "retain-source-not-activated",
+      "rationale": "Reuse incumbent tdd; no stable-release downgrade or custom override."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "to-spec",
+      "source_relative": "skills/engineering/to-spec/SKILL.md",
+      "sha256": "43ad9cf318e5e7d3d1fa360253a37021796dc87a0c2e595ad262661a10f85088",
+      "decision": "installed-original",
+      "rationale": "Conversation-to-spec interface without a new interview; configured local tracker is supported, no publishing now."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "to-tickets",
+      "source_relative": "skills/engineering/to-tickets/SKILL.md",
+      "sha256": "56ec23c5b2782785d4e65bff9e315b6d3aeb4ef977c174a219e99489fada1995",
+      "decision": "installed-original",
+      "rationale": "Tracer-bullet ticket graph with explicit blockers and local one-file-per-ticket output."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "triage",
+      "source_relative": "skills/engineering/triage/SKILL.md",
+      "sha256": "917b0baf74be583e74f110857ed45df2766617f75c00baf61fd136d7af515edf",
+      "decision": "retain-source-not-activated",
+      "rationale": "Retain: mutates issue/PR state and labels, needs configured tracker and explicit account authorization."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "wayfinder",
+      "source_relative": "skills/engineering/wayfinder/SKILL.md",
+      "sha256": "0c9fa96791aebf3b7d654cf35c6aadde97d81f57c17b07d13b27c14d9c46561f",
+      "decision": "retain-source-not-activated",
+      "rationale": "Retain: shared map of remote/local decision tickets useful only when multi-session discovery is actually selected."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "wizard",
+      "source_relative": "skills/engineering/wizard/SKILL.md",
+      "sha256": "bdf31d48211ea559878f95a4f344aeabf8d85897488ba564382bab0b000daac1",
+      "decision": "retain-source-not-activated",
+      "rationale": "Retain: generates executable interview wizard; no need to add shell UI for present interfaces."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "chief-of-staff",
+      "source_relative": "skills/in-progress/chief-of-staff/SKILL.md",
+      "sha256": "d13f3a542a4664f27bf14977811ee9dcd83fae03655b20720b3441850a2008a4",
+      "decision": "retain-source-not-activated",
+      "rationale": "Retain experimental in-progress guidance, not a stable supported global workflow."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "claude-handoff",
+      "source_relative": "skills/in-progress/claude-handoff/SKILL.md",
+      "sha256": "79357a18425d66d4c24048bedf83dceb79d3bba356f38014950f764a7fab4026",
+      "decision": "retain-source-not-activated",
+      "rationale": "Retain experimental host-specific handoff; stable OS-aware handoff selected instead."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "loop-me",
+      "source_relative": "skills/in-progress/loop-me/SKILL.md",
+      "sha256": "e44d1cc3e760fb86ac42964c2a5f1fcac511715db50fb375f3f7be814de1eaa7",
+      "decision": "retain-source-not-activated",
+      "rationale": "Retain experimental autonomous-loop behavior; no always-on loop activation."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "setup-ts-deep-modules",
+      "source_relative": "skills/in-progress/setup-ts-deep-modules/SKILL.md",
+      "sha256": "29acca66ac99d4532e2a6f0370d8125d7cba1e87c9ac66573203c75189d3e6c7",
+      "decision": "retain-source-not-activated",
+      "rationale": "Retain experimental TypeScript repository setup, no target project selected."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "writing-beats",
+      "source_relative": "skills/in-progress/writing-beats/SKILL.md",
+      "sha256": "a96abafa2372eede8267d770138b322d6125da8adaa7ccf0a5e08e4ee13ee71e",
+      "decision": "retain-source-not-activated",
+      "rationale": "Retain experimental authoring workflow; no assessed stable purpose."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "writing-fragments",
+      "source_relative": "skills/in-progress/writing-fragments/SKILL.md",
+      "sha256": "298b0edd23df229183630de592ed8aa4289233560f2040691f6eb77caeaad4ea",
+      "decision": "retain-source-not-activated",
+      "rationale": "Retain experimental authoring workflow; no assessed stable purpose."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "writing-shape",
+      "source_relative": "skills/in-progress/writing-shape/SKILL.md",
+      "sha256": "f5e6c57bdd85178ace4a260c92f46da6b64ddee18215b461d875739c68976f72",
+      "decision": "retain-source-not-activated",
+      "rationale": "Retain experimental authoring workflow; no assessed stable purpose."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "git-guardrails-claude-code",
+      "source_relative": "skills/misc/git-guardrails-claude-code/SKILL.md",
+      "sha256": "69b291d655626a01602b998a1836fcb93c058ede68dfafddfd71e87f17074764",
+      "decision": "retain-source-not-activated",
+      "rationale": "Not enabled: foreign-host hook/config installer; OMP native safety rules remain in charge."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "migrate-to-shoehorn",
+      "source_relative": "skills/misc/migrate-to-shoehorn/SKILL.md",
+      "sha256": "de4da4c11d924fac79c924b2ee3d2db4a5cb98386eb490a599119463d036ae72",
+      "decision": "retain-source-not-activated",
+      "rationale": "Retain: tool-specific project migration with no target project selected."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "scaffold-exercises",
+      "source_relative": "skills/misc/scaffold-exercises/SKILL.md",
+      "sha256": "75f5c9d771606fb9762f16522efc954df11c324f87148d8ff069bce166257de9",
+      "decision": "retain-source-not-activated",
+      "rationale": "Retain: project-specific exercise scaffolder; selected teach provides the more general learning interface."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "setup-pre-commit",
+      "source_relative": "skills/misc/setup-pre-commit/SKILL.md",
+      "sha256": "c9819d7f1e3b198064edc1faa3154224ed67395e9f07f5d3cea4b67cf0a11a98",
+      "decision": "retain-source-not-activated",
+      "rationale": "Not enabled: hook/dependency mutation is opt-in per project, not global guidance adoption."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "grill-me",
+      "source_relative": "skills/productivity/grill-me/SKILL.md",
+      "sha256": "caaf8b8de1684f96e26b28f3c29189db5c89cce4b73e1c93d86164f66ef88637",
+      "decision": "retain-source-not-activated",
+      "rationale": "Reuse incumbent entry; no same-name collision or downgrade."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "grilling",
+      "source_relative": "skills/productivity/grilling/SKILL.md",
+      "sha256": "a146842ed93ca43d833550fa9adf02e58cb63c83fea9d4b4522995b82242d4e2",
+      "decision": "retain-source-not-activated",
+      "rationale": "Reuse incumbent questioner; no same-name collision or downgrade."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "handoff",
+      "source_relative": "skills/productivity/handoff/SKILL.md",
+      "sha256": "4cbb043950dad2ffd3662ff1a5a0b51ae676004b5cae10e3787e8ee7a4ee69d3",
+      "decision": "installed-original",
+      "rationale": "OS-temp handoff with pointers rather than duplicated context and explicit sensitive-data redaction."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "teach",
+      "source_relative": "skills/productivity/teach/SKILL.md",
+      "sha256": "550482c2d674b085c9043b87bfdc14a8f2ec453c736119e7fcbb1e9332bffeba",
+      "decision": "installed-original",
+      "rationale": "Stateful primary-source lessons, mission, learning records and printable HTML; missing practical teaching interface."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "to-questionnaire",
+      "source_relative": "skills/productivity/to-questionnaire/SKILL.md",
+      "sha256": "b5eb929842ee0e93d867c5e906d183d350f2f2d149eaeaa86967d94d8eda1d3b",
+      "decision": "retain-source-not-activated",
+      "rationale": "Reuse native incumbent to-questionnaire; no overwrite or release downgrade of existing original interface."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "wait-what",
+      "source_relative": "skills/productivity/wait-what/SKILL.md",
+      "sha256": "d961bb37defd975c539427edb8f450cdbccdcdd552e213c1ece46676a7970905",
+      "decision": "installed-original",
+      "rationale": "User-invoked repair of an explanation using simplified English and existing glossary, not a persistent style override."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "name": "writing-for-agents",
+      "source_relative": "skills/productivity/writing-for-agents/SKILL.md",
+      "sha256": "551adca942227b44192edba88acd4e8db911f0121ce58ad16944ccf6a896a74a",
+      "decision": "installed-original",
+      "rationale": "Agent-document authoring reference on pointers, disclosure, completion criteria and load rather than a second coding policy."
+    },
+    {
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "name": "karpathy-guidelines",
+      "source_relative": "skills/karpathy-guidelines/SKILL.md",
+      "sha256": "6e22cc54cb02a5e98ae42d06d9d7292db0c1b43894831b32879beb0166b2aea7",
+      "decision": "retain-source-not-activated",
+      "rationale": "Legal provenance unresolved: README and SKILL frontmatter state MIT, but pinned archive contains no LICENSE/copyright grant; README install URLs still point to forrestchang, now multica-ai. Retain source only, no CLAUDE.md write. Not rejected for overlap."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "api-and-interface-design",
+      "source_relative": "skills/api-and-interface-design/SKILL.md",
+      "sha256": "cc5e2166c484b2c297e8253f56e7525e5031f81d66101ca4e760ef378ea6bad0",
+      "decision": "retain-source-not-activated",
+      "rationale": "Full API design alternative not necessary to the selected gaps; no public interface implementation selected."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "browser-testing-with-devtools",
+      "source_relative": "skills/browser-testing-with-devtools/SKILL.md",
+      "sha256": "e28dd45416e6df93f0db6fffeb3aa2477a0e48a22f8e05fd5bb1892484115bb6",
+      "decision": "retain-source-not-activated",
+      "rationale": "Requires a separately configured Chrome DevTools MCP and isolated browser; no server/profile attachment enabled."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "ci-cd-and-automation",
+      "source_relative": "skills/ci-cd-and-automation/SKILL.md",
+      "sha256": "5e0e55c059670a7838dc9d58dc20a3a645c0d43c974416490112af7de522df95",
+      "decision": "retain-source-not-activated",
+      "rationale": "Pipeline/deploy mutations require actual project target and credentials; no global CI workflow installation."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "code-review-and-quality",
+      "source_relative": "skills/code-review-and-quality/SKILL.md",
+      "sha256": "2db1e850379f255fd3091ef278cde24cd6c7d2ba23e360cc52ea522c40d4396e",
+      "decision": "retain-source-not-activated",
+      "rationale": "Five-axis alternative retained in source; no chosen second automatic reviewer policy."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "code-simplification",
+      "source_relative": "skills/code-simplification/SKILL.md",
+      "sha256": "e13b433345e6bf425c3625442ac1b3507b371c18d7ea3e3db822da7a7f742a29",
+      "decision": "retain-source-not-activated",
+      "rationale": "Optional simplifier enforces per-edit runs and splitting PRs; no independent simplification task selected."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "constraint-driven-development",
+      "source_relative": "skills/constraint-driven-development/SKILL.md",
+      "sha256": "5a690018d415fa972d1ecc85aed943a4f86b0d3c2305eea84f286ff391422008",
+      "decision": "installed-original",
+      "rationale": "Ratchet/floor and enforceable quality-contract design; opt-in because invocation proposes project tools, hooks and instruction edits."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "context-engineering",
+      "source_relative": "skills/context-engineering/SKILL.md",
+      "sha256": "5ee2929d3aded01587aa24fc9907693c8820f87f807ea0c52a263af718b62d0b",
+      "decision": "retain-source-not-activated",
+      "rationale": "Rules-file setup and broad context reconfiguration are separate project decisions; not activated globally."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "debugging-and-error-recovery",
+      "source_relative": "skills/debugging-and-error-recovery/SKILL.md",
+      "sha256": "01cff31fbd8796b444225f8a8386219792c25cebb5d4d76df664afd1d13ed610",
+      "decision": "retain-source-not-activated",
+      "rationale": "Demands reproduction even after user-reported failure and full-suite loops; native systematic-debugging remains authoritative."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "deprecation-and-migration",
+      "source_relative": "skills/deprecation-and-migration/SKILL.md",
+      "sha256": "1896d7db836fc067e2856739664db9ff5bb642526fdff2126d08ec0d588da4b7",
+      "decision": "installed-original",
+      "rationale": "Consumer inventory, expand/backfill/contract sequencing, removal and rollback planning; focused migration gap."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "documentation-and-adrs",
+      "source_relative": "skills/documentation-and-adrs/SKILL.md",
+      "sha256": "6fccf3088d5042a3c889faa25113ffa47b9f7f999f4fc9e527d5e5226888442f",
+      "decision": "installed-original",
+      "rationale": "Decision-focused docs with existing ADR conventions preferred; useful complement to domain terminology guidance."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "doubt-driven-development",
+      "source_relative": "skills/doubt-driven-development/SKILL.md",
+      "sha256": "7a7d53d9d2b93ca7af8d882718753dc7887716f143e7937ecbc381f26416bda7",
+      "decision": "installed-original",
+      "rationale": "Bounded fresh-context adversarial artifact/contract review with reconciliation; manual orchestrator-only, external model escalation not authorized here."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "frontend-ui-engineering",
+      "source_relative": "skills/frontend-ui-engineering/SKILL.md",
+      "sha256": "93a0ebffbb6075340d85255ae50724bc5e5e19b0fcbf2ae5d5857b9c5ddf9498",
+      "decision": "retain-source-not-activated",
+      "rationale": "UI implementation defaults are outside this engineering-guidance slice; no visual design work selected."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "git-workflow-and-versioning",
+      "source_relative": "skills/git-workflow-and-versioning/SKILL.md",
+      "sha256": "d77c955f57cfafde73efb7641ed9a478ffaa0f61c0f31bd9fe87317702f1b60d",
+      "decision": "retain-source-not-activated",
+      "rationale": "Always-use commit/release policy would impose new repository mutation behavior; not activated."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "idea-refine",
+      "source_relative": "skills/idea-refine/SKILL.md",
+      "sha256": "c226c1cd369bef2671073f5fd1f4108731691f725ef28f8c8c01d247c214d0c3",
+      "decision": "retain-source-not-activated",
+      "rationale": "Dialogue plus optional Bash helper writing docs/ideas; not needed for selected source/constraint/operations gap."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "incremental-implementation",
+      "source_relative": "skills/incremental-implementation/SKILL.md",
+      "sha256": "df66536610071727feae1ca95f3c391c248ad828041750ccd3699cce763aa00b",
+      "decision": "retain-source-not-activated",
+      "rationale": "Lifecycle advice remains source reference for migration, not a second active executor."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "interview-me",
+      "source_relative": "skills/interview-me/SKILL.md",
+      "sha256": "ace4b675999bb504593d572e0f73f3d7e803ad6fddf318445598c82c11939db2",
+      "decision": "retain-source-not-activated",
+      "rationale": "Reusable questionnaire discipline referenced by constraint guide, but no need to globally install another intake; original body retained in full source."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "observability-and-instrumentation",
+      "source_relative": "skills/observability-and-instrumentation/SKILL.md",
+      "sha256": "e7fcb0820306d46268de9594d676ad98e35040858926c412b7000faa52a61f87",
+      "decision": "installed-original",
+      "rationale": "Question-led RED/USE signals, cardinality bounds, entry-point attribution and secret exclusion; focused operational gap."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "performance-optimization",
+      "source_relative": "skills/performance-optimization/SKILL.md",
+      "sha256": "82af71540457cf853893685211f64509cd1e781c0de09d0186f16960f2d6eeba",
+      "decision": "retain-source-not-activated",
+      "rationale": "No measured bottleneck or performance work was requested; no scanners/benchmarks added."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "planning-and-task-breakdown",
+      "source_relative": "skills/planning-and-task-breakdown/SKILL.md",
+      "sha256": "ed0f90cc5951ddd4bcab7f871f64efec93a49af9279ef93bc470da77ad8da3f7",
+      "decision": "retain-source-not-activated",
+      "rationale": "Alternative planner; selected writing-plans supplies exact interfaces and verification contract."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "security-and-hardening",
+      "source_relative": "skills/security-and-hardening/SKILL.md",
+      "sha256": "358566859a3d791c474eb9fa36939b45875c7480d7d4650eaa092dceae2c1c37",
+      "decision": "retain-source-not-activated",
+      "rationale": "Security cross-reference retained as upstream source; specialized incumbent security skills and authorization boundary remain authoritative."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "shipping-and-launch",
+      "source_relative": "skills/shipping-and-launch/SKILL.md",
+      "sha256": "92fec446ec4e947a7b8aac88b851aa5743ff8cb39d5987fb53df08ba8a160d64",
+      "decision": "installed-original",
+      "rationale": "Staged rollout/hold/rollback checklist complement; original numbers are example defaults, not authorization for production actions."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "source-driven-development",
+      "source_relative": "skills/source-driven-development/SKILL.md",
+      "sha256": "df38a852658679a67c7a9e4840160570c95094a13a63307e834045ddbf8aa287",
+      "decision": "installed-original",
+      "rationale": "Explicit exact-version detect/fetch/implement/cite workflow with retrieved-content injection boundary; opt-in exhaustive citation mode."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "spec-driven-development",
+      "source_relative": "skills/spec-driven-development/SKILL.md",
+      "sha256": "b9d05b4259c14550bbffbaafd8201492129926d37ede716db352c6e4f91b404d",
+      "decision": "retain-source-not-activated",
+      "rationale": "Alternative full lifecycle has not been selected over installed SpecKit CLI or Superpowers planning."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "test-driven-development",
+      "source_relative": "skills/test-driven-development/SKILL.md",
+      "sha256": "8fcaa57cf445ca6111fd20d2321bcfc0f424db7cfe526836db7b9bf8828fee39",
+      "decision": "retain-source-not-activated",
+      "rationale": "Same raw name as selected original Superpowers dependency would create a custom-provider collision; keep selectable source only."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "using-agent-skills",
+      "source_relative": "skills/using-agent-skills/SKILL.md",
+      "sha256": "30787ef2c77bf1a4729fffed0f6523ba6fcbe81bdc436b36371b78c21394d3c3",
+      "decision": "retain-source-not-activated",
+      "rationale": "Bootstrap/lifecycle router would turn an optional library into always-loaded process; not enabled."
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "name": "i-have-adhd",
+      "source_relative": "skills/i-have-adhd/SKILL.md",
+      "sha256": "88955c019bbb1419ff4b49dbb1f80a867467de6233d7865af2e06a7d7b76c7d3",
+      "decision": "installed-original",
+      "rationale": "Explicitly optional persistent output style; original frontmatter already disables implicit invocation; no extension installed."
+    },
+    {
+      "repo": "nidhinjs/prompt-master",
+      "name": "prompt-master",
+      "source_relative": "SKILL.md",
+      "sha256": "36e68cdcd62c38b2f99c2538c83fefb8c8837ea9b7eed75297fe76e45c452e75",
+      "decision": "installed-original",
+      "rationale": "Explicit prompt-authoring output contract and category-specific templates; model/product assertions are unverified and must pass its own recency gate."
+    }
+  ],
+  "file_receipt": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\measurements\\candidate-adoption-20261107\\engineering-guidance-files.json",
+  "licenses": [
+    {
+      "repo": "obra/superpowers",
+      "license": "MIT",
+      "license_file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\LICENSE",
+      "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "license": "MIT",
+      "license_file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\LICENSE",
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+    },
+    {
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "license": "MIT asserted only; LICENSE absent",
+      "license_file": null,
+      "sha256": null
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "license": "MIT",
+      "license_file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\LICENSE",
+      "sha256": "6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7"
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "license": "MIT",
+      "license_file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6\\LICENSE",
+      "sha256": "8acbb618089b738404f76ac60fca1aaa995d9a87995eddf95f0b777acd7f7d2c"
+    },
+    {
+      "repo": "nidhinjs/prompt-master",
+      "license": "MIT",
+      "license_file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a\\LICENSE",
+      "sha256": "29e8ba0b54274eaa92b7cb074fe1765ba7b83993e0d2605e5308c6972a47daa7"
+    },
+    {
+      "repo": "github/spec-kit",
+      "license": "MIT",
+      "license_file": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\candidate-adoption-20261107\\github-spec-kit-55264c2f2f2d1146f02abc543cb913dcdf1f9342\\LICENSE",
+      "sha256": "2510b446bc1f0cf9702453075d20cd88631e20e5642658edb7325d9c1eb534f7"
+    }
+  ],
+  "relative_reference_boundaries": [
+    {
+      "repo": "obra/superpowers",
+      "preserved": "Selected skill directories complete; using-superpowers/references only (no bootstrap SKILL); root LICENSE/README/package.json, original docs/agents where present.",
+      "examples": [
+        "executing-plans/scripts -> ../../subagent-driven-development/scripts",
+        "executing-plans -> ../using-superpowers/references"
+      ],
+      "not_enabled": "Pi extension, bootstrap, companion server. Three same-name incumbent skills remain unchanged.",
+      "portability": "Global OMP uses Git Bash. Original helpers have cygpath Windows output and bash invocation for extracted executable-bit loss. No helper runtime pass claimed."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "preserved": "Original selected skills/engineering and skills/productivity hierarchy; all colocated templates/agents files; root license/readme/package.",
+      "examples": [
+        "teach -> *-FORMAT.md",
+        "writing-for-agents -> SKILL-MECHANICS.md",
+        "setup -> issue-tracker-local.md/domain.md templates"
+      ],
+      "not_enabled": "No tracker, remote, labels, project AGENTS/CLAUDE edits or hooks executed. Local tracker is supported."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "preserved": "Selected complete skill directories; complete repo references/, agents/, docs/ if present; root license/readme.",
+      "examples": [
+        "doubt-driven-development -> ../../references/orchestration-patterns.md",
+        "observability-and-instrumentation -> ../../references/observability-checklist.md",
+        "constraint-driven-development -> own scripts/quality-gate.mjs and references/floor-guard.md"
+      ],
+      "not_enabled": "No constraint/checker/hook installation; role persona files are inert data, not auto-registered. Cross-referenced nonselected skill texts remain in complete source snapshot."
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "preserved": "Original skills/i-have-adhd and license attribution; disable-model-invocation:true unchanged.",
+      "not_enabled": "OMP/Pi extension. Persistent style only after explicit invocation; no medical/diagnostic claim adopted."
+    },
+    {
+      "repo": "nidhinjs/prompt-master",
+      "preserved": "Complete five-file vendor tree moved intact under skills/prompt-master, relative references/ unchanged.",
+      "not_enabled": "No executable or dependency. Exact model/product/control statements are unverified; own recency gate required."
+    }
+  ],
+  "spec_kit": {
+    "decision": "Installed reusable official CLI in isolated environment, NOT project scaffold or global OMP slash commands",
+    "version": "1.3.2",
+    "pin": "55264c2f2f2d1146f02abc543cb913dcdf1f9342",
+    "executable": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/spec-kit/1.3.2/venv/Scripts/specify.exe",
+    "global_availability": "Absolute executable usable from any directory; PATH unchanged. No wrapper/adapter.",
+    "python": "Existing CPython 3.14.4; no global upgrade",
+    "wheel": {
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\runtime\\spec-kit\\1.3.2\\specify_cli-1.3.2-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/20/16/1c3ad8a9cc4e4536175ac79de468294c52e06a289664aabee9efb87c9451/specify_cli-1.3.2-py3-none-any.whl",
+      "sha256": "66ea3a8460aefef6cae78a646c0374ed6ab94631e7db2e270e4737fb13902163",
+      "official_pypi_owner": [
+        {
+          "role": "Owner",
+          "user": "github-spec-kit"
+        }
+      ],
+      "inspection": "Official console entry specify=specify_cli:main; no .pth or .data/scripts lifecycle entries."
+    },
+    "lock": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\runtime\\spec-kit\\1.3.2\\requirements.lock",
+    "lock_sha256": "06ef0eeada038823c2fb60b63a6e0b8a6b3f31af1438cf7504809cf5a7d1a42b",
+    "dependencies": [
+      {
+        "name": "annotated-doc",
+        "version": "0.0.5"
+      },
+      {
+        "name": "annotated-types",
+        "version": "0.8.0"
+      },
+      {
+        "name": "anyio",
+        "version": "4.16.0"
+      },
+      {
+        "name": "attrs",
+        "version": "26.1.0"
+      },
+      {
+        "name": "cffi",
+        "version": "2.1.1"
+      },
+      {
+        "name": "click",
+        "version": "8.5.1"
+      },
+      {
+        "name": "colorama",
+        "version": "0.4.6"
+      },
+      {
+        "name": "cryptography",
+        "version": "50.0.2"
+      },
+      {
+        "name": "h11",
+        "version": "0.16.0"
+      },
+      {
+        "name": "httpcore2",
+        "version": "2.16.0"
+      },
+      {
+        "name": "httpx2",
+        "version": "2.16.0"
+      },
+      {
+        "name": "idna",
+        "version": "3.20"
+      },
+      {
+        "name": "json5",
+        "version": "0.17.3"
+      },
+      {
+        "name": "jsonschema",
+        "version": "4.26.0"
+      },
+      {
+        "name": "jsonschema-specifications",
+        "version": "2025.9.1"
+      },
+      {
+        "name": "lark",
+        "version": "1.3.1"
+      },
+      {
+        "name": "markdown-it-py",
+        "version": "4.2.0"
+      },
+      {
+        "name": "mcp",
+        "version": "2.3.0"
+      },
+      {
+        "name": "mcp-types",
+        "version": "2.3.0"
+      },
+      {
+        "name": "mdurl",
+        "version": "0.1.2"
+      },
+      {
+        "name": "opentelemetry-api",
+        "version": "1.45.2"
+      },
+      {
+        "name": "packaging",
+        "version": "26.3"
+      },
+      {
+        "name": "pathspec",
+        "version": "1.1.1"
+      },
+      {
+        "name": "pycparser",
+        "version": "3.12"
+      },
+      {
+        "name": "pydantic",
+        "version": "2.14.3"
+      },
+      {
+        "name": "pydantic-core",
+        "version": "2.50.4"
+      },
+      {
+        "name": "pygments",
+        "version": "2.21.0"
+      },
+      {
+        "name": "pyjwt",
+        "version": "2.15.1"
+      },
+      {
+        "name": "python-multipart",
+        "version": "0.0.33"
+      },
+      {
+        "name": "pywin32",
+        "version": "312"
+      },
+      {
+        "name": "pyyaml",
+        "version": "6.0.3"
+      },
+      {
+        "name": "readchar",
+        "version": "4.2.2"
+      },
+      {
+        "name": "referencing",
+        "version": "0.37.0"
+      },
+      {
+        "name": "rich",
+        "version": "15.0.0"
+      },
+      {
+        "name": "rpds-py",
+        "version": "2026.9.1"
+      },
+      {
+        "name": "shellingham",
+        "version": "1.5.4"
+      },
+      {
+        "name": "sse-starlette",
+        "version": "3.7.0"
+      },
+      {
+        "name": "starlette",
+        "version": "1.10.0"
+      },
+      {
+        "name": "truststore",
+        "version": "0.10.5"
+      },
+      {
+        "name": "typer",
+        "version": "0.28.0"
+      },
+      {
+        "name": "typing-extensions",
+        "version": "4.16.0"
+      },
+      {
+        "name": "typing-inspection",
+        "version": "0.4.5"
+      },
+      {
+        "name": "uvicorn",
+        "version": "0.54.0"
+      }
+    ],
+    "install_commands": [
+      "uv venv --python C:/Users/Indrimeilla-PC/AppData/Local/Programs/Python/Python314/python.exe --no-python-downloads C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/spec-kit/1.3.2/venv",
+      "Download recorded official PyPI wheel and compare recorded SHA-256 before use",
+      "uv pip compile --python <runtime>/venv/Scripts/python.exe --no-build --generate-hashes --output-file <runtime>/requirements.lock <runtime>/requirements.in",
+      "uv pip sync --python <runtime>/venv/Scripts/python.exe --no-build --require-hashes <runtime>/requirements.lock"
+    ],
+    "observed_install_result": "uv pip sync exited 0 and installed locked wheels. No source builds/lifecycle scripts. No CLI runtime invocation performed.",
+    "failed_attempts": [
+      "compile wheel path treated wheel as UTF-8 requirements; fixed with exact file-URL requirements.in",
+      "--no-build with --only-binary mutually exclusive; fixed by --no-build alone"
+    ],
+    "host_contract": "Official docs/integrations/omp.md: integration omp installs per-project .omp/commands/ Markdown, dotted /speckit.specify invocation. Workflow dispatch omp --print positional prompt --mode json with configured model. No workflow run.",
+    "not_enabled": [
+      "init on user repository",
+      "project commands",
+      "MCP workflow listener/engine",
+      "git, agent-context, bug, assess, github extensions",
+      "presets/community bundles",
+      "gateway/model calls/authentication"
+    ],
+    "prerequisites": "Project adoption needs explicitly selected target. Fresh bundled scaffold uses local assets; --offline is deprecated no-op, not a sandbox. External lifecycle wrapper may run installed project extension hooks, so smoke only in fresh OS-temp directory outside user repos."
+  },
+  "rollback": {
+    "config": "Parent removes only six requested customDirectories and new requested manualSkills entries using parent shared-config backup.",
+    "files": "Remove only new capability vendor-pin roots in receipt, runtime/spec-kit/1.3.2, this slice source archives/trees and engineering-guidance*.json if no longer needed. Never incumbent files or user repo.",
+    "processes": "None started; no server/hook to stop. Parent deletes only its own temp smoke fixtures."
+  },
+  "risks_and_limits": [
+    "No runtime smoke/build/lint/tests run: parent owns verification. Successful file/dependency installation is not runtime pass.",
+    "Original vendor alternatives can conflict with native task/agent names, no-poll, verification ownership, code deletion and approval rules; host instructions win.",
+    "External cross-model calls, checker installs/hooks, trackers, teaching communities and deployments remain separately authorized; no paid service calls or user-code scans occurred.",
+    "Prompt-master exact model/product claims unverified; consult current official docs before following its settings.",
+    "Karpathy archive has no actual LICENSE/copyright grant although README/frontmatter say MIT and install URLs point to former forrestchang owner. Legal blocker, not overlap; no installed skill or CLAUDE overwrite."
+  ],
+  "safe_smoke_for_parent": {
+    "executed_here": false,
+    "commands_powershell": [
+      "& 'C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/spec-kit/1.3.2/venv/Scripts/specify.exe' --version",
+      "& 'C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/spec-kit/1.3.2/venv/Scripts/specify.exe' init --help",
+      "$fixture = Join-Path $env:TEMP ('omp-speckit-engineering-' + [guid]::NewGuid().ToString('N')); & 'C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/spec-kit/1.3.2/venv/Scripts/specify.exe' init $fixture --integration omp --script ps --ignore-agent-tools --non-interactive"
+    ],
+    "expected": [
+      "version 1.3.2/help exit 0",
+      "Only fresh temp fixture gains .specify and .omp/commands; no user repo/global instructions change",
+      "Native OMP discovery lists exact selected 25 names with requested hidden metadata; no using-superpowers or extension startup"
+    ],
+    "synthetic_cases": [
+      {
+        "skills": [
+          "prompt-master"
+        ],
+        "input": "Write a ChatGPT prompt to summarize three supplied public fruit facts as JSON, no web/API.",
+        "expect": "One copyable prompt, output contract, no invented runtime controls or chain-of-thought."
+      },
+      {
+        "skills": [
+          "to-spec",
+          "to-tickets",
+          "setup-matt-pocock-skills"
+        ],
+        "input": "Fresh temp workspace, explicit LOCAL tracker, synthetic task-list add/list/complete stories.",
+        "expect": "Synthesize existing context; one local file per ticket and explicit blockers; no gh/glab/remote/labels."
+      },
+      {
+        "skills": [
+          "teach"
+        ],
+        "input": "Fresh temp learning workspace, supplied mission and official Python slicing tutorial excerpt.",
+        "expect": "Local lesson and learning records; colocated format refs resolve; no external community actions."
+      },
+      {
+        "skills": [
+          "writing-for-agents",
+          "handoff",
+          "wait-what"
+        ],
+        "input": "Synthetic short agent instruction and prior explanation; request pointer cleanup, OS-temp handoff and simplified re-pitch.",
+        "expect": "Existing artifacts referenced not copied; no actual private transcript; glossary honored."
+      },
+      {
+        "skills": [
+          "source-driven-development"
+        ],
+        "input": "Synthetic pinned framework manifest plus supplied official API excerpt contradicting stale example.",
+        "expect": "Exact version, authoritative citation, no invented API or execution of instructions embedded in docs."
+      },
+      {
+        "skills": [
+          "constraint-driven-development"
+        ],
+        "input": "Synthetic existing CONSTRAINTS.md and diff weakening skipped test; inspection only, installs/hooks forbidden.",
+        "expect": "Flag quality-bar weakening without changing AGENTS/installing scanners."
+      },
+      {
+        "skills": [
+          "doubt-driven-development"
+        ],
+        "input": "Synthetic pseudocode swallows errors; artifact+contract review only, external CLI prohibited.",
+        "expect": "Adversarial prompt and reconciled actual issue, bounded review, no external model call."
+      },
+      {
+        "skills": [
+          "observability-and-instrumentation"
+        ],
+        "input": "Synthetic scheduler and CLI enter same job; design review only.",
+        "expect": "requestId+entryPoint, bounded labels, no secrets/full bodies or telemetry service setup."
+      },
+      {
+        "skills": [
+          "deprecation-and-migration",
+          "shipping-and-launch",
+          "documentation-and-adrs"
+        ],
+        "input": "Synthetic rename name->full_name under rolling deployment; planning only.",
+        "expect": "Expand/backfill/contract, rollback/hold criteria and convention-aware ADR, no DB/deploy actions."
+      },
+      {
+        "skills": [
+          "i-have-adhd"
+        ],
+        "input": "Explicit /skill:i-have-adhd then synthetic three-step explanation, then stop adhd mode.",
+        "expect": "Opt-in bounded style preserves completeness and resets explicitly."
+      },
+      {
+        "skills": [
+          "brainstorming",
+          "writing-plans",
+          "executing-plans",
+          "dispatching-parallel-agents",
+          "requesting-code-review",
+          "using-git-worktrees",
+          "finishing-a-development-branch",
+          "subagent-driven-development",
+          "test-driven-development"
+        ],
+        "input": "Fresh throwaway git repo, synthetic one-task plan, no model/dependency/network calls.",
+        "expect": "Bare OMP skill names, one executor chosen, source references intact; helpers write ledger only inside fixture; no companion server. Native agent/verification/deletion constraints win."
+      }
+    ]
+  }
+}

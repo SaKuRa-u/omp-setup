@@ -1,0 +1,599 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-11-07T15:49:20.933970+00:00",
+  "scope": "Existing assigned global OMP-only Emil skills; no other hosts, dependencies, providers, accounts, credentials or shared configuration modified.",
+  "repository": "https://github.com/emilkowalski/skills",
+  "before_pin": "2d228630ba1446365f614a108cb8252f1feda202",
+  "after_pin": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+  "sources": [
+    {
+      "pin": "2d228630ba1446365f614a108cb8252f1feda202",
+      "download_url": "https://codeload.github.com/emilkowalski/skills/zip/2d228630ba1446365f614a108cb8252f1feda202",
+      "archive_path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\emil-skills-2d228630ba1446365f614a108cb8252f1feda202.zip",
+      "archive_sha256": "e73ca0e374a08dc7e2c3d58984bfb9ec57325a35c6a4addf076c636b7e27225f",
+      "archive_root": "skills-2d228630ba1446365f614a108cb8252f1feda202/",
+      "exact_public_github_snapshot": true,
+      "signature_verified": false
+    },
+    {
+      "pin": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "download_url": "https://codeload.github.com/emilkowalski/skills/zip/c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "archive_path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\emil-skills-c8a79627b59d72d764d6ab6f2c87c09a48169833.zip",
+      "archive_sha256": "b83f4862ace9b2580cd3ce59c0cd9ae170a362bcf73563335d300ac6b4b5fd64",
+      "archive_root": "skills-c8a79627b59d72d764d6ab6f2c87c09a48169833/",
+      "exact_public_github_snapshot": true,
+      "signature_verified": false
+    }
+  ],
+  "license": {
+    "spdx": "MIT",
+    "copyright": "Copyright (c) 2026 Emil Kowalski",
+    "repository_relative_path": "LICENSE",
+    "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+    "changed_between_pins": false,
+    "installed_per_skill_license": "preserved unchanged; all nine equal official license bytes"
+  },
+  "manifest_algorithm": "SHA-256 over UTF-8 concatenation of sorted POSIX-relative file path + TAB + lowercase file-byte SHA-256 + LF; directories excluded; installed manifests include preserved LICENSE.",
+  "review": {
+    "changed_files_count": 6,
+    "upgraded_skill_count": 5,
+    "unchanged_skill_count": 4,
+    "assigned_skill_count": 9,
+    "local_vendor_modifications_found": false,
+    "new_subskills_installed": false,
+    "renames_required": false,
+    "scripts_in_assigned_vendor_trees": [],
+    "relative_reference_files": {
+      "animate": [
+        "RECIPES.md"
+      ],
+      "review-animations": [
+        "STANDARDS.md"
+      ],
+      "improve-animations": [
+        "AUDIT.md",
+        "PLAN-TEMPLATE.md"
+      ],
+      "break-ui": [
+        "CATALOG.md"
+      ]
+    },
+    "relative_reference_changes": "none; referenced files present in same assigned skill directories",
+    "new_commands_or_vendor_api_calls": "none in changed content",
+    "motion_guidance": "14.2+ acceleration is conditional documentation; no Motion dependency was installed or upgraded. Older-version full-transform fallback remains in upstream content.",
+    "upstream_readme_installer": "Observed npx skills@latest example; not executed.",
+    "compatibility_decision": "safe: Markdown-only content updates, same directory/file set and names; preserve official per-skill LICENSE additions"
+  },
+  "skills": [
+    {
+      "skill": "emil-design-eng",
+      "installed_path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\emil-design-eng",
+      "decision": "upgraded",
+      "reason": "Only version-qualified Motion acceleration guidance changed; documentation-only and no OMP host syntax changes.",
+      "before_pin": "2d228630ba1446365f614a108cb8252f1feda202",
+      "after_pin": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "before_manifest_sha256": "3bf33951d56a21f7676bd10e4f0fcdf382d34ca57323a964836f865cc53bd6aa",
+      "after_manifest_sha256": "8290654cc25e98667bcc061cec219c4f33c1e2849f1dbafc3fc66640ae4bb1fa",
+      "before_vendor_manifest_sha256": "8321ffd9959f7024e062e5bf1e5f6c99782ecc2773876d71d2a3154d613b13b0",
+      "after_vendor_manifest_sha256": "11b6684b4e8fc4f9de853a014af3e29d85fa61fbfbc6df7ab62e607d38fb528d",
+      "local_customization": {
+        "vendor_content_before": "byte-identical to baseline",
+        "preserved_extra_files": [
+          "LICENSE"
+        ],
+        "extra_file_origin": "byte-identical to upstream repository MIT LICENSE"
+      },
+      "changed_relative_paths": [
+        "SKILL.md"
+      ],
+      "added_relative_paths": [],
+      "removed_relative_paths": [],
+      "backup_path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\backups\\global-optimization-20261107\\emil\\emil-design-eng",
+      "backup_manifest_sha256": "3bf33951d56a21f7676bd10e4f0fcdf382d34ca57323a964836f865cc53bd6aa",
+      "before_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1070,
+          "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 27123,
+          "sha256": "ffbe68e6007fb42cb8149f089b400a1ca007d59ba23e8948e2be4476f3175939"
+        }
+      ],
+      "after_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1070,
+          "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 27509,
+          "sha256": "965cc3108047a1f68e504977ae7816c66115b202a32e7509c0b8305314839c54"
+        }
+      ],
+      "blockers": []
+    },
+    {
+      "skill": "animate",
+      "installed_path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\animate",
+      "decision": "upgraded",
+      "reason": "Only version-qualified Motion acceleration guidance changed; documentation-only and no OMP host syntax changes.",
+      "before_pin": "2d228630ba1446365f614a108cb8252f1feda202",
+      "after_pin": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "before_manifest_sha256": "9872f160fc49e6a579155e9beb8cfbf8060be99495a607c2b8e92b80bffcf961",
+      "after_manifest_sha256": "c8593e04d9a1a680b645ac0438a963c3a9df2f8ce7cc231cabb561d9ad2b71cd",
+      "before_vendor_manifest_sha256": "38090102ae347b679537a433662fef80b8e3e7a7509e33c4695b0b9e4c634f7d",
+      "after_vendor_manifest_sha256": "5f93aeb6292ee5ccbf30f6213e090a73eb4b22b57f1e15b786e7614899a01524",
+      "local_customization": {
+        "vendor_content_before": "byte-identical to baseline",
+        "preserved_extra_files": [
+          "LICENSE"
+        ],
+        "extra_file_origin": "byte-identical to upstream repository MIT LICENSE"
+      },
+      "changed_relative_paths": [
+        "SKILL.md"
+      ],
+      "added_relative_paths": [],
+      "removed_relative_paths": [],
+      "backup_path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\backups\\global-optimization-20261107\\emil\\animate",
+      "backup_manifest_sha256": "9872f160fc49e6a579155e9beb8cfbf8060be99495a607c2b8e92b80bffcf961",
+      "before_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1070,
+          "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+        },
+        {
+          "path": "RECIPES.md",
+          "bytes": 7957,
+          "sha256": "21ff63d84391db8d96ecdf9170095f55a42c836ccc36fd3269c4772bab031ba2"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 11860,
+          "sha256": "b8ede161270458e6ae2e45e8a1985373515d4c63de5568ddb0f9012d7634356c"
+        }
+      ],
+      "after_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1070,
+          "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+        },
+        {
+          "path": "RECIPES.md",
+          "bytes": 7957,
+          "sha256": "21ff63d84391db8d96ecdf9170095f55a42c836ccc36fd3269c4772bab031ba2"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 11910,
+          "sha256": "39138996033e0dbe53e73217514116eaeca774bae84a0687c80d445a4e0cc3a6"
+        }
+      ],
+      "blockers": []
+    },
+    {
+      "skill": "review-animations",
+      "installed_path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\review-animations",
+      "decision": "upgraded",
+      "reason": "Only version-qualified Motion acceleration guidance changed; documentation-only and no OMP host syntax changes.",
+      "before_pin": "2d228630ba1446365f614a108cb8252f1feda202",
+      "after_pin": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "before_manifest_sha256": "0971c104411d6646658363dfb53a94ef134843cebe689c19c7d95938ff0a4216",
+      "after_manifest_sha256": "832d7239a97ff9469684a53ba84262b4dab10ec49d94ac6e5f3a1ee9590b1377",
+      "before_vendor_manifest_sha256": "27d62129b09cb25d627f8536eb6a87f7bcc9b73d7d11817bb38bd8467d043a11",
+      "after_vendor_manifest_sha256": "b60ef0d4343cfe39b4e8b581903921b1cbdd7c5a8ab1e4272cfae9bd16352a50",
+      "local_customization": {
+        "vendor_content_before": "byte-identical to baseline",
+        "preserved_extra_files": [
+          "LICENSE"
+        ],
+        "extra_file_origin": "byte-identical to upstream repository MIT LICENSE"
+      },
+      "changed_relative_paths": [
+        "SKILL.md",
+        "STANDARDS.md"
+      ],
+      "added_relative_paths": [],
+      "removed_relative_paths": [],
+      "backup_path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\backups\\global-optimization-20261107\\emil\\review-animations",
+      "backup_manifest_sha256": "0971c104411d6646658363dfb53a94ef134843cebe689c19c7d95938ff0a4216",
+      "before_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1070,
+          "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 8407,
+          "sha256": "6ff590d29e436766135aa3d137be1fac2a867165c7257fc315b189361f1873af"
+        },
+        {
+          "path": "STANDARDS.md",
+          "bytes": 9801,
+          "sha256": "e7d3605034acda54ca13e43aec9e64d65b53de20f75b11b8d694e373012fbe07"
+        }
+      ],
+      "after_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1070,
+          "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 8491,
+          "sha256": "5f9fb98b69cace7107af8b393a4196fd42fa42d98bce0e5afc1f866ff3b8a41c"
+        },
+        {
+          "path": "STANDARDS.md",
+          "bytes": 9964,
+          "sha256": "8f5fe3f5a04537556dd4e6a37f7a8d6f616d840eb80f2f68b5b594febb170657"
+        }
+      ],
+      "blockers": []
+    },
+    {
+      "skill": "improve-animations",
+      "installed_path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\improve-animations",
+      "decision": "upgraded",
+      "reason": "Only version-qualified Motion acceleration guidance changed; documentation-only and no OMP host syntax changes.",
+      "before_pin": "2d228630ba1446365f614a108cb8252f1feda202",
+      "after_pin": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "before_manifest_sha256": "a71da0d7c2eafb3f29e92080eb12d20dfa4640c8219ffd492957a88503147a22",
+      "after_manifest_sha256": "9c2008d7d0932ed76d43da10afa5059afc175f64ae627380671776616854bed7",
+      "before_vendor_manifest_sha256": "b81280486d4373e0c89a143d6817dd64368f5a967c4666a327b6daedf1f43d8a",
+      "after_vendor_manifest_sha256": "1a2b6d9b17fd8a6a80d76f9bf33279f2ebdcca4384920feb4f1dfc1473050140",
+      "local_customization": {
+        "vendor_content_before": "byte-identical to baseline",
+        "preserved_extra_files": [
+          "LICENSE"
+        ],
+        "extra_file_origin": "byte-identical to upstream repository MIT LICENSE"
+      },
+      "changed_relative_paths": [
+        "AUDIT.md"
+      ],
+      "added_relative_paths": [],
+      "removed_relative_paths": [],
+      "backup_path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\backups\\global-optimization-20261107\\emil\\improve-animations",
+      "backup_manifest_sha256": "a71da0d7c2eafb3f29e92080eb12d20dfa4640c8219ffd492957a88503147a22",
+      "before_files": [
+        {
+          "path": "AUDIT.md",
+          "bytes": 7387,
+          "sha256": "551c8473e20e5f4774680bc24d45e1c68e50992582720905c6b077756b7b5a55"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1070,
+          "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+        },
+        {
+          "path": "PLAN-TEMPLATE.md",
+          "bytes": 3100,
+          "sha256": "0a08ac8e23fd2082d7ffb86aeed7b789de77328c3cf874b16f1a755f2ef0a6ad"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 8208,
+          "sha256": "73962447464433476343e2c12cd08ab39cc99a9e5f3c118c5fb54ed897574ef6"
+        }
+      ],
+      "after_files": [
+        {
+          "path": "AUDIT.md",
+          "bytes": 7632,
+          "sha256": "63fa8fcf7e7b3a3e252938e55c60e1f399f607e73553163e8dacf9df40f3ebed"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1070,
+          "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+        },
+        {
+          "path": "PLAN-TEMPLATE.md",
+          "bytes": 3100,
+          "sha256": "0a08ac8e23fd2082d7ffb86aeed7b789de77328c3cf874b16f1a755f2ef0a6ad"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 8208,
+          "sha256": "73962447464433476343e2c12cd08ab39cc99a9e5f3c118c5fb54ed897574ef6"
+        }
+      ],
+      "blockers": []
+    },
+    {
+      "skill": "find-animation-opportunities",
+      "installed_path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\find-animation-opportunities",
+      "decision": "retained-content-identical-at-new-pin",
+      "reason": "Assigned upstream skill tree is byte-identical between the two exact pins; no directory rewrite needed.",
+      "before_pin": "2d228630ba1446365f614a108cb8252f1feda202",
+      "after_pin": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "before_manifest_sha256": "34bdbc5f2df8334ccdbd6998a26974771d6939791e6900631983f80b07d58eca",
+      "after_manifest_sha256": "34bdbc5f2df8334ccdbd6998a26974771d6939791e6900631983f80b07d58eca",
+      "before_vendor_manifest_sha256": "68fe71b3e265f12adff80c64e1abc2fa5177570c6b0fcb0815b48c5a3d861563",
+      "after_vendor_manifest_sha256": "68fe71b3e265f12adff80c64e1abc2fa5177570c6b0fcb0815b48c5a3d861563",
+      "local_customization": {
+        "vendor_content_before": "byte-identical to baseline",
+        "preserved_extra_files": [
+          "LICENSE"
+        ],
+        "extra_file_origin": "byte-identical to upstream repository MIT LICENSE"
+      },
+      "changed_relative_paths": [],
+      "added_relative_paths": [],
+      "removed_relative_paths": [],
+      "backup_path": null,
+      "backup_manifest_sha256": null,
+      "before_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1070,
+          "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 9808,
+          "sha256": "d52a377819b84a71930f0c822cfe2849f40301605a2d5c7eccbfa3b257700df2"
+        }
+      ],
+      "after_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1070,
+          "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 9808,
+          "sha256": "d52a377819b84a71930f0c822cfe2849f40301605a2d5c7eccbfa3b257700df2"
+        }
+      ],
+      "blockers": []
+    },
+    {
+      "skill": "animation-performance",
+      "installed_path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\animation-performance",
+      "decision": "upgraded",
+      "reason": "Only version-qualified Motion acceleration guidance changed; documentation-only and no OMP host syntax changes.",
+      "before_pin": "2d228630ba1446365f614a108cb8252f1feda202",
+      "after_pin": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "before_manifest_sha256": "6247f6aeb21be059f21b4afb430adb7c203e0b149deb558e13807a7c7b933a94",
+      "after_manifest_sha256": "5f78702fab76b80370413ce8d4c7415b1fa4e55a7748f54f82ab1f37268f9d79",
+      "before_vendor_manifest_sha256": "a4443ce87d9789070e3724bd60fd6f320a1843562c1f53b7a2204b386ec4872b",
+      "after_vendor_manifest_sha256": "66cfd1762c65cd1cab6dbb59b4bf30ef26d1541cfa214a24a53fdf36205f1ab5",
+      "local_customization": {
+        "vendor_content_before": "byte-identical to baseline",
+        "preserved_extra_files": [
+          "LICENSE"
+        ],
+        "extra_file_origin": "byte-identical to upstream repository MIT LICENSE"
+      },
+      "changed_relative_paths": [
+        "SKILL.md"
+      ],
+      "added_relative_paths": [],
+      "removed_relative_paths": [],
+      "backup_path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\backups\\global-optimization-20261107\\emil\\animation-performance",
+      "backup_manifest_sha256": "6247f6aeb21be059f21b4afb430adb7c203e0b149deb558e13807a7c7b933a94",
+      "before_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1070,
+          "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 13966,
+          "sha256": "ceb9dd3fe912615830f725a0120ccf8d012d15a6218001a5cd6c15d38e39a957"
+        }
+      ],
+      "after_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1070,
+          "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 14269,
+          "sha256": "6c60f45ab416ff3f7d7765a5427beead77fab0d82487fe610d2a298397558d0a"
+        }
+      ],
+      "blockers": []
+    },
+    {
+      "skill": "animation-vocabulary",
+      "installed_path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\animation-vocabulary",
+      "decision": "retained-content-identical-at-new-pin",
+      "reason": "Assigned upstream skill tree is byte-identical between the two exact pins; no directory rewrite needed.",
+      "before_pin": "2d228630ba1446365f614a108cb8252f1feda202",
+      "after_pin": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "before_manifest_sha256": "87d5bae673e4caced1fdc555b0a0f74f47198021f0696c30a82f40e49fec3086",
+      "after_manifest_sha256": "87d5bae673e4caced1fdc555b0a0f74f47198021f0696c30a82f40e49fec3086",
+      "before_vendor_manifest_sha256": "4d8f3f1675076d126c4fc01cfac5ec74709ee9283fd7ba5c201ee57fdb2e426f",
+      "after_vendor_manifest_sha256": "4d8f3f1675076d126c4fc01cfac5ec74709ee9283fd7ba5c201ee57fdb2e426f",
+      "local_customization": {
+        "vendor_content_before": "byte-identical to baseline",
+        "preserved_extra_files": [
+          "LICENSE"
+        ],
+        "extra_file_origin": "byte-identical to upstream repository MIT LICENSE"
+      },
+      "changed_relative_paths": [],
+      "added_relative_paths": [],
+      "removed_relative_paths": [],
+      "backup_path": null,
+      "backup_manifest_sha256": null,
+      "before_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1070,
+          "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 13425,
+          "sha256": "40d2b27adfdfeb0570a9f20e7d0255109d9233c50603878bcd0dcd04c923fd94"
+        }
+      ],
+      "after_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1070,
+          "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 13425,
+          "sha256": "40d2b27adfdfeb0570a9f20e7d0255109d9233c50603878bcd0dcd04c923fd94"
+        }
+      ],
+      "blockers": []
+    },
+    {
+      "skill": "mobile-native",
+      "installed_path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\mobile-native",
+      "decision": "retained-content-identical-at-new-pin",
+      "reason": "Assigned upstream skill tree is byte-identical between the two exact pins; no directory rewrite needed.",
+      "before_pin": "2d228630ba1446365f614a108cb8252f1feda202",
+      "after_pin": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "before_manifest_sha256": "60073770d8738579a050b02413342a9a005fe7b75e96cfa402a1db36245f7ca1",
+      "after_manifest_sha256": "60073770d8738579a050b02413342a9a005fe7b75e96cfa402a1db36245f7ca1",
+      "before_vendor_manifest_sha256": "f8f4a8d189cccd959259682ab6d2ef40e00b1bd36e3c8ddf7c182b6d92ec95d2",
+      "after_vendor_manifest_sha256": "f8f4a8d189cccd959259682ab6d2ef40e00b1bd36e3c8ddf7c182b6d92ec95d2",
+      "local_customization": {
+        "vendor_content_before": "byte-identical to baseline",
+        "preserved_extra_files": [
+          "LICENSE"
+        ],
+        "extra_file_origin": "byte-identical to upstream repository MIT LICENSE"
+      },
+      "changed_relative_paths": [],
+      "added_relative_paths": [],
+      "removed_relative_paths": [],
+      "backup_path": null,
+      "backup_manifest_sha256": null,
+      "before_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1070,
+          "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 16838,
+          "sha256": "888b7651d66d66dbac4e72b7c554638eb19bd971d686d6cbdf030a5ef3788f55"
+        }
+      ],
+      "after_files": [
+        {
+          "path": "LICENSE",
+          "bytes": 1070,
+          "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 16838,
+          "sha256": "888b7651d66d66dbac4e72b7c554638eb19bd971d686d6cbdf030a5ef3788f55"
+        }
+      ],
+      "blockers": []
+    },
+    {
+      "skill": "break-ui",
+      "installed_path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\break-ui",
+      "decision": "retained-content-identical-at-new-pin",
+      "reason": "Assigned upstream skill tree is byte-identical between the two exact pins; no directory rewrite needed.",
+      "before_pin": "2d228630ba1446365f614a108cb8252f1feda202",
+      "after_pin": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "before_manifest_sha256": "734b3935c80935cc986bd050b6130fbc86645f536bc447b922ad557cdb5ea9ce",
+      "after_manifest_sha256": "734b3935c80935cc986bd050b6130fbc86645f536bc447b922ad557cdb5ea9ce",
+      "before_vendor_manifest_sha256": "3eba485e99913228586524ee5380a8ebc4130897b336adee42a37f785b15d5c1",
+      "after_vendor_manifest_sha256": "3eba485e99913228586524ee5380a8ebc4130897b336adee42a37f785b15d5c1",
+      "local_customization": {
+        "vendor_content_before": "byte-identical to baseline",
+        "preserved_extra_files": [
+          "LICENSE"
+        ],
+        "extra_file_origin": "byte-identical to upstream repository MIT LICENSE"
+      },
+      "changed_relative_paths": [],
+      "added_relative_paths": [],
+      "removed_relative_paths": [],
+      "backup_path": null,
+      "backup_manifest_sha256": null,
+      "before_files": [
+        {
+          "path": "CATALOG.md",
+          "bytes": 8268,
+          "sha256": "7358efcc6bb48e35187be1c064cf60022dcb18c72c18fab58b606dfc5f421f15"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1070,
+          "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 14380,
+          "sha256": "e7eec1d70ac56a04255e9c0dbe98084ea3d544cc04aaad34f32c95d6fa9dff5e"
+        }
+      ],
+      "after_files": [
+        {
+          "path": "CATALOG.md",
+          "bytes": 8268,
+          "sha256": "7358efcc6bb48e35187be1c064cf60022dcb18c72c18fab58b606dfc5f421f15"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1070,
+          "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 14380,
+          "sha256": "e7eec1d70ac56a04255e9c0dbe98084ea3d544cc04aaad34f32c95d6fa9dff5e"
+        }
+      ],
+      "blockers": []
+    }
+  ],
+  "touched_installed_files": [
+    "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\emil-design-eng\\SKILL.md",
+    "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\animate\\SKILL.md",
+    "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\review-animations\\SKILL.md",
+    "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\review-animations\\STANDARDS.md",
+    "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\improve-animations\\AUDIT.md",
+    "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\animation-performance\\SKILL.md"
+  ],
+  "checks_exercised": [
+    "Before-edit comparison of all nine installed trees against exact baseline and target archive bytes.",
+    "Inspected complete changed hunks, upstream README/LICENSE, installed relative references and executable/host-specific command indicators.",
+    "Collected per-file and directory SHA-256 manifests before and after for required evidence.",
+    "Created five directory backups before edits."
+  ],
+  "checks_not_run": [
+    "No build, lint, test runner, formatter or skill-evaluation invocation.",
+    "No OMP discovery/reload or rendered skill invocation.",
+    "No browser, animation performance or actual Motion-version behavior test.",
+    "No independent post-edit runtime verification; main agent owns final verification."
+  ],
+  "main_agent_verification": [
+    "Recompute installed file and directory hashes; compare against after_files and after_manifest_sha256.",
+    "Compare each vendor file against its exact target ZIP member; LICENSE must remain equal repository root LICENSE.",
+    "Confirm five backup manifests equal recorded before manifests.",
+    "Check OMP discovers all nine existing names and relative reference files resolve; no newly installed names.",
+    "Treat Motion 14.2 guidance as version-conditional; do not install/upgrade dependencies during this global skill rollout."
+  ],
+  "rollback": "For each skill with backup_path, restore that backup directory to installed_path using byte-preserving file copy. The file set did not change; no deletions or name migration are required. Leave four content-identical skills untouched. Do not modify shared config/AGENTS.md/ledger."
+}

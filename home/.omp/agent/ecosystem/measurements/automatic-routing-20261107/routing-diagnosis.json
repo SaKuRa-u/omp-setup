@@ -1,0 +1,9 @@
+{
+  "exit": 0,
+  "globalRoutingPresent": true,
+  "promptGuideCatalogPresent": true,
+  "graphGuideCatalogPresent": true,
+  "firstPass": "4/6 passed; prompt authoring no tool reads, graph case read graph/source but skipped guide; answers correct",
+  "hypothesis": "Catalog and global routing reached model; current choose/read phrasing is permissive enough that easy tasks bypass selected specialized guide. Strengthen one general selection-before-answer invariant, not case-specific forced commands.",
+  "uncertainty": "Model internal cause not observable; stochastic routing remains possible."
+}

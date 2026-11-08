@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-11-07",
+  "component": "academic-research-skills",
+  "decision": "staged_inactive_retain_current_registration",
+  "safe_to_stage_inert_original_source": true,
+  "active_upgrade_applied": false,
+  "current": {
+    "version": "3.23.1",
+    "commit": "4c5449017f46eb64d112a301d4817d22c7c9f3d9",
+    "root": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/sources/academic-research-skills-4c544901",
+    "preserved": true
+  },
+  "candidate": {
+    "version": "3.24.2",
+    "commit": "fd5ff1b858374219b4d342e38587b66e18f61cbd",
+    "tag_object": "ecc156277f7a0f2e39110125ba8a41264cfac5de",
+    "git_tree": "21c842b866450746961db84ecccf6756ee249ac4",
+    "root": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/sources/academic-research-skills-fd5ff1b8",
+    "release_url": "https://github.com/Imbad0202/academic-research-skills/releases/tag/v3.24.2",
+    "tracked_checkout_files_reported_by_clone": 2860,
+    "source_file_edits": false,
+    "activation": "none; parent-owned config, AGENTS, routing fixtures, docs and ledger left unchanged",
+    "acquisition": "Native git clone --depth 1 --branch v3.24.2 with core.autocrlf=false and core.hooksPath=NUL; fetched baseline commit into candidate .git only for source diff. No upstream program executed."
+  },
+  "backup": {
+    "path": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/global-optimization-20261107/ars-3.23.1-4c544901-original.zip",
+    "sha256": "c2ed0c11428b8b6200aceb47e1151ec66c5c88e71901b0828d9889c557af4d7f",
+    "kind": "git archive of original pinned commit, not a capture of untracked working-copy data",
+    "old_live_source": "retained in place, never overwritten",
+    "timing": "Append-only candidate staged first; archive created before any existing source/policy mutation (none performed)."
+  },
+  "license": {
+    "spdx": "CC-BY-NC-4.0",
+    "copyright": "2026 Cheng-I Wu",
+    "license_bytes_equal_old": true,
+    "notice_bytes_equal_old": true,
+    "permission": "Existing user authorization covers academic/personal noncommercial use only. No commercial permission inferred. Original LICENSE, NOTICE.md and THIRD_PARTY.md retained with full source."
+  },
+  "source_review": {
+    "baseline_to_candidate": "Native git diff name-status plus targeted protocol/schema/helper diffs and direct source reads; no test, lint, formatter, helper or script execution.",
+    "release_changes": [
+      "3.23.2: exact cited-version claim verification; inaccessible cited version yields UNVERIFIABLE_ACCESS rather than substitution; mandatory Stage 2.5; missing required input blocks transition; Socratic authorship-boundary repair; Obsidian parser, Windows lint and inactive Pi-wrapper repairs.",
+      "3.24.0: suggested-reference advisory attachment uses live bibliographic indexes; reviewer-claim advisory attachment defaults on and uses a no-tool session-model subagent; paid multi-model heldout dispatcher exists in source only. Integrity freshness and final-entry rules aligned; inactive guard launcher optimized.",
+      "3.24.1: explicit reviewer-card user-turn confirmation before all Phase-0 modes, including pipeline Stage 3; five plugin paths replace skills/ symlinks; four plugin agent frontmatter names become hyphenated, role ids and filenames unchanged; Portuguese README.",
+      "3.24.2: per-experiment null repro_lock allowed only with nonblank repro_lock_reason; populated lock required-value validation tightened; planned_vs_executed[].value restricted to number|string; accurate read-only screening methods sentence; Desktop/Cowork multiagent capabilities remain untested."
+    ],
+    "reviewed_paths": [
+      "CHANGELOG.md:9-91",
+      "academic-paper-reviewer/SKILL.md:218-250",
+      "academic-pipeline/SKILL.md:472-479",
+      "academic-pipeline/agents/pipeline_orchestrator_agent.md:42-45,135-137",
+      "academic-pipeline/agents/integrity_verification_agent.md:328-369",
+      "shared/handoff_schemas.md:964-983,1195-1198",
+      "shared/contracts/passport/experiment_provenance_entry.schema.json:1-159",
+      "scripts/check_experiment_provenance.py:30-51",
+      "scripts/check_repro_lock.py",
+      "scripts/repro_lock_validation.py",
+      "scripts/audit_panel_claims.py:1-58",
+      "scripts/verify_panel_recommendations.py:287-330,402-427",
+      "scripts/dispatch_panel_claim_audit.py:64-139",
+      "sr-screener/scripts/srlib.py",
+      "sr-screener/references/orchestration.md",
+      ".claude-plugin/plugin.json",
+      "LICENSE",
+      "NOTICE.md"
+    ]
+  },
+  "native_adaptation_boundary": {
+    "preserve_originals": true,
+    "allowed": "Original Markdown methodology through native OMP read/task/ask/web, subject to actual semantics and existing human author responsibility.",
+    "not_enabled": [
+      "Claude plugin APIs/hooks/agents/slash commands",
+      "Pi wrapper",
+      "auto-updater",
+      "model tiering",
+      "provider SDKs or paid multi-model dispatch",
+      "any Python or shell helper",
+      "new credentials, dependencies, installers or external services"
+    ],
+    "new_advisory_fallbacks": "SKILL.md explicitly permits a one-line did-not-run attachment when suggested-reference helper, reviewer-claim helper or subagent cannot run; ARS_PANEL_CLAIM_CHECK=0 is also documented. Do not claim completed checks. Do not silently activate source helpers.",
+    "privacy": "Suggested-reference helper sends recommended titles and identifiers to Crossref/OpenAlex/Semantic Scholar/arXiv, not full manuscript; still requires task-specific authorization. Reviewer-claim prompt includes manuscript; no separate provider or confidential transfer authorized.",
+    "screening": "Read/Grep-only tools do not restrict reading to the assigned file; no dual-blind/independent/isolation claim is valid from prompt roles alone."
+  },
+  "human_checkpoints": [
+    "Show every reviewer card after Phase 0 and end the user-facing turn. Dispatch no reviewer seat until the user accepts the whole set in their own turn; edits without acceptance require re-presenting cards. Applies full, methodology-focus, guided, quick and pipeline Stage 3. Only explicit per-review/per-run user waiver skips this checkpoint; general skip-questions/direct-mode/manuscript instructions do not.",
+    "Stage 2.5 always precedes initial pipeline review; prior report is context only. Stage 4.5 precedes final output, including entry at Stage 5; freshness is less than 24 hours, never same-session exemption.",
+    "Missing required input remains HANDOFF_INCOMPLETE, not user skip-at-risk. Preserve author experiment declarations, integrity escalations, no fabricated results, and user finalization consent."
+  ],
+  "relative_files_and_schema": {
+    "full_tree_retained": true,
+    "registration": "Register candidate repository ROOT once in skills.customDirectories; native scanner finds five top-level */SKILL.md. Do not use deleted skills/ directory or register both old and new roots.",
+    "roots": "Resolve root-relative scripts/shared paths against candidate root, never manuscript cwd; preserve full shared/contracts, templates, agents, scripts, eval prompt and notices.",
+    "validator_path": "check_experiment_provenance.py uses Path(__file__).resolve().parent.parent / shared/contracts/passport/experiment_provenance_entry.schema.json, Draft202012Validator (yaml + jsonschema external prerequisites).",
+    "auditor_prompt_path": "audit_panel_claims.py resolves evals/heldout/panel_claim_factuality/prompts/auditor.md relative to its source root; file retained.",
+    "schema_backward_incompatibility": [
+      "check_repro_lock.py now rejects previously accepted populated required values of wrong type/null/empty string; secondary_model_id remains string|null.",
+      "experiment_provenance[].planned_vs_executed[].value now rejects null, booleans, arrays and mappings; only number|string accepted.",
+      "New per-experiment repro_lock:null plus reason is rejected by v3.23.1; no mixed-version producer/validator allowed.",
+      "Populated per-experiment lock rejects repro_lock_reason; null lock requires nonblank reason <=2000 chars."
+    ],
+    "sr_agent_names": "Plugin-scoped old screening_reviewer_agent maps to new screening-reviewer-agent without changing stage identity; bare names remain distinct. OMP does not register either vendor plugin agent; native screening dispatch remains separately unvalidated."
+  },
+  "activation_blockers": [
+    {
+      "id": "saved_passport_and_caller_compatibility_unverified",
+      "reason": "The release deliberately changes accepted Material Passport values and version interoperability. No inventory of actual saved manuscript passports or their external producers/validators is provided in this assignment, and script/test execution is prohibited. Static review cannot establish that existing populated locks/metric values and mixed-version consumers remain valid. Retain v3.23.1 registration until the parent establishes no affected saved artifacts or validates/migrates an exact user-authorized workflow without fabricating values.",
+      "not_a_claim": "No observed manuscript failure; this is a precise unverified migration boundary, not an assertion that every old passport breaks."
+    }
+  ],
+  "parent_reference_updates_if_cleared": [
+    {
+      "path": "global OMP settings: skills.customDirectories",
+      "change": "Replace only academic-research-skills-4c544901 repository-root entry with academic-research-skills-fd5ff1b8; keep all other directories and do not double-register."
+    },
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/AGENTS.md:153",
+      "change": "Update version 3.23.1 -> 3.24.2, full commit and root. Preserve NC, original-source, helper-consent, no-vendor-runtime and human-checkpoint policy; make new card stop and unavailable-advisory disclosure explicit if needed."
+    },
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/PANDUAN-PROYEK-OMP.md:213",
+      "change": "Update version, commit and root; retain root-scanner explanation and current restrictions."
+    },
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/skill-routing-cases.json:555,566,577,588,599",
+      "change": "Update five ARS sourcePath snapshot prefixes together; descriptions/selection expected results stay original unless parent discovery demonstrates drift."
+    },
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/ledger.json",
+      "change": "Record staged-but-inactive decision now; only claim active update after parent clears blocker and verifies registration."
+    }
+  ],
+  "parent_smoke_instructions_no_vendor_execution": [
+    "Confirm source commit/tree and selected hashes against this evidence; confirm five original skill files, local schema and auditor prompt remain at the candidate root.",
+    "Keep old registration while checking caller compatibility: identify affected saved passports in the exact authorized manuscript scope, never crawl unrelated users/hosts. Do not run a new writer against old validators or auto-fill missing provenance.",
+    "After compatibility clearance and parent-owned policy/config/fixture updates, run the existing native OMP skill-discovery and routing smoke once. Expect exactly five ARS skills, no duplicate old registration and no vendor plugin/hook/provider activation.",
+    "Native dry review interaction: Phase 0 returns cards and stops; no reviewer is dispatched before explicit user acceptance. Cannot-run advisory sections are disclosed rather than fabricated. This exercise must not start vendor helpers or paid calls.",
+    "Confirm existing academic/personal NC and privacy/permission boundaries remain. Existing methods text claiming file-enforced isolation must be corrected manually by the author if used."
+  ],
+  "verification_executed": [],
+  "provenance_operations_executed": [
+    "Public release page read (GitHub API returned HTTP 403, normal public page and git transport succeeded)",
+    "git ls-remote release tag and peeled commit",
+    "native git clone and baseline fetch",
+    "native git diff source review",
+    "native git show commit/tree metadata",
+    "native git archive original commit backup",
+    "SHA-256 file hashing and byte comparison of license/notice"
+  ],
+  "new_source_file_sha256": {
+    "LICENSE": "b3848009d12a173f549ef98d9ee486e64459e8eb5d9f895bff53782b4aa86d7c",
+    "NOTICE.md": "4f8eb1306c01b419baeff7f66d96ea3bd46076436406954c7eff21fb2e0003f1",
+    "THIRD_PARTY.md": "ccfb19e8636c63fea505c99ccbd39a386ec2a6a57633cb95dbd9af20afc5d6d6",
+    ".claude-plugin/plugin.json": "15716de4bfd084e537ea63855fe31a45555f768deea0a3a1e624cca47eb5272c",
+    "deep-research/SKILL.md": "d4b056eab3bb520bf7a45aeb3cf16260b532e0d99cec414d9ed9085b1f470948",
+    "academic-paper/SKILL.md": "8a7bb8ae8bfebefb9e3ea4a11ab2a42c024dd6a27d4ecc04c2865471ab8137b3",
+    "academic-paper-reviewer/SKILL.md": "61c0b64e0b0cfe4bdbba2a9c50f35a56b4b3d4d63235d0f538e39205ea064ccb",
+    "academic-pipeline/SKILL.md": "5519dcd757d157efa72b27268c4aaa0ec1eb3019ebdbe3cde5d51ac22d76bf28",
+    "sr-screener/SKILL.md": "6bab01023c6a4b6534a5ba904511c60f1212416ce3f51be36c73486059ad4789",
+    "shared/contracts/passport/experiment_provenance_entry.schema.json": "77e7ee139c37229a5c0e878a53c3f9014557c7d37cbe34dd330d4e8e76498493",
+    "shared/handoff_schemas.md": "adfd21750e321484350e6780257e2c8b8db6f565bf4a82d2c68b0b5540b80f16",
+    "scripts/check_experiment_provenance.py": "53fb073921d6332cb27488e25666ccfbcdb39863c91629840735fa699deacb2d",
+    "scripts/check_repro_lock.py": "21c7116de96675aa4479d886e447f84a4806e87cd03eb8250e4c4db0eedab6c8",
+    "scripts/repro_lock_validation.py": "32d157a9b0a114d311c11244c81626a28f3ee0f3f37d96348bc30e09685fdd4f",
+    "scripts/verify_panel_recommendations.py": "1cd6de17a09e3b269e46609c5b0d3d15c60022060be896b5c5a60728c929311c",
+    "scripts/audit_panel_claims.py": "b16f740818322ffa8c8a919dba2b2079c0aa72efa1cc724b219c89f3cffde90a",
+    "scripts/dispatch_panel_claim_audit.py": "63687da44deac31b80ca3b8862c4c39d5c0612e9daa941d465c5d78f1639845d",
+    "evals/heldout/panel_claim_factuality/prompts/auditor.md": "82284fc2b100a762433158f9fc337711589390c1a3d9e94291c525c699b51a40"
+  }
+}

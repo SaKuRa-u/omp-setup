@@ -1,0 +1,9 @@
+# ML/LLM: batas kemampuan global
+
+Status: source-assessed, bukan GPU/training/inference benchmark. Python Eval3.14.4 berjalan; PyTorch/CUDA/PEFT/TRL/quantization stack dan GPU readiness tidak diuji atau diinstal. Guidance Hugging Face dievaluasi di CandidateAccessML.md; tidak mengaktifkan Hub login, remote MCP, Jobs, Spaces berbayar atau upload dataset/model.
+
+Model soup bukan ensemble logits: paper Wortsman et al., https://arxiv.org/abs/2203.05482, menggabungkan bobot fine-tune dari pretrained model yang sama; manfaat eksperimen paper bukan jaminan arbitrary models compatible. MergeKit resmi https://github.com/arcee-ai/mergekit mendokumentasikan linear/SLERP/task_arithmetic/TIES/DARE dan multi-stage merging; baca implementation/version/config model nyata sebelum implementasi. Identitas arsitektur/tensor/tokenizer, base checkpoint, dtype, lisensi model, evaluasi held-out dan reproducibility perlu dipertahankan. Jangan gunakan `--allow-crimes`, lazy pickle, download/remote code atau upload sebagai default hanya karena contoh vendor.
+
+LoRA/QLoRA adalah strategi adaptasi/quantized fine-tuning, PEFT/TRL adalah tooling; quantization, distillation, preference optimization, checkpoint merging dan inference optimization bukan sinonim. Weight Space Programming merupakan istilah payung operasional, bukan bukti satu API/algoritma baku; pilih metode dan authority paper sesuai tugas nyata. Tidak menambah skill buatan untuk mengklaim dukungan seluruh domain. Capability guidance tersedia global; toolchain/runtime training disiapkan project-local ketika target/model/hardware diketahui dan operasi berbiaya disetujui.
+
+Belum diverifikasi: terminologi detail TIES/DARE dari full paper, arbitrary checkpoint compatibility, model-soup performance pada model pengguna, GPU/memory cost, quantization quality, ML experiment tracking. Tidak ada klaim functional training dari keberadaan Markdown.

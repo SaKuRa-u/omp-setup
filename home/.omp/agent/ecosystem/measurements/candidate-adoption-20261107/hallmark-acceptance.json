@@ -1,0 +1,17 @@
+{
+  "status": "Partial: theme/scaffold and static negative detection verified; rendered gate blocked",
+  "themeListExit": 0,
+  "scaffoldExit": 0,
+  "negativeFixtureExit": 1,
+  "expectedDetection": "FAIL10a transition:all",
+  "findings": {
+    "fail": 5,
+    "reflex": 1,
+    "warn": 2
+  },
+  "render": "not run: browser already running/profile error",
+  "stderr": "taskkill command error emitted by vendor; no arbitrary PID killed by parent",
+  "fullWorkflowPass": false,
+  "visualQualityCompared": false,
+  "sideEffects": "tokens.css/base.css plus fixture under scratch only; no hooks/accounts"
+}

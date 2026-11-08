@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-07",
+  "status": "Implemented and selectively runtime-verified; not all-features certification",
+  "candidatesReviewed": 21,
+  "newSkills": 55,
+  "newManual": 39,
+  "newAutomaticMetadata": 16,
+  "projectProof": [
+    {
+      "cwd": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/measurements/candidate-adoption-20261107",
+      "count": 151,
+      "selected": 55,
+      "baselinePreserved": true
+    },
+    {
+      "cwd": "C:/Users/Indrimeilla-PC/orca/projects/management-hub",
+      "count": 151,
+      "selected": 55,
+      "baselinePreserved": true
+    },
+    {
+      "cwd": "C:/Users/Indrimeilla-PC/orca/projects/Onboarding",
+      "count": 156,
+      "selected": 55,
+      "baselinePreserved": true
+    }
+  ],
+  "catalogProof": [
+    {
+      "cwd": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/measurements/candidate-adoption-20261107",
+      "manualHidden": 39,
+      "specialistVisible": 16
+    },
+    {
+      "cwd": "C:/Users/Indrimeilla-PC/orca/projects/Onboarding",
+      "manualHidden": 39,
+      "specialistVisible": 16
+    }
+  ],
+  "fileHashes": {
+    "designEngineeringKnowledge": 2229,
+    "domain": 200
+  },
+  "effectiveConfiguration": {
+    "memory": "off",
+    "approval": "yolo",
+    "modelRoles": {
+      "default": "openai-codex/gpt-6.1-sol:medium",
+      "smol": "openai-codex/gpt-6-luna:low"
+    },
+    "customRoots": [
+      "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/sources/academic-research-skills-4c544901",
+      "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7/skills",
+      "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0/skills/productivity",
+      "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0/skills/engineering",
+      "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e/skills",
+      "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6/skills",
+      "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a/skills",
+      "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/claude-seo-6be93f45064ffbadced572b5d5c95f55fd263af0/skills"
+    ]
+  },
+  "inference": [
+    {
+      "skill": "prompt-master",
+      "model": "openai-codex/gpt-6-luna",
+      "result": "Produced schema-aware SQLite migration-review prompt retaining backup/rollback/count-value verification/no-execution/no-upload constraints",
+      "limit": "single synthetic case; no comparative benchmark"
+    },
+    {
+      "skill": "understand-explain",
+      "result": "Graph-only fixture: refused unverifiable numeric result. With explicit sibling source path: correct order_amount caller and 33.0 arithmetic.",
+      "limit": "No full UA generation/dashboard tested"
+    }
+  ],
+  "warnings": [
+    "Two initial inference startups warned existing Semgrep not ready after30000ms; third run no such warning. No route changes/redundant health rerun.",
+    "Hallmark render failed at browser-profile launch; static expected negative detection passed",
+    "UIUX category recommendations mismatched clinic/architecture briefs",
+    "Agent Reach python -m entrypoint failed; official console entrypoint succeeded"
+  ],
+  "backupByteViability": [
+    {
+      "name": "config.yml",
+      "sha256": "f480e9b7c2b71df406dff9776858294ca93d2d3baa9a52aae2f807551c722888",
+      "copyRestoresBytes": true
+    },
+    {
+      "name": "AGENTS.md",
+      "sha256": "98bcd586b0f8f0a59750586e0ec87e717b83de7e42805f102fa5e2279596c28a",
+      "copyRestoresBytes": true
+    }
+  ],
+  "rollbackLimits": "Backup bytes and scratch restoration checked; live rollback not performed because active discovery works; manifest-targeted quarantine instructions retained.",
+  "notTested": [
+    "real application design comparison",
+    "ML/GPU/training/model download",
+    "all Reach and last30days channels",
+    "full UA pipeline/dashboard",
+    "SpecKit full model/hook pipeline",
+    "future named-profile inheritance",
+    "OS-enforced sandbox/no-egress assurance"
+  ]
+}

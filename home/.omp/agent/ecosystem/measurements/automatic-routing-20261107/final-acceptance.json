@@ -1,0 +1,82 @@
+{
+  "status": "Implemented; native discovery and default-model synthetic routing verified; smol routing remains limited",
+  "global": {
+    "registered": 151,
+    "discoverableMetadata": 141,
+    "vendorExplicit": 10,
+    "newlyAutomatic": 32
+  },
+  "catalog": [
+    {
+      "cwd": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\measurements\\automatic-routing-20261107",
+      "registered": 151,
+      "visible": 141,
+      "hidden": 10,
+      "selectedVisible": 48,
+      "selectedHidden": 7
+    },
+    {
+      "cwd": "C:/Users/Indrimeilla-PC/orca/projects/management-hub",
+      "registered": 151,
+      "visible": 141,
+      "hidden": 10,
+      "selectedVisible": 48,
+      "selectedHidden": 7
+    },
+    {
+      "cwd": "C:/Users/Indrimeilla-PC/orca/projects/Onboarding",
+      "registered": 156,
+      "visible": 145,
+      "hidden": 11,
+      "selectedVisible": 48,
+      "selectedHidden": 7
+    }
+  ],
+  "vendorBodyChecks": 55,
+  "explicitAdditional": [
+    "setup-matt-pocock-skills",
+    "i-have-adhd",
+    "to-spec",
+    "to-tickets",
+    "handoff",
+    "teach",
+    "wait-what"
+  ],
+  "modelResults": {
+    "default": {
+      "model": "openai-codex/gpt-6.1-sol",
+      "passed": 6,
+      "total": 6,
+      "evidence": "default-model/intent-acceptance.json"
+    },
+    "smolBefore": {
+      "passed": 4,
+      "total": 6,
+      "evidence": "first-pass/intent-acceptance.json"
+    },
+    "smolAfterPolicyFix": {
+      "passed": 4,
+      "total": 6,
+      "evidence": "second-pass/intent-acceptance.json"
+    }
+  },
+  "securityUnchanged": {
+    "memory": "off",
+    "approval": "yolo",
+    "modelRoles": {
+      "default": "openai-codex/gpt-6.1-sol:medium",
+      "smol": "openai-codex/gpt-6-luna:low"
+    }
+  },
+  "backupFilesByteRestoreVerified": 6,
+  "sourceBodiesEdited": false,
+  "newHooksOrRouter": false,
+  "report": "REPORT.md",
+  "limits": [
+    "No deterministic trigger guarantee",
+    "Smol skipped two specialist guides in both runs",
+    "Six default synthetic cases do not prove all48 additional discoverable skills",
+    "No UI visual/training/external-channel/runtime benchmark performed in this routing task",
+    "Fresh sessions required; future named-profile inheritance not assumed"
+  ]
+}

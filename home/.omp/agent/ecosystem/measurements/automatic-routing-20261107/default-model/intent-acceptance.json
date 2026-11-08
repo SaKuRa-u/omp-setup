@@ -1,0 +1,56 @@
+{
+  "model": "openai-codex/gpt-6.1-sol",
+  "scope": "Six synthetic native default-model runs; unchanged case prompts/assertions; not a general routing benchmark; raw reasoning/session content not retained",
+  "cases": [
+    {
+      "id": "company-art-direction",
+      "loaded": [
+        "design-taste-frontend"
+      ],
+      "passed": true,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "prompt-authoring",
+      "loaded": [
+        "prompt-master"
+      ],
+      "passed": true,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "graph-explanation",
+      "loaded": [
+        "understand-explain"
+      ],
+      "passed": true,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "ordinary-question",
+      "loaded": [],
+      "passed": true,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "quoted-trigger",
+      "loaded": [],
+      "passed": true,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "native-spec-no-publication",
+      "loaded": [],
+      "passed": true,
+      "issues": [],
+      "warnings": []
+    }
+  ],
+  "passed": 6,
+  "total": 6
+}

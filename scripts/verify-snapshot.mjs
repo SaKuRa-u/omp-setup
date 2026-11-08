@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { isUtf8 } from 'node:buffer';
 import { createHash } from 'node:crypto';
 import { lstat, readFile, readdir } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
@@ -8,10 +9,17 @@ const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const excludedDirectories = new Set([
   '.git', 'secrets', 'credentials', 'sessions', 'history', 'blobs',
   'browser-profiles', 'state', 'backups', 'node_modules', 'venv', '.venv', '__pycache__',
+  'scratch', 'tmp', 'temp', '.cache', 'cache', '.pytest_cache', '.mypy_cache', '.ruff_cache',
+  '.tox', '.nox', '.ssh', '.aws', '.gnupg', '.kube', 'user data',
+  '.mozilla', '.chromium', '.google-chrome',
 ]);
-const excludedFile = /^(?:\.env(?:\..*)?|auth\.json|credentials\.json)$|\.(?:dpapi|key|pem|pfx|p12|db(?:-.*)?|sqlite.*|log|exe|dll|whl|zip|tgz|tar\.gz)$/i;
+const excludedFile = /^(?:\.env(?:\..*)?|\.npmrc|_?netrc|\.netrc|\.pypirc|\.git-credentials|auth(?:\.(?:json|ya?ml|toml))?|credentials(?:\.(?:json|ya?ml|toml))?|oauth-tokens\.json|access-token\.json|cookies(?:\.(?:json|txt))?|storageState\.json|id_(?:rsa|dsa|ecdsa|ed25519)|kubeconfig|service-account\.json|application_default_credentials\.json|pyvenv\.cfg)$|\.(?:dpapi|key|pem|pfx|p12|jks|keystore|db(?:-.*)?|sqlite.*|tfstate(?:\..*)?|log|py[co]|exe|dll|com|msi|so(?:\.\d+)*|dylib|o|obj|a|lib|class|jar|wasm|bin|dat|whl|zip|tgz|tar|gz|bz2|xz|zst|7z|rar|iso|dmg|cab|deb|rpm|woff2?|ttf|otf|eot|png|jpe?g|gif|webp|avif|ico|bmp|tiff?|heic|pdf|docx?|xlsx?|pptx?|od[tps]|mp[34]|mov|avi|webm|wav|ogg|flac)$/i;
+const binaryHeaders = [
+  'MZ', '\x7fELF', '%PDF-', 'PK\x03\x04', 'PK\x05\x06', 'PK\x07\x08',
+  'GIF87a', 'GIF89a', 'wOFF', 'wOF2', 'OTTO', '7z\xbc\xaf\x27\x1c', 'Rar!\x1a\x07',
+].map(header => Buffer.from(header, 'latin1'));
 
-function checkPath(path) {
+function checkPath(path, isDirectory = false) {
   assert.equal(typeof path, 'string', 'Path manifest harus string');
   const parts = path.split('/');
   assert(parts.length >= 2 && parts[0] === 'home', `Path harus berada di home/: ${path}`);
@@ -20,8 +28,14 @@ function checkPath(path) {
     assert(!/[\\<>:"|?*\x00-\x1f\x7f]/.test(part) && !/[. ]$/.test(part), `Path tidak portable: ${path}`);
     assert(!/^(?:con|prn|aux|nul|com[1-9]|lpt[1-9])(?:\.|$)/i.test(part), `Nama perangkat Windows: ${path}`);
   }
-  assert(!parts.slice(1, -1).some(part => excludedDirectories.has(part.toLowerCase())), `Direktori terlarang: ${path}`);
-  assert(!excludedFile.test(parts.at(-1)), `Berkas terlarang: ${path}`);
+  const directories = isDirectory ? parts : parts.slice(0, -1);
+  for (const [index, part] of directories.entries()) {
+    // Distribusi plugin adalah sumber; cache lain, termasuk turunannya, tetap terlarang.
+    const pluginSource = index === 3 && parts.slice(0, 4).join('/').toLowerCase() === 'home/.omp/plugins/cache';
+    assert(!(excludedDirectories.has(part.toLowerCase()) && !pluginSource)
+      && !/^puppeteer_dev_chrome_profile-/i.test(part), `Direktori terlarang: ${path}`);
+  }
+  if (!isDirectory) assert(!excludedFile.test(parts.at(-1)), `Berkas terlarang: ${path}`);
   return path.toLowerCase();
 }
 
@@ -30,12 +44,13 @@ function manifestEntries(manifest) {
   const entries = new Map();
   const foldedPaths = new Set();
   for (const entry of manifest.files) {
-    assert(entry && typeof entry === 'object', 'Entri manifest harus object');
+    assert(entry && typeof entry === 'object' && !Array.isArray(entry), 'Entri manifest harus object');
     const folded = checkPath(entry.path);
     assert(!foldedPaths.has(folded), `Path duplikat/case collision: ${entry.path}`);
     foldedPaths.add(folded);
     assert(Number.isSafeInteger(entry.bytes) && entry.bytes >= 0, `Ukuran tidak valid: ${entry.path}`);
     assert(typeof entry.sha256 === 'string' && /^[a-f0-9]{64}$/i.test(entry.sha256), `SHA-256 tidak valid: ${entry.path}`);
+    assert(typeof entry.sourceSha256 === 'string' && /^[a-f0-9]{64}$/i.test(entry.sourceSha256), `sourceSha256 tidak valid: ${entry.path}`);
     entries.set(entry.path, entry);
   }
   return entries;
@@ -43,6 +58,12 @@ function manifestEntries(manifest) {
 
 function measure(bytes) {
   return { bytes: bytes.length, sha256: createHash('sha256').update(bytes).digest('hex') };
+}
+
+function checkText(bytes, path) {
+  assert(!bytes.includes(0), `Berkas mengandung NUL: ${path}`);
+  assert(isUtf8(bytes), `Berkas bukan UTF-8 valid: ${path}`);
+  assert(!binaryHeaders.some(header => bytes.indexOf(header) === 0), `Header biner terlarang: ${path}`);
 }
 
 function compare(entries, actual) {
@@ -64,16 +85,17 @@ async function inventory() {
     const absolute = join(root, ...relative.split('/'));
     const stat = await lstat(absolute);
     assert(!stat.isSymbolicLink(), `Symlink/junction tidak didukung: ${relative}`);
-    if (relative !== 'home') checkPath(relative);
+    if (relative !== 'home') checkPath(relative, stat.isDirectory());
     if (stat.isDirectory()) {
-      assert(!excludedDirectories.has(relative.split('/').at(-1).toLowerCase()), `Direktori terlarang: ${relative}`);
       for (const name of await readdir(absolute)) await visit(`${relative}/${name}`);
     } else {
       assert(stat.isFile(), `Bukan berkas reguler: ${relative}`);
       const folded = checkPath(relative);
       assert(!foldedPaths.has(folded), `Path case collision: ${relative}`);
       foldedPaths.add(folded);
-      actual.set(relative, measure(await readFile(absolute)));
+      const bytes = await readFile(absolute);
+      checkText(bytes, relative);
+      actual.set(relative, measure(bytes));
     }
   }
   await visit('home');
@@ -83,7 +105,7 @@ async function inventory() {
 function selfTest() {
   const path = 'home/.omp/agent/fixture.txt';
   const bytes = Buffer.from('snapshot\n');
-  const entry = { path, ...measure(bytes) };
+  const entry = { path, ...measure(bytes), sourceSha256: 'a'.repeat(64) };
   const entries = manifestEntries({ files: [entry] });
   compare(entries, new Map([[path, measure(bytes)]]));
   assert.throws(() => compare(entries, new Map([[path, measure(Buffer.from('Snapshot\n'))]])), /SHA-256 berbeda/);
@@ -96,14 +118,47 @@ function selfTest() {
     '../outside.txt', '/home/file.txt', 'home/../outside.txt', 'home/./file.txt',
     'home//file.txt', 'home/C:/file.txt', 'home/file:stream', 'home/dir\\file.txt',
     'home/file.txt.', 'home/CON.txt', 'home/.env', 'home/state/settings.yml',
-    'home/secrets/key.txt', 'home/tool.exe',
+    'home/secrets/key.txt', 'home/tool.exe', 'home/.npmrc', 'home/_netrc', 'home/.netrc',
+    'home/.pypirc', 'home/.git-credentials', 'home/auth', 'home/auth.yaml', 'home/oauth-tokens.json',
+    'home/cookies.txt', 'home/id_ed25519', 'home/application_default_credentials.json',
+    'home/scratch/file.txt', 'home/User Data/profile.txt', 'home/.cache/file.txt', 'home/cache/file.txt',
+    'home/.ssh/config', 'home/.aws/config', 'home/tmp/file.txt', 'home/.venv/pyvenv.cfg',
+    'home/node_modules/module/index.js', 'home/__pycache__/module.pyc', 'home/font.woff2',
+    'home/photo.PNG', 'home/manual.pdf', 'home/report.docx', 'home/lib.so', 'home/archive.7z',
+    'home/.omp/plugins/cache/plugins/vendor/cache/session.txt',
+    'home/puppeteer_dev_chrome_profile-abc/Preferences',
   ]) {
     assert.throws(() => manifestEntries({ files: [{ ...entry, path: unsafe }] }), undefined, unsafe);
   }
+  for (const allowed of [
+    'home/.omp/plugins/cache/plugins/vendor/skills/example/SKILL.md',
+    'home/.omp/plugins/cache/marketplaces/vendor/marketplace.json',
+    'home/vendor/tests/fixtures/example.jsonl', 'home/vendor/src/auth.py',
+    'home/vendor/assets/logo.svg', 'home/.omp/agent/ecosystem/runtime/credentials.ps1',
+    'home/vendor/browser/index.js', 'home/vendor/tests/fixtures/tokens.json',
+    'home/vendor/src/auth/index.ts',
+  ]) {
+    assert.doesNotThrow(() => manifestEntries({ files: [{ ...entry, path: allowed }] }), allowed);
+  }
+  assert.throws(() => checkPath('home/scratch', true), /Direktori terlarang/);
+  assert.doesNotThrow(() => checkPath('home/.omp/plugins/cache', true));
+  assert.doesNotThrow(() => checkText(Buffer.from('teks UTF-8: é 日本語\n'), path));
+  assert.doesNotThrow(() => checkText(Buffer.alloc(0), path));
+  assert.throws(() => checkText(Buffer.from('text\x00hidden'), path), /NUL/);
+  assert.throws(() => checkText(Buffer.from([0xc3, 0x28]), path), /UTF-8/);
+  assert.throws(() => checkText(Buffer.from('%PDF-1.7\n'), path), /biner/);
+  assert.throws(() => checkText(Buffer.from([0x50, 0x4b, 3, 4, 1]), path), /biner/);
+  assert.throws(() => manifestEntries({ files: [{ ...entry, sourceSha256: undefined }] }), /sourceSha256/);
+  assert.throws(() => manifestEntries({ files: [{ ...entry, sourceSha256: 'invalid' }] }), /sourceSha256/);
+  assert.throws(() => manifestEntries({ files: [null] }), /harus object/);
+  assert.throws(() => manifestEntries({ files: [[], entry] }), /harus object/);
+  assert.throws(() => manifestEntries({ files: [{ ...entry, path: null }] }), /harus string/);
+  assert.throws(() => manifestEntries({ files: [{ ...entry, bytes: Number.MAX_SAFE_INTEGER + 1 }] }), /Ukuran tidak valid/);
+  assert.throws(() => manifestEntries({ files: [{ ...entry, bytes: 0.5 }] }), /Ukuran tidak valid/);
   assert.throws(() => manifestEntries({ files: [{ ...entry, bytes: -1 }] }), /Ukuran tidak valid/);
   assert.throws(() => manifestEntries({ files: [{ ...entry, sha256: 'invalid' }] }), /SHA-256 tidak valid/);
   assert.throws(() => manifestEntries({ files: [] }), /tidak kosong/);
-  console.log('Self-check lulus: integritas byte/hash, missing/unlisted, duplikat, traversal dan kebijakan path.');
+  console.log('Self-check lulus: integritas byte/hash, metadata sumber, missing/unlisted, duplikat, traversal, path terlarang dan teks UTF-8/nonbiner.');
 }
 
 try {
@@ -117,7 +172,9 @@ try {
     const manifestPath = join(root, 'snapshot-manifest.json');
     const stat = await lstat(manifestPath);
     assert(stat.isFile() && !stat.isSymbolicLink(), 'Manifest harus berkas reguler, bukan symlink');
-    const manifest = JSON.parse((await readFile(manifestPath, 'utf8')).replace(/^\uFEFF/, ''));
+    const manifestBytes = await readFile(manifestPath);
+    checkText(manifestBytes, 'snapshot-manifest.json');
+    const manifest = JSON.parse(manifestBytes.toString('utf8').replace(/^\uFEFF/, ''));
     const entries = manifestEntries(manifest);
     compare(entries, await inventory());
     console.log(`Snapshot cocok: ${entries.size} berkas; ukuran dan SHA-256 sesuai manifest.`);

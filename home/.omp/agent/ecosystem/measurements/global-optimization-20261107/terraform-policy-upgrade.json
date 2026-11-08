@@ -1,0 +1,842 @@
+{
+  "schemaVersion": 1,
+  "recordedDate": "2026-11-07",
+  "artifact": "terraform-policy-upgrade",
+  "status": "native_omp_upgrade_written_parent_discovery_pending",
+  "scope": "Only terraform-policy native OMP copy; no changes to shared .agents skill tree, other-host aliases, shared config, AGENTS, ledger, or other HashiCorp skills.",
+  "source": {
+    "repository": "https://github.com/hashicorp/agent-skills",
+    "previousCommit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+    "candidateCommit": "5e30fa5c867ba6777c37e4206babfd08049c396f",
+    "previousSkillTreeSha1": "5aa35f62b12b370403082dd9354cc59c87a45d82",
+    "candidateSkillTreeSha1": "8336e1b5729c045c2fdef4c8bfce7f240833cd02",
+    "skillSubtree": "plugins/terraform/skills/terraform-policy",
+    "archives": [
+      {
+        "commit": "f706481af9b8fedb66de909f6243ad29601afa0c",
+        "url": "https://codeload.github.com/hashicorp/agent-skills/zip/f706481af9b8fedb66de909f6243ad29601afa0c",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\hashicorp-agent-skills-f706481af9b8fedb66de909f6243ad29601afa0c.zip",
+        "bytes": 310428,
+        "sha256": "1831822a3cac170bdea7ca366cbaa98cf469fc7de4f2244c2424aef01b09207f"
+      },
+      {
+        "commit": "5e30fa5c867ba6777c37e4206babfd08049c396f",
+        "url": "https://codeload.github.com/hashicorp/agent-skills/zip/5e30fa5c867ba6777c37e4206babfd08049c396f",
+        "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\hashicorp-agent-skills-5e30fa5c867ba6777c37e4206babfd08049c396f.zip",
+        "bytes": 315488,
+        "sha256": "3045af2e9110237ac08d74fca5adb8cb038dd90cce0a3013882eba0d163bfcfe"
+      }
+    ],
+    "sourceAuthenticityLimit": "Public GitHub HTTPS immutable commit URLs and content hashes; no independent commit-signature attestation."
+  },
+  "paths": {
+    "activeNativeSkill": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\terraform-policy",
+    "preservedSharedSkill": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\terraform-policy",
+    "preservedClaudeAlias": "C:\\Users\\Indrimeilla-PC\\.claude\\skills\\terraform-policy",
+    "claudeAliasResolvesToShared": true,
+    "backupDirectory": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\backups\\global-optimization-20261107\\terraform-policy",
+    "prestateManifest": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\backups\\global-optimization-20261107\\terraform-policy\\prestate.json",
+    "backupArchive": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\backups\\global-optimization-20261107\\terraform-policy\\shared-skill-before.zip",
+    "backupArchiveSha256": "9615c6f5b1b8e613e46e4a2e512a685538e9446ef5cf41b65a22fd095d679b95"
+  },
+  "scopeMap": {
+    "entryPoint": "SKILL.md",
+    "updatedBundledGuidance": [
+      "references/tfpolicy-author.md",
+      "references/tfpolicy-test.md",
+      "references/verified-syntax.md"
+    ],
+    "preservedBundledReferencesAndExamples": "Complete 55-file upstream skill subtree copied; existing relative paths retained; original full repository archive retained.",
+    "newLicenseFile": "LICENSE copied byte-for-byte from upstream repository root.",
+    "callers": "Existing bare skill://terraform-policy and relative bundled-reference routes remain unchanged.",
+    "testsAndFixtures": "All 16 conversion example sets copied unchanged from the candidate source; no new executable logic, tests or fixture alterations.",
+    "config": "Parent owns exact OMP namespaced alias exclusions; worker did not edit configuration.",
+    "otherHosts": "Shared skill and symlink remain at previous installed pin and local compatibility repair."
+  },
+  "upstreamChangedFiles": [
+    {
+      "path": "SKILL.md",
+      "previousSha256": "80d14e9223640263488c93fee0693a50f2a19f1ca10a90fa2900d53081616bea",
+      "candidateSha256": "4453d30dac3bd15829b73246e2464b6bfa92dd0601a11843bc2269c6f9cc7090"
+    },
+    {
+      "path": "references/tfpolicy-author.md",
+      "previousSha256": "86f8e1eb42278197b8b7725f32eae6bca63dd6ab6e19b6d7b27c7d958ead3bd2",
+      "candidateSha256": "bad1ba47dcc7370ac0e0abe0105d278458bcd4ab11068c25b31f2d9f089e0d08"
+    },
+    {
+      "path": "references/tfpolicy-test.md",
+      "previousSha256": "791d1472866dfd9d4d89ddc0f5fe0b0a3eda92d50a1cecbe1b1ccacc0f8a6e5a",
+      "candidateSha256": "78c320029de17d5b558673eb6ed738769f2b11f3a3cae2354b2f343c3725b43e"
+    },
+    {
+      "path": "references/verified-syntax.md",
+      "previousSha256": "5f2aedcb42f5c6d0d1bfb5e4be7716948cbd1837bf3d979e5c60af5a36f358a4",
+      "candidateSha256": "49d3a45d62fa218f90e35c561d3412eda57c6a8212ef814d9866ca58ebead23c"
+    }
+  ],
+  "upstreamChanges": [
+    "Guidance advances from tfpolicy 0.2/0.3 to supported 0.4/0.5, retaining 0.3 baseline and earlier-version notes.",
+    "0.4 no-op operation and broadened default evaluation to unchanged state, explicit prior_attrs scoping, delete/create/no-op incompatibility, getresources warning, and explicit no-op test mock operation.",
+    "0.5 nullable absent meta attributes, conditional guards because && does not short-circuit, and provider/module prior_attrs parse rejection.",
+    "Reference examples and runner caveats updated consistently across all three bundled guides."
+  ],
+  "retainedAdaptations": [
+    {
+      "id": "HC-COMPAT-07",
+      "path": "SKILL.md",
+      "description": "Retains existing replacement of obsolete npx sub-skill installation advice with already-bundled references relative to SKILL.md.",
+      "previousAudit": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\measurements\\hashicorp-audit.json"
+    },
+    {
+      "path": "SKILL.md",
+      "description": "Explicit dated OMP-local provenance, full original archive, other-host separation, MPL/BUSL distinction, execution/network/credential/cost boundary, and Windows existing-shell-only guidance."
+    }
+  ],
+  "localComparison": {
+    "comparedAgainst": "f706481af9b8fedb66de909f6243ad29601afa0c",
+    "normalization": "CRLF to LF used only to identify logical adaptations, never called raw byte equality.",
+    "localContentDifferencesBeforeUpgrade": [
+      "SKILL.md"
+    ],
+    "policySpecificWindowsCodeChangesFound": false,
+    "relatedWindowsSafeguards": "Previous audit Windows Go/Bash/WinRM repairs belong to other HashiCorp skills and were deliberately not modified."
+  },
+  "license": {
+    "default": "MPL-2.0",
+    "upstreamLicenseSha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04",
+    "exception": "BUSL-1.1",
+    "exceptionPaths": [
+      "examples/conversion/cloudfront-associated-with-waf/cloudfront-associated-with-waf.sentinel",
+      "examples/conversion/cloudtrail-server-side-encryption-enabled/cloudtrail-server-side-encryption-enabled.sentinel",
+      "examples/conversion/dms-endpoint-should-be-ssl-configured/dms-endpoint-should-be-ssl-configured.sentinel",
+      "examples/conversion/dms-endpoints-should-use-ssl/dms-endpoints-should-use-ssl.sentinel",
+      "examples/conversion/ec2-network-acl-should-have-subnet-ids/ec2-network-acl-should-have-subnet-ids.sentinel",
+      "examples/conversion/ec2-vpc-default-security-group-no-traffic/ec2-vpc-default-security-group-no-traffic.sentinel",
+      "examples/conversion/efs-access-point-should-enforce-user-identity/efs-access-point-should-enforce-user-identity.sentinel",
+      "examples/conversion/elasticache-redis-replication-group-encryption-at-transit-enabled/elasticache-redis-replication-group-encryption-at-transit-enabled.sentinel",
+      "examples/conversion/elasticsearch-encrypted-at-rest/elasticsearch-encrypted-at-rest.sentinel",
+      "examples/conversion/elasticsearch-https-required/elasticsearch-https-required.sentinel",
+      "examples/conversion/elasticsearch-in-vpc-only/elasticsearch-in-vpc-only.sentinel",
+      "examples/conversion/eventbridge-custom-event-bus-should-have-attached-policy/eventbridge-custom-event-bus-should-have-attached-policy.sentinel",
+      "examples/conversion/s3-block-public-access-bucket-level/s3-block-public-access-bucket-level.sentinel",
+      "examples/conversion/s3-bucket-should-have-object-lock-enabled/s3-bucket-should-have-object-lock-enabled.sentinel",
+      "examples/conversion/secretsmanager-auto-rotation-enabled-check/secretsmanager-auto-rotation-enabled-check.sentinel",
+      "examples/conversion/step-functions-state-machine-logging-enabled/step-functions-state-machine-logging-enabled.sentinel"
+    ],
+    "noticesPreserved": true,
+    "mixedLicenseWarning": "Sixteen Sentinel comparison sources are BUSL-1.1, not covered by the MPL declaration for original skill guidance. Upstream includes no separate BUSL license text; legal/commercial reuse rights are not certified.",
+    "execution": "Samples and their imports were not executed; all original notices remain intact."
+  },
+  "discoveryContract": {
+    "runtime": "18.18.0",
+    "runtimeSourcePin": "b5a6b2f7e5b6606b6562e678ead83f21738f34a0",
+    "officialDocumentation": "https://raw.githubusercontent.com/can1357/oh-my-pi/b5a6b2f7e5b6606b6562e678ead83f21738f34a0/docs/skills.md",
+    "officialImplementation": "https://raw.githubusercontent.com/can1357/oh-my-pi/b5a6b2f7e5b6606b6562e678ead83f21738f34a0/packages/coding-agent/src/extensibility/skills.ts",
+    "nativeWinsBareName": true,
+    "differingLowerPriorityCopiesWouldRemainNamespaced": true,
+    "requiredParentOwnedIgnoredSkills": [
+      "agents/terraform-policy",
+      "claude/terraform-policy"
+    ],
+    "parentAcceptedIntegrationOwnership": true,
+    "freshDiscoveryExercisedByWorker": false,
+    "noShim": "Direct complete native directory, unchanged frontmatter name and routes; no wrapper, alternate raw skill name, symlink swap or host-global override."
+  },
+  "nativeInventory": [
+    {
+      "path": ".gitignore",
+      "bytes": 29,
+      "sha256": "53f0c100a33a56ebada040287b3d0f5dbab21c6ec6b66209fec5515c508f1144"
+    },
+    {
+      "path": "examples/conversion/cloudfront-associated-with-waf/cloudfront-associated-with-waf.policy.hcl",
+      "bytes": 589,
+      "sha256": "32462493a912bbc2351f61bbe9b7976dffdd72666bb729075ed83a1689dd4570"
+    },
+    {
+      "path": "examples/conversion/cloudfront-associated-with-waf/cloudfront-associated-with-waf.sentinel",
+      "bytes": 1613,
+      "sha256": "03ef3243452ebcca6c25555063bd6eb3047a5d2d88016d06b72298888c88c581"
+    },
+    {
+      "path": "examples/conversion/cloudfront-associated-with-waf/README.md",
+      "bytes": 871,
+      "sha256": "0db50b97832ed541f947993d4a50eeb2e45ed0091e295751b72bfcc5892ff6f1"
+    },
+    {
+      "path": "examples/conversion/cloudtrail-server-side-encryption-enabled/cloudtrail-server-side-encryption-enabled.policy.hcl",
+      "bytes": 512,
+      "sha256": "afc4804e1ea5fc0aafb3f27c63c26750f2e562d45de081a1daa49dfdea7661ea"
+    },
+    {
+      "path": "examples/conversion/cloudtrail-server-side-encryption-enabled/cloudtrail-server-side-encryption-enabled.sentinel",
+      "bytes": 1466,
+      "sha256": "bf012527a3c855817c3778185fbebdac001d148ef619b6a8500f693bd06d36b0"
+    },
+    {
+      "path": "examples/conversion/cloudtrail-server-side-encryption-enabled/README.md",
+      "bytes": 846,
+      "sha256": "b4b775bc4adfd498d5873b7bf07d3ad3769c288a21517e2f7b94de8db429a932"
+    },
+    {
+      "path": "examples/conversion/dms-endpoint-should-be-ssl-configured/dms-endpoint-should-be-ssl-configured.policy.hcl",
+      "bytes": 516,
+      "sha256": "0b16fb23e36b29f61e62beb0059ac04f9dbdf51bf476b04e397f67b9cc6ccdf9"
+    },
+    {
+      "path": "examples/conversion/dms-endpoint-should-be-ssl-configured/dms-endpoint-should-be-ssl-configured.sentinel",
+      "bytes": 1547,
+      "sha256": "bb7576142e5b2754966f0127d24cc5b23e34a7549cbb7a2881a31897d6c8e0ce"
+    },
+    {
+      "path": "examples/conversion/dms-endpoint-should-be-ssl-configured/README.md",
+      "bytes": 872,
+      "sha256": "f37a8e2393365ac3a9a40796be98c0b6318fae8667eaa89202740133bda613f9"
+    },
+    {
+      "path": "examples/conversion/dms-endpoints-should-use-ssl/dms-endpoints-should-use-ssl.policy.hcl",
+      "bytes": 579,
+      "sha256": "5c9e145e43371414202350ba3171f515549080d38403ae2564061271c2240f32"
+    },
+    {
+      "path": "examples/conversion/dms-endpoints-should-use-ssl/dms-endpoints-should-use-ssl.sentinel",
+      "bytes": 1421,
+      "sha256": "7413174edc2683a4f704746a504373f0a983eb78a2c7e1a2de952732e4ba0fd2"
+    },
+    {
+      "path": "examples/conversion/dms-endpoints-should-use-ssl/README.md",
+      "bytes": 800,
+      "sha256": "43d445514b6886006d8270fe08c06f7276c2524fb0d9dc69135ff01a89dc4d7a"
+    },
+    {
+      "path": "examples/conversion/ec2-network-acl-should-have-subnet-ids/ec2-network-acl-should-have-subnet-ids.policy.hcl",
+      "bytes": 1035,
+      "sha256": "093fd998d51c5a30b17bca6efdbaf67e5cdc3c931a31bf8b0a428780c9282b15"
+    },
+    {
+      "path": "examples/conversion/ec2-network-acl-should-have-subnet-ids/ec2-network-acl-should-have-subnet-ids.sentinel",
+      "bytes": 2941,
+      "sha256": "6f9065377faa7ac0afbbbe0a963efdbe859af051321126978c07a46e87d0b727"
+    },
+    {
+      "path": "examples/conversion/ec2-network-acl-should-have-subnet-ids/README.md",
+      "bytes": 970,
+      "sha256": "2da9954728e4a2e059c84ee724be973c651d285526055eafd00c6e641684d241"
+    },
+    {
+      "path": "examples/conversion/ec2-vpc-default-security-group-no-traffic/ec2-vpc-default-security-group-no-traffic.policy.hcl",
+      "bytes": 865,
+      "sha256": "8c4f7842a455e45e57b59cfb518afe91371c4ea3db0c0afe6c0760bad65af3b8"
+    },
+    {
+      "path": "examples/conversion/ec2-vpc-default-security-group-no-traffic/ec2-vpc-default-security-group-no-traffic.sentinel",
+      "bytes": 3658,
+      "sha256": "a67323d87286c336fc178392ee2e3faa03f5491976ace28c5b33577608ccdd3c"
+    },
+    {
+      "path": "examples/conversion/ec2-vpc-default-security-group-no-traffic/README.md",
+      "bytes": 1107,
+      "sha256": "cae1492ca0990f9ca92f5740aed54ff582deb6b4d9885a9f50d07115c348d322"
+    },
+    {
+      "path": "examples/conversion/efs-access-point-should-enforce-user-identity/efs-access-point-should-enforce-user-identity.policy.hcl",
+      "bytes": 448,
+      "sha256": "d60d2ab084e705cde148d5e8f80ca9d16286097b20bd96fc25cad6e19ad9b241"
+    },
+    {
+      "path": "examples/conversion/efs-access-point-should-enforce-user-identity/efs-access-point-should-enforce-user-identity.sentinel",
+      "bytes": 1336,
+      "sha256": "f7ba102efad526bff51958531d7ad69835a98222587bf7a397702ee083537fca"
+    },
+    {
+      "path": "examples/conversion/efs-access-point-should-enforce-user-identity/README.md",
+      "bytes": 727,
+      "sha256": "ea22ae2c5cd8acf1b76d230cfa104f334ed04f302d768245617f1d791ca00ef1"
+    },
+    {
+      "path": "examples/conversion/elasticache-redis-replication-group-encryption-at-transit-enabled/elasticache-redis-replication-group-encryption-at-transit-enabled.policy.hcl",
+      "bytes": 547,
+      "sha256": "aa00818be52c1ead85ae628df2dbaedeb70ba824933b737d4a78f5b280791fb7"
+    },
+    {
+      "path": "examples/conversion/elasticache-redis-replication-group-encryption-at-transit-enabled/elasticache-redis-replication-group-encryption-at-transit-enabled.sentinel",
+      "bytes": 1532,
+      "sha256": "460c04567ae62949e97b377af7b830ad6f4c3824ece1437666cfa5490147fb77"
+    },
+    {
+      "path": "examples/conversion/elasticache-redis-replication-group-encryption-at-transit-enabled/README.md",
+      "bytes": 777,
+      "sha256": "9d211dc3d9bf4020c7ec009ecbbc32a29f671fbb2eddee9564d2188b3628c210"
+    },
+    {
+      "path": "examples/conversion/elasticsearch-encrypted-at-rest/elasticsearch-encrypted-at-rest.policy.hcl",
+      "bytes": 584,
+      "sha256": "1466b60bfadaeafda97834ec07fd09a35bd051eaaddd597f862f733c1e65096e"
+    },
+    {
+      "path": "examples/conversion/elasticsearch-encrypted-at-rest/elasticsearch-encrypted-at-rest.sentinel",
+      "bytes": 1571,
+      "sha256": "1769ea7859bb2a2d48604fe44842ef5f37215c9a839c941211d84f478877e2d6"
+    },
+    {
+      "path": "examples/conversion/elasticsearch-encrypted-at-rest/README.md",
+      "bytes": 734,
+      "sha256": "2f332ce9d7af5a9038876c9ed96e217cda8c9bd16b2fe98fb829a8563b699361"
+    },
+    {
+      "path": "examples/conversion/elasticsearch-https-required/elasticsearch-https-required.policy.hcl",
+      "bytes": 1132,
+      "sha256": "eabe03b5210307569b82a3fbfbfbc54135f5d391bc9d13ab948124164c09dadf"
+    },
+    {
+      "path": "examples/conversion/elasticsearch-https-required/elasticsearch-https-required.sentinel",
+      "bytes": 2352,
+      "sha256": "91366427ef59439651aba66fb5398d3d945da28b1df57753760230eab1ba834a"
+    },
+    {
+      "path": "examples/conversion/elasticsearch-https-required/README.md",
+      "bytes": 904,
+      "sha256": "b291b58730e73afebd478f76946fe0cbe65df6c776a46ab52c15fa174a3aae55"
+    },
+    {
+      "path": "examples/conversion/elasticsearch-in-vpc-only/elasticsearch-in-vpc-only.policy.hcl",
+      "bytes": 589,
+      "sha256": "1a7ddfa5382743cf45c6d53a6555ddd88a4ebda4cbaedc44a3c2e7d822265477"
+    },
+    {
+      "path": "examples/conversion/elasticsearch-in-vpc-only/elasticsearch-in-vpc-only.sentinel",
+      "bytes": 1935,
+      "sha256": "523e3196f1041c654649b32201b73462297f247d1a6769bb6afeef4573b1c23f"
+    },
+    {
+      "path": "examples/conversion/elasticsearch-in-vpc-only/README.md",
+      "bytes": 890,
+      "sha256": "71ece548a3e2a1a1ba1649c8d8a047f8467022ca58cbeb277dd8fecb737e20b1"
+    },
+    {
+      "path": "examples/conversion/eventbridge-custom-event-bus-should-have-attached-policy/eventbridge-custom-event-bus-should-have-attached-policy.policy.hcl",
+      "bytes": 845,
+      "sha256": "ccccf9909353fbaed54e4ddd399d6933c2b67c8e204208ade28e12f9a63531e7"
+    },
+    {
+      "path": "examples/conversion/eventbridge-custom-event-bus-should-have-attached-policy/eventbridge-custom-event-bus-should-have-attached-policy.sentinel",
+      "bytes": 2125,
+      "sha256": "00702067c7b0a0469bda3ddb207466b418dd70532169accf20c1a9d6f599d05b"
+    },
+    {
+      "path": "examples/conversion/eventbridge-custom-event-bus-should-have-attached-policy/README.md",
+      "bytes": 1103,
+      "sha256": "fa63a88da88b4eb2840547f3d9993f1545d18b7606f0f5380a646d7d6e21d25b"
+    },
+    {
+      "path": "examples/conversion/s3-block-public-access-bucket-level/README.md",
+      "bytes": 1123,
+      "sha256": "928a996543a9a11d5ec9400f7fe614958a1ae9750fd9a69ef302194262203e7e"
+    },
+    {
+      "path": "examples/conversion/s3-block-public-access-bucket-level/s3-block-public-access-bucket-level.policy.hcl",
+      "bytes": 1184,
+      "sha256": "ac6e9becbb43a34c06703706c02ebcdd3d5b8d7b45a946b2415048cd26407189"
+    },
+    {
+      "path": "examples/conversion/s3-block-public-access-bucket-level/s3-block-public-access-bucket-level.sentinel",
+      "bytes": 3304,
+      "sha256": "7afc9dd94c8914659b05b35e1b84e474d775784d6b0f5184fd2266988760e705"
+    },
+    {
+      "path": "examples/conversion/s3-bucket-should-have-object-lock-enabled/README.md",
+      "bytes": 975,
+      "sha256": "c52fdde16a7a427e8bd55764376c327879d6ab791005f329d9427838ec638eb0"
+    },
+    {
+      "path": "examples/conversion/s3-bucket-should-have-object-lock-enabled/s3-bucket-should-have-object-lock-enabled.policy.hcl",
+      "bytes": 1030,
+      "sha256": "35df8b69cc62bc5be1caf762aaeb92e15b6306549e025969e43b1963229197a0"
+    },
+    {
+      "path": "examples/conversion/s3-bucket-should-have-object-lock-enabled/s3-bucket-should-have-object-lock-enabled.sentinel",
+      "bytes": 2868,
+      "sha256": "a76cd0917aae100ccd8d8c46d4bf1ae49c6b3243dc21bba7e1766966834f0f13"
+    },
+    {
+      "path": "examples/conversion/secretsmanager-auto-rotation-enabled-check/README.md",
+      "bytes": 955,
+      "sha256": "32a7172f87d6c84e23e4e9e26a494b934a9e2ea93de58c36e275d5d63a5b82f0"
+    },
+    {
+      "path": "examples/conversion/secretsmanager-auto-rotation-enabled-check/secretsmanager-auto-rotation-enabled-check.policy.hcl",
+      "bytes": 867,
+      "sha256": "4abb6f1fbc8f718db8201648c5ca4bf28538bf1dad77ee0711ced0c28d07ea9b"
+    },
+    {
+      "path": "examples/conversion/secretsmanager-auto-rotation-enabled-check/secretsmanager-auto-rotation-enabled-check.sentinel",
+      "bytes": 2250,
+      "sha256": "aed6232049c0ffd8258c5514be998bdf73b806c0403099d1c7aab270aa0c41ec"
+    },
+    {
+      "path": "examples/conversion/step-functions-state-machine-logging-enabled/README.md",
+      "bytes": 778,
+      "sha256": "f92554ddc004848690d47a9982816b46076f9cc34fb8d719f04be32c6ea3069a"
+    },
+    {
+      "path": "examples/conversion/step-functions-state-machine-logging-enabled/step-functions-state-machine-logging-enabled.policy.hcl",
+      "bytes": 724,
+      "sha256": "02694155f2590d63c471718f225edb2e2c55632c81bbd2e1d806c75b4ec09b97"
+    },
+    {
+      "path": "examples/conversion/step-functions-state-machine-logging-enabled/step-functions-state-machine-logging-enabled.sentinel",
+      "bytes": 1594,
+      "sha256": "ca2325e425f1c39409233c60e2d5feb23aa1a2222c285c18b316d8fb77259c83"
+    },
+    {
+      "path": "examples/README.md",
+      "bytes": 2592,
+      "sha256": "0907dc196a012f58e24d4bc1a375eda48f89faa75fa0b2786b479981f68372e7"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 16726,
+      "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2822,
+      "sha256": "b3ac71f0598946e45402543e69c1fbf444d5d862daab47958064b978288e5e25"
+    },
+    {
+      "path": "references/tfpolicy-author.md",
+      "bytes": 104578,
+      "sha256": "bad1ba47dcc7370ac0e0abe0105d278458bcd4ab11068c25b31f2d9f089e0d08"
+    },
+    {
+      "path": "references/tfpolicy-test.md",
+      "bytes": 47617,
+      "sha256": "78c320029de17d5b558673eb6ed738769f2b11f3a3cae2354b2f343c3725b43e"
+    },
+    {
+      "path": "references/verified-syntax.md",
+      "bytes": 103651,
+      "sha256": "49d3a45d62fa218f90e35c561d3412eda57c6a8212ef814d9866ca58ebead23c"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7710,
+      "sha256": "61e396f91cbfdb6e9937fe92804b812d76c1f0d58268f177818982b771397dee"
+    }
+  ],
+  "candidateSourceInventory": [
+    {
+      "path": ".gitignore",
+      "bytes": 29,
+      "sha256": "53f0c100a33a56ebada040287b3d0f5dbab21c6ec6b66209fec5515c508f1144",
+      "gitBlobSha1": "2348c91f7a198200e6bba5fdbb4386917bbb542b",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2822,
+      "sha256": "b3ac71f0598946e45402543e69c1fbf444d5d862daab47958064b978288e5e25",
+      "gitBlobSha1": "5e1d7fb3457d8bf254209851cf553b95ff0bfdfe",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 6431,
+      "sha256": "4453d30dac3bd15829b73246e2464b6bfa92dd0601a11843bc2269c6f9cc7090",
+      "gitBlobSha1": "d424e9ad4d7fa91839d1b809cd85074aae0698f8",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/README.md",
+      "bytes": 2592,
+      "sha256": "0907dc196a012f58e24d4bc1a375eda48f89faa75fa0b2786b479981f68372e7",
+      "gitBlobSha1": "dd19658934900d972514251fb27b39153ad7b965",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/cloudfront-associated-with-waf/README.md",
+      "bytes": 871,
+      "sha256": "0db50b97832ed541f947993d4a50eeb2e45ed0091e295751b72bfcc5892ff6f1",
+      "gitBlobSha1": "e318225a0c195f9e2d5ca20543ab849dedfdc3d9",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/cloudfront-associated-with-waf/cloudfront-associated-with-waf.policy.hcl",
+      "bytes": 589,
+      "sha256": "32462493a912bbc2351f61bbe9b7976dffdd72666bb729075ed83a1689dd4570",
+      "gitBlobSha1": "a8fedc86293e6152209a7d7e222c456a99194c57",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/cloudfront-associated-with-waf/cloudfront-associated-with-waf.sentinel",
+      "bytes": 1613,
+      "sha256": "03ef3243452ebcca6c25555063bd6eb3047a5d2d88016d06b72298888c88c581",
+      "gitBlobSha1": "8bcf21f201dc04c8bf1b2182e8ca238395cd91cc",
+      "license": "BUSL-1.1"
+    },
+    {
+      "path": "examples/conversion/cloudtrail-server-side-encryption-enabled/README.md",
+      "bytes": 846,
+      "sha256": "b4b775bc4adfd498d5873b7bf07d3ad3769c288a21517e2f7b94de8db429a932",
+      "gitBlobSha1": "a571254481de16534bbeaac13466db203041d23f",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/cloudtrail-server-side-encryption-enabled/cloudtrail-server-side-encryption-enabled.policy.hcl",
+      "bytes": 512,
+      "sha256": "afc4804e1ea5fc0aafb3f27c63c26750f2e562d45de081a1daa49dfdea7661ea",
+      "gitBlobSha1": "5fff874572b39eb3fb43e62bb4df6c31e4b6c30f",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/cloudtrail-server-side-encryption-enabled/cloudtrail-server-side-encryption-enabled.sentinel",
+      "bytes": 1466,
+      "sha256": "bf012527a3c855817c3778185fbebdac001d148ef619b6a8500f693bd06d36b0",
+      "gitBlobSha1": "fb97b6a045cced0bd56e692ff522269dc2025994",
+      "license": "BUSL-1.1"
+    },
+    {
+      "path": "examples/conversion/dms-endpoint-should-be-ssl-configured/README.md",
+      "bytes": 872,
+      "sha256": "f37a8e2393365ac3a9a40796be98c0b6318fae8667eaa89202740133bda613f9",
+      "gitBlobSha1": "56b8ffa8c1cafed4c7cad58a9606a456d65b711e",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/dms-endpoint-should-be-ssl-configured/dms-endpoint-should-be-ssl-configured.policy.hcl",
+      "bytes": 516,
+      "sha256": "0b16fb23e36b29f61e62beb0059ac04f9dbdf51bf476b04e397f67b9cc6ccdf9",
+      "gitBlobSha1": "6a4e59895db302bb1d56e2766581a865540be296",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/dms-endpoint-should-be-ssl-configured/dms-endpoint-should-be-ssl-configured.sentinel",
+      "bytes": 1547,
+      "sha256": "bb7576142e5b2754966f0127d24cc5b23e34a7549cbb7a2881a31897d6c8e0ce",
+      "gitBlobSha1": "bfee39f718b5f3826c433bd369a840e9282f1235",
+      "license": "BUSL-1.1"
+    },
+    {
+      "path": "examples/conversion/dms-endpoints-should-use-ssl/README.md",
+      "bytes": 800,
+      "sha256": "43d445514b6886006d8270fe08c06f7276c2524fb0d9dc69135ff01a89dc4d7a",
+      "gitBlobSha1": "c9a2b4cf7077cf184df2d0300c90556ea45d097b",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/dms-endpoints-should-use-ssl/dms-endpoints-should-use-ssl.policy.hcl",
+      "bytes": 579,
+      "sha256": "5c9e145e43371414202350ba3171f515549080d38403ae2564061271c2240f32",
+      "gitBlobSha1": "da6f36419077d5d5840709086f9ac73878cb1808",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/dms-endpoints-should-use-ssl/dms-endpoints-should-use-ssl.sentinel",
+      "bytes": 1421,
+      "sha256": "7413174edc2683a4f704746a504373f0a983eb78a2c7e1a2de952732e4ba0fd2",
+      "gitBlobSha1": "8bae6cccd721869d94e9a41226831b45eab8afe0",
+      "license": "BUSL-1.1"
+    },
+    {
+      "path": "examples/conversion/ec2-network-acl-should-have-subnet-ids/README.md",
+      "bytes": 970,
+      "sha256": "2da9954728e4a2e059c84ee724be973c651d285526055eafd00c6e641684d241",
+      "gitBlobSha1": "d75c43b49a4cb653b783087f6e94770bad57858f",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/ec2-network-acl-should-have-subnet-ids/ec2-network-acl-should-have-subnet-ids.policy.hcl",
+      "bytes": 1035,
+      "sha256": "093fd998d51c5a30b17bca6efdbaf67e5cdc3c931a31bf8b0a428780c9282b15",
+      "gitBlobSha1": "38a05225821e7031aae803aa55423690b71dda12",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/ec2-network-acl-should-have-subnet-ids/ec2-network-acl-should-have-subnet-ids.sentinel",
+      "bytes": 2941,
+      "sha256": "6f9065377faa7ac0afbbbe0a963efdbe859af051321126978c07a46e87d0b727",
+      "gitBlobSha1": "e574fdcccb1275b033a25fee3075ea896f59f3c4",
+      "license": "BUSL-1.1"
+    },
+    {
+      "path": "examples/conversion/ec2-vpc-default-security-group-no-traffic/README.md",
+      "bytes": 1107,
+      "sha256": "cae1492ca0990f9ca92f5740aed54ff582deb6b4d9885a9f50d07115c348d322",
+      "gitBlobSha1": "df41dcfd3b3194a8bcc4f6219965b80a1b471fb3",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/ec2-vpc-default-security-group-no-traffic/ec2-vpc-default-security-group-no-traffic.policy.hcl",
+      "bytes": 865,
+      "sha256": "8c4f7842a455e45e57b59cfb518afe91371c4ea3db0c0afe6c0760bad65af3b8",
+      "gitBlobSha1": "2b17856df5b856d457e697cd26ee41a6c8ec5a3f",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/ec2-vpc-default-security-group-no-traffic/ec2-vpc-default-security-group-no-traffic.sentinel",
+      "bytes": 3658,
+      "sha256": "a67323d87286c336fc178392ee2e3faa03f5491976ace28c5b33577608ccdd3c",
+      "gitBlobSha1": "a0ce3573bc78ed280bd4210c03f96ff9dbede8e4",
+      "license": "BUSL-1.1"
+    },
+    {
+      "path": "examples/conversion/efs-access-point-should-enforce-user-identity/README.md",
+      "bytes": 727,
+      "sha256": "ea22ae2c5cd8acf1b76d230cfa104f334ed04f302d768245617f1d791ca00ef1",
+      "gitBlobSha1": "1714b169b2847407cb3757d9e21a9b75a084fd36",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/efs-access-point-should-enforce-user-identity/efs-access-point-should-enforce-user-identity.policy.hcl",
+      "bytes": 448,
+      "sha256": "d60d2ab084e705cde148d5e8f80ca9d16286097b20bd96fc25cad6e19ad9b241",
+      "gitBlobSha1": "17b56d9249bb8bc5a2e4a75fe42c64e122b5dc74",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/efs-access-point-should-enforce-user-identity/efs-access-point-should-enforce-user-identity.sentinel",
+      "bytes": 1336,
+      "sha256": "f7ba102efad526bff51958531d7ad69835a98222587bf7a397702ee083537fca",
+      "gitBlobSha1": "2ce2425a0b73a1ee59ac0ae158f9514f98535abd",
+      "license": "BUSL-1.1"
+    },
+    {
+      "path": "examples/conversion/elasticache-redis-replication-group-encryption-at-transit-enabled/README.md",
+      "bytes": 777,
+      "sha256": "9d211dc3d9bf4020c7ec009ecbbc32a29f671fbb2eddee9564d2188b3628c210",
+      "gitBlobSha1": "f18a4957f2b2c8f4f9a30d20ade860e6c7548cad",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/elasticache-redis-replication-group-encryption-at-transit-enabled/elasticache-redis-replication-group-encryption-at-transit-enabled.policy.hcl",
+      "bytes": 547,
+      "sha256": "aa00818be52c1ead85ae628df2dbaedeb70ba824933b737d4a78f5b280791fb7",
+      "gitBlobSha1": "1e9bb31f6763c3cff8123eb00ce46c3f00dc31b7",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/elasticache-redis-replication-group-encryption-at-transit-enabled/elasticache-redis-replication-group-encryption-at-transit-enabled.sentinel",
+      "bytes": 1532,
+      "sha256": "460c04567ae62949e97b377af7b830ad6f4c3824ece1437666cfa5490147fb77",
+      "gitBlobSha1": "52cb78c782fc656be0c3620a7a6cd95735732c91",
+      "license": "BUSL-1.1"
+    },
+    {
+      "path": "examples/conversion/elasticsearch-encrypted-at-rest/README.md",
+      "bytes": 734,
+      "sha256": "2f332ce9d7af5a9038876c9ed96e217cda8c9bd16b2fe98fb829a8563b699361",
+      "gitBlobSha1": "0923ffe4b17d60b85b7d9a9b3c27d3e2ec5c79d4",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/elasticsearch-encrypted-at-rest/elasticsearch-encrypted-at-rest.policy.hcl",
+      "bytes": 584,
+      "sha256": "1466b60bfadaeafda97834ec07fd09a35bd051eaaddd597f862f733c1e65096e",
+      "gitBlobSha1": "d3ccb98fb72330d5fad8425c19db519a70efdd6e",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/elasticsearch-encrypted-at-rest/elasticsearch-encrypted-at-rest.sentinel",
+      "bytes": 1571,
+      "sha256": "1769ea7859bb2a2d48604fe44842ef5f37215c9a839c941211d84f478877e2d6",
+      "gitBlobSha1": "085c591191119c0855519409072c5f86cb09614f",
+      "license": "BUSL-1.1"
+    },
+    {
+      "path": "examples/conversion/elasticsearch-https-required/README.md",
+      "bytes": 904,
+      "sha256": "b291b58730e73afebd478f76946fe0cbe65df6c776a46ab52c15fa174a3aae55",
+      "gitBlobSha1": "dc30d6859720e67c83d4f866ac9c580d0fa42a67",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/elasticsearch-https-required/elasticsearch-https-required.policy.hcl",
+      "bytes": 1132,
+      "sha256": "eabe03b5210307569b82a3fbfbfbc54135f5d391bc9d13ab948124164c09dadf",
+      "gitBlobSha1": "3073382a9c01712c5a171e13d8a89a6b4dee0830",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/elasticsearch-https-required/elasticsearch-https-required.sentinel",
+      "bytes": 2352,
+      "sha256": "91366427ef59439651aba66fb5398d3d945da28b1df57753760230eab1ba834a",
+      "gitBlobSha1": "218f24bab288a772d9797fe35cbc423ecae0af58",
+      "license": "BUSL-1.1"
+    },
+    {
+      "path": "examples/conversion/elasticsearch-in-vpc-only/README.md",
+      "bytes": 890,
+      "sha256": "71ece548a3e2a1a1ba1649c8d8a047f8467022ca58cbeb277dd8fecb737e20b1",
+      "gitBlobSha1": "3e3f83391eb3ff61e41984b1f128920880d39f64",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/elasticsearch-in-vpc-only/elasticsearch-in-vpc-only.policy.hcl",
+      "bytes": 589,
+      "sha256": "1a7ddfa5382743cf45c6d53a6555ddd88a4ebda4cbaedc44a3c2e7d822265477",
+      "gitBlobSha1": "0fb6d092aa83aa4f046db0a2d1242c0ccb66ada5",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/elasticsearch-in-vpc-only/elasticsearch-in-vpc-only.sentinel",
+      "bytes": 1935,
+      "sha256": "523e3196f1041c654649b32201b73462297f247d1a6769bb6afeef4573b1c23f",
+      "gitBlobSha1": "802f9db2b31da2e8b97f33669686a4ed36051c32",
+      "license": "BUSL-1.1"
+    },
+    {
+      "path": "examples/conversion/eventbridge-custom-event-bus-should-have-attached-policy/README.md",
+      "bytes": 1103,
+      "sha256": "fa63a88da88b4eb2840547f3d9993f1545d18b7606f0f5380a646d7d6e21d25b",
+      "gitBlobSha1": "0b8032569be58ca9bca4e47ea66570ce25ef6788",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/eventbridge-custom-event-bus-should-have-attached-policy/eventbridge-custom-event-bus-should-have-attached-policy.policy.hcl",
+      "bytes": 845,
+      "sha256": "ccccf9909353fbaed54e4ddd399d6933c2b67c8e204208ade28e12f9a63531e7",
+      "gitBlobSha1": "2b061de16210b3aa4b9ec8247e619eeefaffa58f",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/eventbridge-custom-event-bus-should-have-attached-policy/eventbridge-custom-event-bus-should-have-attached-policy.sentinel",
+      "bytes": 2125,
+      "sha256": "00702067c7b0a0469bda3ddb207466b418dd70532169accf20c1a9d6f599d05b",
+      "gitBlobSha1": "360059066c870cf05138a15a5e7dc2c40733f9e7",
+      "license": "BUSL-1.1"
+    },
+    {
+      "path": "examples/conversion/s3-block-public-access-bucket-level/README.md",
+      "bytes": 1123,
+      "sha256": "928a996543a9a11d5ec9400f7fe614958a1ae9750fd9a69ef302194262203e7e",
+      "gitBlobSha1": "3251abe1a15c2e9cb5eb7c40eb92ba95f87d58d9",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/s3-block-public-access-bucket-level/s3-block-public-access-bucket-level.policy.hcl",
+      "bytes": 1184,
+      "sha256": "ac6e9becbb43a34c06703706c02ebcdd3d5b8d7b45a946b2415048cd26407189",
+      "gitBlobSha1": "4bbf0ff82ca5c572c3e3bb62d0cd19dc475491b1",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/s3-block-public-access-bucket-level/s3-block-public-access-bucket-level.sentinel",
+      "bytes": 3304,
+      "sha256": "7afc9dd94c8914659b05b35e1b84e474d775784d6b0f5184fd2266988760e705",
+      "gitBlobSha1": "c1605174c7603caa708bba47ac6d27c25916a115",
+      "license": "BUSL-1.1"
+    },
+    {
+      "path": "examples/conversion/s3-bucket-should-have-object-lock-enabled/README.md",
+      "bytes": 975,
+      "sha256": "c52fdde16a7a427e8bd55764376c327879d6ab791005f329d9427838ec638eb0",
+      "gitBlobSha1": "a0bab85ac10bda9476e5558488154df79f24f76e",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/s3-bucket-should-have-object-lock-enabled/s3-bucket-should-have-object-lock-enabled.policy.hcl",
+      "bytes": 1030,
+      "sha256": "35df8b69cc62bc5be1caf762aaeb92e15b6306549e025969e43b1963229197a0",
+      "gitBlobSha1": "2fe299259a17932370b2323c2e8ce66cec7da12d",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/s3-bucket-should-have-object-lock-enabled/s3-bucket-should-have-object-lock-enabled.sentinel",
+      "bytes": 2868,
+      "sha256": "a76cd0917aae100ccd8d8c46d4bf1ae49c6b3243dc21bba7e1766966834f0f13",
+      "gitBlobSha1": "b7205fff1a05d8d1bf5d3609cc0d6fd1eedf3366",
+      "license": "BUSL-1.1"
+    },
+    {
+      "path": "examples/conversion/secretsmanager-auto-rotation-enabled-check/README.md",
+      "bytes": 955,
+      "sha256": "32a7172f87d6c84e23e4e9e26a494b934a9e2ea93de58c36e275d5d63a5b82f0",
+      "gitBlobSha1": "242a34f49f630f687e87017f49dffeb3f58ec3de",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/secretsmanager-auto-rotation-enabled-check/secretsmanager-auto-rotation-enabled-check.policy.hcl",
+      "bytes": 867,
+      "sha256": "4abb6f1fbc8f718db8201648c5ca4bf28538bf1dad77ee0711ced0c28d07ea9b",
+      "gitBlobSha1": "1c4f0f8e288fb2697c250681169387ce1c29e035",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/secretsmanager-auto-rotation-enabled-check/secretsmanager-auto-rotation-enabled-check.sentinel",
+      "bytes": 2250,
+      "sha256": "aed6232049c0ffd8258c5514be998bdf73b806c0403099d1c7aab270aa0c41ec",
+      "gitBlobSha1": "e6bca463d1e2d578bd7fb092c2f93bb629d27a47",
+      "license": "BUSL-1.1"
+    },
+    {
+      "path": "examples/conversion/step-functions-state-machine-logging-enabled/README.md",
+      "bytes": 778,
+      "sha256": "f92554ddc004848690d47a9982816b46076f9cc34fb8d719f04be32c6ea3069a",
+      "gitBlobSha1": "8b14e6433f851f686d9c6e6904b2584239baf82a",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/step-functions-state-machine-logging-enabled/step-functions-state-machine-logging-enabled.policy.hcl",
+      "bytes": 724,
+      "sha256": "02694155f2590d63c471718f225edb2e2c55632c81bbd2e1d806c75b4ec09b97",
+      "gitBlobSha1": "a035399f49abb8cbf63596c6023f99db94603f98",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "examples/conversion/step-functions-state-machine-logging-enabled/step-functions-state-machine-logging-enabled.sentinel",
+      "bytes": 1594,
+      "sha256": "ca2325e425f1c39409233c60e2d5feb23aa1a2222c285c18b316d8fb77259c83",
+      "gitBlobSha1": "3645aff00106f1fc62909c98807410367cebef6d",
+      "license": "BUSL-1.1"
+    },
+    {
+      "path": "references/tfpolicy-author.md",
+      "bytes": 104578,
+      "sha256": "bad1ba47dcc7370ac0e0abe0105d278458bcd4ab11068c25b31f2d9f089e0d08",
+      "gitBlobSha1": "329e6f218c3be130279d7744b8287e11407227a3",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "references/tfpolicy-test.md",
+      "bytes": 47617,
+      "sha256": "78c320029de17d5b558673eb6ed738769f2b11f3a3cae2354b2f343c3725b43e",
+      "gitBlobSha1": "8309946e542280e334ed9b0c4dbcba75b131fc89",
+      "license": "MPL-2.0"
+    },
+    {
+      "path": "references/verified-syntax.md",
+      "bytes": 103651,
+      "sha256": "49d3a45d62fa218f90e35c561d3412eda57c6a8212ef814d9866ca58ebead23c",
+      "gitBlobSha1": "7221d7fb30014c40de78a690bfb7cde782c41569",
+      "license": "MPL-2.0"
+    }
+  ],
+  "verification": {
+    "workerExecuted": [],
+    "notRun": [
+      "Build",
+      "Tests",
+      "Lint",
+      "Formatters",
+      "Terraform",
+      "tfpolicy",
+      "Sentinel",
+      "Provider or cloud commands",
+      "Vendor installers/helpers",
+      "Dependency installs",
+      "Credential access",
+      "Fresh runtime smoke"
+    ],
+    "intendedParentSmoke": [
+      "omp skill list --json: exactly one terraform-policy bare skill, native OMP path, no agents/terraform-policy or claude/terraform-policy aliases in fresh sessions/projects.",
+      "omp read skill://terraform-policy: updated 0.4/0.5 guidance and explicit local OMP adaptation.",
+      "omp read skill://terraform-policy/references/tfpolicy-author.md",
+      "omp read skill://terraform-policy/references/tfpolicy-test.md",
+      "omp read skill://terraform-policy/references/verified-syntax.md",
+      "Read LICENSE and representative BUSL Sentinel sample through skill URI; compare native manifest hashes and shared backup hashes without executing policy engines."
+    ],
+    "claimsLimit": "Static source comparison, license inventory, backup and file mutation evidence only. CLI semantic behavior, policy enforcement correctness, cloud operation, legal compliance and completed parent acceptance are not claimed."
+  },
+  "rollback": "Remove only the newly created native .omp/agent/skills/terraform-policy directory and only the two parent-added namespaced ignoredSkills entries; do not overwrite the preserved shared skill. Backup is ZIP to avoid Windows MAX_PATH."
+}

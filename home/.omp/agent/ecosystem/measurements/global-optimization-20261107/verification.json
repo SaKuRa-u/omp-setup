@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-11-07T15:55:01.537Z",
+  "context": {
+    "bytes": 56631,
+    "o200kBaseTokens": 11957,
+    "changed": false,
+    "abBenchmark": false
+  },
+  "runtime": {
+    "node": "24.19.0",
+    "bun": "1.4.2",
+    "python": "3.14.4",
+    "omp": "18.18.0"
+  },
+  "limits": {
+    "sdkSourceBunMinimum": "1.4.4",
+    "standaloneDoesNotProveSdkCompatibility": true
+  },
+  "backupChecks": [
+    {
+      "file": "config.yml",
+      "sha256": "c52aa618de1d35556116b4d3f496fd16c087e0e88e0ea77b0cc0317c0db65af4",
+      "matched": true
+    },
+    {
+      "file": "models.yml",
+      "sha256": "7ae0d30f8decc12a4236842e1fa67c1376537997fe393a289825310bccffbc96",
+      "matched": true
+    },
+    {
+      "file": "mcp.json",
+      "sha256": "a98ba01eaee528cc122a0d87187a1327d94b245fd83ab49aa8bdc1d3c852b979",
+      "matched": true
+    },
+    {
+      "file": "AGENTS.md",
+      "sha256": "db7d3a9a37fe29af220b379b9f183bbda65322f27afd244ff603e12d4f0c1a81",
+      "matched": true
+    }
+  ],
+  "astEdit": {
+    "status": "Verified synthetic",
+    "proposalReplacements": 1,
+    "appliedReplacements": 1,
+    "observed": "const total = (2 + 3);",
+    "fixtureRemoved": true,
+    "projectCodeChanged": false
+  }
+}

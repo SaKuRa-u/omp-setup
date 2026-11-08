@@ -1,0 +1,59 @@
+{
+  "scope": "Six synthetic first-pass native model runs; not a general routing benchmark; raw reasoning/session content not retained",
+  "cases": [
+    {
+      "id": "company-art-direction",
+      "loaded": [
+        "brainstorming",
+        "antislop",
+        "frontend-design"
+      ],
+      "passed": true,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "prompt-authoring",
+      "loaded": [],
+      "passed": false,
+      "issues": [
+        "Expected relevant newly-discoverable guide not loaded"
+      ],
+      "warnings": []
+    },
+    {
+      "id": "graph-explanation",
+      "loaded": [],
+      "passed": false,
+      "issues": [
+        "Expected relevant newly-discoverable guide not loaded"
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ordinary-question",
+      "loaded": [],
+      "passed": true,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "quoted-trigger",
+      "loaded": [],
+      "passed": true,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "native-spec-no-publication",
+      "loaded": [
+        "brainstorming"
+      ],
+      "passed": true,
+      "issues": [],
+      "warnings": []
+    }
+  ],
+  "passed": 4,
+  "total": 6
+}

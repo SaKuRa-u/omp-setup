@@ -1,0 +1,54 @@
+{
+  "status": "Verified original local seeded utility; not full visual gate",
+  "exit": 0,
+  "picks": {
+    "seed": "omp-local-acceptance",
+    "page": null,
+    "picks": [
+      {
+        "section": "hero-split",
+        "role": "hero",
+        "ground": "stage"
+      },
+      {
+        "section": "logo-row",
+        "role": "proof",
+        "ground": "mist"
+      },
+      {
+        "section": "features-2x2",
+        "role": "body",
+        "ground": null
+      },
+      {
+        "section": "bento",
+        "role": "body",
+        "ground": null
+      },
+      {
+        "section": "quote-stat",
+        "role": "proof",
+        "ground": null
+      },
+      {
+        "section": "pricing-three",
+        "role": "body",
+        "ground": null
+      },
+      {
+        "section": "faq",
+        "role": "body",
+        "ground": null
+      },
+      {
+        "section": "closing-band",
+        "role": "own",
+        "ground": null,
+        "own": true
+      }
+    ],
+    "notes": []
+  },
+  "sideEffects": "No history flag; fixture cwd, no browser/network implementation used",
+  "visualBenchmark": false
+}

@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "cwd": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\measurements\\automatic-routing-20261107",
+      "registered": 151,
+      "visible": 141,
+      "hidden": 10,
+      "selectedVisible": 48,
+      "selectedHidden": 7
+    },
+    {
+      "cwd": "C:/Users/Indrimeilla-PC/orca/projects/management-hub",
+      "registered": 151,
+      "visible": 141,
+      "hidden": 10,
+      "selectedVisible": 48,
+      "selectedHidden": 7
+    },
+    {
+      "cwd": "C:/Users/Indrimeilla-PC/orca/projects/Onboarding",
+      "registered": 156,
+      "visible": 145,
+      "hidden": 11,
+      "selectedVisible": 48,
+      "selectedHidden": 7
+    }
+  ],
+  "security": {
+    "memory": "off",
+    "approval": "yolo",
+    "modelRoles": {
+      "default": "openai-codex/gpt-6.1-sol:medium",
+      "smol": "openai-codex/gpt-6-luna:low"
+    }
+  }
+}

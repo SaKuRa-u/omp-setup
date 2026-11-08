@@ -37,10 +37,10 @@
     "limits": "Static guidance and discovery verification, not a real-app quality test or deterministic autonomous-routing guarantee"
   },
   "schemaVersion": 2,
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-07",
   "wave": 1,
-  "state": "Global default-profile OMP: 96 registered skills, 93 model-visible and three explicit-only; selective original GSAP/Motion/domain guidance installed, Impeccable design owner and Ponytail full retained; existing MCP and memory policy unchanged. Not an engine enablement, OS sandbox, real-app test or full security audit.",
-  "ompVersion": "18.14.1",
+  "state": "Default-profile OMP: 151 global skills, 141 model-visible and 10 vendor-explicit; 32 additional alternatives exposed for automatic intent selection after user approval. One task-fit lead; Impeccable fallback, not mandatory. Existing MCP, memory, model roles and approval retained; not a deterministic routing or all-features certification.",
+  "ompVersion": "18.18.0",
   "workflowRouting": {
     "date": "2026-10-21",
     "scope": "OMP default-profile; project overrides and explicit task instructions retained",
@@ -754,10 +754,6 @@
       "reason": "task ownership duplicates native or selected owners"
     },
     {
-      "name": "superpowers test-driven-development, brainstorming, requesting-code-review, writing-skills",
-      "reason": "competing owners excluded by user matrix"
-    },
-    {
       "name": "unapproved full plugins/hooks/installers and upstream setup skills",
       "reason": "No implicit dependencies or foreign-host setup; official Ponytail OMP plugin is the explicitly approved 2026-10-19 exception"
     }
@@ -875,5 +871,48 @@
     "2026-10-20 fresh sessions in project and neutral cwd each discovered 52 skills and mounted Context7/REA/Semgrep; prior discovery numbers remain historical snapshots",
     "Impeccable engine/detector/hooks/live remain off; actual app visual/a11y acceptance and full Cloudflare audit need separately approved targets and prerequisites",
     "Original acquisition commits of find-skills/webapp-testing and standalone Orca stub license remain unknown; matching content and vendor artifact identities are recorded without invented pins"
-  ]
+  ],
+  "latestGlobalOptimization": {
+    "date": "2026-11-07",
+    "report": "measurements/global-optimization-20261107/REPORT.md",
+    "baseline": "measurements/global-optimization-20261107/baseline.json",
+    "components": "measurements/global-optimization-20261107/",
+    "backup": "backups/global-optimization-20261107/",
+    "historicalPinsAbove": "Retained as history; current component manifests supersede changed payload pins.",
+    "activeChanges": ["Context7 MCP 4.5.1", "Impeccable OMP 4.8.0", "five Emil skills c8a79627", "mcp-builder 2c5958ec", "terraform-policy 5e30fa5c", "smol gpt-6-luna:low"],
+    "failedAndRolledBack": ["Semgrep 1.184.0 MCP acceptance deadline; active route restored to 1.181.0"],
+    "retainedMigrationGates": ["ARS 3.23.1", "REA 6.5.0 / skill 42", "E2E project runner contract"],
+    "security": "User explicitly retains yolo; no credential/private-account/provider changes; native memory off.",
+    "performance": "No comparative task-quality/token-cost improvement established."
+  },
+  "latestCandidateAdoption": {
+    "date": "2026-11-07",
+    "report": "measurements/candidate-adoption-20261107/REPORT.md",
+    "selection": "measurements/candidate-adoption-20261107/selection.json",
+    "evidence": "measurements/candidate-adoption-20261107/",
+    "backup": "backups/candidate-adoption-20261107/parent/",
+    "candidatesReviewed": 21,
+    "additionalSkills": 55,
+    "additionalManualSkills": 39,
+    "additionalAutomaticMetadata": 16,
+    "policy": "Overlap is not rejection; one task-fit lead, focused support. Original vendor guidance is not executable permission.",
+    "runtimeLimits": ["Hallmark rendered gate failed at browser launch", "UI UX Pro Max generated two wrong product categories", "ML training and full UA generation not tested"],
+    "historicalEntries": "Current manifests supersede historical not-installed/excluded candidate statements and older pins above; source/history retained."
+  },
+  "latestAutomaticRouting": {
+    "date": "2026-11-07",
+    "approval": "User approved automatic task-fit selection with vendor explicit flags and action permission gates preserved.",
+    "selection": "measurements/automatic-routing-20261107/selection.json",
+    "report": "measurements/automatic-routing-20261107/REPORT.md",
+    "evidence": "measurements/automatic-routing-20261107/",
+    "backup": "backups/automatic-routing-20261107/",
+    "newlyDiscoverable": 32,
+    "additionalAutomatic": 48,
+    "additionalVendorExplicit": 7,
+    "globalRegistered": 151,
+    "globalVisible": 141,
+    "globalExplicit": 10,
+    "scope": "Automatic guide selection, not implicit execution/account/paid/upload permission; no source body or vendor flag edits.",
+    "supersedes": "Historical activation labels in latestCandidateAdoption; provenance and runtime limitations unchanged."
+  }
 }

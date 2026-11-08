@@ -1,0 +1,26 @@
+{
+  "vendorSkillBodiesUnchanged": 55,
+  "uriChecks": [
+    {
+      "name": "design-taste-frontend",
+      "exit": 0,
+      "uriResolved": true
+    },
+    {
+      "name": "prompt-master",
+      "exit": 0,
+      "uriResolved": true
+    },
+    {
+      "name": "to-spec",
+      "exit": 0,
+      "uriResolved": true
+    },
+    {
+      "name": "i-have-adhd",
+      "exit": 0,
+      "uriResolved": true
+    }
+  ],
+  "ledgerValid": true
+}

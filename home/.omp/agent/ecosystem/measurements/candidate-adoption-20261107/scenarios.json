@@ -1,0 +1,14 @@
+{
+  "scope": "Controlled candidate acceptance; not a population benchmark or certification",
+  "cases": [
+    {"id":"ui-reference","task":"Cari panduan style/palette/type untuk dashboard klinik yang mudah dibaca serta landing page studio arsitektur; hasil harus berbeda relevan, bukan satu preset untuk semua.","evidence":"Original UI UX Pro Max local search outputs; compare domain-specific recommendation content; no write persist/cloud"},
+    {"id":"marketing-alternative","task":"Corporate/marketing site with concrete identity and responsive constraints; compare Taste and Hallmark process/artifact requirements against Impeccable, choose one owner per implementation.","evidence":"Read original entrypoints and relevant complete references; observe supported local utility output where safe; no claim visual win from metadata"},
+    {"id":"graph-local","task":"Dari fixture Python dummy3file, identifikasi fungsi pemanggil/koneksi modul dan query jalur relasi; jangan gunakan model/API/cloud.","evidence":"Graphify real AST graph output plus expected relation check; no user source read remotely"},
+    {"id":"external-public","task":"Jalankan read-only public-data/doctor/help route Agent Reach tanpa cookie/account/setup; bedakan channel ready/blocked.","evidence":"Real CLI output, no authenticated account or paid provider"},
+    {"id":"engineering-guidance","task":"Migration with rollback vs prompt authoring vs ADHD structured explanation; choose focused original guide and resolve its reference files.","evidence":"Native OMP fresh discovery/URI and small model no-tool synthetic routing test; no tracker publish"},
+    {"id":"ml-guidance","task":"Prepare CPU/offline evaluation or LoRA/TRL plan with resource/license constraints, without starting jobs or downloading weights.","evidence":"Original HF skill resolution/reference completeness; runtime training explicitly untested"},
+    {"id":"activation-boundary","task":"Broad alternative workflows available globally but not all active; focused skills discoverable, manual-only ones omitted from model catalog yet reachable via explicit commands.","evidence":"Fresh OMP process listings and native skill URI resolution in neutral root and existing projects"}
+  ],
+  "exclusions": ["private accounts","paid provider calls","production","credential changes","model weights downloads","automatic hooks or competing MCP activation"],
+  "failure_policy":"Preserve first failure output; isolate root cause, rollback active regression; do not repin a failed incidental-output assertion"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "Verified local lookup; domain recommendation quality mixed",
+  "noPersistence": true,
+  "uxRule": "Focusable Error Summary retains inline errors and field links",
+  "recommendations": [
+    {
+      "input": "clinic appointment dashboard",
+      "category": "Veterinary Clinic",
+      "assessment": "Mismatch: ambiguous clinic mapped to veterinary clinic, adding pet-portal constraint; reject unless vet brief is established"
+    },
+    {
+      "input": "architecture studio editorial portfolio",
+      "category": "Photography Studio",
+      "assessment": "Mismatch: architecture mapped to photography studio; portfolio references may help but category not factual"
+    }
+  ],
+  "decision": "Use focused lookup as supporting reference, not authoritative product/category/art direction; validate every generated category/constraint/performance label against actual brief.",
+  "network": "stdlib local search, no browser/font downloads; not traffic-instrumented"
+}

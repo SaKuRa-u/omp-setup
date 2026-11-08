@@ -1,0 +1,384 @@
+{
+  "skills": [
+    {
+      "name": "brainstorming",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\brainstorming",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "writing-plans",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\writing-plans",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "executing-plans",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\executing-plans",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "dispatching-parallel-agents",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\dispatching-parallel-agents",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "requesting-code-review",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\requesting-code-review",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "using-git-worktrees",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\using-git-worktrees",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\finishing-a-development-branch",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "subagent-driven-development",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "test-driven-development",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\test-driven-development",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "teach",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\teach",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "handoff",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\handoff",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "wait-what",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\wait-what",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "writing-for-agents",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\writing-for-agents",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "to-spec",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\to-spec",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "to-tickets",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\to-tickets",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "setup-matt-pocock-skills",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\setup-matt-pocock-skills",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "source-driven-development",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\source-driven-development",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "constraint-driven-development",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\constraint-driven-development",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "doubt-driven-development",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\doubt-driven-development",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "deprecation-and-migration",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\deprecation-and-migration",
+      "slice": "engineering",
+      "manual": false
+    },
+    {
+      "name": "observability-and-instrumentation",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\observability-and-instrumentation",
+      "slice": "engineering",
+      "manual": false
+    },
+    {
+      "name": "shipping-and-launch",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\shipping-and-launch",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "documentation-and-adrs",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\documentation-and-adrs",
+      "slice": "engineering",
+      "manual": false
+    },
+    {
+      "name": "i-have-adhd",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6\\skills\\i-have-adhd",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "prompt-master",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a\\skills\\prompt-master",
+      "slice": "engineering",
+      "manual": true
+    },
+    {
+      "name": "design-taste-frontend",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\design-taste-frontend",
+      "slice": "design",
+      "manual": true
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\ui-ux-pro-max",
+      "slice": "design",
+      "manual": false
+    },
+    {
+      "name": "hallmark",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\hallmark",
+      "slice": "design",
+      "manual": true
+    },
+    {
+      "name": "antislop",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\antislop",
+      "slice": "design",
+      "manual": true
+    },
+    {
+      "name": "antislop-copywriting",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\antislop-copywriting",
+      "slice": "design",
+      "manual": true
+    },
+    {
+      "name": "antislop-code",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\antislop-code",
+      "slice": "design",
+      "manual": true
+    },
+    {
+      "name": "frontend-design",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\frontend-design",
+      "slice": "domain",
+      "manual": true
+    },
+    {
+      "name": "canvas-design",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\canvas-design",
+      "slice": "domain",
+      "manual": true
+    },
+    {
+      "name": "theme-factory",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\theme-factory",
+      "slice": "domain",
+      "manual": true
+    },
+    {
+      "name": "choreograph",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\choreograph",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "remove-animations",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\remove-animations",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "gsap-scrolltrigger",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\gsap-scrolltrigger",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "gsap-plugins",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\gsap-plugins",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "gsap-performance",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\gsap-performance",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "gsap-frameworks",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\gsap-frameworks",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "gsap-utils",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\gsap-utils",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "trl-training",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\trl-training",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "train-sentence-transformers",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\train-sentence-transformers",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "huggingface-community-evals",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\huggingface-community-evals",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "huggingface-local-models",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\huggingface-local-models",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "huggingface-datasets",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\huggingface-datasets",
+      "slice": "domain",
+      "manual": false
+    },
+    {
+      "name": "seo-schema",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\claude-seo-6be93f45064ffbadced572b5d5c95f55fd263af0\\skills\\seo-schema",
+      "slice": "domain",
+      "manual": true
+    },
+    {
+      "name": "seo-hreflang",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\claude-seo-6be93f45064ffbadced572b5d5c95f55fd263af0\\skills\\seo-hreflang",
+      "slice": "domain",
+      "manual": true
+    },
+    {
+      "name": "understand-chat",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\understand-chat",
+      "slice": "knowledge",
+      "manual": true
+    },
+    {
+      "name": "understand-diff",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\understand-diff",
+      "slice": "knowledge",
+      "manual": true
+    },
+    {
+      "name": "understand-explain",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\understand-explain",
+      "slice": "knowledge",
+      "manual": true
+    },
+    {
+      "name": "understand-onboard",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\understand-onboard",
+      "slice": "knowledge",
+      "manual": true
+    },
+    {
+      "name": "graphify",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\graphify",
+      "slice": "knowledge",
+      "manual": true
+    },
+    {
+      "name": "last30days",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\last30days",
+      "slice": "knowledge",
+      "manual": true
+    },
+    {
+      "name": "agent-reach",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agent-reach",
+      "slice": "knowledge",
+      "manual": true
+    }
+  ],
+  "manualNames": [
+    "brainstorming",
+    "writing-plans",
+    "executing-plans",
+    "dispatching-parallel-agents",
+    "requesting-code-review",
+    "using-git-worktrees",
+    "finishing-a-development-branch",
+    "subagent-driven-development",
+    "test-driven-development",
+    "teach",
+    "handoff",
+    "wait-what",
+    "writing-for-agents",
+    "to-spec",
+    "to-tickets",
+    "setup-matt-pocock-skills",
+    "source-driven-development",
+    "constraint-driven-development",
+    "doubt-driven-development",
+    "shipping-and-launch",
+    "i-have-adhd",
+    "prompt-master",
+    "design-taste-frontend",
+    "hallmark",
+    "antislop",
+    "antislop-copywriting",
+    "antislop-code",
+    "frontend-design",
+    "canvas-design",
+    "theme-factory",
+    "seo-schema",
+    "seo-hreflang",
+    "understand-chat",
+    "understand-diff",
+    "understand-explain",
+    "understand-onboard",
+    "graphify",
+    "last30days",
+    "agent-reach"
+  ],
+  "customDirectories": [
+    "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7/skills",
+    "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0/skills/productivity",
+    "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0/skills/engineering",
+    "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e/skills",
+    "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6/skills",
+    "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a/skills",
+    "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/claude-seo-6be93f45064ffbadced572b5d5c95f55fd263af0/skills"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "context7",
+  "server": {
+    "name": "Context7",
+    "title": "Context7",
+    "version": "4.5.1",
+    "websiteUrl": "https://context7.com",
+    "description": "Context7 provides up-to-date documentation and code examples for libraries and frameworks.",
+    "icons": [
+      {
+        "src": "https://context7.com/context7-icon-green.svg",
+        "mimeType": "image/svg+xml",
+        "sizes": [
+          "any"
+        ]
+      },
+      {
+        "src": "https://context7.com/context7-icon-green.png",
+        "mimeType": "image/png",
+        "sizes": [
+          "512x512"
+        ]
+      }
+    ]
+  },
+  "tools": [
+    "query-docs",
+    "resolve-library-id"
+  ],
+  "results": [
+    {
+      "name": "resolve-library-id",
+      "success": true,
+      "responseChars": 1929
+    },
+    {
+      "name": "query-docs",
+      "success": true,
+      "responseChars": 7950
+    }
+  ],
+  "stderrChunks": 0
+}

@@ -1,0 +1,10 @@
+{
+  "status": "Failed and rolled back",
+  "candidate": "1.184.0",
+  "failure": "MCP acceptance deadline150s; stage/root cause not recorded; no fabricated scan result",
+  "active": "1.181.0",
+  "configDeepEqualToBaseline": true,
+  "stderrRetained": false,
+  "priorMountedBaselineLanguagesCall": "Verified",
+  "candidateRetainedForDiagnosis": true
+}

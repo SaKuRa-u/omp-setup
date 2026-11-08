@@ -1,0 +1,14 @@
+{
+  "intent": "factual",
+  "freshness_mode": "strict_recent",
+  "cluster_mode": "story",
+  "subqueries": [
+    {
+      "label": "primary",
+      "search_query": "python",
+      "ranking_query": "What public Hacker News discussions about the Python programming language appeared in the last 30 days?",
+      "sources": ["hackernews"],
+      "weight": 1.0
+    }
+  ]
+}

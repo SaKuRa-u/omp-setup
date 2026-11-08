@@ -1,0 +1,31 @@
+{
+  "status": "Verified bounded scope; full-domain runtime readiness not established",
+  "skills": {
+    "globalAvailableInBoth": 96,
+    "onboardingIncludingProjectAliases": 101,
+    "allGlobalPreserved": true,
+    "oldSharedUpgradeAliasesAbsent": true
+  },
+  "mcp": {
+    "context7": "4.5.1 fresh stdio resolve/query passed",
+    "semgrep": "1.184.0 acceptance timed out; route reverted1.181.0 exactly",
+    "rea": "6.5.0 preserved",
+    "pop": "search and export passed"
+  },
+  "reportSections": 14,
+  "ledgerPointer": "measurements/global-optimization-20261107/REPORT.md",
+  "activeFiles": [
+    {
+      "path": "config.yml",
+      "sha256": "f480e9b7c2b71df406dff9776858294ca93d2d3baa9a52aae2f807551c722888"
+    },
+    {
+      "path": "mcp.json",
+      "sha256": "4eb493fbd568420de567b9f615759199ea82c59f0381435e601f5029df75d2c1"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "98bcd586b0f8f0a59750586e0ec87e717b83de7e42805f102fa5e2279596c28a"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+update:
+  auto: false
+startup:
+  checkUpdate: false
+  setupWizard: false
+memory:
+  backend: "off"
+autolearn:
+  enabled: false
+advisor:
+  enabled: false
