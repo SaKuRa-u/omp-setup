@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-10",
+  "executed": false,
+  "scope": "Selective rollback, no data deletion",
+  "quarantineOnly": [
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills/humanizer-id"
+  ],
+  "manualConfigEntriesAdded": [],
+  "customRootsAdded": [],
+  "configShouldRemainUnchanged": true,
+  "documentationSections": [
+    "AGENTS.md: Humanizer ID — 10 November 2026",
+    "ecosystem/SKILL-ROUTING.md: Humanizer ID tambahan — 10 November 2026",
+    "ecosystem/ledger.json: humanizerId20261110"
+  ],
+  "backupManifest": "backup-manifest.json",
+  "instructions": [
+    "Close related OMP sessions before rollback.",
+    "Move only new native skills/humanizer-id outside discovery; retain source archive and measurements.",
+    "Merge-remove exact dated docs/ledger sections; do not restore whole backup over later user edits.",
+    "Verify baseline 174 neutral skills and incumbent URI in a fresh process."
+  ],
+  "backups": [
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/config.yml",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/humanizer-id-20261110/config.yml",
+      "sha256": "165ffb4a3aa41aba1bc246bc7acc804291f332fedeae2ffd426c5b561eaa4f87",
+      "afterSha256": "165ffb4a3aa41aba1bc246bc7acc804291f332fedeae2ffd426c5b561eaa4f87"
+    },
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/AGENTS.md",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/humanizer-id-20261110/AGENTS.md",
+      "sha256": "d7c9c3d5c7c6cfa1d2f1da434f7bc7d10a8ff63d7ad22de4a7e6734e059adbc9",
+      "afterSha256": "b346a2b8eff9b9fba927d6493539ab55b0cbdbc5b529bd95ca06d26bb828df37"
+    },
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/SKILL-ROUTING.md",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/humanizer-id-20261110/SKILL-ROUTING.md",
+      "sha256": "441b463135b3c0b9c56aaba34412edb8b2bb725dcb33ff8d1173fb218016eaac",
+      "afterSha256": "3b8e8bf889bae057da37a42cd8c648eadb6cf02d29106541d701cca2bf0f3f22"
+    },
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/ledger.json",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/humanizer-id-20261110/ledger.json",
+      "sha256": "3d09351afcb0b75064155c229f3af2c51411539d806f1d5c99004e2d7acbbcb3",
+      "afterSha256": "e6fcdde92a579b7c1b26ce51148d8d10e1c88be98057c8593e9b5f6d1b3a5e34"
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "date": "2026-11-10",
+  "scope": "OMP default-profile only; new sessions; not other hosts",
+  "supersedes": "Previous activation snapshots only for these 23 additions; baseline 151 preserved",
+  "skills": [
+    {
+      "name": "diagram-design",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/diagram-design",
+      "manual": false,
+      "repo": "cathrynlavery/diagram-design",
+      "positive": "Buat diagram arsitektur HTML/SVG berlabel trust boundary; redraw Mermaid dengan ledger perubahan.",
+      "nearMiss": "Jelaskan arsitektur kode tanpa membuat diagram, atau buat bagan teks ASCII.",
+      "why": "Diagram editorial HTML/SVG dengan 45 tata letak, sembilan pola semantik, digest impor dan fidelity ledger; menambah disiplin geometri konektor yang tidak dimiliki alur umum Impeccable/canvas-design.",
+      "stagedPath": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/cathrynlavery-diagram-design-f2496acbde9f45ccb55c24d4f75210c8a1355df8/skills/diagram-design"
+    },
+    {
+      "name": "anatomy",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/anatomy",
+      "manual": false,
+      "repo": "wheresryan22/anatomy",
+      "positive": "Buat ilustrasi SVG isometrik interaktif berupa alat fisik untuk menjelaskan cache.",
+      "nearMiss": "Buat flowchart layanan/API dengan kotak dan panah; gunakan diagram-design.",
+      "why": "Skill original nyata dengan kit isometrik dan model fisik tersinkron ke readout; bukan runtime-only. Nilai baru dibanding Motion/GSAP: solid geometry, depth ordering, lathe/tube, shader ruang-dunia dan contoh mekanis.",
+      "stagedPath": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/wheresryan22-anatomy-1482e8469b0a9e0d8cc18ea2740a01423d29ae80"
+    },
+    {
+      "name": "better-accessibility",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/better-accessibility",
+      "manual": false,
+      "repo": "jakubkrehel/skills",
+      "positive": "Gunakan better-accessibility untuk menilai keyboard, focus dan aria-live menurut WCAG 2.2.",
+      "nearMiss": "Polish shadow atau memilih font tanpa isu aksesibilitas bukan tahap audit ini.",
+      "why": "Alternatif audit kode berorientasi kriteria WCAG 2.2: membedakan AA 24px dari heuristic 44px/AAA, fokus, announcement dan drag alternative. Melengkapi fixing-accessibility/auditor dengan pelaporan lintas domain konsisten.",
+      "stagedPath": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/jakubkrehel-skills-72bdd6121cd595f47fd21c9f23e374028c9cbacd/skills/better-accessibility"
+    },
+    {
+      "name": "better-colors",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/better-colors",
+      "manual": false,
+      "repo": "jakubkrehel/skills",
+      "positive": "Bangun ramp semantik dari brand hex sambil mempertahankan warna kontraktual dan mengukur kontras.",
+      "nearMiss": "Membuat logo atau memilih mood palette tanpa pekerjaan token/ramp tetap alur desain umum.",
+      "why": "Panduan terfokus ramp OKLCH, gamut fallback, semantic token seams, brand color pinned vs snapped dan rendered-pair measurement; Impeccable colorize memberi arah warna lebih umum.",
+      "stagedPath": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/jakubkrehel-skills-72bdd6121cd595f47fd21c9f23e374028c9cbacd/skills/better-colors"
+    },
+    {
+      "name": "better-interface",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/better-interface",
+      "manual": false,
+      "repo": "jakubkrehel/skills",
+      "positive": "Review interface secara terstruktur dengan coverage enam domain dan temuan before/after.",
+      "nearMiss": "Review perubahan branch/PR harus interface-review eksplisit; desain ulang umum tetap Impeccable.",
+      "why": "Alternatif review lintas enam disiplin dengan tabel coverage, root-cause consolidation, escalation dan verdict terbatas bukti. Berbeda dari critique Impeccable yang lebih luas pada arah/UX.",
+      "stagedPath": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/jakubkrehel-skills-72bdd6121cd595f47fd21c9f23e374028c9cbacd/skills/better-interface"
+    },
+    {
+      "name": "better-layout",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/better-layout",
+      "manual": false,
+      "repo": "jakubkrehel/skills",
+      "positive": "Layout komponen pecah pada teks panjang, RTL dan container sempit; pakai better-layout.",
+      "nearMiss": "Mendesain brand atau animasi hero bukan layout resilience.",
+      "why": "Resep konten adaptif, DOM/visual order, logical properties, RTL safe area dan container-query shrink-to-fit; memakai token proyek, bukan mengganti arah visual Impeccable.",
+      "stagedPath": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/jakubkrehel-skills-72bdd6121cd595f47fd21c9f23e374028c9cbacd/skills/better-layout"
+    },
+    {
+      "name": "better-typography",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/better-typography",
+      "manual": false,
+      "repo": "jakubkrehel/skills",
+      "positive": "Perbaiki font synthesis, OpenType/tabular numbers dan wrapping tanpa mengganti typeface.",
+      "nearMiss": "Pilih identitas tipografi baru/brand direction tetap Impeccable.",
+      "why": "Menambah rincian CSS deterministik di atas Impeccable typeset: font-synthesis longhands, OpenType vs font-variant, custom axes, text-box trim dan fallback-safe properties.",
+      "stagedPath": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/jakubkrehel-skills-72bdd6121cd595f47fd21c9f23e374028c9cbacd/skills/better-typography"
+    },
+    {
+      "name": "better-ui",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/better-ui",
+      "manual": false,
+      "repo": "jakubkrehel/skills",
+      "positive": "Gunakan resep better-ui untuk nested radius dan state icon CSS pada proyek yang memilih bahasa polish ini.",
+      "nearMiss": "Animasi GSAP, koreografi atau jank umum tetap pemilik Motion/GSAP/Emil; jangan campur angka exact.",
+      "why": "Alternatif resep polish bernilai presisi: radius + border, forced-colors fallback, hover-capability gates, retargeting dan icon swap versi Tailwind. Wajib terpilih sengaja karena easing/scale exact berbeda Emil/Motion/GSAP.",
+      "stagedPath": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/jakubkrehel-skills-72bdd6121cd595f47fd21c9f23e374028c9cbacd/skills/better-ui"
+    },
+    {
+      "name": "better-writing",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/better-writing",
+      "manual": false,
+      "repo": "jakubkrehel/skills",
+      "positive": "Audit label, error, empty state dan konfirmasi hapus agar konsisten dengan istilah produk.",
+      "nearMiss": "Tulis headline iklan atau humanize esai bukan review microcopy ini.",
+      "why": "Inventaris istilah dan string locale, message utuh/plural, consequence-based confirmation dan error recovery; fokus copy produk operasional, bukan copywriting marketing atau filter antislop-copywriting.",
+      "stagedPath": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/jakubkrehel-skills-72bdd6121cd595f47fd21c9f23e374028c9cbacd/skills/better-writing"
+    },
+    {
+      "name": "break",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/break",
+      "manual": true,
+      "repo": "jakubkrehel/skills",
+      "positive": "/break input komponen ini dengan konten ekstrem dan buat harness visual.",
+      "nearMiss": "Uji keamanan API, stress load backend atau sekadar critique tata letak bukan skill ini.",
+      "why": "Harness satu komponen, satu kolom hostile scenarios yang benar-benar dapat mencapai komponen; hanya melaporkan pecah teramati. Alternatif konkret dari break-ui berbasis checklist.",
+      "stagedPath": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/jakubkrehel-skills-72bdd6121cd595f47fd21c9f23e374028c9cbacd/skills/break"
+    },
+    {
+      "name": "explain-interface",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/explain-interface",
+      "manual": true,
+      "repo": "jakubkrehel/skills",
+      "positive": "/explain-interface bagaimana efek gradient pada URL ini dibuat; jelaskan lapisan dan buktinya.",
+      "nearMiss": "Bongkar executable/ASAR atau minta clone implementasi bukan explanation ini.",
+      "why": "Penjelasan teknik interface dengan tier measured/derived/inferred, paint-order layers dan perlindungan prompt injection. Lebih terfokus pada mekanisme visual dibanding REA shipped-artifact reconstruction.",
+      "stagedPath": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/jakubkrehel-skills-72bdd6121cd595f47fd21c9f23e374028c9cbacd/skills/explain-interface"
+    },
+    {
+      "name": "interface-review",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/interface-review",
+      "manual": true,
+      "repo": "jakubkrehel/skills",
+      "positive": "/interface-review pr 482, fokus regresi interface tanpa checkout branch pengguna.",
+      "nearMiss": "Audit seluruh UI tanpa diff bukan review perubahan; gunakan better-interface.",
+      "why": "Review khusus perubahan: resolusi scope, baca removed side, consumer blast radius dua hop, status Introduced/Regression/Pre-existing; berbeda review UI keseluruhan dan general code-review.",
+      "stagedPath": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/jakubkrehel-skills-72bdd6121cd595f47fd21c9f23e374028c9cbacd/skills/interface-review"
+    },
+    {
+      "name": "state-machine",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/state-machine",
+      "manual": true,
+      "repo": "jakubkrehel/skills",
+      "positive": "/state-machine render loading, empty dan error komponen billing pada scratch route.",
+      "nearMiss": "Implementasikan state machine XState atau gambar transisi state; jangan salah rute.",
+      "why": "Workbench states yang sudah ada di kode, fixture di data seam, URL __state dan switcher; berbeda diagram state machine atau mesin state runtime.",
+      "stagedPath": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/jakubkrehel-skills-72bdd6121cd595f47fd21c9f23e374028c9cbacd/skills/state-machine"
+    },
+    {
+      "name": "teardown",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/teardown",
+      "manual": false,
+      "repo": "jakubkrehel/skills",
+      "positive": "Buat ilustrasi exploded teknis perangkat dari foto/CAD dan beri viewer SVG/PNG/PDF.",
+      "nearMiss": "Gambar manufacturing toleranced/CAD fabrication atau flowchart layanan bukan ilustrasi ini.",
+      "why": "Ilustrasi teknis berbasis satu model dengan hidden-line removal, assembled/exploded viewer dan ekspor terpilih; berbeda Anatomy yang menuntut mekanisme fisik padat/animasi, dan diagram-design yang topologi.",
+      "stagedPath": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/jakubkrehel-skills-72bdd6121cd595f47fd21c9f23e374028c9cbacd/skills/teardown"
+    },
+    {
+      "name": "variant",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/variant",
+      "manual": true,
+      "repo": "jakubkrehel/skills",
+      "positive": "/variant buat tiga kepadatan tabel yang sama dan biarkan saya memilih.",
+      "nearMiss": "Buat tiga situs penuh atau evaluasi A/B statistik bukan harness satu komponen.",
+      "why": "Eksplorasi satu axis di halaman nyata dengan picker URL __variant, floor aksesibilitas tetap dan promosi/hapus harness; alternatif terfokus untuk Impeccable generate.",
+      "stagedPath": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/jakubkrehel-skills-72bdd6121cd595f47fd21c9f23e374028c9cbacd/skills/variant"
+    },
+    {
+      "name": "unslop",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/unslop",
+      "manual": false,
+      "repo": "heydamir/unslop",
+      "positive": "Gunakan unslop Damir untuk merapikan dashboard AI-looking tanpa mengganti fitur atau urutan seksi.",
+      "nearMiss": "Bangun halaman baru dengan identitas bebas, atau audit WCAG saja.",
+      "why": "Alternatif terfokus untuk redline retrofit: sembilan pass berurutan, mode light/heavy/no slop dan lima baris arah produk. Antislop adalah filter; Impeccable tetap pemilik desain umum.",
+      "stagedPath": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/heydamir-unslop-97daa3eb365670ea3f87ed85356cbfcee18105a5/skills/unslop"
+    },
+    {
+      "name": "scientific-critical-thinking",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/scientific-critical-thinking",
+      "manual": false,
+      "repo": "scientific-agent-skills",
+      "positive": "Nilai apakah klaim kausal studi observasional ini didukung; identifikasi confounder dan unit analisis.",
+      "nearMiss": "Review seluruh manuskrip dan buat referee report atau keputusan editorial simulasi.",
+      "why": "Menambah targeted claim/evidence appraisal dengan GRADE/RoB version map, causal/confounding detail, bias taxonomy dan statistical pitfalls. Agency synthesist mencakup search/source weighting; ARS mencakup panel manuscript. Bukan mengganti salah satunya.",
+      "stagedPath": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/k-dense-scientific-agent-skills-2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5/skills/scientific-critical-thinking"
+    },
+    {
+      "name": "research-grants",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/research-grants",
+      "manual": false,
+      "repo": "scientific-agent-skills",
+      "positive": "Petakan persyaratan NOFO NSF ini ke draft proposal saya dan tandai gap dengan sumber.",
+      "nearMiss": "Audit jawaban saya terhadap komentar panel grant; komentar dan draft response sudah ada.",
+      "why": "Stage research-funding requirements/NOFO matrix, NSF/NIH/DOE/DARPA/NSTC budgets, forms, aims dan compliance critique tidak disediakan citation-management; ARS grant-panel response tetap stage lain.",
+      "stagedPath": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/k-dense-scientific-agent-skills-2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5/skills/research-grants"
+    },
+    {
+      "name": "antislop-layoutmobile",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/antislop-layoutmobile",
+      "manual": false,
+      "repo": "anti-slop",
+      "positive": "Layout tablet jadi desktop sempit; audit reflow, grid, breakpoint berbasis konten, dan urutan navigasi.",
+      "nearMiss": "Keyboard virtual menutupi input PWA; perbaiki viewport/touch/native behavior.",
+      "why": "Menambah diagnostic responsive anti-patterns yang terikat core rule (tablet middle band, hidden overflow, fixed nav safe-area, device-list breakpoint). mobile-native tetap behavior/touch/PWA/viewport owner; bukan broad design kedua.",
+      "stagedPath": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/miqdadbadjuber-anti-slop-3b75daa1fb6bb4c2b8a3807f82eed50914dee6b2/skills/antislop-layoutmobile"
+    },
+    {
+      "name": "search-first",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/search-first",
+      "manual": false,
+      "repo": "affaan-m/ECC",
+      "positive": "Bandingkan solusi existing untuk kebutuhan integrasi sebelum menulis utilitas baru; laporkan kanal yang tidak tersedia.",
+      "nearMiss": "Perbaiki satu typo tanpa memilih dependency atau integrasi.",
+      "why": "Preflight kanal dan keputusan adopt/extend/build; bukan workflow wajib semua coding.",
+      "stagedPath": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/affaan-ecc-d2ef2680594f9a17526a6e1a2e18b3d242c5d17b/skills/search-first"
+    },
+    {
+      "name": "hyperframes",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/hyperframes",
+      "manual": false,
+      "repo": "heygen-com/hyperframes",
+      "positive": "Buat video intro produk HTML ke MP4 lokal.",
+      "nearMiss": "Tambahkan hover/focus transition CSS pada tombol website, bukan file video.",
+      "why": "HTML seekable animation render video dengan CLI resmi 0.9.28; bukan pengganti animasi UI.",
+      "stagedPath": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/heygen-hyperframes-58686a74c6a82c13cec05c67a76cc7555cea509b/skills/hyperframes"
+    },
+    {
+      "name": "hyperframes-cli",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/hyperframes-cli",
+      "manual": false,
+      "repo": "heygen-com/hyperframes",
+      "positive": "Render/check project Hyperframes existing secara lokal.",
+      "nearMiss": "Tambahkan hover/focus transition CSS pada tombol website, bukan file video.",
+      "why": "HTML seekable animation render video dengan CLI resmi 0.9.28; bukan pengganti animasi UI.",
+      "stagedPath": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/heygen-hyperframes-58686a74c6a82c13cec05c67a76cc7555cea509b/skills/hyperframes-cli"
+    },
+    {
+      "name": "hyperframes-registry",
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/hyperframes-registry",
+      "manual": false,
+      "repo": "heygen-com/hyperframes",
+      "positive": "Cari blok kinetic title untuk komposisi Hyperframes.",
+      "nearMiss": "Tambahkan hover/focus transition CSS pada tombol website, bukan file video.",
+      "why": "HTML seekable animation render video dengan CLI resmi 0.9.28; bukan pengganti animasi UI.",
+      "stagedPath": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/heygen-hyperframes-58686a74c6a82c13cec05c67a76cc7555cea509b/skills/hyperframes-registry"
+    }
+  ],
+  "additionalManual": [
+    "break",
+    "explain-interface",
+    "interface-review",
+    "state-machine",
+    "variant"
+  ],
+  "policy": "Keep upstream explicit-only flags; better-ui and unslop automatically discoverable with narrow owner constraints (parent overrides staging manual recommendation in favor of approved current routing).",
+  "runtime": {
+    "package": "hyperframes",
+    "version": "0.9.28",
+    "sourceCommit": "58686a74c6a82c13cec05c67a76cc7555cea509b",
+    "launcher": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/hyperframes/0.9.28/hyperframes.cmd",
+    "bin": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/hyperframes/0.9.28/node_modules/hyperframes/bin/hyperframes.mjs",
+    "integrity": "sha512-h2EP9Y3vSrLNZOIziZwB/9mrsj0MFKgHAHiyXPDIAhTQ14QAUw5q3jx93aJudJcQIBfMiDdXoa2AidVYYVOJJg==",
+    "telemetry": "disabled by child environment",
+    "cache": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/hyperframes/0.9.28/cache",
+    "offline": false
+  },
+  "registrationRoots": [
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills"
+  ],
+  "evidence": [
+    "design-candidates.json",
+    "science-antislop.json",
+    "ecc-manifest.json",
+    "engineering-research.json",
+    "hyperframes-source-manifest.json"
+  ],
+  "backupManifest": "backup-manifest.json",
+  "limitations": [
+    "metadata semantic routing is not deterministic",
+    "No Figma/Anatomy/Jakub/Unslop runtime certification",
+    "No entire-suite security audit",
+    "Hyperframes render fetched public Google Fonts; telemetry off is not offline"
+  ],
+  "registrationMethod": "Native user skill directory, chosen after first-pass direct customDirectories roots were not discovered. No extra customDirectories retained. Original self-contained skill contents and license copies, no shim or vendor-body edits."
+}

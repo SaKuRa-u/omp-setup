@@ -1,0 +1,42 @@
+{
+  "repo": "https://github.com/affaan-m/ECC",
+  "commit": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b",
+  "license": "MIT",
+  "registerRoot": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/affaan-ecc-d2ef2680594f9a17526a6e1a2e18b3d242c5d17b/skills",
+  "adopted": [
+    "search-first"
+  ],
+  "decisions": {
+    "search-first": "Adopt focused source/tool-availability preflight and adopt/extend/build comparison, not automatic every-feature workflow. Native OMP owns dispatch/tools; no auth inspection.",
+    "motion-foundations": "Do not register: unqualified SSR initial-opacity claim and mounted alternate element swaps, global library/token mandates and device core count heuristics conflict with existing stack-sensitive guidance.",
+    "motion-patterns": "Do not register: modal sample lacks focus trap/Escape/scroll lock despite requirements; scaleY accordion leaves focusable hidden content and layout gap; broad always-exit/5 children thresholds unsupported.",
+    "motion-advanced": "Do not register: useLongPress timer lacks unmount/pointercancel cleanup, sheet example missing dialog focus handling; do not promote copy-paste production-ready claim.",
+    "remotion-video-creation": "Defer: existing user choice Hyperframes; separate Remotion runtime/licensing not authorized; not install alternate framework."
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2"
+    },
+    {
+      "path": "skills/search-first/SKILL.md",
+      "sha256": "76835db48dd910061d2e4271b1151793d2fddbabeb2d2866eed068b3580c55d5"
+    },
+    {
+      "path": "skills/motion-foundations/SKILL.md",
+      "sha256": "ac0dd6de088e8cf2bff57230b365469e893c5f3a9578815a7f113689d0401972"
+    },
+    {
+      "path": "skills/motion-patterns/SKILL.md",
+      "sha256": "9d78bcd2c3b52abdb6fb29162f289b9c709547de264ad064b12e00bedb031907"
+    },
+    {
+      "path": "skills/motion-advanced/SKILL.md",
+      "sha256": "1ee09b942bf328ffa97148bed838ecc8789c1891ca441abccdca52b4c47a9742"
+    },
+    {
+      "path": "skills/remotion-video-creation/SKILL.md",
+      "sha256": "dd727cadc4c1e179932b9736955ff3e537f75eeb759c038345ad9fe7d1bc55a9"
+    }
+  ]
+}

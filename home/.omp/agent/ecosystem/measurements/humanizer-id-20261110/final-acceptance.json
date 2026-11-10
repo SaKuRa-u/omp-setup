@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-10",
+  "status": "adopted-documentation-only-with-editorial-boundaries",
+  "name": "humanizer-id",
+  "version": "1.5.1",
+  "repo": "https://github.com/apissaj/humanizer-id",
+  "commit": "1ec77b92f022adb12a43d975da97f8dda27e754b",
+  "license": "MIT",
+  "path": "C:/Users/Indrimeilla-PC/.omp/agent/skills/humanizer-id",
+  "sourceFilesVerified": 162,
+  "installedDocsVerified": 106,
+  "incumbentEntrypointsUnchanged": 174,
+  "configurationUnchanged": true,
+  "discovery": [
+    {
+      "cwd": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\measurements\\humanizer-id-20261110\\",
+      "count": 175,
+      "uriResolved": true,
+      "hidden": false
+    },
+    {
+      "cwd": "C:/Users/Indrimeilla-PC/orca/projects/Onboarding",
+      "count": 180,
+      "uriResolved": true,
+      "hidden": false
+    }
+  ],
+  "catalog": {
+    "passed": true,
+    "metadataVisible": true,
+    "globalBoundaryPresent": true,
+    "modelInference": false,
+    "warnings": []
+  },
+  "preservation": {
+    "passed": 4,
+    "total": 4,
+    "guarded": true,
+    "blindComparison": false,
+    "acceptance": "editorial-acceptance.json"
+  },
+  "routing": {
+    "passed": 3,
+    "total": 3,
+    "model": "openai-codex/gpt-6.1-sol",
+    "automaticEditorial": true,
+    "nearMisses": [
+      "quoted translation",
+      "bibliography conceptual question"
+    ]
+  },
+  "backupFilesVerified": 4,
+  "actualRollbackExecuted": false,
+  "notInstalled": [
+    "Python package/CLI",
+    "scripts/audit.py",
+    "humanizer_id package",
+    "jurnal subskill",
+    "PROMPT.md as global instructions",
+    "hooks/providers/MCP/services"
+  ],
+  "limits": [
+    "Unverified full corpus of language/campus assertions",
+    "Known source examples/heuristics may change meaning without parent boundaries",
+    "No universal preservation or detector guarantee",
+    "No Python CLI tests/execution",
+    "Existing ARS/humanizer ownership retained"
+  ],
+  "report": "REPORT.md"
+}

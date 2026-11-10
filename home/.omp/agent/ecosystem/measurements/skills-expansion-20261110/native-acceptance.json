@@ -1,0 +1,448 @@
+{
+  "passed": true,
+  "date": "2026-11-10",
+  "results": [
+    {
+      "cwd": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\measurements\\skills-expansion-20261110\\",
+      "registered": 174,
+      "hidden": 15,
+      "selected": 23,
+      "baselinePreserved": true,
+      "uriChecks": [
+        {
+          "name": "diagram-design",
+          "resolved": true
+        },
+        {
+          "name": "anatomy",
+          "resolved": true
+        },
+        {
+          "name": "better-accessibility",
+          "resolved": true
+        },
+        {
+          "name": "better-colors",
+          "resolved": true
+        },
+        {
+          "name": "better-interface",
+          "resolved": true
+        },
+        {
+          "name": "better-layout",
+          "resolved": true
+        },
+        {
+          "name": "better-typography",
+          "resolved": true
+        },
+        {
+          "name": "better-ui",
+          "resolved": true
+        },
+        {
+          "name": "better-writing",
+          "resolved": true
+        },
+        {
+          "name": "break",
+          "resolved": true
+        },
+        {
+          "name": "explain-interface",
+          "resolved": true
+        },
+        {
+          "name": "interface-review",
+          "resolved": true
+        },
+        {
+          "name": "state-machine",
+          "resolved": true
+        },
+        {
+          "name": "teardown",
+          "resolved": true
+        },
+        {
+          "name": "variant",
+          "resolved": true
+        },
+        {
+          "name": "unslop",
+          "resolved": true
+        },
+        {
+          "name": "scientific-critical-thinking",
+          "resolved": true
+        },
+        {
+          "name": "research-grants",
+          "resolved": true
+        },
+        {
+          "name": "antislop-layoutmobile",
+          "resolved": true
+        },
+        {
+          "name": "search-first",
+          "resolved": true
+        },
+        {
+          "name": "hyperframes",
+          "resolved": true
+        },
+        {
+          "name": "hyperframes-cli",
+          "resolved": true
+        },
+        {
+          "name": "hyperframes-registry",
+          "resolved": true
+        }
+      ],
+      "catalog": {
+        "entries": 159,
+        "checks": [
+          {
+            "name": "diagram-design",
+            "visible": true
+          },
+          {
+            "name": "anatomy",
+            "visible": true
+          },
+          {
+            "name": "better-accessibility",
+            "visible": true
+          },
+          {
+            "name": "better-colors",
+            "visible": true
+          },
+          {
+            "name": "better-interface",
+            "visible": true
+          },
+          {
+            "name": "better-layout",
+            "visible": true
+          },
+          {
+            "name": "better-typography",
+            "visible": true
+          },
+          {
+            "name": "better-ui",
+            "visible": true
+          },
+          {
+            "name": "better-writing",
+            "visible": true
+          },
+          {
+            "name": "break",
+            "visible": false
+          },
+          {
+            "name": "explain-interface",
+            "visible": false
+          },
+          {
+            "name": "interface-review",
+            "visible": false
+          },
+          {
+            "name": "state-machine",
+            "visible": false
+          },
+          {
+            "name": "teardown",
+            "visible": true
+          },
+          {
+            "name": "variant",
+            "visible": false
+          },
+          {
+            "name": "unslop",
+            "visible": true
+          },
+          {
+            "name": "scientific-critical-thinking",
+            "visible": true
+          },
+          {
+            "name": "research-grants",
+            "visible": true
+          },
+          {
+            "name": "antislop-layoutmobile",
+            "visible": true
+          },
+          {
+            "name": "search-first",
+            "visible": true
+          },
+          {
+            "name": "hyperframes",
+            "visible": true
+          },
+          {
+            "name": "hyperframes-cli",
+            "visible": true
+          },
+          {
+            "name": "hyperframes-registry",
+            "visible": true
+          }
+        ],
+        "warnings": []
+      },
+      "warnings": []
+    },
+    {
+      "cwd": "C:/Users/Indrimeilla-PC/orca/projects/Onboarding",
+      "registered": 179,
+      "hidden": 16,
+      "selected": 23,
+      "baselinePreserved": true,
+      "uriChecks": [
+        {
+          "name": "diagram-design",
+          "resolved": true
+        },
+        {
+          "name": "anatomy",
+          "resolved": true
+        },
+        {
+          "name": "better-accessibility",
+          "resolved": true
+        },
+        {
+          "name": "better-colors",
+          "resolved": true
+        },
+        {
+          "name": "better-interface",
+          "resolved": true
+        },
+        {
+          "name": "better-layout",
+          "resolved": true
+        },
+        {
+          "name": "better-typography",
+          "resolved": true
+        },
+        {
+          "name": "better-ui",
+          "resolved": true
+        },
+        {
+          "name": "better-writing",
+          "resolved": true
+        },
+        {
+          "name": "break",
+          "resolved": true
+        },
+        {
+          "name": "explain-interface",
+          "resolved": true
+        },
+        {
+          "name": "interface-review",
+          "resolved": true
+        },
+        {
+          "name": "state-machine",
+          "resolved": true
+        },
+        {
+          "name": "teardown",
+          "resolved": true
+        },
+        {
+          "name": "variant",
+          "resolved": true
+        },
+        {
+          "name": "unslop",
+          "resolved": true
+        },
+        {
+          "name": "scientific-critical-thinking",
+          "resolved": true
+        },
+        {
+          "name": "research-grants",
+          "resolved": true
+        },
+        {
+          "name": "antislop-layoutmobile",
+          "resolved": true
+        },
+        {
+          "name": "search-first",
+          "resolved": true
+        },
+        {
+          "name": "hyperframes",
+          "resolved": true
+        },
+        {
+          "name": "hyperframes-cli",
+          "resolved": true
+        },
+        {
+          "name": "hyperframes-registry",
+          "resolved": true
+        }
+      ],
+      "catalog": {
+        "entries": 163,
+        "checks": [
+          {
+            "name": "diagram-design",
+            "visible": true
+          },
+          {
+            "name": "anatomy",
+            "visible": true
+          },
+          {
+            "name": "better-accessibility",
+            "visible": true
+          },
+          {
+            "name": "better-colors",
+            "visible": true
+          },
+          {
+            "name": "better-interface",
+            "visible": true
+          },
+          {
+            "name": "better-layout",
+            "visible": true
+          },
+          {
+            "name": "better-typography",
+            "visible": true
+          },
+          {
+            "name": "better-ui",
+            "visible": true
+          },
+          {
+            "name": "better-writing",
+            "visible": true
+          },
+          {
+            "name": "break",
+            "visible": false
+          },
+          {
+            "name": "explain-interface",
+            "visible": false
+          },
+          {
+            "name": "interface-review",
+            "visible": false
+          },
+          {
+            "name": "state-machine",
+            "visible": false
+          },
+          {
+            "name": "teardown",
+            "visible": true
+          },
+          {
+            "name": "variant",
+            "visible": false
+          },
+          {
+            "name": "unslop",
+            "visible": true
+          },
+          {
+            "name": "scientific-critical-thinking",
+            "visible": true
+          },
+          {
+            "name": "research-grants",
+            "visible": true
+          },
+          {
+            "name": "antislop-layoutmobile",
+            "visible": true
+          },
+          {
+            "name": "search-first",
+            "visible": true
+          },
+          {
+            "name": "hyperframes",
+            "visible": true
+          },
+          {
+            "name": "hyperframes-cli",
+            "visible": true
+          },
+          {
+            "name": "hyperframes-registry",
+            "visible": true
+          }
+        ],
+        "warnings": []
+      },
+      "warnings": [
+        {
+          "skillPath": "C:\\Users\\Indrimeilla-PC\\orca\\projects\\Onboarding\\.github\\skills\\animate\\SKILL.md",
+          "message": "name collision: \"animate\" from C:\\Users\\Indrimeilla-PC\\orca\\projects\\Onboarding\\.github\\skills\\animate\\SKILL.md differs from C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\animate\\SKILL.md; available as \"github/animate\""
+        },
+        {
+          "skillPath": "C:\\Users\\Indrimeilla-PC\\orca\\projects\\Onboarding\\.github\\skills\\animation-performance\\SKILL.md",
+          "message": "name collision: \"animation-performance\" from C:\\Users\\Indrimeilla-PC\\orca\\projects\\Onboarding\\.github\\skills\\animation-performance\\SKILL.md differs from C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\animation-performance\\SKILL.md; available as \"github/animation-performance\""
+        },
+        {
+          "skillPath": "C:\\Users\\Indrimeilla-PC\\orca\\projects\\Onboarding\\.github\\skills\\emil-design-eng\\SKILL.md",
+          "message": "name collision: \"emil-design-eng\" from C:\\Users\\Indrimeilla-PC\\orca\\projects\\Onboarding\\.github\\skills\\emil-design-eng\\SKILL.md differs from C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\emil-design-eng\\SKILL.md; available as \"github/emil-design-eng\""
+        },
+        {
+          "skillPath": "C:\\Users\\Indrimeilla-PC\\orca\\projects\\Onboarding\\.github\\skills\\impeccable\\SKILL.md",
+          "message": "name collision: \"impeccable\" from C:\\Users\\Indrimeilla-PC\\orca\\projects\\Onboarding\\.github\\skills\\impeccable\\SKILL.md differs from C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\impeccable\\SKILL.md; available as \"github/impeccable\""
+        },
+        {
+          "skillPath": "C:\\Users\\Indrimeilla-PC\\orca\\projects\\Onboarding\\.github\\skills\\review-animations\\SKILL.md",
+          "message": "name collision: \"review-animations\" from C:\\Users\\Indrimeilla-PC\\orca\\projects\\Onboarding\\.github\\skills\\review-animations\\SKILL.md differs from C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\review-animations\\SKILL.md; available as \"github/review-animations\""
+        }
+      ]
+    }
+  ],
+  "unchangedIncumbentEntrypoints": 151,
+  "installedFileIntegrity": 717,
+  "memory": "off",
+  "approval": "yolo",
+  "modelRoles": {
+    "default": "openai-codex/gpt-6.1-sol:medium",
+    "smol": "openai-codex/gpt-6-luna:low"
+  },
+  "customDirectoriesUnchanged": true,
+  "inferenceRequested": false,
+  "firstFailures": [
+    {
+      "failure": "Missing diagram-design",
+      "resolution": "Corrected direct root registration to native user skill directories; subsequent native scenarios all passed."
+    },
+    {
+      "failure": "Aggregate hidden count assumed same across roots",
+      "resolution": "Harness-only assertion corrected using prior root-specific baseline: Onboarding retains github/review-animations alias. Reused completed successful 46 URI/scenario/catalog results, checked corrected count from retained outputs; did not rerun successful scenarios."
+    }
+  ],
+  "limitations": "Discovery, URI, catalog and payload integrity only, not full runtime workflow."
+}

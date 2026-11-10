@@ -47,6 +47,11 @@ skills:
     - handoff
     - teach
     - wait-what
+    - break
+    - explain-interface
+    - interface-review
+    - state-machine
+    - variant
 marketplace:
   autoUpdate: "off"
 codexResets:

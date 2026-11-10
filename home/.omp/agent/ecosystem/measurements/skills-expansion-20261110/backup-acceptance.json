@@ -1,0 +1,29 @@
+{
+  "checks": [
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/config.yml",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/skills-expansion-20261110/config.yml",
+      "sha256": "54755e78c547d69c025fbacbbb35036b8262655f3cf405f9032b55d308d87844",
+      "passed": true
+    },
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/AGENTS.md",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/skills-expansion-20261110/AGENTS.md",
+      "sha256": "c1e93c5c6b179badab1483fcd78ff2155aea8c0e8ca1f4109bb8c5531edca009",
+      "passed": true
+    },
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/SKILL-ROUTING.md",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/skills-expansion-20261110/SKILL-ROUTING.md",
+      "sha256": "245a001d57943142960719dc11b4cbceb036ffd54140fae27a1bc5b2037d5d4a",
+      "passed": true
+    },
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/ledger.json",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/skills-expansion-20261110/ledger.json",
+      "sha256": "175e748352f25c43556679eec82ffa5710e82ede5867a31049817baeb5c5a1bc",
+      "passed": true
+    }
+  ],
+  "restorationExecuted": false
+}

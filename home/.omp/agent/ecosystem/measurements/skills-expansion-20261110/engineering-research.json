@@ -1,0 +1,83 @@
+{
+  "pins": {
+    "thedotmack/claude-mem": {
+      "sha": "ea45a393700c2738656b478c0d47da5439712344",
+      "date": "2026-11-10T07:59:46Z",
+      "signatureVerified": false,
+      "source": "https://github.com/thedotmack/claude-mem/commit/ea45a393700c2738656b478c0d47da5439712344"
+    },
+    "garrytan/gstack": {
+      "sha": "ee3bae40284a90c281ddf5b45f67e23a452c15a7",
+      "date": "2026-11-10T07:58:50Z",
+      "signatureVerified": true,
+      "source": "https://github.com/garrytan/gstack/commit/ee3bae40284a90c281ddf5b45f67e23a452c15a7"
+    },
+    "zhaoxuya520/reverse-skill": {
+      "sha": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+      "date": "2026-09-22T05:18:45Z",
+      "signatureVerified": false,
+      "source": "https://github.com/zhaoxuya520/reverse-skill/commit/cab634bd855fc287f6e420c1f36fd1a6b9245960"
+    },
+    "addyosmani/agent-skills": {
+      "sha": "301b02b12bff98e4688e6984af6556802322bbde",
+      "date": "2026-11-01T19:24:49Z",
+      "signatureVerified": true,
+      "source": "https://github.com/addyosmani/agent-skills/commit/301b02b12bff98e4688e6984af6556802322bbde"
+    }
+  },
+  "addy": {
+    "installedPin": "8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e",
+    "upstreamPin": "301b02b12bff98e4688e6984af6556802322bbde",
+    "checks": [
+      {
+        "name": "constraint-driven-development",
+        "currentHeadBlob": "d41ab055104f249d505fb6ea706e20b15f439a9f",
+        "installedBlob": "d41ab055104f249d505fb6ea706e20b15f439a9f",
+        "unchanged": true
+      },
+      {
+        "name": "deprecation-and-migration",
+        "currentHeadBlob": "8789d4e0eba0f65b35da842430b345d4c76877e9",
+        "installedBlob": "8789d4e0eba0f65b35da842430b345d4c76877e9",
+        "unchanged": true
+      },
+      {
+        "name": "documentation-and-adrs",
+        "currentHeadBlob": "eff8fddc25d972bc0e3b367d23afa0705b7a87b5",
+        "installedBlob": "eff8fddc25d972bc0e3b367d23afa0705b7a87b5",
+        "unchanged": true
+      },
+      {
+        "name": "doubt-driven-development",
+        "currentHeadBlob": "8e6d12737711d4926d87303ab0c111deb43ab8b2",
+        "installedBlob": "8e6d12737711d4926d87303ab0c111deb43ab8b2",
+        "unchanged": true
+      },
+      {
+        "name": "observability-and-instrumentation",
+        "currentHeadBlob": "84d9cb373467fe0e15236e190833ecc90f840c38",
+        "installedBlob": "84d9cb373467fe0e15236e190833ecc90f840c38",
+        "unchanged": true
+      },
+      {
+        "name": "shipping-and-launch",
+        "currentHeadBlob": "451b7f12638ebeb1ee9f96ce66b47f5e992696c8",
+        "installedBlob": "451b7f12638ebeb1ee9f96ce66b47f5e992696c8",
+        "unchanged": true
+      },
+      {
+        "name": "source-driven-development",
+        "currentHeadBlob": "fb94d0f36e2d4c53e6b507dd763d105b2e958623",
+        "installedBlob": "fb94d0f36e2d4c53e6b507dd763d105b2e958623",
+        "unchanged": true
+      }
+    ],
+    "decision": "Retain seven unchanged installed skills; upstream delta only code-review-and-quality and eval fixtures, not installed; do not replace Ponytail reviewer."
+  },
+  "decisions": {
+    "thedotmack/claude-mem": "Defer operational memory service, not skill adoption. Hook/observer capture and provider/account flow conflict with approved no-capture/no-services scope. Preserve Supermemory + native memory off.",
+    "garrytan/gstack": "Defer suite and write-skill/review: mandatory host-specific preamble/tool scripts/telemetry, auto-modification instructions; cannot claim standalone OMP compatibility without original supported integration. No installer or adapter.",
+    "zhaoxuya520/reverse-skill": "Defer framework: MASTER-ROUTING requires case-init, evidence/timeline/ops helpers and external reverse tooling; retain REA original existing verified interface, not substitute host routing."
+  },
+  "limits": "Source-assessed only, no code security certification; not every skill in each large suite audited."
+}

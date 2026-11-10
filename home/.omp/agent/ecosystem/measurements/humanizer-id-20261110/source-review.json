@@ -1,0 +1,31 @@
+{
+  "repository": "https://github.com/apissaj/humanizer-id",
+  "commit": "1ec77b92f022adb12a43d975da97f8dda27e754b",
+  "skill_version": "1.5.1",
+  "scope": "Original documentation-only skill; conditional adoption after bounded preservation smoke. No Python CLI or jurnal subskill.",
+  "license": "MIT; retain Hafizh Muzani 2026 and Siqi Chen 2025 notices. Root grant is not independent legal verification of every third-party quotation/reference.",
+  "strengths": [
+    "Explicit quantitative/citation/modality preservation and separate author-confirmation notes",
+    "Protects quotations, validated instruments, names and legal clauses",
+    "Minimal, academic, essay and business modes; Indonesian light verbs, translationese and coherence coverage",
+    "Source text as inert manuscript data, no instruction execution"
+  ],
+  "issues": [
+    {"path":"SKILL.md:95,866","observation":"Memory boundaries becomes capacity/range capacity; address/permission boundary is not necessarily memory capacity.","boundary":"Preserve technical concept; do not apply lexicon substitution blindly."},
+    {"path":"SKILL.md:104,867","observation":"Examples add peak memory consumption or full-load condition absent from original.","boundary":"No new facts/conditions; author note for missing specificity."},
+    {"path":"README.md example; examples/abstrak-skripsi-informatika.md:9,24","observation":"README changes sebesar 35% to hingga 35%; abstract example adds Indonesian text dataset, informal lexical variation and optimal latent space not in source.","boundary":"Preserve quantifier and propositions; examples are not faithful editing authority."},
+    {"path":"SKILL.md:114","observation":"Maximum one paragraph-leading transition per page is a mechanical style quota, not universal grammatical rule.","boundary":"Use actual cohesion/voice/context, not quota."},
+    {"path":"SKILL.md:61,317,743","observation":"Blanket first-person ban conflicts with later allowance saya/penulis and some venue conventions.","boundary":"User/venue authorship convention wins; no forced persona switch."},
+    {"path":"references/panduan-preset-kampus.md:38-48","observation":"Example labels author-year (Gronning et al., 2022) as IEEE-style. This must not replace numeric manuscript citations.","boundary":"Preserve applicable supplied venue citation format and attribution."},
+    {"path":"SKILL.md:293-295,781","observation":"Earlier rule forbids comma before subordinate sehingga; later example recommends comma insertion.","boundary":"Use official EYD V comma rules by clause structure; no mechanical contradictory correction."},
+    {"path":"SKILL.md:615-618,627,636","observation":"Curriculum mapping, euphemism interpretation and respondent anonymization reach substantive/domain/privacy policy beyond ordinary language polish.","boundary":"Do not silently alter curriculum generation, employment/legal meaning, identities or facts; flag separately within approved scope."},
+    {"path":"references/pedoman-kebahasaan-resmi.md:67-70","observation":"Claims all modern citation must be parenthetical; example broadens YOLOv8 finding to all single-stage architectures.","boundary":"Citation weaving cannot broaden attribution or claim population."},
+    {"path":"SKILL.md:159,898; README.md","observation":"Different ISBNs named for same described textbook; summaries/date-specific presets not primary proof.","boundary":"Source bibliographic identity/page support unverified; verify primary text before asserting authoritative rule."}
+  ],
+  "primary_checks": [
+    {"url":"https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-tanda-baca/tanda-koma/","result":"Opened official EYD V. Rules 2-5 distinguish contrast conjunction, subordinate-before-main, main-before-subordinate and sentence connector punctuation; no blanket quota for transitions per page.","coverage":"Punctuation only, not all grammar/lexicon rules."},
+    {"url":"https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf","result":"Retrieval redirected/rendered Google Docs metadata only; not used as fully opened citation evidence.","coverage":"No claim full official PDF review."}
+  ],
+  "not_verified": ["All textbook/lexicon/campus claims against primary editions","AI detector scores or authorship inference","Python audit engine/test suite","Journal workflow and its templates/scripts","Universal semantic-preservation or quality gain versus incumbent humanizer"],
+  "proposed_disposition": "Adopt original supporting guide only if fixture preservation passes, with explicit parent boundaries above unchanged vendor content. Keep existing humanizer and ARS owners. No patching upstream into substitute skill."
+}

@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 640,
+        "height": 360,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "48"
+      }
+    ],
+    "format": {
+      "duration": "2.000000",
+      "size": "28772"
+    }
+  },
+  "decodeExit": 0,
+  "contactSheet": "hyperframes-smoke/contact-sheet.png",
+  "assertions": [
+    "640x360",
+    "24fps / 48 frames",
+    "2 seconds",
+    "decoded PNG contact sheet"
+  ],
+  "networkLimit": "render compiler fetched public Google Fonts (Inter); local render is not an offline/no-egress claim",
+  "warnings": [
+    "nested_structure_needs_subcomposition",
+    "rotation_pivot_drift during authored translation+rotation",
+    "non-blocking resource 404"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "omp-hyperframes-isolated",
+  "private": true,
+  "version": "1.0.0",
+  "dependencies": { "hyperframes": "0.9.28" }
+}

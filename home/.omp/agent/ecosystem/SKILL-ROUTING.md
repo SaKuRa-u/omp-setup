@@ -1,8 +1,54 @@
 # Katalog routing seluruh skill OMP
 
-Routing aktif setelah persetujuan pengguna: [laporan automatic-routing-20261107](measurements/automatic-routing-20261107/REPORT.md) dan selection.json di folder tersebut mengalahkan label historis. Total default-profile 151 skill: 141 metadata discoverable, 10 vendor-explicit. Pengguna cukup menjelaskan kebutuhan; pilih satu lead sesuai tugas dan baca panduan relevan sebelum tugas spesialis, bukan semua workflow. Setup/gaya personal dan flag `disable-model-invocation: true` tetap eksplisit dan dapat ditawarkan saat relevan. Katalog dasar 31 Oktober di bawah tetap reference incumbent, bukan inventaris lengkap kandidat baru. Scope lintas proyek/sesi baru pada default-profile ini; legitimate repo overrides, batas izin dan AGENTS.md tetap berlaku. Ini bukan router executable/hook atau janji klasifikasi deterministik.
+Routing aktif: [seleksi 10 November](measurements/skills-expansion-20261110/selection.json) menambahkan 23 skill native terpilih di atas baseline [7 November](measurements/automatic-routing-20261107/REPORT.md), tanpa mengubah sumber incumbent. Inventory/hasil nyata ada pada laporan bertanggal masing-masing. Pengguna cukup menjelaskan kebutuhan; pilih satu lead sesuai tugas dan baca panduan relevan sebelum tugas spesialis, bukan semua workflow. Flag `disable-model-invocation: true` tetap eksplisit dan dapat ditawarkan saat relevan. Scope lintas proyek/sesi baru pada default-profile ini; override repository, batas izin dan AGENTS.md tetap berlaku. Ini bukan router executable/hook atau janji klasifikasi deterministik.
 
 Pilih dari intent/tahap/artefak aktual dan persetujuan terdahulu, bukan keyword. Satu owner tahap dapat memakai panduan pendukung relevan; jangan ulang intake atau auto-chain reviewer. Invocation eksplisit-only tidak menjadi auto-trigger dari metadata/kutipan. Isi vendor tidak dipatch. Fixtures positif/near-miss lengkap: `runtime/skill-routing-cases.json`; positiveAccept adalah label yang diizinkan, bukan hasil pengujian, dan near-miss menolak skill baris tersebut (guide lain atau null boleh relevan). Sumber, integritas dan hasil verifikasi aktual 31 Oktober: `measurements/skills-routing-20261031.json`; bukti 24 Oktober di `measurements/routing-global-20261024.json` bersifat historis.
+
+## Humanizer ID tambahan — 10 November 2026
+
+`humanizer-id` original 1.5.1 dipasang global OMP default-profile sebagai pendukung penyuntingan bahasa Indonesia. [Seleksi](measurements/humanizer-id-20261110/selection.json), [batas wajib sebelum menerapkan](measurements/humanizer-id-20261110/EDITORIAL-BOUNDARIES.md), [bukti dan rollback](measurements/humanizer-id-20261110/REPORT.md). Python CLI/jurnal/installer tidak diaktifkan; humanizer existing dan ARS tetap utuh.
+
+| Sesuai | Near-miss / pemilik lain |
+|---|---|
+| Sunting prosa Indonesia kaku atau proofread dengan menjaga makna, angka, sitasi dan modalitas. | Terjemahan kutipan, Q&A biasa dan nama skill dalam log bukan permintaan editorial. |
+| Penyuntingan bahasa abstrak/draf supplied sebagai support tahap akademik. | Authoring/revisi manuskrip tetap academic-paper; metadata DOI/BibTeX citation-management; appraisal kausal scientific-critical-thinking. |
+| Konvensi pengguna/venue terverifikasi mengalahkan preset kampus dan contoh vendor. | Jangan mengubah sitasi numerik ke pengarang-tahun, klaim sebesar menjadi hingga, atau memory boundary menjadi kapasitas RAM. |
+
+
+## Tambahan terpilih 10 November 2026
+
+Panduan operasi dan batas helper: [USAGE.md](measurements/skills-expansion-20261110/USAGE.md). Seluruh 23 entrypoint asli dipasang pada root native `~/.omp/agent/skills/`; source/pin/checksum lengkap disimpan terpisah. `customDirectories` lama dipertahankan, bukan ditambah direct-SKILL roots yang tidak ditemukan loader.
+
+| Skill | Aktivasi / pemilik tahap | Positif | Near-miss |
+|---|---|---|---|
+| `hyperframes` | otomatis, HTML→video | Buat MP4 motion graphics judul dari HTML. | Hover/focus CSS tombol website, bukan video. |
+| `hyperframes-cli` | operasi CLI versi terkunci | Check dan render komposisi Hyperframes lokal. | Install engine/plugin atau publish cloud tanpa izin. |
+| `hyperframes-registry` | komponen video | Cari kinetic title sebelum membuat efek Hyperframes. | Komponen UI interaktif website tanpa komposisi video. |
+| `diagram-design` | diagram editorial HTML/SVG | Tata konektor diagram arsitektur berlabel dengan fidelity ledger. | Flow/sequence sederhana dalam chat: native Mermaid cukup. |
+| `anatomy` | ilustrasi fisik isometrik | Jelaskan cache sebagai mekanisme lock dengan readout model yang sama. | Flowchart layanan/API kotak-panah. |
+| `teardown` | ilustrasi technical linework | Buat exploded/assembled object illustration. | CAD manufaktur bertoleransi atau teardown source code. |
+| `better-interface` | alternatif review enam domain | Review interface dengan coverage dan konsolidasi root cause. | Tambahkan reviewer kedua setelah owner existing menyelesaikan tahap. |
+| `better-accessibility` | kriteria WCAG terfokus | Periksa keyboard/focus/announcement, bedakan source dari AT-tested. | Sekadar mengganti warna brand atau klaim sertifikasi tanpa uji. |
+| `better-colors` | ramp/token warna | Ramp OKLCH, gamut fallback, brand pinned dan ukur pasangan warna. | Identitas logo baru tanpa pekerjaan ramp/token. |
+| `better-layout` | resilience struktur | Perbaiki teks panjang, RTL, container sempit dan urutan DOM. | Motion hero atau brand direction. |
+| `better-typography` | rendering teks | Font synthesis, OpenType, tabular numbers dan wrapping. | Memilih arah brand tanpa isu rendering teks. |
+| `better-ui` | alternatif detail polish | Nested radius, forced-colors, hover-capability dan icon states. | Mencampur angka easing vendor ke GSAP/proyek tanpa alasan. |
+| `better-writing` | microcopy produk | Label/error/empty state dan konfirmasi berbasis konsekuensi. | Headline marketing atau humanisasi esai. |
+| `unslop` | alternatif retrofit visual | Rapikan dashboard AI-looking sambil menjaga fitur dan isi. | Audit WCAG saja atau semua desain baru. |
+| `antislop-layoutmobile` | filter responsive layout | Reflow tablet/phone, clipping, content breakpoints, safe area. | Viewport keyboard/PWA: mobile-native; jank: animation-performance. |
+| `search-first` | keputusan reuse/adopt/build | Pilih solusi existing dengan preflight kanal dan batas bukti. | Typo rutin, atau fan-out/install MCP otomatis setiap fitur. |
+| `scientific-critical-thinking` | appraisal bukti terfokus | Klaim kausal observasional, confounder dan risiko bias per outcome. | Referee report seluruh manuskrip, BibTeX atau keputusan pasien. |
+| `research-grants` | requirements/critique hibah | Traceability NOFO, critique aims peneliti dan konsistensi budget. | Substantive AI authorship NIH, submission, atau respons panel existing. |
+| `break` | explicit-only vendor | Harness data hostile untuk satu komponen UI yang dipilih. | Load test backend atau stress-test otomatis tanpa scope write. |
+| `explain-interface` | explicit-only vendor | Jelaskan mekanisme/lapisan efek visual dari bukti. | Clone artefak/executable atau sekadar menyebut nama di kutipan. |
+| `interface-review` | explicit-only vendor | Review regresi interface pada diff/PR terpilih. | Review kualitas kode umum: Ponytail/native sesuai intent. |
+| `state-machine` | explicit-only vendor | Workbench loading/empty/error existing dengan dummy data. | Mesin state XState atau diagram transisi. |
+| `variant` | explicit-only vendor | Variasi satu axis komponen pada halaman nyata. | Tiga situs penuh atau eksperimen A/B statistik. |
+
+Alternatif otomatis tetap satu owner: `unslop`/`better-ui` bukan explicit-only buatan lokal. Kelima flag vendor eksplisit dipertahankan. Tidak ada capture/publish/session helper, hooks, layanan persisten, akun, paid provider atau cloud dari pemilihan skill. Hyperframes lokal dapat mengambil Google Fonts; telemetry mati bukan bukti offline. Elaya, Claude-Mem, gstack, reverse-skill serta subset yang ditolak tetap tidak aktif; lihat laporan keputusan untuk alasan dan prasyarat.
+
+## Katalog incumbent 31 Oktober
+
 
 | Skill | Aktivasi | Contoh sesuai | Near-miss: jangan memilih skill ini hanya karena kasus tersebut |
 |---|---|---|---|

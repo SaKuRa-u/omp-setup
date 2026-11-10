@@ -1,0 +1,127 @@
+{
+  "date": "2026-11-10",
+  "status": "complete-with-explicit-runtime-limits",
+  "userScope": "Approved selective original-skill adoption + Hyperframes local CLI/render; OMP-only; no services/capture/cloud/paid-provider",
+  "candidateRepositories": 13,
+  "additionalSkills": 23,
+  "autoAdditional": 18,
+  "manualAdditional": 5,
+  "global": {
+    "registered": 174,
+    "modelVisible": 159,
+    "hidden": 15
+  },
+  "projectOnboarding": {
+    "registered": 179,
+    "modelVisible": 163,
+    "hidden": 16,
+    "existingAliases": 5
+  },
+  "nativeUriChecks": 46,
+  "originalIncumbentEntrypointsPreserved": 151,
+  "installedFilesVerified": 717,
+  "backupFilesVerified": 4,
+  "semanticSmoke": {
+    "passed": 8,
+    "total": 8,
+    "model": "openai-codex/gpt-6.1-sol",
+    "firstPass": true,
+    "benchmark": false
+  },
+  "hyperframes": {
+    "version": "0.9.28",
+    "commit": "58686a74c6a82c13cec05c67a76cc7555cea509b",
+    "installedPackages": 74,
+    "lockedEntries": 126,
+    "telemetryEnabled": false,
+    "lifecycleScriptsExecuted": false,
+    "renderExit": 0,
+    "format": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 640,
+          "height": 360,
+          "r_frame_rate": "24/1",
+          "nb_read_frames": "48"
+        }
+      ],
+      "format": {
+        "duration": "2.000000",
+        "size": "28772"
+      }
+    },
+    "decodedContactSheetOpened": true,
+    "warnings": [
+      "nested_structure_needs_subcomposition",
+      "rotation_pivot_drift during authored translation+rotation",
+      "non-blocking resource 404"
+    ],
+    "offline": false
+  },
+  "changes": [
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/config.yml",
+      "beforeSha256": "54755e78c547d69c025fbacbbb35036b8262655f3cf405f9032b55d308d87844",
+      "afterSha256": "165ffb4a3aa41aba1bc246bc7acc804291f332fedeae2ffd426c5b561eaa4f87"
+    },
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/AGENTS.md",
+      "beforeSha256": "c1e93c5c6b179badab1483fcd78ff2155aea8c0e8ca1f4109bb8c5531edca009",
+      "afterSha256": "d7c9c3d5c7c6cfa1d2f1da434f7bc7d10a8ff63d7ad22de4a7e6734e059adbc9"
+    },
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/SKILL-ROUTING.md",
+      "beforeSha256": "245a001d57943142960719dc11b4cbceb036ffd54140fae27a1bc5b2037d5d4a",
+      "afterSha256": "441b463135b3c0b9c56aaba34412edb8b2bb725dcb33ff8d1173fb218016eaac"
+    },
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/ledger.json",
+      "beforeSha256": "175e748352f25c43556679eec82ffa5710e82ede5867a31049817baeb5c5a1bc",
+      "afterSha256": "3d09351afcb0b75064155c229f3af2c51411539d806f1d5c99004e2d7acbbcb3"
+    }
+  ],
+  "preserved": [
+    "customDirectories baseline",
+    "native memory off",
+    "existing model roles and approval",
+    "Supermemory/REA/MCP integrations",
+    "other agent hosts",
+    "user application repositories"
+  ],
+  "notExercised": [
+    "Entire 13-suite security audit",
+    "Figma MCP/design execution",
+    "Anatomy/Jakub/Unslop helper runtime",
+    "Clinical/GRADE certification or grant submission/live NIH policy",
+    "Hyperframes Pro/cloud/media generation",
+    "Actual rollback",
+    "No-egress OS/network sandbox"
+  ],
+  "initialFailures": [
+    {
+      "failure": "Missing diagram-design",
+      "resolution": "Corrected direct root registration to native user skill directories; subsequent native scenarios all passed."
+    },
+    {
+      "failure": "Aggregate hidden count assumed same across roots",
+      "resolution": "Harness-only assertion corrected using prior root-specific baseline: Onboarding retains github/review-animations alias. Reused completed successful 46 URI/scenario/catalog results, checked corrected count from retained outputs; did not rerun successful scenarios."
+    }
+  ],
+  "artifacts": [
+    "REPORT.md",
+    "USAGE.md",
+    "selection.json",
+    "installed-files.json",
+    "rollback-plan.json",
+    "backup-acceptance.json",
+    "native-acceptance.json",
+    "intent-acceptance.json",
+    "hyperframes-runtime-manifest.json",
+    "hyperframes-source-manifest.json",
+    "hyperframes-smoke/local-motion.mp4",
+    "hyperframes-smoke/contact-sheet.png"
+  ]
+}

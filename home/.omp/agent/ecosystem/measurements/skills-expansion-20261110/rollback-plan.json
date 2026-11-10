@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-10",
+  "executed": false,
+  "method": "Quarantine only exact added native dirs outside discovery; remove five exact manual entries and dated docs/ledger section by merge. Never overwrite newer user changes with snapshot.",
+  "quarantineCandidates": [
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills/diagram-design",
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills/anatomy",
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills/better-accessibility",
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills/better-colors",
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills/better-interface",
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills/better-layout",
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills/better-typography",
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills/better-ui",
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills/better-writing",
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills/break",
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills/explain-interface",
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills/interface-review",
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills/state-machine",
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills/teardown",
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills/variant",
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills/unslop",
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills/scientific-critical-thinking",
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills/research-grants",
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills/antislop-layoutmobile",
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills/search-first",
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills/hyperframes",
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills/hyperframes-cli",
+    "C:/Users/Indrimeilla-PC/.omp/agent/skills/hyperframes-registry"
+  ],
+  "manualEntries": [
+    "break",
+    "explain-interface",
+    "interface-review",
+    "state-machine",
+    "variant"
+  ],
+  "backups": [
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/config.yml",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/skills-expansion-20261110/config.yml",
+      "sha256": "54755e78c547d69c025fbacbbb35036b8262655f3cf405f9032b55d308d87844",
+      "afterSha256": "165ffb4a3aa41aba1bc246bc7acc804291f332fedeae2ffd426c5b561eaa4f87",
+      "restoreOnlyIfCurrentAfterShaMatches": true
+    },
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/AGENTS.md",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/skills-expansion-20261110/AGENTS.md",
+      "sha256": "c1e93c5c6b179badab1483fcd78ff2155aea8c0e8ca1f4109bb8c5531edca009",
+      "afterSha256": "d7c9c3d5c7c6cfa1d2f1da434f7bc7d10a8ff63d7ad22de4a7e6734e059adbc9",
+      "restoreOnlyIfCurrentAfterShaMatches": true
+    },
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/SKILL-ROUTING.md",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/skills-expansion-20261110/SKILL-ROUTING.md",
+      "sha256": "245a001d57943142960719dc11b4cbceb036ffd54140fae27a1bc5b2037d5d4a",
+      "afterSha256": "441b463135b3c0b9c56aaba34412edb8b2bb725dcb33ff8d1173fb218016eaac",
+      "restoreOnlyIfCurrentAfterShaMatches": true
+    },
+    {
+      "path": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/ledger.json",
+      "backup": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/skills-expansion-20261110/ledger.json",
+      "sha256": "175e748352f25c43556679eec82ffa5710e82ede5867a31049817baeb5c5a1bc",
+      "afterSha256": "3d09351afcb0b75064155c229f3af2c51411539d806f1d5c99004e2d7acbbcb3",
+      "restoreOnlyIfCurrentAfterShaMatches": true
+    }
+  ],
+  "runtime": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/hyperframes/0.9.28",
+  "keepForProvenance": [
+    "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/sources/skills-expansion-20261110",
+    "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/measurements/skills-expansion-20261110"
+  ],
+  "sharedCache": "Initial smoke used ~/.cache/hyperframes/fonts/inter; do not remove existing cache without ownership/approval.",
+  "verification": "Native skill list and URI in fresh process after rollback, comparing native-baseline.json; actual rollback not performed."
+}

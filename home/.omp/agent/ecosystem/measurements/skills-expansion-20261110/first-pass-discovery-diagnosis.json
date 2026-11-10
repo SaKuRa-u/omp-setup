@@ -1,0 +1,11 @@
+{
+  "failure": "verify-native.mjs: Missing diagram-design",
+  "rootCause": "customDirectories enumerates child skill directories, not a direct SKILL.md root; grouped ECC/Hyperframes work, direct roots do not.",
+  "observedNew": [
+    "hyperframes",
+    "hyperframes-cli",
+    "hyperframes-registry",
+    "search-first"
+  ],
+  "fix": "Install selected original self-contained skill directories into existing native ~/.omp/agent/skills convention; remove unsupported custom root entries, retain original frontmatter and manual flags."
+}

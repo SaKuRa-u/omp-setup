@@ -1,0 +1,912 @@
+{
+  "date": "2026-11-10T09:19:08.317Z",
+  "versions": {
+    "omp": "18.18.6",
+    "node": "24.19.0",
+    "bun": "1.4.2"
+  },
+  "discovery": {
+    "global": 175,
+    "modelVisible": 160,
+    "hidden": 15,
+    "warnings": [],
+    "explicit": [
+      "break",
+      "explain-interface",
+      "grill-me",
+      "handoff",
+      "i-have-adhd",
+      "interface-review",
+      "review-animations",
+      "setup-matt-pocock-skills",
+      "state-machine",
+      "teach",
+      "to-questionnaire",
+      "to-spec",
+      "to-tickets",
+      "variant",
+      "wait-what"
+    ]
+  },
+  "skills": [
+    {
+      "name": "academic-paper",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\academic-paper\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "academic-paper-reviewer",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\academic-paper-reviewer\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "academic-pipeline",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\academic-pipeline\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-accessibility-auditor",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-accessibility-auditor\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-api-platform-engineer",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-api-platform-engineer\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-api-tester",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-api-tester\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-brand-guardian",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-brand-guardian\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-database-reliability-engineer",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-database-reliability-engineer\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-developer-tooling-engineer",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-developer-tooling-engineer\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-document-generator",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-document-generator\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-identity-access-engineer",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-identity-access-engineer\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-internationalization-engineer",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-internationalization-engineer\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-payments-billing-engineer",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-payments-billing-engineer\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-performance-benchmarker",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-performance-benchmarker\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-privacy-engineer",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-privacy-engineer\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-research-synthesist",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-research-synthesist\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-secrets-credential-hygiene-engineer",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-secrets-credential-hygiene-engineer\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-security-architect",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-security-architect\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-technical-writer",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-technical-writer\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agency-ux-researcher",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agency-ux-researcher\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "agent-reach",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\agent-reach\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "anatomy",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\anatomy\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "animate",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\animate\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "animation-performance",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\animation-performance\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "animation-vocabulary",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\animation-vocabulary\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "ansible-automation",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\ansible-automation\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "antislop",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\antislop\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "antislop-code",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\antislop-code\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "antislop-copywriting",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\antislop-copywriting\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "antislop-layoutmobile",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\antislop-layoutmobile\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "aws-ami-builder",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\aws-ami-builder\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "azure-image-builder",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\azure-image-builder\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "azure-verified-modules",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\azure-verified-modules\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "better-accessibility",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\better-accessibility\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "better-colors",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\better-colors\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "better-interface",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\better-interface\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "better-layout",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\better-layout\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "better-typography",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\better-typography\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "better-ui",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\better-ui\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "better-writing",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\better-writing\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "brainstorming",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\brainstorming\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "break",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\break\\SKILL.md",
+      "hidden": true
+    },
+    {
+      "name": "break-ui",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\break-ui\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "canvas-design",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\canvas-design\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "caveman",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\caveman\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "choreograph",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\choreograph\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "citation-management",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\citation-management\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "code-review",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\code-review\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "codebase-design",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\codebase-design\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "constraint-driven-development",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\constraint-driven-development\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "context7-docs",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\context7-docs\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "deep-research",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\deep-research\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "deprecation-and-migration",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\deprecation-and-migration\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "design-taste-frontend",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\design-taste-frontend\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "diagram-design",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\diagram-design\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "dispatching-parallel-agents",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\dispatching-parallel-agents\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "docker-container-builds",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\docker-container-builds\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "documentation-and-adrs",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\documentation-and-adrs\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "domain-modeling",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\domain-modeling\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "doubt-driven-development",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\doubt-driven-development\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "e2e",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\e2e\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "emil-design-eng",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\emil-design-eng\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "executing-plans",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\executing-plans\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "explain-interface",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\explain-interface\\SKILL.md",
+      "hidden": true
+    },
+    {
+      "name": "find-animation-opportunities",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\find-animation-opportunities\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "find-skills",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\find-skills\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\finishing-a-development-branch\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "fixing-accessibility",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\fixing-accessibility\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "fixing-metadata",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\fixing-metadata\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "frontend-design",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\frontend-design\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "graphify",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\graphify\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "grill-me",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\grill-me\\SKILL.md",
+      "hidden": true
+    },
+    {
+      "name": "grilling",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\grilling\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "gsap-core",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\gsap-core\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "gsap-frameworks",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\gsap-frameworks\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "gsap-performance",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\gsap-performance\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "gsap-plugins",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\gsap-plugins\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "gsap-react",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\gsap-react\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "gsap-scrolltrigger",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\gsap-scrolltrigger\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "gsap-timeline",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\gsap-timeline\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "gsap-utils",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\gsap-utils\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "hallmark",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\hallmark\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "handoff",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\handoff\\SKILL.md",
+      "hidden": true
+    },
+    {
+      "name": "huggingface-community-evals",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\huggingface-community-evals\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "huggingface-datasets",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\huggingface-datasets\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "huggingface-local-models",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\huggingface-local-models\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "humanizer",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\humanizer\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "humanizer-id",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\humanizer-id\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "hyperframes",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\hyperframes\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "hyperframes-cli",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\hyperframes-cli\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "hyperframes-registry",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\hyperframes-registry\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "i-have-adhd",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6\\skills\\i-have-adhd\\SKILL.md",
+      "hidden": true
+    },
+    {
+      "name": "impeccable",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\impeccable\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "improve-animations",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\improve-animations\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "interface-review",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\interface-review\\SKILL.md",
+      "hidden": true
+    },
+    {
+      "name": "kubernetes-manifest-operations",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\kubernetes-manifest-operations\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "last30days",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\last30days\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "mcp-builder",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\mcp-builder\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "mobile-native",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\mobile-native\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "motion",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\motion\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "new-terraform-provider",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\new-terraform-provider\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "observability-and-instrumentation",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\observability-and-instrumentation\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "orca-cli",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\orca-cli\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "orca-computer-use",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\computer-use\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "orchestration",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\orchestration\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "ponytail",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "ponytail-audit",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-audit\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "ponytail-debt",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-debt\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "ponytail-gain",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-gain\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "ponytail-help",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-help\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "ponytail-review",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\plugins\\cache\\plugins\\ponytail___ponytail___5.3.2\\skills\\ponytail-review\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "prompt-master",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a\\skills\\prompt-master\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "provider-actions",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\provider-actions\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "provider-configuration",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\provider-configuration\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "provider-docs",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\provider-docs\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "provider-ephemeral-resources",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\provider-ephemeral-resources\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "provider-framework-migration",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\provider-framework-migration\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "provider-resources",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\provider-resources\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "provider-test-patterns",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\provider-test-patterns\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "push-to-registry",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\push-to-registry\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "receiving-code-review",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\receiving-code-review\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "refactor-module",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\refactor-module\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "remove-animations",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\remove-animations\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "requesting-code-review",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\requesting-code-review\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "research-grants",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\research-grants\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "reverse-engineer-anything",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\reverse-engineer-anything\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "review-animations",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\review-animations\\SKILL.md",
+      "hidden": true
+    },
+    {
+      "name": "run-acceptance-tests",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\run-acceptance-tests\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "scientific-critical-thinking",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\scientific-critical-thinking\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "search-first",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\search-first\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "security-audit",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\security-audit\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "seo-hreflang",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\claude-seo-6be93f45064ffbadced572b5d5c95f55fd263af0\\skills\\seo-hreflang\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "seo-schema",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\claude-seo-6be93f45064ffbadced572b5d5c95f55fd263af0\\skills\\seo-schema\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "setup-matt-pocock-skills",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\setup-matt-pocock-skills\\SKILL.md",
+      "hidden": true
+    },
+    {
+      "name": "shipping-and-launch",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\shipping-and-launch\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "skill-creator",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\skill-creator\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "source-driven-development",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e\\skills\\source-driven-development\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "sr-screener",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\academic-research-skills-4c544901\\sr-screener\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "state-machine",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\state-machine\\SKILL.md",
+      "hidden": true
+    },
+    {
+      "name": "subagent-driven-development",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\subagent-driven-development\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "supabase-postgres-best-practices",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\supabase-postgres-best-practices\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "supermemory-v5",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\supermemory-v5\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "systematic-debugging",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\systematic-debugging\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "tdd",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\tdd\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "teach",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\teach\\SKILL.md",
+      "hidden": true
+    },
+    {
+      "name": "teardown",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\teardown\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "terraform-policy",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\terraform-policy\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "terraform-search-import",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\terraform-search-import\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "terraform-stacks",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\terraform-stacks\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "terraform-style-guide",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\terraform-style-guide\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "terraform-test",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\terraform-test\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "test-driven-development",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\test-driven-development\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "theme-factory",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\theme-factory\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "to-questionnaire",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\to-questionnaire\\SKILL.md",
+      "hidden": true
+    },
+    {
+      "name": "to-spec",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\to-spec\\SKILL.md",
+      "hidden": true
+    },
+    {
+      "name": "to-tickets",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\engineering\\to-tickets\\SKILL.md",
+      "hidden": true
+    },
+    {
+      "name": "train-sentence-transformers",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\train-sentence-transformers\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "trl-training",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\trl-training\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\ui-ux-pro-max\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "understand-chat",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\understand-chat\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "understand-diff",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\understand-diff\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "understand-explain",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\understand-explain\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "understand-onboard",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\understand-onboard\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "unslop",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\unslop\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "using-git-worktrees",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\using-git-worktrees\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "variant",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\variant\\SKILL.md",
+      "hidden": true
+    },
+    {
+      "name": "vercel-composition-patterns",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\vercel-composition-patterns\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\vercel-react-best-practices\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "verification-before-completion",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\verification-before-completion\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "wait-what",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\wait-what\\SKILL.md",
+      "hidden": true
+    },
+    {
+      "name": "web-design-guidelines",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\web-design-guidelines\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "webapp-testing",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\webapp-testing\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "windows-builder",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.agents\\skills\\windows-builder\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "writing-for-agents",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0\\skills\\productivity\\writing-for-agents\\SKILL.md",
+      "hidden": false
+    },
+    {
+      "name": "writing-plans",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7\\skills\\writing-plans\\SKILL.md",
+      "hidden": false
+    }
+  ],
+  "limits": [
+    "Discovery only; no new model inference, MCP startup, integrations or Hyperframes render requested by snapshot task",
+    "Earlier dated smoke evidence retained as historical; not clean-machine restore"
+  ]
+}

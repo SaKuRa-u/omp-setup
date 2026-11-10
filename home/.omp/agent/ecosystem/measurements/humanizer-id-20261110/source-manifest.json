@@ -1,0 +1,820 @@
+{
+  "repo": "https://github.com/apissaj/humanizer-id",
+  "commit": "1ec77b92f022adb12a43d975da97f8dda27e754b",
+  "skillVersion": "1.5.1",
+  "pythonPackageVersion": "1.0.0 (not installed)",
+  "license": "MIT",
+  "archiveSha256": "81d763cbf4d333e47fc2587bbbb92767ffe13498e5934fa7dcefb932c5b0ecbb",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
+      "gitBlob": "6313b56c57848efce05faa7aa7e901ccfc2886ea"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "9de94a789435ce812b493ecc6570f0153dc027cbc50bf94c3db7bea099c18b86",
+      "gitBlob": "b2e027343bba5b566656e065bf055c4ed0db287c"
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "sha256": "dec6b792185ea66390b2b7c39ad7900e80cf529bdf1371460322ddb37b62cc1e",
+      "gitBlob": "232bb15836255dbf9bfac649f51b0e8ea8eb03ae"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "7ffd9eb9a5a213081afdeaad49cccf6e9b55892b01f7333f955174b1e12eecd9",
+      "gitBlob": "1b4a5e08dcaa1b06819dd154656e17ca2498bb40"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "0c624d0fba2ef8c2e271421dfe36d0c0356665793f60ee9822788abb3261277f",
+      "gitBlob": "ae13ba60a272ee28925ffd6261ab9d3453c3cabe"
+    },
+    {
+      "path": "PROMPT.md",
+      "sha256": "620f2d38f83d6fa483638982ed859d9bfbeb6ec3889754068517101aaa3dbc14",
+      "gitBlob": "09048a8128986baf3dd2f70dd98bfab7eed8741a"
+    },
+    {
+      "path": "README.md",
+      "sha256": "f0b0dfb1c07518277ab00cc9a351f6ee4759cd946a3e7e131c7e7e4e748f6bbb",
+      "gitBlob": "cb11f38af02733e9cec03ab4e052519d1460807e"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "d35a212787a3d65b43722fac6387b31c17ece7f7de7bdf8075ac5df77d9ec0c3",
+      "gitBlob": "8c54988a0280f1e949138733661ca671587a8874"
+    },
+    {
+      "path": "data/glosarium-lintas-bidang.json",
+      "sha256": "68a98309232651b25df2eabbb9ee0aefac6ad25c9a8a07c06490a8c1661eec5f",
+      "gitBlob": "ed82c08071d0fe0c8d2a0e43ad2814d29ab8635f"
+    },
+    {
+      "path": "data/kalke-indonesia.json",
+      "sha256": "aa9f1a7948ed5e29ea9aa993507fc0be027fc256179ef3e3bdeea8d8268f21d5",
+      "gitBlob": "75d201f77120581b775587c92c60604133da95df"
+    },
+    {
+      "path": "data/pedoman-kampus.json",
+      "sha256": "0c1b8d5e4f5f2e7080edb49897a081a68b3f5af5c47affd366e0eb2d8a466688",
+      "gitBlob": "62fdace7ffffd4c54abdc921509a70774e629211"
+    },
+    {
+      "path": "examples/abstrak-skripsi-informatika.md",
+      "sha256": "1010e82113d3e6c3ade1fdee6c8ecabae8ca370015eb92ded204bb97bd70fdcb",
+      "gitBlob": "432b465ffe650892e85599ded320646f9d812414"
+    },
+    {
+      "path": "examples/artikel-manajemen-fintech.md",
+      "sha256": "c0306958a3ed507c96a45cc1dfcced71852c8eb7a41f1328c61ebfa49beca1ed",
+      "gitBlob": "72b9d1a4f3953db5347b312ebf4c6227f39d2198"
+    },
+    {
+      "path": "examples/implementasi-sistem-akademik.md",
+      "sha256": "cae7c78dbeccccf250d63f2f36e0416ff6eb414644a57ef60a7b99e8ba6e61a8",
+      "gitBlob": "38c32be7f239a1940af84eeb181a61ff26277a8b"
+    },
+    {
+      "path": "examples/jurnal-kesehatan-masyarakat.md",
+      "sha256": "8427d2838c7778587755eef59140898b7c1d4677c463b3951920fc9da110c1d5",
+      "gitBlob": "55ef5cccb0f36e39a4077a08b34a9c50dee0f2a7"
+    },
+    {
+      "path": "examples/kebijakan-pendidikan-kurikulum.md",
+      "sha256": "2dd8bf44d38eab447a4d2c9cb87eb15a44dfa6cbd2be1c4dfa98c66de22e4899",
+      "gitBlob": "63c528b0adcd1de468f943962a061328662940cd"
+    },
+    {
+      "path": "examples/metodologi-penelitian.md",
+      "sha256": "d00286ce6f27ef261ee6b7f5a2ef7e4ff48cf8c3baf53eb2103c7fc0bc9e1ba6",
+      "gitBlob": "35a7f15766c557c3f35e3579f244128de67eb7c4"
+    },
+    {
+      "path": "humanizer_id/__init__.py",
+      "sha256": "1de3614fc2841d2dfe235881d2269211eb21802a16e5663fc88b364cfb165a32",
+      "gitBlob": "840c1bd3f8b9403f760f4e8e076e86604d324b95"
+    },
+    {
+      "path": "humanizer_id/audit.py",
+      "sha256": "47d890b1314b9df1dfa79ffade0031a7ceefea3912a3ddd4ee9cad02722b50b5",
+      "gitBlob": "00876ab0460686a5b677a1830a6e2a53d78b525d"
+    },
+    {
+      "path": "humanizer_id/cli.py",
+      "sha256": "de43ca006856a8601da37d8056069472e66a38267084956cf96161c93d1a0b0e",
+      "gitBlob": "a32422bb876721dd5a127435572d05f47cf4e910"
+    },
+    {
+      "path": "humanizer_id/data/glosarium-lintas-bidang.json",
+      "sha256": "68a98309232651b25df2eabbb9ee0aefac6ad25c9a8a07c06490a8c1661eec5f",
+      "gitBlob": "ed82c08071d0fe0c8d2a0e43ad2814d29ab8635f"
+    },
+    {
+      "path": "humanizer_id/data/kalke-indonesia.json",
+      "sha256": "aa9f1a7948ed5e29ea9aa993507fc0be027fc256179ef3e3bdeea8d8268f21d5",
+      "gitBlob": "75d201f77120581b775587c92c60604133da95df"
+    },
+    {
+      "path": "humanizer_id/data/pedoman-kampus.json",
+      "sha256": "0c1b8d5e4f5f2e7080edb49897a081a68b3f5af5c47affd366e0eb2d8a466688",
+      "gitBlob": "62fdace7ffffd4c54abdc921509a70774e629211"
+    },
+    {
+      "path": "humanizer_id/engine.py",
+      "sha256": "a7cf36556ce9faa2c6a67e9cf2ae2121e5b5c962eff117fe7fecef45f076cfb8",
+      "gitBlob": "a78f037be42e72d5a3018a0277852af09db30fde"
+    },
+    {
+      "path": "humanizer_id/matchers.py",
+      "sha256": "e257bfa20b11efccef9cea1658693005ee1299db95307aee3098a1911451afeb",
+      "gitBlob": "4277e880084c8ba6b27afe3466f09ef38ae8cee8"
+    },
+    {
+      "path": "jurnal/SKILL.md",
+      "sha256": "c5f11f7a8e80d8955794dcd75e90edeac20c834830c7f9f4386e3a2e1c564eaa",
+      "gitBlob": "3bd679ed1cc8904f806e49e733183d49710ee767"
+    },
+    {
+      "path": "jurnal/checklist.md",
+      "sha256": "2fd89e7415989e0438c74b109b8f51c9af42f278652e7148000972ccfe5ce0a8",
+      "gitBlob": "294a8bfe03125626451c1b4bd016e63adf0db62d"
+    },
+    {
+      "path": "jurnal/examples/sample-manuscript.md",
+      "sha256": "201a461102e1095b0410e6a6683fc3a5c89bd1b838386aa39754289c163ee673",
+      "gitBlob": "17722458a3dea3b868fd52cdfee3c90b8239cb61"
+    },
+    {
+      "path": "jurnal/references/imrad-structure.md",
+      "sha256": "4fe0853d2f4140215d4b000876266a5698de2f215eb36cfcd2913d1781893357",
+      "gitBlob": "34389474467ca574f4bfba898d4d2aaba47eed5a"
+    },
+    {
+      "path": "jurnal/references/scopus-sinta-map.md",
+      "sha256": "c2059f4f3659fd7941e19e3ab6470c94caa5b6dd3ed19c15e3c2e24cc53db9e0",
+      "gitBlob": "ede941f431e25096db05c5342e1cc17b4cedde48"
+    },
+    {
+      "path": "jurnal/scripts/word_count_check.py",
+      "sha256": "5855535e3c3726e1f9eb9c747ed78122fbaa4eadeb08b924c4eb331fbea26642",
+      "gitBlob": "3a7814c32abaddf025dcbf5c60479d5f41626f19"
+    },
+    {
+      "path": "jurnal/templates/abstract-template.md",
+      "sha256": "99d63d7dc19f2b9af22d1321237e7c0f42a2a6082943439023600a0d2c7eb4f4",
+      "gitBlob": "39f5c766de691fde45277446daf02e387587a822"
+    },
+    {
+      "path": "jurnal/templates/cover-letter-template.md",
+      "sha256": "12e53c8cdd8b3174c783c18c7f689be7a9269e28ee4bc59a6831805f95a0e652",
+      "gitBlob": "af1e3850be64c5b5a771556e6af8e8935e4d0c07"
+    },
+    {
+      "path": "jurnal/templates/judul-template.md",
+      "sha256": "7d6cf869deb5f9d7e1e7d7eaff0a4953cad02e73a042cd56519c41e8eaa53b4e",
+      "gitBlob": "6aee8a2d6be6f429ce53614a8c4fcc34500314ca"
+    },
+    {
+      "path": "jurnal/templates/response-to-reviewer-template.md",
+      "sha256": "3a8f59ab61cc4ce041de5cc0953718b5f55d1d410a0d4811862b2f55c0b5c80c",
+      "gitBlob": "438313f6418d99cb92a9e676e18ab71e76b379ae"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "75664ec305172329b72d3f7c10ef9351f1f899a0220730835b64b313ed4bb71c",
+      "gitBlob": "0467b052882f9d2c8bf8e31a04ad4197443cd25a"
+    },
+    {
+      "path": "references/bahasa-indonesia-pewara-2019.md",
+      "sha256": "3001a94672a6a37316ecc99a9be3c608b020bb10db58414efff38aaae4446ede",
+      "gitBlob": "783437e4478792f96a4e619c5461819b4df404e8"
+    },
+    {
+      "path": "references/bahasa-indonesia-pt-suyatno-2017.md",
+      "sha256": "95fb8f65800953a8ce3d9770fda4f13d9a81bd8abcca9a91694ee14c4309f5ad",
+      "gitBlob": "5538b1ac674af5053f976ff96be68e53ee8ea200"
+    },
+    {
+      "path": "references/bahasa-pejabat-pemerintah-2019.md",
+      "sha256": "52e6461a949cfcf2774f1ceeb78c92bbd5122e74fbb530a74a3ed4b93bc86fba",
+      "gitBlob": "416df34533e3995d146014c6c802b8bf075a5cef"
+    },
+    {
+      "path": "references/bentuk-pilihan-kata-analogi-pertalian.md",
+      "sha256": "dc7e4b751239037286b2ca417860fea8a6ec4eaa7a829648152ff6e4a7387299",
+      "gitBlob": "04b20eec6e0265ba2846c0617c74e0aa083ea3e8"
+    },
+    {
+      "path": "references/bentuk-pilihan-kata-baku-tidakbaku-lanjutan.md",
+      "sha256": "17798eaa86544085415df9ce20aa39da28bd884e10672dd7bf4d5883962130d7",
+      "gitBlob": "6051476a2191cb812a0ea3e4563f834fb1a2470e"
+    },
+    {
+      "path": "references/bentuk-pilihan-kata-baku-tidakbaku.md",
+      "sha256": "1003525f40345080b4a2aeaa0e145d6e22bbacc3a6c5aa9030aa0b8583b3db72",
+      "gitBlob": "82f0584dc04aa73879d037a0350871326d6fe4f2"
+    },
+    {
+      "path": "references/bentuk-pilihan-kata-bpk.md",
+      "sha256": "3c1cdf275e8ada61d097db462cbe5bcdd23aa82ee0c785bf7c7c76d39fe4a763",
+      "gitBlob": "ea37a384709db4d41a5bdd15a4bf57508c5fed20"
+    },
+    {
+      "path": "references/bentuk-pilihan-kata-morfologi-bentukan.md",
+      "sha256": "e07a4674c9f28efdcdb447534f6174f6afcade5e106fd16464c39e18cecd82b6",
+      "gitBlob": "c63fe5b14e31d01debba8a0159769721a8cf9e80"
+    },
+    {
+      "path": "references/bentuk-pilihan-kata-mustakim-2019.md",
+      "sha256": "ba88e66d57a1cd2b9e210757b99c3f08cd15799675e6ad0f1a4610a407d25cdb",
+      "gitBlob": "c41edc4420152b0ae9e30010b5d46ccf88d71790"
+    },
+    {
+      "path": "references/buku-ajar-bahasa-indonesia-perguruan-tinggi.md",
+      "sha256": "c88b093b1a626cfbde831915aa0e365b0dc8892311803a1ad89276464a48d3a0",
+      "gitBlob": "ac0d26bde26c7152cdd52b73c3b0e4e2b91e195e"
+    },
+    {
+      "path": "references/buku-ajar-iain-curup.md",
+      "sha256": "a8a8061ee5130a4b16e6c37af83ea93605ba25f0627eb2a22294436194247dfa",
+      "gitBlob": "96227361112beb373991609d976d93f3e4dc21f9"
+    },
+    {
+      "path": "references/buku-ajar-pt-kuntarto-suyatno.md",
+      "sha256": "7b86ef8c712829a1d80d86365579313cbcf2f3b3e39a5a3cf7ce73637de4da55",
+      "gitBlob": "222a6afad05aeaa92ac028e9a1c73bf33422b5c3"
+    },
+    {
+      "path": "references/buku-ajar-uin-alauddin.md",
+      "sha256": "60dd18e289e66693b95ee760e704d841a9d084b715120759ea36814d4f613172",
+      "gitBlob": "b88135fa093db29b6d1e0966faa4764fe423f7bb"
+    },
+    {
+      "path": "references/buku-aparatur-pemerintah-pusat-bahasa.md",
+      "sha256": "bb2805da72390dcb666b841c8d3eaa6611a6eeda81ea6be28ade873e98d7f799",
+      "gitBlob": "35e597e5e43090bad82bb0481e09ce61105f7fe5"
+    },
+    {
+      "path": "references/buku-modul-unja.md",
+      "sha256": "80c733d85ef0dcdd093c18f67fac6484a36de3ab8dfa0aa442b7720602f7cd95",
+      "gitBlob": "738c210e16f57596c9293965a066752b6b9eceb9"
+    },
+    {
+      "path": "references/buku-pewara-pusat-bahasa.md",
+      "sha256": "4a47daaa64ef08787d1e446d3091899f582696c6579feeec45843cccc40b160d",
+      "gitBlob": "137817212d3ab79dd412bb05571a799eee09d2ac"
+    },
+    {
+      "path": "references/buku-pt-uin-alauddin-halimah.md",
+      "sha256": "a0a44b874b1fffd3b8e350707adaaf0bbdd4682f29024a25d4f76a43f9e703c2",
+      "gitBlob": "f4ddc60a316a133c44583a7d6aed82ae6593d0e8"
+    },
+    {
+      "path": "references/buku-seri-penyuluhan-badan-bahasa.md",
+      "sha256": "ca1c49bb35e92f996ed0f04c106e753b80110da2e76191b4736b95826ed3145e",
+      "gitBlob": "ab1e9651b03f37c5c6524320b0129ab9ecd5bd52"
+    },
+    {
+      "path": "references/buku-seri-penyuluhan-bentuk-pilihan-kata.md",
+      "sha256": "d5e3ba9eaaf074310979cedd35aee4d7c42ee95255e38b26b6d6d07378a33e85",
+      "gitBlob": "d8e4bd337603a6633658bc5dfa3fdb73d07a1830"
+    },
+    {
+      "path": "references/buku-surat-menyurat-pusat-bahasa.md",
+      "sha256": "650a78f3067ef4a0b4c4adb8f60c491eb02a9bf418b564d0b20c4219b33ddcf5",
+      "gitBlob": "ae1f10af57dbf3f122a4bec8e1c77af8be683465"
+    },
+    {
+      "path": "references/daftar-istilah-linguistik-asing-indonesia.md",
+      "sha256": "a8bb5e20c6740352a019e603c5861034a4d2797723e61179c6c9c30be4b66c11",
+      "gitBlob": "e89c7ba1aa42ccccbe67643d20ff3c6b654d38f2"
+    },
+    {
+      "path": "references/daftar-istilah-linguistik-kridalaksana-1978.md",
+      "sha256": "a0d94267a1686332faf693e79216b29396f275ee9e9a61b754468399fc644645",
+      "gitBlob": "5d931d2c31b48eb506178c7689d3d2f0786c4851"
+    },
+    {
+      "path": "references/ekstrak-buku-teks-kemdikbud.md",
+      "sha256": "4f43b9cfc28bb46725d2e1b33af0a2bb019b6836fee75bf0102a161849b2583f",
+      "gitBlob": "689d9d1c33ca121ed68efae5bc9aa161f288348a"
+    },
+    {
+      "path": "references/eyd-pusat-bahasa-lengkap.md",
+      "sha256": "30c420fee0c92ca855ac27c103c5fac2fc06bd26007dde80b3cf17ff077c5dc0",
+      "gitBlob": "9ac44515e34f8137144664cd4648a3ed9fdc7eec"
+    },
+    {
+      "path": "references/glosarium-linguistik-pusat-bahasa.md",
+      "sha256": "0dcea81b90722251e0c0c61797cc1bd74e25d7b914c76161397ec632254051a8",
+      "gitBlob": "a6d67668dadee35882acddc76d2cc2a4fd7d5ff2"
+    },
+    {
+      "path": "references/jurnal-analisis-diksi-korelatif-skripsi-2024.md",
+      "sha256": "03d55893da27a51ce1f0f5103a36d344c9247c6cbd82c61e47941989778f9555",
+      "gitBlob": "1a65e4fec7f7b3e2a02595207aa9f891e025373c"
+    },
+    {
+      "path": "references/jurnal-analisis-diksi-skripsi-uad-2021.md",
+      "sha256": "d20c79ca8f85c75d0a0880f3616bc414f94377998368b3b1f7af8e7715cc56ba",
+      "gitBlob": "b6c780459657bfdb4bde507ee73131fd9f3436fd"
+    },
+    {
+      "path": "references/jurnal-analisis-ejaan-abstrak-jurribah-2026.md",
+      "sha256": "4c4644705e71638ae5c66900c8fa13032307ae4222b063ca82ab8d41598b98d7",
+      "gitBlob": "0fc3f20184de58145bb76a11c59c19e0242379a4"
+    },
+    {
+      "path": "references/jurnal-analisis-kalimat-skripsi-unimal-2024.md",
+      "sha256": "f03635a77bbb4e6f14f4be3bcfbc19cd0f244af1772b3aa3042ebf02a110d1e7",
+      "gitBlob": "ff01a31db0bcc2c38cdaa283d12610679b32529c"
+    },
+    {
+      "path": "references/jurnal-analisis-kalimat-skripsi-unmuh-uniflor.md",
+      "sha256": "e14a598d39e5c3eb43f93636402c45b2b30b63a6caeb5ed4a84b7d4ec6c6e31f",
+      "gitBlob": "f346dad275ad49a89b549bd0d302337d63cd3e75"
+    },
+    {
+      "path": "references/jurnal-analisis-sintaksis-ileal-kande.md",
+      "sha256": "b048269507d42021423868c522f1947be04c3bc953ef8b096f6ae61e2d1df880",
+      "gitBlob": "e55895101c8936eecbd8ea392fe519834bce1227"
+    },
+    {
+      "path": "references/jurnal-analisis-sintaksis-skripsi-2021-2023.md",
+      "sha256": "b2331580dc8eb9486c8fcf59baee66676c59111ddd2165e1f173ba64f2d386a7",
+      "gitBlob": "5e3f4201d45c7367ff7682323f20917af993cd2d"
+    },
+    {
+      "path": "references/jurnal-widyaparwa-2020.md",
+      "sha256": "ebbe8b3d14117c5a3fb3f67dac3d7e023f6bf7a32901110db7fed4aab2eb90f8",
+      "gitBlob": "68fef4ba15b366e469cbb8d266ae93189a8cbe82"
+    },
+    {
+      "path": "references/kalimat-penyuluhan-sasangka-2019.md",
+      "sha256": "00ba55a82e55944dc1002277062c16599f4c67d6618d51dd2e41835e01e05463",
+      "gitBlob": "0047a7ce251bcf4d212ec96015a1af22b1cfb944"
+    },
+    {
+      "path": "references/kohesi-koherensi-teks-bacaan-ui.md",
+      "sha256": "bcf332212b22a9e8c6e9ce8a970d3e5fc749ea890004a9723ae0be138eb0324a",
+      "gitBlob": "da8d2cacab02a4472818b1dd16fd38fff2a26054"
+    },
+    {
+      "path": "references/kongres-bahasa-indonesia-vii-1998.md",
+      "sha256": "c6a6e5d468914a5e78fbb51b26d0bcb7915a5bd0255ed1840bd7e56a9da8d62e",
+      "gitBlob": "1af56104903f7c9eadb2d59d9e57a1bcf32aa2d0"
+    },
+    {
+      "path": "references/konversi-laporan-menjadi-artikel.md",
+      "sha256": "f14a0e6e090d2ff2d598095b8e388c9dced3c5cfca1a52daffa392a5f5bf2a75",
+      "gitBlob": "c8c4779b698c1c36b6bf76941de764e8e0e638c7"
+    },
+    {
+      "path": "references/kridalaksana-istilah-linguistik-wacana.md",
+      "sha256": "a0c349935b434c2b153e2288c233895c052afa82d3b099c0bcf3f0b758f151d7",
+      "gitBlob": "9bfb2635e59fec28f1e948ef1cc5b86f16ce8a8e"
+    },
+    {
+      "path": "references/modul-kebahasaan-sma-kemendikbud.md",
+      "sha256": "0733a5d304b7260738489ce280a663e30f26eeeaaf0c8b3969e795d8aaff772b",
+      "gitBlob": "16af0ed9f20ee69d59739bc37cc3cf46289ccfc6"
+    },
+    {
+      "path": "references/modul-kti-ptk-kemendikbud.md",
+      "sha256": "96fe5e3eccefb02535c87bdf4c402122370575c508d9adf6a4208c149f2717bc",
+      "gitBlob": "7f21e2002a58e5192a1d8d58172df0abd5437865"
+    },
+    {
+      "path": "references/panduan-artikel-jurnal-kemendikbud.md",
+      "sha256": "78a7699266076f60cd704783ae213cde775ad96fe79359f2f30b06c4bb7a8c10",
+      "gitBlob": "1f8be7f21d539407b1e3a83cf1fd5a25fd88660f"
+    },
+    {
+      "path": "references/panduan-asesmen-bskap-2022.md",
+      "sha256": "683c6fc9b908c081f5f2defc52e7eb72055ec520a02c84a4e66e34354f155dfe",
+      "gitBlob": "aad4d389d0ab7d23f856c392eef7e9812bdb8991"
+    },
+    {
+      "path": "references/panduan-gaya-lintas-kalangan.md",
+      "sha256": "ad7fcce6c48990254e54aa3fddbe277ddcefdf69c97224c57bd5dbe00f6ceae1",
+      "gitBlob": "2aac23d427ec76e4eeea8dc35f719045d5529dc6"
+    },
+    {
+      "path": "references/panduan-jurnalistik-dasar-2018.md",
+      "sha256": "bf74cc1897004f17eeca77dfb94968981f1dfe2938479da5e56caeb02bc77535",
+      "gitBlob": "d8c75e198ae9cb4576492f37ddf6449034c2c473"
+    },
+    {
+      "path": "references/panduan-kti-ptp-kemendikbud.md",
+      "sha256": "8a8c79ece4b6f5c8fba1c42e02485e0ff04516b588c04b1545905f41d9858853",
+      "gitBlob": "c8ef4b0ebf8c6b73b920f1be8ff8bad9955bf23a"
+    },
+    {
+      "path": "references/panduan-preset-kampus.md",
+      "sha256": "9cdbf886738c5661cdb925cafd7addbbb84219727a9845db6bba5e9d5324da4d",
+      "gitBlob": "b144729b3a7a90a9be9d877b518875b011d1addb"
+    },
+    {
+      "path": "references/paragraf-penyuluhan-suladi-2019.md",
+      "sha256": "630eb2a78f6f79f85745db6572af1deaee0b789295c1ec0e0a77bffb0a8e3f3c",
+      "gitBlob": "61093aa9650f7dfd894da7bd0531a51d351a0b29"
+    },
+    {
+      "path": "references/pedoman-eyd-tanda-hubung-se-ke.md",
+      "sha256": "110b666aa7a2a719c975cf4239d17fd253178334586deb6107a73050bcc84c0c",
+      "gitBlob": "0b147738e183fb20fc5b667f41ced0d14346dc21"
+    },
+    {
+      "path": "references/pedoman-kebahasaan-resmi.md",
+      "sha256": "642e70b8c02935b4064feb2718a6b1b7bceef47355dbac4113123fb170179389",
+      "gitBlob": "082746a26aa9ca4bce40b53088a9b7071d3f3917"
+    },
+    {
+      "path": "references/pedoman-penerbitan-buku-brin.md",
+      "sha256": "6514ca1ceb239c5a2710ef8781e6179c5ba3698052bf87ff3206a8265e70a9ca",
+      "gitBlob": "1600cf7503e46e84ae8d00bb1781a7d0d4992b66"
+    },
+    {
+      "path": "references/pedoman-surat-menyurat-1985.md",
+      "sha256": "9d01bceecbc1a8286fc297375e71632cd332aaa0da5d39cdccb22dae02bd4a38",
+      "gitBlob": "987a3b26e2a8fc209fe12ca3fb06f01b3efa67cc"
+    },
+    {
+      "path": "references/pedoman-surat-menyurat-resmi-1985.md",
+      "sha256": "8661ea09043cd92106651c9191650cf5470d95ab61efd2390aca90ad0d80ef6e",
+      "gitBlob": "083a5a115066dd0921972e58a0799315084fa034"
+    },
+    {
+      "path": "references/pedoman-umum-pembentukan-istilah.md",
+      "sha256": "8100aa9411bd3c7a01276b4e379c5452cdcaa3fb54670bca2c2bec9fa51e02f2",
+      "gitBlob": "4034b54f21b988a1f8171936f996b71f0ec3453a"
+    },
+    {
+      "path": "references/pejabat-pemerintah-naskah-dinas.md",
+      "sha256": "1372fb48dc1b8440d40b25576fd50f98898cb09300d7eb1700a1a2b4c15ffd3e",
+      "gitBlob": "311ce65accd06b2f43dde192b78c9e7fe148ee39"
+    },
+    {
+      "path": "references/pemetaan-makalah-menyusun-buku-ilmiah.md",
+      "sha256": "9bb4365291a1eb7605517bc9443ba78098dd5b2d23007e0ada07752cfab06847",
+      "gitBlob": "c52491559d3e295233ba3dc1f85a290048ba1b64"
+    },
+    {
+      "path": "references/preposisi-dan-frase-berpreposisi-1992.md",
+      "sha256": "9e8b36b60f8ca33bce104e146d855328d59461261c7442fea45dbf13899dcb86",
+      "gitBlob": "16e086f8d0d771b5f9ff1ea420318f5a1b1e92b3"
+    },
+    {
+      "path": "references/preposisi-dan-frase-berpreposisi.md",
+      "sha256": "9b081249939cfc6fcc82c13598d000db34b0c1caa39a0f4c2e248db870cf9892",
+      "gitBlob": "a9301a3aaec9e71a38a7d049fd61d21427dd2ee2"
+    },
+    {
+      "path": "references/puebi-2021-sk321-lanjutan.md",
+      "sha256": "6f71392ec1d57b04d85283265f5e91cfc8ce13e06b1687dab1d0aff89bda16d7",
+      "gitBlob": "b042d2b354bde4ec1fb0ccf30d7e6784b4591c97"
+    },
+    {
+      "path": "references/puebi-bentuk-ulang.md",
+      "sha256": "2d9d3745e48fe3ec764f12d5130e2f1f860092d7bd0906f97c2a2d9e8fd4c48c",
+      "gitBlob": "c58e658f5e09e642d09e06344d88f5c8c19d3433"
+    },
+    {
+      "path": "references/puebi-gabungan-kata.md",
+      "sha256": "0471d75e8ae4f82f3b1dcd6ed9aaaf4025873e7911f113b424b7bfc236439b88",
+      "gitBlob": "10aed827bdada33afa042c8d8643bdd3360c8f90"
+    },
+    {
+      "path": "references/puebi-kata-depan.md",
+      "sha256": "c44d0f67cb6def28c657dca57e87e52fdc4d9c4eeae8075b731aa99e1cc17524",
+      "gitBlob": "fae0561806671d5631d8b8460122aee5cbdc3fd3"
+    },
+    {
+      "path": "references/puebi-partikel.md",
+      "sha256": "a677d064f39536a40964004fa0954576284ac9fd779234ecabb63556eb8e8907",
+      "gitBlob": "e7bc06e6ba6808c77113e7c541789fea3caec196"
+    },
+    {
+      "path": "references/puebi-permendikbud-2016.md",
+      "sha256": "2e8e5f6b97fd740f2eb4b8b2a244b72011dbe22082bcc0d06c0ad2f806edfb64",
+      "gitBlob": "b044933416d26c2628e8526d6cefe425dc4115ad"
+    },
+    {
+      "path": "references/ragam-cakapan-kamus-bse-2008.md",
+      "sha256": "7f4987232a4d4f307bf8d3e577cbcc8e81c8d403db94969bbef588b18ac89a1f",
+      "gitBlob": "f8c7462c2d6f3e256d6585b92fb5bca0eadd28ae"
+    },
+    {
+      "path": "references/seri-penyuluhan-9-eyd-tambahan.md",
+      "sha256": "1c7181687e3039c24d920f4d2c0acbbcc6ace93148e6f81496fb78fef9bcccb7",
+      "gitBlob": "0b5e8aaf79a1d8d415e2fb668946659a81d91588"
+    },
+    {
+      "path": "references/seri-penyuluhan-9-eyd.md",
+      "sha256": "2ab6c7c10c7fb7a7bcc8af9aff3d6df68900cd382362b45de5774acae9e1059f",
+      "gitBlob": "3fe52cb70f03e916ee732777be73f4f983bb3936"
+    },
+    {
+      "path": "references/seri-penyuluhan-bentuk-pilihan-kata-2019.md",
+      "sha256": "b12adaa8c56cc155657d16f98f9c09336f567a96dd6c34e9af80728256aa5651",
+      "gitBlob": "ae0f15e6044abf8d35a99a60c78f49a583565160"
+    },
+    {
+      "path": "references/seri-penyuluhan-ejaan-bahasa-indonesia.md",
+      "sha256": "4a8e3c082486d631ec91ff0adeb69c6b6a17532f2d24c181fde70b380ad74e55",
+      "gitBlob": "1fa3daacdfde210ab89d4123936c9fe831f9fa75"
+    },
+    {
+      "path": "references/seri-penyuluhan-ejaan-sriyanto-2015.md",
+      "sha256": "7f425717eaf2455cb81f7353b4d64b09597db6b7b1cee622fc6a84f49a1e9c62",
+      "gitBlob": "7a3a4a63dad07c2a1f185a84e71200e04f2e8884"
+    },
+    {
+      "path": "references/seri-penyuluhan-kalimat-kehematan-kesejajaran.md",
+      "sha256": "2cf7a72ee7570f751f651e5ea59b4b17814566b899059f418ded9d8266c5a3be",
+      "gitBlob": "d182c134e96577710cc69dcf21ad2f9631f7a02f"
+    },
+    {
+      "path": "references/seri-penyuluhan-paragraf-suladi-2015.md",
+      "sha256": "5b746c8e056b4dc5ea6d79a25618a655254a5e8f641aaf29b2f4ed95a5f08247",
+      "gitBlob": "02b74f62f295c05466b89eed1ce1744e4c5bb9c1"
+    },
+    {
+      "path": "references/seri-penyuluhan-tata-istilah-qodratillah-lanjutan.md",
+      "sha256": "dd9cb5a0c6833376891d120860da0e7bb6e0971cfdb94ce5f030ba17673bd0e1",
+      "gitBlob": "e66c192c25483a8f642d21b4ce89420e2e761ea5"
+    },
+    {
+      "path": "references/surat-menyurat-pusat-bahasa.md",
+      "sha256": "f3150f6528816772800a284ab2c0a3d45b04f5480181c653db5f44669c5239e8",
+      "gitBlob": "b6a127d31b053e2aee0e1538f7c20728788e7305"
+    },
+    {
+      "path": "references/tata-bahasa-baku-dan-sindrom-ras.md",
+      "sha256": "a936e5acbd979543935b17a55b990a54593d3e4daab7d8942a29d6267eb7d24c",
+      "gitBlob": "4a2760c90d7586369d8086c5b4294d63485ad684"
+    },
+    {
+      "path": "references/tata-bahasa-baku-elatif-dan-transitif.md",
+      "sha256": "837483d47195898c3bd41e91496dd1c575bdb14a4b2e5b5376e9f8aeb5afa32c",
+      "gitBlob": "47249f99ab80159d77c110a9bc17d202bace24fa"
+    },
+    {
+      "path": "references/tata-bahasa-baku-kalimat-majemuk.md",
+      "sha256": "3a7b0e3a54b89a7ddfe94c72575457339532ad699b6cc7ced11a5914c19e1e56",
+      "gitBlob": "3af7e01e7a4fc720a6c07eff16186369f177492f"
+    },
+    {
+      "path": "references/tata-bahasa-baku-kata-tugas-dan-istilah.md",
+      "sha256": "9014dc712f985c1d6edbf8483e837966a68bdfea0e69acc6228e5462bbcd6d9c",
+      "gitBlob": "1213bf3be4fa0162a776efabebe011f4eb0a8270"
+    },
+    {
+      "path": "references/tata-bahasa-baku-keserasian-dan-angka.md",
+      "sha256": "fefddec8cf68d401e636280ac71b17442fc2f57c90317b8ea7d401536341c37b",
+      "gitBlob": "f42bdce0248530764306e50141e878782b698af5"
+    },
+    {
+      "path": "references/tata-bahasa-baku-morfofonemik-konjungsi.md",
+      "sha256": "2b4a6247fcce7ab267f94fffef1bdf4bf236eb995a56721821d7777adc9f37c4",
+      "gitBlob": "d0a817eb423928bc9835abba6ebbb573ac65934b"
+    },
+    {
+      "path": "references/tata-bahasa-baku-morfologi-verba.md",
+      "sha256": "303ca0ac74f4f498df2e1f512b07fe57fc48e44200a6ece173aa8155f72b8c79",
+      "gitBlob": "e295dc0c971ff2392649a1c685aa4a1f631ece9e"
+    },
+    {
+      "path": "references/tata-bahasa-baku-pronomina-adjektiva.md",
+      "sha256": "237d6529775d21458b1f82452ec09d799b5cd302a452460e8998f90848632f4e",
+      "gitBlob": "154d4c68ad21a9fe7d149ae2475744fccb037c43"
+    },
+    {
+      "path": "references/tata-istilah-indonesia-1978.md",
+      "sha256": "ac092128a6065d461aab2c239e0e75002a53e8eb055ac8e860909e8e56aea11f",
+      "gitBlob": "644890e30c6152804e61812c264bf8857203ce07"
+    },
+    {
+      "path": "references/tata-istilah-indonesia-afiks-asing.md",
+      "sha256": "8edd2d86d90964358c880b743ae387b9c5afde7d45d1ffdd082d5045866d6949",
+      "gitBlob": "461efa7205e8e2155ecfd4c889d8ba20360adc87"
+    },
+    {
+      "path": "references/tata-istilah-penyuluhan-2019.md",
+      "sha256": "bddf4e02a47a53a10a7d56a4000bbe857c7eeebc0e012bc0b8da1aefa008a0ea",
+      "gitBlob": "0e3f3347d8f71e8f02d84f25d81fbf618628e5ee"
+    },
+    {
+      "path": "references/telaah-ekonomi-kata-tempo.md",
+      "sha256": "eef7e0ca06adbbf26d02393ebc4446a1f42046ccb34b4f1baa9cfe48fea407b7",
+      "gitBlob": "f5b1fb526460941b6b40bd63971078ecb7e5e26e"
+    },
+    {
+      "path": "references/telaah-glosarium-linguistik-2002.md",
+      "sha256": "719bb93cfb08d98fac65008228cd54a9cda05b13cc4fecac994833c18d2c93b4",
+      "gitBlob": "01d6fade41de775d6c2e4f79b192b2a4215dee07"
+    },
+    {
+      "path": "references/telaah-kohesi-koherensi-teks-bacaan.md",
+      "sha256": "01c9ee296ad03493213ef52add5756aee1d292da707cacb602946f559ac85465",
+      "gitBlob": "466299955a78ee7f3371f2f390ab26da32bba8b2"
+    },
+    {
+      "path": "references/telaah-preposisi-dan-frasa-berpreposisi.md",
+      "sha256": "c6cb795c0badf7a12e4586e1c18b878e22bf8aef5555d86308a1dc96384c90e4",
+      "gitBlob": "ce64a29fd57b5f1780448f936016964b3c177a1b"
+    },
+    {
+      "path": "references/telaah-preskriptif-kongres-bahasa-vii.md",
+      "sha256": "34153b5aa06dd40ba52dae2a66b0c7b52ad8117622f81d5e6d33263018f37bee",
+      "gitBlob": "f26097d46e71775c7c278f73ab832e396a852c56"
+    },
+    {
+      "path": "references/telaah-salah-kaprah-js-badudu-lanjutan.md",
+      "sha256": "1ea190c18e82ec6e54f54a38a7b207c4e51def19dd8fbc9be1fb0c8f328abf6c",
+      "gitBlob": "28754ce8134989046ba3198040defa5ea1b54dd4"
+    },
+    {
+      "path": "references/telaah-salah-kaprah-js-badudu.md",
+      "sha256": "198f3402eed0f5bbd3f52e5edf9795a3f1f3940e3468e7c926d5d183111b7dde",
+      "gitBlob": "ca52906525c3ce86becbc433bd3df933f91691e6"
+    },
+    {
+      "path": "references/telaah-sindrom-akronim-redundan.md",
+      "sha256": "709c35185d0dbb812a7a99686e99004e83292843ecf4557852b88cf05cab8d94",
+      "gitBlob": "f62bd953a65a018caa3110663f546b5ef26fd601"
+    },
+    {
+      "path": "references/telaah-stilistika-gorys-keraf.md",
+      "sha256": "9529ce84cad75dd86c3b0548522869f8ca85b019064d6053fe34cdfce3a43dff",
+      "gitBlob": "70acbdc08c5eb5df046cb7c407b469e943ae014e"
+    },
+    {
+      "path": "references/verifikasi-skill-seksi4.md",
+      "sha256": "8e2bb1d3ebfd57af957a5139f9b2a557e6f5466be272cfd860e3e325e0f1e284",
+      "gitBlob": "964fa0e471015d8fe0e138ef7dd7935527b62bd6"
+    },
+    {
+      "path": "scripts/audit.py",
+      "sha256": "cea516b6395433061dff43a67a66b39cd45a5b151dedb553544f7f3c09623690",
+      "gitBlob": "e822635c5d80d7c645f26b769f8953b8cca23b40"
+    },
+    {
+      "path": "scripts/matchers.py",
+      "sha256": "e257bfa20b11efccef9cea1658693005ee1299db95307aee3098a1911451afeb",
+      "gitBlob": "4277e880084c8ba6b27afe3466f09ef38ae8cee8"
+    },
+    {
+      "path": "social-preview.jpg",
+      "sha256": "21a6deb93514c1450a3b3f414f884d8275d1564fa588cb7293d3a995ce6c0e25",
+      "gitBlob": "1e4d994e75777b00ab98b5f16b933a20310aa958"
+    },
+    {
+      "path": "tests/benchmark_corpus/ai-01-abstrak-nlp.md",
+      "sha256": "df7542b42c81970f31949cd6ac7b38138e048cb5a7ba5224dfb60bb6a30c1f1b",
+      "gitBlob": "ae069f30e18792f083c8c9f40b0a1589493384c8"
+    },
+    {
+      "path": "tests/benchmark_corpus/ai-02-abstrak-iot.md",
+      "sha256": "95656671bf7f8e2ca7f97620b8908e6527dd3e19cfded44720d7f4a8e4a50e7f",
+      "gitBlob": "317085718b45010c09a20790a8f4c59d6e238a10"
+    },
+    {
+      "path": "tests/benchmark_corpus/ai-03-artikel-vaksin.md",
+      "sha256": "8f9b7f06bd330e31df4926c71af93bb676fc63e77dc3ed0634fde21fe8373f53",
+      "gitBlob": "75b9b0235f2239def31e610846f2f81e76445190"
+    },
+    {
+      "path": "tests/benchmark_corpus/ai-04-skripsi-epidemiologi.md",
+      "sha256": "50079ed298628f601e8c46077c02eee7af423bde12f2a2f649a8c50b3e903802",
+      "gitBlob": "da35a5be3e577f0e8890b8e1c16d176030267ce2"
+    },
+    {
+      "path": "tests/benchmark_corpus/ai-05-laporan-fintech.md",
+      "sha256": "af8a96dc027edde32cafcf98e1da6376b0d8d6841c9b81a6cd05fea95e598666",
+      "gitBlob": "27d42672ecffa73052800c919571b09d23c8bb97"
+    },
+    {
+      "path": "tests/benchmark_corpus/ai-06-proposal-bisnis.md",
+      "sha256": "e17b53f2b33473c326a9835b07c9fce63d1cb2c0cc07bc17e83442a3b625b647",
+      "gitBlob": "449dcf1d650be524d422f3eae21b36eecf89f81e"
+    },
+    {
+      "path": "tests/benchmark_corpus/ai-07-jurnal-pendidikan.md",
+      "sha256": "75355bd7205beac2795e91f1781c27d16a862e3efc5fd0bca22d8e50def7f367",
+      "gitBlob": "cc2f90465a0eb71151630538c3a11e643b914b63"
+    },
+    {
+      "path": "tests/benchmark_corpus/ai-08-laporan-dinas.md",
+      "sha256": "e986724ad7b2dad05c47b6f59826d8042581af8036e95cbb32b56b4ee2cc47af",
+      "gitBlob": "80cfe0a050faea441d9d6696dfc856c3f955b31d"
+    },
+    {
+      "path": "tests/benchmark_corpus/ai-09-essay-beasiswa.md",
+      "sha256": "12c833d5af8d8be4cc3305b6edb95d81c50d5d585728d4fda6a8ca5bd9953aad",
+      "gitBlob": "14a2357bc09b7ae0e349da7d81cd4bace2c1e413"
+    },
+    {
+      "path": "tests/benchmark_corpus/ai-10-dokumentasi-api.md",
+      "sha256": "d5a1eb5b15ce6cb517244214c3b9dc82688ce9a2386f647227f11a37d9d9e080",
+      "gitBlob": "923285ddc471104bc7869f23ee12338301e316d2"
+    },
+    {
+      "path": "tests/benchmark_corpus/ai-11-blog-teknologi.md",
+      "sha256": "30c65edf853c893117b85a61dbf2acf91868df574b8872e58924837b2f5e865d",
+      "gitBlob": "dc77ef3904ac4631a377deada3409da47914952c"
+    },
+    {
+      "path": "tests/benchmark_corpus/ai-12-whitepaper-blockchain.md",
+      "sha256": "e3bdeedc9fd9197aff087b3d4bd27c61814a88aa8c59f7de724e58a93554bc22",
+      "gitBlob": "17d55133610b7d37ec4816695968ee535e13376d"
+    },
+    {
+      "path": "tests/benchmark_corpus/ai-13-artikel-lingkungan.md",
+      "sha256": "e5a6f88dda64ef814952b546273d149cd1ca37ebddbc442cda765cc6705032ff",
+      "gitBlob": "b6e25ad6f311e4b95d0c56b994f7c218ddacae07"
+    },
+    {
+      "path": "tests/benchmark_corpus/ai-14-proposal-pkm.md",
+      "sha256": "1085c79e28081ebebdc0c7b23a6703665e31231c44cd93df67581e48bfc071f3",
+      "gitBlob": "fddabcdfff4abcdf5e89db2097778c78f0fda914"
+    },
+    {
+      "path": "tests/benchmark_corpus/ai-15-analisis-hukum.md",
+      "sha256": "81ff7b22c029dfa13d261bf3ca0557b2eec42f8080d81fbcbd55ca0d84ded77f",
+      "gitBlob": "967304a1b0b63f4efefb812c36c35d7fbfbbbbbc"
+    },
+    {
+      "path": "tests/benchmark_corpus/ai-16-skripsi-hukum.md",
+      "sha256": "2d5185f946056e85c5a567731473093d14d3fee4dda62139ca358e7ac64a3b48",
+      "gitBlob": "ee1c6aef703a09a73f60c246259d40a56e9b0146"
+    },
+    {
+      "path": "tests/benchmark_corpus/ai-17-artikel-budaya.md",
+      "sha256": "06460c3c1427031c66f1a82c7fa2378f15839d598effc3e21b693040fc068ba1",
+      "gitBlob": "92f6e44491105c3d87c8a384e0ce149d8fed7a19"
+    },
+    {
+      "path": "tests/benchmark_corpus/ai-18-laporan-sosial.md",
+      "sha256": "65e3fcf48a86cc8d856bb31b6e06abdc3b0731d0840c11ddc253506554f1ed16",
+      "gitBlob": "3584859aaab50a10b278faa2e9ad964091f1fe97"
+    },
+    {
+      "path": "tests/benchmark_corpus/ai-19-jurnal-teknik.md",
+      "sha256": "9d06b3b1749f724b7927f26aa4e92ae42d36c1a598e42d1968398e6915a265b9",
+      "gitBlob": "8fb3a725bbaffd240b8d9d417f24f77416cdd6b9"
+    },
+    {
+      "path": "tests/benchmark_corpus/ai-20-laporan-praktikum.md",
+      "sha256": "fea1b17dfd4096e9bfeba7eaa0f6c879b5bc0be7a5dbd2324bfdb252efce905f",
+      "gitBlob": "3871c73f109e01bd440a0b4ab286254dc28f288b"
+    },
+    {
+      "path": "tests/corpus_negative.json",
+      "sha256": "6da692f0d1c255f92402b9771f00e2f22a335c774d72ec7c09910b3ee4041334",
+      "gitBlob": "742e0a2ded7d30c0b8375dd5138ce74af369f592"
+    },
+    {
+      "path": "tests/test_benchmark.py",
+      "sha256": "4b8c0a98d7e2f460d8cad19c21a64b2b1fbab56ffe9e6b9c41427afa448ba1b9",
+      "gitBlob": "ced42219585af9384dd8d4b327fdc30c7cb171df"
+    },
+    {
+      "path": "tests/test_large_benchmark.py",
+      "sha256": "de4064f58a265e6da23d9775e3956a032d93e66410ebaf3f7b1988f748a82764",
+      "gitBlob": "eea70dad2168bf5f634e44ade4904a5aaa33545e"
+    },
+    {
+      "path": "tests/test_regression.py",
+      "sha256": "de95de15b527598d1a4054f3cad47aa08d57b6e7b415bdcbccf6812217cf2c51",
+      "gitBlob": "1af4a60fab20d9668fe5ebc414dc1db521ce1c1a"
+    },
+    {
+      "path": "tests/test_smoke.py",
+      "sha256": "9c2de8468b17356297523dacf8c2f2c98cd191e9094f50b4906399d7c16a8770",
+      "gitBlob": "c15591270f9904eb31fbf38ce26135b488fc52a7"
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "7f8face7aebd0dcebae53635999f844ba389727e242d14aa826a4590c1598319",
+      "gitBlob": "20aee057fa8faaecc3d7f69e2f91c9ac26219573"
+    },
+    {
+      "path": "work/naskah_ai_panjang_edited.md",
+      "sha256": "89bee491c693e5aedb7fa0857abc6d38b67302af6ed5da666d58459fab10ce29",
+      "gitBlob": "4de2cb496c71b283df5457e7de6421baaf2295b1"
+    },
+    {
+      "path": "work/naskah_ai_panjang_raw.md",
+      "sha256": "7e47b4dbd041e6eef1496a522277f4270ad3e6d11c17346f4f90f8700074ade6",
+      "gitBlob": "b41087d0c9c0d606a323619c688d7bda77becab7"
+    },
+    {
+      "path": "work/overnight_books_manifest.json",
+      "sha256": "5f8e553f9d62bc031b40994237bc26a4c940f86b2bdde574df719e143c950b34",
+      "gitBlob": "4f000b536ea184f2b747a6972d5dc6a99a2b5a78"
+    }
+  ]
+}

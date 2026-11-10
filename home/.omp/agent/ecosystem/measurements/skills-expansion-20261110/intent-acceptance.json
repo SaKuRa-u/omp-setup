@@ -1,0 +1,75 @@
+{
+  "model": "openai-codex/gpt-6.1-sol",
+  "passed": 8,
+  "total": 8,
+  "cases": [
+    {
+      "id": "html-video",
+      "loaded": [
+        "hyperframes",
+        "hyperframes-cli"
+      ],
+      "passed": true,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "interactive-web-not-video",
+      "loaded": [],
+      "passed": true,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "physical-isometric",
+      "loaded": [
+        "anatomy"
+      ],
+      "passed": true,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "causal-appraisal",
+      "loaded": [
+        "scientific-critical-thinking"
+      ],
+      "passed": true,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "grant-requirements",
+      "loaded": [
+        "research-grants"
+      ],
+      "passed": true,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "state-diagram-not-gallery",
+      "loaded": [],
+      "passed": true,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "quoted-skill-names",
+      "loaded": [],
+      "passed": true,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "explicit-gallery",
+      "loaded": [
+        "state-machine"
+      ],
+      "passed": true,
+      "issues": [],
+      "warnings": []
+    }
+  ],
+  "scope": "Eight finite synthetic native-agent read-only cases. Not a full skill workflow, blind quality benchmark, sandbox or deterministic routing guarantee. First-pass failures retained; no automatic retry."
+}

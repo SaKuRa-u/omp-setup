@@ -1,6 +1,6 @@
 # Backup setup OMP: SaKuRa-u
 
-Snapshot konfigurasi dan sumber **OMP default-profile** di Windows, diperbarui **8 November 2026**. Bukti optimasi, adopsi dan routing bertanggal **7 November 2026** memiliki cakupan masing-masing. Ini bukan image sistem, installer, runtime siap pakai, atau restore otomatis. Snapshot tidak membuktikan seluruh environment terbaru, aman, atau berhasil dipulihkan pada mesin bersih.
+Snapshot konfigurasi dan sumber **OMP default-profile** di Windows, diperbarui **10 November 2026**. Pembaruan ini mencakup 24 skill tambahan (23 ekspansi motion/desain/riset dan Humanizer ID), routing, serta launcher/lockfile Hyperframes. Bukti pengujian bertanggal memiliki cakupan masing-masing. Ini bukan image sistem, installer, runtime siap pakai, atau restore otomatis. Snapshot tidak membuktikan seluruh environment terbaru, aman, atau berhasil dipulihkan pada mesin bersih.
 
 ## Isi dan sumber kebenaran
 
@@ -22,26 +22,49 @@ Waktu pembaruan UTC ada pada `updatedAt` di manifest. Catatan measurements berta
 
 Baseline 21 Oktober 2026 memakai OMP `18.12.5`, Node `24.19.0` dan Bun `1.4.2`. Pembaruan 22 Oktober menambahkan subset Agency Agents; wave routing 24 Oktober mencatat 90 skill. Pembaruan 31 Oktober mencatat OMP `18.14.1` dan 96 skill global (93 metadata terlihat, tiga eksplisit). Angka dan hasil smoke Oktober tetap **historis**, bukan keadaan terkini.
 
-CLI yang diamati **8 November 2026**: OMP `18.18.1`, Node `v24.19.0`, Bun `1.4.2`. Pekerjaan snapshot ini tidak meng-upgrade OMP. Audit/routing **7 November berjalan pada OMP `18.18.0`**, bukan pengujian ulang pada `18.18.1`. Default tercatat `openai-codex/gpt-6.1-sol:medium`, role smol `openai-codex/gpt-6-luna:low`. Context7 diperbarui dan diuji terbatas ke `4.5.1`; REA `6.5.0`, RTK `1.0.1` dan Ponytail `5.3.2` dipertahankan. Upgrade Semgrep `1.184.0` gagal acceptance karena timeout; rute aktif dikembalikan ke `1.181.0`. Warning MCP Python `1.29.0` dan kegagalan startup Semgrep pada sebagian smoke tetap tercatat.
+CLI yang diamati **10 November 2026**: OMP `18.18.6`, Node `v24.19.0`, Bun CLI `1.4.2`. Pekerjaan snapshot ini tidak meng-upgrade OMP. Audit/routing **7 November berjalan pada OMP `18.18.0`**; snapshot 8 November mengamati `18.18.1`. Bukti lama bukan pengujian ulang seluruh integrasi pada `18.18.6`. Default tercatat `openai-codex/gpt-6.1-sol:medium`, role smol `openai-codex/gpt-6-luna:low`. Context7 `4.5.1`, REA `6.5.0`, RTK `1.0.1` dan Ponytail `5.3.2` dipertahankan. Upgrade Semgrep `1.184.0` gagal acceptance; rute aktif tetap `1.181.0`. Warning MCP Python `1.29.0` dan kegagalan startup Semgrep pada sebagian smoke tetap tercatat.
 
-Pemeriksaan snapshot 8 November pada OMP `18.18.1` mengonfirmasi katalog native tetap 151 skill/10 tersembunyi tanpa warning dan konfigurasi efektif model/memory/approval tetap sama. Observasi ini dicatat pada [host-observation.json](home/.omp/agent/ecosystem/measurements/repository-snapshot-20261108/host-observation.json); bukan pengujian ulang inference, LSP/DAP, browser atau koneksi MCP.
+Discovery native pada root netral **10 November** menemukan **175 skill global: 160 metadata terlihat dan 15 tersembunyi**, tanpa warning atau nama duplikat. [Observasi host terbaru](home/.omp/agent/ecosystem/measurements/repository-snapshot-20261110/host-observation.json) memuat sumber setiap entrypoint. Ini pemeriksaan discovery, bukan pengujian ulang inference, LSP/DAP, browser atau MCP. [Observasi 8 November](home/.omp/agent/ecosystem/measurements/repository-snapshot-20261108/host-observation.json) tetap historis.
 
 Ledger atau laporan lama dapat menyebut pin/hasil sebelumnya. Cocokkan konfigurasi aktif dan acceptance per komponen; keberadaan source kandidat upgrade tidak berarti versi itu aktif. Tidak ada klaim seluruh skill cocok byte dengan upstream terbaru atau semua integrasi diuji ulang pada tanggal snapshot.
 
 ## Skill dan routing saat ini
 
-RPC baru pada root netral dan management-hub menemukan **151 skill global, 141 metadata model-visible, 10 entry eksplisit/tersembunyi**. Body panduan tetap dibaca saat relevan; 141 bukan jumlah body yang selalu dimuat. Baseline 96 dipertahankan dan 55 tambahan berasal dari penilaian 21 kandidat. Setelah perubahan routing, 48 dari 55 tambahan tersedia untuk pemilihan otomatis; 32 di antaranya sebelumnya manual.
+Baseline 7 November berisi 151 skill (141 metadata terlihat, 10 tersembunyi). Ekspansi 10 November menambah 23 skill, lalu Humanizer ID menambah satu: kini **175 global / 160 terlihat / 15 tersembunyi**. Body panduan dibaca saat relevan, bukan seluruhnya selalu dimuat. Tidak semua kandidat dipasang.
 
-Sepuluh entry yang tetap memerlukan pemanggilan eksplisit:
+Lima belas entry tetap memerlukan pemanggilan eksplisit:
 
 - Tujuh tambahan dengan flag vendor asli: `setup-matt-pocock-skills`, `i-have-adhd`, `to-spec`, `to-tickets`, `handoff`, `teach`, `wait-what`.
 - Tiga incumbent: `grill-me`, `review-animations`, `to-questionnaire`.
+- Lima tambahan asli Jakub: `break`, `explain-interface`, `interface-review`, `state-machine`, `variant`. `state-machine` adalah workbench state UI existing, bukan implementasi XState atau diagram state.
 
 Jelaskan tujuan, artefak, stack dan batas dengan bahasa alami; tidak perlu menghafal nama skill. Agent memilih satu lead per tahap dan membaca panduan pendukung seperlunya. Entry eksplisit dapat ditawarkan ketika membantu, tetapi tidak dibypass otomatis. Q&A biasa, aritmetika dan nama skill dalam kutipan tidak perlu memicu workflow. Pemilihan panduan tidak memberi izin instalasi, akses akun privat, upload, biaya, deploy, merge/push, atau tindakan destruktif.
 
-Routing **probabilistik**. Model default lulus **6/6** fixture intent sintetis (tiga positif, tiga negatif); smol tetap **4/6**, melewati dua panduan spesialis dan menunjukkan over-selection proses. Ini bukan benchmark umum, sertifikasi 48 kandidat, atau jaminan model/subagent lain mengikuti hasil default. Tidak ada klaim perbaikan kualitas, token atau latency.
+Routing **probabilistik**, bukan router executable atau jaminan klasifikasi. Bukti 7 November: default **6/6**, smol **4/6** fixture; ini historis. Ekspansi 10 November: **8/8** kasus routing sintetis pada model existing. Humanizer ID: **3/3** routing dan **4/4** uji preservasi dengan batas editorial. Pengujian terbatas ini bukan benchmark buta, validasi seluruh kombinasi skill, sertifikasi kebahasaan, atau bukti penghematan token/latency.
 
-Default-profile berlaku lintas proyek, tetapi konfigurasi/skill repository dapat override atau menambah alias. Onboarding teramati 156 entry, 145 metadata terlihat dan 11 tersembunyi karena sumber lokal repository; jangan menonaktifkan provider repository untuk menyamakan angka global. Named profile baru tidak diasumsikan mewarisi konfigurasi. Mulai sesi OMP baru; hot reload sesi lama tidak dijamin.
+Default-profile berlaku lintas proyek pada akun OMP ini, bukan semua host atau named profile. Repository dapat override atau menambah alias; Onboarding teramati 180 entry setelah Humanizer ID, bukan 175. Jangan menonaktifkan provider repository untuk menyamakan angka global. Mulai sesi OMP baru; hot reload sesi lama tidak dijamin.
+
+### Tambahan 10 November: penggunaan dan batas
+
+| Kebutuhan | Skill terpilih |
+|---|---|
+| Video/motion graphics HTML ke MP4, termasuk aset video website | `hyperframes`, `hyperframes-cli`, `hyperframes-registry`; CLI resmi `0.9.28` |
+| Diagram editorial, ilustrasi fisik isometrik, technical exploded view | `diagram-design`, `anatomy`, `teardown` |
+| Review interface dan disiplin terfokus | `better-interface`, `better-accessibility`, `better-colors`, `better-layout`, `better-typography`, `better-ui`, `better-writing` |
+| Retrofit tampilan AI-looking dan reflow mobile | `unslop`, `antislop-layoutmobile` |
+| Reuse/adopt/extend/build, appraisal kausal/bias, persyaratan hibah | `search-first`, `scientific-critical-thinking`, `research-grants` |
+| Workbench/review eksplisit | Lima tambahan Jakub pada daftar di atas |
+| Penyuntingan prosa Indonesia | `humanizer-id` original `1.5.1`, dengan batas preservasi makna |
+
+Motion UI interaktif tetap memakai CSS/native/Emil/GSAP/Motion sesuai stack; Hyperframes untuk video, bukan pengganti semua animasi website. Satu lead per tahap, panduan lain mendukung kebutuhan berbeda, bukan semua pipeline dijalankan berurutan. `humanizer` existing membantu bahasa lain/pola lintas bahasa; `humanizer-id` berfokus Indonesia. Jangan memaksakan dua pass humanizer. `academic-paper` tetap memimpin manuskrip; angka, sitasi, istilah, modalitas, kutipan, dan aturan venue tidak dikorbankan demi gaya.
+
+CLI Hyperframes tersedia pada host asal melalui `ecosystem/runtime/hyperframes/0.9.28/hyperframes.cmd`, **tidak pada PATH global**. Snapshot menyimpan launcher, package manifest dan lock, bukan `node_modules`, browser, FFmpeg, config/state atau cache. Satu smoke terdahulu berhasil merender video H.264 2 detik, 640×360, 24 fps/48 frame; bukan uji render ulang saat snapshot. Compiler mengambil Google Fonts publik: telemetry off bukan offline/no-egress. Helper Anatomy/Jakub/Unslop belum terbukti usable di Windows hanya karena panduannya terpasang.
+
+- [Seleksi 13 kandidat, keputusan dan bukti ekspansi](home/.omp/agent/ecosystem/measurements/skills-expansion-20261110/REPORT.md), [manifest](home/.omp/agent/ecosystem/measurements/skills-expansion-20261110/selection.json), [penggunaan/batas runtime](home/.omp/agent/ecosystem/measurements/skills-expansion-20261110/USAGE.md).
+- [Humanizer ID: penilaian, uji dan batas](home/.omp/agent/ecosystem/measurements/humanizer-id-20261110/REPORT.md), [batas editorial wajib](home/.omp/agent/ecosystem/measurements/humanizer-id-20261110/EDITORIAL-BOUNDARIES.md), [seleksi](home/.omp/agent/ecosystem/measurements/humanizer-id-20261110/selection.json).
+- [Cakupan snapshot baru dan pemulihan Hyperframes](home/.omp/agent/ecosystem/measurements/repository-snapshot-20261110/REPORT.md).
+
+Claude-Mem, gstack, reverse-skill dan Elaya/Figma tidak dipasang; tujuh Addy existing dipertahankan tanpa duplikasi. Tidak diperlukan Figma untuk memakai tambahan non-Figma. Skill eksplisit tetap eksplisit; tidak ada memory capture, MCP/provider, hook atau layanan baru dari wave ini.
 
 ### Adopsi kandidat dan bukti yang dipertahankan
 
@@ -106,7 +129,7 @@ Login OMP/GitHub dan credential integrasi yang dibutuhkan harus disiapkan ulang 
 3. Hentikan OMP. Pilih dan salin berkas `home/` ke direktori home pengguna tujuan secara manual; jangan mengganti seluruh profil atau menimpa konfigurasi host lain. Pertahankan struktur `.omp`/`.agents`, sumber yang dirujuk, notices dan lisensi. Tidak ada restore otomatis.
 4. Path absolut masih menunjuk `C:/Users/Indrimeilla-PC`. Sesuaikan salinan konfigurasi aktif, path discovery skill/shared, registrasi plugin, launcher, policy, serta executable mesin tujuan. Jangan melakukan search/replace massal pada manifest, measurements, hash, atau sumber vendor. Verifier berlaku pada clone asli sebelum migrasi, bukan salinan aktif yang sudah Anda ubah.
 5. Tinjau `config.yml`, `models.yml`, `mcp.json`, source provider, ekstensi dan plugin **sebelum memulai OMP**. Pengguna mempertahankan `tools.approvalMode: yolo` dan `dev.autoqaConsent: granted`; pilih ulang kebijakan persetujuan mesin tujuan dengan sadar. Memory tetap `off`. Custom model aicenter memakai bridge `ecosystem/runtime/credentials.ps1` dan credential DPAPI lokal yang harus disiapkan ulang; periksa path PowerShell/bridge tanpa menjalankan perintah credential hanya untuk meninjau snapshot. Ini provider existing, bukan akun atau credential yang dibundel. Nonaktifkan MCP/provider/ekstensi yang belum ditinjau atau belum siap. Startup dapat menjalankan kode dengan hak akun pengguna; konfigurasi bukan izin baru untuk audit berbayar, cloud, deploy atau capture memory.
-6. Pulihkan dependency hanya pada runtime yang dipilih, memakai package manager/lockfile terkait setelah memeriksa lifecycle scripts dan kompatibilitas OS/Python/Node. Pulihkan REA dari distribusi resmi `rea-agents@6.5.0`. Untuk PoP, peroleh CLI vendor `8.19.5300` secara resmi lalu cocokkan signature/hash sesuai kode dan measurements sebelum menaruhnya di `runtime/publish-or-perish/1.0.0/vendor/`. Runtime Graphify/Reach/last30days/Spec Kit/Hallmark harus dibangun ulang secara selektif dari manifest/lock terkait; keberadaan launcher atau lock bukan instalasi selesai.
+6. Pulihkan dependency hanya pada runtime yang dipilih, memakai package manager/lockfile terkait setelah memeriksa lifecycle scripts dan kompatibilitas OS/Python/Node. Pulihkan REA dari distribusi resmi `rea-agents@6.5.0`. Untuk PoP, peroleh CLI vendor `8.19.5300` secara resmi lalu cocokkan signature/hash sebelum menaruhnya di `runtime/publish-or-perish/1.0.0/vendor/`. Graphify/Reach/last30days/Spec Kit/Hallmark dan Hyperframes harus dibangun ulang selektif dari manifest/lock terkait. Hyperframes memerlukan dependency terkunci tanpa lifecycle scripts, browser nonprofil-user, serta FFmpeg/ffprobe; sesuaikan launcher dan ikuti laporan snapshot baru. Keberadaan launcher/lock bukan instalasi selesai.
 7. Buat ulang state/cache/temp yang benar-benar dirujuk launcher. Semgrep memerlukan konfigurasi `state/settings.yml`, log/cache dan `state/tmp`; state asli sengaja tidak dibackup. Periksa telemetry/metrics sebelum menjalankan tool. Membuat direktori saja tidak menggantikan konfigurasi state yang diperlukan.
 8. Buat credential baru melalui alur DPAPI yang disetujui. Jangan menaruh secret pada berkas tracked, argumen CLI, environment global, atau chat. DPAPI dari mesin lama tidak portable. Token yang pernah terekspos harus dicabut, bukan dipakai ulang.
 9. Pasang RTK resmi sesuai pin bila diperlukan; executable tidak disertakan. Salin konfigurasi `home/AppData/Roaming/rtk/config.toml` secara selektif ke `%APPDATA%/rtk/config.toml`, sesuaikan path database/PATH, dan periksa telemetry. Ekstensi Orca memerlukan aplikasi/integrasi Orca yang sesuai; aplikasinya tidak disertakan. Pulihkan aset/font/template nonteks yang benar-benar dirujuk hanya dari sumber resmi dan setelah memeriksa hak penggunaannya; omission dapat membuat render atau contoh gagal meski hash snapshot cocok.
