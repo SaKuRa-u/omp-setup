@@ -1,6 +1,6 @@
 # Backup setup OMP: SaKuRa-u
 
-Snapshot konfigurasi dan sumber **OMP default-profile** di Windows, diperbarui **10 November 2026**. Pembaruan ini mencakup 24 skill tambahan (23 ekspansi motion/desain/riset dan Humanizer ID), routing, serta launcher/lockfile Hyperframes. Bukti pengujian bertanggal memiliki cakupan masing-masing. Ini bukan image sistem, installer, runtime siap pakai, atau restore otomatis. Snapshot tidak membuktikan seluruh environment terbaru, aman, atau berhasil dipulihkan pada mesin bersih.
+Snapshot konfigurasi dan sumber **OMP default-profile** di Windows, diperbarui **11 November 2026**. Pembaruan terbaru menambahkan tiga skill diagram asli terpin, prioritas routing, panduan edit Draw.io via web, serta bukti discovery/integritas; ekspansi 10 November tetap dipertahankan. Ini snapshot selektif, bukan image sistem, installer, runtime siap pakai, atau restore otomatis. Bukti bertanggal tidak membuktikan seluruh environment terbaru, aman, atau berhasil dipulihkan pada mesin bersih.
 
 ## Isi dan sumber kebenaran
 
@@ -22,27 +22,48 @@ Waktu pembaruan UTC ada pada `updatedAt` di manifest. Catatan measurements berta
 
 Baseline 21 Oktober 2026 memakai OMP `18.12.5`, Node `24.19.0` dan Bun `1.4.2`. Pembaruan 22 Oktober menambahkan subset Agency Agents; wave routing 24 Oktober mencatat 90 skill. Pembaruan 31 Oktober mencatat OMP `18.14.1` dan 96 skill global (93 metadata terlihat, tiga eksplisit). Angka dan hasil smoke Oktober tetap **historis**, bukan keadaan terkini.
 
-CLI yang diamati **10 November 2026**: OMP `18.18.6`, Node `v24.19.0`, Bun CLI `1.4.2`. Pekerjaan snapshot ini tidak meng-upgrade OMP. Audit/routing **7 November berjalan pada OMP `18.18.0`**; snapshot 8 November mengamati `18.18.1`. Bukti lama bukan pengujian ulang seluruh integrasi pada `18.18.6`. Default tercatat `openai-codex/gpt-6.1-sol:medium`, role smol `openai-codex/gpt-6-luna:low`. Context7 `4.5.1`, REA `6.5.0`, RTK `1.0.1` dan Ponytail `5.3.2` dipertahankan. Upgrade Semgrep `1.184.0` gagal acceptance; rute aktif tetap `1.181.0`. Warning MCP Python `1.29.0` dan kegagalan startup Semgrep pada sebagian smoke tetap tercatat.
+CLI yang diamati **11 November 2026**: OMP `18.18.8`, Node `v24.19.0`, Bun CLI `1.4.2`. Pekerjaan snapshot ini tidak meng-upgrade runtime. Observasi 10 November memakai OMP `18.18.6`; audit/routing 7 November memakai `18.18.0`. Bukti lama bukan pengujian ulang seluruh integrasi pada `18.18.8`. Default/role model dan konfigurasi provider/MCP tidak diperbarui oleh wave diagram ini. Context7 `4.5.1`, REA `6.5.0`, RTK `1.0.1` dan Ponytail `5.3.2` tetap mengikuti baseline tersimpan. Upgrade Semgrep `1.184.0` gagal acceptance historis; rute tersimpan tetap `1.181.0`. Warning MCP Python `1.29.0` dan kegagalan startup Semgrep pada sebagian smoke tetap tercatat.
 
-Discovery native pada root netral **10 November** menemukan **175 skill global: 160 metadata terlihat dan 15 tersembunyi**, tanpa warning atau nama duplikat. [Observasi host terbaru](home/.omp/agent/ecosystem/measurements/repository-snapshot-20261110/host-observation.json) memuat sumber setiap entrypoint. Ini pemeriksaan discovery, bukan pengujian ulang inference, LSP/DAP, browser atau MCP. [Observasi 8 November](home/.omp/agent/ecosystem/measurements/repository-snapshot-20261108/host-observation.json) tetap historis.
+Discovery native pada root netral **11 November** menemukan **178 skill global: 162 metadata terlihat dan 16 tersembunyi**, tanpa warning atau nama duplikat. [Bukti tambahan diagram](home/.omp/agent/ecosystem/measurements/diagram-skills-20261111/routing-verification.json) memuat jumlah global, tiga entrypoint tambahan `native:user`, hide flag dan 110 file distribusi terverifikasi. Ini discovery/integritas, bukan pengujian klasifikasi model, render, LSP/DAP, browser atau MCP. [Observasi lengkap 10 November](home/.omp/agent/ecosystem/measurements/repository-snapshot-20261110/host-observation.json) tetap historis.
 
 Ledger atau laporan lama dapat menyebut pin/hasil sebelumnya. Cocokkan konfigurasi aktif dan acceptance per komponen; keberadaan source kandidat upgrade tidak berarti versi itu aktif. Tidak ada klaim seluruh skill cocok byte dengan upstream terbaru atau semua integrasi diuji ulang pada tanggal snapshot.
 
 ## Skill dan routing saat ini
 
-Baseline 7 November berisi 151 skill (141 metadata terlihat, 10 tersembunyi). Ekspansi 10 November menambah 23 skill, lalu Humanizer ID menambah satu: kini **175 global / 160 terlihat / 15 tersembunyi**. Body panduan dibaca saat relevan, bukan seluruhnya selalu dimuat. Tidak semua kandidat dipasang.
+Baseline 7 November berisi 151 skill (141 metadata terlihat, 10 tersembunyi). Ekspansi 10 November menambah 23 skill dan Humanizer ID; tambahan diagram 11 November menambah tiga: kini **178 global / 162 terlihat / 16 tersembunyi**. Body panduan dibaca saat relevan, bukan seluruhnya selalu dimuat. Tidak semua kandidat dipasang.
 
-Lima belas entry tetap memerlukan pemanggilan eksplisit:
+Enam belas entry tetap memerlukan permintaan eksplisit:
 
 - Tujuh tambahan dengan flag vendor asli: `setup-matt-pocock-skills`, `i-have-adhd`, `to-spec`, `to-tickets`, `handoff`, `teach`, `wait-what`.
 - Tiga incumbent: `grill-me`, `review-animations`, `to-questionnaire`.
 - Lima tambahan asli Jakub: `break`, `explain-interface`, `interface-review`, `state-machine`, `variant`. `state-machine` adalah workbench state UI existing, bukan implementasi XState atau diagram state.
+- Tambahan diagram: `drawio-skill` mempertahankan flag asli `disable-model-invocation: true`. Permintaan nyata file `.drawio`/diagrams.net atau diagram editable cukup; penyebutan dalam kutipan/log bukan pemanggilan.
 
 Jelaskan tujuan, artefak, stack dan batas dengan bahasa alami; tidak perlu menghafal nama skill. Agent memilih satu lead per tahap dan membaca panduan pendukung seperlunya. Entry eksplisit dapat ditawarkan ketika membantu, tetapi tidak dibypass otomatis. Q&A biasa, aritmetika dan nama skill dalam kutipan tidak perlu memicu workflow. Pemilihan panduan tidak memberi izin instalasi, akses akun privat, upload, biaya, deploy, merge/push, atau tindakan destruktif.
 
 Routing **probabilistik**, bukan router executable atau jaminan klasifikasi. Bukti 7 November: default **6/6**, smol **4/6** fixture; ini historis. Ekspansi 10 November: **8/8** kasus routing sintetis pada model existing. Humanizer ID: **3/3** routing dan **4/4** uji preservasi dengan batas editorial. Pengujian terbatas ini bukan benchmark buta, validasi seluruh kombinasi skill, sertifikasi kebahasaan, atau bukti penghematan token/latency.
 
-Default-profile berlaku lintas proyek pada akun OMP ini, bukan semua host atau named profile. Repository dapat override atau menambah alias; Onboarding teramati 180 entry setelah Humanizer ID, bukan 175. Jangan menonaktifkan provider repository untuk menyamakan angka global. Mulai sesi OMP baru; hot reload sesi lama tidak dijamin.
+Wave diagram 11 November memeriksa native discovery, hide flag dan hash upstream. Prioritas routing ditinjau dari source dan aturan pengguna; **klasifikasi model serta rendering belum diuji**. Tidak ada klaim “semua routing aman” atau sertifikasi seluruh helper.
+
+Default-profile berlaku lintas proyek pada akun OMP ini, bukan semua host atau named profile. Repository dapat override atau menambah alias; angka Onboarding 180 entry setelah Humanizer ID adalah observasi historis sebelum tambahan diagram, bukan jumlah terkini. Jangan menonaktifkan provider repository untuk menyamakan angka global. Mulai sesi OMP baru; hot reload sesi lama tidak dijamin.
+
+### Tambahan 11 November: diagram dan planning arsitektur
+
+| Kebutuhan | Lead / kemampuan | Contoh permintaan |
+|---|---|---|
+| Stack/cloud dengan logo teknologi | `stack-diagram`, sumber HTML mandiri; panduan PNG/TSX | “Buat diagram stack aplikasi dari daftar berikut, tandai asumsi, jangan upload.” |
+| Diagram berbasis teks yang bisa version control | `mermaid-diagrams`: flow, sequence, state, ERD, class dan C4 | “Buat C4 Context dan Container dalam Mermaid dari deskripsi sistem ini.” |
+| File yang bisa saya ubah sendiri | `drawio-skill`, file `.drawio` editable; explicit-only | “Buat `.drawio` editable agar saya bisa mengeditnya di app.diagrams.net.” |
+| Planning, bukan sekadar gambar | Requirements/NFR, owner native planning, `codebase-design`, `domain-modeling`, lalu `writing-plans` existing | “Bandingkan alternatif berdasarkan constraint, tulis keputusan dan asumsi sebelum diagram.” |
+
+Format eksplisit menang; setelah itu pilih logo stack, visual editorial (`diagram-design` existing), atau teks Mermaid sesuai tujuan. Satu lead per tahap, bukan semua designer dijalankan. Generic “arsitektur” bukan izin menebak topology atau mengakses infra live. Diagram membedakan fakta source dan asumsi, bukan pembuktian sistem berjalan.
+
+**Tidak memasang aplikasi draw.io desktop.** Buka file `.drawio` di https://app.diagrams.net/, pilih penyimpanan perangkat bila sesuai kebutuhan privasi, edit dan simpan kembali. Penggunaan web aktual belum diuji; tidak ada login/unggah file oleh pemasangan ini. Native export helper membutuhkan aplikasi desktop; dependency itu tidak tersedia hanya karena skill dipasang.
+
+Skill vendor asli dipin dan lisensi dipertahankan; `stack-diagram` v0.4.0, Mermaid pada commit `3027f20f`, Draw.io pada `65504951`. Snapshot berisi file teks termasuk SVG dan lisensi font, **bukan dua font WOFF2, katalog Draw.io `data/shape-index.json.gz`, atau arsip distribusi**. Pulihkan aset terpilih dari commit terpin dan cocokkan hash sebelum render/lookup shape pada mesin tujuan. Rendering stack-diagram membutuhkan Python/Playwright/Chromium terpisah; helper PNG bawaannya memakai `--no-sandbox` dan belum dijalankan. Galeri/publish, live importer, registrasi MCP dan dependency install tetap membutuhkan scope/izin tersendiri. Panduan C4 tidak menjamin semua viewer mendukung sintaksnya.
+
+- [Pin dan hash instalasi](home/.omp/agent/ecosystem/measurements/diagram-skills-20261111/installation.json), [penggunaan dan batas](home/.omp/agent/ecosystem/measurements/diagram-skills-20261111/USAGE.md), [bukti discovery](home/.omp/agent/ecosystem/measurements/diagram-skills-20261111/routing-verification.json).
+- [Cakupan snapshot 11 November](home/.omp/agent/ecosystem/measurements/repository-snapshot-20261111/REPORT.md). Konfigurasi provider/MCP/ekstensi di luar wave ini tidak disinkronkan ulang.
 
 ### Tambahan 10 November: penggunaan dan batas
 

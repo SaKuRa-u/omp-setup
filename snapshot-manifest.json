@@ -1396,9 +1396,9 @@
     },
     {
       "path": "home/.omp/agent/AGENTS.md",
-      "bytes": 67684,
-      "sha256": "b346a2b8eff9b9fba927d6493539ab55b0cbdbc5b529bd95ca06d26bb828df37",
-      "sourceSha256": "b346a2b8eff9b9fba927d6493539ab55b0cbdbc5b529bd95ca06d26bb828df37"
+      "bytes": 69851,
+      "sha256": "2c3971b7cab3f9cd8d512e8c41d5d550315f223be3b3b4dfdd13a8e6077f8b3b",
+      "sourceSha256": "2c3971b7cab3f9cd8d512e8c41d5d550315f223be3b3b4dfdd13a8e6077f8b3b"
     },
     {
       "path": "home/.omp/agent/config.yml",
@@ -1432,9 +1432,9 @@
     },
     {
       "path": "home/.omp/agent/ecosystem/SKILL-ROUTING.md",
-      "bytes": 27760,
-      "sha256": "3b8e8bf889bae057da37a42cd8c648eadb6cf02d29106541d701cca2bf0f3f22",
-      "sourceSha256": "3b8e8bf889bae057da37a42cd8c648eadb6cf02d29106541d701cca2bf0f3f22"
+      "bytes": 29582,
+      "sha256": "87113da3c4b7bbee96db1584ba25b3ceaa0fc00732e8d2ab7cfee8117f67be0b",
+      "sourceSha256": "87113da3c4b7bbee96db1584ba25b3ceaa0fc00732e8d2ab7cfee8117f67be0b"
     },
     {
       "path": "home/.omp/agent/ecosystem/WAVE1.md",
@@ -2805,6 +2805,24 @@
       "sourceSha256": "75df6cabffa3e3d02ed72e7f1afa15831dda541123f776f66fef185f54487b7b"
     },
     {
+      "path": "home/.omp/agent/ecosystem/measurements/diagram-skills-20261111/USAGE.md",
+      "bytes": 6039,
+      "sha256": "802650c71b7c56c46a40aa3e58760977015225a50a914513b02e5762482fa8ec",
+      "sourceSha256": "802650c71b7c56c46a40aa3e58760977015225a50a914513b02e5762482fa8ec"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/measurements/diagram-skills-20261111/installation.json",
+      "bytes": 14526,
+      "sha256": "cc1b4879ec70e19b668633a74464a34256009383b63747120f0c0810adeec4c2",
+      "sourceSha256": "cc1b4879ec70e19b668633a74464a34256009383b63747120f0c0810adeec4c2"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/measurements/diagram-skills-20261111/routing-verification.json",
+      "bytes": 3317,
+      "sha256": "50ff740db59d4fc44f1f894ef34bdac26615da97fccf0034f40767c11c24eb9d",
+      "sourceSha256": "50ff740db59d4fc44f1f894ef34bdac26615da97fccf0034f40767c11c24eb9d"
+    },
+    {
       "path": "home/.omp/agent/ecosystem/measurements/discovery-audit.json",
       "bytes": 616,
       "sha256": "4df6b5fa1f831f3c9f55ea7bbf4f545a0a7b7877a48429311bf134bf5b990ae0",
@@ -3115,6 +3133,12 @@
       "bytes": 32882,
       "sha256": "b55ab36cc7a16756d83cc1cf747a64c226d180c728f369cc8c7f09b80a92a97d",
       "sourceSha256": "b55ab36cc7a16756d83cc1cf747a64c226d180c728f369cc8c7f09b80a92a97d"
+    },
+    {
+      "path": "home/.omp/agent/ecosystem/measurements/repository-snapshot-20261111/REPORT.md",
+      "bytes": 4305,
+      "sha256": "8631c3759112847a03998337d11fcb45532c54985b28b86e227b8c9a8a110c6f",
+      "sourceSha256": "8631c3759112847a03998337d11fcb45532c54985b28b86e227b8c9a8a110c6f"
     },
     {
       "path": "home/.omp/agent/ecosystem/measurements/research-e2e-20261021.json",
@@ -38165,6 +38189,486 @@
       "sourceSha256": "f6bf2aa996c6e6f53fdd0708e18a0d16a56aed8322cca59fedbe3c0d2c75f06b"
     },
     {
+      "path": "home/.omp/agent/skills/drawio-skill/LICENSE",
+      "bytes": 1069,
+      "sha256": "0d43b46456eda48a9054fbfa915ac80e150f5db5cf90714eda710c02e1df461a",
+      "sourceSha256": "0d43b46456eda48a9054fbfa915ac80e150f5db5cf90714eda710c02e1df461a"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/SKILL.md",
+      "bytes": 10697,
+      "sha256": "2b2718db634fe4056b798596ec00ee3222cb000ce28520ecde9837e13da0c48f",
+      "sourceSha256": "2b2718db634fe4056b798596ec00ee3222cb000ce28520ecde9837e13da0c48f"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/UPSTREAM-LICENSE",
+      "bytes": 1069,
+      "sha256": "0d43b46456eda48a9054fbfa915ac80e150f5db5cf90714eda710c02e1df461a",
+      "sourceSha256": "0d43b46456eda48a9054fbfa915ac80e150f5db5cf90714eda710c02e1df461a"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/agents/openai.yaml",
+      "bytes": 307,
+      "sha256": "ca8053ac6cec8b9fce47320e6cc902c615a8692e5cbb2cfa701863898862e0fc",
+      "sourceSha256": "ca8053ac6cec8b9fce47320e6cc902c615a8692e5cbb2cfa701863898862e0fc"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/data/SHAPE-INDEX-NOTICE.md",
+      "bytes": 880,
+      "sha256": "dc6e070b9fd905c6a574614dd0c4403253ad8b7111e2f2f3892996b2729e26ab",
+      "sourceSha256": "dc6e070b9fd905c6a574614dd0c4403253ad8b7111e2f2f3892996b2729e26ab"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/data/databricks-icons.json",
+      "bytes": 11762,
+      "sha256": "760d80cdd57e5b7784b036d07ce49c149b78d362a35078c5f92171e2d268ec7c",
+      "sourceSha256": "760d80cdd57e5b7784b036d07ce49c149b78d362a35078c5f92171e2d268ec7c"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/data/diagram-ir.schema.json",
+      "bytes": 1534,
+      "sha256": "92891a36b4160a2a08398884fd0cbec224791c406a9107c923acf934f471e016",
+      "sourceSha256": "92891a36b4160a2a08398884fd0cbec224791c406a9107c923acf934f471e016"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/data/lobe-icons.json",
+      "bytes": 12919,
+      "sha256": "e7c309bd5ebf4df948563d48469090d0868432549f168319534215f79b0077cc",
+      "sourceSha256": "e7c309bd5ebf4df948563d48469090d0868432549f168319534215f79b0077cc"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/references/autolayout.md",
+      "bytes": 19798,
+      "sha256": "1d993371633b87b5563a785e8f3c862e0103f0d0251b7986e37d862b9c59b1ef",
+      "sourceSha256": "1d993371633b87b5563a785e8f3c862e0103f0d0251b7986e37d862b9c59b1ef"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/references/ci-gate.md",
+      "bytes": 2090,
+      "sha256": "4aff775b72567c0325b467805e9108187fa9e38c4df339c84a100028f3e65c50",
+      "sourceSha256": "4aff775b72567c0325b467805e9108187fa9e38c4df339c84a100028f3e65c50"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/references/cookbook.md",
+      "bytes": 7087,
+      "sha256": "c85e1373b685d4ed3ecdec115649da1f38de0ed7abce5ccbc15be2ca75d5ca59",
+      "sourceSha256": "c85e1373b685d4ed3ecdec115649da1f38de0ed7abce5ccbc15be2ca75d5ca59"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/references/databricks.md",
+      "bytes": 2625,
+      "sha256": "aa47283c8c875305569bcca8f83649912c7f8e8ceefef723220fdc139531c8c9",
+      "sourceSha256": "aa47283c8c875305569bcca8f83649912c7f8e8ceefef723220fdc139531c8c9"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/references/derasterize.md",
+      "bytes": 2526,
+      "sha256": "a4efd3152ba340299a92ae599d936fd07296d725a1a86efc79ed9a7b25754bb8",
+      "sourceSha256": "a4efd3152ba340299a92ae599d936fd07296d725a1a86efc79ed9a7b25754bb8"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/references/diagram-ir.md",
+      "bytes": 4847,
+      "sha256": "3a12b71703f1631b0cf6cfc5fb0faf46534a7f9382e1e5d26eecbcde685232d8",
+      "sourceSha256": "3a12b71703f1631b0cf6cfc5fb0faf46534a7f9382e1e5d26eecbcde685232d8"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/references/diagram-types.md",
+      "bytes": 16691,
+      "sha256": "958b6d0ab59b2731b6fb9d567a95d8c8cde596cddad18d5242304d916a78f7e1",
+      "sourceSha256": "958b6d0ab59b2731b6fb9d567a95d8c8cde596cddad18d5242304d916a78f7e1"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/references/live-infra.md",
+      "bytes": 3670,
+      "sha256": "87d92e8b8ae259a1433764f349ff8f8dd1f7991dba5d4c55198fb9fa1706580a",
+      "sourceSha256": "87d92e8b8ae259a1433764f349ff8f8dd1f7991dba5d4c55198fb9fa1706580a"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/references/mcp.md",
+      "bytes": 3405,
+      "sha256": "f0c5463d653e734cbec1670a7cb82a58250b691335721f418c4cf6a424a8280a",
+      "sourceSha256": "f0c5463d653e734cbec1670a7cb82a58250b691335721f418c4cf6a424a8280a"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/references/mermaid-authoring.md",
+      "bytes": 4978,
+      "sha256": "b44d45322be91ee3b32da2badaa8ff53e6951350185bb71f7fb8f48ac9120b96",
+      "sourceSha256": "b44d45322be91ee3b32da2badaa8ff53e6951350185bb71f7fb8f48ac9120b96"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/references/pr-bot.md",
+      "bytes": 3927,
+      "sha256": "c34a85d91ec4e5b79d7bfb42b725ae9f15435f1f2dc67b98f6d0523ada294d6f",
+      "sourceSha256": "c34a85d91ec4e5b79d7bfb42b725ae9f15435f1f2dc67b98f6d0523ada294d6f"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/references/security.md",
+      "bytes": 2082,
+      "sha256": "35f2072dcf1a01ead5dd72c971ac74bfc89a6c174667586bce495023070faa0e",
+      "sourceSha256": "35f2072dcf1a01ead5dd72c971ac74bfc89a6c174667586bce495023070faa0e"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/references/semantic-workflows.md",
+      "bytes": 3043,
+      "sha256": "40a4130d1452bd49fea43bc04e16f646bf61c87ff9939487bf49f8abb20dbc01",
+      "sourceSha256": "40a4130d1452bd49fea43bc04e16f646bf61c87ff9939487bf49f8abb20dbc01"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/references/shapes.md",
+      "bytes": 7155,
+      "sha256": "b696df00bb4d74afb93670adf0e58acd6e0eb5cf8145e40994851ec052a18c23",
+      "sourceSha256": "b696df00bb4d74afb93670adf0e58acd6e0eb5cf8145e40994851ec052a18c23"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/references/style-extraction.md",
+      "bytes": 17575,
+      "sha256": "9dfba198a0e0f610e2fdaecff29aa380984ba03c67d5a02c86b75106c95de2a0",
+      "sourceSha256": "9dfba198a0e0f610e2fdaecff29aa380984ba03c67d5a02c86b75106c95de2a0"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/references/style-presets.md",
+      "bytes": 11171,
+      "sha256": "b40f2dfd2cd21e244a9769d05b597d96dd2135518bea9478aa15d08616d848c6",
+      "sourceSha256": "b40f2dfd2cd21e244a9769d05b597d96dd2135518bea9478aa15d08616d848c6"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/references/toolbox.md",
+      "bytes": 12048,
+      "sha256": "261615c4b009c6cfcfe74d03756590fe74f0fb54e087135148eb51b9aa63ba7a",
+      "sourceSha256": "261615c4b009c6cfcfe74d03756590fe74f0fb54e087135148eb51b9aa63ba7a"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/references/troubleshooting.md",
+      "bytes": 8107,
+      "sha256": "d88f7141a5a42d808e1f962bc4f2663068d42b53dac3b6d5016176eb7efe43d0",
+      "sourceSha256": "d88f7141a5a42d808e1f962bc4f2663068d42b53dac3b6d5016176eb7efe43d0"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/references/tubemap.md",
+      "bytes": 3275,
+      "sha256": "654db7cc5f5c757a28e0b64060e3c78880fa11045944810150af1770cd8107c1",
+      "sourceSha256": "654db7cc5f5c757a28e0b64060e3c78880fa11045944810150af1770cd8107c1"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/references/xml-authoring.md",
+      "bytes": 15786,
+      "sha256": "9733296f91e687266fd5af7be30f9df3fa7eb86a81d4046d9aa68f36c809569e",
+      "sourceSha256": "9733296f91e687266fd5af7be30f9df3fa7eb86a81d4046d9aa68f36c809569e"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/aiicons.py",
+      "bytes": 8398,
+      "sha256": "96017e7e289eacbf7b304a623b207b6df2258fe04ffe9894d266bcde2c135c2d",
+      "sourceSha256": "96017e7e289eacbf7b304a623b207b6df2258fe04ffe9894d266bcde2c135c2d"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/asyncapiimports.py",
+      "bytes": 11148,
+      "sha256": "8a4e39f8933db55227575c23705b04a16551de1bbb833431c3462af8e881a3c2",
+      "sourceSha256": "8a4e39f8933db55227575c23705b04a16551de1bbb833431c3462af8e881a3c2"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/autolayout.py",
+      "bytes": 18286,
+      "sha256": "d72e15eb0cfa356e9722c9824037d2fbd65840ee686324e87070d195d973a162",
+      "sourceSha256": "d72e15eb0cfa356e9722c9824037d2fbd65840ee686324e87070d195d973a162"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/buildup.py",
+      "bytes": 14585,
+      "sha256": "d3937cac70ad1653b6c06e4d1179adb82a23229256e941cee242512b741f8324",
+      "sourceSha256": "d3937cac70ad1653b6c06e4d1179adb82a23229256e941cee242512b741f8324"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/c4.py",
+      "bytes": 6670,
+      "sha256": "82f349e1a5240984275f1fc9cfe21a91dd4124fbf42a61903439eaf90ceadd22",
+      "sourceSha256": "82f349e1a5240984275f1fc9cfe21a91dd4124fbf42a61903439eaf90ceadd22"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/ciimports.py",
+      "bytes": 7776,
+      "sha256": "c9de9a7af0aa3ed6b2d3e4e1bfaa045444940bf31666fc7e0118ce962ae1ed86",
+      "sourceSha256": "c9de9a7af0aa3ed6b2d3e4e1bfaa045444940bf31666fc7e0118ce962ae1ed86"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/composeimports.py",
+      "bytes": 4738,
+      "sha256": "ae9c96282daa3f35ddba65a443456034ca9e7e6920a3db5b646ed8fe0a17909d",
+      "sourceSha256": "ae9c96282daa3f35ddba65a443456034ca9e7e6920a3db5b646ed8fe0a17909d"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/compress.py",
+      "bytes": 10582,
+      "sha256": "464689570eccf3a8992531164f03933380624e00f3e97c421e74a49c1d3250a7",
+      "sourceSha256": "464689570eccf3a8992531164f03933380624e00f3e97c421e74a49c1d3250a7"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/dbxicons.py",
+      "bytes": 12632,
+      "sha256": "dfa302a7d803b6c710d7cfdf4fc06d959c8cd9e53ef1f73108f9d2946a03db16",
+      "sourceSha256": "dfa302a7d803b6c710d7cfdf4fc06d959c8cd9e53ef1f73108f9d2946a03db16"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/diagram_ir.py",
+      "bytes": 59171,
+      "sha256": "05b2b64af048b797fa15ae1f44709a7ebb6f43bbe91b45d17e115ceaa6984fcc",
+      "sourceSha256": "05b2b64af048b797fa15ae1f44709a7ebb6f43bbe91b45d17e115ceaa6984fcc"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/diagramctl.py",
+      "bytes": 20804,
+      "sha256": "3d9749ceb9ef6bfb1a74ae5d8932e2cdd9289b1a1960f18ec5bded8c7915956a",
+      "sourceSha256": "3d9749ceb9ef6bfb1a74ae5d8932e2cdd9289b1a1960f18ec5bded8c7915956a"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/diagramctl_mcp.py",
+      "bytes": 16745,
+      "sha256": "b2b270477ac04c29d9ed213f89662246e0fae9b6fa536e49b0808582a7fbb67c",
+      "sourceSha256": "b2b270477ac04c29d9ed213f89662246e0fae9b6fa536e49b0808582a7fbb67c"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/dockerimports.py",
+      "bytes": 6391,
+      "sha256": "7a06bcc73f754b01d651bf5276d0e947d6eeb9817c412abcd1bb69f3752760ec",
+      "sourceSha256": "7a06bcc73f754b01d651bf5276d0e947d6eeb9817c412abcd1bb69f3752760ec"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/drawio2mermaid.py",
+      "bytes": 5965,
+      "sha256": "c6bc00fd9d3e7f3f0534dddc4e519708559404e0c40c808ebc89312160b9e01c",
+      "sourceSha256": "c6bc00fd9d3e7f3f0534dddc4e519708559404e0c40c808ebc89312160b9e01c"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/drawio2pptx.py",
+      "bytes": 5042,
+      "sha256": "7fa749165bd5db8326af5d27920196d88b5c45e9ad33f8d99cdb3e615d9c4287",
+      "sourceSha256": "7fa749165bd5db8326af5d27920196d88b5c45e9ad33f8d99cdb3e615d9c4287"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/drawio_cli.py",
+      "bytes": 2119,
+      "sha256": "a4c1cd83d128b918cfe8dff09ccfecc4208c186b5d8531664549dc09c0680163",
+      "sourceSha256": "a4c1cd83d128b918cfe8dff09ccfecc4208c186b5d8531664549dc09c0680163"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/drawiodiff.py",
+      "bytes": 10854,
+      "sha256": "392396ad3633f30776208388165a3552f0faa894cf2f5ec45a1b0ce5101fdcba",
+      "sourceSha256": "392396ad3633f30776208388165a3552f0faa894cf2f5ec45a1b0ce5101fdcba"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/drawiohtml.py",
+      "bytes": 11122,
+      "sha256": "d2c820586bec1dcd68c22c6d8c15b129a8b703241d21a041d63f3994b8edf069",
+      "sourceSha256": "d2c820586bec1dcd68c22c6d8c15b129a8b703241d21a041d63f3994b8edf069"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/edgeports.py",
+      "bytes": 9285,
+      "sha256": "429f1c8c0be958ef68418d38ddbf4af0e1da9d52f25015ecb599c74fa1b64f7a",
+      "sourceSha256": "429f1c8c0be958ef68418d38ddbf4af0e1da9d52f25015ecb599c74fa1b64f7a"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/encode_drawio_url.py",
+      "bytes": 2250,
+      "sha256": "47b77e4bc46226cc1a1cea29e93988877796d0a60706a2a38c7fd7910af3dfef",
+      "sourceSha256": "47b77e4bc46226cc1a1cea29e93988877796d0a60706a2a38c7fd7910af3dfef"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/explain.py",
+      "bytes": 6226,
+      "sha256": "ce2dfff696714eb30491a8bb906467c12aea86d5685f393eb3d115a93bd4461d",
+      "sourceSha256": "ce2dfff696714eb30491a8bb906467c12aea86d5685f393eb3d115a93bd4461d"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/goimports.py",
+      "bytes": 6131,
+      "sha256": "a2cb0ea9cfbfb6b276abf746e35d352d5edce2c7469e31a1e0d1d48ad3939a51",
+      "sourceSha256": "a2cb0ea9cfbfb6b276abf746e35d352d5edce2c7469e31a1e0d1d48ad3939a51"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/graphqlerd.py",
+      "bytes": 16089,
+      "sha256": "be39395bd95f7f9c22d398cc7925222fab7495e91eee51466f7d5b82c701d67b",
+      "sourceSha256": "be39395bd95f7f9c22d398cc7925222fab7495e91eee51466f7d5b82c701d67b"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/heatmap.py",
+      "bytes": 9176,
+      "sha256": "91d0c98537bf31b14b8766f7ee98046a9142716df450a97b062092bdec532a73",
+      "sourceSha256": "91d0c98537bf31b14b8766f7ee98046a9142716df450a97b062092bdec532a73"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/jsimports.py",
+      "bytes": 6535,
+      "sha256": "63b563d5ec10498d445885d7d762d7dbc26eb2cb47d379120db372ce7261bad1",
+      "sourceSha256": "63b563d5ec10498d445885d7d762d7dbc26eb2cb47d379120db372ce7261bad1"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/k8simports.py",
+      "bytes": 9805,
+      "sha256": "3d2c32c908c78cf0f557ba2f3c00a3351b15052a3586d94c34cfe5251057782f",
+      "sourceSha256": "3d2c32c908c78cf0f557ba2f3c00a3351b15052a3586d94c34cfe5251057782f"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/openapiimports.py",
+      "bytes": 6786,
+      "sha256": "2d29c8b205d862acd1201875dedbc91fc510266012bcb64f469902d7c365afdc",
+      "sourceSha256": "2d29c8b205d862acd1201875dedbc91fc510266012bcb64f469902d7c365afdc"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/prdiff.py",
+      "bytes": 8199,
+      "sha256": "341923187a9a026b8e8a7f94cd921599d3c47863605935c56035d10a97dda185",
+      "sourceSha256": "341923187a9a026b8e8a7f94cd921599d3c47863605935c56035d10a97dda185"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/protoimports.py",
+      "bytes": 17956,
+      "sha256": "e742b59c5e9f7ae6b884184b6cf9df4465ee3cafa15069658af6cd2852d9ba99",
+      "sourceSha256": "e742b59c5e9f7ae6b884184b6cf9df4465ee3cafa15069658af6cd2852d9ba99"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/pyclasses.py",
+      "bytes": 6271,
+      "sha256": "1fbcf0370c0154bf18cdde559b56e1dbf4a6b069b75dda8ed49e386d56308be2",
+      "sourceSha256": "1fbcf0370c0154bf18cdde559b56e1dbf4a6b069b75dda8ed49e386d56308be2"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/pyimports.py",
+      "bytes": 7036,
+      "sha256": "619a27f15e22995b323c28b6c2037fb02d9a9522e1bbbd1fe90680d98a46d9bd",
+      "sourceSha256": "619a27f15e22995b323c28b6c2037fb02d9a9522e1bbbd1fe90680d98a46d9bd"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/raster2drawio.py",
+      "bytes": 7467,
+      "sha256": "7a81fad51336f01fa5791c354a3467994faea396b76d018d99c377c0374fcdb5",
+      "sourceSha256": "7a81fad51336f01fa5791c354a3467994faea396b76d018d99c377c0374fcdb5"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/relabel.py",
+      "bytes": 4247,
+      "sha256": "98db0ebe5928754719ccf7c1ebcf661d14e010aed3962cc38bae57c25810c414",
+      "sourceSha256": "98db0ebe5928754719ccf7c1ebcf661d14e010aed3962cc38bae57c25810c414"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/repair_png.py",
+      "bytes": 1097,
+      "sha256": "1a453cb88231813dcb5631456b0c7431eb59acd21570c7e749c1cce89ae31c4c",
+      "sourceSha256": "1a453cb88231813dcb5631456b0c7431eb59acd21570c7e749c1cce89ae31c4c"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/restyle.py",
+      "bytes": 7243,
+      "sha256": "b12ff51e133de46aff66ca70c546d82d2eba77673b872786c3f02a31996c7140",
+      "sourceSha256": "b12ff51e133de46aff66ca70c546d82d2eba77673b872786c3f02a31996c7140"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/runbook.py",
+      "bytes": 10187,
+      "sha256": "56059a1bb86ff76047dc962b2fa8276b01090bc0bfe6051b388a8adb9bc5dc9c",
+      "sourceSha256": "56059a1bb86ff76047dc962b2fa8276b01090bc0bfe6051b388a8adb9bc5dc9c"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/rustimports.py",
+      "bytes": 7928,
+      "sha256": "9b6bfbc97a1daa5e6eee6ab6733a88500e5ea8d4accb92acf08cc633761ca41f",
+      "sourceSha256": "9b6bfbc97a1daa5e6eee6ab6733a88500e5ea8d4accb92acf08cc633761ca41f"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/seqlayout.py",
+      "bytes": 9917,
+      "sha256": "527c522dfd1ccff1c252bb146f250710d0033385444ac3cc2a33ede11ee09fc4",
+      "sourceSha256": "527c522dfd1ccff1c252bb146f250710d0033385444ac3cc2a33ede11ee09fc4"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/shapesearch.py",
+      "bytes": 5967,
+      "sha256": "ac624fa2d532c1a72cc77ec0b2fd94a71e0baf4cd03ba339b60eb7a784e511b3",
+      "sourceSha256": "ac624fa2d532c1a72cc77ec0b2fd94a71e0baf4cd03ba339b60eb7a784e511b3"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/sqlerd.py",
+      "bytes": 8814,
+      "sha256": "a442b1189ff91f145f9cfb7788a056cac47adc2af373ef36c6006aca8aafbd83",
+      "sourceSha256": "a442b1189ff91f145f9cfb7788a056cac47adc2af373ef36c6006aca8aafbd83"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/svgflow.py",
+      "bytes": 4241,
+      "sha256": "3053c99cbd88e999974d79855ab50fece2173e20cc74e7e8366c7e3ac979bb6f",
+      "sourceSha256": "3053c99cbd88e999974d79855ab50fece2173e20cc74e7e8366c7e3ac979bb6f"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/tfimports.py",
+      "bytes": 11910,
+      "sha256": "66636c6b73b41d485560a90e0b4a13a4b30d4ecb03910f66cd3519d40406b007",
+      "sourceSha256": "66636c6b73b41d485560a90e0b4a13a4b30d4ecb03910f66cd3519d40406b007"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/tfstate.py",
+      "bytes": 5587,
+      "sha256": "aa2728eb203462621de7fde8eac9d2a3631252fd8b4b3ddd647f5fb596718ade",
+      "sourceSha256": "aa2728eb203462621de7fde8eac9d2a3631252fd8b4b3ddd647f5fb596718ade"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/timelapse.py",
+      "bytes": 11683,
+      "sha256": "e57c1738897102be7ace16770abe9a796e1faa855b8022de90dff09d1555b87c",
+      "sourceSha256": "e57c1738897102be7ace16770abe9a796e1faa855b8022de90dff09d1555b87c"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/tubemap.py",
+      "bytes": 6948,
+      "sha256": "f3bf38c0ca6941ea5b96174275532748793a2246d91aad2459d485666881fb6e",
+      "sourceSha256": "f3bf38c0ca6941ea5b96174275532748793a2246d91aad2459d485666881fb6e"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/scripts/validate.py",
+      "bytes": 16591,
+      "sha256": "3effc1cdfd5b43b672630d0dbbc6f233a4925f6469f808e271d8c623530b9540",
+      "sourceSha256": "3effc1cdfd5b43b672630d0dbbc6f233a4925f6469f808e271d8c623530b9540"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/styles/built-in/colorblind-safe.json",
+      "bytes": 1472,
+      "sha256": "3b836988e6533c07bf0e6676cc35731e750f0fa659ab25e80bfef7087436f3eb",
+      "sourceSha256": "3b836988e6533c07bf0e6676cc35731e750f0fa659ab25e80bfef7087436f3eb"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/styles/built-in/corporate.json",
+      "bytes": 1471,
+      "sha256": "0cb0ba05b44e5938ce775bb917b6ffaa3a0501ceedbd610975cc6e909fe5e60b",
+      "sourceSha256": "0cb0ba05b44e5938ce775bb917b6ffaa3a0501ceedbd610975cc6e909fe5e60b"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/styles/built-in/dark.json",
+      "bytes": 1546,
+      "sha256": "2a78d4da3b6bc747da7943597bb1d58e9ff12f5188192ecc09589570d6873fae",
+      "sourceSha256": "2a78d4da3b6bc747da7943597bb1d58e9ff12f5188192ecc09589570d6873fae"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/styles/built-in/default.json",
+      "bytes": 1454,
+      "sha256": "5340c1f80ab983f412e895d58d5dffb4949c246acc516702fd565675fec140e1",
+      "sourceSha256": "5340c1f80ab983f412e895d58d5dffb4949c246acc516702fd565675fec140e1"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/styles/built-in/handdrawn.json",
+      "bytes": 1474,
+      "sha256": "92a1fdca1bbb95e5239fca62b2da81d4035936a11ca690e026419a5c2508e541",
+      "sourceSha256": "92a1fdca1bbb95e5239fca62b2da81d4035936a11ca690e026419a5c2508e541"
+    },
+    {
+      "path": "home/.omp/agent/skills/drawio-skill/styles/schema.json",
+      "bytes": 5362,
+      "sha256": "4886d76481285d584eaa7963053c1ec6786eb335b4f75e1093b66788dce148c0",
+      "sourceSha256": "4886d76481285d584eaa7963053c1ec6786eb335b4f75e1093b66788dce148c0"
+    },
+    {
       "path": "home/.omp/agent/skills/e2e/LICENSE",
       "bytes": 11358,
       "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
@@ -42149,6 +42653,66 @@
       "sourceSha256": "d5d7558b2368ecea9dfeed7d1fbc71ee9e0750bebd1282faa527d528a344c3c7"
     },
     {
+      "path": "home/.omp/agent/skills/mermaid-diagrams/README.md",
+      "bytes": 9352,
+      "sha256": "e2f7f6e8d4415c57368cf0492eb98b12be18526f963383a9e64dcb741eb602de",
+      "sourceSha256": "e2f7f6e8d4415c57368cf0492eb98b12be18526f963383a9e64dcb741eb602de"
+    },
+    {
+      "path": "home/.omp/agent/skills/mermaid-diagrams/SKILL.md",
+      "bytes": 7479,
+      "sha256": "79bca3c767a821a28aa7d83a9673010b2066afa4889923ea5946153c8967e824",
+      "sourceSha256": "79bca3c767a821a28aa7d83a9673010b2066afa4889923ea5946153c8967e824"
+    },
+    {
+      "path": "home/.omp/agent/skills/mermaid-diagrams/UPSTREAM-LICENSE",
+      "bytes": 1072,
+      "sha256": "4b4447da5344f8b2d3a8a19ba8366d1ac7a24d9ab4690bd04576dc772ddf8321",
+      "sourceSha256": "4b4447da5344f8b2d3a8a19ba8366d1ac7a24d9ab4690bd04576dc772ddf8321"
+    },
+    {
+      "path": "home/.omp/agent/skills/mermaid-diagrams/references/advanced-features.md",
+      "bytes": 10365,
+      "sha256": "5b816a153915de49ccae229a70103e724f68c3fc8b7a5b38f67a59f973af37bc",
+      "sourceSha256": "5b816a153915de49ccae229a70103e724f68c3fc8b7a5b38f67a59f973af37bc"
+    },
+    {
+      "path": "home/.omp/agent/skills/mermaid-diagrams/references/architecture-diagrams.md",
+      "bytes": 4858,
+      "sha256": "117bc72208e20dacb355d007b444dce7433f174a0ba9b76ab0a3361b8d580706",
+      "sourceSha256": "117bc72208e20dacb355d007b444dce7433f174a0ba9b76ab0a3361b8d580706"
+    },
+    {
+      "path": "home/.omp/agent/skills/mermaid-diagrams/references/c4-diagrams.md",
+      "bytes": 15266,
+      "sha256": "28e73813c730721995aab4084b913459687a8065f28e2a5e8ef7a94cd8116fd9",
+      "sourceSha256": "28e73813c730721995aab4084b913459687a8065f28e2a5e8ef7a94cd8116fd9"
+    },
+    {
+      "path": "home/.omp/agent/skills/mermaid-diagrams/references/class-diagrams.md",
+      "bytes": 6915,
+      "sha256": "5eba3606f37be8409843826901f0c846a1bd4796e2e9145c787d4e5ba1646ce3",
+      "sourceSha256": "5eba3606f37be8409843826901f0c846a1bd4796e2e9145c787d4e5ba1646ce3"
+    },
+    {
+      "path": "home/.omp/agent/skills/mermaid-diagrams/references/erd-diagrams.md",
+      "bytes": 12348,
+      "sha256": "639ee58f4925e0721fc3a2c70fd083ec256fe861baa62a56d039c01315fc58ff",
+      "sourceSha256": "639ee58f4925e0721fc3a2c70fd083ec256fe861baa62a56d039c01315fc58ff"
+    },
+    {
+      "path": "home/.omp/agent/skills/mermaid-diagrams/references/flowcharts.md",
+      "bytes": 9844,
+      "sha256": "73b599797659ced9211ab947e3d4aee4f3ef2bfb4c1aefcfd6537276d2a21f96",
+      "sourceSha256": "73b599797659ced9211ab947e3d4aee4f3ef2bfb4c1aefcfd6537276d2a21f96"
+    },
+    {
+      "path": "home/.omp/agent/skills/mermaid-diagrams/references/sequence-diagrams.md",
+      "bytes": 9213,
+      "sha256": "11900f082d21c7e3fc0addcd2bf50689a1c36a5af806207942a2f772cb5e2b3b",
+      "sourceSha256": "11900f082d21c7e3fc0addcd2bf50689a1c36a5af806207942a2f772cb5e2b3b"
+    },
+    {
       "path": "home/.omp/agent/skills/mobile-native/LICENSE",
       "bytes": 1070,
       "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
@@ -42561,6 +43125,108 @@
       "bytes": 26384,
       "sha256": "b92001117a92c4161d43777a0ba2fa182a8a4d97f2304cc8c0cee5331497b73b",
       "sourceSha256": "b92001117a92c4161d43777a0ba2fa182a8a4d97f2304cc8c0cee5331497b73b"
+    },
+    {
+      "path": "home/.omp/agent/skills/stack-diagram/LICENSE",
+      "bytes": 1215,
+      "sha256": "be10012fc23bb7f2e332d62312b80cfca01c3eb7abd8970ebb1cdf8ff5b04faa",
+      "sourceSha256": "be10012fc23bb7f2e332d62312b80cfca01c3eb7abd8970ebb1cdf8ff5b04faa"
+    },
+    {
+      "path": "home/.omp/agent/skills/stack-diagram/SKILL.md",
+      "bytes": 20621,
+      "sha256": "991a4c80e942200441ad80f3e06440af0e33ab35b6ea20a0573d40c6adcd05a9",
+      "sourceSha256": "991a4c80e942200441ad80f3e06440af0e33ab35b6ea20a0573d40c6adcd05a9"
+    },
+    {
+      "path": "home/.omp/agent/skills/stack-diagram/assets/fonts/OFL-Geist.txt",
+      "bytes": 4383,
+      "sha256": "c683bfbcc7e087f5d37a54ef628f10387c451a83ddc459b151403a164ac46c90",
+      "sourceSha256": "c683bfbcc7e087f5d37a54ef628f10387c451a83ddc459b151403a164ac46c90"
+    },
+    {
+      "path": "home/.omp/agent/skills/stack-diagram/assets/fonts/OFL-JetBrainsMono.txt",
+      "bytes": 4399,
+      "sha256": "8790c0909f720c509810f95268779450cd6b0aa75b6d24e32f0878afe068427c",
+      "sourceSha256": "8790c0909f720c509810f95268779450cd6b0aa75b6d24e32f0878afe068427c"
+    },
+    {
+      "path": "home/.omp/agent/skills/stack-diagram/assets/fonts/README.md",
+      "bytes": 448,
+      "sha256": "9b858f504cefd75b79970b724dc55c4b8e16ecb3dc59bba059bdea38c5dff551",
+      "sourceSha256": "9b858f504cefd75b79970b724dc55c4b8e16ecb3dc59bba059bdea38c5dff551"
+    },
+    {
+      "path": "home/.omp/agent/skills/stack-diagram/assets/generic/browser.svg",
+      "bytes": 242,
+      "sha256": "626b27b7681ff5ff0c25b1d235ca49883bdb59185fe2b4063b44ab9a147f88a8",
+      "sourceSha256": "626b27b7681ff5ff0c25b1d235ca49883bdb59185fe2b4063b44ab9a147f88a8"
+    },
+    {
+      "path": "home/.omp/agent/skills/stack-diagram/assets/generic/device.svg",
+      "bytes": 285,
+      "sha256": "abe1c203068bef6c10727e434614fefcb68d3b02139838fcfd3a9b9d2fac7f91",
+      "sourceSha256": "abe1c203068bef6c10727e434614fefcb68d3b02139838fcfd3a9b9d2fac7f91"
+    },
+    {
+      "path": "home/.omp/agent/skills/stack-diagram/assets/generic/internet.svg",
+      "bytes": 293,
+      "sha256": "f28c67cdda8b1b234f4993d1ac557b20fb8e5cb307e398c1cf720f54ef5dc3de",
+      "sourceSha256": "f28c67cdda8b1b234f4993d1ac557b20fb8e5cb307e398c1cf720f54ef5dc3de"
+    },
+    {
+      "path": "home/.omp/agent/skills/stack-diagram/assets/generic/server.svg",
+      "bytes": 319,
+      "sha256": "81a828c927db27160a7af9d076e541686ae0b6ec96794638b7a265a4e3e26289",
+      "sourceSha256": "81a828c927db27160a7af9d076e541686ae0b6ec96794638b7a265a4e3e26289"
+    },
+    {
+      "path": "home/.omp/agent/skills/stack-diagram/assets/generic/user.svg",
+      "bytes": 255,
+      "sha256": "a383d2e82346d3c14958eab164946898a0cf07f0f33defce7f55532ec1c9f1e9",
+      "sourceSha256": "a383d2e82346d3c14958eab164946898a0cf07f0f33defce7f55532ec1c9f1e9"
+    },
+    {
+      "path": "home/.omp/agent/skills/stack-diagram/assets/template.html",
+      "bytes": 15292,
+      "sha256": "ea333400a25e58008e4ef98dd052a7a1de3271cea4f0a5ab2f2f3d3445fad02f",
+      "sourceSha256": "ea333400a25e58008e4ef98dd052a7a1de3271cea4f0a5ab2f2f3d3445fad02f"
+    },
+    {
+      "path": "home/.omp/agent/skills/stack-diagram/references/geometry.md",
+      "bytes": 4935,
+      "sha256": "0b823440933abb5c1c25dbd19f98e74bf3289e89b4adecb970c5e99c56e09f6e",
+      "sourceSha256": "0b823440933abb5c1c25dbd19f98e74bf3289e89b4adecb970c5e99c56e09f6e"
+    },
+    {
+      "path": "home/.omp/agent/skills/stack-diagram/references/tsx.md",
+      "bytes": 2328,
+      "sha256": "7f39b64a61c64c2860ca78868a99b63c6f1ee909f686efd625d3bfd6d8751053",
+      "sourceSha256": "7f39b64a61c64c2860ca78868a99b63c6f1ee909f686efd625d3bfd6d8751053"
+    },
+    {
+      "path": "home/.omp/agent/skills/stack-diagram/scripts/build.py",
+      "bytes": 1830,
+      "sha256": "28049a14bbec3a1264a9b61a7d6abe435f1932393ba9b991068ea5690e83d3a7",
+      "sourceSha256": "28049a14bbec3a1264a9b61a7d6abe435f1932393ba9b991068ea5690e83d3a7"
+    },
+    {
+      "path": "home/.omp/agent/skills/stack-diagram/scripts/fetch_icons.py",
+      "bytes": 22751,
+      "sha256": "d6abcda84a0ed16f8cc1ebd0075dcb06c502bec5c06e5748f2a4774d26c61370",
+      "sourceSha256": "d6abcda84a0ed16f8cc1ebd0075dcb06c502bec5c06e5748f2a4774d26c61370"
+    },
+    {
+      "path": "home/.omp/agent/skills/stack-diagram/scripts/render_png.py",
+      "bytes": 4416,
+      "sha256": "588873e0441cf4e796a1f916e00f90975c23c952def4a9477f01ef8ebb0f206b",
+      "sourceSha256": "588873e0441cf4e796a1f916e00f90975c23c952def4a9477f01ef8ebb0f206b"
+    },
+    {
+      "path": "home/.omp/agent/skills/stack-diagram/scripts/share.py",
+      "bytes": 10321,
+      "sha256": "a363482a18f6c0b2aab0b690cdb5bc02d6213c54fca158e1814082c5ba0bf4cc",
+      "sourceSha256": "a363482a18f6c0b2aab0b690cdb5bc02d6213c54fca158e1814082c5ba0bf4cc"
     },
     {
       "path": "home/.omp/agent/skills/state-machine/SKILL.md",
@@ -45790,7 +46456,7 @@
     "inactive source trees except license/notice metadata"
   ],
   "versions": {
-    "omp": "18.18.6",
+    "omp": "18.18.8",
     "node": "24.19.0",
     "bun": "1.4.2",
     "rea-agents": "6.5.0",
@@ -45801,9 +46467,9 @@
     "hyperframes": "0.9.28",
     "humanizer-id-skill": "1.5.1"
   },
-  "updatedAt": "2026-11-10T09:24:16.100Z",
+  "updatedAt": "2026-11-11T07:02:46.159070Z",
   "credentialScan": {
-    "status": "No unclassified matches in scanned patterns",
+    "status": "Historical full-payload screening retained; latest screening covers only selected diagram/routing additions and README.",
     "rules": [
       "github-token",
       "provider-key",
@@ -45828,9 +46494,9 @@
     ],
     "limit": "Pattern-based check, not proof of absence of secrets or personal data",
     "latestScoped": {
-      "date": "2026-11-10",
-      "scope": "All selected UTF8 home payload plus README, ignore/attributes and verifier; no raw credential values printed",
-      "filesScanned": 7633,
+      "date": "2026-11-11",
+      "scope": "Only 113 selected new/changed home payload files plus README; no raw values printed",
+      "filesScanned": 114,
       "rules": [
         "github-token",
         "provider-key",
@@ -45839,92 +46505,9 @@
         "jwt",
         "url-credential"
       ],
-      "status": "No unclassified matches after hash-bound review",
-      "reviewedOccurrences": [
-        {
-          "path": "home/.agents/skills/terraform-style-guide/SECURITY.md",
-          "line": 152,
-          "rule": "url-credential",
-          "sha256": "8ddf2cfdbef349e117e128280620d7a215ea4f46fa421ef866e7699637276ed2",
-          "matchSha256": "bc9d2d33a8d2e3e56cd689f9ce6dca7ea45b7ad44d3fe9b7383063a91bdf70f7",
-          "reason": "Unchanged upstream Vault/PostgreSQL example uses literal {{username}}/{{password}} placeholders, not credential material."
-        },
-        {
-          "path": "home/.omp/agent/ecosystem/runtime/offline-smoke.ts",
-          "line": 14,
-          "rule": "private-key",
-          "sha256": "70a0356a810979c86b1c129580507f34da009c40d281ae63018addfd7eb29e71",
-          "matchSha256": "3021d90eb9437b2d8f30e8363695c4418b5e5f1870801b5c317e9398ee0f572d",
-          "reason": "Reviewed synthetic detection header only; no private-key body"
-        },
-        {
-          "path": "home/.omp/agent/ecosystem/runtime/semgrep/1.181.0/source-review/semgrep-1.181.0.data/purelib/semgrep/git.py",
-          "line": 162,
-          "rule": "url-credential",
-          "sha256": "dd012fde2d72ff89c85b0f86770596bbe83f3851a5a59cc6f2deb99268a51673",
-          "matchSha256": "32ccaf2ba9e1818077a25c3373d18e055f9090f8fa0528ad0eeb93c289a49096",
-          "reason": "Unchanged upstream docstring uses literal ${CI_JOB_TOKEN}, not a credential."
-        },
-        {
-          "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-secrets-credential-engineer.md",
-          "line": 94,
-          "rule": "url-credential",
-          "sha256": "356c73f5feb867b3e0d3c58d463a98f5f1b241709ff9dc9e64a5bd6d91457484",
-          "matchSha256": "eb8b7d825e385b16cf41264e1bddc6d3d854b422b96d3f8b6cf6fde2b9425115",
-          "reason": "Unchanged upstream negative BEFORE example uses app/dummy password at db.internal; not a workstation credential."
-        },
-        {
-          "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
-          "line": 40,
-          "rule": "url-credential",
-          "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
-          "matchSha256": "0c6f738c3cd44018f349af42aae14d0191c56dd8f19d58f11b377e085bde9b54",
-          "reason": "Unchanged upstream detection examples: literal user:password connection strings and private-key BEGIN headers without key material."
-        },
-        {
-          "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
-          "line": 41,
-          "rule": "url-credential",
-          "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
-          "matchSha256": "6f5829cfb5915965c1461d457105d33f395622dd791bcfa9646bf660fecdd872",
-          "reason": "Unchanged upstream detection examples: literal user:password connection strings and private-key BEGIN headers without key material."
-        },
-        {
-          "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
-          "line": 42,
-          "rule": "url-credential",
-          "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
-          "matchSha256": "a503e2773cfb9efd1f38cd7db935a5b466bc56c597ac7ace26d4a535e22349f5",
-          "reason": "Unchanged upstream detection examples: literal user:password connection strings and private-key BEGIN headers without key material."
-        },
-        {
-          "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
-          "line": 46,
-          "rule": "private-key",
-          "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
-          "matchSha256": "8bcac7908eb950419537b91e19adc83ce2c9cbfdacf4f81157fdadfec11f7017",
-          "reason": "Reviewed synthetic detection header only; no private-key body"
-        },
-        {
-          "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
-          "line": 47,
-          "rule": "private-key",
-          "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
-          "matchSha256": "33ea101ddbe7c33be8f143a2779736d0264a4f4c8f323331a4aa9a1f72d8ab2a",
-          "reason": "Reviewed synthetic detection header only; no private-key body"
-        },
-        {
-          "path": "home/.omp/agent/skills/agency-secrets-credential-hygiene-engineer/SKILL.md",
-          "line": 91,
-          "rule": "url-credential",
-          "sha256": "0776f0bf1646f7b47fcae7b734f21cc9921985bdae4f5a2ee29fce01b00218a5",
-          "matchSha256": "eb8b7d825e385b16cf41264e1bddc6d3d854b422b96d3f8b6cf6fde2b9425115",
-          "reason": "Unchanged upstream negative BEFORE example uses app/dummy password at db.internal; not a workstation credential."
-        }
-      ],
-      "initialUnclassified": 2,
-      "resolution": "Two unchanged placeholder examples matched broader URL screening; exact literal placeholders reviewed without printing values. No inference or runtime rerun.",
-      "limit": "Pattern-based screening and path/content policy are not proof of no secrets, no private data, or security certification."
+      "status": "No matches in selected scope",
+      "unclassifiedMatches": 0,
+      "limit": "Pattern-based scoped screening is not a full rescan, privacy certification, or proof of no secrets."
     },
     "historicalScopedScans": [
       {
@@ -46076,6 +46659,105 @@
           "home/.omp/agent/ecosystem/runtime/semgrep/1.181.0/installed-artifacts.json"
         ],
         "limit": "Pattern-based screening and path/content policy are not proof of no secrets, no private data, or security certification."
+      },
+      {
+        "date": "2026-11-10",
+        "scope": "All selected UTF8 home payload plus README, ignore/attributes and verifier; no raw credential values printed",
+        "filesScanned": 7633,
+        "rules": [
+          "github-token",
+          "provider-key",
+          "aws-access-key",
+          "private-key",
+          "jwt",
+          "url-credential"
+        ],
+        "status": "No unclassified matches after hash-bound review",
+        "reviewedOccurrences": [
+          {
+            "path": "home/.agents/skills/terraform-style-guide/SECURITY.md",
+            "line": 152,
+            "rule": "url-credential",
+            "sha256": "8ddf2cfdbef349e117e128280620d7a215ea4f46fa421ef866e7699637276ed2",
+            "matchSha256": "bc9d2d33a8d2e3e56cd689f9ce6dca7ea45b7ad44d3fe9b7383063a91bdf70f7",
+            "reason": "Unchanged upstream Vault/PostgreSQL example uses literal {{username}}/{{password}} placeholders, not credential material."
+          },
+          {
+            "path": "home/.omp/agent/ecosystem/runtime/offline-smoke.ts",
+            "line": 14,
+            "rule": "private-key",
+            "sha256": "70a0356a810979c86b1c129580507f34da009c40d281ae63018addfd7eb29e71",
+            "matchSha256": "3021d90eb9437b2d8f30e8363695c4418b5e5f1870801b5c317e9398ee0f572d",
+            "reason": "Reviewed synthetic detection header only; no private-key body"
+          },
+          {
+            "path": "home/.omp/agent/ecosystem/runtime/semgrep/1.181.0/source-review/semgrep-1.181.0.data/purelib/semgrep/git.py",
+            "line": 162,
+            "rule": "url-credential",
+            "sha256": "dd012fde2d72ff89c85b0f86770596bbe83f3851a5a59cc6f2deb99268a51673",
+            "matchSha256": "32ccaf2ba9e1818077a25c3373d18e055f9090f8fa0528ad0eeb93c289a49096",
+            "reason": "Unchanged upstream docstring uses literal ${CI_JOB_TOKEN}, not a credential."
+          },
+          {
+            "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-secrets-credential-engineer.md",
+            "line": 94,
+            "rule": "url-credential",
+            "sha256": "356c73f5feb867b3e0d3c58d463a98f5f1b241709ff9dc9e64a5bd6d91457484",
+            "matchSha256": "eb8b7d825e385b16cf41264e1bddc6d3d854b422b96d3f8b6cf6fde2b9425115",
+            "reason": "Unchanged upstream negative BEFORE example uses app/dummy password at db.internal; not a workstation credential."
+          },
+          {
+            "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
+            "line": 40,
+            "rule": "url-credential",
+            "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
+            "matchSha256": "0c6f738c3cd44018f349af42aae14d0191c56dd8f19d58f11b377e085bde9b54",
+            "reason": "Unchanged upstream detection examples: literal user:password connection strings and private-key BEGIN headers without key material."
+          },
+          {
+            "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
+            "line": 41,
+            "rule": "url-credential",
+            "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
+            "matchSha256": "6f5829cfb5915965c1461d457105d33f395622dd791bcfa9646bf660fecdd872",
+            "reason": "Unchanged upstream detection examples: literal user:password connection strings and private-key BEGIN headers without key material."
+          },
+          {
+            "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
+            "line": 42,
+            "rule": "url-credential",
+            "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
+            "matchSha256": "a503e2773cfb9efd1f38cd7db935a5b466bc56c597ac7ace26d4a535e22349f5",
+            "reason": "Unchanged upstream detection examples: literal user:password connection strings and private-key BEGIN headers without key material."
+          },
+          {
+            "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
+            "line": 46,
+            "rule": "private-key",
+            "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
+            "matchSha256": "8bcac7908eb950419537b91e19adc83ce2c9cbfdacf4f81157fdadfec11f7017",
+            "reason": "Reviewed synthetic detection header only; no private-key body"
+          },
+          {
+            "path": "home/.omp/agent/ecosystem/sources/agency-agents-4e3ac3ca/security/security-senior-secops.md",
+            "line": 47,
+            "rule": "private-key",
+            "sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
+            "matchSha256": "33ea101ddbe7c33be8f143a2779736d0264a4f4c8f323331a4aa9a1f72d8ab2a",
+            "reason": "Reviewed synthetic detection header only; no private-key body"
+          },
+          {
+            "path": "home/.omp/agent/skills/agency-secrets-credential-hygiene-engineer/SKILL.md",
+            "line": 91,
+            "rule": "url-credential",
+            "sha256": "0776f0bf1646f7b47fcae7b734f21cc9921985bdae4f5a2ee29fce01b00218a5",
+            "matchSha256": "eb8b7d825e385b16cf41264e1bddc6d3d854b422b96d3f8b6cf6fde2b9425115",
+            "reason": "Unchanged upstream negative BEFORE example uses app/dummy password at db.internal; not a workstation credential."
+          }
+        ],
+        "initialUnclassified": 2,
+        "resolution": "Two unchanged placeholder examples matched broader URL screening; exact literal placeholders reviewed without printing values. No inference or runtime rerun.",
+        "limit": "Pattern-based screening and path/content policy are not proof of no secrets, no private data, or security certification."
       }
     ]
   },
@@ -46086,7 +46768,7 @@
     "verification": "Use node scripts/verify-snapshot.mjs to verify complete home/ inventory, sizes and SHA-256; scoped credential pattern screening is not a security certification or clean-machine restore proof.",
     "agencyAgentsScope": "Scoped addition of original pinned Agency Agents source and 17 converted OMP-only skills, approved proposal, routing/guide/ledger and native acceptance evidence; all unrelated payloads retained",
     "routing20261031Scope": "Original selective gsap-core/gsap-timeline/gsap-react/motion/domain-modeling/to-questionnaire, complete 96-skill catalog and 192 finite native-model cases; four existing MCP unchanged; no new providers/hooks/runtime packages or bulk upstream upgrades.",
-    "observedVersions": "OMP18.18.6 Node24.19.0 BunCLI1.4.2 and175global skills observed2026-11-10. Dated inference/render/integration evidence is historical and not a new restore test.",
+    "observedVersions": "OMP18.18.8 Node24.19.0 BunCLI1.4.2 and178global skills observed2026-11-11. Only diagram wave and routing are synchronized; provider/config payload remains prior snapshot. No new inference/render/restore test.",
     "routing20261107Scope": "151global/141metadata/10vendorexplicit;48of55candidate additions discoverable,32newly exposed. Default6/6smoke,smol4/6historical;original vendor flags intact. No MCP/provider/hooks/approval/memory changes.",
     "artifactsOmitted": [
       {
@@ -47352,10 +48034,53 @@
       {
         "path": "home/.omp/agent/ecosystem/sources/skills-expansion-20261110/heygen-com-hyperframes-58686a74c6a82c13cec05c67a76cc7555cea509b/skills/media-use/audio/assets/sfx/whoosh.mp3",
         "reason": "Non-text asset omitted under existing snapshot policy"
+      },
+      {
+        "path": "home/.omp/agent/skills/stack-diagram/assets/fonts/Geist.woff2",
+        "reason": "Binary font or compressed shape catalogue omitted under existing text-only snapshot policy; restore from pinned upstream and verify installation hash"
+      },
+      {
+        "path": "home/.omp/agent/skills/stack-diagram/assets/fonts/JetBrainsMono.woff2",
+        "reason": "Binary font or compressed shape catalogue omitted under existing text-only snapshot policy; restore from pinned upstream and verify installation hash"
+      },
+      {
+        "path": "home/.omp/agent/ecosystem/sources/diagram-skills-20261111/caru-ini-stack-diagram-1ed53e3e9525364ae5d82e0430f2bb3f7ef4c838/upstream.zip",
+        "reason": "Pinned upstream ZIP is local provenance only; downloaded archives excluded from snapshot"
+      },
+      {
+        "path": "home/.omp/agent/ecosystem/sources/diagram-skills-20261111/softaworks-agent-toolkit-3027f20f3181758385a1bb8c022d4041dfb4de84/upstream.zip",
+        "reason": "Pinned upstream ZIP is local provenance only; downloaded archives excluded from snapshot"
+      },
+      {
+        "path": "home/.omp/agent/skills/drawio-skill/data/shape-index.json.gz",
+        "reason": "Binary font or compressed shape catalogue omitted under existing text-only snapshot policy; restore from pinned upstream and verify installation hash"
+      },
+      {
+        "path": "home/.omp/agent/ecosystem/sources/diagram-skills-20261111/Agents365-ai-drawio-skill-6550495129d9a42eff7e71434d15bfc9846b6202/upstream.zip",
+        "reason": "Pinned upstream ZIP is local provenance only; downloaded archives excluded from snapshot"
       }
     ],
     "omittedArtifactPolicy": "Text-only snapshot intentionally omits fonts/raster/PDF/theme-showcase and downloaded runtimes; recover official pinned assets selectively before use. Hash success is not complete runtime/visual readiness.",
-    "expansion20261110Scope": "24 original native skills (23 motion/design/research/enrichment plus Humanizer ID); five additional vendor explicit-only; four parent config/routing docs; Hyperframes0.9.28 launcher and npm manifests/lock; selected source-only sibling reference text and licenses; no raw inference/runtime state/credentials/assets."
+    "expansion20261110Scope": "24 original native skills (23 motion/design/research/enrichment plus Humanizer ID); five additional vendor explicit-only; four parent config/routing docs; Hyperframes0.9.28 launcher and npm manifests/lock; selected source-only sibling reference text and licenses; no raw inference/runtime state/credentials/assets.",
+    "diagramSkills20261111Scope": {
+      "skills": [
+        "stack-diagram",
+        "mermaid-diagrams",
+        "drawio-skill"
+      ],
+      "textFiles": 107,
+      "installedFileHashesVerified": 110,
+      "omittedSkillAssets": [
+        "stack-diagram/assets/fonts/Geist.woff2",
+        "stack-diagram/assets/fonts/JetBrainsMono.woff2",
+        "drawio-skill/data/shape-index.json.gz"
+      ],
+      "archives": "3 local upstream ZIPs excluded",
+      "vendorModified": false,
+      "drawioExplicitOnly": true,
+      "desktopInstalled": false,
+      "scope": "OMP default-profile only; global rules plus diagram docs; no unrelated config/provider/MCP/plugin sync"
+    }
   },
   "versionsBaseline20261021": {
     "omp": "18.12.5",
@@ -47368,28 +48093,25 @@
     "ponytail": "5.3.2"
   },
   "snapshotUpdate": {
-    "date": "2026-11-10",
-    "baselineCommit": "104d4ee932aeec2079db80940d13d80b7ed61bd4",
-    "added": 1120,
-    "updated": 4,
+    "date": "2026-11-11",
+    "baselineCommit": "d77563460d04da103c31d0a6cd26063ede598cdd",
+    "added": 111,
+    "updated": 2,
     "removed": 0,
-    "skillEntrypointsVerified": 175,
-    "modelVisible": 160,
-    "hidden": 15,
-    "activeRuntimeMetadata": [
-      "Hyperframes CLI 0.9.28 isolated launcher and npm lock; dependencies/browser/FFmpeg not bundled"
-    ],
-    "securityScope": "Defensive snapshot path/content review and scoped credential pattern screening; not full security-audit or clean-machine restore.",
+    "skillEntrypointsVerified": 178,
+    "modelVisible": 162,
+    "hidden": 16,
+    "securityScope": "Selected path/text copy and scoped credential patterns; not a full security audit",
     "rawInferenceRetained": false,
     "credentialsCaptured": false,
     "verification": {
-      "date": "2026-11-10",
-      "selfTest": "passed",
-      "nativeDiscovery": "175 unique entrypoints / 160 visible / 15 hidden / 0 warnings",
-      "sourceHashDifferences": "Only 2 previous intentional signed-download-token redactions",
-      "credentialScreening": "7633 files;10 hash-bound reviewed placeholder/header occurrences;0 unclassified;not absence proof",
-      "payloadIntegrity": "Run node scripts/verify-snapshot.mjs on complete final payload before publication; publication receipt retained on source host",
-      "runtimeCodeExecuted": false,
+      "nativeDiscovery": "178 unique / 162 visible / 16 hidden / 0 warnings; neutral cwd",
+      "vendorIntegrity": "110 installed files match pinned archive hashes",
+      "selectedSourceBackupIntegrity": "113 selected payload files match source bytes; previous redactions preserved",
+      "credentialScreening": "114 selected files including README; 0 matches; not absence proof",
+      "payloadIntegrity": "Run unchanged verifier on final payload before publication; receipt retained outside snapshot",
+      "classificationModelEvaluation": "not-run",
+      "rendering": "not-run",
       "cleanMachineRestore": "not-tested",
       "fullSecurityAudit": false
     }
@@ -47421,6 +48143,33 @@
         "credentialScreening": "6514files,9reviewedsyntheticoccurrences,0unclassified;notsecretabsenceproof",
         "currentSkillEntrypoints": "151present",
         "sourceHashDifferences": "Only2intentionalsigned-download-tokenredactions",
+        "runtimeCodeExecuted": false,
+        "cleanMachineRestore": "not-tested",
+        "fullSecurityAudit": false
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "baselineCommit": "104d4ee932aeec2079db80940d13d80b7ed61bd4",
+      "added": 1120,
+      "updated": 4,
+      "removed": 0,
+      "skillEntrypointsVerified": 175,
+      "modelVisible": 160,
+      "hidden": 15,
+      "activeRuntimeMetadata": [
+        "Hyperframes CLI 0.9.28 isolated launcher and npm lock; dependencies/browser/FFmpeg not bundled"
+      ],
+      "securityScope": "Defensive snapshot path/content review and scoped credential pattern screening; not full security-audit or clean-machine restore.",
+      "rawInferenceRetained": false,
+      "credentialsCaptured": false,
+      "verification": {
+        "date": "2026-11-10",
+        "selfTest": "passed",
+        "nativeDiscovery": "175 unique entrypoints / 160 visible / 15 hidden / 0 warnings",
+        "sourceHashDifferences": "Only 2 previous intentional signed-download-token redactions",
+        "credentialScreening": "7633 files;10 hash-bound reviewed placeholder/header occurrences;0 unclassified;not absence proof",
+        "payloadIntegrity": "Run node scripts/verify-snapshot.mjs on complete final payload before publication; publication receipt retained on source host",
         "runtimeCodeExecuted": false,
         "cleanMachineRestore": "not-tested",
         "fullSecurityAudit": false

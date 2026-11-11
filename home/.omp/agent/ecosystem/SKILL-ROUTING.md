@@ -1,8 +1,22 @@
 # Katalog routing seluruh skill OMP
 
-Routing aktif: [seleksi 10 November](measurements/skills-expansion-20261110/selection.json) menambahkan 23 skill native terpilih di atas baseline [7 November](measurements/automatic-routing-20261107/REPORT.md), tanpa mengubah sumber incumbent. Inventory/hasil nyata ada pada laporan bertanggal masing-masing. Pengguna cukup menjelaskan kebutuhan; pilih satu lead sesuai tugas dan baca panduan relevan sebelum tugas spesialis, bukan semua workflow. Flag `disable-model-invocation: true` tetap eksplisit dan dapat ditawarkan saat relevan. Scope lintas proyek/sesi baru pada default-profile ini; override repository, batas izin dan AGENTS.md tetap berlaku. Ini bukan router executable/hook atau janji klasifikasi deterministik.
+Routing aktif: [tambahan diagram 11 November](measurements/diagram-skills-20261111/USAGE.md), [Humanizer ID](measurements/humanizer-id-20261110/selection.json), dan [seleksi 10 November](measurements/skills-expansion-20261110/selection.json) melengkapi baseline [7 November](measurements/automatic-routing-20261107/REPORT.md), tanpa patch vendor incumbent. Inventory/hasil nyata ada pada laporan bertanggal masing-masing. Pengguna cukup menjelaskan kebutuhan; pilih satu lead sesuai tugas dan baca panduan relevan sebelum tugas spesialis, bukan semua workflow. Flag `disable-model-invocation: true` tetap eksplisit dan dapat ditawarkan saat relevan. Scope lintas proyek/sesi baru pada default-profile ini; override repository, batas izin dan AGENTS.md tetap berlaku. Ini bukan router executable/hook atau janji klasifikasi deterministik.
 
 Pilih dari intent/tahap/artefak aktual dan persetujuan terdahulu, bukan keyword. Satu owner tahap dapat memakai panduan pendukung relevan; jangan ulang intake atau auto-chain reviewer. Invocation eksplisit-only tidak menjadi auto-trigger dari metadata/kutipan. Isi vendor tidak dipatch. Fixtures positif/near-miss lengkap: `runtime/skill-routing-cases.json`; positiveAccept adalah label yang diizinkan, bukan hasil pengujian, dan near-miss menolak skill baris tersebut (guide lain atau null boleh relevan). Sumber, integritas dan hasil verifikasi aktual 31 Oktober: `measurements/skills-routing-20261031.json`; bukti 24 Oktober di `measurements/routing-global-20261024.json` bersifat historis.
+
+## Diagram tambahan — 11 November 2026
+
+Pilih format eksplisit dahulu, lalu tujuan; generic "arsitektur" tidak otomatis berarti diagram stack. [Penggunaan, batas dan contoh](measurements/diagram-skills-20261111/USAGE.md), [pin/integritas](measurements/diagram-skills-20261111/installation.json), [observasi native](measurements/diagram-skills-20261111/routing-verification.json).
+
+| Kebutuhan | Lead | Near-miss / batas |
+|---|---|---|
+| File `.drawio`/diagrams.net atau diagram editable diminta secara nyata | `drawio-skill`, explicit-only vendor | Kutipan nama Draw.io atau pertanyaan format bukan izin workflow. Tidak memasang desktop; edit via web. |
+| Diagram stack/cloud dengan logo teknologi | `stack-diagram` | Diagram C4 teks/ERD tanpa kebutuhan logo: Mermaid; inferred edge bukan fakta runtime. |
+| Mermaid, sequence, flow, ERD, C4 untuk dokumentasi/version control | `mermaid-diagrams` | Chat sederhana dapat native; HTML editorial bukan alasan memakai semua renderer. |
+| Diagram editorial HTML/SVG dengan geometri/brand | `diagram-design` existing | Impor Draw.io/Excalidraw bukan ekspor editable ke format asal. |
+| Requirements, NFR, pilihan pola, interface/domain dan rencana implementasi | Owner planning/domain existing sesuai tahap | Skill drawing bukan pengganti keputusan arsitektur, validasi performa, atau observasi live. |
+
+Tidak ada library/renderer/desktop/MCP baru atau publikasi galeri otomatis. Helper stack-diagram menggunakan jaringan untuk ikon dan renderer PNG `--no-sandbox`; belum diuji. Metadata discovery dan integritas file diuji terpisah dari klasifikasi model atau render. Kedua tambahan otomatis tidak meniadakan flag explicit-only Draw.io; sumber asli tetap utuh.
 
 ## Humanizer ID tambahan — 10 November 2026
 

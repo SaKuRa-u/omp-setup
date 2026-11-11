@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-11",
+  "scope": "OMP default-profile, neutral cwd C:/Windows/Temp",
+  "command": "omp skill list --json",
+  "total": 178,
+  "visible": 162,
+  "hidden": 16,
+  "duplicates": [],
+  "warnings": [],
+  "stderr": "",
+  "selected": [
+    {
+      "name": "drawio-skill",
+      "description": "Create and edit draw.io/diagrams.net diagrams as editable `.drawio` files. Covers architecture, UML/ERD/sequence, BPMN, network, and swimlane views authored from a description or converted from code, IaC, SQL, and API schemas, plus sync, query, test, review, export, and publish of existing diagrams. Use when the user asks for draw.io/diagrams.net or an editable diagram; prefer Mermaid/PlantUML when diagrams-as-code is enough.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\drawio-skill\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\drawio-skill",
+      "source": "native:user",
+      "hide": true
+    },
+    {
+      "name": "mermaid-diagrams",
+      "description": "Comprehensive guide for creating software diagrams using Mermaid syntax. Use when users need to create, visualize, or document software through diagrams including class diagrams (domain modeling, object-oriented design), sequence diagrams (application flows, API interactions, code execution), flowcharts (processes, algorithms, user journeys), entity relationship diagrams (database schemas), C4 architecture diagrams (system context, containers, components), state diagrams, git graphs, pie charts, gantt charts, or any other diagram type. Triggers include requests to \"diagram\", \"visualize\", \"model\", \"map out\", \"show the flow\", or when explaining system architecture, database design, code structure, or user/application flows.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\mermaid-diagrams\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\mermaid-diagrams",
+      "source": "native:user",
+      "hide": false
+    },
+    {
+      "name": "stack-diagram",
+      "description": "Create cloud-architecture-style diagrams of tech stacks, system architectures, infra layouts, and service topologies — with real brand logos, grouped containers, and clean orthogonal arrows — delivered as self-contained HTML, a PNG image, a React/TSX component, or a live artifact. Use this skill whenever the user asks for an architecture / system / stack / infra diagram, a tech-stack overview, a service topology, a cloud-vendor-style diagram, or wants tech logos arranged into a picture of how their services connect — in any language, even if they don't name an output format, and even if the tools involved aren't cloud services.",
+      "filePath": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\stack-diagram\\SKILL.md",
+      "baseDir": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\stack-diagram",
+      "source": "native:user",
+      "hide": false
+    }
+  ],
+  "integrity": {
+    "status": "PASS",
+    "filesChecked": 110,
+    "vendorModified": false
+  },
+  "classificationModelEvaluation": "NOT RUN",
+  "rendering": "NOT RUN",
+  "desktopInstalledByThisTask": false,
+  "routingAssessment": "Source-assessed precedence: explicit editable format > stack logos > editorial > Mermaid text; model choice remains probabilistic"
+}
