@@ -1,0 +1,14 @@
+{
+  "version": "0.4.1",
+  "venv": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\runtime\\cli-anything-hub\\0.4.1\\venv",
+  "lock": [
+    "certifi==2026.10.23 --hash=sha256:e9b54de76e530bb6cf0ccd036787103acb58fd42ba930ea8bf948ddbaa2f61d1",
+    "charset-normalizer==3.5.2 --hash=sha256:e4e81e09c1578b8df602e3db08b0b3ea0a6947ad612f52bf8dc5ea8d47691f0c",
+    "cli-anything-hub==0.4.1 --hash=sha256:95c46b6121c4b784fdf71f5524003b0fa063291397d6b2614995215138b2534b",
+    "click==8.5.1 --hash=sha256:8bb5376d2006950386f8c6427613334a2acadc5f559cb80e638d00b4df957e37",
+    "idna==3.20 --hash=sha256:ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c",
+    "requests==2.34.2 --hash=sha256:2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0",
+    "urllib3==2.8.0 --hash=sha256:0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3"
+  ],
+  "globalPythonChanged": false
+}

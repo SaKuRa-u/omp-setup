@@ -39,6 +39,9 @@ skills:
     - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6/skills
     - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a/skills
     - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/claude-seo-6be93f45064ffbadced572b5d5c95f55fd263af0/skills
+    - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/anthropic-mcp-server-dev-f75f5b25ae94f4332be4ff5f18435741d2589bdb/skills
+    - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/modern-web-guidance/1.0.0/package/skills
+    - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/addyosmani-complement-301b02b12bff98e4688e6984af6556802322bbde/skills
   manualSkills:
     - setup-matt-pocock-skills
     - i-have-adhd

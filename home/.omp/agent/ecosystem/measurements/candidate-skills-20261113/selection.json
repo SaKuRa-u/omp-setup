@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-13",
+  "userDecision": "cli-first-hybrid",
+  "globalHost": "OMP default-profile",
+  "repositories": [
+    {
+      "repo": "addyosmani/agent-skills",
+      "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+      "archiveSha256": "9e56e49e02131e83bcb13a3c245c86ceca4b51ef7bdcc545159b1f594d3e0c22",
+      "regularFiles": 239,
+      "skillFiles": 25,
+      "selected": [
+        "api-and-interface-design",
+        "performance-optimization",
+        "context-engineering",
+        "ci-cd-and-automation"
+      ]
+    },
+    {
+      "repo": "anthropics/claude-plugins-official",
+      "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+      "archiveSha256": "3dabeb68265ec3160a69b830f96e011cd1b69cd747330fbf3ab5cb29c93661bd",
+      "regularFiles": 744,
+      "skillFiles": 57,
+      "selected": [
+        "build-mcp-server",
+        "build-mcp-app",
+        "build-mcpb",
+        "playground"
+      ]
+    },
+    {
+      "repo": "GoogleChrome/modern-web-guidance",
+      "commit": "4dd968349e54ca45a05dd5c818fb035c9054b022",
+      "archiveSha256": "e6a252c7a572d52bcda56fb593b6e83f93a0bdcff118e76978d095330178de9f",
+      "regularFiles": 265,
+      "skillFiles": 2,
+      "selected": [
+        "modern-web-guidance",
+        "chrome-extensions"
+      ]
+    },
+    {
+      "repo": "HKUDS/CLI-Anything",
+      "commit": "34f519533bc175d2fe287ab8316b0dd99bb9cc43",
+      "archiveSha256": "725a62e491d8dfec8517227e221132a9eca78433a1ff150a97aa382e94a93ca2",
+      "regularFiles": 1872,
+      "skillFiles": 151,
+      "selected": [
+        "cli-anything",
+        "cli-hub-meta-skill"
+      ]
+    },
+    {
+      "repo": "openai/codex-security",
+      "commit": "f26b669b56a4423abd773c81f6c6c9c2ebadc42a",
+      "archiveSha256": "e011c2a33f25b248595ef4fc23decc57735fad823bf00aa0a7fd5c8a7ad02b95",
+      "regularFiles": 1607,
+      "skillFiles": 24,
+      "selected": [
+        "check-skills"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "build-mcp-server",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\anthropic-mcp-server-dev-f75f5b25ae94f4332be4ff5f18435741d2589bdb\\skills\\build-mcp-server",
+      "repo": "anthropics/claude-plugins-official",
+      "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+      "manual": false
+    },
+    {
+      "name": "build-mcp-app",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\anthropic-mcp-server-dev-f75f5b25ae94f4332be4ff5f18435741d2589bdb\\skills\\build-mcp-app",
+      "repo": "anthropics/claude-plugins-official",
+      "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+      "manual": false
+    },
+    {
+      "name": "build-mcpb",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\anthropic-mcp-server-dev-f75f5b25ae94f4332be4ff5f18435741d2589bdb\\skills\\build-mcpb",
+      "repo": "anthropics/claude-plugins-official",
+      "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+      "manual": false
+    },
+    {
+      "name": "playground",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\playground",
+      "repo": "anthropics/claude-plugins-official",
+      "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+      "manual": false
+    },
+    {
+      "name": "modern-web-guidance",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\runtime\\modern-web-guidance\\1.0.0\\package\\skills\\modern-web-guidance",
+      "repo": "GoogleChrome/modern-web-guidance",
+      "commit": "4dd968349e54ca45a05dd5c818fb035c9054b022",
+      "manual": false
+    },
+    {
+      "name": "chrome-extensions",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\runtime\\modern-web-guidance\\1.0.0\\package\\skills\\chrome-extensions",
+      "repo": "GoogleChrome/modern-web-guidance",
+      "commit": "4dd968349e54ca45a05dd5c818fb035c9054b022",
+      "manual": false
+    },
+    {
+      "name": "check-skills",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\check-skills",
+      "repo": "openai/codex-security",
+      "commit": "f26b669b56a4423abd773c81f6c6c9c2ebadc42a",
+      "manual": false
+    },
+    {
+      "name": "cli-anything",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\cli-anything",
+      "repo": "HKUDS/CLI-Anything",
+      "commit": "34f519533bc175d2fe287ab8316b0dd99bb9cc43",
+      "manual": false
+    },
+    {
+      "name": "cli-hub-meta-skill",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\cli-hub-meta-skill",
+      "repo": "HKUDS/CLI-Anything",
+      "commit": "34f519533bc175d2fe287ab8316b0dd99bb9cc43",
+      "manual": false
+    },
+    {
+      "name": "api-and-interface-design",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-complement-301b02b12bff98e4688e6984af6556802322bbde\\skills\\api-and-interface-design",
+      "repo": "addyosmani/agent-skills",
+      "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+      "manual": false
+    },
+    {
+      "name": "performance-optimization",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-complement-301b02b12bff98e4688e6984af6556802322bbde\\skills\\performance-optimization",
+      "repo": "addyosmani/agent-skills",
+      "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+      "manual": false
+    },
+    {
+      "name": "context-engineering",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-complement-301b02b12bff98e4688e6984af6556802322bbde\\skills\\context-engineering",
+      "repo": "addyosmani/agent-skills",
+      "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+      "manual": false
+    },
+    {
+      "name": "ci-cd-and-automation",
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\capabilities\\addyosmani-complement-301b02b12bff98e4688e6984af6556802322bbde\\skills\\ci-cd-and-automation",
+      "repo": "addyosmani/agent-skills",
+      "commit": "301b02b12bff98e4688e6984af6556802322bbde",
+      "manual": false
+    }
+  ],
+  "noNewExplicitOnlyFlags": true,
+  "otherHostsChanged": false
+}

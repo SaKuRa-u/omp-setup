@@ -1,6 +1,6 @@
 # Backup setup OMP: SaKuRa-u
 
-Snapshot konfigurasi dan sumber **OMP default-profile** di Windows, diperbarui **11 November 2026**. Pembaruan terbaru menambahkan tiga skill diagram asli terpin, prioritas routing, panduan edit Draw.io via web, serta bukti discovery/integritas; ekspansi 10 November tetap dipertahankan. Ini snapshot selektif, bukan image sistem, installer, runtime siap pakai, atau restore otomatis. Bukti bertanggal tidak membuktikan seluruh environment terbaru, aman, atau berhasil dipulihkan pada mesin bersih.
+Snapshot konfigurasi dan sumber **OMP default-profile** di Windows, diperbarui **13 November 2026**. Pembaruan terbaru menambahkan 13 skill original terpin dari lima kandidat, routing CLI-first hybrid, launcher/lock runtime dan bukti pengujian. Payload diagram serta ekspansi sebelumnya dipertahankan. Ini snapshot teks selektif, bukan image sistem, installer, runtime siap pakai, atau restore otomatis; bukan klaim seluruh environment diuji ulang.
 
 ## Isi dan sumber kebenaran
 
@@ -24,13 +24,13 @@ Baseline 21 Oktober 2026 memakai OMP `18.12.5`, Node `24.19.0` dan Bun `1.4.2`. 
 
 CLI yang diamati **11 November 2026**: OMP `18.18.8`, Node `v24.19.0`, Bun CLI `1.4.2`. Pekerjaan snapshot ini tidak meng-upgrade runtime. Observasi 10 November memakai OMP `18.18.6`; audit/routing 7 November memakai `18.18.0`. Bukti lama bukan pengujian ulang seluruh integrasi pada `18.18.8`. Default/role model dan konfigurasi provider/MCP tidak diperbarui oleh wave diagram ini. Context7 `4.5.1`, REA `6.5.0`, RTK `1.0.1` dan Ponytail `5.3.2` tetap mengikuti baseline tersimpan. Upgrade Semgrep `1.184.0` gagal acceptance historis; rute tersimpan tetap `1.181.0`. Warning MCP Python `1.29.0` dan kegagalan startup Semgrep pada sebagian smoke tetap tercatat.
 
-Discovery native pada root netral **11 November** menemukan **178 skill global: 162 metadata terlihat dan 16 tersembunyi**, tanpa warning atau nama duplikat. [Bukti tambahan diagram](home/.omp/agent/ecosystem/measurements/diagram-skills-20261111/routing-verification.json) memuat jumlah global, tiga entrypoint tambahan `native:user`, hide flag dan 110 file distribusi terverifikasi. Ini discovery/integritas, bukan pengujian klasifikasi model, render, LSP/DAP, browser atau MCP. [Observasi lengkap 10 November](home/.omp/agent/ecosystem/measurements/repository-snapshot-20261110/host-observation.json) tetap historis.
+Discovery native pada host asal **13 November** menemukan **191 skill global: 175 metadata terlihat dan 16 tersembunyi**, tanpa warning. Seluruh 178 incumbent dipertahankan; 13 URI tambahan berhasil pada root netral dan Onboarding. Onboarding memiliki lima warning alias snapshot GitHub proyek yang tidak dihapus atau disembunyikan. [Bukti terbaru](home/.omp/agent/ecosystem/measurements/candidate-skills-20261113/final-acceptance.json) berasal dari host asal, bukan clean-machine restore snapshot. Observasi 11 November (178 skill) dan 10 November tetap historis.
 
 Ledger atau laporan lama dapat menyebut pin/hasil sebelumnya. Cocokkan konfigurasi aktif dan acceptance per komponen; keberadaan source kandidat upgrade tidak berarti versi itu aktif. Tidak ada klaim seluruh skill cocok byte dengan upstream terbaru atau semua integrasi diuji ulang pada tanggal snapshot.
 
 ## Skill dan routing saat ini
 
-Baseline 7 November berisi 151 skill (141 metadata terlihat, 10 tersembunyi). Ekspansi 10 November menambah 23 skill dan Humanizer ID; tambahan diagram 11 November menambah tiga: kini **178 global / 162 terlihat / 16 tersembunyi**. Body panduan dibaca saat relevan, bukan seluruhnya selalu dimuat. Tidak semua kandidat dipasang.
+Baseline 7 November berisi 151 skill. Ekspansi 10 November, Humanizer ID dan tiga diagram 11 November membawa jumlah ke 178; tambahan 13 November membawa jumlah host asal ke **191 global / 175 terlihat / 16 tersembunyi**. Body dibaca saat relevan, bukan seluruhnya selalu dimuat. Snapshot mempertahankan komponen lama yang tidak terkait; versi runtime/plugin mengikuti baseline masing-masing, bukan sinkronisasi massal host.
 
 Enam belas entry tetap memerlukan permintaan eksplisit:
 
@@ -46,6 +46,26 @@ Routing **probabilistik**, bukan router executable atau jaminan klasifikasi. Buk
 Wave diagram 11 November memeriksa native discovery, hide flag dan hash upstream. Prioritas routing ditinjau dari source dan aturan pengguna; **klasifikasi model serta rendering belum diuji**. Tidak ada klaim “semua routing aman” atau sertifikasi seluruh helper.
 
 Default-profile berlaku lintas proyek pada akun OMP ini, bukan semua host atau named profile. Repository dapat override atau menambah alias; angka Onboarding 180 entry setelah Humanizer ID adalah observasi historis sebelum tambahan diagram, bukan jumlah terkini. Jangan menonaktifkan provider repository untuk menyamakan angka global. Mulai sesi OMP baru; hot reload sesi lama tidak dijamin.
+
+### Tambahan 13 November: skill pelengkap dan CLI-first
+
+| Sumber | Skill tambahan |
+|---|---|
+| Anthropic | playground, build-mcp-server, build-mcp-app, build-mcpb |
+| Google Chrome | modern-web-guidance, chrome-extensions |
+| OpenAI Codex Security | check-skills; tidak memasang scanner/Cloud/SDK |
+| HKUDS CLI-Anything | cli-anything generator lengkap dan cli-hub-meta-skill |
+| Addy Osmani | api-and-interface-design, performance-optimization, context-engineering, ci-cd-and-automation |
+
+**CLI-first hybrid:** agen dapat menemukan dan memakai flag/subcommand di luar schema MCP dalam scope tugas, tanpa whitelist command baru. PoP memprioritaskan CLI vendor; Scopus/Context7 tetap memakai bridge MCP, REA/Semgrep memilih transport sesuai kemampuan dan state. Konektor working tidak dicabut. Izin secrets, biaya, destructive data, produksi dan publikasi tetap berlaku.
+
+Pada host asal, **18/18 smoke routing** dan **8/8 smoke runtime** lulus; PoP Crossref/JSON serta ekspor BibTeX/RIS/JSONL diuji. Ini bukan benchmark superioritas CLI, validasi semua near-miss, atau bukti semua aplikasi komunitas siap. Skill tersedia tidak berarti Blender/GIMP/backend lain ikut terpasang.
+
+Chrome CLI original `1.0.0` dan CLI-Hub `0.4.1` dipin dengan telemetry opt-out pada launcher. **Snapshot tidak menyertakan enam berkas indeks pencarian biner/terkompresi Chrome, venv/wheelhouse Hub, state, atau arsip sumber.** Sebelum memakai launcher pada mesin tujuan, pulihkan distribusi npm/wheel resmi sesuai integrity dan lock pada runtime terpilih, lengkap dengan indeksnya; buat state terisolasi dan sesuaikan path. Jangan menjalankan installer massal atau `npx @latest`. Hash snapshot lulus bukan berarti CLI langsung bisa berjalan.
+
+- [Keputusan lima kandidat dan batas](home/.omp/agent/ecosystem/measurements/candidate-skills-20261113/REPORT.md), [routing dan penggunaan CLI](home/.omp/agent/ecosystem/measurements/candidate-skills-20261113/USAGE.md), [pin/seleksi](home/.omp/agent/ecosystem/measurements/candidate-skills-20261113/selection.json).
+- [Cakupan publikasi snapshot](home/.omp/agent/ecosystem/measurements/repository-snapshot-20261113/REPORT.md). Raw output model, sessions, cache, credential dan binary tidak dipublikasikan; konfigurasi/plugin di luar wave ini tidak disinkronkan ulang.
+
 
 ### Tambahan 11 November: diagram dan planning arsitektur
 

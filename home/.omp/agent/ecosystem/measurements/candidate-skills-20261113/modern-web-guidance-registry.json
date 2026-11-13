@@ -1,0 +1,93 @@
+{
+  "bin": {
+    "modern-web-guidance": "skills/modern-web-guidance/modern-web.mjs"
+  },
+  "bugs": {
+    "url": "https://github.com/GoogleChrome/modern-web-guidance-src/issues"
+  },
+  "dist": {
+    "shasum": "e8d27ab97ab9fe7ba0885c9db72d53e9d8d28b9b",
+    "tarball": "https://registry.npmjs.org/modern-web-guidance/-/modern-web-guidance-1.0.0.tgz",
+    "fileCount": 280,
+    "integrity": "sha512-vafIZwC8AS6QjM2yyoflZbnc7n3/TVOMLbEMRdPTwcFy0f9/Tq8s5rJQ8UIqRt2KPl9ixravyaMR4nTGuUrcmg==",
+    "signatures": [
+      {
+        "sig": "MEUCIQCZyTDFkiGZrrIZPJjzJSTDD5vs21qi8AJJO4VR7Br4DgIgc6RhS40nw2djZ58GyqVizEK6l9tQ4oO2sPC0QUamSxo=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      },
+      {
+        "sig": "MEUCIQD7paA2gqdZ5Lkhp77KIjy8KouuLsf2veyrJfRzif+jNQIgAtZM2d+PL5nININXkQXAxnH+NNCEvuHL5qs5AppdEjo=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/modern-web-guidance@1.0.0",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "unpackedSize": 16503129
+  },
+  "name": "modern-web-guidance",
+  "engines": {
+    "node": ">=22.0.0",
+    "vscode": "^1.90.0"
+  },
+  "gitHead": "544c250575f7811d87fef8b1c064bc9571cbfb80",
+  "license": "Apache-2.0",
+  "_npmUser": {
+    "name": "GitHub Actions",
+    "email": "npm-oidc-no-reply@github.com",
+    "trustedPublisher": {
+      "id": "github",
+      "oidcConfigId": "8202e317-ef8e-4409-8529-d79962b53e03"
+    }
+  },
+  "homepage": "https://developer.chrome.com/docs/modern-web-guidance",
+  "publisher": "GoogleChrome",
+  "categories": [
+    "AI",
+    "Other"
+  ],
+  "repository": {
+    "url": "git+https://github.com/GoogleChrome/modern-web-guidance-src.git",
+    "type": "git"
+  },
+  "_npmVersion": "11.19.1",
+  "contributes": {
+    "chatSkills": [
+      {
+        "path": "./skills/modern-web-guidance/SKILL.md"
+      }
+    ]
+  },
+  "description": "Keep your agent up to date on the latest web best practices.",
+  "directories": {},
+  "displayName": "Modern Web Guidance",
+  "maintainers": [
+    {
+      "name": "paulirish",
+      "email": "npm@paul.irish"
+    },
+    {
+      "name": "rviscomi",
+      "email": "rviscomi@gmail.com"
+    },
+    {
+      "name": "hoten",
+      "email": "cjamcl@gmail.com"
+    },
+    {
+      "name": "micahjo7",
+      "email": "micahjo@google.com"
+    }
+  ],
+  "_nodeVersion": "24.22.2",
+  "_hasShrinkwrap": false,
+  "_npmOperationalInternal": {
+    "tmp": "tmp/modern-web-guidance_1.0.0_1794281358851_0.03555252383624663",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "modern-web-guidance@1.0.0",
+  "version": "1.0.0"
+}

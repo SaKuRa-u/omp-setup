@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "vendorFilesVerified": 354,
+  "backupFilesVerified": 5,
+  "mcpUnchanged": true,
+  "memory": "off",
+  "approval": "yolo",
+  "modelRoles": {
+    "default": "openai-codex/gpt-6.1-sol:medium",
+    "smol": "openai-codex/gpt-6-luna:low"
+  },
+  "roots": [
+    {
+      "cwd": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\measurements\\candidate-skills-20261113\\",
+      "registered": 191,
+      "hidden": 16,
+      "baselinePreserved": 178,
+      "selected": 13,
+      "uriChecks": [
+        "build-mcp-server",
+        "build-mcp-app",
+        "build-mcpb",
+        "playground",
+        "modern-web-guidance",
+        "chrome-extensions",
+        "check-skills",
+        "cli-anything",
+        "cli-hub-meta-skill",
+        "api-and-interface-design",
+        "performance-optimization",
+        "context-engineering",
+        "ci-cd-and-automation"
+      ],
+      "projectEntries": [],
+      "warnings": [],
+      "catalog": {
+        "visible": 175,
+        "selectedVisible": 13,
+        "globalRoutingLoaded": true,
+        "stderr": ""
+      }
+    },
+    {
+      "cwd": "C:/Users/Indrimeilla-PC/orca/projects/Onboarding",
+      "registered": 196,
+      "hidden": 17,
+      "baselinePreserved": 178,
+      "selected": 13,
+      "uriChecks": [
+        "build-mcp-server",
+        "build-mcp-app",
+        "build-mcpb",
+        "playground",
+        "modern-web-guidance",
+        "chrome-extensions",
+        "check-skills",
+        "cli-anything",
+        "cli-hub-meta-skill",
+        "api-and-interface-design",
+        "performance-optimization",
+        "context-engineering",
+        "ci-cd-and-automation"
+      ],
+      "projectEntries": [
+        "github/animate",
+        "github/animation-performance",
+        "github/emil-design-eng",
+        "github/impeccable",
+        "github/review-animations"
+      ],
+      "warnings": [
+        {
+          "skillPath": "C:\\Users\\Indrimeilla-PC\\orca\\projects\\Onboarding\\.github\\skills\\animate\\SKILL.md",
+          "message": "name collision: \"animate\" from C:\\Users\\Indrimeilla-PC\\orca\\projects\\Onboarding\\.github\\skills\\animate\\SKILL.md differs from C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\animate\\SKILL.md; available as \"github/animate\""
+        },
+        {
+          "skillPath": "C:\\Users\\Indrimeilla-PC\\orca\\projects\\Onboarding\\.github\\skills\\animation-performance\\SKILL.md",
+          "message": "name collision: \"animation-performance\" from C:\\Users\\Indrimeilla-PC\\orca\\projects\\Onboarding\\.github\\skills\\animation-performance\\SKILL.md differs from C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\animation-performance\\SKILL.md; available as \"github/animation-performance\""
+        },
+        {
+          "skillPath": "C:\\Users\\Indrimeilla-PC\\orca\\projects\\Onboarding\\.github\\skills\\emil-design-eng\\SKILL.md",
+          "message": "name collision: \"emil-design-eng\" from C:\\Users\\Indrimeilla-PC\\orca\\projects\\Onboarding\\.github\\skills\\emil-design-eng\\SKILL.md differs from C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\emil-design-eng\\SKILL.md; available as \"github/emil-design-eng\""
+        },
+        {
+          "skillPath": "C:\\Users\\Indrimeilla-PC\\orca\\projects\\Onboarding\\.github\\skills\\impeccable\\SKILL.md",
+          "message": "name collision: \"impeccable\" from C:\\Users\\Indrimeilla-PC\\orca\\projects\\Onboarding\\.github\\skills\\impeccable\\SKILL.md differs from C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\impeccable\\SKILL.md; available as \"github/impeccable\""
+        },
+        {
+          "skillPath": "C:\\Users\\Indrimeilla-PC\\orca\\projects\\Onboarding\\.github\\skills\\review-animations\\SKILL.md",
+          "message": "name collision: \"review-animations\" from C:\\Users\\Indrimeilla-PC\\orca\\projects\\Onboarding\\.github\\skills\\review-animations\\SKILL.md differs from C:\\Users\\Indrimeilla-PC\\.omp\\agent\\skills\\review-animations\\SKILL.md; available as \"github/review-animations\""
+        }
+      ],
+      "catalog": {
+        "visible": 179,
+        "selectedVisible": 13,
+        "globalRoutingLoaded": true,
+        "stderr": ""
+      }
+    }
+  ],
+  "limitations": "Onboarding retains five existing project GitHub snapshot collisions; no candidate collision. Discovery/catalog/URI are not semantic workflow proof."
+}

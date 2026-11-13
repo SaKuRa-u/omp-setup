@@ -1,0 +1,163 @@
+{
+  "model": "openai-codex/gpt-6.1-sol",
+  "scope": "13 positive automatic guide reads plus 5 negative/transport guards; 13 near-miss contracts source-reviewed but not all independently inferred",
+  "passed": 18,
+  "total": 18,
+  "cases": [
+    {
+      "id": "playground",
+      "loaded": [
+        "playground"
+      ],
+      "passed": true,
+      "issues": [],
+      "errors": []
+    },
+    {
+      "id": "mcp-deployment",
+      "loaded": [
+        "build-mcp-server"
+      ],
+      "passed": true,
+      "issues": [],
+      "errors": []
+    },
+    {
+      "id": "mcp-widget",
+      "loaded": [
+        "build-mcp-app"
+      ],
+      "passed": true,
+      "issues": [],
+      "errors": []
+    },
+    {
+      "id": "mcp-bundle",
+      "loaded": [
+        "build-mcpb"
+      ],
+      "passed": true,
+      "issues": [],
+      "errors": []
+    },
+    {
+      "id": "web-platform",
+      "loaded": [
+        "modern-web-guidance"
+      ],
+      "passed": true,
+      "issues": [],
+      "errors": []
+    },
+    {
+      "id": "chrome-extension",
+      "loaded": [
+        "chrome-extensions"
+      ],
+      "passed": true,
+      "issues": [],
+      "errors": []
+    },
+    {
+      "id": "skill-security",
+      "loaded": [
+        "check-skills"
+      ],
+      "passed": true,
+      "issues": [],
+      "errors": []
+    },
+    {
+      "id": "cli-generator",
+      "loaded": [
+        "cli-anything"
+      ],
+      "passed": true,
+      "issues": [],
+      "errors": []
+    },
+    {
+      "id": "cli-catalog",
+      "loaded": [
+        "cli-hub-meta-skill"
+      ],
+      "passed": true,
+      "issues": [],
+      "errors": []
+    },
+    {
+      "id": "api-contract",
+      "loaded": [
+        "api-and-interface-design"
+      ],
+      "passed": true,
+      "issues": [],
+      "errors": []
+    },
+    {
+      "id": "performance",
+      "loaded": [
+        "performance-optimization"
+      ],
+      "passed": true,
+      "issues": [],
+      "errors": []
+    },
+    {
+      "id": "context",
+      "loaded": [
+        "context-engineering"
+      ],
+      "passed": true,
+      "issues": [],
+      "errors": []
+    },
+    {
+      "id": "ci-wiring",
+      "loaded": [
+        "ci-cd-and-automation"
+      ],
+      "passed": true,
+      "issues": [],
+      "errors": []
+    },
+    {
+      "id": "quoted-names",
+      "loaded": [],
+      "passed": true,
+      "issues": [],
+      "errors": []
+    },
+    {
+      "id": "ordinary-question",
+      "loaded": [],
+      "passed": true,
+      "issues": [],
+      "errors": []
+    },
+    {
+      "id": "existing-review-owner",
+      "loaded": [],
+      "passed": true,
+      "issues": [],
+      "errors": []
+    },
+    {
+      "id": "pop-cli-first",
+      "loaded": [],
+      "passed": true,
+      "issues": [],
+      "errors": []
+    },
+    {
+      "id": "no-blanket-mcp-removal",
+      "loaded": [
+        "cli-anything"
+      ],
+      "passed": true,
+      "issues": [],
+      "errors": []
+    }
+  ],
+  "limitations": "Finite synthetic routing smoke, not a general semantic guarantee, workload validation, or benchmark. No raw reasoning or session trace retained."
+}

@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-13",
+  "status": "verified-with-declared-limits",
+  "scope": "OMP default-profile global; CLI-first hybrid approved",
+  "installedSkills": 13,
+  "globalSkills": 191,
+  "incumbentsPreserved": 178,
+  "vendorFilesVerified": 354,
+  "uriChecks": 26,
+  "runtimeSmokeChecks": 8,
+  "routingPassed": 18,
+  "routingTotal": 18,
+  "networkReadsInRouting": [],
+  "explicitOnlyReadsInRouting": [],
+  "mcpUnchanged": true,
+  "changedFileHashes": [
+    {
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\config.yml",
+      "sha256": "f7074b0eebe21a5a43c00d65d1d6a923af4ae020dc67b6a0dd69ac12fb53a1e5"
+    },
+    {
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\AGENTS.md",
+      "sha256": "4c9dcd1777ca62d0a9a2c001bb7b4ef5cfcfb33ad168c9866745eee0607e9757"
+    },
+    {
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\SKILL-ROUTING.md",
+      "sha256": "4f6e9f26c73f110de55563c02b1bb5aa1221f7c33fdcf91d81a08efe5eeede6c"
+    },
+    {
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\runtime\\modern-web-guidance\\1.0.0\\modern-web-guidance.cmd",
+      "sha256": "afa08f4690e01a12c9f95818d7c7f6edcbe225f05f6dfc81a00746126d79d55e"
+    },
+    {
+      "path": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\runtime\\cli-anything-hub\\0.4.1\\cli-hub.cmd",
+      "sha256": "ec16c8480ef5ea7722d85b2fcb63aceb7af0f77ed67d1194421f129634ded920"
+    }
+  ],
+  "remainingWarnings": "Five existing Onboarding project GitHub snapshot alias collisions; no new global/candidate warnings",
+  "notTested": [
+    "All 13 near-miss prompts as independent inference runs",
+    "Full app workflows for community CLIs",
+    "All PoP sources/flags and all REA commands",
+    "Rendered MCP apps/playgrounds/extensions",
+    "Performance superiority CLI versus MCP",
+    "Packet-capture proof of no telemetry egress"
+  ]
+}
