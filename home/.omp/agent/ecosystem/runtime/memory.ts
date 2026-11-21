@@ -8,7 +8,7 @@ import { readSecret } from './lib/secrets.ts';
 import { assertNoSecrets } from './lib/secret-filter.ts';
 import { loadScope, validateNamespace, type Scope } from './lib/memory-policy.ts';
 
-export const HELP = `Supermemory v5 (SDK 5.0.2; DPAPI key; no MCP)
+export const HELP = `Supermemory v5 (SDK 5.1.2; DPAPI key; no MCP)
 Run: bun <runtime>/memory.ts COMMAND [flags] from your mapped project cwd.
   capture --id STABLE_ID --fact-file FILE
   update --id STABLE_ID --fact-file FILE      PATCH replacement, not add/append

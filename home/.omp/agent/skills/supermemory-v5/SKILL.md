@@ -1,12 +1,20 @@
 ---
 name: supermemory-v5
-description: Use the approved namespace-isolated Supermemory v5 runtime to recall, capture, correct, or forget durable verified facts across OMP sessions. Use when the user asks to remember a preference or project decision, correct stored knowledge, recall previous context, or forget/delete memories. Enforce project allowlists, secret filtering, one-fact documents, and targeted human approval before destructive operations; do not use legacy APIs or MCP.
-compatibility: Windows OMP, Bun, pinned supermemory 5.0.2, user-provided DPAPI credential
+description: Use Supermemory for relevant prior context and selective capture/correction of new durable verified nonconfidential project decisions or explicit preferences, even without a memory keyword, under the approved OMP default-profile standing consent. Also use for explicit remember, recall, correction, or forget requests. Preserve project/global isolation, secret filtering, stable IDs, and targeted human approval for destructive operations; no legacy APIs or MCP.
+compatibility: Windows OMP, Bun, pinned supermemory 5.1.2, user-provided DPAPI credential
 ---
 
 # Supermemory v5
 
 Use the implementation at `C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/memory.ts`. Run `bun <absolute-runtime>/memory.ts --help` for the exact command syntax; help and `usage` need no key. Keep the working directory inside the intended project so canonical mapping determines its namespace. This is the primary implementation skill, not a future custom-gap skill.
+
+## Approved automatic use — 17 November 2026
+
+The user approved all existing/new projects in this OMP default-profile, selective automatic recall/capture/correction, and bounded API use with existing DPAPI credentials/plan. This is not consent to upload conversations, source, private documents, or hypotheses. Project/user restrictions override standing consent.
+
+`extensions/supermemory.ts` performs generic bootstrap recall once per main-session context, with a 1500-character result budget and 25-second child-process limit. It never sends the user's prompt. A failed bootstrap is reported, not automatically retried. Subsequent semantic actions are agent-mediated: recall a generic topic only when relevant context is absent; reuse relevant results already in context. Before task completion, capture only new eligible facts; routine Q&A and unchanged facts need no write. Capture/correction still follows the workflow below; pending is not done. No side model or guaranteed shutdown capture exists.
+
+Cross-project preferences use `--global`; project decisions use the default project scope. Use stable descriptive IDs, check for existing sources before capture, and replace corrections under the same ID. Global capture/update are authorized; forgetting/deletion still require exact-target approval. Do not automatically write synthetic acceptance facts into real project/global namespaces.
 
 ## Trust, privacy, and scope
 
@@ -19,7 +27,7 @@ Use the implementation at `C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/
 
 ## Policy and namespace selection
 
-Read `runtime/memory-policy.json` before writes. Default `projects: []` and `globalWriteActions: []` mean no project writes or global writes are authorized.
+Read `runtime/memory-policy.json` before writes. Without `autoProjects: true`, unmapped projects fail closed. With no mapped projects and automatic projects disabled, no project writes are authorized. Empty `globalWriteActions` disables global mutations.
 
 An operator-authorized mapping has this shape:
 
@@ -35,7 +43,7 @@ An operator-authorized mapping has this shape:
 
 The canonical real working-directory path selects the most specific mapped root, including descendants. A project uses `omp_<slug>`. Do not invent a namespace flag or edit policy merely to make a rejected command succeed. Distinct projects need distinct slugs. Namespace names obey vendor schema `^[a-zA-Z0-9_:-]+$`, maximum 100 characters; the runtime intentionally uses a narrower lowercase `omp_` convention.
 
-Default project recall makes two separate SDK calls: project namespace and `omp_global`. `--global` explicitly selects only `omp_global`; global mutations additionally need their precise policy action (`capture`, `update`, `forget`, or `delete-doc`) allowlisted. `--selftest` selects only `omp_selftest` and is reserved for authorized synthetic acceptance work. Never use selftest as a policy bypass for real facts. Unknown working directories fail closed rather than guessing project scope.
+Default project recall makes two separate SDK calls: project namespace and `omp_global`. `--global` selects only `omp_global`; mutations need their precise policy action (`capture`, `update`, `forget`, or `delete-doc`) allowlisted. `--selftest` selects only `omp_selftest`, reserved for authorized synthetic acceptance; never use it for real facts. With user-approved `autoProjects: true`, unmapped working directories use `omp_auto_<24 hex SHA-256 characters of canonical root>`. The nearest ancestor containing a `.git` file/directory defines the root; outside repositories, canonical cwd is the isolation boundary. Root paths are hashed locally, not sent as namespace names. Explicit mappings take precedence, preserving `omp_onboarding`. Moving a repository or using a separate worktree changes automatic identity; add a deliberate explicit mapping if continuity is needed, never silently migrate or merge facts.
 
 ## Recall
 
@@ -89,7 +97,7 @@ Report the command/action, namespace, stable ID or exact manifest IDs, observed 
 
 ## Source authority
 
-The installed `supermemory` 5.0.2 declarations are the method-signature authority. The migration page contains conflicting object-style prose; use namespace-first positional signatures from the installed SDK, not that prose:
+The installed `supermemory` 5.1.2 declarations are the method-signature authority. The migration page contains conflicting object-style prose; use namespace-first positional signatures from the installed SDK, not that prose:
 
 - https://supermemory.ai/docs/migration/api-v5
 - https://api.supermemory.ai/openapi.json

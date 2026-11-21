@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-11",
+  "previousVersion": "5.3.2",
+  "version": "5.3.3",
+  "release": "https://github.com/DietrichGebert/ponytail/releases/tag/v5.3.3",
+  "commit": "7801d061243d7b753bad0e0b3c057cd250b11755",
+  "scope": "OMP default-profile user global only",
+  "source": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\sources\\ponytail-7801d061243d7b753bad0e0b3c057cd250b11755",
+  "rollback": "C:\\Users\\Indrimeilla-PC\\.omp\\agent\\ecosystem\\backups\\ponytail-upgrade-20261111",
+  "upstreamFilesVerified": 214,
+  "adapterSmoke": "PASS: 6 commands, lifecycle handlers, full injection array/sections, off clears section, mode restore",
+  "nativeDiscovery": {
+    "skills": 6,
+    "allUseVersion": "5.3.3",
+    "warnings": []
+  },
+  "limitations": [
+    "No real model session or TUI interaction tested",
+    "No band/board/import/webhook or other-host hooks enabled",
+    "omp plugin features ponytail@ponytail returned plugin not found; marketplace plugin list and native discovery verified separately",
+    "Restart/new OMP session required; no hot reload guarantee"
+  ],
+  "runtimeSettingsChanged": false
+}

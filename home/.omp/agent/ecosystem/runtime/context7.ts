@@ -61,7 +61,7 @@ export function childEnvironment(key?: string, home?: string): NodeJS.ProcessEnv
 
 export async function pinnedBin(route: 'cli' | 'mcp'): Promise<string> {
   const name = route === 'cli' ? 'ctx7' : '@upstash/context7-mcp';
-  const expectedVersion = route === 'cli' ? '0.6.1' : '4.4.4';
+  const expectedVersion = route === 'cli' ? '0.12.2' : '4.7.3';
   const packageRoot = route === 'cli' ? runtimeDir : resolve(runtimeDir, 'context7', expectedVersion);
   try {
     const metadata = z.object({ name: z.string(), version: z.string(), bin: z.record(z.string(), z.string()) })

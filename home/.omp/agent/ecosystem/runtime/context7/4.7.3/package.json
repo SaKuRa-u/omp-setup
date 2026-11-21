@@ -1,0 +1,6 @@
+{
+  "name": "omp-context7-4-7-3",
+  "private": true,
+  "type": "module",
+  "dependencies": { "@upstash/context7-mcp": "4.7.3" }
+}

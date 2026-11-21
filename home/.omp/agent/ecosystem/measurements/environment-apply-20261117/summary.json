@@ -1,0 +1,449 @@
+{
+  "schemaVersion": 1,
+  "startedDate": "2026-11-17",
+  "completedAt": "2026-11-17T17:53:19.066Z",
+  "scope": "Approved OMP default-profile upgrade plus named shared tools. Not all OS software, other-host configuration, project-specific skill snapshots or app dependencies.",
+  "status": "completed-with-disclosed-limits",
+  "allAuditedCandidateTargetsAddressed": true,
+  "targets": [
+    {
+      "component": "Node",
+      "from": "24.19.0",
+      "candidate": "24.22.3",
+      "status": "applied-accepted",
+      "version": "24.22.3",
+      "evidence": "host/result.json"
+    },
+    {
+      "component": "Semgrep",
+      "from": "1.181.0",
+      "candidate": "1.185.0",
+      "status": "applied-accepted",
+      "version": "1.185.0",
+      "evidence": "python/result.json",
+      "route": "mcp.json; exact three tools"
+    },
+    {
+      "component": "Context7 MCP",
+      "from": "4.5.1",
+      "candidate": "4.7.3",
+      "status": "applied-accepted",
+      "version": "4.7.3",
+      "evidence": "js/acceptance.json",
+      "route": "DPAPI bridge; exactly two tools"
+    },
+    {
+      "component": "Python",
+      "from": "3.14.4",
+      "candidate": "3.14.10",
+      "status": "applied-accepted",
+      "version": "3.14.10",
+      "evidence": "host/python-postpatch-acceptance.json"
+    },
+    {
+      "component": "Bun",
+      "from": "1.4.2",
+      "candidate": "1.4.4",
+      "status": "applied-accepted",
+      "version": "1.4.4",
+      "evidence": "host/runtime-smoke.json"
+    },
+    {
+      "component": "Supermemory SDK",
+      "from": "5.0.2",
+      "candidate": "5.1.2",
+      "status": "applied-accepted",
+      "version": "5.1.2",
+      "evidence": "js/acceptance.json",
+      "scope": "Offline serialization/safeguards/scope tests; no real cloud operations"
+    },
+    {
+      "component": "Graphify",
+      "from": "0.9.103",
+      "candidate": "0.9.112",
+      "status": "applied-accepted",
+      "version": "0.9.112",
+      "evidence": "python/graphify-final-acceptance.json"
+    },
+    {
+      "component": "Spec Kit",
+      "from": "1.3.2",
+      "candidate": "1.4.1",
+      "status": "applied-accepted",
+      "version": "1.4.1",
+      "evidence": "python/result.json",
+      "scope": "Help/version; no project init"
+    },
+    {
+      "component": "RTK",
+      "from": "1.0.1",
+      "candidate": "1.2.0",
+      "status": "applied-accepted",
+      "version": "1.2.0",
+      "evidence": "host/runtime-smoke.json",
+      "scope": "Original OSS binary/OMP adapter; advisory exit3 supported"
+    },
+    {
+      "component": "Git for Windows",
+      "from": "2.53.0.windows.1",
+      "candidate": "2.56.1.windows.1",
+      "status": "applied-accepted",
+      "version": "2.56.1.windows.1",
+      "evidence": "host/result.json"
+    },
+    {
+      "component": "GitHub CLI",
+      "from": "2.102.0",
+      "candidate": "2.104.0",
+      "status": "applied-accepted",
+      "version": "2.104.0",
+      "evidence": "host/result.json"
+    },
+    {
+      "component": "skills CLI",
+      "from": "1.7.2",
+      "candidate": "1.9.0",
+      "status": "applied-accepted",
+      "version": "1.9.0",
+      "evidence": "js/result.json"
+    },
+    {
+      "component": "ctx7 CLI",
+      "from": "0.6.1",
+      "candidate": "0.12.2",
+      "status": "applied-accepted",
+      "version": "0.12.2",
+      "evidence": "js/result.json",
+      "scope": "Updated utility, not a second active route"
+    },
+    {
+      "component": "modern-web-guidance",
+      "from": "1.0.0",
+      "candidate": "1.0.1",
+      "status": "applied-accepted",
+      "version": "1.0.1",
+      "evidence": "js/result.json",
+      "scope": "Paired original modern-web/chrome skills; telemetry-disabled launcher"
+    },
+    {
+      "component": "REA",
+      "from": "6.5.0 / skill42",
+      "candidate": "6.9.0",
+      "status": "applied-accepted",
+      "version": "6.9.0 / skill62",
+      "evidence": "js/rea-acceptance.json",
+      "scope": "Fresh255-tool schemas, no target, canonical empty bundle export/compare; no old analysis migration"
+    },
+    {
+      "component": "TypeScript dev utility",
+      "from": "5.9.3",
+      "candidate": "7.0.2",
+      "status": "applied-accepted",
+      "version": "7.0.2",
+      "evidence": "js/acceptance.json"
+    },
+    {
+      "component": "E2E project contract",
+      "from": "e2e0.21.2/web0.15.2",
+      "candidate": "e2e0.23.1/web0.16.0",
+      "status": "guidance-and-future-setup-contract-updated",
+      "version": "e2e0.23.1/web0.16.0",
+      "evidence": "skills/result.json",
+      "scope": "No application/project runner/browser present or migrated"
+    },
+    {
+      "component": "ARS guidance",
+      "from": "3.23.1",
+      "candidate": "3.24.3",
+      "status": "applied-accepted",
+      "version": "3.24.3",
+      "evidence": "research/acceptance.json",
+      "scope": "Whole original bundle; five existing skills; synthetic passport compatibility"
+    },
+    {
+      "component": "Impeccable OMP skill",
+      "from": "4.8.0",
+      "candidate": "4.9.1",
+      "status": "applied-accepted",
+      "version": "4.9.1",
+      "evidence": "skills/result.json",
+      "scope": "Original OMP distribution, not CLI4.9.2 or engine execution"
+    },
+    {
+      "component": "Humanizer ID guidance",
+      "from": "1.5.1",
+      "candidate": "2.4.5",
+      "status": "applied-accepted",
+      "version": "2.4.5",
+      "evidence": "research/result.json"
+    },
+    {
+      "component": "last30days guidance/runtime",
+      "from": "3.31.0",
+      "candidate": "4.3.2",
+      "status": "applied-accepted",
+      "version": "4.3.2",
+      "evidence": "research/acceptance.json",
+      "scope": "Isolated original research launcher; offline help only"
+    },
+    {
+      "component": "Stack Diagram guidance",
+      "from": "0.4.0",
+      "candidate": "0.6.0",
+      "status": "applied-accepted",
+      "version": "0.6.0",
+      "evidence": "skills/result.json",
+      "scope": "Original guidance/support; no unsafe renderer run"
+    }
+  ],
+  "generalSkills": {
+    "refreshedUniqueNames": 42,
+    "names": [
+      "agency-api-tester",
+      "agency-performance-benchmarker",
+      "agent-reach",
+      "animate",
+      "animation-performance",
+      "animation-vocabulary",
+      "antislop",
+      "antislop-code",
+      "antislop-copywriting",
+      "antislop-layoutmobile",
+      "better-accessibility",
+      "better-colors",
+      "better-layout",
+      "better-typography",
+      "better-ui",
+      "break-ui",
+      "choreograph",
+      "code-review",
+      "codebase-design",
+      "constraint-driven-development",
+      "diagram-design",
+      "documentation-and-adrs",
+      "e2e",
+      "emil-design-eng",
+      "explain-interface",
+      "find-animation-opportunities",
+      "grilling",
+      "hallmark",
+      "impeccable",
+      "improve-animations",
+      "mobile-native",
+      "remove-animations",
+      "review-animations",
+      "seo-hreflang",
+      "seo-schema",
+      "stack-diagram",
+      "terraform-policy",
+      "understand-chat",
+      "understand-diff",
+      "understand-explain",
+      "understand-onboard",
+      "unslop"
+    ],
+    "checks": 306,
+    "relativeLinks": 566,
+    "evidence": "skills/result.json"
+  },
+  "allRefreshedGlobalSkillNames": {
+    "count": 56,
+    "names": [
+      "academic-paper",
+      "academic-paper-reviewer",
+      "academic-pipeline",
+      "agency-api-tester",
+      "agency-performance-benchmarker",
+      "agent-reach",
+      "animate",
+      "animation-performance",
+      "animation-vocabulary",
+      "antislop",
+      "antislop-code",
+      "antislop-copywriting",
+      "antislop-layoutmobile",
+      "better-accessibility",
+      "better-colors",
+      "better-layout",
+      "better-typography",
+      "better-ui",
+      "break-ui",
+      "choreograph",
+      "chrome-extensions",
+      "code-review",
+      "codebase-design",
+      "constraint-driven-development",
+      "context7-docs",
+      "deep-research",
+      "diagram-design",
+      "documentation-and-adrs",
+      "e2e",
+      "emil-design-eng",
+      "explain-interface",
+      "find-animation-opportunities",
+      "graphify",
+      "grilling",
+      "hallmark",
+      "humanizer",
+      "humanizer-id",
+      "impeccable",
+      "improve-animations",
+      "last30days",
+      "mobile-native",
+      "modern-web-guidance",
+      "remove-animations",
+      "reverse-engineer-anything",
+      "review-animations",
+      "seo-hreflang",
+      "seo-schema",
+      "sr-screener",
+      "stack-diagram",
+      "supermemory-v5",
+      "terraform-policy",
+      "understand-chat",
+      "understand-diff",
+      "understand-explain",
+      "understand-onboard",
+      "unslop"
+    ],
+    "excludesPriorHyperframes3": true
+  },
+  "discovery": [
+    {
+      "cwd": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/measurements/environment-apply-20261117",
+      "count": 191,
+      "unique": true,
+      "added": [],
+      "removed": [],
+      "stderr": "",
+      "inferenceRequested": false,
+      "extensionsDisabled": true
+    },
+    {
+      "cwd": "C:/Users/Indrimeilla-PC/orca/projects/Onboarding",
+      "count": 207,
+      "unique": true,
+      "added": [
+        "skill:github/agency-api-tester",
+        "skill:github/agency-performance-benchmarker",
+        "skill:github/animation-vocabulary",
+        "skill:github/break-ui",
+        "skill:github/context7-docs",
+        "skill:github/e2e",
+        "skill:github/find-animation-opportunities",
+        "skill:github/humanizer",
+        "skill:github/improve-animations",
+        "skill:github/mobile-native"
+      ],
+      "removed": [],
+      "stderr": "",
+      "inferenceRequested": false,
+      "extensionsDisabled": true
+    }
+  ],
+  "alreadyCurrent": [
+    {
+      "component": "OMP",
+      "version": "18.22.0"
+    },
+    {
+      "component": "Ponytail",
+      "version": "5.3.3"
+    },
+    {
+      "component": "CLI Anything Hub",
+      "version": "0.4.1"
+    },
+    {
+      "component": "Panniantong Agent Reach stable runtime",
+      "version": "1.6.1"
+    },
+    {
+      "component": "HyperFrames",
+      "version": "0.9.61",
+      "evidence": "../environment-upgrade-20261117/hyperframes-acceptance.json",
+      "limit": "Local render passed; multisample check net::ERR_ABORTED retained, not general check pass"
+    },
+    {
+      "component": "PoP CLI",
+      "version": "8.19.5300",
+      "note": "Vendor-current CLI; GUI8.20 is a separate product version"
+    }
+  ],
+  "verification": {
+    "status": "passed-with-disclosed-scope",
+    "final": "final-acceptance.json",
+    "host": "host/result.json",
+    "python": "python/result.json",
+    "js": "js/result.json",
+    "research": "research/result.json",
+    "skills": "skills/result.json",
+    "postHostMcp": "parent-mcp-handshakes.json",
+    "nativeDiscovery": "native-discovery-corrected-comparison.json",
+    "noInferenceRequestedByDiscovery": true
+  },
+  "routing": {
+    "config": "C:/Users/Indrimeilla-PC/.omp/agent/config.yml",
+    "mcp": "C:/Users/Indrimeilla-PC/.omp/agent/mcp.json",
+    "usage": "USAGE.md",
+    "ledger": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/ledger.json",
+    "manualSkillOverridesPreserved": true,
+    "nativeMemoryBackend": "off",
+    "addyRetainedContainer": "addy-retained-routing.json"
+  },
+  "rollback": {
+    "root": "C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/backups/environment-apply-20261117",
+    "notes": "Versioned previous runtimes, old signed host installers and targeted backups retained. Restore only selected changed paths/lines; preserve subsequent user edits. AGENTS rollback prefix was reconstructed from unchanged prefix, not a full pre-wave snapshot. No deletion/kill forced."
+  },
+  "retained": [
+    {
+      "target": "Teardown",
+      "reason": "Selected subtree no longer upstream; retain original rather than invent unsupported replacement"
+    },
+    {
+      "target": "Orca-managed stubs",
+      "reason": "Host-generated, not arbitrary source HEAD"
+    },
+    {
+      "target": "Shared other-host adaptations",
+      "reason": "Preserved; upgraded native OMP guides selected via scoped routing"
+    },
+    {
+      "target": "Onboarding .github/skills snapshots",
+      "reason": "Preserved project-specific bytes. Ten newly distinct version aliases now exposed; final207 commands, no global name added/removed"
+    },
+    {
+      "target": "Context7 root4.4.1 dependency",
+      "reason": "Inactive rollback-only; active isolated4.7.3"
+    }
+  ],
+  "warnings": [
+    "Restart OMP or reload MCP connections: old REA native DLL remains locked in retired npm directory until owning process releases it; new fresh6.9 accepted. No forced kill/cleanup.",
+    "Semgrep mcp1.29 lifespan/Pydantic warning retained; not suppressed or dependency-overridden.",
+    "Initial command/install/check failures and harness corrections remain in each slice result; parent discovery initially used unsupported get_commands, then individual customDirs omitted5 names; corrected schema/container discovery191/207 passed.",
+    "Existing HyperFrames multi-sample check failure retained."
+  ],
+  "untested": [
+    "Live Supermemory operations; no cloud memory capture/recall/deletion",
+    "Actual academic/model/manuscript/corpus workflows; synthetics are not scientific validation",
+    "User application E2E, UI workflows, mobile/native decompilers/provider targets",
+    "Impeccable engine/hooks/live, StackDiagram renderer and optional vendor helpers",
+    "Cross-model semantic routing quality or actual interactive TUI inference"
+  ],
+  "permissionLimitsPreserved": [
+    "No new paid computation/providers/accounts/auth intake",
+    "No publish/upload/deploy or private content transfer",
+    "No hooks/watch/persistent services or firewall/network changes",
+    "No whole-project dependency migrations or unrelated data deletion"
+  ],
+  "firstPassEvidence": [
+    "host/partial-acceptance.json",
+    "host/runtime-smoke.json",
+    "python/first-pass-failures.json",
+    "research/result.json",
+    "skills/result.json",
+    "js/acceptance.json",
+    "native-discovery-first-pass-failure.json",
+    "native-discovery-comparison.json"
+  ]
+}

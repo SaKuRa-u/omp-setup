@@ -1,0 +1,18 @@
+.env
+.env.*
+*.log
+*.docx
+*.pdf
+credentials/
+__pycache__/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+dist/
+build/
+humanizer_id.egg-info/
+.venv/
+
+# Derived working artifacts (regenerable from books/)
+work/

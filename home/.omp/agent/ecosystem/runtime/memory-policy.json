@@ -7,5 +7,6 @@
       "allowCapture": true
     }
   ],
-  "globalWriteActions": []
+  "autoProjects": true,
+  "globalWriteActions": ["capture", "update"]
 }

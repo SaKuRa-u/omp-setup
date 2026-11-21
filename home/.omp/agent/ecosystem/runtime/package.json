@@ -4,11 +4,11 @@
   "type": "module",
   "dependencies": {
     "@upstash/context7-mcp": "4.4.1",
-    "ctx7": "0.6.1",
-    "skills": "1.7.2",
-    "supermemory": "5.0.2"
+    "ctx7": "0.12.2",
+    "skills": "1.9.0",
+    "supermemory": "5.1.2"
   },
   "devDependencies": {
-    "typescript": "5.9.3"
+    "typescript": "7.0.2"
   }
 }

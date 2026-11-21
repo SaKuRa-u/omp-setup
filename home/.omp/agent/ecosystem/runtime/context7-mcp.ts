@@ -23,11 +23,11 @@ const querySchema = z.object({ libraryId: z.string(), query: z.string(), languag
 // This bridge never listens on HTTP and does not modify global environment/config.
 export async function launchMcp(): Promise<void> {
   if (process.argv.length > 2) throw new Context7Error('mcp-no-arguments');
-  const packageRoot = resolve(runtimeDir, 'context7', '4.5.1', 'node_modules', '@upstash/context7-mcp');
+  const packageRoot = resolve(runtimeDir, 'context7', '4.7.3', 'node_modules', '@upstash/context7-mcp');
   try {
     const metadata = JSON.parse(await readFile(resolve(packageRoot, 'package.json'), 'utf8'));
     z.object({
-      name: z.literal('@upstash/context7-mcp'), version: z.literal('4.5.1'),
+      name: z.literal('@upstash/context7-mcp'), version: z.literal('4.7.3'),
       bin: z.object({ 'context7-mcp': z.literal('dist/index.js') }),
     }).parse(metadata);
   } catch { throw new Context7Error('pinned-package-unavailable'); }

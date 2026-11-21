@@ -1,10 +1,17 @@
 shellPath: C:\Program Files\Git\bin\bash.exe
 modelRoles:
-  default: openai-codex/gpt-6.1-sol:medium
+  default: openai-codex/gpt-6.2-sol
   smol: openai-codex/gpt-6-luna:low
+  slow: openai-codex/gpt-6.2-astra:high
+  plan: "@slow"
+  task: openai-codex/gpt-6.2-sol:medium
+  vision: "@default"
+  commit: "@default"
+  judge: openai-codex/gpt-6-luna
 symbolPreset: ascii
 composer:
   shape: claude
+  predictions: false
 theme:
   dark: titanium
   light: light
@@ -18,7 +25,22 @@ tools:
   approval: {}
 bash:
   patterns: []
-defaultThinkingLevel: auto
+defaultThinkingLevel: medium
+models:
+  noJudge: true
+retry:
+  fallbackChains:
+    judge: []
+task:
+  agentModelOverrides:
+    sonic: "@smol:low"
+    scout: "@smol:low"
+    reviewer: "@default:medium"
+    security-reviewer: "@slow:high"
+  showResolvedModelBadge: true
+  maxConcurrency: 4
+tier:
+  subagent: none
 skills:
   ignoredSkills:
     - agents/design-taste-frontend
@@ -30,17 +52,23 @@ skills:
     - claude/terraform-policy
     - agents/mcp-builder
     - claude/mcp-builder
+    - agents/reverse-engineer-anything
+    - agents/code-review
+    - claude/code-review
+    - agents/codebase-design
+    - claude/codebase-design
+    - agents/grilling
+    - claude/grilling
   customDirectories:
-    - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/sources/academic-research-skills-4c544901
+    - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/sources/ars-f7da54e81b06da3e659c93f5309a1c0f98bd202a
     - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/obra-superpowers-22f0b463e7a5e579904dd6211a520321035526f7/skills
     - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0/skills/productivity
     - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/mattpocock-skills-d1478fcb140db0b93c0c8df17bcfd311844749d0/skills/engineering
-    - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/addyosmani-agent-skills-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e/skills
+    - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/addyosmani-retained-8bfcc1f9916f2eea55494d8c1fa7f4bde867dd9e/skills
     - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/ayghri-i-have-adhd-1ecea1993b7fce257ffbd686c070948b5e07eda6/skills
     - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/nidhinjs-prompt-master-49b3a72469b1e7287d66387004ccfcca90e5968a/skills
-    - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/claude-seo-6be93f45064ffbadced572b5d5c95f55fd263af0/skills
     - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/anthropic-mcp-server-dev-f75f5b25ae94f4332be4ff5f18435741d2589bdb/skills
-    - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/modern-web-guidance/1.0.0/package/skills
+    - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/runtime/modern-web-guidance/1.0.1/package/skills
     - C:/Users/Indrimeilla-PC/.omp/agent/ecosystem/capabilities/addyosmani-complement-301b02b12bff98e4688e6984af6556802322bbde/skills
   manualSkills:
     - setup-matt-pocock-skills
@@ -58,6 +86,7 @@ skills:
 marketplace:
   autoUpdate: "off"
 codexResets:
-  autoRedeem: "no"
+  autoRedeem5h: "no"
+  autoRedeemWeekly: "no"
 update:
   auto: true

@@ -47,28 +47,7 @@ Before giving authoring or testing instructions, check the installed `tfpolicy` 
 
 - **Wrong skill triggered?** Load the sub-skill directly from the routing table above.
 
-The authoring and testing guides are bundled reference files, not separately
-installable skills. Read `references/tfpolicy-author.md` or
-`references/tfpolicy-test.md` relative to the directory containing this
-`SKILL.md`; do not run an installer for obsolete repository paths.
-
-## Local OMP adaptation — 2026-11-07
-
-Updated from HashiCorp `agent-skills` commit
-`5e30fa5c867ba6777c37e4206babfd08049c396f`, preserving the local bundled-reference
-repair above. The complete unmodified source is retained in
-`~/.omp/agent/ecosystem/sources/hashicorp-agent-skills-5e30fa5c867ba6777c37e4206babfd08049c396f.zip`.
-The shared `~/.agents/skills/terraform-policy` and its other-host aliases are
-unchanged; this directory is the OMP-only copy.
-
-The original MPL-2.0 license is bundled as `LICENSE`. The sixteen `.sentinel`
-comparison samples retain their BUSL-1.1 notices; they are not relicensed as MPL.
-Review those terms separately before redistribution or commercial reuse.
-
-Command examples are guidance, not authorization to install dependencies,
-download provider schemas, access credentials, run provider/cloud operations,
-or incur costs. `tfpolicy validate` and `tfpolicy test` can resolve provider
-schemas; `terraform plan --policies` can access providers and state. On Windows,
-use an already available compatible shell and CLI, not an automatic installer.
-No Terraform, tfpolicy, Sentinel, cloud, or vendor-helper commands were run for
-this guidance-only upgrade.
+```bash
+npx skills add hashicorp/agent-skills/terraform/terraform-policy/skills/tfpolicy-author
+npx skills add hashicorp/agent-skills/terraform/terraform-policy/skills/tfpolicy-test
+```

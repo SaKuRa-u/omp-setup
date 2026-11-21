@@ -270,6 +270,66 @@
           "asing": "divide et impera",
           "baku": "divide et impera (cetak miring)",
           "catatan": "Istilah Latin asing dicetak miring PUPI 2005 (hlm. 7)."
+        },
+        {
+          "asing": "prompt",
+          "baku": "perintah acuan / prompt (cetak miring jika ragam teknis)",
+          "catatan": "Teks instruksi masukan pada model generatif (PUPI 2005 hlm. 8)."
+        },
+        {
+          "asing": "hallucination",
+          "baku": "halusinasi model / fabrikasi informasi",
+          "catatan": "Respons model generatif yang tampak meyakinkan namun tidak berdasar fakta."
+        },
+        {
+          "asing": "grounding",
+          "baku": "penambatan konteks / penjangkaran data",
+          "catatan": "Proses mengaitkan respons model dengan sumber data terverifikasi."
+        },
+        {
+          "asing": "embedding",
+          "baku": "penanaman vektor / representasi vektor",
+          "catatan": "Pemetaan data teks atau multimodal ke dalam ruang vektor berdimensi tinggi."
+        },
+        {
+          "asing": "inference",
+          "baku": "inferensi / penyimpulan model",
+          "catatan": "Tahap eksekusi komputasi model terlatih untuk menghasilkan prediksi."
+        },
+        {
+          "asing": "zero-shot",
+          "baku": "tanpa contoh / tembakan nol",
+          "catatan": "Kemampuan model menyelesaikan tugas tanpa contoh pelatihan sebelumnya."
+        },
+        {
+          "asing": "few-shot",
+          "baku": "bercontoh sedikit / beberapa contoh",
+          "catatan": "Pemberian beberapa contoh demonstrasi tugas di dalam konteks masukan."
+        },
+        {
+          "asing": "context window",
+          "baku": "jendela konteks",
+          "catatan": "Batas kapasitas token yang dapat diproses model dalam satu sesi inferensi."
+        },
+        {
+          "asing": "zebra cross",
+          "baku": "jalur pejalan kaki",
+          "catatan": "Padanan kreasi (Baharman, KBI X / Buku Saku MLR 2015)."
+        },
+        {
+          "asing": "situs web",
+          "baku": "laman",
+          "catatan": "Padanan resmi (Baharman, Tempo 2017)."
+        },
+        {
+          "asing": "virtual assistant",
+          "baku": "asisten virtual",
+          "catatan": "Buku Siswa Kelas XII (Kemendikbudristek, hlm. 155)."
+        },
+        {
+          "asing": "marketplace",
+          "baku": "lokapasar",
+          "catatan": "Buku Siswa Kelas XII (Kemendikbudristek, hlm. 146)."
         }
       ]
     },
@@ -355,6 +415,16 @@
           "asing": "clickbait",
           "baku": "umpan klik",
           "catatan": "Judul sensasional penarik lalu lintas pembaca."
+        },
+        {
+          "asing": "podcast",
+          "baku": "siniar",
+          "catatan": "Buku Siswa Kelas XII (Kemendikbudristek, hlm. 138)."
+        },
+        {
+          "asing": "stand up comedy",
+          "baku": "komedi tunggal",
+          "catatan": "Buku Siswa Kelas XII (Kemendikbudristek, hlm. 201)."
         }
       ],
       "kaidah_ekonomi_kata": [
@@ -437,6 +507,176 @@
           "asing": "milestone",
           "baku": "tonggak capaian",
           "catatan": "Titik evaluasi penting dalam linimasa proyek."
+        },
+        {
+          "asing": "contact person",
+          "baku": "narahubung",
+          "catatan": "Padanan dibakukan (Buku Saku MLR, Badan Bahasa 2015, hlm. 69)."
+        },
+        {
+          "asing": "laundry",
+          "baku": "penatu",
+          "catatan": "Padanan resmi buku saku MLR (Badan Bahasa 2015, hlm. 41)."
+        },
+        {
+          "asing": "mall",
+          "baku": "mal",
+          "catatan": "Serapan baku KBBI; tulis 'mal' (Badan Bahasa 2015)."
+        },
+        {
+          "asing": "global warming",
+          "baku": "pemanasan global",
+          "catatan": "Padanan resmi buku saku MLR (Badan Bahasa 2015)."
+        },
+        {
+          "asing": "sales outlet",
+          "baku": "toko penjualan",
+          "catatan": "Padanan buku saku MLR (Badan Bahasa 2015, hlm. 25-26)."
+        },
+        {
+          "asing": "fashion",
+          "baku": "mode / pakaian",
+          "catatan": "Padanan KBBI 2013: 923 (Badan Bahasa 2015, hlm. 74)."
+        },
+        {
+          "asing": "grand opening",
+          "baku": "pembukaan perdana",
+          "catatan": "Padanan buku saku MLR (Badan Bahasa 2015, hlm. 112)."
+        },
+        {
+          "asing": "fax",
+          "baku": "faksimile",
+          "catatan": "Padanan baku (Badan Bahasa 2015, hlm. 56-57)."
+        },
+        {
+          "asing": "cattering",
+          "baku": "katering",
+          "catatan": "Serapan benar: katering (Badan Bahasa 2015, hlm. 56-57)."
+        },
+        {
+          "asing": "musholla",
+          "baku": "musala",
+          "catatan": "Serapan Arab disesuaikan: musala (Badan Bahasa 2015, hlm. 56-57, 76-77)."
+        },
+        {
+          "asing": "stop line",
+          "baku": "garis setop",
+          "catatan": "Padanan di ruang publik (Semiloka 2019, Yayuk hlm. 546)."
+        },
+        {
+          "asing": "car free day",
+          "baku": "Hari Bebas Kendaraan Bermotor",
+          "catatan": "Juga 'Hari Tanpa Kendaraan Bermotor' (Semiloka 2019, Hariyadi hlm. 192)."
+        },
+        {
+          "asing": "handphone",
+          "baku": "telepon genggam",
+          "catatan": "Semiloka 2019, Yayuk hlm. 271."
+        },
+        {
+          "asing": "laptop",
+          "baku": "komputer jinjing",
+          "catatan": "Semiloka 2019, Yayuk hlm. 271."
+        },
+        {
+          "asing": "sparepart",
+          "baku": "suku cadang",
+          "catatan": "Semiloka 2019, Yayuk hlm. 272."
+        },
+        {
+          "asing": "railing tangga",
+          "baku": "rel tangga",
+          "catatan": "Semiloka 2019, Yayuk hlm. 272."
+        },
+        {
+          "asing": "folding gate",
+          "baku": "pintu lipat",
+          "catatan": "Semiloka 2019, Yayuk hlm. 272."
+        },
+        {
+          "asing": "room division",
+          "baku": "pembagian ruangan",
+          "catatan": "Semiloka 2019, Yayuk hlm. 271."
+        },
+        {
+          "asing": "hunting",
+          "baku": "pencarian",
+          "catatan": "Konteks rekrutmen (Semiloka 2019, hlm. 272)."
+        },
+        {
+          "asing": "airline",
+          "baku": "maskapai",
+          "catatan": "Semiloka 2019, hlm. 272."
+        },
+        {
+          "asing": "stockiest",
+          "baku": "distributor",
+          "catatan": "Semiloka 2019, hlm. 272."
+        },
+        {
+          "asing": "beauty salon",
+          "baku": "salon kecantikan",
+          "catatan": "Semiloka 2019, hlm. 272."
+        },
+        {
+          "asing": "cash back",
+          "baku": "uang kembali",
+          "catatan": "Semiloka 2019, hlm. 271."
+        },
+        {
+          "asing": "bilingual class",
+          "baku": "kelas dwibahasa",
+          "catatan": "Semiloka 2019, hlm. 271."
+        },
+        {
+          "asing": "make up",
+          "baku": "tata rias",
+          "catatan": "Semiloka 2019, hlm. 272."
+        },
+        {
+          "asing": "eyelash extension",
+          "baku": "penyambungan bulu mata",
+          "catatan": "Semiloka 2019, hlm. 272."
+        },
+        {
+          "asing": "real estate",
+          "baku": "perumahan",
+          "catatan": "Semiloka 2019, Zaka hlm. 322."
+        },
+        {
+          "asing": "delete",
+          "baku": "hapus",
+          "catatan": "Semiloka 2019, Raudloh hlm. 226."
+        },
+        {
+          "asing": "airliner",
+          "baku": "pesawat penumpang",
+          "catatan": "Turunan airline (padanan Umum)."
+        },
+        {
+          "asing": "room service",
+          "baku": "layanan kamar",
+          "catatan": "Padanan paralel room division (hlm. 271-272)."
+        },
+        {
+          "asing": "cashier",
+          "baku": "kasir",
+          "catatan": "Paralel padanan ruang usaha (hlm. 271-273)."
+        },
+        {
+          "asing": "a la carte",
+          "baku": "menu manasuka",
+          "catatan": "Buku Siswa Kelas XII (Kemendikbudristek, hlm. 200)."
+        },
+        {
+          "asing": "drive-thru",
+          "baku": "layanan tanpa turun (lantatur)",
+          "catatan": "Buku Siswa Kelas XII (Kemendikbudristek, hlm. 201)."
+        },
+        {
+          "asing": "outsourcing",
+          "baku": "alih daya",
+          "catatan": "Buku Siswa Kelas XII (Kemendikbudristek, hlm. 201)."
         }
       ]
     },
